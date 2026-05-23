@@ -1,5 +1,4741 @@
 # Top 10 bigrame per document
 
+## 2025-05-17 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| invita studenție     |           1 |
+| studenție grozăvești |           1 |
+| grozăvești lecție    |           1 |
+| lecție bachat        |           1 |
+| bachat ne-           |           1 |
+| ne- ieși             |           1 |
+
+## 2025-05-17 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| continuați crede |           1 |
+| crede românia    |           1 |
+| românia ieși     |           1 |
+| ieși vot         |           1 |
+| vot alegere      |           1 |
+| alegere decizie  |           1 |
+| decizie trasa    |           1 |
+| trasa direcție   |           1 |
+| direcție viitor  |           1 |
+
+## 2025-05-17 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| dragi român      |           1 |
+| român diasporă   |           1 |
+| diasporă alegere |           1 |
+| alegere vrea     |           1 |
+| vrea putea       |           1 |
+| putea românia    |           1 |
+| românia loc      |           1 |
+| loc merita       |           1 |
+| merita rămâe     |           1 |
+| rămâe dori       |           1 |
+
+## 2025-05-17 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| gust românesc           |           1 |
+| românesc sine           |           1 |
+| sine compara            |           1 |
+| compara legumă          |           1 |
+| legumă proaspăt         |           1 |
+| proaspăt producător     |           1 |
+| producător local        |           1 |
+| local nicusordan        |           1 |
+| nicusordan producatoare |           1 |
+| producatoare afacere    |           1 |
+
+## 2025-05-17 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| important românia  |           1 |
+| românia trebui     |           1 |
+| trebui continuăm   |           1 |
+| continuăm mobiliză |           1 |
+| mobiliză lume      |           1 |
+| lume ieși          |           1 |
+| ieși vot           |           1 |
+
+## 2025-05-17 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| românia putea    |           1 |
+| putea loc        |           1 |
+| loc femeie       |           1 |
+| femeie alege     |           1 |
+| alege rămâne     |           1 |
+| rămâne obligație |           1 |
+| obligație trebui |           1 |
+| trebui copil     |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| mobilizare precedent |           1 |
+| precedent victorie   |           1 |
+| victorie român       |           1 |
+| român ieși           |           1 |
+| ieși vot             |           1 |
+| vot sine             |           1 |
+| sine voce            |           1 |
+| voce auzit           |           1 |
+| auzit lupta          |           1 |
+| lupta crede          |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| pleca făgăraș      |           1 |
+| făgăraș mic        |           1 |
+| mic vot            |           1 |
+| vot decidem        |           1 |
+| decidem țară       |           1 |
+| țară vrea          |           1 |
+| vrea țară          |           1 |
+| țară speranță      |           1 |
+| speranță dialog    |           1 |
+| dialog construcție |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| vota făgăraș     |           1 |
+| făgăraș oraș     |           1 |
+| oraș natal       |           1 |
+| natal școală     |           1 |
+| școală învăța    |           1 |
+| învăța esențial  |           1 |
+| esențial ținem   |           1 |
+| ținem minte      |           1 |
+| minte pleca      |           1 |
+| pleca rădăcinile |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă        |   frecvență |
+|:---------------|------------:|
+| întorci acasă  |           1 |
+| acasă ști      |           1 |
+| ști rădăcină   |           1 |
+| rădăcină porți |           1 |
+| porți datorie  |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| nostalgie încredere   |           1 |
+| încredere generațiile |           1 |
+| generațiile tânăr     |           1 |
+| tânăr invi            |           1 |
+| invi vota             |           1 |
+| vota alegere          |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă     |   frecvență |
+|:------------|------------:|
+| vot conta   |           1 |
+| conta ieșim |           1 |
+| ieșim vot   |           1 |
+| vot regreta |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă       |   frecvență |
+|:--------------|------------:|
+| important oră |           1 |
+| oră prinde    |           1 |
+| prinde secție |           1 |
+| secție votare |           1 |
+| votare vota   |           1 |
+| vota secție   |           1 |
+| secție sine   |           1 |
+| sine vrea     |           1 |
+| vrea închide  |           1 |
+| închide vota  |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă        |   frecvență |
+|:---------------|------------:|
+| vedea minut    |           1 |
+| minut cișmigiu |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă        |   frecvență |
+|:---------------|------------:|
+| putem schimba  |           1 |
+| schimba lume   |           1 |
+| lume rând      |           1 |
+| rând implicare |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| rămân recunoscător |           1 |
+| recunoscător român |           1 |
+| român alege        |           1 |
+| alege sine         |           1 |
+| sine exercita      |           1 |
+| exercita vot       |           1 |
+| vot vot            |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| româniaonestă aproape |           1 |
+| aproape sine          |           1 |
+| sine împlini          |           1 |
+| împlini aștepta       |           1 |
+| aștepta numărătoare   |           1 |
+| numărătoare final     |           1 |
+| final voturilor       |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| gând special           |           1 |
+| special recunoștință   |           1 |
+| recunoștință mulțumire |           1 |
+| mulțumire cetățean     |           1 |
+| cetățean român         |           1 |
+| român republică        |           1 |
+| republică moldova      |           1 |
+| moldova împreună       |           1 |
+| împreună încredere     |           1 |
+| încredere speranță     |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă    |   frecvență |
+|:-----------|------------:|
+| vota părea |           1 |
+| părea rău  |           1 |
+
+## 2025-05-18 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| vot responsabilitate    |           1 |
+| responsabilitate deciza |           1 |
+| deciza românia          |           1 |
+
+## 2025-05-21 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| prim discuție        |           1 |
+| discuție informal    |           1 |
+| informal președintă  |           1 |
+| președintă parlament |           1 |
+| parlament european   |           1 |
+| european roberta     |           1 |
+| roberta metsola      |           1 |
+| metsola românia      |           1 |
+| românia sprijin      |           1 |
+| sprijin perioadă     |           1 |
+
+## 2025-05-21 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| prioritate principal |           1 |
+| principal perioadă   |           1 |
+| perioadă corectare   |           1 |
+| corectare deficit    |           1 |
+| deficit bugetar      |           1 |
+| bugetar dialog       |           1 |
+| dialog partid        |           1 |
+| partid politic       |           1 |
+| politic sine         |           1 |
+| sine vrea            |           1 |
+
+## 2025-05-22 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| bucuros particip    |           1 |
+| particip gală       |           1 |
+| gală repatriot      |           1 |
+| repatriot eveniment |           1 |
+| eveniment dedicat   |           1 |
+| dedicat român       |           1 |
+| român diasporă      |           1 |
+| diasporă mediu      |           1 |
+| mediu afacere       |           1 |
+| afacere stat        |           1 |
+
+## 2025-05-22 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| primi validare         |           1 |
+| validare mandat        |           1 |
+| mandat președinte      |           1 |
+| președinte românia     |           1 |
+| românia onoare         |           1 |
+| onoare responsabilitat |           1 |
+| responsabilitat vot    |           1 |
+| vot masiv              |           1 |
+| masiv arăta            |           1 |
+| arăta român            |           1 |
+
+## 2025-05-23 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| dragi bucureștean    |           1 |
+| bucureștean oraș     |           1 |
+| oraș aparține        |           1 |
+| aparține funcție     |           1 |
+| funcție muncă        |           1 |
+| muncă administrație  |           1 |
+| administrație trebui |           1 |
+| trebui începe        |           1 |
+| începe sine          |           1 |
+| sine termina         |           1 |
+
+## 2025-05-24 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| investiția educație |           1 |
+| educație tinerilor  |           1 |
+| tinerilor vrea      |           1 |
+| vrea ajuta          |           1 |
+| ajuta crește        |           1 |
+| crește vrea         |           1 |
+| vrea feri           |           1 |
+| feri pericolă       |           1 |
+| pericolă societate  |           1 |
+| societate deschide  |           1 |
+
+## 2025-05-24 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| românia continuăm          |           1 |
+| continuăm drum             |           1 |
+| drum democratic            |           1 |
+| democratic pro-european    |           1 |
+| pro-european transatlantic |           1 |
+| transatlantic speranță     |           1 |
+| speranță viitor            |           1 |
+| viitor bun                 |           1 |
+| bun exista                 |           1 |
+| exista salvator            |           1 |
+
+## 2025-05-25 — facebook-post
+
+| bigramă         |   frecvență |
+|:----------------|------------:|
+| ajunge varșovia |           1 |
+| varșovia prim   |           1 |
+| prim discuție   |           1 |
+| discuție prim   |           1 |
+| prim ministru   |           1 |
+| ministru donald |           1 |
+| donald tusk     |           1 |
+
+## 2025-05-25 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| poliție frontieră |           2 |
+| discuție util     |           1 |
+| util plăcut       |           1 |
+| plăcut parte      |           1 |
+| parte angajat     |           1 |
+| angajat român     |           1 |
+| român agenție     |           1 |
+| agenție european  |           1 |
+| european poliție  |           1 |
+| frontieră garda   |           1 |
+
+## 2025-05-25 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| participa emoție   |           1 |
+| emoție speranță    |           1 |
+| speranță marș      |           1 |
+| marș milion        |           1 |
+| milion inim        |           1 |
+| inim varșovia      |           1 |
+| varșovia veni      |           1 |
+| veni polonia       |           1 |
+| polonia prieten    |           1 |
+| prieten împărtășim |           1 |
+
+## 2025-05-25 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| ocazie zilei           |           1 |
+| zilei românilor        |           1 |
+| românilor pretutindeni |           1 |
+| pretutindeni gând      |           1 |
+| gând sine              |           1 |
+| sine îndrepta          |           1 |
+| îndrepta trăi          |           1 |
+| trăi hotare            |           1 |
+| hotare românia         |           1 |
+| românia voce           |           1 |
+
+## 2025-05-26 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| depune jurământ     |           1 |
+| jurământ față       |           1 |
+| față parlament      |           1 |
+| parlament românia   |           1 |
+| românia președinte  |           1 |
+| președinte țară     |           1 |
+| țară președinte     |           1 |
+| președinte deschide |           1 |
+| deschide voce       |           1 |
+| voce societate      |           1 |
+
+## 2025-05-28 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| onora port          |           1 |
+| port discuție       |           1 |
+| discuție președinte |           1 |
+| președinte donald   |           1 |
+| donald trump        |           1 |
+| trump mulțumi       |           1 |
+| mulțumi mesaj       |           1 |
+| mesaj felicitare    |           1 |
+| felicitare adresa   |           1 |
+| adresa stat         |           1 |
+
+## 2025-05-29 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| decizie surprinzător    |           1 |
+| surprinzător curte      |           1 |
+| curte constituțional    |           1 |
+| constituțional anunța   |           1 |
+| anunța contradicție     |           1 |
+| contradicție principiu  |           1 |
+| principiu esențial      |           1 |
+| esențial democrație     |           1 |
+| democrație transparență |           1 |
+| transparență exercitare |           1 |
+
+## 2025-05-29 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| gândurile sine     |           1 |
+| sine îndrepta      |           1 |
+| îndrepta familie   |           1 |
+| familie lovi       |           1 |
+| lovi inundație     |           1 |
+| inundație puternic |           1 |
+| puternic afecta    |           1 |
+| afecta localitate  |           1 |
+| localitate județ   |           1 |
+| județ împărtășesc  |           1 |
+
+## 2025-05-31 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| comună băcel         |           1 |
+| băcel grav           |           1 |
+| grav afecta          |           1 |
+| afecta inundație     |           1 |
+| inundație vorbi      |           1 |
+| vorbi autoritate     |           1 |
+| autoritate local     |           1 |
+| local echipă         |           1 |
+| echipă intervenție   |           1 |
+| intervenție situație |           1 |
+
+## 2025-05-31 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| praid alături      |           1 |
+| alături comunitate |           1 |
+| comunitate profund |           1 |
+| profund afecta     |           1 |
+| afecta inundație   |           1 |
+| inundație mii      |           1 |
+| mii suferi         |           1 |
+| suferi cauză       |           1 |
+| cauză dezastru     |           1 |
+| dezastru putea     |           1 |
+
+## 2025-06-01 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| iunie celebrăm    |           1 |
+| celebrăm inocență |           1 |
+| inocență bucurie  |           1 |
+| bucurie speranță  |           1 |
+| speranță copil    |           1 |
+| copil aduce       |           1 |
+| aduce viață       |           1 |
+| viață aminti      |           1 |
+| aminti prețios    |           1 |
+| prețios important |           1 |
+
+## 2025-06-02 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| flanc estic        |           2 |
+| încheia summit     |           1 |
+| summit important   |           1 |
+| important vilnius  |           1 |
+| vilnius alături    |           1 |
+| alături partener   |           1 |
+| partener flanc     |           1 |
+| estic discuție     |           1 |
+| discuție constitui |           1 |
+| constitui pas      |           1 |
+
+## 2025-06-04 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| intern extern      |           2 |
+| prezenta principal |           1 |
+| principal temă     |           1 |
+| temă sine          |           1 |
+| sine afla          |           1 |
+| afla agendă        |           1 |
+| agendă intern      |           1 |
+| extern românia     |           1 |
+| românia perioadă   |           1 |
+| perioadă imediat   |           1 |
+
+## 2025-06-08 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| românia celebra  |           1 |
+| celebra sportiv  |           1 |
+| sportiv istorie  |           1 |
+| istorie cristina |           1 |
+| cristina neagu   |           1 |
+| neagu bun        |           1 |
+| bun handbalistă  |           1 |
+| handbalistă lume |           1 |
+| lume inspira     |           1 |
+| inspira dăruire  |           1 |
+
+## 2025-06-10 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| ura călduros       |           1 |
+| călduros bun       |           1 |
+| bun veni           |           1 |
+| veni românia       |           1 |
+| românia majestății |           1 |
+| majestății felipe  |           1 |
+| felipe -lea        |           1 |
+| -lea rege          |           1 |
+| rege spania        |           1 |
+| spania afla        |           1 |
+
+## 2025-06-10 — facebook-post
+
+| bigramă                   |   frecvență |
+|:--------------------------|------------:|
+| împreună puternic         |           1 |
+| puternic republicamoldova |           1 |
+| republicamoldova românia  |           1 |
+
+## 2025-06-10 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| republică moldova   |           2 |
+| bucura afla         |           1 |
+| afla chișinău       |           1 |
+| chișinău vizită     |           1 |
+| vizită oficial      |           1 |
+| oficial calitate    |           1 |
+| calitate președinte |           1 |
+| președinte românia  |           1 |
+| românia reconfirm   |           1 |
+| reconfirm sprijin   |           1 |
+
+## 2025-06-10 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| republicii moldova    |           2 |
+| participare eveniment |           1 |
+| eveniment viitor      |           1 |
+| viitor european       |           1 |
+| european comun        |           1 |
+| comun românia         |           1 |
+| românia republicii    |           1 |
+| moldova alături       |           1 |
+| alături președinte    |           1 |
+| președinte republicii |           1 |
+
+## 2025-06-11 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| odesa discuție          |           1 |
+| discuție bun            |           1 |
+| bun reprezentant        |           1 |
+| reprezentant comunitate |           1 |
+| comunitate românesc     |           1 |
+| românesc sud            |           1 |
+| sud ucraina             |           1 |
+| ucraina aborda          |           1 |
+| aborda problemă         |           1 |
+| problemă important      |           1 |
+
+## 2025-06-11 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| odesa marjă       |           1 |
+| marjă summit      |           1 |
+| summit ucraina    |           1 |
+| ucraina europa    |           1 |
+| europa sud-est    |           1 |
+| sud-est loc       |           1 |
+| loc reuniune      |           1 |
+| reuniune format   |           1 |
+| format trilateral |           1 |
+| trilateral înalt  |           1 |
+
+## 2025-06-13 — facebook-post
+
+| bigramă                   |   frecvență |
+|:--------------------------|------------:|
+| mineriadă iunie           |           1 |
+| iunie rămâne              |           1 |
+| rămâne dureroa            |           1 |
+| dureroa moment            |           1 |
+| moment istorie            |           1 |
+| istorie post-decembristă  |           1 |
+| post-decembristă justiția |           1 |
+| justiția pronunța         |           1 |
+| pronunța hotărâre         |           1 |
+| hotărâre definitiv        |           1 |
+
+## 2025-06-16 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| invita palat           |           1 |
+| palat cotroceni        |           1 |
+| cotroceni reprezentant |           1 |
+| reprezentant sindicat  |           1 |
+| sindicat schimb        |           1 |
+| schimb deschide        |           1 |
+| deschide idee          |           1 |
+| idee soluție           |           1 |
+| soluție genera         |           1 |
+| genera echilibru       |           1 |
+
+## 2025-06-18 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| violență femeie       |           3 |
+| sine confrunta        |           2 |
+| caz violență          |           2 |
+| violență domestic     |           2 |
+| românia sine          |           1 |
+| confrunta nivel       |           1 |
+| nivel îngrijorător    |           1 |
+| îngrijorător violență |           1 |
+| femeie prim           |           1 |
+| prim lună             |           1 |
+
+## 2025-06-20 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| domn ilie        |           2 |
+| ilie bolojan     |           2 |
+| desemna domn     |           1 |
+| bolojan funcție  |           1 |
+| funcție prim     |           1 |
+| prim ministru    |           1 |
+| ministru românia |           1 |
+| românia românia  |           1 |
+| românia guvern   |           1 |
+| guvern sprijini  |           1 |
+
+## 2025-06-25 — facebook-post
+
+| bigramă        |   frecvență |
+|:---------------|------------:|
+| regat unit     |           2 |
+| real onoare    |           1 |
+| onoare întâlni |           1 |
+| întâlni prim   |           1 |
+| prim ministru  |           1 |
+| ministru regat |           1 |
+| unit keir      |           1 |
+| keir starmer   |           1 |
+| starmer marja  |           1 |
+| marja summit   |           1 |
+
+## 2025-06-25 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| întâlnire productiv   |           1 |
+| productiv consistent  |           1 |
+| consistent președinte |           1 |
+| președinte turcia     |           1 |
+| turcia recep          |           1 |
+| recep tayyip          |           1 |
+| tayyip erdoan         |           1 |
+| erdoan haga           |           1 |
+| haga discuta          |           1 |
+| discuta parteneriat   |           1 |
+
+## 2025-06-25 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| întrevedere bun    |           1 |
+| bun președinte     |           1 |
+| președinte petr    |           1 |
+| petr pavel         |           1 |
+| pavel haga         |           1 |
+| haga discuta       |           1 |
+| discuta relație    |           1 |
+| relație bilateral  |           1 |
+| bilateral excelent |           1 |
+| excelent românia   |           1 |
+
+## 2025-06-25 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| natosummit usa         |           1 |
+| usa presidenttrump     |           1 |
+| presidenttrump romania |           1 |
+
+## 2025-06-26 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| prim întâlnire     |           1 |
+| întâlnire membru   |           1 |
+| membru român       |           1 |
+| român parlament    |           1 |
+| parlament european |           1 |
+| european discuta   |           1 |
+| discuta prioritate |           1 |
+| prioritate românia |           1 |
+| românia agendă     |           1 |
+| agendă european    |           1 |
+
+## 2025-06-26 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| dialog bun          |           1 |
+| bun președinte      |           1 |
+| președinte consiliu |           1 |
+| consiliu european   |           1 |
+| european antnio     |           1 |
+| antnio costa        |           1 |
+| costa reuniuni      |           1 |
+| reuniuni bruxelles  |           1 |
+| bruxelles reitera   |           1 |
+| reitera angajament  |           1 |
+
+## 2025-07-02 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| mihai leu           |           2 |
+| afla profundă       |           1 |
+| profundă tristețe   |           1 |
+| tristețe veste      |           1 |
+| veste dispariție    |           1 |
+| dispariție mihai    |           1 |
+| leu românia         |           1 |
+| românia pierde      |           1 |
+| pierde campion      |           1 |
+| campion excepțional |           1 |
+
+## 2025-07-08 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| dacian cosmin            |           2 |
+| cosmin dragoș            |           2 |
+| personalitate recunoaște |           2 |
+| recunoaște domeniu       |           2 |
+| domeniu administrativ    |           2 |
+| administrativ european   |           2 |
+| numi dacian              |           1 |
+| dragoș funcție           |           1 |
+| funcție judecător        |           1 |
+| judecător curte          |           1 |
+
+## 2025-07-14 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| declarație avere           |           2 |
+| promite publica            |           1 |
+| publica sită               |           1 |
+| sită -ul                   |           1 |
+| -ul administrație          |           1 |
+| administrație prezidențial |           1 |
+| prezidențial declarație    |           1 |
+| avere convingere           |           1 |
+| convingere ferm            |           1 |
+| ferm asumare               |           1 |
+
+## 2025-07-14 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| piață financiar      |           2 |
+| măsură fiscal        |           1 |
+| fiscal adopta        |           1 |
+| adopta reprezenta    |           1 |
+| reprezenta situație  |           1 |
+| situație provizorie  |           1 |
+| provizorie economie  |           1 |
+| economie românesc    |           1 |
+| românesc potențial   |           1 |
+| potențial dezvoltare |           1 |
+
+## 2025-07-18 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| întâlnire bun      |           1 |
+| bun cancelar       |           1 |
+| cancelar federal   |           1 |
+| federal germania   |           1 |
+| germania friedrich |           1 |
+| friedrich merz     |           1 |
+| merz semna         |           1 |
+| semna împreună     |           1 |
+| împreună plan      |           1 |
+| plan comun         |           1 |
+
+## 2025-07-21 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| îndemn încă         |           1 |
+| încă sine           |           1 |
+| sine îndoii         |           1 |
+| îndoii interferență |           1 |
+| interferență rusia  |           1 |
+| rusia alegere       |           1 |
+| alegere noiembrie   |           1 |
+| noiembrie românia   |           1 |
+| românia comunicat   |           1 |
+| comunicat jos       |           1 |
+
+## 2025-07-22 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| îngrijora profund |           1 |
+| profund rezultat  |           1 |
+| rezultat studiu   |           1 |
+| studiu prezenta   |           1 |
+| prezenta inscop   |           1 |
+| inscop iicmer     |           1 |
+| iicmer opinie     |           1 |
+| opinie principal  |           1 |
+| principal motiv   |           1 |
+| motiv român       |           1 |
+
+## 2025-07-24 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| întâlnire ministru     |           1 |
+| ministru mediu         |           1 |
+| mediu diana            |           1 |
+| diana buzoianu         |           1 |
+| buzoianu discuta       |           1 |
+| discuta propunere      |           1 |
+| propunere reorganizare |           1 |
+| reorganizare romsilva  |           1 |
+| romsilva demers        |           1 |
+| demers susține         |           1 |
+
+## 2025-07-25 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| întâlnire constructiv    |           1 |
+| constructiv reprezentant |           1 |
+| reprezentant mediu       |           1 |
+| mediu afacere            |           1 |
+| afacere austria          |           1 |
+| austria cadru            |           1 |
+| cadru salzburg           |           1 |
+| salzburg summit          |           1 |
+| summit discuta           |           1 |
+| discuta oportunitățile   |           1 |
+
+## 2025-07-25 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| austria românia   |           1 |
+| românia intra     |           1 |
+| intra întru       |           1 |
+| întru capitol     |           1 |
+| capitol relație   |           1 |
+| relație bilateral |           1 |
+| bilateral reveni  |           1 |
+| reveni dialog     |           1 |
+| dialog deschis    |           1 |
+| deschis cooperare |           1 |
+
+## 2025-07-26 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| cadru întâlnire    |           1 |
+| întâlnire cancelar |           1 |
+| cancelar federal   |           1 |
+| federal austria    |           1 |
+| austria christian  |           1 |
+| christian stocker  |           1 |
+| stocker agrea      |           1 |
+| agrea lucra        |           1 |
+| lucra împreună     |           1 |
+| împreună impuls    |           1 |
+
+## 2025-07-27 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| alături austria         |           1 |
+| austria investitor      |           1 |
+| investitor românia      |           1 |
+| românia intra           |           1 |
+| intra întru             |           1 |
+| întru etapă             |           1 |
+| etapă consolidare       |           1 |
+| consolidare parteneriat |           1 |
+| parteneriat dialog      |           1 |
+| dialog cooperare        |           1 |
+
+## 2025-07-28 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| plăcere primi        |           1 |
+| primi palat          |           1 |
+| palat cotroceni      |           1 |
+| cotroceni președinte |           1 |
+| președinte adunare   |           1 |
+| adunare național     |           1 |
+| național republicii  |           1 |
+| republicii coreea    |           1 |
+| coreea domn          |           1 |
+| domn woo             |           1 |
+
+## 2025-07-29 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| profund afecta     |           1 |
+| afecta pierdere    |           1 |
+| pierdere viață     |           1 |
+| viață omenesc      |           1 |
+| omenesc distrugere |           1 |
+| distrugere produce |           1 |
+| produce comunitate |           1 |
+| comunitate întreg  |           1 |
+| întreg urmă        |           1 |
+| urmă inundațiilor  |           1 |
+
+## 2025-07-30 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| trafic persoană        |           2 |
+| comemora internațional |           1 |
+| internațional luptă    |           1 |
+| luptă trafic           |           1 |
+| persoană datorie       |           1 |
+| datorie recunoaștem    |           1 |
+| recunoaștem realitate  |           1 |
+| realitate dur          |           1 |
+| dur românia            |           1 |
+| românia păcat          |           1 |
+
+## 2025-07-30 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| prevedere lege    |           2 |
+| total aberant     |           1 |
+| aberant pensie    |           1 |
+| pensie lua        |           1 |
+| lua magistrat     |           1 |
+| magistrat egal    |           1 |
+| egal salariu      |           1 |
+| salariu prevedere |           1 |
+| lege actual       |           1 |
+| actual încuraja   |           1 |
+
+## 2025-07-31 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| european comemorare        |           1 |
+| comemorare holocaustului   |           1 |
+| holocaustului romilor      |           1 |
+| romilor reamintim          |           1 |
+| reamintim responsabilitate |           1 |
+| responsabilitate capitol   |           1 |
+| capitol dureros            |           1 |
+| dureros istorie            |           1 |
+| istorie datorie            |           1 |
+| datorie cunoaște           |           1 |
+
+## 2025-08-10 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| drumeție natură     |           1 |
+| natură copil        |           1 |
+| copil încântat      |           1 |
+| încântat nicusordan |           1 |
+
+## 2025-08-10 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| orhei vechi          |           1 |
+| vechi răsuna         |           1 |
+| răsuna muzică        |           1 |
+| muzică folk          |           1 |
+| folk festival        |           1 |
+| festival lupilor     |           1 |
+| lupilor weekend      |           1 |
+| weekend moldovenilor |           1 |
+| moldovenilor primire |           1 |
+| primire călduros     |           1 |
+
+## 2025-08-12 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| petrece dincolo   |           1 |
+| dincolo prut      |           1 |
+| prut reaminti     |           1 |
+| reaminti puternic |           1 |
+| puternic legătură |           1 |
+| legătură românia  |           1 |
+| românia republică |           1 |
+| republică moldova |           1 |
+| moldova rămâne    |           1 |
+| rămâne unit       |           1 |
+
+## 2025-08-12 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| salut efort         |           1 |
+| efort președinte    |           1 |
+| președinte donald   |           1 |
+| donald trump        |           1 |
+| trump contribui     |           1 |
+| contribui încheiere |           1 |
+| încheiere război    |           1 |
+| război ilegal       |           1 |
+| ilegal declanșa     |           1 |
+| declanșa rusia      |           1 |
+
+## 2025-08-13 — facebook-post
+
+| bigramă                            |   frecvență |
+|:-----------------------------------|------------:|
+| participa videoconferință          |           1 |
+| videoconferință coaliție           |           1 |
+| coaliție voință                    |           1 |
+| voință coordona                    |           1 |
+| coordona poziție                   |           1 |
+| poziție întâlnire                  |           1 |
+| întâlnire bilateral                |           1 |
+| bilateral președinte               |           1 |
+| președinte stateleunitealeamericii |           1 |
+| stateleunitealeamericii donald     |           1 |
+
+## 2025-08-17 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| sprijin ucraina          |           2 |
+| cadru videoconferință    |           1 |
+| videoconferință coaliție |           1 |
+| coaliție voință          |           1 |
+| voință discuta           |           1 |
+| discuta putea            |           1 |
+| putea coordona           |           1 |
+| coordona efort           |           1 |
+| efort sprijin            |           1 |
+| ucraina viitoarelor      |           1 |
+
+## 2025-08-17 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| loc vizita         |           1 |
+| vizita familie     |           1 |
+| familie românia    |           1 |
+| românia drumeție   |           1 |
+| drumeție sâmbătă   |           1 |
+| sâmbătă rămâne     |           1 |
+| rămâne favorit     |           1 |
+| favorit nicusordan |           1 |
+
+## 2025-08-18 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| agenție rating      |           2 |
+| rating românia      |           2 |
+| românia bbb-        |           2 |
+| bbb- perspectivă    |           2 |
+| perspectivă negativ |           2 |
+| veste bun           |           1 |
+| bun agenție         |           1 |
+| rating fitch        |           1 |
+| fitch confirma      |           1 |
+| confirma vineri     |           1 |
+
+## 2025-08-18 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| rusia sine        |           1 |
+| sine dori         |           1 |
+| dori pace         |           1 |
+| pace cadru        |           1 |
+| cadru coaliție    |           1 |
+| coaliție voință   |           1 |
+| voință discuta    |           1 |
+| discuta important |           1 |
+| important oferi   |           1 |
+| oferi sprijin     |           1 |
+
+## 2025-08-19 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| videoconferință coaliție |           1 |
+| coaliție voință          |           1 |
+| voință consiliu          |           1 |
+| consiliu european        |           1 |
+| european sublinia        |           1 |
+| sublinia pace            |           1 |
+| pace ucraina             |           1 |
+| ucraina trebui           |           1 |
+| trebui just              |           1 |
+| just durabil             |           1 |
+
+## 2025-08-19 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| securitate ucraina         |           2 |
+| pace trebui                |           2 |
+| românia vrea               |           2 |
+| videoconferințele coaliție |           1 |
+| coaliție voință            |           1 |
+| voință consiliu            |           1 |
+| consiliu european          |           1 |
+| european aborda            |           1 |
+| aborda rezultat            |           1 |
+| rezultat discuție          |           1 |
+
+## 2025-08-20 — facebook-post
+
+| bigramă                   |   frecvență |
+|:--------------------------|------------:|
+| respect recunoștință      |           1 |
+| recunoștință militare     |           1 |
+| militare comandament      |           1 |
+| comandament forță         |           1 |
+| forță operație            |           1 |
+| operație special          |           1 |
+| special mulțumim          |           1 |
+| mulțumim profesionalism   |           1 |
+| profesionalism loialitate |           1 |
+| loialitate contribui      |           1 |
+
+## 2025-08-21 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| parte primire     |           1 |
+| primire călduros  |           1 |
+| călduros roșiă    |           1 |
+| roșiă montan      |           1 |
+| montan trebui     |           1 |
+| trebui valorifica |           1 |
+| valorifica sit    |           1 |
+| sit unesco        |           1 |
+| unesco unic       |           1 |
+| unic putea        |           1 |
+
+## 2025-08-26 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| trebui rămâne      |           2 |
+| întâlni palat      |           1 |
+| palat cotroceni    |           1 |
+| cotroceni diplomat |           1 |
+| diplomat român     |           1 |
+| român discuta      |           1 |
+| discuta trebui     |           1 |
+| trebui împreună    |           1 |
+| împreună românia   |           1 |
+| românia sine       |           1 |
+
+## 2025-08-28 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| condamn fermitate   |           1 |
+| fermitate agresiune |           1 |
+| agresiune tânăr     |           1 |
+| tânăr veni          |           1 |
+| veni muncă          |           1 |
+| muncă bucurești     |           1 |
+| bucurești lovi      |           1 |
+| lovi umili          |           1 |
+| umili sine          |           1 |
+| sine naște          |           1 |
+
+## 2025-08-31 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| republică moldova  |           2 |
+| limbii român       |           2 |
+| limbă român        |           2 |
+| onoare prezent     |           1 |
+| prezent dictare    |           1 |
+| dictare național   |           1 |
+| național organiza  |           1 |
+| organiza republică |           1 |
+| moldova ocazie     |           1 |
+| ocazie zilei       |           1 |
+
+## 2025-08-31 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| participare alături   |           1 |
+| alături președinte    |           1 |
+| președinte republicii |           1 |
+| republicii moldova    |           1 |
+| moldova maia          |           1 |
+| maia sandu            |           1 |
+| sandu eveniment       |           1 |
+| eveniment dictare     |           1 |
+| dictare național      |           1 |
+| național piață        |           1 |
+
+## 2025-09-01 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| ura bun            |           1 |
+| bun veni           |           1 |
+| veni țărm          |           1 |
+| țărm negru         |           1 |
+| negru doamnă       |           1 |
+| doamnă președinte  |           1 |
+| președinte comisie |           1 |
+| comisie european   |           1 |
+| european ursula    |           1 |
+| ursula von         |           1 |
+
+## 2025-09-01 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| mulțumi manfred       |           1 |
+| manfred weber         |           1 |
+| weber vizită          |           1 |
+| vizită cotroceni      |           1 |
+| cotroceni discuție    |           1 |
+| discuție consistent   |           1 |
+| consistent președinte |           1 |
+| președinte partid     |           1 |
+| partid popular        |           1 |
+| popular european      |           1 |
+
+## 2025-09-02 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| mal negru         |           1 |
+| negru întâmpina   |           1 |
+| întâmpina ursula  |           1 |
+| ursula von        |           1 |
+| von der           |           1 |
+| der leyen         |           1 |
+| leyen trăim       |           1 |
+| trăim perioadă    |           1 |
+| perioadă complica |           1 |
+| complica presiune |           1 |
+
+## 2025-09-03 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| doamnă steluță       |           2 |
+| steluță coposu       |           2 |
+| semna respect        |           1 |
+| respect considerație |           1 |
+| considerație decret  |           1 |
+| decret decorare      |           1 |
+| decorare post-mortem |           1 |
+| post-mortem doamnă   |           1 |
+| steluță lucia        |           1 |
+| lucia rodica         |           1 |
+
+## 2025-09-03 — facebook-post
+
+| bigramă                     |   frecvență |
+|:----------------------------|------------:|
+| energie nuclear             |           3 |
+| securitate energetic        |           2 |
+| marca moment                |           1 |
+| moment important            |           1 |
+| important securitate        |           1 |
+| energetic românia           |           1 |
+| românia demarare            |           1 |
+| demarare proces             |           1 |
+| proces retehnologizare      |           1 |
+| retehnologizare reactorului |           1 |
+
+## 2025-09-03 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| bucura primi         |           1 |
+| primi palat          |           1 |
+| palat cotroceni      |           1 |
+| cotroceni președinte |           1 |
+| președinte consiliu  |           1 |
+| consiliu european    |           1 |
+| european antnio      |           1 |
+| antnio costa         |           1 |
+| costa discuta        |           1 |
+| discuta prioritate   |           1 |
+
+## 2025-09-10 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| întâlnire important     |           1 |
+| important reprezentant  |           1 |
+| reprezentant investitor |           1 |
+| investitor american     |           1 |
+| american românia        |           1 |
+| românia reitera         |           1 |
+| reitera parteneriat     |           1 |
+| parteneriat strategic   |           1 |
+| strategic stat          |           1 |
+| stat unit               |           1 |
+
+## 2025-09-15 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| discuție excelent |           1 |
+| excelent secretar |           1 |
+| secretar general  |           1 |
+| general ocde      |           1 |
+| ocde mathias      |           1 |
+| mathias cormann   |           1 |
+| cormann ocde      |           1 |
+| ocde organizație  |           1 |
+| organizație reuni |           1 |
+| reuni dezvoltat   |           1 |
+
+## 2025-09-16 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| cercetare prezenta      |           1 |
+| prezenta procuror       |           1 |
+| procuror general        |           1 |
+| general reprezenta      |           1 |
+| reprezenta dovadă       |           1 |
+| dovadă consistent       |           1 |
+| consistent acțiune      |           1 |
+| acțiune dezinformare    |           1 |
+| dezinformare sistematic |           1 |
+| sistematic rusia        |           1 |
+
+## 2025-09-17 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| proprietate stat      |           2 |
+| respecta constituție  |           2 |
+| curte constituțional  |           1 |
+| constituțional admite |           1 |
+| admite sesizare       |           1 |
+| sesizare lună         |           1 |
+| lună iulie            |           1 |
+| iulie privind         |           1 |
+| privind lege          |           1 |
+| lege pune             |           1 |
+
+## 2025-09-23 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| întâlnire lider     |           1 |
+| lider coaliție      |           1 |
+| coaliție guvernare  |           1 |
+| guvernare palat     |           1 |
+| palat cotroceni     |           1 |
+| cotroceni cadru     |           1 |
+| cadru media         |           1 |
+| media dialog        |           1 |
+| dialog necesar      |           1 |
+| necesar constructiv |           1 |
+
+## 2025-09-24 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| întâlnire bun          |           1 |
+| bun palat              |           1 |
+| palat cotroceni        |           1 |
+| cotroceni reprezentant |           1 |
+| reprezentant companie  |           1 |
+| companie airbus        |           1 |
+| airbus alături         |           1 |
+| alături ambasadorii    |           1 |
+| ambasadorii franța     |           1 |
+| franța germania        |           1 |
+
+## 2025-09-24 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| republică moldova |           2 |
+| legătură românia  |           1 |
+| românia republică |           1 |
+| moldova istoric   |           1 |
+| istoric legătură  |           1 |
+| legătură viu      |           1 |
+| viu construi      |           1 |
+| construi familie  |           1 |
+| familie valoare   |           1 |
+| valoare comun     |           1 |
+
+## 2025-09-26 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| infecție nosocomial |           2 |
+| profund îndurera    |           1 |
+| îndurera tragedie   |           1 |
+| tragedie petrece    |           1 |
+| petrece spital      |           1 |
+| spital copie        |           1 |
+| copie sfântă        |           1 |
+| sfântă maria        |           1 |
+| maria iași          |           1 |
+| iași copil          |           1 |
+
+## 2025-09-28 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| dragi basaraban    |           1 |
+| basaraban românia  |           1 |
+| românia important  |           1 |
+| important viitor   |           1 |
+| viitor republicii  |           1 |
+| republicii moldova |           1 |
+| moldova încă       |           1 |
+| încă vota          |           1 |
+| vota vot           |           1 |
+| vot conta          |           1 |
+
+## 2025-09-29 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| alianță românilor    |           2 |
+| românilor cipru      |           2 |
+| sine îndrepta        |           2 |
+| ocazie împlinire     |           1 |
+| împlinire înființare |           1 |
+| înființare alianță   |           1 |
+| cipru gând           |           1 |
+| gând sine            |           1 |
+| îndrepta aproape     |           1 |
+| aproape român        |           1 |
+
+## 2025-09-29 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| republicii moldova  |           2 |
+| felicit cetățen     |           1 |
+| cetățen republicii  |           1 |
+| moldova mobilizare  |           1 |
+| mobilizare vot      |           1 |
+| vot ferm            |           1 |
+| ferm direcție       |           1 |
+| direcție continuare |           1 |
+| continuare parcurs  |           1 |
+| parcurs european    |           1 |
+
+## 2025-09-30 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| vizita timișoara       |           1 |
+| timișoara companie     |           1 |
+| companie folosi        |           1 |
+| folosi inteligență     |           1 |
+| inteligență artificial |           1 |
+| artificial concret     |           1 |
+| concret ajuta          |           1 |
+| ajuta medic            |           1 |
+| medic depista          |           1 |
+| depista cancer         |           1 |
+
+## 2025-09-30 — facebook-post
+
+| bigramă                     |   frecvență |
+|:----------------------------|------------:|
+| administrație prezidențială |           3 |
+| lună iulie                  |           1 |
+| iulie spune                 |           1 |
+| spune administrație         |           1 |
+| prezidențială vrea          |           1 |
+| vrea contribui              |           1 |
+| contribui efort             |           1 |
+| efort austerita             |           1 |
+| austerita printru           |           1 |
+| printru reducere            |           1 |
+
+## 2025-09-30 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| uniune european      |           2 |
+| oraș european        |           1 |
+| european motoar      |           1 |
+| motoar dezvoltare    |           1 |
+| dezvoltare însă      |           1 |
+| însă oară            |           1 |
+| oară primi           |           1 |
+| primi recunoaștere   |           1 |
+| recunoaștere resursă |           1 |
+| resursă merita       |           1 |
+
+## 2025-10-01 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| trimite înapoi   |           1 |
+| înapoi parlament |           1 |
+| parlament lege   |           1 |
+| lege anula       |           1 |
+| anula măsură     |           1 |
+| măsură fiscal    |           1 |
+| fiscal lua       |           1 |
+| lua recent       |           1 |
+| recent guvern    |           1 |
+| guvern reduce    |           1 |
+
+## 2025-10-01 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| copenhaga participa |           1 |
+| participa reuniune  |           1 |
+| reuniune informal   |           1 |
+| informal consiliu   |           1 |
+| consiliu european   |           1 |
+| european summit     |           1 |
+| summit comunitate   |           1 |
+| comunitate politic  |           1 |
+| politic european    |           1 |
+| european cadru      |           1 |
+
+## 2025-10-02 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| vizită copenhaga    |           1 |
+| copenhaga dedica    |           1 |
+| dedica participăr   |           1 |
+| participăr summit   |           1 |
+| summit comunitate   |           1 |
+| comunitate politic  |           1 |
+| politic european    |           1 |
+| european întru      |           1 |
+| întru perioadă      |           1 |
+| perioadă securitate |           1 |
+
+## 2025-10-02 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| discuție productiv |           1 |
+| productiv premier  |           1 |
+| premier suedia     |           1 |
+| suedia ulf         |           1 |
+| ulf kristersson    |           1 |
+| kristersson marja  |           1 |
+| marja summit       |           1 |
+| summit comunitate  |           1 |
+| comunitate politic |           1 |
+| politic european   |           1 |
+
+## 2025-10-02 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| declarație presă    |           1 |
+| presă susține       |           1 |
+| susține participăr  |           1 |
+| participăr reuniune |           1 |
+| reuniune comunitate |           1 |
+| comunitate politic  |           1 |
+| politic european    |           1 |
+
+## 2025-10-02 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| le- prezenta         |           1 |
+| prezenta coleg       |           1 |
+| coleg european       |           1 |
+| european principal   |           1 |
+| principal concluzie  |           1 |
+| concluzie raport     |           1 |
+| raport procurorului  |           1 |
+| procurorului general |           1 |
+| general privind      |           1 |
+| privind alegere      |           1 |
+
+## 2025-10-02 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| românia sine        |           1 |
+| sine alătura        |           1 |
+| alătura inițiativă  |           1 |
+| inițiativă lansa    |           1 |
+| lansa președinte    |           1 |
+| președinte emmanuel |           1 |
+| emmanuel macron     |           1 |
+| macron premier      |           1 |
+| premier giorgia     |           1 |
+| giorgia meloni      |           1 |
+
+## 2025-10-02 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| sprijin republică |           1 |
+| republică moldova |           1 |
+| moldova sine      |           1 |
+| sine opri         |           1 |
+| opri discuta      |           1 |
+| discuta doamnă    |           1 |
+| doamnă președinte |           1 |
+| președinte maia   |           1 |
+| maia sandu        |           1 |
+| sandu partener    |           1 |
+
+## 2025-10-03 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| privind activitate |           2 |
+| activitate anre    |           2 |
+| anre asf           |           2 |
+| asf ancom          |           2 |
+| promulga lege      |           1 |
+| lege privind       |           1 |
+| ancom lege         |           1 |
+| lege important     |           1 |
+| important pachet   |           1 |
+| pachet reformă     |           1 |
+
+## 2025-10-06 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| începe octombrie           |          10 |
+| consilier prezidențial     |           8 |
+| consilier stat             |           8 |
+| începe noiembrie           |           6 |
+| administrație prezidențial |           3 |
+| prezidențial începe        |           3 |
+| prezidențial politică      |           2 |
+| român pretutinden          |           2 |
+| pretutinden începe         |           2 |
+| consilier onorific         |           2 |
+
+## 2025-10-09 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| păstra memorie        |           2 |
+| participa ceremonie   |           1 |
+| ceremonie dedicat     |           1 |
+| dedicat comemorare    |           1 |
+| comemorare victimă    |           1 |
+| victimă holocaustului |           1 |
+| holocaustului românia |           1 |
+| românia eveniment     |           1 |
+| eveniment tragic      |           1 |
+| tragic istorie        |           1 |
+
+## 2025-10-12 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| ușă inimă        |           2 |
+| inimă cuiva      |           2 |
+| cuiva trebui     |           2 |
+| trebui ruga      |           1 |
+| ruga năvălim     |           1 |
+| năvălim ciocăni  |           1 |
+| ciocăni ușă      |           1 |
+| trebui mișca     |           1 |
+| mișca dori       |           1 |
+| dori încetinitor |           1 |
+
+## 2025-10-13 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| primi palat                |           1 |
+| palat cotroceni            |           1 |
+| cotroceni delegație        |           1 |
+| delegație conduce          |           1 |
+| conduce milton             |           1 |
+| milton dick                |           1 |
+| dick președinte            |           1 |
+| președinte cameră          |           1 |
+| cameră reprezentanților    |           1 |
+| reprezentanților australia |           1 |
+
+## 2025-10-13 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| monitorizare electronic |           2 |
+| alertă apropiere        |           2 |
+| promulga lege           |           1 |
+| lege aprobare           |           1 |
+| aprobare ordonanță      |           1 |
+| ordonanță urgență       |           1 |
+| urgență actualiza       |           1 |
+| actualiza cadru         |           1 |
+| cadru legislativ        |           1 |
+| legislativ domeniu      |           1 |
+
+## 2025-10-14 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| fenomen corupție  |           1 |
+| corupție trebui   |           1 |
+| trebui ataca      |           1 |
+| ataca frontal     |           1 |
+| frontal flagel    |           1 |
+| flagel afecta     |           1 |
+| afecta societate  |           1 |
+| societate trebui  |           1 |
+| trebui deveni     |           1 |
+| deveni preocupare |           1 |
+
+## 2025-10-16 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| corupere funcționar |           2 |
+| aderare românia     |           2 |
+| promulga lege       |           1 |
+| lege sancționa      |           1 |
+| sancționa corupere  |           1 |
+| funcționar publică  |           1 |
+| publică străin      |           1 |
+| străin cadru        |           1 |
+| cadru operațiune    |           1 |
+| operațiune economic |           1 |
+
+## 2025-10-17 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| explozie produce      |           1 |
+| produce întru         |           1 |
+| întru bloc            |           1 |
+| bloc cale             |           1 |
+| cale rahova           |           1 |
+| rahova bucurești      |           1 |
+| bucurești tragedie    |           1 |
+| tragedie cutremurător |           1 |
+| cutremurător trebui   |           1 |
+| trebui sine           |           1 |
+
+## 2025-10-20 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| palat cotroceni     |           1 |
+| cotroceni dialog    |           1 |
+| dialog constructiv  |           1 |
+| constructiv comisar |           1 |
+| comisar european    |           1 |
+| european afacere    |           1 |
+| afacere intern      |           1 |
+| intern migrație     |           1 |
+| migrație magnus     |           1 |
+| magnus brunner      |           1 |
+
+## 2025-10-20 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| reformă pensie         |           2 |
+| pensie magistrațe      |           2 |
+| magistrațe rămâne      |           1 |
+| rămâne prioritate      |           1 |
+| prioritate poziționare |           1 |
+| poziționare magistrațe |           1 |
+| magistrațe corectare   |           1 |
+| corectare prevedere    |           1 |
+| prevedere anormal      |           1 |
+| anormal pensie         |           1 |
+
+## 2025-10-21 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| semna decret       |           1 |
+| decret trecere     |           1 |
+| trecere rezervă    |           1 |
+| rezervă doamnă     |           1 |
+| doamnă general     |           1 |
+| general florentina |           1 |
+| florentina ioniță  |           1 |
+| ioniță armat       |           1 |
+| armat puternic     |           1 |
+| puternic însemna   |           1 |
+
+## 2025-10-22 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| personal medical     |           2 |
+| promulga lege        |           1 |
+| lege aduce           |           1 |
+| aduce reglementare   |           1 |
+| reglementare domeniu |           1 |
+| domeniu sănătate     |           1 |
+| sănătate vrea        |           1 |
+| vrea crește          |           1 |
+| crește grad          |           1 |
+| grad protecție       |           1 |
+
+## 2025-10-22 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| drum bruxelles     |           1 |
+| bruxelles reuniune |           1 |
+| reuniune consiliu  |           1 |
+| consiliu european  |           1 |
+
+## 2025-10-23 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| lege vrea          |           2 |
+| promulga săptămână |           1 |
+| săptămână lege     |           1 |
+| vrea permite       |           1 |
+| permite reformă    |           1 |
+| reformă consistent |           1 |
+| consistent domeniu |           1 |
+| domeniu sănătate   |           1 |
+| sănătate proiect   |           1 |
+| proiect parte      |           1 |
+
+## 2025-10-23 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| acces locuință             |           2 |
+| extrem încărca             |           1 |
+| încărca reuniune           |           1 |
+| reuniune lider             |           1 |
+| lider uniuneaeuropeană     |           1 |
+| uniuneaeuropeană bruxelles |           1 |
+| bruxelles discutăm         |           1 |
+| discutăm securitate        |           1 |
+| securitate europa          |           1 |
+| europa proiect             |           1 |
+
+## 2025-10-24 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| alexandru ioan        |           2 |
+| ioan cuza             |           2 |
+| cuza universitate     |           2 |
+| universitate național |           2 |
+| național arte         |           2 |
+| arte george           |           2 |
+| george enescu         |           2 |
+| tradiție excelență    |           1 |
+| excelență universitar |           1 |
+| universitar iași      |           1 |
+
+## 2025-10-24 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| antibiotic iași       |           2 |
+| iași simbol           |           1 |
+| simbol industrie      |           1 |
+| industrie farmaceutic |           1 |
+| farmaceutic românesc  |           1 |
+| românesc lider        |           1 |
+| lider mondial         |           1 |
+| mondial producție     |           1 |
+| producție nistatină   |           1 |
+| nistatină demonstra   |           1 |
+
+## 2025-10-25 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| armată românia     |           2 |
+| onora brigada      |           1 |
+| brigada mecanizată |           1 |
+| mecanizată podu    |           1 |
+| podu înalt         |           1 |
+| înalt iași         |           1 |
+| iași curaj         |           1 |
+| curaj sacrificiu   |           1 |
+| sacrificiu apăra   |           1 |
+| apăra apăra        |           1 |
+
+## 2025-10-25 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| complet implantabil   |           2 |
+| sine afla             |           2 |
+| mic inimă             |           1 |
+| inimă artificial      |           1 |
+| artificial complet    |           1 |
+| implantabil aplicație |           1 |
+| aplicație atât        |           1 |
+| atât adult            |           1 |
+| adult copil           |           1 |
+| copil proiect         |           1 |
+
+## 2025-10-26 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| participa alături    |           1 |
+| alături familie      |           1 |
+| familie sfințire     |           1 |
+| sfințire pictură     |           1 |
+| pictură catedrală    |           1 |
+| catedrală național   |           1 |
+| național construcție |           1 |
+| construcție născut   |           1 |
+| născut vis           |           1 |
+| vis credință         |           1 |
+
+## 2025-10-26 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| sfințire pictură   |           1 |
+| pictură catedrală  |           1 |
+| catedrală național |           1 |
+
+## 2025-10-28 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| vrea redresa            |           2 |
+| vrea reduce             |           2 |
+| sine vrea               |           2 |
+| discuție constructiv    |           1 |
+| constructiv valdis      |           1 |
+| valdis dombrovskis      |           1 |
+| dombrovskis comisar     |           1 |
+| comisar european        |           1 |
+| european economie       |           1 |
+| economie productivitate |           1 |
+
+## 2025-10-28 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| domn rus                |           2 |
+| profund respect         |           1 |
+| respect semn            |           1 |
+| semn recunoaștere       |           1 |
+| recunoaștere devotament |           1 |
+| devotament curaj        |           1 |
+| curaj contribuție       |           1 |
+| contribuție apărare     |           1 |
+| apărare țară            |           1 |
+| țară semna              |           1 |
+
+## 2025-10-29 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| vrea continua        |           3 |
+| flanc estic          |           2 |
+| echipament militar   |           2 |
+| redimensionare forță |           1 |
+| forță rotațional     |           1 |
+| rotațional operă     |           1 |
+| operă românia        |           1 |
+| românia prezență     |           1 |
+| prezență trupă       |           1 |
+| trupă american       |           1 |
+
+## 2025-10-30 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| sine împlini      |           1 |
+| împlini tragedie  |           1 |
+| tragedie schimba  |           1 |
+| schimba românia   |           1 |
+| românia totdeauna |           1 |
+| totdeauna tânăr   |           1 |
+| tânăr sine        |           1 |
+| sine pierde       |           1 |
+| pierde viață      |           1 |
+| viață purta       |           1 |
+
+## 2025-11-04 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| afla profundă     |           1 |
+| profundă tristețe |           1 |
+| tristețe veste    |           1 |
+| veste român       |           1 |
+| român prinde      |           1 |
+| prinde dărâmăture |           1 |
+| dărâmăture turn   |           1 |
+| turn medieval     |           1 |
+| medieval roma     |           1 |
+| roma sine         |           1 |
+
+## 2025-11-05 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| secretar general    |           3 |
+| mark rutte          |           2 |
+| securitate spațiu   |           2 |
+| spațiu euroatlantic |           2 |
+| ura bun             |           1 |
+| bun veni            |           1 |
+| veni românia        |           1 |
+| românia domn        |           1 |
+| domn mark           |           1 |
+| rutte vizit         |           1 |
+
+## 2025-11-05 — facebook-post
+
+| bigramă         |   frecvență |
+|:----------------|------------:|
+| emeric ienei    |           5 |
+| mulțumim emeric |           1 |
+| ienei bucurie   |           1 |
+| bucurie aduce   |           1 |
+| aduce atât      |           1 |
+| atât oară       |           1 |
+| oară mândru     |           1 |
+| mândru fotbal   |           1 |
+| fotbal românesc |           1 |
+| românesc pierde |           1 |
+
+## 2025-11-06 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| industrie apărare |           2 |
+| românia apăra     |           1 |
+| apăra pregăti     |           1 |
+| pregăti sine      |           1 |
+| sine asuma        |           1 |
+| asuma rol         |           1 |
+| rol puternic      |           1 |
+| puternic flanc    |           1 |
+| flanc estic       |           1 |
+| estic propriu     |           1 |
+
+## 2025-11-07 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| stat trebui              |           2 |
+| competitivitate creștere |           1 |
+| creștere economic        |           1 |
+| economic cuvânt          |           1 |
+| cuvânt cheie             |           1 |
+| cheie românia            |           1 |
+| românia temă             |           1 |
+| temă discuta             |           1 |
+| discuta cadru            |           1 |
+| cadru eveniment          |           1 |
+
+## 2025-11-07 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| grigore alexandru    |           2 |
+| alexandru ghyka      |           2 |
+| semn profund         |           1 |
+| profund respect      |           1 |
+| respect considerație |           1 |
+| considerație memorie |           1 |
+| memorie ultim        |           1 |
+| ultim domn           |           1 |
+| domn moldova         |           1 |
+| moldova grigore      |           1 |
+
+## 2025-11-09 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| grigore alexandru  |           2 |
+| alexandru ghyka    |           2 |
+| românia modern     |           2 |
+| domnitor ghyka     |           2 |
+| odată repatriere   |           1 |
+| repatriere rămășiț |           1 |
+| rămășiț pământesc  |           1 |
+| pământesc ultim    |           1 |
+| ultim domnitor     |           1 |
+| domnitor moldova   |           1 |
+
+## 2025-11-10 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| evaluare impact         |           2 |
+| impact mediu            |           2 |
+| uniune european         |           2 |
+| proiect energetic       |           2 |
+| mediu sănătos           |           2 |
+| semna sesizare          |           1 |
+| sesizare curte          |           1 |
+| curte constituțional    |           1 |
+| constituțional legătură |           1 |
+| legătură lege           |           1 |
+
+## 2025-11-10 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| industrie apărare  |           3 |
+| românia deveni     |           1 |
+| deveni hub         |           1 |
+| hub inovație       |           1 |
+| inovație producție |           1 |
+| producție domeniu  |           1 |
+| domeniu industrie  |           1 |
+| apărare europa     |           1 |
+| europa sud-est     |           1 |
+| sud-est mesaj      |           1 |
+
+## 2025-11-11 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| corneliu coposu  |           4 |
+| democrație putea |           2 |
+| urmă deceniu     |           1 |
+| deceniu trece    |           1 |
+| trece veșnic     |           1 |
+| veșnic politic   |           1 |
+| politic corneliu |           1 |
+| coposu semn      |           1 |
+| semn omagiu      |           1 |
+| omagiu depune    |           1 |
+
+## 2025-11-12 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| național apărare      |           4 |
+| strategie național    |           3 |
+| administrație public  |           2 |
+| colaborare instituție |           2 |
+| pune dezbatere        |           1 |
+| dezbatere strategie   |           1 |
+| apărare centra        |           1 |
+| centra cetățean       |           1 |
+| cetățean prioritară   |           1 |
+| prioritară corectare  |           1 |
+
+## 2025-11-13 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| nivel politic       |           2 |
+| descurajare apărare |           2 |
+| flanc estic         |           2 |
+| sine încheia        |           1 |
+| încheia bază        |           1 |
+| bază militar        |           1 |
+| militar cincu       |           1 |
+| cincu exercițiu     |           1 |
+| exercițiu militar   |           1 |
+| militar dacian      |           1 |
+
+## 2025-11-13 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| republicii moldova  |           3 |
+| primi palat         |           1 |
+| palat cotroceni     |           1 |
+| cotroceni vizită    |           1 |
+| vizită extern       |           1 |
+| extern preluare     |           1 |
+| preluare mandat     |           1 |
+| mandat prim         |           1 |
+| prim ministru       |           1 |
+| ministru republicii |           1 |
+
+## 2025-11-17 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| domn letta       |           2 |
+| primi palat      |           1 |
+| palat cotroceni  |           1 |
+| cotroceni enrico |           1 |
+| enrico letta     |           1 |
+| letta premier    |           1 |
+| premier italia   |           1 |
+| italia autor     |           1 |
+| autor raport     |           1 |
+| raport much      |           1 |
+
+## 2025-11-18 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| agenție internațional |           2 |
+| internațional energie |           2 |
+| organizație cooperare |           2 |
+| cooperare dezvoltare  |           2 |
+| dezvoltare economic   |           2 |
+| aderare ocde          |           2 |
+| românia putea         |           2 |
+| discutie fatih        |           1 |
+| fatih birol           |           1 |
+| birol președinte      |           1 |
+
+## 2025-11-18 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| ne- părăsi           |           1 |
+| părăsi dumitru       |           1 |
+| dumitru lupescu      |           1 |
+| lupescu președinte   |           1 |
+| președinte asociație |           1 |
+| asociație bloc       |           1 |
+| bloc începe          |           1 |
+| începe construcție   |           1 |
+| construcție bloc     |           1 |
+| bloc parc            |           1 |
+
+## 2025-11-18 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| ilie ilașcu       |           3 |
+| libertate ilie    |           2 |
+| luăm rămas-bun    |           1 |
+| rămas-bun patriot |           1 |
+| patriot crede     |           1 |
+| crede acționa     |           1 |
+| acționa niciun    |           1 |
+| niciun ezitare    |           1 |
+| ezitare vis       |           1 |
+| vis unire         |           1 |
+
+## 2025-11-19 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| viață privat            |           2 |
+| sesiza curte            |           1 |
+| curte constituțional    |           1 |
+| constituțional legătură |           1 |
+| legătură lege           |           1 |
+| lege aprobare           |           1 |
+| aprobare ordonanță      |           1 |
+| ordonanță urgență       |           1 |
+| urgență introduce       |           1 |
+| introduce registru      |           1 |
+
+## 2025-11-20 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| operațiune readucere |           1 |
+| readucere țară       |           1 |
+| țară escortă         |           1 |
+| escortă horațiu      |           1 |
+| horațiu potra        |           1 |
+| potra dorian         |           1 |
+| dorian alexandru     |           1 |
+| alexandru potra      |           1 |
+| potra confirma       |           1 |
+| confirma angajament  |           1 |
+
+## 2025-11-20 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| aderare ocde       |           2 |
+| românia încă       |           1 |
+| încă pas           |           1 |
+| pas decisiv        |           1 |
+| decisiv aderare    |           1 |
+| ocde promulga      |           1 |
+| promulga săptămână |           1 |
+| săptămână lege     |           1 |
+| lege privind       |           1 |
+| privind întărire   |           1 |
+
+## 2025-11-21 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| uniune european        |           3 |
+| buget uniuneaeuropeană |           2 |
+| evidenția rol          |           2 |
+| creștere durabil       |           2 |
+| susține necesitate     |           2 |
+| rămâne obiectiv        |           2 |
+| european sublinia      |           2 |
+| sublinia importanță    |           2 |
+| palat cotroceni        |           1 |
+| cotroceni discuție     |           1 |
+
+## 2025-11-21 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| uniune european      |           2 |
+| românia moment       |           1 |
+| moment maturitate    |           1 |
+| maturitate expertiza |           1 |
+| expertiza adevărat   |           1 |
+| adevărat parte       |           1 |
+| parte proces         |           1 |
+| proces decizie       |           1 |
+| decizie strategie    |           1 |
+| strategie direcție   |           1 |
+
+## 2025-11-23 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| promulga săptămână     |           1 |
+| săptămână lege         |           1 |
+| lege introduce         |           1 |
+| introduce amendare     |           1 |
+| amendare comerciant    |           1 |
+| comerciant sumă        |           1 |
+| sumă cuprinde          |           1 |
+| cuprinde leu           |           1 |
+| leu nerespectare       |           1 |
+| nerespectare obligație |           1 |
+
+## 2025-11-25 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| onoare găzduii     |           1 |
+| găzduii palat      |           1 |
+| palat cotroceni    |           1 |
+| cotroceni summit   |           1 |
+| summit guvernanță  |           1 |
+| guvernanță digital |           1 |
+| digital acorda     |           1 |
+| acorda înalt       |           1 |
+| înalt patronaj     |           1 |
+| patronaj eveniment |           1 |
+
+## 2025-11-26 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| strategie național |           2 |
+| național apărare   |           2 |
+| apărare țară       |           2 |
+| parlament românia  |           1 |
+| românia vota       |           1 |
+| vota strategie     |           1 |
+| țară prezenta      |           1 |
+| prezenta plen      |           1 |
+| plen reunit        |           1 |
+| reunit cameră      |           1 |
+
+## 2025-12-01 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| ion vasile       |           2 |
+| vasile banu      |           2 |
+| prilej zilei     |           1 |
+| zilei național   |           1 |
+| național românia |           1 |
+| românia decora   |           1 |
+| decora veteran   |           1 |
+| veteran război   |           1 |
+| război colonel   |           1 |
+| colonel ion      |           1 |
+
+## 2025-12-01 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| național sărbătoare |           1 |
+| sărbătoare arc      |           1 |
+| arc triumf          |           1 |
+| triumf impresiona   |           1 |
+| impresiona bucurie  |           1 |
+| bucurie număr       |           1 |
+| număr atât          |           1 |
+| atât român          |           1 |
+| român veni          |           1 |
+| veni trăi           |           1 |
+
+## 2025-12-02 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| promulga recent       |           1 |
+| recent lege           |           1 |
+| lege modificare       |           1 |
+| modificare statutului |           1 |
+| statutului deputat    |           1 |
+| deputat senatorilor   |           1 |
+| senatorilor pas       |           1 |
+| pas decisiv           |           1 |
+| decisiv creștere      |           1 |
+| creștere transparență |           1 |
+
+## 2025-12-03 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| discuție substanțial       |           1 |
+| substanțial ambasadorii    |           1 |
+| ambasadorii stat           |           1 |
+| stat membră                |           1 |
+| membră uniuneaeuropeană    |           1 |
+| uniuneaeuropeană bucurești |           1 |
+| bucurești reafirma         |           1 |
+| reafirma angajament        |           1 |
+| angajament ferm            |           1 |
+| ferm românia               |           1 |
+
+## 2025-12-03 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| situație dezastruos |           1 |
+| dezastruos barajul  |           1 |
+| barajul paltinu     |           1 |
+| paltinu genera      |           1 |
+| genera criză        |           1 |
+| criză proporție     |           1 |
+| proporție județ     |           1 |
+| județ prahova       |           1 |
+| prahova dâmbovița   |           1 |
+| dâmbovița arăta     |           1 |
+
+## 2025-12-04 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| domn rebengiuc      |           3 |
+| onoare felicit      |           1 |
+| felicit domn        |           1 |
+| domn victor         |           1 |
+| victor rebengiuc    |           1 |
+| rebengiuc cadru     |           1 |
+| cadru ceremonie     |           1 |
+| ceremonie decernare |           1 |
+| decernare premiu    |           1 |
+| premiu românia      |           1 |
+
+## 2025-12-04 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| transmite parlament |           1 |
+| parlament cerere    |           1 |
+| cerere reexaminare  |           1 |
+| reexaminare lege    |           1 |
+| lege modifica       |           1 |
+| modifica oug        |           1 |
+| oug privind         |           1 |
+| privind combatere   |           1 |
+| combatere extremism |           1 |
+| extremism stat      |           1 |
+
+## 2025-12-05 — facebook-post
+
+| bigramă                   |   frecvență |
+|:--------------------------|------------:|
+| semna decret              |           1 |
+| decret promulgare         |           1 |
+| promulgare lege           |           1 |
+| lege introduce            |           1 |
+| introduce regulă          |           1 |
+| regulă clar               |           1 |
+| clar strict               |           1 |
+| strict domeniu            |           1 |
+| domeniu construcție       |           1 |
+| construcție tranzacțiilor |           1 |
+
+## 2025-12-07 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| dragi bucureștean    |           1 |
+| bucureștean invi     |           1 |
+| invi merge           |           1 |
+| merge vot            |           1 |
+| vot indiferent       |           1 |
+| indiferent opțiune   |           1 |
+| opțiune proces       |           1 |
+| proces democratic    |           1 |
+| democratic important |           1 |
+| important primar     |           1 |
+
+## 2025-12-08 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| felicitări succes   |           2 |
+| succes aleș         |           1 |
+| aleș local          |           1 |
+| local confirma      |           1 |
+| confirma vot        |           1 |
+| vot cetățean        |           1 |
+| cetățean regulă     |           1 |
+| regulă bază         |           1 |
+| bază democrație     |           1 |
+| democrație cetățean |           1 |
+
+## 2025-12-09 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| românia franța        |           2 |
+| real plăcere          |           1 |
+| plăcere întâlni       |           1 |
+| întâlni președinte    |           1 |
+| președinte republicii |           1 |
+| republicii francez    |           1 |
+| francez emmanuel      |           1 |
+| emmanuel macron       |           1 |
+| macron reafirma       |           1 |
+| reafirma prietenie    |           1 |
+
+## 2025-12-09 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| tehnologie emergent      |           2 |
+| franța întâlnire         |           1 |
+| întâlnire reprezentant   |           1 |
+| reprezentant companiilor |           1 |
+| companiilor domeniu      |           1 |
+| domeniu apărare          |           1 |
+| apărare tehnologie       |           1 |
+| emergent le-             |           1 |
+| le- transmite            |           1 |
+| transmite românia        |           1 |
+
+## 2025-12-09 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| economie educație    |           2 |
+| românesc capitală    |           2 |
+| capitală franța      |           2 |
+| nicolae titulescu    |           2 |
+| excelent întrevedere |           1 |
+| întrevedere primar   |           1 |
+| primar paris         |           1 |
+| paris anne           |           1 |
+| anne hidalgo         |           1 |
+| hidalgo discuta      |           1 |
+
+## 2025-12-10 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| sistem justiție      |           5 |
+| interior sistem      |           3 |
+| problemă justiție    |           2 |
+| justiție sine        |           2 |
+| fapt vorbim          |           2 |
+| vedea cap-coadă      |           1 |
+| cap-coadă documentar |           1 |
+| documentar recorder  |           1 |
+| recorder justiție    |           1 |
+| justiție simplu      |           1 |
+
+## 2025-12-11 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| sistem justiție      |           2 |
+| magistrat spune      |           1 |
+| spune problemă       |           1 |
+| problemă integritate |           1 |
+| integritate sistem   |           1 |
+| justiție lucru       |           1 |
+| lucru serios         |           1 |
+| serios invit         |           1 |
+| invit magistrație    |           1 |
+| magistrație vrea     |           1 |
+
+## 2025-12-15 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| plec summit           |           1 |
+| summit helsinki       |           1 |
+| helsinki lua          |           1 |
+| lua îngrijorăre       |           1 |
+| îngrijorăre societate |           1 |
+| societate lega        |           1 |
+| lega funcționare      |           1 |
+| funcționare justiție  |           1 |
+| justiție împărtăși    |           1 |
+| împărtăși problemă    |           1 |
+
+## 2025-12-16 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| republică moldova     |           2 |
+| acțiune rusia         |           1 |
+| rusia reprezenta      |           1 |
+| reprezenta amenințare |           1 |
+| amenințare majoră     |           1 |
+| majoră regiune        |           1 |
+| regiune reuniune      |           1 |
+| reuniune helsinki     |           1 |
+| helsinki evidenția    |           1 |
+| evidenția rol         |           1 |
+
+## 2025-12-16 — facebook-post
+
+| bigramă                        |   frecvență |
+|:-------------------------------|------------:|
+| trimite curte                  |           1 |
+| curte constituțional           |           1 |
+| constituțional sesizare        |           1 |
+| sesizare neconstituționalitate |           1 |
+| neconstituționalitate lege     |           1 |
+| lege impune                    |           1 |
+| impune minimum                 |           1 |
+| minimum sportiv                |           1 |
+| sportiv evolua                 |           1 |
+| evolua întru                   |           1 |
+
+## 2025-12-16 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| util aplicat          |           1 |
+| aplicat discuție      |           1 |
+| discuție purta        |           1 |
+| purta organizație     |           1 |
+| organizație finlandez |           1 |
+| finlandez prestigiu   |           1 |
+| prestigiu domeniu     |           1 |
+| domeniu cercetare     |           1 |
+| cercetare apărare     |           1 |
+| apărare vizita        |           1 |
+
+## 2025-12-17 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| regat unit            |           2 |
+| londra întru          |           1 |
+| întru competitiv      |           1 |
+| competitiv ecosistemă |           1 |
+| ecosistemă economic   |           1 |
+| economic lume         |           1 |
+| lume dialog           |           1 |
+| dialog aplica         |           1 |
+| aplica afacere        |           1 |
+| afacere român         |           1 |
+
+## 2025-12-17 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| majestății rege  |           1 |
+| rege charles     |           1 |
+| charles -lea     |           1 |
+| -lea primire     |           1 |
+| primire palat    |           1 |
+| palat buckingham |           1 |
+
+## 2025-12-17 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| întâlnire extraordinar |           1 |
+| extraordinar bun       |           1 |
+| bun cald               |           1 |
+| cald comunitate        |           1 |
+| comunitate român       |           1 |
+| român regat            |           1 |
+| regat unit             |           1 |
+| unit marii             |           1 |
+| marii britania         |           1 |
+| britania irlandei      |           1 |
+
+## 2025-12-18 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| buget uniune       |           2 |
+| începe ultim       |           1 |
+| ultim reuniune     |           1 |
+| reuniune consiliu  |           1 |
+| consiliu european  |           1 |
+| european moment    |           1 |
+| moment important   |           1 |
+| important definire |           1 |
+| definire direcție  |           1 |
+| direcție strategic |           1 |
+
+## 2025-12-18 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| dialog antreprenor   |           1 |
+| antreprenor român    |           1 |
+| român britanică      |           1 |
+| britanică întâlnire  |           1 |
+| întâlnire comunitate |           1 |
+| comunitate românesc  |           1 |
+| românesc moment      |           1 |
+| moment deosebit      |           1 |
+| deosebit alături     |           1 |
+| alături majestate    |           1 |
+
+## 2025-12-19 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| încheia turneu   |           1 |
+| turneu european  |           1 |
+| european ultim   |           1 |
+| ultim consiliu   |           1 |
+| consiliu discuta |           1 |
+| discuta temă     |           1 |
+| temă esențial    |           1 |
+| esențial viitor  |           1 |
+| viitor uniune    |           1 |
+| uniune românia   |           1 |
+
+## 2025-12-20 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| lună vrea         |           2 |
+| primi magistrat   |           1 |
+| magistrat pagină  |           1 |
+| pagină material   |           1 |
+| material relevant |           1 |
+| relevant problemă |           1 |
+| problemă justiție |           1 |
+| justiție promite  |           1 |
+| promite parcurge  |           1 |
+| parcurge weekend  |           1 |
+
+## 2025-12-20 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| curte constituțional  |           2 |
+| constituțional decide |           1 |
+| decide recent         |           1 |
+| recent schimbare      |           1 |
+| schimbare esențial    |           1 |
+| esențial președinte   |           1 |
+| președinte românia    |           1 |
+| românia sine          |           1 |
+| sine recâștiga        |           1 |
+| recâștiga sesiza      |           1 |
+
+## 2025-12-21 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| libertate strigăt |           1 |
+| strigăt limpede   |           1 |
+| limpede națiune   |           1 |
+| națiune român     |           1 |
+| român decembrie   |           1 |
+| decembrie strigăt |           1 |
+| strigăt trăi      |           1 |
+| trăi izolare      |           1 |
+| izolare frică     |           1 |
+| frică sărăcie     |           1 |
+
+## 2025-12-21 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| acționa interes        |           4 |
+| interes public         |           4 |
+| consiliu superior      |           3 |
+| interes grup           |           2 |
+| vrea spune             |           2 |
+| superior magistraturii |           2 |
+| public interes         |           2 |
+| conducere instanțelor  |           2 |
+| iniție ianuarie        |           1 |
+| ianuarie imediat       |           1 |
+
+## 2025-12-25 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| naștere hristos     |           1 |
+| hristos creștin     |           1 |
+| creștin sărbătoare  |           1 |
+| sărbătoare speranță |           1 |
+| speranță lumină     |           1 |
+| lumină adevăr       |           1 |
+| adevăr credință     |           1 |
+| credință afla       |           1 |
+| afla crăciun        |           1 |
+| crăciun aminti      |           1 |
+
+## 2025-12-26 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| românia lume        |           2 |
+| virginia ruzici     |           2 |
+| cadru vizitelor     |           1 |
+| vizitelor extern    |           1 |
+| extern ultim        |           1 |
+| ultim săptămână     |           1 |
+| săptămână bucurie   |           1 |
+| bucurie reîntâlnire |           1 |
+| reîntâlnire special |           1 |
+| special drag        |           1 |
+
+## 2025-12-26 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| corneliu porumboiu         |           2 |
+| întâlnire special          |           1 |
+| special paris              |           1 |
+| paris regizor              |           1 |
+| regizor scenarist          |           1 |
+| scenarist marcă            |           1 |
+| marcă cinematografie       |           1 |
+| cinematografie contemporan |           1 |
+| contemporan corneliu       |           1 |
+| porumboiu nume             |           1 |
+
+## 2025-12-27 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| aștept nerbdare   |           1 |
+| nerbdare afla     |           1 |
+| afla spune        |           1 |
+| spune mirabela    |           1 |
+| mirabela emisiune |           1 |
+| emisiune vrea     |           1 |
+| vrea difuzat      |           1 |
+| difuzat oră       |           1 |
+| oră digi          |           1 |
+
+## 2025-12-27 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| martin andler            |           2 |
+| revedea emoție           |           1 |
+| emoție paris             |           1 |
+| paris profesor           |           1 |
+| profesor emeri           |           1 |
+| emeri universitate       |           1 |
+| universitate versailles  |           1 |
+| versailles saint-quentin |           1 |
+| saint-quentin martin     |           1 |
+| andler domn              |           1 |
+
+## 2025-12-27 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| nicolae rațiu     |           2 |
+| ion rațiu         |           1 |
+| rațiu nicolae     |           1 |
+| rațiu revedea     |           1 |
+| revedea londra    |           1 |
+| londra familie    |           1 |
+| familie mijloc    |           1 |
+| mijloc comunitate |           1 |
+| comunitate român  |           1 |
+| român nicolae     |           1 |
+
+## 2025-12-28 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| george iacobescu    |           2 |
+| veritabil plăcere   |           1 |
+| plăcere revăd       |           1 |
+| revăd londra        |           1 |
+| londra sir          |           1 |
+| sir george          |           1 |
+| iacobescu respectat |           1 |
+| respectat apreciat  |           1 |
+| apreciat român      |           1 |
+| român britanie      |           1 |
+
+## 2025-12-28 — facebook-post
+
+| bigramă                               |   frecvență |
+|:--------------------------------------|------------:|
+| christian mititelu                    |           2 |
+| redacție român                        |           1 |
+| român britishbroadcastingcorporation  |           1 |
+| britishbroadcastingcorporation rămâne |           1 |
+| rămâne reper                          |           1 |
+| reper jurnalism                       |           1 |
+| jurnalism înalt                       |           1 |
+| înalt standard                        |           1 |
+| standard felicita                     |           1 |
+| felicita performanță                  |           1 |
+
+## 2026-01-01 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| provocăre curaj    |           1 |
+| curaj renunța      |           1 |
+| renunța față       |           1 |
+| față încercăre     |           1 |
+| încercăre greu     |           1 |
+| greu pas           |           1 |
+| pas cere           |           1 |
+| cere determinare   |           1 |
+| determinare răbdar |           1 |
+| răbdar încredere   |           1 |
+
+## 2026-01-04 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| spera ultim         |           1 |
+| ultim clipă         |           1 |
+| clipă întru         |           1 |
+| întru deznodământ   |           1 |
+| deznodământ diferit |           1 |
+| diferit însă        |           1 |
+| însă afla           |           1 |
+| afla profundă       |           1 |
+| profundă tristețe   |           1 |
+| tristețe pierdere   |           1 |
+
+## 2026-01-05 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| cheltuielile administrație |           1 |
+| administrație prezidențial |           1 |
+| prezidențial reduce        |           1 |
+| reduce adică               |           1 |
+| adică milion               |           1 |
+| milion leu                 |           1 |
+| leu decât                  |           1 |
+| decât angaja               |           1 |
+| angaja iulie               |           1 |
+
+## 2026-01-06 — facebook-post
+
+| bigramă         |   frecvență |
+|:----------------|------------:|
+| începe reuniune |           1 |
+| reuniune lider  |           1 |
+| lider stat      |           1 |
+| stat guverne    |           1 |
+| guverne palat   |           1 |
+| palat lyse      |           1 |
+
+## 2026-01-06 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| plăcere reîntâlni    |           1 |
+| reîntâlni președinte |           1 |
+| președinte emmanuel  |           1 |
+| emmanuel macron      |           1 |
+| macron deschidere    |           1 |
+| deschidere reuniuni  |           1 |
+| reuniuni stat        |           1 |
+| stat membră          |           1 |
+| membră coaliție      |           1 |
+| coaliție voință      |           1 |
+
+## 2026-01-07 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| ajunge bucurești  |           1 |
+| bucurești parcurs |           1 |
+| parcurs zbor      |           1 |
+| zbor spațiu       |           1 |
+| spațiu aerian     |           1 |
+| aerian elveția    |           1 |
+| elveția aeronavă  |           1 |
+| aeronavă escorta  |           1 |
+| escorta avion     |           1 |
+| avion gest        |           1 |
+
+## 2026-01-08 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| putea asculta           |           1 |
+| asculta înregistrare    |           1 |
+| înregistrare convorbire |           1 |
+| convorbire pilot        |           1 |
+| pilot român             |           1 |
+| român aeronavă          |           1 |
+| aeronavă spartan        |           1 |
+| spartan controlor       |           1 |
+| controlor trafic        |           1 |
+| trafic zrich            |           1 |
+
+## 2026-01-09 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| taxă vamal        |           4 |
+| românia vrea      |           3 |
+| sector agricol    |           2 |
+| european vrea     |           2 |
+| putea importa     |           2 |
+| românia vota      |           1 |
+| vota favoare      |           1 |
+| favoare comercial |           1 |
+| comercial uniune  |           1 |
+| uniune european   |           1 |
+
+## 2026-01-13 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| strategic românia     |           2 |
+| românia stat          |           2 |
+| stat unit             |           2 |
+| liceen român          |           2 |
+| tinerilor sine        |           2 |
+| parteneriat strategic |           1 |
+| unit america          |           1 |
+| america sine          |           1 |
+| sine consolida        |           1 |
+| consolida permanent   |           1 |
+
+## 2026-01-15 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| sine vrea             |           3 |
+| românia sine          |           3 |
+| uniune european       |           3 |
+| șef misiune           |           2 |
+| misiune diplomatic    |           2 |
+| diplomatic acredita   |           2 |
+| acredita românia      |           2 |
+| politică extern       |           2 |
+| vrea urmări           |           2 |
+| parteneriat strategic |           2 |
+
+## 2026-01-15 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| cultură român          |           2 |
+| cultură național       |           1 |
+| național reaminti      |           1 |
+| reaminti identitate    |           1 |
+| identitate românia     |           1 |
+| românia sine           |           1 |
+| sine contura           |           1 |
+| contura creație        |           1 |
+| creație vocație        |           1 |
+| vocație universalitate |           1 |
+
+## 2026-01-16 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| instrument safe      |           2 |
+| decizie comisie      |           1 |
+| comisie european     |           1 |
+| european aproba      |           1 |
+| aproba aplicație     |           1 |
+| aplicație românia    |           1 |
+| românia finanțare    |           1 |
+| finanțare instrument |           1 |
+| safe security        |           1 |
+| security action      |           1 |
+
+## 2026-01-17 — facebook-post
+
+| bigramă                   |   frecvență |
+|:--------------------------|------------:|
+| promulga lege             |           1 |
+| lege permite              |           1 |
+| permite polițișt          |           1 |
+| polițișt local            |           1 |
+| local utiliza             |           1 |
+| utiliza cameră            |           1 |
+| cameră foto-video-audio   |           1 |
+| foto-video-audio portabil |           1 |
+| portabil exercitare       |           1 |
+| exercitare atribuție      |           1 |
+
+## 2026-01-17 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| serviciu medical     |           2 |
+| medical gratuit      |           2 |
+| promulga lege        |           1 |
+| lege adoptare        |           1 |
+| adoptare ordonanță   |           1 |
+| ordonanță guvern     |           1 |
+| guvern asigura       |           1 |
+| asigura continuitate |           1 |
+| continuitate acces   |           1 |
+| acces vaccinare      |           1 |
+
+## 2026-01-19 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| general grynkewich   |           3 |
+| românia sine         |           2 |
+| spațiu aerian        |           2 |
+| primi palat          |           1 |
+| palat cotroceni      |           1 |
+| cotroceni general    |           1 |
+| general alexus       |           1 |
+| alexus gheorghe      |           1 |
+| gheorghe grynkewich  |           1 |
+| grynkewich comandant |           1 |
+
+## 2026-01-23 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| uniune european          |           3 |
+| relație transatlantic    |           2 |
+| stat membră              |           2 |
+| stat unit                |           2 |
+| transatlantic istorie    |           1 |
+| istorie aduce            |           1 |
+| aduce stabilitate        |           1 |
+| stabilitate prosperitate |           1 |
+| prosperitate importanță  |           1 |
+| importanță crucial       |           1 |
+
+## 2026-01-24 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| unire prezent    |           2 |
+| alege atât       |           1 |
+| atât iași        |           1 |
+| iași focșani     |           1 |
+| focșani marca    |           1 |
+| marca unire      |           1 |
+| unire principat  |           1 |
+| principat român  |           1 |
+| român alături    |           1 |
+| alături convinge |           1 |
+
+## 2026-01-24 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| împlinire înființare |           1 |
+| înființare acorda    |           1 |
+| acorda colegi        |           1 |
+| colegi național      |           1 |
+| național unire       |           1 |
+| unire focșani        |           1 |
+| focșani ordin        |           1 |
+| ordin merit          |           1 |
+| merit învțmânt       |           1 |
+| învțmânt grad        |           1 |
+
+## 2026-01-24 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| patriotism însemna  |           3 |
+| trăim moment        |           1 |
+| moment complicat    |           1 |
+| complicat întru     |           1 |
+| întru sărbătoare    |           1 |
+| sărbătoare crede    |           1 |
+| crede trebui        |           1 |
+| trebui bucura       |           1 |
+| bucura reflecta     |           1 |
+| reflecta sărbătoare |           1 |
+
+## 2026-01-26 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| întru lume               |           2 |
+| internațional comemorare |           1 |
+| comemorare victimelor    |           1 |
+| victimelor holocaustului |           1 |
+| holocaustului dedica     |           1 |
+| dedica memorie           |           1 |
+| memorie reflecție        |           1 |
+| reflecție tragedie       |           1 |
+| tragedie istorie         |           1 |
+| istorie umanitate        |           1 |
+
+## 2026-02-04 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| consiliu european        |           3 |
+| antonio costa            |           2 |
+| președinte consiliu      |           2 |
+| creștere competitivitate |           2 |
+| uniune european          |           2 |
+| convorbire consistent    |           1 |
+| consistent antonio       |           1 |
+| costa președinte         |           1 |
+| european privind         |           1 |
+| privind temă             |           1 |
+
+## 2026-02-04 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| libertate exprimare |           2 |
+| platformă tiktok    |           2 |
+| campanie electoral  |           2 |
+| proces electoral    |           2 |
+| românia subiect     |           1 |
+| subiect raport      |           1 |
+| raport preliminar   |           1 |
+| preliminar comitet  |           1 |
+| comitet judiciar    |           1 |
+| judiciar cameră     |           1 |
+
+## 2026-02-05 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| stat unit          |           2 |
+| exercițiil militar |           1 |
+| militar desfășura  |           1 |
+| desfășura ultim    |           1 |
+| ultim smârdan      |           1 |
+| smârdan forță      |           1 |
+| forță românesc     |           1 |
+| românesc sine      |           1 |
+| sine antrena       |           1 |
+| antrena alături    |           1 |
+
+## 2026-02-08 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| consiliu pace        |           3 |
+| primi invitație      |           1 |
+| invitație participa  |           1 |
+| participa reuniune   |           1 |
+| reuniune consiliu    |           1 |
+| pace vrea            |           1 |
+| vrea loc             |           1 |
+| loc washington       |           1 |
+| washington februarie |           1 |
+| februarie spune      |           1 |
+
+## 2026-02-11 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| discuție lider    |           1 |
+| lider companie    |           1 |
+| companie american |           1 |
+| american reuni    |           1 |
+| reuni umbrelă     |           1 |
+| umbrelă cameră    |           1 |
+| cameră comerț     |           1 |
+| comerț american   |           1 |
+| american românia  |           1 |
+| românia amcham    |           1 |
+
+## 2026-02-12 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| vrea trebui         |           2 |
+| important dezbatere |           1 |
+| dezbatere particip  |           1 |
+| particip belgia     |           1 |
+| belgia alături      |           1 |
+| alături celălalt    |           1 |
+| celălalt lider      |           1 |
+| lider european      |           1 |
+| european putea      |           1 |
+| putea uniune        |           1 |
+
+## 2026-02-13 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| vrea genera       |           2 |
+| genera dezvoltare |           2 |
+| invi privi        |           1 |
+| privi echilibru   |           1 |
+| echilibru publica |           1 |
+| publica ins       |           1 |
+| ins economie      |           1 |
+| economie suferi   |           1 |
+| suferi contracție |           1 |
+| contracție sine   |           1 |
+
+## 2026-02-15 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| unit america       |           2 |
+| fâșie gaza         |           2 |
+| participa sptmână  |           1 |
+| sptmână viitor     |           1 |
+| viitor reuniune    |           1 |
+| reuniune consiliu  |           1 |
+| consiliu pcii      |           1 |
+| pcii washington    |           1 |
+| washington rspunza |           1 |
+| rspunza invitație  |           1 |
+
+## 2026-02-18 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| salut decizie          |           1 |
+| decizie curte          |           1 |
+| curte constituțional   |           1 |
+| constituțional privind |           1 |
+| privind reformă        |           1 |
+| reformă pensie         |           1 |
+| pensie magistrațe      |           1 |
+| magistrațe recalibrare |           1 |
+| recalibrare calcul     |           1 |
+| calcul pensie          |           1 |
+
+## 2026-02-19 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| consiliu pace           |           2 |
+| putea contribui         |           2 |
+| putea oferi             |           2 |
+| contribui reconstrucție |           2 |
+| intervenție washington  |           1 |
+| washington cadru        |           1 |
+| cadru reuniună          |           1 |
+| reuniună inaugural      |           1 |
+| inaugural consiliu      |           1 |
+| pace prezida            |           1 |
+
+## 2026-02-20 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| pace securitate    |           1 |
+| securitate temelie |           1 |
+| temelie țară       |           1 |
+| țară prosper       |           1 |
+| prosper politică   |           1 |
+| politică extern    |           1 |
+| extern important   |           1 |
+| important partener |           1 |
+| partener diferit   |           1 |
+| diferit format     |           1 |
+
+## 2026-02-24 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| discuție aplicat |           1 |
+| aplicat premier  |           1 |
+| premier ilie     |           1 |
+| ilie bolojan     |           1 |
+| bolojan vizită   |           1 |
+| vizită bruxelles |           1 |
+| bruxelles joi    |           1 |
+| joi bruxelles    |           1 |
+| bruxelles sine   |           1 |
+| sine vrea        |           1 |
+
+## 2026-02-24 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| uniune european   |           2 |
+| urmă teribile     |           1 |
+| teribile scenarii |           1 |
+| scenarii europa   |           1 |
+| europa deveni     |           1 |
+| deveni realitate  |           1 |
+| realitate rusia   |           1 |
+| rusia ataca       |           1 |
+| ataca ucraina     |           1 |
+| ucraina declanșa  |           1 |
+
+## 2026-02-27 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| aștepta societate  |           2 |
+| promulga dimineață |           1 |
+| dimineață lege     |           1 |
+| lege privind       |           1 |
+| privind pensie     |           1 |
+| pensie magistrață  |           1 |
+| magistrață urmă    |           1 |
+| urmă publicare     |           1 |
+| publicare monitor  |           1 |
+| monitor oficial    |           1 |
+
+## 2026-02-27 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| plângere penal       |           3 |
+| penal sine           |           2 |
+| sine întâmpla        |           2 |
+| referitor informație |           1 |
+| informație privind   |           1 |
+| privind plângere     |           1 |
+| penal aep            |           1 |
+| aep legătură         |           1 |
+| legătură campanie    |           1 |
+| campanie electoral   |           1 |
+
+## 2026-03-01 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| sine afla         |           2 |
+| românia deplin    |           1 |
+| deplin siguranță  |           1 |
+| siguranță sine    |           1 |
+| afla niciun       |           1 |
+| niciun amenințare |           1 |
+| amenințare direct |           1 |
+| direct actual     |           1 |
+| actual context    |           1 |
+| context regional  |           1 |
+
+## 2026-03-03 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| bucura primi        |           1 |
+| primi palat         |           1 |
+| palat cotroceni     |           1 |
+| cotroceni darryl    |           1 |
+| darryl nirenberg    |           1 |
+| nirenberg ambasador |           1 |
+| ambasador stat      |           1 |
+| stat unit           |           1 |
+| unit america        |           1 |
+| america românia     |           1 |
+
+## 2026-03-05 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| premier polonez     |           2 |
+| donald tusk         |           2 |
+| dialog substanțial  |           1 |
+| substanțial premier |           1 |
+| polonez donald      |           1 |
+| tusk subiect        |           1 |
+| subiect vital       |           1 |
+| vital românia       |           1 |
+| românia polonia     |           1 |
+| polonia important   |           1 |
+
+## 2026-03-05 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| românia polonia      |           2 |
+| răspunde plăcere     |           1 |
+| plăcere invitație    |           1 |
+| invitație președinte |           1 |
+| președinte karol     |           1 |
+| karol nawrocki       |           1 |
+| nawrocki efectua     |           1 |
+| efectua vizită       |           1 |
+| vizită oficial       |           1 |
+| oficial polonia      |           1 |
+
+## 2026-03-06 — facebook-post
+
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| martie ocazie              |           1 |
+| ocazie zilei               |           1 |
+| zilei solidarității        |           1 |
+| solidarității româno-polon |           1 |
+| româno-polon sărbătorita   |           1 |
+| sărbătorita săptămână      |           1 |
+| săptămână efectua          |           1 |
+| efectua vizită             |           1 |
+| vizită oficial             |           1 |
+| oficial polonia            |           1 |
+
+## 2026-03-08 — facebook-post
+
+| bigramă                     |   frecvență |
+|:----------------------------|------------:|
+| doamnelor domnișoarelor     |           1 |
+| domnișoarelor internațional |           1 |
+| internațional femeii        |           1 |
+| femeii mulțumi              |           1 |
+| mulțumi familie             |           1 |
+| familie dumneavoastră       |           1 |
+| dumneavoastră comunitate    |           1 |
+| comunitate des              |           1 |
+| des uitm                    |           1 |
+| uitm datorm                 |           1 |
+
+## 2026-03-09 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| antonio costa       |           2 |
+| tranziție energie   |           2 |
+| energie verde       |           2 |
+| uniune european     |           2 |
+| perspectivă românia |           2 |
+| convorbire antonio  |           1 |
+| costa președinte    |           1 |
+| președinte consiliu |           1 |
+| consiliu european   |           1 |
+| european cadru      |           1 |
+
+## 2026-03-09 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| deținuților politic   |           1 |
+| politic anticomuniști |           1 |
+| anticomuniști marca   |           1 |
+| marca martie          |           1 |
+| martie aminti         |           1 |
+| aminti curaj          |           1 |
+| curaj înfrunta        |           1 |
+| înfrunta abuzure      |           1 |
+| abuzure regim         |           1 |
+| regim comunist        |           1 |
+
+## 2026-03-10 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| preț energie             |           2 |
+| seară dialog             |           1 |
+| dialog aplica            |           1 |
+| aplica lider             |           1 |
+| lider european           |           1 |
+| european cadru           |           1 |
+| cadru reuniuni           |           1 |
+| reuniuni videoconferință |           1 |
+| videoconferință grup     |           1 |
+| grup stat                |           1 |
+
+## 2026-03-11 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| orientul mijlociu |           2 |
+| echipament forță  |           2 |
+| forță militar     |           2 |
+| convoca ședință   |           1 |
+| ședință csat      |           1 |
+| csat analiză      |           1 |
+| analiză evoluție  |           1 |
+| evoluție situație |           1 |
+| situație orientul |           1 |
+| mijlociu impact   |           1 |
+
+## 2026-03-12 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| vrea deveni         |           2 |
+| românia ucraina     |           2 |
+| semna președinte    |           1 |
+| președinte zelenski |           1 |
+| zelenski document   |           1 |
+| document oficial    |           1 |
+| oficial pune        |           1 |
+| pune bază           |           1 |
+| bază dezvoltare     |           1 |
+| dezvoltare proiect  |           1 |
+
+## 2026-03-12 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| sine asuma           |           2 |
+| minorităție român    |           2 |
+| reafirma susținere   |           2 |
+| uniune european      |           2 |
+| ura bun              |           1 |
+| bun veni             |           1 |
+| veni bucurești       |           1 |
+| bucurești președinte |           1 |
+| președinte volodîmîr |           1 |
+| volodîmîr zelenski   |           1 |
+
+## 2026-03-16 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| secretar general      |           2 |
+| elaborare politică    |           2 |
+| aderare românia       |           1 |
+| românia organizație   |           1 |
+| organizație cooperare |           1 |
+| cooperare dezvoltare  |           1 |
+| dezvoltare economic   |           1 |
+| economic obiectiv     |           1 |
+| obiectiv strategic    |           1 |
+| strategic asuma       |           1 |
+
+## 2026-03-16 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| omv petrom            |           3 |
+| neptun deep           |           2 |
+| românia vrea          |           2 |
+| termen scurt          |           2 |
+| scurt mediu           |           2 |
+| discuta alfred        |           1 |
+| alfred stern          |           1 |
+| stern președinte      |           1 |
+| președinte consiliu   |           1 |
+| consiliu supraveghere |           1 |
+
+## 2026-03-17 — facebook-post
+
+| bigramă        |   frecvență |
+|:---------------|------------:|
+| donare sânge   |           2 |
+| sânge salva    |           1 |
+| salva viață    |           1 |
+| viață împreună |           1 |
+| împreună gest  |           1 |
+| gest simplu    |           1 |
+| simplu acțiune |           1 |
+| acțiune ușor   |           1 |
+| ușor realiza   |           1 |
+| realiza putea  |           1 |
+
+## 2026-03-19 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| declarații presă  |           1 |
+| presă susține     |           1 |
+| susține bruxelles |           1 |
+| bruxelles regat   |           1 |
+| regat belgia      |           1 |
+
+## 2026-03-19 — facebook-post
+
+| bigramă                                     |   frecvență |
+|:--------------------------------------------|------------:|
+| mark rutte                                  |           3 |
+| secretar general                            |           2 |
+| general northatlantictreatyorganization     |           2 |
+| românia apăra                               |           1 |
+| apăra parte                                 |           1 |
+| parte northatlantictreatyorganization       |           1 |
+| northatlantictreatyorganization parteneriat |           1 |
+| parteneriat strategic                       |           1 |
+| strategic stat                              |           1 |
+| stat unit                                   |           1 |
+
+## 2026-03-20 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| decide alătura     |           1 |
+| alătura declarație |           1 |
+| declarație regat   |           1 |
+| regat unit         |           1 |
+| unit franța        |           1 |
+| franța germania    |           1 |
+| germania italia    |           1 |
+| italia olanda      |           1 |
+| olanda japonia     |           1 |
+| japonia privind    |           1 |
+
+## 2026-03-20 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| onoare bucurie      |           1 |
+| bucurie întâlni     |           1 |
+| întâlni bruxelles   |           1 |
+| bruxelles majestate |           1 |
+| majestate rege      |           1 |
+| rege philippe       |           1 |
+| philippe împreună   |           1 |
+| împreună discuție   |           1 |
+| discuție bun        |           1 |
+| bun apropia         |           1 |
+
+## 2026-03-21 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| constantin brâncuși |           3 |
+| institut cultural   |           2 |
+| cultural român      |           2 |
+| românia italia      |           2 |
+| muzeu național      |           2 |
+| național artă       |           2 |
+| expoziție europa    |           1 |
+| europa dedicată     |           1 |
+| dedicată constantin |           1 |
+| brâncuși naștere    |           1 |
+
+## 2026-03-22 — facebook-post
+
+| bigramă                        |   frecvență |
+|:-------------------------------|------------:|
+| reformă companiilor            |           2 |
+| companiilor stat               |           2 |
+| serviciu public                |           2 |
+| trecut bruxelles               |           1 |
+| bruxelles discuție             |           1 |
+| discuție oana                  |           1 |
+| oana gheorghiu                 |           1 |
+| gheorghiu viceprim-ministru    |           1 |
+| viceprim-ministru digitalizare |           1 |
+| digitalizare stat              |           1 |
+
+## 2026-03-23 — facebook-post
+
+| bigramă                   |   frecvență |
+|:--------------------------|------------:|
+| zilei internațional       |           2 |
+| internațional francofonie |           2 |
+| dacian cioloș             |           2 |
+| francofonia valoare       |           1 |
+| valoare promova           |           1 |
+| promova parte             |           1 |
+| parte identitate          |           1 |
+| identitate istoric        |           1 |
+| istoric românia           |           1 |
+| românia limbă             |           1 |
+
+## 2026-03-26 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| război informațional |           2 |
+| reclamă internet     |           2 |
+| informațional afecta |           1 |
+| afecta profesie      |           1 |
+| profesie medical     |           1 |
+| medical mesaj        |           1 |
+| mesaj ține           |           1 |
+| ține transmite       |           1 |
+| transmite cadru      |           1 |
+| cadru galei          |           1 |
+
+## 2026-03-27 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| securitate european |           2 |
+| primi palat         |           1 |
+| palat cotroceni     |           1 |
+| cotroceni prim      |           1 |
+| prim ministru       |           1 |
+| ministru slovacia   |           1 |
+| slovacia robert     |           1 |
+| robert fico         |           1 |
+| fico discuta        |           1 |
+| discuta agendă      |           1 |
+
+## 2026-03-27 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| întâlni palat        |           1 |
+| palat cotroceni      |           1 |
+| cotroceni numan      |           1 |
+| numan kurtulmuș      |           1 |
+| kurtulmuș președinte |           1 |
+| președinte marii     |           1 |
+| marii adunări        |           1 |
+| adunări național     |           1 |
+| național turciei     |           1 |
+| turciei dialog       |           1 |
+
+## 2026-03-30 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| proiect european    |           1 |
+| european trebui     |           1 |
+| trebui sine         |           1 |
+| sine concentra      |           1 |
+| concentra loc       |           1 |
+| loc muncă           |           1 |
+| muncă calitate      |           1 |
+| calitate investiție |           1 |
+| investiție educație |           1 |
+| educație sănătate   |           1 |
+
+## 2026-03-31 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| uniune european  |           3 |
+| lucru sine       |           2 |
+| aderare românia  |           1 |
+| românia uniune   |           1 |
+| european poveste |           1 |
+| poveste succes   |           1 |
+| succes țară      |           1 |
+| țară decalaj     |           1 |
+| decalaj istoric  |           1 |
+| istoric față     |           1 |
+
+## 2026-03-31 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| prim ministru       |           2 |
+| republicii moldova  |           2 |
+| alexandru munteanu  |           2 |
+| republică moldova   |           2 |
+| uniune european     |           2 |
+| discuție aplica     |           1 |
+| aplica prim         |           1 |
+| ministru republicii |           1 |
+| moldova alexandru   |           1 |
+| munteanu sine       |           1 |
+
+## 2026-03-31 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| apostolos tzitzikostas |           2 |
+| comisar european       |           2 |
+| european transport     |           2 |
+| republică moldova      |           2 |
+| transport asigurare    |           1 |
+| asigurare rută         |           1 |
+| rută sigur             |           1 |
+| sigur marfă            |           1 |
+| marfă căpăta           |           1 |
+| căpăta importanță      |           1 |
+
+## 2026-04-02 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| bucura brățăre       |           1 |
+| brățăre dacic        |           1 |
+| dacic coif           |           1 |
+| coif coțofenești     |           1 |
+| coțofenești recupera |           1 |
+| recupera felicit     |           1 |
+| felicit procuror     |           1 |
+| procuror român       |           1 |
+| român olandez        |           1 |
+| olandez parte        |           1 |
+
+## 2026-04-05 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| credincioșe celebra |           1 |
+| celebra înviere     |           1 |
+| înviere dori        |           1 |
+| dori sfânt          |           1 |
+| sfânt sărbător      |           1 |
+| sărbător prilej     |           1 |
+| prilej bucurie      |           1 |
+| bucurie alături     |           1 |
+| alături drag        |           1 |
+| drag speranță       |           1 |
+
+## 2026-04-07 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| mondial sănătate        |           1 |
+| sănătate transmite      |           1 |
+| transmite gând          |           1 |
+| gând recunoștință       |           1 |
+| recunoștință sistem     |           1 |
+| sistem sanitar          |           1 |
+| sanitar medic           |           1 |
+| medic asistent          |           1 |
+| asistent tehnician      |           1 |
+| tehnician administrator |           1 |
+
+## 2026-04-07 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| declarațiile presă |           1 |
+| presă susține      |           1 |
+| susține final      |           1 |
+| final vizită       |           1 |
+| vizită centru      |           1 |
+| centru arde        |           1 |
+| arde spital        |           1 |
+| spital clinic      |           1 |
+| clinic județean    |           1 |
+| județean urgență   |           1 |
+
+## 2026-04-08 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| fbi împreună            |           1 |
+| împreună partener       |           1 |
+| partener printre        |           1 |
+| printre sri             |           1 |
+| sri anunța              |           1 |
+| anunța destructurare    |           1 |
+| destructurare atac      |           1 |
+| atac informatic         |           1 |
+| informatic prelungi     |           1 |
+| prelungi infrastructură |           1 |
+
+## 2026-04-12 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| hristos înviat       |           1 |
+| înviat certitudine   |           1 |
+| certitudine reaminti |           1 |
+| reaminti triumf      |           1 |
+| triumf speranță      |           1 |
+| speranță putere      |           1 |
+| putere renașterii    |           1 |
+| renașterii moment    |           1 |
+| moment întoarce      |           1 |
+| întoarce valoare     |           1 |
+
+## 2026-04-20 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| trece revistă        |           1 |
+| revistă împreună     |           1 |
+| împreună ministru    |           1 |
+| ministru dragoș      |           1 |
+| dragoș pâslaru       |           1 |
+| pâslaru stadiu       |           1 |
+| stadiu implementare  |           1 |
+| implementare reformă |           1 |
+| reformă pnrr         |           1 |
+| pnrr investiție      |           1 |
+
+## 2026-04-22 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| criză politic         |           2 |
+| diferență opinie      |           2 |
+| consultare partid     |           1 |
+| partid pro-occidental |           1 |
+| pro-occidental actual |           1 |
+| actual coaliție       |           1 |
+| coaliție consultare   |           1 |
+| consultare informal   |           1 |
+| informal moment       |           1 |
+| moment politic        |           1 |
+
+## 2026-04-22 — facebook-post
+
+| bigramă                         |   frecvență |
+|:--------------------------------|------------:|
+| consultări partid               |           1 |
+| partid formațiune               |           1 |
+| formațiune politic              |           1 |
+| politic parlamentar             |           1 |
+| parlamentar partid              |           1 |
+| partid național                 |           1 |
+| național liberal                |           1 |
+| liberal partidulnaționalliberal |           1 |
+
+## 2026-04-22 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| live consultări     |           1 |
+| consultări partid   |           1 |
+| partid formațiune   |           1 |
+| formațiune politic  |           1 |
+| politic parlamentar |           1 |
+| parlamentar uniune  |           1 |
+| uniune salvați      |           1 |
+| salvați românia     |           1 |
+| românia usr         |           1 |
+
+## 2026-04-22 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| live consultare     |           1 |
+| consultare partid   |           1 |
+| partid formațiune   |           1 |
+| formațiune politic  |           1 |
+| politic parlamentar |           1 |
+| parlamentar uniune  |           1 |
+| uniune democrată    |           1 |
+| democrată maghiar   |           1 |
+| maghiar românia     |           1 |
+| românia udmr        |           1 |
+
+## 2026-04-22 — facebook-post
+
+| bigramă                   |   frecvență |
+|:--------------------------|------------:|
+| live consultări           |           1 |
+| consultări partid         |           1 |
+| partid formațiune         |           1 |
+| formațiune politic        |           1 |
+| politic parlamentar       |           1 |
+| parlamentar grup          |           1 |
+| grup parlamentar          |           1 |
+| parlamentar minorităților |           1 |
+| minorităților național    |           1 |
+
+## 2026-04-22 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| live consultare     |           1 |
+| consultare partid   |           1 |
+| partid formațiune   |           1 |
+| formațiune politic  |           1 |
+| politic parlamentar |           1 |
+| parlamentar partid  |           1 |
+| partid social       |           1 |
+| social democrat     |           1 |
+| democrat psd        |           1 |
+
+## 2026-04-22 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| live declarație  |           1 |
+| declarație presă |           1 |
+| presă susținut   |           1 |
+| susținut palat   |           1 |
+| palat cotroceni  |           1 |
+
+## 2026-04-23 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| promulga lege       |           1 |
+| lege prevenire      |           1 |
+| prevenire combatere |           1 |
+| combatere femicid   |           1 |
+| femicid violențu    |           1 |
+| violențu preceda    |           1 |
+| preceda violență    |           1 |
+| violență femeie     |           1 |
+| femeie înjositor    |           1 |
+| înjositor degradant |           1 |
+
+## 2026-04-23 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| consiliu european      |           3 |
+| reuniune informal      |           2 |
+| informal consiliu      |           2 |
+| viitor buget           |           2 |
+| buget uniuneaeuropeană |           2 |
+| coeziune trebui        |           2 |
+| particip cipru         |           1 |
+| cipru reuniune         |           1 |
+| european aborda        |           1 |
+| aborda serie           |           1 |
+
+## 2026-04-24 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| live declarațiile  |           1 |
+| declarațiile presă |           1 |
+| presă susține      |           1 |
+| susține final      |           1 |
+| final reuniuni     |           1 |
+| reuniuni informal  |           1 |
+| informal consiliu  |           1 |
+| consiliu european  |           1 |
+| european nicosia   |           1 |
+| nicosia republică  |           1 |
+
+## 2026-04-24 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| subiect important |           1 |
+| important românia |           1 |
+| românia aborda    |           1 |
+| aborda consiliu   |           1 |
+| consiliu european |           1 |
+| european informal |           1 |
+| informal cipru    |           1 |
+| cipru viitor      |           1 |
+| viitor cadru      |           1 |
+| cadru financiar   |           1 |
+
+## 2026-04-25 — facebook-post
+
+| bigramă                     |   frecvență |
+|:----------------------------|------------:|
+| semna asear                 |           1 |
+| asear demisiile             |           1 |
+| demisiile miniștrilor       |           1 |
+| miniștrilor social-democrat |           1 |
+| social-democrat propunere   |           1 |
+| propunere miniștru          |           1 |
+| miniștru interimar          |           1 |
+| interimar transmite         |           1 |
+| transmite guvern            |           1 |
+| guvern vrea                 |           1 |
+
+## 2026-04-28 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| dubrovnik marja      |           1 |
+| marja summit         |           1 |
+| summit inițiativa    |           1 |
+| inițiativa românia   |           1 |
+| românia înregistra   |           1 |
+| înregistra pas       |           1 |
+| pas important        |           1 |
+| important dezvoltare |           1 |
+| dezvoltare economie  |           1 |
+| economie consolidare |           1 |
+
+## 2026-04-28 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| marjă summit         |           1 |
+| summit inițiativa    |           1 |
+| inițiativa dubrovnik |           1 |
+| dubrovnik plăcere    |           1 |
+| plăcere discuta      |           1 |
+| discuta christian    |           1 |
+| christian stocker    |           1 |
+| stocker cancelaru    |           1 |
+| cancelaru federal    |           1 |
+| federal austria      |           1 |
+
+## 2026-04-28 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| live declarații      |           1 |
+| declarații presă     |           1 |
+| presă susține        |           1 |
+| susține marja        |           1 |
+| marja summit         |           1 |
+| summit inițiativa    |           1 |
+| inițiativa dubrovnik |           1 |
+| dubrovnik republică  |           1 |
+| republică croația    |           1 |
+
+## 2026-04-28 — facebook-post
+
+| bigramă                      |   frecvență |
+|:-----------------------------|------------:|
+| diplomatic intelligence      |           2 |
+| românia participa            |           1 |
+| participa activ              |           1 |
+| activ succes                 |           1 |
+| succes efort                 |           1 |
+| efort transatlantic          |           1 |
+| transatlantic coordonat      |           1 |
+| coordonat departament        |           1 |
+| departament stat             |           1 |
+| stat stateleunitealeamericii |           1 |
+
+## 2026-04-29 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| participa sesiune  |           1 |
+| sesiune special    |           1 |
+| special forumului  |           1 |
+| forumului afaceri  |           1 |
+| afaceri inițiativa |           1 |
+| inițiativa format  |           1 |
+| format relevant    |           1 |
+| relevant reuni     |           1 |
+| reuni țară         |           1 |
+| țară comunist      |           1 |
+
+## 2026-04-29 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| live declarațiile    |           1 |
+| declarațiile presă   |           1 |
+| presă susține        |           1 |
+| susține participare  |           1 |
+| participare forum    |           1 |
+| forum afaceri        |           1 |
+| afaceri inițiativa   |           1 |
+| inițiativa dubrovnik |           1 |
+| dubrovnik republică  |           1 |
+| republică croația    |           1 |
+
+## 2026-05-03 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| câștiga loc       |           3 |
+| campionat mondial |           2 |
+| mondial first     |           2 |
+| first tech        |           2 |
+| tech challenge    |           2 |
+| colegiu național  |           2 |
+| loc echipa        |           2 |
+| felicită elev     |           1 |
+| elev român        |           1 |
+| român lot         |           1 |
+
+## 2026-05-03 — facebook-post
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| vrea participa    |           2 |
+| drum armenia      |           1 |
+| armenia vrea      |           1 |
+| participa alături |           1 |
+| alături doamnă    |           1 |
+| doamnă președintă |           1 |
+| președintă maia   |           1 |
+| maia sandu        |           1 |
+| sandu grup        |           1 |
+| grup republică    |           1 |
+
+## 2026-05-04 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| plăcere întâlni  |           1 |
+| întâlni principe |           1 |
+| principe albert  |           1 |
+| albert -lea      |           1 |
+| -lea monaco      |           1 |
+| monaco summit    |           1 |
+| summit erevan    |           1 |
+| erevan românia   |           1 |
+| românia monaco   |           1 |
+| monaco împărtăși |           1 |
+
+## 2026-05-04 — facebook-post
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| organiza marja      |           1 |
+| marja reuniuni      |           1 |
+| reuniuni comunitate |           1 |
+| comunitate politic  |           1 |
+| politic european    |           1 |
+| european erevan     |           1 |
+| erevan eveniment    |           1 |
+| eveniment nivel     |           1 |
+| nivel înalt         |           1 |
+| înalt dedicat       |           1 |
+
+## 2026-05-04 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| live declarații      |           1 |
+| declarații presă     |           1 |
+| presă participare    |           1 |
+| participare reuniune |           1 |
+| reuniune comunitate  |           1 |
+| comunitate politic   |           1 |
+| politic european     |           1 |
+| european erevan      |           1 |
+| erevan republică     |           1 |
+| republică armenia    |           1 |
+
+## 2026-05-04 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| prieten european       |           1 |
+| european participare   |           1 |
+| participare discuție   |           1 |
+| discuție dezinformare  |           1 |
+| dezinformare amenințri |           1 |
+| amenințri hibrid       |           1 |
+| hibrid co-prezidat     |           1 |
+| co-prezidat împreun    |           1 |
+| împreun președinte     |           1 |
+| președinte muntenegru  |           1 |
+
+## 2026-05-05 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| live declarații  |           1 |
+| declarații presă |           1 |
+| presă susține    |           1 |
+| susține palat    |           1 |
+| palat cotroceni  |           1 |
+
+## 2026-05-09 — facebook-post
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| uniune european  |          11 |
+| românia uniune   |           5 |
+| sine duce        |           3 |
+| european însemna |           2 |
+| adevărat românia |           2 |
+| miliard euro     |           2 |
+| ban european     |           2 |
+| decât lozincă    |           2 |
+| loc dezbatere    |           2 |
+| interior uniune  |           2 |
+
+## 2026-05-12 — facebook-post
+
+| bigramă                                                 |   frecvență |
+|:--------------------------------------------------------|------------:|
+| politică extern                                         |           2 |
+| uniune european                                         |           2 |
+| european stateleunitealeamericii                        |           2 |
+| stateleunitealeamericii northatlantictreatyorganization |           2 |
+| europa puternic                                         |           2 |
+| puternic atât                                           |           2 |
+| northatlantictreatyorganization puternic                |           2 |
+| abordare strategic                                      |           1 |
+| strategic românia                                       |           1 |
+| românia privi                                           |           1 |
+
+## 2026-05-12 — facebook-post
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| discuție substanțial   |           1 |
+| substanțial președinte |           1 |
+| președinte polonia     |           1 |
+| polonia karol          |           1 |
+| karol nawrocki         |           1 |
+| nawrocki primi         |           1 |
+| primi palat            |           1 |
+| palat cotroceni        |           1 |
+| cotroceni summit       |           1 |
+| summit polonia         |           1 |
+
+## 2026-05-12 — facebook-post
+
+| bigramă                                 |   frecvență |
+|:----------------------------------------|------------:|
+| întâlnire lucru                         |           1 |
+| lucru alături                           |           1 |
+| alături secretar                        |           1 |
+| secretar general                        |           1 |
+| general northatlantictreatyorganization |           1 |
+| northatlantictreatyorganization mark    |           1 |
+| mark rutte                              |           1 |
+| rutte președinte                        |           1 |
+| președinte polonia                      |           1 |
+| polonia karol                           |           1 |
+
+## 2026-05-12 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| live declarații       |           1 |
+| declarații presă      |           1 |
+| presă comun           |           1 |
+| comun președinte      |           1 |
+| președinte republicii |           1 |
+| republicii polone     |           1 |
+| polone karol          |           1 |
+| karol nawrocki        |           1 |
+
+## 2026-05-12 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| live declarații          |           1 |
+| declarații presă         |           1 |
+| presă susține            |           1 |
+| susține participare      |           1 |
+| participare conferință   |           1 |
+| conferință internațional |           1 |
+| internațional black      |           1 |
+| black sea                |           1 |
+| sea and                  |           1 |
+| and balkans              |           1 |
+
+## 2026-05-12 — facebook-post
+
+| bigramă                  |   frecvență |
+|:-------------------------|------------:|
+| live participare         |           1 |
+| participare conferință   |           1 |
+| conferință internațional |           1 |
+| internațional black      |           1 |
+| black sea                |           1 |
+| sea and                  |           1 |
+| and balkans              |           1 |
+| balkans security         |           1 |
+| security forum           |           1 |
+
+## 2026-05-12 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| live primire          |           1 |
+| primire președinte    |           1 |
+| președinte republicii |           1 |
+| republicii polone     |           1 |
+| polone karol          |           1 |
+| karol nawrocki        |           1 |
+| nawrocki palat        |           1 |
+| palat cotroceni       |           1 |
+
+## 2026-05-12 — facebook-post
+
+| bigramă                                 |   frecvență |
+|:----------------------------------------|------------:|
+| live primire                            |           1 |
+| primire secretar                        |           1 |
+| secretar general                        |           1 |
+| general northatlantictreatyorganization |           1 |
+| northatlantictreatyorganization mark    |           1 |
+| mark rutte                              |           1 |
+| rutte palat                             |           1 |
+| palat cotroceni                         |           1 |
+
+## 2026-05-13 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| întrevedere excelent |           1 |
+| excelent președinte  |           1 |
+| președinte curtie    |           1 |
+| curtie european      |           1 |
+| european echrcedh    |           1 |
+| echrcedh mattias     |           1 |
+| mattias guyomar      |           1 |
+| guyomar reafirma     |           1 |
+| reafirma sprijin     |           1 |
+| sprijin ferm         |           1 |
+
+## 2026-05-13 — facebook-post
+
+| bigramă         |   frecvență |
+|:----------------|------------:|
+| bsummit romania |           1 |
+| romania polonia |           1 |
+| polonia ucraina |           1 |
+
+## 2026-05-13 — facebook-post
+
+| bigramă                                |   frecvență |
+|:---------------------------------------|------------:|
+| summit northatlantictreatyorganization |           2 |
+| exista prioritate                      |           2 |
+| securitate transatlantic               |           2 |
+| le- ura                                |           1 |
+| ura bun                                |           1 |
+| bun veni                               |           1 |
+| veni bucurești                         |           1 |
+| bucurești lider                        |           1 |
+| lider stat                             |           1 |
+| stat membră                            |           1 |
+
+## 2026-05-13 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| live declarații       |           1 |
+| declarații presă      |           1 |
+| presă comun           |           1 |
+| comun președinte      |           1 |
+| președinte românia    |           1 |
+| românia nicușor       |           1 |
+| nicușor dan           |           1 |
+| dan președinte        |           1 |
+| președinte republicii |           1 |
+| republicii polone     |           1 |
+
+## 2026-05-13 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| live primire          |           1 |
+| primire președinte    |           1 |
+| președinte ucraina    |           1 |
+| ucraina palat         |           1 |
+| palat cotroceni       |           1 |
+| cotroceni participare |           1 |
+| participare summit    |           1 |
+| summit bucurești      |           1 |
+
+## 2026-05-13 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| participare amplu    |           1 |
+| amplu bucurești      |           1 |
+| bucurești stat       |           1 |
+| stat format          |           1 |
+| format aliat         |           1 |
+| aliat zonă           |           1 |
+| zonă nordic          |           1 |
+| nordic întru         |           1 |
+| întru reuniune       |           1 |
+| reuniune constructiv |           1 |
+
+## 2026-05-13 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| președinte volodîmîr |           1 |
+| volodîmîr zelenski   |           1 |
+| zelenski invitat     |           1 |
+| invitat special      |           1 |
+| special summit       |           1 |
+| summit palat         |           1 |
+| palat cotroceni      |           1 |
+| cotroceni ocazie     |           1 |
+| ocazie consultare    |           1 |
+| consultare bilateral |           1 |
+
+## 2026-05-13 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| summit palat       |           1 |
+| palat cotroceni    |           1 |
+| cotroceni împreună |           1 |
+| împreună puternic  |           1 |
+
+## 2026-05-13 — facebook-post
+
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| unitate forță         |           1 |
+| forță coerență        |           1 |
+| coerență trebui       |           1 |
+| trebui ghida          |           1 |
+| ghida consolidare     |           1 |
+| consolidare flancului |           1 |
+| flancului estic       |           1 |
+| estic împreună        |           1 |
+| împreună siguranță    |           1 |
+| siguranță cetățen     |           1 |
+
+## 2026-05-13 — facebook-post
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| important palat      |           1 |
+| palat cotroceni      |           1 |
+| cotroceni loc        |           1 |
+| loc ediție           |           1 |
+| ediție summit        |           1 |
+| summit formatului    |           1 |
+| formatului bucurești |           1 |
+| bucurești temă       |           1 |
+| temă central         |           1 |
+| central oferi        |           1 |
+
+## 2026-05-14 — facebook-post
+
+| bigramă                                 |   frecvență |
+|:----------------------------------------|------------:|
+| summit reconfirma                       |           1 |
+| reconfirma lucru                        |           1 |
+| lucru esențial                          |           1 |
+| esențial securitate                     |           1 |
+| securitate europa                       |           1 |
+| europa forță                            |           1 |
+| forță northatlantictreatyorganization   |           1 |
+| northatlantictreatyorganization depinde |           1 |
+| depinde unitate                         |           1 |
+| unitate relație                         |           1 |
+
+## 2026-05-15 — facebook-post
+
+| bigramă                 |   frecvență |
+|:------------------------|------------:|
+| expoziție internațional |           2 |
+| industrie apărare       |           2 |
+| investițiile ține       |           1 |
+| ține apărare            |           1 |
+| apărare cetățean        |           1 |
+| cetățean deveni         |           1 |
+| deveni prioritate       |           1 |
+| prioritate actual       |           1 |
+| actual context          |           1 |
+| context global          |           1 |
+
+## 2026-05-15 — facebook-post
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| live declarații    |           1 |
+| declarații presă   |           1 |
+| presă susține      |           1 |
+| susține președinte |           1 |
+| președinte românia |           1 |
+| românia nicușor    |           1 |
+| nicușor dan        |           1 |
+| dan final          |           1 |
+| final vizită       |           1 |
+| vizită expoziție   |           1 |
+
+## 2026-05-21 — facebook-post
+
+| bigramă                   |   frecvență |
+|:--------------------------|------------:|
+| ong -urilor               |           3 |
+| societate civil           |           2 |
+| sugerez dezbatere         |           1 |
+| dezbatere cameră          |           1 |
+| cameră decizional         |           1 |
+| decizional invita         |           1 |
+| invita organizație        |           1 |
+| organizație reprezentativ |           1 |
+| reprezentativ societate   |           1 |
+| civil transparența        |           1 |
+
 ## 2025-05-08 — dezbatere-electorala
 
 | bigramă                                |   frecvență |

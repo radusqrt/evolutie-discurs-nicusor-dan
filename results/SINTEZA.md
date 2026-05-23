@@ -4,12 +4,13 @@
 
 | metric | valoare |
 |---|---:|
-| Documente canonice | **389** (după dedup) |
-| Documente brute colectate | 470 (81 near-duplicate eliminate, Jaccard ≥ 0.85) |
-| Cuvinte totale | ~476,694 |
+| Documente canonice | **715** (după dedup) |
+| Documente brute colectate | 797 (82 near-duplicate eliminate, Jaccard ≥ 0.85) |
+| Cuvinte totale | ~518,038 |
 | Perioadă acoperită | 18 luni (Dec 2024 → Mai 2026) |
-| Canale-sursă | 8 (Euronews, Digi24, Antena 3, B1, Privesc.Eu, Adm. Prez., canal personal, Kanal D) |
-| Verificat / diarizat | 468 / 470 brute (2 joint conferences rămân nediarizate) |
+| Surse | 9 (Euronews, Digi24, Antena 3, B1, Privesc.Eu, Adm. Prez., canal personal, Kanal D + **Facebook NicusorDan.ro**) |
+| Cu Facebook | **327 postări FB** (mai 2025 → mai 2026, ~41.6k cuvinte) |
+| Verificat / diarizat | 468 / 470 video-uri (2 joint conferences rămân); FB posts implicit monolog |
 
 **Pipeline de procesare** (fiecare pas are folder dedicat sau e materializat ca script):
 
@@ -24,16 +25,18 @@
 | 7. ANALYZE | Pasul 1 + Pasul 2 | `results/01_basic/`, `results/02_tfidf/` |
 | 8. INTERPRET | acest document | `results/SINTEZA.md` |
 
-**Distribuție pe perioade canonice** (după dedup):
+**Distribuție pe perioade canonice** (după dedup, cu Facebook):
 
 | Perioadă | Docs canonice | Cuvinte |
 |---|---:|---:|
 | 2024Q4-2025Q1 candidatură-precampanie | 29 | 53,037 |
-| 2025Q2 campanie + investitură | 75 | 89,564 |
-| 2025Q3 deficit + reformă economică | 47 | 98,591 |
-| 2025Q4 stabilizare + diplomație | 58 | 55,423 |
-| 2025Q4-2026Q1 reformă judiciară | **102** | 119,148 |
-| 2026Q2 cotitură UE + criză guvern | 78 | 60,927 |
+| 2025Q2 campanie + investitură | 112 | 91,898 |
+| 2025Q3 deficit + reformă economică | 101 | 104,150 |
+| 2025Q4 stabilizare + diplomație | 137 | 66,804 |
+| 2025Q4-2026Q1 reformă judiciară | **174** | 130,774 |
+| 2026Q2 cotitură UE + criză guvern | 162 | 71,375 |
+
+**Notă**: Facebook acoperă mai 2025 → mai 2026 (lipsește candidatura/precampanie). Pentru perioada Dec 2024-Apr 2025, doar surse video. Pentru perioada mandat, video + FB.
 
 ## Cele 6 etape ale discursului
 

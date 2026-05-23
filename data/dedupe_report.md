@@ -1,8 +1,8 @@
 # Dedup report
 
-- Original: **470** docs
-- Canonical: **389**
-- Dropped near-duplicates: **81**
+- Original: **797** docs
+- Canonical: **715**
+- Dropped near-duplicates: **82**
 - Threshold: Jaccard ≥ 0.85
 
 ## Clusters with dropped duplicates
@@ -390,6 +390,16 @@
 
 **Dropped:**
   - `youtube/2025-12-22_nicusor-dan-anunta-un-referendum-printre-magistrati-digi24_9GeSts.md` (Digi24HD, 152w): Nicușor Dan anunță un referendum printre magistrați #digi24
+
+### 2025-12-31
+
+**Kept canonical:** `oficial/2025-12-31_mesaj-anul-nou.md`
+  - channel: manual
+  - words: 293
+  - title: 2025-12-31_mesaj-anul-nou.md
+
+**Dropped:**
+  - `facebook/2025-12-31_in-pragul-unui-nou-an-ne-oprim-pentru-cateva-clipe-si-privim.md` (Facebook (NicusorDan.ro), 293w): În pragul unui nou an, ne oprim pentru câteva clipe și privim cu luciditate și o
 
 ### 2026-01-06
 
