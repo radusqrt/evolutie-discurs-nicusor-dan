@@ -1,0 +1,143 @@
+---
+data: 2025-05-29
+metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
+nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
+  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
+  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
+  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
+  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+sursa: https://www.youtube.com/watch?v=J7HVYpMU-5A
+sursa_aprecieri: null
+sursa_canal: Digi24HD
+sursa_canal_filter: Digi24 (search ND)
+sursa_descriere: 'Nicușor Dan a declarat că nu crede că un premier tehnocrat ar fi
+  varianta potrivită deoarece acesta nu ar avea „autoritate politică”. „Cel mai bine
+  este să avem un guvern care să vrea să lucreze trei ani și jumătate și cu un premier
+  politic”, a mai precizat președintele care nu a exclus un prim-ministru PSD.  ➥
+  Pentru mai multe știri vizitează site-ul Digi24 - https://www.digi24.ro/  ➥ Abonează-te
+  la canalul nostru de YouTube - https://bit.ly/36CZ907 #Digi24 #ȘtirileDigi24'
+sursa_durata_secunde: 289
+sursa_titlu: Nicușor Dan explică de ce nu vrea un premier tehnocrat în viitorul Guvern
+sursa_upload_timestamp: 1748506899
+sursa_video_id: J7HVYpMU-5A
+sursa_vizionari: 4553
+tip: video-transcript
+verificat: true
+vorbitor: nicusor_dan
+---
+
+[ND] în anumite porțiuni, lucrările au fost finalizate în proporție de 60%.
+
+Asta înseamnă că la Serviciul Român de Informații, la serviciul de pază și protecție, pentru că în aceste momente serviciile secrete, serviciile de informații de la noi din țară, după cum cunoașteți prea bine, sunt fără șefi sau parte din ei sunt pe interim.
+
+Bun, asta este o chestiune ulterioară pentru momente urgență e deficitul și forma de guvern.
+
+Care sunt concluziile după consultările pe care le ați avut ieri cu partidele?
+
+Fiecare dintre ele a înțeles că e nevoie să facem reduceri bugetare, inclusiv reduceri de cheltuieli ale statului și am agreat ca doi oameni de la fiecare din partidă să înceapă să lucreze începând de azi la o comisie de tăiare a cheltuieli.
+
+Ce măsură ați luat pentru securitatea națională?
+
+Pentru că știți prea bine, războiul este la graniță și toată lumea se întreabă ce face președintele cu securitatea națională?
+
+Achiziție de armament, discuții cu celelalte țări?
+
+Da, sunt preocuparea asta abia începe.
+
+O să am discuții cu cu ministrul apărării, cu șeful statului major.
+
+După cum știți, la începutul săptămânii viitoare o să merg la Vilnius.
+
+Pentru moment deficitul și guvernul.
+
+Există și părerea dumneavoastră despre situația economică a României?
+
+Ce părere v ați făcut ieri?
+
+Bun.
+
+Sunt, știți că eu am început să lucrez, am vorbit cu reprezentanți ai ministerului încă de săptămâna trecută și în momentul ăsta am datele mari.
+
+Întrebarea este care e asumare politică pe tăiere de cheltuieli și am fost cel puțin la acest moment impresia mea este că partidele au înțeles foarte bine și vor să tăiem.
+
+Într adevăr discuțiile de pe toată ziua de ieri.
+
+Pe surs a apărut informația unei posibile rocade la șefia guvernului.
+
+Tehnocrat.
+
+Nu vedeți această informație.
+
+A apărut pe surse că s a discutat inclusiv ieri la consultări.
+
+De asta vă întreb. sau vă dați seama că au fost multe ore și s au s au formulat multe idei.
+
+Ă deocamdată eu cred că cel mai bine și asta e varianta principală cel mai bine este să avem un guvern care să vrea să lucreze trei ani și jumătate și cu un premier politic.
+
+Dar ați făcut idee de cum va arăta acest guvern varianta în care să desemnați un premier tehnocrat.
+
+Excludeți această variantă?
+
+Pentru moment sunt discuții, nu exclud nimic, dar nu cred că e varianta potrivită pentru că un premier tehnocrat nu are autoritate în fața politici.
+
+V ați făcut o idee cum va arăta guvernul după toate discuțiile de ieri?
+
+Pentru moment discutăm de planul de măsuri economice.
+
+În paralel vor începe discuțiile pe celelalte capitole și abia după aceea pe oamenii care vor face. crește la 21% la 24%.
+
+Știm că aveți astăzi o întâlnire cu reprezentanții mediului de afaceri.
+
+Da, avem o întâlnire la nouă cu reprezentanții mediului de afaceri.
+
+Ăă o să comunicăm imediat după.
+
+Evident că ei nu vor mărire de taxe și e foarte logic din perspectiva lor.
+
+Noi avem o problemă cu colectarea de taxe pe care evident că n o s o rezolvăm în șase luni, dar o să Și din perspectiva dumneavoastră cum e?
+
+E la fel de logic pentru că ei sunt cei care ă țin de fapt economic statul în picioare și trebuie să le creăm un mediu care să le permită să se dezvolte.
+
+Au apărut informații potrivit cărora ar fi o variantă și eliminarea cotei de TVA de 5%.
+
+Puteți confirma?
+
+Nu, n a fost discuție despre asta. dumneavoastră ați spus câte doi oameni din fiecare partid, adică absolut toate care domnul Bolojan ier a spus că guvernul ar putea fi impus Da să crească taxele și impozile.
+
+Sunt niște discuții în curs care vor începe cu cifrele în mână azi.
+
+Azi la ora 3:00.
+
+După discuția cu Donald Trump, ce sprijin așteptați de la Statele Unite ale Americii?
+
+Am sprijinit.
+
+Da.
+
+Lucrul cel mai important după această discuție este că parteneriatul nostru va continua.
+
+Asta e lucrul cel mai important și dacă ați trimit invitația la merele ziceați că vă duceți dacă dacă vă invită.
+
+Dacă vă invită acum.
+
+Confirm.
+
+Da, confirm.
+
+Da, confirm.
+
+Și faptul că s a numit un ambasador e un lucru foarte bun.
+
+Le am mulțumit președintelui pentru asta.
+
+Cam asta.
+
+Un premier PSD este exclus.
+
+În momentul ăsta nu excludem nimic.
+
+Mulțumim frumos.
+
+Mulțumim frumos.
+
+Să zi frumoasă.

@@ -1,0 +1,45 @@
+---
+data: 2026-03-06
+metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
+nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
+  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
+  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
+  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
+  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+sursa: https://www.youtube.com/watch?v=BtBr8CwTDbw
+sursa_aprecieri: 16
+sursa_canal: Antena 3 CNN
+sursa_canal_filter: Antena 3 CNN (search ND)
+sursa_descriere: 'Președintele Nicușor Dan a declarat că România nu va găzdui focoase
+  nucleare pe teritoriul său, subliniind că protecția oferită de umbrela nucleară
+  a NATO nu presupune prezența armelor nucleare în țară.  Citeşte mai multe ştiri
+  şi află cele mai noi informaţii pe site-ul www.antena3.ro  #antena3 #antena3cnn
+  #stiri #nicusordan #nato Știri Antena 3, prima opțiune pentru știri online în timp
+  real din Romania și din lume'
+sursa_durata_secunde: 83
+sursa_titlu: 'Nicușor Dan: România nu va găzdui focoase nucleare în viitorul mediu'
+sursa_upload_timestamp: 1772779154
+sursa_video_id: BtBr8CwTDbw
+sursa_vizionari: 1266
+tip: video-transcript
+verificat: true
+vorbitor: nicusor_dan
+---
+
+[ND] România nu va găzdui focoase nucleare pe teritoriul său.
+
+[ND] Este anunțul făcut de șeful statului.
+
+Președintele Nicușor Dan a declarat că protecția oferită de umbrela nucleară a NATO nu presupune prezența armelor nucleare în țara noastră.
+
+[ND] Declarațiile vin în contextul în care surse oficiere de la Palatul Cotroceni au precizat că România analizează de mai mult timp propunerea Franței de a face parte din umbrela nucleară franceză.
+
+Încă din momentul în care România a intrat în NATO este protejată de umbrela nucleară NATO asigurată de Statele Unite și foarte important pentru că am văzut această întrebare în spațiul public a fi protejată de umbrela nucleară NATO nu presupune prezența unor elemente de natură nucleară pe teritoriul român.
+
+României, ca să fie foarte clar, și în viitorul mediu se pune problema ca componente nucleare să fie găzduite de teritoriul nostru.
+
+Ca să răspund unei întrebări care s a pus în spațiul public.
+
+În ceea ce privește discuția cu Franța, nu pot să vă spun mai mult decât că este o relație care vine de demult.
+
+Am

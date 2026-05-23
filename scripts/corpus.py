@@ -16,7 +16,11 @@ import stopwordsiso
 import spacy
 
 ROOT = Path(__file__).resolve().parent.parent
-RAW_DIR = ROOT / "data" / "raw"
+# Canonical (deduplicated) corpus is the source of truth for analysis.
+# Falls back to raw if 1_canonical doesn't exist yet.
+RAW_DIR = ROOT / "data" / "1_canonical"
+if not RAW_DIR.exists():
+    RAW_DIR = ROOT / "data" / "raw"
 
 
 @dataclass
