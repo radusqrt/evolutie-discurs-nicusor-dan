@@ -1,0 +1,41 @@
+---
+data: 2026-03-05
+metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
+nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
+  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
+  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
+  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
+  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+sursa: https://www.youtube.com/watch?v=CwBZv4dtY6k
+sursa_aprecieri: 124
+sursa_canal: Euronews Romania
+sursa_canal_filter: Euronews Romania (search ND)
+sursa_descriere: 'În cadrul unei conferințe de presă susținute în Polonia, președintele
+  României, Nicușor Dan, a vorbit despre situația tensionată din Orientul Mijlociu.  Acesta
+  a precizat că, în acest moment, nu există un pericol direct pentru România, motiv
+  pentru care nu a fost convocat Consiliul Suprem de Apărare a Țării.   Nicușor Dan
+  a declarat că: „Nu o să plângem Republica Islamică Iran.”.  Pentru cele mai recente
+  știri:  https://euronews.ro/  Abonați-vă la canalul nostru de Youtube: https://www.youtube.c'
+sursa_durata_secunde: 98
+sursa_titlu: 'Nicușor Dan: „Nu o să plângem Republica Islamică Iran.”.'
+sursa_upload_timestamp: 1772714419
+sursa_video_id: CwBZv4dtY6k
+sursa_vizionari: 9467
+tip: video-transcript
+verificat: true
+vorbitor: nicusor_dan
+---
+
+[ND] Legat de situația din Orientul Mijlociu, ăă nu am convocat Consiliul Suprem de Apărare a țării și nu l vom convoca cât lucrurile nu prezintă un pericol imediat direct pentru România.
+
+În schimb, evident că toată lumea din structurile tehnice cooperează.
+
+Prioritatea pentru noi este să ne asigurăm că cetățenii români care au fost prinși de conflict în regiune pot să revină acasă.
+
+Și aici cu totul sunt cam 5000 de români care nu sunt rezidenți în toate țările din regiune.
+
+N o să plângem Republica Islamică Iran.
+
+Da.
+
+Nu e vorba de iranieni, e vorba de un regim care a sponsorizat terorismul în regiune și care a destabilizat regiunea an la rând, care și a terorizat propriul popor și care ăă nu a avut rezonabilitatea de a coopera cu organisme. internaționale în în problema nucleară și care din aceste motive a fost supusă sancțiunilor europene.

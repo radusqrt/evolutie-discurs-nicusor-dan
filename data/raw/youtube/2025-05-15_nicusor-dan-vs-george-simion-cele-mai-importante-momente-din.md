@@ -1,23 +1,28 @@
 ---
 data: 2025-05-15
-tip: video-transcript
+metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
+nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
+  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
+  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
+  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
+  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
 sursa: https://www.youtube.com/watch?v=zXqTlmKdelQ
-sursa_video_id: zXqTlmKdelQ
-sursa_canal: "Nicusor Dan"
-sursa_canal_filter: "Nicușor Dan"
-sursa_titlu: "NICUȘOR DAN vs GEORGE SIMION – Cele mai importante momente din singura dezbatere TV!"
-sursa_durata_secunde: 262
-sursa_vizionari: 657542
 sursa_aprecieri: 6407
-sursa_descriere: "#nicusordan #georgesimion #dezbatere #alegeriprezidențiale"
+sursa_canal: Nicusor Dan
+sursa_canal_filter: Nicușor Dan
+sursa_descriere: '#nicusordan #georgesimion #dezbatere #alegeriprezidențiale'
+sursa_durata_secunde: 262
+sursa_titlu: NICUȘOR DAN vs GEORGE SIMION – Cele mai importante momente din singura
+  dezbatere TV!
 sursa_upload_timestamp: 1747292347
+sursa_video_id: zXqTlmKdelQ
+sursa_vizionari: 657542
+tip: video-transcript
+verificat: true
 vorbitor: nicusor_dan
-verificat: false
-metoda: youtube_transcript_api (captions automate RO)
-nota: Transcript auto-generat din YouTube. Pot exista erori de transcriere. Conține doar vocea lui ND DACĂ video-ul e monolog; pentru conferințe/dezbateri trebuie diarizat.
 ---
 
-Dacă ați fi antisistem, cum pretindeți domnul Simion, nu l ați fi pus pe lista de Parlament pe domnul George Becali, care a furat niște terenuri de la statul român.
+[ND] Dacă ați fi antisistem, cum pretindeți domnul Simion, nu l ați fi pus pe lista de Parlament pe domnul George Becali, care a furat niște terenuri de la statul român.
 
 Nu l ați fi pus pe lista parlamentară pe domnul Chelaru, care e aici, condamnat pentru că a furat niște apartamente de la statul român.
 

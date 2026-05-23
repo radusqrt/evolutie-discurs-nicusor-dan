@@ -1,23 +1,28 @@
 ---
 data: 2025-07-14
-tip: video-transcript
+metoda: heuristic diarization (format=markers, 59 ND segments, 63 JURNALIST segments)
+nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
+  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
+  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
+  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
+  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
 sursa: https://www.youtube.com/watch?v=cp-szgVKXBM
-sursa_video_id: cp-szgVKXBM
-sursa_canal: "Administrația Prezidențială"
-sursa_canal_filter: "Administrația Prezidențială"
-sursa_titlu: "Conferința de presă susținută de Președintele României, Nicușor Dan, la Palatul Cotroceni"
-sursa_durata_secunde: 5555
-sursa_vizionari: 12557
 sursa_aprecieri: 247
-sursa_descriere: ""
+sursa_canal: Administrația Prezidențială
+sursa_canal_filter: Administrația Prezidențială
+sursa_descriere: ''
+sursa_durata_secunde: 5555
+sursa_titlu: Conferința de presă susținută de Președintele României, Nicușor Dan,
+  la Palatul Cotroceni
 sursa_upload_timestamp: 1752491104
+sursa_video_id: cp-szgVKXBM
+sursa_vizionari: 12557
+tip: video-transcript
+verificat: true
 vorbitor: nicusor_dan
-verificat: false
-metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
-nota: Transcript auto-generat din YouTube. Conține doar vocea lui ND DACĂ video-ul e monolog; pentru conferințe/dezbateri trebuie diarizat.
 ---
 
-Bună dimineața.
+[ND] Bună dimineața.
 
 Așa cum am spus, o să facem regulat conferințe de presă în care o să spun preocupările curente. ăă ale administrației și mai ales o să răspund la toate întrebările dumneavoastră, n o să aveți limită de întrebări.
 
@@ -143,13 +148,17 @@ La fel, a existat un câmp în care persoanele puteau să opteze să își pună
 
 Ulterior le am scris mail tuturor și i am întrebat cine vrea să le publicăm numele, cine vrea să rămână confidențial și cam o să vedeți aproape jumătate au și au publicat numele și o să l aveți și ăă de asemenea declarația de avere o s o punem așa cum am spus pe site ul președenției pentru că așa spune legea e ea e mai incompletă decât documentele pe care o să vi le Da, în sensul că prevede numai împrumuturile pentru anul ăsta și donațiile pentru anul trecut.
 
-Dacă aveți întrebări. >> Bună ziua, domnule președinte.
+Dacă aveți întrebări.
+
+[JURNALIST] Bună ziua, domnule președinte.
 
 Marcobadexlicativ.com.
 
 Azi este 14 iulie și au trecut 742 de zile de când Serviciul Român de Informație e condus interimar și nu are un director civil numit. când ne putem aștepta de la dumneavoastră la o numire și în plus dacă luați în calcul să păstrați la conducerea anumitor servicii niște persoane care ocupă postul de foarte mult timp precum directorul SPP domnul Pahonțu pentru SRI într un timp ă relativ scurt.
 
-O să vedem când o să avem sesiuni parlamentare, pentru că, după cum știți eu fac propunere, iar Parlamentul trebuie să vot s o voteze. >> Vă propun și un scenariu politic.
+O să vedem când o să avem sesiuni parlamentare, pentru că, după cum știți eu fac propunere, iar Parlamentul trebuie să vot s o voteze.
+
+[ND] Vă propun și un scenariu politic.
 
 În eventualitatea în care în toamnă PSD decide să iasă de la guvernare și guvernul bolojan pierde sprijinul social democraților și se ajunge inclusiv la căderea guvernului în plină implementare a pachetelor 2 și 3.
 
@@ -159,7 +168,9 @@ Pentru moment, față de situația pe care o traversează România, este absolut
 
 Deci eu vreau să mulțumesc partidelor care și au asumat împreună guvernarea și formează această coaliție și îmi doresc ca această coaliție să dureze cât mai mult.
 
-Asta e ce pot să vă spun. >> Și ultima întrebare.
+Asta e ce pot să vă spun.
+
+[JURNALIST] Și ultima întrebare.
 
 Ne ați spus astăzi că componenta externă a României este slabă.
 
@@ -167,11 +178,15 @@ Mulți români s au întrebat în ultimele zile și cred că e normal să ne da�
 
 De ce nu ați participat în persoană la summitul de la Roma pentru Ucraina?
 
-Deși am avut acolo reprezentanți ai ministerului de externe și ai guvernului, dumneavoastră de ce n ați participat, cum au făcut alți lideri vecini Ucrainei, precum președinta Maia Sandu. >> Da, a fost această reuniune de la Roma.
+Deși am avut acolo reprezentanți ai ministerului de externe și ai guvernului, dumneavoastră de ce n ați participat, cum au făcut alți lideri vecini Ucrainei, precum președinta Maia Sandu.
+
+[ND] Da, a fost această reuniune de la Roma.
 
 Acolo a participat ministra de externe, a participat șeful cancelariei care coordonează ăă ca să spunem așa ăă intențiile administrative ale statului român în ceea ce privește reconstrucția.
 
-În cadrul reunii de la Roma a fost o întâlnire a așa numitei coaliții de voință la care am participat în format online. >> Bună ziua, domnule președinte.
+În cadrul reunii de la Roma a fost o întâlnire a așa numitei coaliții de voință la care am participat în format online.
+
+[JURNALIST] Bună ziua, domnule președinte.
 
 Ioana Bâlă, Radio România Actualități.
 
@@ -203,13 +218,19 @@ Nu le a făcut.
 
 Pentru ca să credem că vă redresați, trebuie să măriți niște venituri pe care putem să estimăm că ă vor reduce deficitul în luna următoare a punerilor în practică.
 
-Pe scurt, asta a fost. >> Bună ziua, Octavian Vasilescu, Euronews, România.
+Pe scurt, asta a fost.
+
+[ND] Bună ziua, Octavian Vasilescu, Euronews, România.
 
 Domnule președinte, până când are guvernul boloan un cec în alb pentru a redresa deficitul bugetar și dacă vă temeți că aceste măsuri ar putea în final mai mult să alimenteze valul extremist în vederea alegerilor din 2028?
 
 Este un guvern care are susținerea parlamentară.
 
-Da. și atâta timp cât perioadă pe care mi o doresc a fi cât mai lungă pentru binele României, atâta timp cât această coaliție va funcționa măsurile vor merge înainte. >> Credeți că ar rezista coaliția și dacă ar fi să mai avem alegeri pentru capitală în această toamnă? >> Cred că da.
+Da. și atâta timp cât perioadă pe care mi o doresc a fi cât mai lungă pentru binele României, atâta timp cât această coaliție va funcționa măsurile vor merge înainte.
+
+[JURNALIST] Credeți că ar rezista coaliția și dacă ar fi să mai avem alegeri pentru capitală în această toamnă?
+
+[ND] Cred că da.
 
 Cred că da.
 
@@ -221,11 +242,15 @@ Florentina Peaia de la Agenția Națională de Presă Agerpress.
 
 Ei, magistrații constată un adevărat blocaj în derularea acestor proceduri.
 
-Cum răspundeți acuzațiilor și când veți semna acele pensionări și numiri? >> Hm.
+Cum răspundeți acuzațiilor și când veți semna acele pensionări și numiri?
+
+[JURNALIST] Hm.
 
 Da.
 
-Ăă, >> eu cred că cred că și au ales prost persoana împotriva căreia să iasă cu un comunicat de presă.
+Ăă,
+
+[ND] eu cred că cred că și au ales prost persoana împotriva căreia să iasă cu un comunicat de presă.
 
 Eu sunt unul dintre politicienii care a fost des în instanța de judecată, care înțelege că sunt mulți magistrați care lucrează sâmbăta și duminica pentru a redacta, care înțelege că volumul de muncă este ă de multe ori peste puterile unei persoane.
 
@@ -291,9 +316,13 @@ Da.
 
 Eu cred că este legitim, nu să promovezi ă rezistența anticomunistă din Munții Făgăraș și sunt multe astfel de neclarități care lasă loc arbitrariului și eu nu cred.
 
-Evident, trebuie să avem o lege care să condamne manifestări ă xenofobe, antisemite, rasiste, de orice fel, fără discuție, dar o astfel de lege trebuie să fie foarte clară ca să nu lase loc la interpretări și eventual la abuzuri. >> Bună ziua, Constantin Tomaștrile Pro TV. legat de măsurile fiscale, spuneați ceva mai devreme că sunt ceva provizoriu.
+Evident, trebuie să avem o lege care să condamne manifestări ă xenofobe, antisemite, rasiste, de orice fel, fără discuție, dar o astfel de lege trebuie să fie foarte clară ca să nu lase loc la interpretări și eventual la abuzuri.
 
-După stabilizarea și redresarea economiei, din ce ați discutat cu ministru, cu premierul Ilie Bolojan, e posibil să reveniți asupra unor măsuri contestate de unele categorii sociale? >> Da, vă dați seama că totul este Hai să ne uităm la sporuri, de exemplu, da?
+[JURNALIST] Bună ziua, Constantin Tomaștrile Pro TV. legat de măsurile fiscale, spuneați ceva mai devreme că sunt ceva provizoriu.
+
+După stabilizarea și redresarea economiei, din ce ați discutat cu ministru, cu premierul Ilie Bolojan, e posibil să reveniți asupra unor măsuri contestate de unele categorii sociale?
+
+[ND] Da, vă dați seama că totul este Hai să ne uităm la sporuri, de exemplu, da?
 
 Sunt vreo 200 de sporuri care de a lungul timpului au fost acordate prin lege, prin unele sunt incluse în salariu, alte n sunt incluse în salariu.
 
@@ -315,7 +344,11 @@ Dar probabil că pentru a face asta ne trebuie un an, un an și jumătate.
 
 Deci acum ă ați văzut că am avut o atitudine nuanțată față de guvern. unde le dau dreptate este că au trebuit luate niște măsuri, ca să spunem așa, din topor, pentru că nu a existat timpul pentru analiză și ne presa timpul.
 
-Deci într un an, un an și jumătate am putea avea măsuri relaxate. >> Într un an, un an și jumătate am putea să avem o ăă un set de măsuri echilibrate de asupra impozitării și taxării în România. >> Și încă o întrebare, vă rog, legat de discuțiile din coaliția de guvernare.
+Deci într un an, un an și jumătate am putea avea măsuri relaxate.
+
+[JURNALIST] Într un an, un an și jumătate am putea să avem o ăă un set de măsuri echilibrate de asupra impozitării și taxării în România.
+
+[ND] Și încă o întrebare, vă rog, legat de discuțiile din coaliția de guvernare.
 
 Am văzut nemulțumirile PSD ului pe care le am văzut și atunci când s a format acest guvern.
 
@@ -325,7 +358,9 @@ Acum eu sunt, repet, eu sunt foarte mulțumit că toate cele patru partide și p
 
 Bineînțeles că într o coaliție cu patru partide și care e obligată să ia măsuri care de multe ori sunt nepopulare, tot timpul o să avem discuții care sunt și interne și externe.
 
-Pentru moment această coaliție funcționează și ăsta este lucru important pentru România. >> Mulțumesc.
+Pentru moment această coaliție funcționează și ăsta este lucru important pentru România.
+
+[JURNALIST] Mulțumesc.
 
 Bună ziua, domnule președinte.
 
@@ -361,7 +396,9 @@ Acum, sigur, avem o nouă componență, însă chiar și în această nouă comp
 
 Spunea că ar trebui totuși ca reforma să fie blândă, așa dat de înțeles.
 
-Voiam să vă întreb ce părere aveți dumneavoastră despre asta și dacă credeți că poate de această dată va fi ceva diferit la Curtea Constituțională dacă va ajunge reforma acolo. >> Nu, nu e vorba doar de Curtea Constituțională, e vorba și de calitatea legii.
+Voiam să vă întreb ce părere aveți dumneavoastră despre asta și dacă credeți că poate de această dată va fi ceva diferit la Curtea Constituțională dacă va ajunge reforma acolo.
+
+[ND] Nu, nu e vorba doar de Curtea Constituțională, e vorba și de calitatea legii.
 
 Da.
 
@@ -373,11 +410,15 @@ Din păcate, din păcate această prevedere, nu intru eu în toate subtilități
 
 Deci tocmai de aia e bine ca în momentul în care legiferezi s o faci gândindu te și la 20 de ani înainte, ceea ce din păcate nu s a întâmplat în România.
 
-Și ultimă întrebare, dacă î permiteți, voiam să vă întreb dacă veți reduce și dumneavoastră indemnizația cu 20% în în semn de solidaritate sau dacă considerați și dumneavoastră că e mai degrabă un gest populist, la fel ca premierul Ilie Bolojan. >> Da, eu ce am spus mai devreme a fost că am făcut analizele la administrația prezidențială și că putem să reducem bugetul administrației prezidențiale cu 20%.
+Și ultimă întrebare, dacă î permiteți, voiam să vă întreb dacă veți reduce și dumneavoastră indemnizația cu 20% în în semn de solidaritate sau dacă considerați și dumneavoastră că e mai degrabă un gest populist, la fel ca premierul Ilie Bolojan.
+
+[JURNALIST] Da, eu ce am spus mai devreme a fost că am făcut analizele la administrația prezidențială și că putem să reducem bugetul administrației prezidențiale cu 20%.
 
 Asta înseamnă 20 de milioane de RON.
 
-Da, mult mai mult decât 1000 RON sau 2000 pe care aș putea eu să i reduc din salariul meu. >> Bună ziua, Ramona Avramescu, Televiziunea Română.
+Da, mult mai mult decât 1000 RON sau 2000 pe care aș putea eu să i reduc din salariul meu.
+
+[ND] Bună ziua, Ramona Avramescu, Televiziunea Română.
 
 Ă, domnule președinte, aș vrea să revin puțin la atitudinea dumneavoastră, ați numit o nuanțată față de guvern.
 
@@ -401,17 +442,29 @@ Dar încrederea dumneavoastră în parteneriatul pe care l ați promis până la
 
 Spuneați la preluarea mandatului că aveți un armistițiu cu SPP în privința alegerii unei locuințe de protocol până la terminarea anului școlar.
 
-Ați luat o decizie în acest sens? >> S a prelungit >> până când? ca în la porțile Orientului.
+Ați luat o decizie în acest sens?
+
+[JURNALIST] S a prelungit
+
+[ND] până când? ca în la porțile Orientului.
 
 Nimic nu este bine definit.
 
 Încă câteva, una, două luni mai vedem.
 
-Da. >> Mulțumesc. >> Mai căutăm alternative. >> Bună ziua, Mădălin Puiu, România TV.
+Da.
+
+[JURNALIST] Mulțumesc.
+
+[ND] Mai căutăm alternative.
+
+[JURNALIST] Bună ziua, Mădălin Puiu, România TV.
 
 Domnule președinte, v aș întreba despre pozițiile Partidului Social Democrat. ați fost întrebat și mai devreme, însă sunt foarte mulți lideri care spun că PSD ar putea să iasă de la guvernare.
 
-Care este planul dumneavoastră dacă totuși se întâmplă acest lucru și dacă scenariul alegerilor anticipate ar putea exista? >> Nu.
+Care este planul dumneavoastră dacă totuși se întâmplă acest lucru și dacă scenariul alegerilor anticipate ar putea exista?
+
+[ND] Nu.
 
 Așa cum am spus de mai multe ori ă ceea ce contează în activitatea noastră este interesul național.
 
@@ -421,13 +474,19 @@ Interesul național este ca România să iasă din această dificultate financia
 
 Știm foarte bine, România a ratat intrarea în programul Visa Waver.
 
-Relațiile cu Statele Unite nu sunt cele mai bune în momentul de față. dacă vă gândiți totuși să schimbați ambasadorul din Statele Unite. >> Bun, e o întrebare generală pentru că ăă o să fie o evaluare pe întreg corpul diplomatic, așa cum am spus suferința este și mai mare la atașații comerciali.
+Relațiile cu Statele Unite nu sunt cele mai bune în momentul de față. dacă vă gândiți totuși să schimbați ambasadorul din Statele Unite.
+
+[JURNALIST] Bun, e o întrebare generală pentru că ăă o să fie o evaluare pe întreg corpul diplomatic, așa cum am spus suferința este și mai mare la atașații comerciali.
 
 În ceea ce privește relațiile cu Statele Unite, eu cred că suntem pentru pe suntem într un moment de normalitate ținând cont de să i spunem tensiunile, neînțelegerile care au fost acum șase ște luni.
 
-Ar putea exista după această evaluare o schimbare >> pentru O să fie o evaluare pentru toate pozițiile pe care România le are, pe care o le vom face împreună cu ministerul.
+Ar putea exista după această evaluare o schimbare
 
-Mulțumesc. >> Bună ziua, domnule președinte.
+[ND] pentru O să fie o evaluare pentru toate pozițiile pe care România le are, pe care o le vom face împreună cu ministerul.
+
+Mulțumesc.
+
+[JURNALIST] Bună ziua, domnule președinte.
 
 Robert Lupițu, calea Europeană.
 
@@ -459,7 +518,9 @@ Imediat ce o să vedem cifrele, în una două săptămâni, o să vedeți o pozi
 
 Ați menționat că o componentă importantă a vielor dumneavoastră externe de la Berlin și de la Viena vor fi forumuri cu oameni de afacere.
 
-Dar aș vrea să revin puțin la conferința privind reconstruția Ucrainei care a avut loc la la Roma și aș vrea să vă întreb ce strategie și ce dialog are statul statul român cu mediul de business autohton pentru ca România să se implice în reconstruția Ucrainei. >> Da, e o întrebare tehnică asta.
+Dar aș vrea să revin puțin la conferința privind reconstruția Ucrainei care a avut loc la la Roma și aș vrea să vă întreb ce strategie și ce dialog are statul statul român cu mediul de business autohton pentru ca România să se implice în reconstruția Ucrainei.
+
+[ND] Da, e o întrebare tehnică asta.
 
 Noi avem România are câteva avantaje.
 
@@ -469,11 +530,21 @@ Al doilea este faptul că în perioada aceasta de război ă au existat niște f
 
 Ăă, astea sunt și ă pe ă ăă această zon z zonă de tranzit logistic.
 
-Au fost niște firme românești care au fost implicate și care evident că sunt ă gata să ăă și ar fi foarte bine să continue imediat ce va începe procesul de reconstrucție. mai departe, ca să spun foarte onest, în ceea ce privește scanarea companiilor din România care ar putea să participe la procesul de reconstrucție, aici nu stăm deloc bine în momentul ăsta. >> Vă mulțumesc. >> Bună ziua, domnule președinte.
+Au fost niște firme românești care au fost implicate și care evident că sunt ă gata să ăă și ar fi foarte bine să continue imediat ce va începe procesul de reconstrucție. mai departe, ca să spun foarte onest, în ceea ce privește scanarea companiilor din România care ar putea să participe la procesul de reconstrucție, aici nu stăm deloc bine în momentul ăsta.
+
+[JURNALIST] Vă mulțumesc.
+
+[JURNALIST] Bună ziua, domnule președinte.
 
 Ioana Câmpean, G4 Media.
 
-Ăă, o primă întrebare este dacă ați avut vreo discuție cu Lia Savonea înainte de a și depune candidatura pentru funcția de președinte al Înaltei Curți de Casație și Justiție și dacă da, ce ați discutat cu aceasta? >> Am discutat cu mai multă lume, da, >> inclusiv cu Lia Savonea înainte de casă. >> Am discutat cu mai multă lume pe subiectul justiției și continu s o fac.
+Ăă, o primă întrebare este dacă ați avut vreo discuție cu Lia Savonea înainte de a și depune candidatura pentru funcția de președinte al Înaltei Curți de Casație și Justiție și dacă da, ce ați discutat cu aceasta?
+
+[ND] Am discutat cu mai multă lume, da,
+
+[JURNALIST] inclusiv cu Lia Savonea înainte de casă.
+
+[ND] Am discutat cu mai multă lume pe subiectul justiției și continu s o fac.
 
 Și o a doua întrebare, dacă î permiteți, este următoarea.
 
@@ -485,7 +556,9 @@ De la preluarea mandatului ați făcut o singură numire a unei noi persoane, do
 
 Cine face parte din aceasta și când veți numi noi consilieri?
 
-Menționez aici, de exemplu, că sunt departamente, cum este cel constituțional legislativ, care nu are în prezent nici consilier prezidențial, nici consilier de stat. >> Hm.
+Menționez aici, de exemplu, că sunt departamente, cum este cel constituțional legislativ, care nu are în prezent nici consilier prezidențial, nici consilier de stat.
+
+[JURNALIST] Hm.
 
 Da, da, da.
 
@@ -493,9 +566,17 @@ E o analiză care va mai dura una, două luni.
 
 Sunt persoane pe care mi le doresc să completeze.
 
-E o analiză care va mai dura una, două luni. >> Și mai am doar o completare, dacă puteți să faceți față de ceea ce ați spus pentru numirea noului director de la SRI.
+E o analiză care va mai dura una, două luni.
 
-Dacă veți ține cont aici de propunerile făcute de partidele din coaliție, poate fi un om politic. >> Propunerea, după cum știți, o face președintele și bineînțeles că >> fiind și momentul acesta delicat, nu mi doresc să facem jocuri, să propun oameni pe care eventual parlamentul să i respingă, o să mă consult cu partidele, dar numirea în mod constituțional o face președintele. >> Mulțumesc.
+[ND] Și mai am doar o completare, dacă puteți să faceți față de ceea ce ați spus pentru numirea noului director de la SRI.
+
+Dacă veți ține cont aici de propunerile făcute de partidele din coaliție, poate fi un om politic.
+
+[JURNALIST] Propunerea, după cum știți, o face președintele și bineînțeles că
+
+[ND] fiind și momentul acesta delicat, nu mi doresc să facem jocuri, să propun oameni pe care eventual parlamentul să i respingă, o să mă consult cu partidele, dar numirea în mod constituțional o face președintele.
+
+[JURNALIST] Mulțumesc.
 
 Bună ziua, Florin Răbdan, DC News.
 
@@ -503,7 +584,9 @@ Domnule președinte, ne ați vorbit la început despre banii din precampanie și
 
 Ne ați spus ce se întâmplă cu banii din împrumuturi, că se reîntorc la cei care v au împrumutat.
 
-Ce se întâmplă cu banii din donații, cu acea diferență care v a rămas. >> Da.
+Ce se întâmplă cu banii din donații, cu acea diferență care v a rămas.
+
+[ND] Da.
 
 Da.
 
@@ -523,7 +606,9 @@ E și mult mai să spun emoțional să dai pentru o cauză socială pentru că e
 
 Și aici suntem în suferință.
 
-Deci în ipoteza fericită în care autoritatea îmbrăvursează toți banii ăștia, cam asta e intenția. >> Bun.
+Deci în ipoteza fericită în care autoritatea îmbrăvursează toți banii ăștia, cam asta e intenția.
+
+[JURNALIST] Bun.
 
 Ați spus mai devreme că relația României cu Statele Unite este pe un trend pozitiv.
 
@@ -531,11 +616,15 @@ Aș vrea să vă amintesc faptul că doamna Oana Țoiu, ministrul de externe, ac
 
 Ce am văzut?
 
-Am văzut că a avut o discuție foarte cordială cu domnul Rubio, ceea ce nu poate să fie decât pozitiv. >> Și și o ultimă întrebare.
+Am văzut că a avut o discuție foarte cordială cu domnul Rubio, ceea ce nu poate să fie decât pozitiv.
+
+[ND] Și și o ultimă întrebare.
 
 Domnul Victor Orban a spus săptămâna trecută că și ar dori o întâlnire bilaterală cu dumneavoastră în care să discutați chestiuni economice, chestiuni militare și chestiuni care țin de război și pace.
 
-Ce îi răspundeți? >> Desigur.
+Ce îi răspundeți?
+
+[JURNALIST] Desigur.
 
 Da.
 
@@ -543,7 +632,9 @@ Da.
 
 Desigur, la un moment dat o să avem această discuție aprofundată.
 
-Mulțumesc. >> Bună ziua, domnule președinte.
+Mulțumesc.
+
+[JURNALIST] Bună ziua, domnule președinte.
 
 Loredana Diacă, Epoc România.
 
@@ -563,7 +654,11 @@ Evident că i vom voi consulta, dar propunerea va veni de la mine.
 
 Am niște persoane în cap, așa cum am avut și pentru Curtea Constituțională.
 
-Încă sunt în proces de analiză. >> La fel și pentru sie și SP. >> La fel.
+Încă sunt în proces de analiză.
+
+[ND] La fel și pentru sie și SP.
+
+[JURNALIST] La fel.
 
 Da.
 
@@ -597,7 +692,9 @@ Mai mult circulă pe surse informația că ICCMR ul, instituție care are doar 1
 
 Ă genocidul copiilor din orfelinatele comuniste urmează să fie comasată sau desființată.
 
-Aș vrea să vă întreb, domnule președinte, cum vedeți ideea desființării sau comasării CCMR ului și dacă în calitate de președinte intenționați să vă implicați într un proiect național, să i spunem, de recuperare a memoriei, de asumare a trecutului și da, de combaterea propagandei comuniste? >> Da.
+Aș vrea să vă întreb, domnule președinte, cum vedeți ideea desființării sau comasării CCMR ului și dacă în calitate de președinte intenționați să vă implicați într un proiect național, să i spunem, de recuperare a memoriei, de asumare a trecutului și da, de combaterea propagandei comuniste?
+
+[ND] Da.
 
 Da.
 
@@ -611,11 +708,17 @@ Apoi, da, aveți dreptate.
 
 Adică România nu a făcut destul pentru a explica și nu ne părat a explica, cât a explica într un limbaj care să fie în trend cu în trend în conexiune cu modul în care oamenii receptează informația azi. ce a fost regimul comunist pentru România, ce au fost anii '50 pentru România.
 
-Ăsta este un lucru pe care noi trebuie să l facem și da, un mare institut al comunismului la București este absolut necesar. >> Veți face demersuri în această direcție ca președintă?
+Ăsta este un lucru pe care noi trebuie să l facem și da, un mare institut al comunismului la București este absolut necesar.
 
-Puteți iniția un proiect de țară pe subiectul acesta? >> Da, da, da, da.
+[JURNALIST] Veți face demersuri în această direcție ca președintă?
 
-Am avut inclusiv la primărie în ultimii doi ani am avut o discuție mai multe discuții pe subiectul ăsta pentru că evident că cel mai mare muzeu pe subiectul ăsta ar trebui să fie în București. >> Mulțumesc.
+Puteți iniția un proiect de țară pe subiectul acesta?
+
+[ND] Da, da, da, da.
+
+Am avut inclusiv la primărie în ultimii doi ani am avut o discuție mai multe discuții pe subiectul ăsta pentru că evident că cel mai mare muzeu pe subiectul ăsta ar trebui să fie în București.
+
+[JURNALIST] Mulțumesc.
 
 Bună ziua, Laurențiu Ungureanu, Hot News.
 
@@ -623,31 +726,53 @@ Domnule președinte, una din temele care se discută intens în societate și î
 
 Care e opinia dumneavoastră?
 
-Vrem să știm, lăsăm ca societate ca până acum ca cineva care ia pensie publică să se poată angaja în sistemul public sau renunțăm la acumulare? >> Da, nu am o opinie.
+Vrem să știm, lăsăm ca societate ca până acum ca cineva care ia pensie publică să se poată angaja în sistemul public sau renunțăm la acumulare?
+
+[ND] Da, nu am o opinie.
 
 Adică ăă ăă mărturisesc că nu am ăă există două componente, o componentă juridică, dacă o astfel de interdicție ar fi sau n ar fi constituțională, asta este prima la care n am răspuns.
 
 Și a doua, o componentă, ca să i spunem așa, economică.
 
-Nu am aprofundat și nu vă dau un răspuns definitiv. >> Vă întrebam cu privire la un principiu și pentru că aveți un caz apropiat cel al omului despre care a spus că se ocupă cu siguranța dumneavoastră.
+Nu am aprofundat și nu vă dau un răspuns definitiv.
 
-Este vorba de generalul Lucian Pahonțul, șeful SPP, care cumulează pensia cu salariul și voiam să știu ca principiu ce părere aveți dumneavoastră despre acest fenomen >> H >> cu un exemplu concret.
+[JURNALIST] Vă întrebam cu privire la un principiu și pentru că aveți un caz apropiat cel al omului despre care a spus că se ocupă cu siguranța dumneavoastră.
 
-Rămân dator cu răspunsul după ce o să am opiniile și pro și contra. >> Dumneavoastră în trecut într o altă conferință de presă ne ați zis că veți analiza acest caz pe semne că analiza nu este încă finală, nu? >> Da.
+Este vorba de generalul Lucian Pahonțul, șeful SPP, care cumulează pensia cu salariul și voiam să știu ca principiu ce părere aveți dumneavoastră despre acest fenomen
+
+[ND] H
+
+[JURNALIST] cu un exemplu concret.
+
+Rămân dator cu răspunsul după ce o să am opiniile și pro și contra.
+
+[ND] Dumneavoastră în trecut într o altă conferință de presă ne ați zis că veți analiza acest caz pe semne că analiza nu este încă finală, nu?
+
+[JURNALIST] Da.
 
 Sunt multe lucruri de analizat.
 
-E o ierarhie de priorități. >> Mulțumesc.
+E o ierarhie de priorități.
+
+[ND] Mulțumesc.
 
 Și dacă î permiteți o clarificare, dumneavoastră ați spus mai devreme că bugetul administrației prezidențiale se va reduce cu 20%.
 
-Nu am înțeles ca o consecință va fi redus și salariul dumneavoastră cu 20% sau nu? >> Nu, n am spus asta.
+Nu am înțeles ca o consecință va fi redus și salariul dumneavoastră cu 20% sau nu?
+
+[JURNALIST] Nu, n am spus asta.
 
 Am spus că e important ca Importante sunt sumele mari.
 
 Repet întrebarea, poate nu m am făcut, bineînțeles.
 
-Ca o consecință a reducerii bugetului administrației prezidențiale cu 20% va fi redus și salariul dumneavoastră? >> Pentru moment nu există această intenție. >> Mulțumesc. >> Bună ziua, Iasmin Ardelan, știrile Canal D.
+Ca o consecință a reducerii bugetului administrației prezidențiale cu 20% va fi redus și salariul dumneavoastră?
+
+[ND] Pentru moment nu există această intenție.
+
+[JURNALIST] Mulțumesc.
+
+[ND] Bună ziua, Iasmin Ardelan, știrile Canal D.
 
 Domnule președinte, în 2024, nivelul oficial al sărăciei relative a fost stabilit la un nivel anual de 23000 RON pentru o persoană, ceea ce corespunde unei sume de aproximativ 63 RON pe zi, arată datele publicate de INS.
 
@@ -655,7 +780,9 @@ Numărul total al românilor care trăiesc sub acest prag a fost estimat la 4 mi
 
 Domnule președinte, majoritatea sunt afectați de măsurile măsurile luate de guvernul bolojan.
 
-Cum credeți că vor trece peste această perioadă și de la ce să facă economie? >> Da. [Muzică] Așa cum am spus, România a fost obligată să ia niște măsuri.
+Cum credeți că vor trece peste această perioadă și de la ce să facă economie?
+
+[JURNALIST] Da. [Muzică] Așa cum am spus, România a fost obligată să ia niște măsuri.
 
 A fost o presiune a timpului și ăă modul în care ă aceste măsuri afectează diferite părți ale populației nu a fost nu a fost uniform distribuit pe populație.
 
@@ -663,11 +790,15 @@ Asta pe de o parte.
 
 Pe de altă parte există diferite forme de ajutor pentru persoane vulnerabile ă care de asemenea nu sunt foarte bine coordonate unele cu celelalte.
 
-Deci ce cred eu că trebuie să facem în perioada imediat următoare este să avem o analiză pe măsurile de ajutor sociale, astfel încât și ele să fie mai bine echilibrate și eventual cumulate pentru că sunt multe și disparate și ministerele care le gestionează nu știu unele de altele. >> Și totuși de la ce ar trebui oamenii care nu se descurcă să facă economie?
+Deci ce cred eu că trebuie să facem în perioada imediat următoare este să avem o analiză pe măsurile de ajutor sociale, astfel încât și ele să fie mai bine echilibrate și eventual cumulate pentru că sunt multe și disparate și ministerele care le gestionează nu știu unele de altele.
+
+[ND] Și totuși de la ce ar trebui oamenii care nu se descurcă să facă economie?
 
 Asta este o decizia fiecăruia dintre ei.
 
-Evident că nu este o situație fericită pentru nimeni în momentul ăsta. >> Și de asemenea o întrebare pe alt subiect.
+Evident că nu este o situație fericită pentru nimeni în momentul ăsta.
+
+[JURNALIST] Și de asemenea o întrebare pe alt subiect.
 
 În weekend a avut loc cel mai mare festival de muzică pe litoral.
 
@@ -677,7 +808,9 @@ Cât de departe merge libertatea de exprimare și dacă considerați că astfel 
 
 Eu nu cred că ar trebui să fie pedepsite din punct de vedere legal.
 
-Eu cred că autoritățile statului român trebuie să facă tot ce țin de ele, astfel încât românii să respecte statul român. ăsta. >> Bună ziua, domnule președinte.
+Eu cred că autoritățile statului român trebuie să facă tot ce țin de ele, astfel încât românii să respecte statul român. ăsta.
+
+[JURNALIST] Bună ziua, domnule președinte.
 
 Cristian Ștefănescu Doice Cevele, în contextul în care Europa are nevoie de o industrie de apărare competitivă și România își propune să se integreze în acest efort european, cum explicați faptul că investiții strategice, precum cea a concernului german, pentru că tot mergeți la Berlin, rain metal avansează greu din cauza birocrației și a întârzierilor în obținerea avizelor.
 
@@ -685,9 +818,17 @@ Partenerii germani au semnalat astfel aceste blocaje și platforma destinată pr
 
 Ăă și există și investitori cu un trecut istoric cu un istoric controversat legat de statul rus.
 
-Ce părere aveți despre această situație și cum poate România să se manifeste ca un partener de încredere în procesul de înarmare colectivă? >> Da, da, mulțumesc de întrebare. >> Știm toți ă știm toți, cunoaștem toți birocrația din România. [Muzică] Acum a devenit chestiunea de securitate a devenit importantă și din cauza asta, dincolo de efortul general de a eficientiza ăă activitatea instituțiilor statului cele care privesc securitatea vor avea prioritate, dar din nou e o chestiune de timp până când vom remedia.
+Ce părere aveți despre această situație și cum poate România să se manifeste ca un partener de încredere în procesul de înarmare colectivă?
 
-Asta este. >> Deci vă veți adresa Parlamentului cu rugămintea de a accelera procesul legislativ și a simplifica legislația? >> Da, da, sigur.
+[ND] Da, da, mulțumesc de întrebare.
+
+[JURNALIST] Știm toți ă știm toți, cunoaștem toți birocrația din România. [Muzică] Acum a devenit chestiunea de securitate a devenit importantă și din cauza asta, dincolo de efortul general de a eficientiza ăă activitatea instituțiilor statului cele care privesc securitatea vor avea prioritate, dar din nou e o chestiune de timp până când vom remedia.
+
+Asta este.
+
+[ND] Deci vă veți adresa Parlamentului cu rugămintea de a accelera procesul legislativ și a simplifica legislația?
+
+[JURNALIST] Da, da, sigur.
 
 Sigur.
 
@@ -697,11 +838,19 @@ Există sprijinul meu, sincer.
 
 Și tot legat de Berlin.
 
-Întâlnirea dumneavoastră cu cu cancelarul federal Merț are legătură și cu familia politică la care intenționat să vă afiliați cumva? >> Nu cred. să vor fi chestiuni bilaterale. >> Și o ultimă întrebare în legătură cu recentul incident de la Cernăuț, bombardarea de către Rusia a zonei Bucovinei de Nord dată fiind relația istorică tradițională pe care România o are cu oamenii din partea aceea.
+Întâlnirea dumneavoastră cu cu cancelarul federal Merț are legătură și cu familia politică la care intenționat să vă afiliați cumva?
+
+[ND] Nu cred. să vor fi chestiuni bilaterale.
+
+[JURNALIST] Și o ultimă întrebare în legătură cu recentul incident de la Cernăuț, bombardarea de către Rusia a zonei Bucovinei de Nord dată fiind relația istorică tradițională pe care România o are cu oamenii din partea aceea.
 
 A existat vreun demers pentru a sprijini comunitatea din partea aceea?
 
-Nu știu în momentul acesta, poate la nivelul ministerului de externe. >> Mulțumesc. >> Bună ziua, Mas Stoica Digi24.
+Nu știu în momentul acesta, poate la nivelul ministerului de externe.
+
+[ND] Mulțumesc.
+
+[JURNALIST] Bună ziua, Mas Stoica Digi24.
 
 În momentul de față, la jumătatea anului, vorbim deja de 30 de cazuri, cel puțin știute de femicid.
 
@@ -715,43 +864,71 @@ Da, statul român nu dă o impresie de forță de fermitate care să descurajeze
 
 Putem să vorbim de ă ă procesul legislativ, de cât de ă cât de bune sau rele sunt legile, dar ăă lucrul cel mai important este că ăă legile nu sunt aplicate sau sunt aplicate într un termen care încurajează ăă infracțiunea.
 
-Deci în momentul în care ăă vă mărturisesc că nu am ajuns la momentul la care să facem o analiză temeinică a activității parchetului, dar sunt în momentul în care o vom face, acest fenomen o să fie dintre cele la care ne vom uita cu atenție, Dar considerați că este o problemă gravă în țara noastră? >> Da.
+Deci în momentul în care ăă vă mărturisesc că nu am ajuns la momentul la care să facem o analiză temeinică a activității parchetului, dar sunt în momentul în care o vom face, acest fenomen o să fie dintre cele la care ne vom uita cu atenție, Dar considerați că este o problemă gravă în țara noastră?
+
+[ND] Da.
 
 Da, este o problemă gravă.
 
-Este o problemă de mentalitate, da, condiția femeii și este o problemă de slăbiciune a statului român față acestui fenomen. >> Aș vrea să vă mai întreb despre promisiunea din campanie.
+Este o problemă de mentalitate, da, condiția femeii și este o problemă de slăbiciune a statului român față acestui fenomen.
 
-Promisiunea care poate a dezamăgit o parte dintre votanții dumneavoastră, cea în privința creșterii TVA ului și dacă vă așteptați ca oamenii să nu mai aibă încredere în dumneavoastră după această încălcare a promisiunii, chiar dacă nu direct de către dumneavoastră. >> Să vedem.
+[JURNALIST] Aș vrea să vă mai întreb despre promisiunea din campanie.
+
+Promisiunea care poate a dezamăgit o parte dintre votanții dumneavoastră, cea în privința creșterii TVA ului și dacă vă așteptați ca oamenii să nu mai aibă încredere în dumneavoastră după această încălcare a promisiunii, chiar dacă nu direct de către dumneavoastră.
+
+[ND] Să vedem.
 
 Tot timpul ca politician ești ești evaluat de oameni.
 
 Sper ca prin tot ce fac aici să am în continuare încrederea lor.
 
-Da. >> Credeți că a fost o promisiune imprudentă?
+Da.
 
-Eu cred că a fost o promisiune corectă și toată analiza pe care am făcut o în acea lună înainte de investirea guvernului a confirmat o. >> Mulțumesc. >> Bună ziua, Sebastian Zacan, prima TV și News.ro.
+[JURNALIST] Credeți că a fost o promisiune imprudentă?
+
+Eu cred că a fost o promisiune corectă și toată analiza pe care am făcut o în acea lună înainte de investirea guvernului a confirmat o.
+
+[ND] Mulțumesc.
+
+[JURNALIST] Bună ziua, Sebastian Zacan, prima TV și News.ro.
 
 Domnule președinte, avem un acord în coaliția de guvernare, un acord pe care se bazează această coaliție, un acord acceptat și de dumneavoastră care spune că în primăvara anului 2027 va fi o nouă rotație a premierilor.
 
 Va pleca Ilie Bolojan, va veni liderul PSD, Sorin Grindeanu, momentan președinte interimar al PSD.
 
-Cum credeți că văd această posibilă mutare cu Sorin Grindeanu în fruntea guvernului? cele 6 milioane de oameni care v au votat în luna mai ca să veniți cu o agendă reformistă, cu oameni care să aducă un suflu, cu fețe noi în fruntea statului român. >> Am încercat să explic de mai multe ori lucrul ăsta.
+Cum credeți că văd această posibilă mutare cu Sorin Grindeanu în fruntea guvernului? cele 6 milioane de oameni care v au votat în luna mai ca să veniți cu o agendă reformistă, cu oameni care să aducă un suflu, cu fețe noi în fruntea statului român.
+
+[ND] Am încercat să explic de mai multe ori lucrul ăsta.
 
 Tot timpul trebuie să iei decizii care să, în opinia mea, care să satisfacă, să răspundă interesului societății din respectivul moment. în momentul pe care noi îl trăim acum două trei săptămâni când a fost în vestirea guvernului, imperativul pentru România în relația cu în special cu piețele financiere a fost un guvern stabil și eu sunt foarte fericit că cele patru partide și minoritățile au înțeles imperativul.
 
 Asta este.
 
-Evident că în politică tot timpul îți dorești multe și realitatea votului și a majorităților care ne guvernează îți permit să faci mai multe sau mai puțin. >> Deci în aprilie 2027 dacă Sorin Grindeanu va fi președintele PSD și propunerea PSD pentru funcția de prim ministru, veți accepta această propunere?
+Evident că în politică tot timpul îți dorești multe și realitatea votului și a majorităților care ne guvernează îți permit să faci mai multe sau mai puțin.
 
-Protocolul semnat de partide prevede o rotație în 2027 și nu prevede un nume, dar prevede o poziție de prim ministru pentru Partidul Social Democrat. >> Așa este.
+[JURNALIST] Deci în aprilie 2027 dacă Sorin Grindeanu va fi președintele PSD și propunerea PSD pentru funcția de prim ministru, veți accepta această propunere?
 
-Nu prevede un nume, dar dacă Sorin Grindeanu va fi propus de PSD la acel moment, ce veți face? >> Haideți să ajungem în 2027, să intrăm între timp în OCDE.
+Protocolul semnat de partide prevede o rotație în 2027 și nu prevede un nume, dar prevede o poziție de prim ministru pentru Partidul Social Democrat.
 
-Mai avem mult, mult, mult până acolo. >> Bun.
+[ND] Așa este.
+
+Nu prevede un nume, dar dacă Sorin Grindeanu va fi propus de PSD la acel moment, ce veți face?
+
+[JURNALIST] Haideți să ajungem în 2027, să intrăm între timp în OCDE.
+
+Mai avem mult, mult, mult până acolo.
+
+[ND] Bun.
 
 Până să ajungem în 2027, putem să întoarcem puțin timpul în 2017 când Săin Grindeanu a dat acea ordonanță de urgență, celebra OC13, care l ar fi salvat pe Liviu Dragnea de închisoare.
 
-Ați fost în stradă atunci să protestați față de ordonanța 13 și împotriva domnului Grindeanu? >> Da, sunt mărturii video. >> Deci ați fost în fața guvernului. >> Da.
+Ați fost în stradă atunci să protestați față de ordonanța 13 și împotriva domnului Grindeanu?
+
+[JURNALIST] Da, sunt mărturii video.
+
+[ND] Deci ați fost în fața guvernului.
+
+[JURNALIST] Da.
 
 Și nu vi se pare acum un compromis totuși nerezonabil ca la o diferență de câțiva ani să l numiți pe acel om față de care ați protestat în fruntea guvernului?
 
@@ -763,21 +940,35 @@ Avem o majoritate parlamentară.
 
 Suntem într un context care nu ne permite aventuri de tip alegeri anticipate.
 
-Președintele va lucra cu majoritatea parlamentară și relația pe care eu am avut o în aceste două luni cu Partidul Social Democrat a fost una absolut corectă. >> Mulțumesc.
+Președintele va lucra cu majoritatea parlamentară și relația pe care eu am avut o în aceste două luni cu Partidul Social Democrat a fost una absolut corectă.
+
+[ND] Mulțumesc.
 
 Bună ziua, Alexandru Tudor de la Gândul.
 
 Într o conferință de presă de la începutul lunii iunie ați declarat că începând de luna aceasta din iulie o preocupare importantă va deveni anularea alegerilor și justiția.
 
-Vreau să vă întreb dacă ați început să cereți clarificări suplimentare de la servicii sau alte instituții abilitate sau informații noi despre anularea alegerilor. >> Da, și pe una și pe cealaltă.
+Vreau să vă întreb dacă ați început să cereți clarificări suplimentare de la servicii sau alte instituții abilitate sau informații noi despre anularea alegerilor.
 
-Am început discuții, însă cred că este corect din partea mea să vin în fața dumneavoastră în momentul în care am niște răspunsuri. >> La Congresul USR, domnul Dominic Friț, președintele partidului, i a declarat că dacă dumneavoastră îi veți cere va schimba fără să clipească un ministru, făcând referire mai ales la doamna Oana Țoiu sau la domnul Ionuț Moșteanu.
+[JURNALIST] Da, și pe una și pe cealaltă.
 
-Vreau să vă întreb până unde vă veți implica în activitatea guvernului și ce ar trebui să nu facă cei doi miniștri pentru a cere schimbarea lor. >> Da, așa cum am spus mai devreme, sunt trei miniștri care întâmplător din la de la USR și cu care am o sunt obligat să am o relație apropiată. ministrul de externe, ministrul apărării și ministrul economiei până sunt persoane cu care pe care le cunosc, cu care am lucrat ă și până în momentul ăsta avem o relație foarte bună. >> Și ce n ar trebui să facă cei doi miniștri mai ales pentru a cere schimbarea lor?
+Am început discuții, însă cred că este corect din partea mea să vin în fața dumneavoastră în momentul în care am niște răspunsuri.
+
+[ND] La Congresul USR, domnul Dominic Friț, președintele partidului, i a declarat că dacă dumneavoastră îi veți cere va schimba fără să clipească un ministru, făcând referire mai ales la doamna Oana Țoiu sau la domnul Ionuț Moșteanu.
+
+Vreau să vă întreb până unde vă veți implica în activitatea guvernului și ce ar trebui să nu facă cei doi miniștri pentru a cere schimbarea lor.
+
+[JURNALIST] Da, așa cum am spus mai devreme, sunt trei miniștri care întâmplător din la de la USR și cu care am o sunt obligat să am o relație apropiată. ministrul de externe, ministrul apărării și ministrul economiei până sunt persoane cu care pe care le cunosc, cu care am lucrat ă și până în momentul ăsta avem o relație foarte bună.
+
+[ND] Și ce n ar trebui să facă cei doi miniștri mai ales pentru a cere schimbarea lor?
 
 Vă dau seama că sunt foarte multe chestiuni tehnice în care suntem implicați și este un contact ă de mai de mai multe ori într o săptămână cu fiecare dintre ei.
 
-Ă sunt niște persoane în care am încredere în toate trei. >> Mulțumesc. >> Bună ziua, Anca Grădinaru, Europa Liberă.
+Ă sunt niște persoane în care am încredere în toate trei.
+
+[JURNALIST] Mulțumesc.
+
+[ND] Bună ziua, Anca Grădinaru, Europa Liberă.
 
 Domnule președinte, Statele Unite și președintele Donald Trump iau în calcul să sprijine mai intens Ucraina, inclusiv cu sisteme Patriot.
 
@@ -805,9 +996,15 @@ P, așa cum am spus, avem un termen 29 iulie, după care comisia are un termen 1
 
 Și o ultimă întrebare, pentru că nu am văzut în comunicatul de după ultima ședință a Consiliului Suprem de Apărare a țării, cele două legi ale apărării rămase neadoptate, legea pregătirii populației pentru apărare și legea apărării naționale, care sunt în avizare de vreo trei ani, cred că deja au ajuns la CSAT pentru aviz sau nu au fost discutate în ultima ședință CSAT.
 
-Asta e ce pot să vă spun. >> Știți unde se află în acest moment?
+Asta e ce pot să vă spun.
 
-În momentul acesta eu nu >> Mulțumesc frumos. >> Bună ziua, domnule președinte.
+[JURNALIST] Știți unde se află în acest moment?
+
+În momentul acesta eu nu
+
+[ND] Mulțumesc frumos.
+
+[JURNALIST] Bună ziua, domnule președinte.
 
 Marius Gârlașiu, Observator Antena 1.
 
@@ -815,7 +1012,9 @@ La precedenta conferință de presă a spus că după instalarea guvernului și 
 
 Aș vrea să vă întreb dacă în viziunea dumneavoastră sunteți mulțumit de activitatea Direcției Naționale Anticorupție sub conducerea procurorului șef Marius Voineag.
 
-Dacă sunteți mulțumit de activitatea Parchetului General sub conducerea procurorului general Alex Florența, considerați că cei doi ar trebui schimbați din funcție și ar trebui resetată lupta anticorupție și cum vă veți implica concret? >> Da, da.
+Dacă sunteți mulțumit de activitatea Parchetului General sub conducerea procurorului general Alex Florența, considerați că cei doi ar trebui schimbați din funcție și ar trebui resetată lupta anticorupție și cum vă veți implica concret?
+
+[ND] Da, da.
 
 Nu sunt mulțumit.
 
@@ -829,11 +1028,17 @@ Acum fiecare dintre ei mai are un mandat, nu știu, șase ște luni, ceva de gen
 
 Cred că este util să forțăm.
 
-Însă pentru ăă în momentul în care o să fie discuția despre ăă noii șefi ai parchetelor analiza va fi foarte serioasă și așa cum am răspuns colegilor dumneavoastră mai devreme, așa cum am spus, imediat după ce guvernul s a format am început să am discuții despre zona de justiție cu oamenii din justiție, dar ele vor continua. >> Bun.
+Însă pentru ăă în momentul în care o să fie discuția despre ăă noii șefi ai parchetelor analiza va fi foarte serioasă și așa cum am răspuns colegilor dumneavoastră mai devreme, așa cum am spus, imediat după ce guvernul s a format am început să am discuții despre zona de justiție cu oamenii din justiție, dar ele vor continua.
 
-Dar dacă la momentul numirii vor exista interese sau presiuni din partea partidelor aflate la guvernare, veți negocia cu partidele politice numirile în aceste funcții? >> Obligatoriu, sigur.
+[JURNALIST] Bun.
 
-Da. >> Și în contextul măsurilor de austeritate, dacă î permiteți o altă întrebare, ați dat în trecut acel exemplu cu pizza.
+Dar dacă la momentul numirii vor exista interese sau presiuni din partea partidelor aflate la guvernare, veți negocia cu partidele politice numirile în aceste funcții?
+
+[ND] Obligatoriu, sigur.
+
+Da.
+
+[JURNALIST] Și în contextul măsurilor de austeritate, dacă î permiteți o altă întrebare, ați dat în trecut acel exemplu cu pizza.
 
 În contextul măsurilor de austeritate, aș vrea să vă prezint câteva cifre.
 
@@ -863,9 +1068,13 @@ Trebuie să împărțim trebuie să împărțim întrebarea dumneavoastră în t
 
 Bineînțeles că putem să discutăm de Putem să discutăm de sume, de limita de 3%, putem să discutăm de multe lucruri, dar fără o astfel de ăă prevedere legală, eu n aș fi avut niciodată 60 de milioane de RON cu care să ă fiu valid în competiția care a avut loc pentru președenția României.
 
-Deci aici eu cred că e un lucru bun pe care statul român astfel încât partidele și competitorii să nu se ducă la fel de fel de oameni să ceară bani contra fel de fel de servicii, așa cum s a întâmplat mult timp în România. [Muzică] În ceea ce privește subvențiile anuale pentru partide, da, aici sunt de acord că și aici trebuie să avem o reducere și sper ca pachetul de măsuri să cuprindă astfel de o astfel de reducere. >> Reducere de 20%, de 30%.
+Deci aici eu cred că e un lucru bun pe care statul român astfel încât partidele și competitorii să nu se ducă la fel de fel de oameni să ceară bani contra fel de fel de servicii, așa cum s a întâmplat mult timp în România. [Muzică] În ceea ce privește subvențiile anuale pentru partide, da, aici sunt de acord că și aici trebuie să avem o reducere și sper ca pachetul de măsuri să cuprindă astfel de o astfel de reducere.
 
-Asta o să decidă coaliția în momentul în care va aproba pachetul de măsuri, dar cred că ar fi rezonabilă o reducerea subvențiilor pentru partide. >> Da. dumneavoastră înțelegeți de ce din taxele românilor trebuie finanțate partidele politice și mă refer aici la subvenție.
+[ND] Reducere de 20%, de 30%.
+
+Asta o să decidă coaliția în momentul în care va aproba pachetul de măsuri, dar cred că ar fi rezonabilă o reducerea subvențiilor pentru partide.
+
+[JURNALIST] Da. dumneavoastră înțelegeți de ce din taxele românilor trebuie finanțate partidele politice și mă refer aici la subvenție.
 
 Da, eu cred că de asemenea uitându ne la cum a fost politica românească înainte de această lege a finanțării, eu cred că în principiu această lege este corectă pentru că erau sacoșe cu bani care veneau la partide.
 
@@ -881,7 +1090,9 @@ Un efect negativ a fost că parte din banii ăștia s au dus pentru a cumpăra t
 
 Da.
 
-Și aici trebuie să reflectăm puțin. >> Mulțumesc.
+Și aici trebuie să reflectăm puțin.
+
+[ND] Mulțumesc.
 
 Bună ziua, domnule președinte.
 
@@ -897,7 +1108,9 @@ Când vă așteptați să primiți și rezultate, să vedeți ceva rezultate?
 
 Pentru că ministrul de finanțe, vă aduc aminte, spunea că până nu se informatizează complet ANAF ul, nu va reuși să recupereze acel gap de TVA sau nu va reuși să aibă rezultate concrete.
 
-Când vă așteptați să vedeți sau ați primit ceva rezultate în această perioadă? >> Da.
+Când vă așteptați să vedeți sau ați primit ceva rezultate în această perioadă?
+
+[JURNALIST] Da.
 
 Ca și la ă ă întrebarea despre justiție, este un o discuție în curs.
 
@@ -907,33 +1120,53 @@ Deci n a fost nevoie ca în CSAT să facem vreo modificare.
 
 Ce s a întâmplat în CSAT a fost că SRI ul a venit cu o cu, să spunem punctul lor de vedere asupra fenomenului marii evaziuni fiscale în care la sfârșitul acestui punct de vedere erau prevăzute niște măsuri cu pe diferite instituții.
 
-Discuția este în continuare în curs și informatizarea ANAF este unul din punctele importante ale acestei strategii, dar când o să avem ceva mai >> mai structurat o să iese în fața dumneavoastră. >> Să vă întreb altfel, când vom vedea rezultatele sau când va scădea procentul? 10% din PIB îl reprezintă evaziunea fiscală.
+Discuția este în continuare în curs și informatizarea ANAF este unul din punctele importante ale acestei strategii, dar când o să avem ceva mai
+
+[ND] mai structurat o să iese în fața dumneavoastră.
+
+[JURNALIST] Să vă întreb altfel, când vom vedea rezultatele sau când va scădea procentul? 10% din PIB îl reprezintă evaziunea fiscală.
 
 Când va scădea?
 
 Dacă vă uitați, o să [Muzică] N am fost totdeauna foarte prietenos cu partidele care au guvernat, dar dacă vă veți uita la graficul veniturilor la bugetul statului din ultimii ani, o să vedeți că în 2024 am avut o creștere față de 2023 de 60 70 de miliarde de RON.
 
-Deci niște progrese s au făcut la colectare, dar bineînțeles că este în continuare și în special pe TVA sunt sunt câteva mecanisme care fac ca noi să pierdem mulți bani >> și voiam să vă mai întreb dacă veți uzita de acea prevedere constituțională de a vă adresa Parlamentului la fiecare sesiune început de sesiune parlamentară cu problemele strângente ale țării sau acea stare a națiunii cum încercase și fostul președinte dar nu i reușit m pentru moment nu am ăă nu am reflectat la chestiunea asta.
+Deci niște progrese s au făcut la colectare, dar bineînțeles că este în continuare și în special pe TVA sunt sunt câteva mecanisme care fac ca noi să pierdem mulți bani
 
-Dacă va fi cazul, da, dar pentru moment nu am reflectat și nu am intenția >> și o completare spuneați că faceți o economie la administrația prezidențială în valoare de 20 de milioane de RON.
+[ND] și voiam să vă mai întreb dacă veți uzita de acea prevedere constituțională de a vă adresa Parlamentului la fiecare sesiune început de sesiune parlamentară cu problemele strângente ale țării sau acea stare a națiunii cum încercase și fostul președinte dar nu i reușit m pentru moment nu am ăă nu am reflectat la chestiunea asta.
 
-Din ce? >> Din 100 de milioane de RON.
+Dacă va fi cazul, da, dar pentru moment nu am reflectat și nu am intenția
+
+[JURNALIST] și o completare spuneați că faceți o economie la administrația prezidențială în valoare de 20 de milioane de RON.
+
+Din ce?
+
+[ND] Din 100 de milioane de RON.
 
 Nu.
 
 La care sunt economiile?
 
-De la ce capitol tăiați? >> Deplasări externe. >> Și mai sunt pe zona de investiții, bunuri, servicii, reparații. >> Am înțeles.
+De la ce capitol tăiați?
+
+[JURNALIST] Deplasări externe.
+
+[ND] Și mai sunt pe zona de investiții, bunuri, servicii, reparații.
+
+[JURNALIST] Am înțeles.
 
 Și încă o încompletare, de ce nu ați așteptat să vină de la în legătură cu acel proiect de lege pe care l ați contestat la Curte?
 
-De ce nu ați așteptat să vină de la Curte? o decizie, >> nu?
+De ce nu ați așteptat să vină de la Curte? o decizie,
+
+[ND] nu?
 
 Ă Da, da.
 
 Bine, mulțumesc că mă întrebați.
 
-Deci, așa cum am spus mai devreme, ăă constituția mă obligă să mă pronunț în 20 de zile pe un text de lege și acele 20 de zile s au împlinit în ziua de joi în care am depus sesizarea de neconstituționat. tocmai urma să primească administrația prezidențială decizia Curții. >> Păi da, numai că în opinia mea ă argumentele pe care noi le am avut au fost au avut o ceva mai multă consistență decât sesizarea pe care Curtea s a pronunțat și de asta am făcut sesizarea.
+Deci, așa cum am spus mai devreme, ăă constituția mă obligă să mă pronunț în 20 de zile pe un text de lege și acele 20 de zile s au împlinit în ziua de joi în care am depus sesizarea de neconstituționat. tocmai urma să primească administrația prezidențială decizia Curții.
+
+[JURNALIST] Păi da, numai că în opinia mea ă argumentele pe care noi le am avut au fost au avut o ceva mai multă consistență decât sesizarea pe care Curtea s a pronunțat și de asta am făcut sesizarea.
 
 Adică cred că e onest.
 
@@ -943,23 +1176,33 @@ Adică cred că e onest.
 
 Ăsta i primul lucru.
 
-Și al doilea lucru, eu cred că președintele în momentul în care apreciază că o lege care vine la el este neconstituțională, trebuie să acționeze în sensul ăsta, indiferent de ce au făcut alții. >> Bună ziua, domnule președinte.
+Și al doilea lucru, eu cred că președintele în momentul în care apreciază că o lege care vine la el este neconstituțională, trebuie să acționeze în sensul ăsta, indiferent de ce au făcut alții.
+
+[JURNALIST] Bună ziua, domnule președinte.
 
 Silviu Sergiu, independentnews.ro.
 
 Ă câteva întrebări legate de cazul domnului Ion Ceban primarul din Chișinău. vicepreședintele Partidului Acțiune și Solidaritate domnul Dan Peciun a declarat că interdicția aplicată domnului Ceban are legătură cu relația dintre acesta și serviciile de informații rusești și a dat și exemplu finanțarea domnului CEBAN de către structuri din Rusia și consilierea domniei sale de către specialiști în marketing politic de la Moscova.
 
-Voiam să vă întreb dacă în ultima ședință a CSAT s a discutat despre acest caz și dacă s a ajuns la aceeași concluzie pentru că formula folosită la București a fost pericol la adresa securității național. >> Da, da.
+Voiam să vă întreb dacă în ultima ședință a CSAT s a discutat despre acest caz și dacă s a ajuns la aceeași concluzie pentru că formula folosită la București a fost pericol la adresa securității național.
+
+[ND] Da, da.
 
 Ăă nu s a discutat în ședința CSAT.
 
 Însă există și alte mecanisme prin care statul român reacționează când observă o amenințare la adresa securității sale naționale și unul din aceste mecanisme a fost accesat în cazul domnului Ceban.
 
-Ăsta e și motivul pentru care nu putem să facem mai multe comentarii. >> Putem înțelege că a fost o situație punctuală pentru că în ultimii ani domnul Ceban nu părea că e un pericol la adresa siguranței naționale României, având în vedere că a fost primit de foarte mulți înalți demnitari, inclusiv de premierul Ciolacu. >> Asta nu se va mai întâmpla în următorii cinci ani.
+Ăsta e și motivul pentru care nu putem să facem mai multe comentarii.
+
+[JURNALIST] Putem înțelege că a fost o situație punctuală pentru că în ultimii ani domnul Ceban nu părea că e un pericol la adresa siguranței naționale României, având în vedere că a fost primit de foarte mulți înalți demnitari, inclusiv de premierul Ciolacu.
+
+[ND] Asta nu se va mai întâmpla în următorii cinci ani.
 
 Ă A fost o chestiune de securitate națională.
 
-Asta e tot ce pot eu să vă spun. o evaluare de securitate națională în privința domniei sale. >> Am înțeles.
+Asta e tot ce pot eu să vă spun. o evaluare de securitate națională în privința domniei sale.
+
+[JURNALIST] Am înțeles.
 
 Și ultima întrebare.
 
@@ -967,9 +1210,13 @@ Domnul Ceban a primit cinci ani de interdicție.
 
 Mai exista o treaptă, putea primi 10, dar s a ales soluția mai, mă rog, ușoară, pedeapsa mai ușoară.
 
-Ne puteți spune de ce s a întâmplat acest lucru? >> De asemenea, e o evaluare care a fost făcută pe chestiuni de securitate.
+Ne puteți spune de ce s a întâmplat acest lucru?
 
-Asta e tot ce pot să spun. >> Mulțumesc foarte mult.
+[ND] De asemenea, e o evaluare care a fost făcută pe chestiuni de securitate.
+
+Asta e tot ce pot să spun.
+
+[JURNALIST] Mulțumesc foarte mult.
 
 Ok.
 

@@ -1,23 +1,28 @@
 ---
 data: 2025-12-03
-tip: video-transcript
+metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
+nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
+  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
+  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
+  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
+  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
 sursa: https://www.youtube.com/watch?v=cxJ5Wc7XQSc
-sursa_video_id: cxJ5Wc7XQSc
-sursa_canal: "Digi24HD"
-sursa_canal_filter: "Digi24 (search ND)"
-sursa_titlu: "Nicușor Dan, despre criza apei potabile din Prahova: „Vinovăţia este la Apele Române” #digi24"
-sursa_durata_secunde: 38
-sursa_vizionari: 5759
 sursa_aprecieri: null
-sursa_descriere: ""
+sursa_canal: Digi24HD
+sursa_canal_filter: Digi24 (search ND)
+sursa_descriere: ''
+sursa_durata_secunde: 38
+sursa_titlu: 'Nicușor Dan, despre criza apei potabile din Prahova: „Vinovăţia este
+  la Apele Române” #digi24'
 sursa_upload_timestamp: 1764767327
+sursa_video_id: cxJ5Wc7XQSc
+sursa_vizionari: 5759
+tip: video-transcript
+verificat: true
 vorbitor: nicusor_dan
-verificat: false
-metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
-nota: Transcript auto-generat din YouTube. Conține doar vocea lui ND DACĂ video-ul e monolog; pentru conferințe/dezbateri trebuie diarizat.
 ---
 
-Să nu uităm că suntem în ultima săptămână de campanie electorală, deci să citim aceste declarații în această cheie.
+[ND] Să nu uităm că suntem în ultima săptămână de campanie electorală, deci să citim aceste declarații în această cheie.
 
 În al doilea rând, evident că o astfel de în urma unei astfel de situații trebuie să stabilim vinovații.
 

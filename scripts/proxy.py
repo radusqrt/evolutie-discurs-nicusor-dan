@@ -21,10 +21,35 @@ ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
 
 
-def webshare_credentials() -> tuple[str, str] | None:
-    user = os.getenv("WEBSHARE_PROXY_USERNAME", "").strip()
+import random
+
+
+# Webshare username convention: base-ro-<index>. User has up to 200 IPs.
+# Rotate randomly to avoid per-IP YouTube rate-limiting.
+WEBSHARE_BASE_USERNAME = "ihirvbtp"
+WEBSHARE_USERNAME_RANGE = (1, 200)
+
+
+def webshare_credentials(rotate: bool = True, suffix: int | None = None) -> tuple[str, str] | None:
+    """Get a Webshare proxy username + password.
+
+    If rotate=True (default), randomly pick a suffix between 1 and 200.
+    If suffix=N is given, use that specific suffix (overrides rotation).
+    If neither, use the .env's WEBSHARE_PROXY_USERNAME as-is.
+    """
     pwd = os.getenv("WEBSHARE_PROXY_PASSWORD", "").strip()
-    if not user or not pwd or "your-username" in user:
+    env_user = os.getenv("WEBSHARE_PROXY_USERNAME", "").strip()
+    if not pwd or "your-password" in pwd:
+        return None
+
+    if suffix is not None:
+        user = f"{WEBSHARE_BASE_USERNAME}-ro-{suffix}"
+    elif rotate:
+        idx = random.randint(*WEBSHARE_USERNAME_RANGE)
+        user = f"{WEBSHARE_BASE_USERNAME}-ro-{idx}"
+    elif env_user and "your-username" not in env_user:
+        user = env_user
+    else:
         return None
     return user, pwd
 
@@ -36,9 +61,12 @@ def webshare_host_port() -> tuple[str, str]:
     )
 
 
-def get_proxy_for_yt_dlp() -> str | None:
-    """Returns proxy URL for yt-dlp's --proxy flag, or None if not configured."""
-    creds = webshare_credentials()
+def get_proxy_for_yt_dlp(rotate: bool = True) -> str | None:
+    """Returns proxy URL for yt-dlp's --proxy flag, or None if not configured.
+
+    By default, a fresh random IP suffix is chosen each call.
+    """
+    creds = webshare_credentials(rotate=rotate)
     if not creds:
         return None
     user, pwd = creds
