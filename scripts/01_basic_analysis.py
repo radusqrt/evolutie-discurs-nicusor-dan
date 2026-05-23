@@ -80,8 +80,23 @@ def make_bar_top20(top: list[tuple[str, int]], outpath: Path, title: str) -> Non
 
 
 def main() -> None:
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--only-verified", action="store_true",
+                    help="Run only on files with verificat=true (pure ND voice).")
+    args = ap.parse_args()
+
     speeches = load_corpus()
-    print(f"Loaded {len(speeches)} speeches.\n")
+    if args.only_verified:
+        speeches = [s for s in speeches if s.verificat]
+        suffix = "_verified"
+    else:
+        suffix = ""
+    print(f"Loaded {len(speeches)} speeches{' (verified only)' if args.only_verified else ''}.\n")
+    global OUT
+    if args.only_verified:
+        OUT = OUT.parent / f"01_basic_verified"
+        OUT.mkdir(parents=True, exist_ok=True)
 
     # Per-speech stats
     rows = [per_speech_stats(s) for s in speeches]

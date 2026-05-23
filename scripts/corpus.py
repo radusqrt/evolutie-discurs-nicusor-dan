@@ -83,9 +83,14 @@ def strip_speaker_tags_to_nd(raw_text: str) -> str:
 
 
 def load_corpus() -> list[Speech]:
-    """Load all .md files from data/raw/**, parse YAML frontmatter."""
+    """Load all .md files from data/raw/**, parse YAML frontmatter.
+
+    Skips data/raw/excluded/ (off-scope content, e.g. mayoral pre-candidacy).
+    """
     speeches: list[Speech] = []
     for path in sorted(RAW_DIR.rglob("*.md")):
+        if "/excluded/" in str(path):
+            continue
         post = frontmatter.load(path)
         raw_text = post.content.strip()
         speeches.append(

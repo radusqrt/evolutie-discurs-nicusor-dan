@@ -2,13 +2,65 @@
 
 ## Sumar corpus
 
-| id                             | data       | tip                 |   n_words_raw |   n_lemmas_clean |   n_unique_lemmas |   ttr_lemma |   n_sentences |
-|:-------------------------------|:-----------|:--------------------|--------------:|-----------------:|------------------:|------------:|--------------:|
-| 2024-12-16_anunt-candidatura   | 2024-12-16 | anunt-candidatura   |           113 |               55 |                44 |       0.8   |             9 |
-| 2025-05-19_discurs-victorie    | 2025-05-19 | discurs-victorie    |           255 |              102 |                70 |       0.686 |            17 |
-| 2025-05-26_discurs-investitura | 2025-05-26 | discurs-investitura |           992 |              528 |               325 |       0.616 |            26 |
+| id                                                                      | data       | tip                   |   n_words_raw |   n_lemmas_clean |   n_unique_lemmas |   ttr_lemma |   n_sentences |
+|:------------------------------------------------------------------------|:-----------|:----------------------|--------------:|-----------------:|------------------:|------------:|--------------:|
+| 2025-05-08_dezbatere-euronews-simion                                    | 2025-05-08 | dezbatere-electorala  |            63 |               34 |                28 |       0.824 |             5 |
+| 2024-12-16_anunt-candidatura                                            | 2024-12-16 | anunt-candidatura     |           113 |               55 |                44 |       0.8   |             9 |
+| 2025-02-03_lansare-campanie-romania-onesta                              | 2025-02-03 | lansare-campanie      |           184 |               90 |                68 |       0.756 |            13 |
+| 2025-05-19_discurs-victorie                                             | 2025-05-19 | discurs-victorie      |           255 |              102 |                70 |       0.686 |            17 |
+| 2025-05-26_discurs-investitura                                          | 2025-05-26 | discurs-investitura   |           992 |              528 |               325 |       0.616 |            26 |
+| 2025-06-04_conferinta-presa-cotroceni                                   | 2025-06-04 | conferinta-presa      |           108 |               50 |                44 |       0.88  |             9 |
+| 2025-09-04_autoevaluare-100-zile                                        | 2025-09-04 | interviu-autoevaluare |           157 |               67 |                59 |       0.881 |            17 |
+| 2025-12-31_mesaj-anul-nou                                               | 2025-12-31 | mesaj-anul-nou        |           277 |              142 |               116 |       0.817 |            16 |
+| 2025-04-03_conferinta-primarului-municipiului-bucuresti-nicusor-dan-si  | 2025-04-03 | video-transcript      |          4056 |             1730 |               688 |       0.398 |           171 |
+| 2025-06-04_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus | 2025-06-04 | video-transcript      |          8065 |             3836 |              1155 |       0.301 |           510 |
+| 2025-06-10_conferinta-sustinuta-de-presedinta-moldovei-maia-sandu-si-pr | 2025-06-10 | video-transcript      |          2781 |             1390 |               664 |       0.478 |           170 |
+| 2025-06-20_declaratie-de-presa-sustinuta-de-presedintele-romaniei-nicus | 2025-06-20 | video-transcript      |           417 |              205 |               138 |       0.673 |            24 |
+| 2025-06-26_declaratia-presedintelui-romaniei-nicusor-dan-dupa-participa | 2025-06-26 | video-transcript      |           753 |              345 |               207 |       0.6   |            54 |
+| 2025-07-14_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus | 2025-07-14 | video-transcript      |         10218 |             4751 |              1459 |       0.307 |           621 |
+| 2025-07-31_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus | 2025-07-31 | video-transcript      |         11173 |             5152 |              1548 |       0.3   |           716 |
+| 2025-11-12_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus | 2025-11-12 | video-transcript      |         10961 |             4979 |              1480 |       0.297 |           663 |
+| 2025-12-17_declaratia-presedintelui-romaniei-nicusor-dan-in-regatul-mar | 2025-12-17 | video-transcript      |          1259 |              575 |               324 |       0.563 |            86 |
+| 2025-12-21_declaratia-presedintelui-romaniei-nicusor-dan-pe-tema-proble | 2025-12-21 | video-transcript      |          1321 |              565 |               288 |       0.51  |            50 |
+| 2025-12-22_discutii-publice-la-cotroceni-intre-presedintele-romaniei-ni | 2025-12-22 | video-transcript      |         25820 |            12157 |              2675 |       0.22  |          1309 |
+| 2026-01-06_declaratia-presedintelui-romaniei-nicusor-dan-dupa-participa | 2026-01-06 | video-transcript      |          3767 |             1741 |               702 |       0.403 |           227 |
+| 2026-02-12_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus | 2026-02-12 | video-transcript      |          1098 |              515 |               263 |       0.511 |            66 |
+| 2026-02-19_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus | 2026-02-19 | video-transcript      |          1237 |              565 |               338 |       0.598 |            78 |
+| 2026-03-06_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus | 2026-03-06 | video-transcript      |          2578 |             1240 |               594 |       0.479 |           141 |
+| 2026-03-11_declaratie-sustinuta-de-presedintele-romaniei-nicusor-dan-du | 2026-03-11 | video-transcript      |           504 |              246 |               159 |       0.646 |            27 |
+| 2026-03-13_conferinta-sustinuta-de-presedintii-romaniei-si-ucrainei-nic | 2026-03-13 | video-transcript      |          3520 |             1700 |               673 |       0.396 |           210 |
+| 2026-03-19_conferinta-presedintelui-romaniei-nicusor-dan-si-a-secretaru | 2026-03-19 | video-transcript      |          1562 |              755 |               371 |       0.491 |            90 |
+| 2026-04-09_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus | 2026-04-09 | video-transcript      |          7623 |             3455 |              1150 |       0.333 |           467 |
+| 2026-04-22_declaratie-de-presa-sustinuta-de-presedintele-romaniei-nicus | 2026-04-22 | video-transcript      |           273 |              130 |                97 |       0.746 |            17 |
+| 2026-05-05_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus | 2026-05-05 | video-transcript      |           234 |              133 |                89 |       0.669 |            23 |
+| 2026-05-09_mesajul-presedintelui-romaniei-nicusor-dan-cu-prilejul-zilei | 2026-05-09 | video-transcript      |           719 |              357 |               202 |       0.566 |            42 |
 
 ## Top 20 cuvinte per discurs
+
+### 2025-05-08 — dezbatere-electorala
+
+| cuvânt                          |   frecvență |
+|:--------------------------------|------------:|
+| trebui                          |           4 |
+| românia                         |           3 |
+| membru                          |           2 |
+| continua                        |           1 |
+| consolida                       |           1 |
+| parteneriat                     |           1 |
+| stateleunitealeamericii         |           1 |
+| rămâne                          |           1 |
+| northatlantictreatyorganization |           1 |
+| stat                            |           1 |
+| cheltuială                      |           1 |
+| militar                         |           1 |
+| pace                            |           1 |
+| sine                            |           1 |
+| obține                          |           1 |
+| descurajare                     |           1 |
+| război                          |           1 |
+| activ                           |           1 |
+| uniuneaeuropeană                |           1 |
+| obiectiv                        |           1 |
 
 ### 2024-12-16 — anunt-candidatura
 
@@ -34,6 +86,31 @@
 | corupție     |           1 |
 | funcționare  |           1 |
 | instituție   |           1 |
+
+### 2025-02-03 — lansare-campanie
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| românia    |           3 |
+| stat       |           3 |
+| propune    |           3 |
+| invi       |           3 |
+| instituție |           2 |
+| interes    |           2 |
+| funcționa  |           2 |
+| om         |           2 |
+| important  |           2 |
+| societate  |           2 |
+| președinte |           2 |
+| mecanism   |           2 |
+| putea      |           2 |
+| valoare    |           2 |
+| comunitate |           2 |
+| campanie   |           2 |
+| împreună   |           2 |
+| euro       |           2 |
+| decembrie  |           1 |
+| anunța     |           1 |
 
 ### 2025-05-19 — discurs-victorie
 
@@ -85,41 +162,666 @@
 | acces      |           4 |
 | dezvoltare |           4 |
 
+### 2025-06-04 — conferinta-presa
 
-## Top 30 cuvinte — corpus integral
+| cuvânt    |   frecvență |
+|:----------|------------:|
+| schiță    |           2 |
+| guvernare |           2 |
+| discuție  |           2 |
+| deficit   |           2 |
+| vrea      |           2 |
+| director  |           2 |
+| dori      |           1 |
+| lună      |           1 |
+| prim      |           1 |
+| program   |           1 |
+| începe    |           1 |
+| privind   |           1 |
+| grup      |           1 |
+| lucra     |           1 |
+| prezenta  |           1 |
+| lider     |           1 |
+| joi       |           1 |
+| menține   |           1 |
+| privi     |           1 |
+| porni     |           1 |
+
+### 2025-09-04 — interviu-autoevaluare
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| lucru      |           4 |
+| important  |           2 |
+| provocare  |           2 |
+| sine       |           2 |
+| întâmpla   |           2 |
+| coaliție   |           2 |
+| formare    |           1 |
+| guvern     |           1 |
+| stabil     |           1 |
+| deficit    |           1 |
+| fericire   |           1 |
+| control    |           1 |
+| prezență   |           1 |
+| extern     |           1 |
+| opinie     |           1 |
+| consistent |           1 |
+| reuniune   |           1 |
+| necesar    |           1 |
+| europa     |           1 |
+| lume       |           1 |
+
+### 2025-12-31 — mesaj-anul-nou
+
+| cuvânt           |   frecvență |
+|:-----------------|------------:|
+| an               |           8 |
+| român            |           4 |
+| drum             |           3 |
+| viitor           |           3 |
+| putea            |           3 |
+| sine             |           3 |
+| stat             |           3 |
+| responsabilitate |           2 |
+| loc              |           2 |
+| românia          |           2 |
+| rămâne           |           2 |
+| eficient         |           2 |
+| cetățean         |           2 |
+| prag             |           1 |
+| opri             |           1 |
+| clipă            |           1 |
+| privi            |           1 |
+| luciditate       |           1 |
+| onestita         |           1 |
+| atât             |           1 |
+
+### 2025-04-03 — video-transcript
+
+| cuvânt    |   frecvență |
+|:----------|------------:|
+| vrea      |          68 |
+| festival  |          50 |
+| putea     |          34 |
+| sine      |          26 |
+| spune     |          26 |
+| bucurești |          25 |
+| proiect   |          24 |
+| eveniment |          23 |
+| an        |          23 |
+| național  |          16 |
+| cluj      |          15 |
+| arena     |          13 |
+| însemna   |          12 |
+| sigur     |          12 |
+| veni      |          11 |
+| parte     |          11 |
+| perioadă  |          11 |
+| ști       |          11 |
+| măsură    |          11 |
+| domn      |          10 |
+
+### 2025-06-04 — video-transcript
+
+| cuvânt        |   frecvență |
+|:--------------|------------:|
+| vrea          |         107 |
+| discuție      |          64 |
+| spune         |          60 |
+| ăă            |          60 |
+| moment        |          43 |
+| exista        |          43 |
+| președinte    |          43 |
+| trebui        |          42 |
+| sine          |          41 |
+| românia       |          40 |
+| putea         |          36 |
+| măsură        |          34 |
+| întrebare     |          32 |
+| domn          |          32 |
+| an            |          29 |
+| serviciu      |          29 |
+| informație    |          28 |
+| stat          |          27 |
+| dumneavoastră |          26 |
+| parte         |          25 |
+
+### 2025-06-10 — video-transcript
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| moldova    |          36 |
+| românia    |          33 |
+| vrea       |          20 |
+| republică  |          19 |
+| președinte |          18 |
+| european   |          18 |
+| proiect    |          15 |
+| domn       |          14 |
+| sine       |          14 |
+| vorbi      |          14 |
+| ucraina    |          13 |
+| sprijin    |          12 |
+| parte      |          12 |
+| uniune     |           9 |
+| spune      |           9 |
+| republicii |           8 |
+| putea      |           8 |
+| mulțumi    |           8 |
+| important  |           8 |
+| veni       |           7 |
+
+### 2025-06-20 — video-transcript
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| partid     |           6 |
+| vrea       |           6 |
+| românia    |           6 |
+| guvern     |           5 |
+| domn       |           4 |
+| majoritate |           4 |
+| discuție   |           4 |
+| parte      |           4 |
+| politic    |           3 |
+| dificil    |           3 |
+| guvernare  |           3 |
+| român      |           3 |
+| persoană   |           3 |
+| președinte |           3 |
+| țară       |           3 |
+| gata       |           2 |
+| ilie       |           2 |
+| prim       |           2 |
+| ministru   |           2 |
+| mulțumi    |           2 |
+
+### 2025-06-26 — video-transcript
+
+| cuvânt   |   frecvență |
+|:---------|------------:|
+| trebui   |           8 |
+| vrea     |           8 |
+| românia  |           8 |
+| împrumut |           7 |
+| spune    |           6 |
+| moldova  |           5 |
+| produce  |           5 |
+| european |           4 |
+| guvern   |           4 |
+| sine     |           4 |
+| degrabă  |           4 |
+| asuma    |           4 |
+| lua      |           4 |
+| ucraina  |           4 |
+| putea    |           4 |
+| explica  |           4 |
+| domn     |           3 |
+| comisie  |           3 |
+| discuție |           3 |
+| proiect  |           3 |
+
+### 2025-07-14 — video-transcript
+
+| cuvânt        |   frecvență |
+|:--------------|------------:|
+| vrea          |         124 |
+| spune         |          67 |
+| ăă            |          64 |
+| românia       |          55 |
+| moment        |          53 |
+| președinte    |          46 |
+| putea         |          45 |
+| dumneavoastră |          42 |
+| sine          |          42 |
+| măsură        |          41 |
+| trebui        |          40 |
+| partid        |          40 |
+| lege          |          39 |
+| domn          |          39 |
+| întrebare     |          38 |
+| guvern        |          36 |
+| crede         |          32 |
+| ron           |          31 |
+| an            |          30 |
+| vedea         |          30 |
+
+### 2025-07-31 — video-transcript
+
+| cuvânt        |   frecvență |
+|:--------------|------------:|
+| vrea          |         104 |
+| sine          |          96 |
+| spune         |          79 |
+| ăă            |          79 |
+| trebui        |          57 |
+| putea         |          55 |
+| domn          |          52 |
+| om            |          50 |
+| întrebare     |          45 |
+| vedea         |          45 |
+| parte         |          43 |
+| moment        |          42 |
+| exista        |          36 |
+| președinte    |          36 |
+| românia       |          35 |
+| ști           |          32 |
+| crede         |          31 |
+| dumneavoastră |          30 |
+| lege          |          29 |
+| an            |          29 |
+
+### 2025-11-12 — video-transcript
+
+| cuvânt        |   frecvență |
+|:--------------|------------:|
+| vrea          |         118 |
+| spune         |          80 |
+| sine          |          77 |
+| ăă            |          74 |
+| stat          |          50 |
+| românia       |          48 |
+| parte         |          46 |
+| trebui        |          43 |
+| vedea         |          42 |
+| lucru         |          38 |
+| an            |          35 |
+| om            |          35 |
+| putea         |          35 |
+| strategie     |          33 |
+| crede         |          33 |
+| exista        |          32 |
+| serviciu      |          31 |
+| societate     |          30 |
+| dumneavoastră |          30 |
+| discuție      |          29 |
+
+### 2025-12-17 — video-transcript
+
+| cuvânt    |   frecvență |
+|:----------|------------:|
+| vrea      |          30 |
+| sine      |          11 |
+| reformă   |           8 |
+| coaliție  |           7 |
+| spune     |           7 |
+| impozit   |           7 |
+| om        |           7 |
+| buget     |           7 |
+| trebui    |           6 |
+| întrebare |           6 |
+| public    |           6 |
+| discuție  |           5 |
+| putea     |           5 |
+| ăă        |           5 |
+| românia   |           5 |
+| exista    |           5 |
+| întreba   |           5 |
+| justiție  |           5 |
+| lega      |           4 |
+| vedea     |           4 |
+
+### 2025-12-21 — video-transcript
 
 | cuvânt      |   frecvență |
 |:------------|------------:|
-| românia     |          32 |
-| român       |          14 |
-| sistem      |          12 |
-| sine        |          11 |
-| privi       |          11 |
-| național    |           9 |
-| interes     |           8 |
-| om          |           8 |
-| împreună    |           7 |
-| stat        |           7 |
-| problemă    |           6 |
-| putea       |           6 |
-| societate   |           6 |
-| european    |           6 |
-| reformă     |           6 |
-| instituție  |           5 |
-| vrea        |           5 |
-| dovedi      |           5 |
-| republică   |           5 |
-| moldova     |           5 |
-| politică    |           4 |
-| diaspora    |           4 |
-| social      |           4 |
-| acces       |           4 |
-| dezvoltare  |           4 |
-| extindere   |           4 |
-| cultură     |           4 |
-| participare |           4 |
-| întru       |           3 |
-| public      |           3 |
+| vrea        |          15 |
+| sine        |          15 |
+| ăă          |          13 |
+| chestiune   |          12 |
+| public      |          10 |
+| magistrat   |           9 |
+| trebui      |           8 |
+| justiție    |           8 |
+| față        |           8 |
+| sistem      |           8 |
+| spune       |           8 |
+| fapt        |           7 |
+| interes     |           7 |
+| rând        |           6 |
+| discuție    |           6 |
+| exista      |           6 |
+| scrie       |           5 |
+| inclusiv    |           5 |
+| instanțelor |           5 |
+| semnala     |           5 |
+
+### 2025-12-22 — video-transcript
+
+| cuvânt    |   frecvență |
+|:----------|------------:|
+| sine      |         298 |
+| putea     |         183 |
+| trebui    |         122 |
+| vrea      |         119 |
+| procuror  |         118 |
+| spune     |         115 |
+| judecător |         113 |
+| ăă        |          95 |
+| justiție  |          91 |
+| sistem    |          91 |
+| exista    |          85 |
+| judiciar  |          81 |
+| coleg     |          81 |
+| lucru     |          78 |
+| moment    |          76 |
+| dosar     |          73 |
+| public    |          70 |
+| secție    |          67 |
+| an        |          67 |
+| bun       |          66 |
+
+### 2026-01-06 — video-transcript
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| vrea       |          67 |
+| parte      |          33 |
+| românia    |          31 |
+| sine       |          29 |
+| ăă         |          24 |
+| an         |          20 |
+| președinte |          19 |
+| ucraina    |          19 |
+| spune      |          19 |
+| lucru      |          17 |
+| vedea      |          17 |
+| coaliție   |          16 |
+| putea      |          15 |
+| stat       |          13 |
+| țară       |          13 |
+| securitate |          13 |
+| exista     |          12 |
+| trebui     |          12 |
+| crede      |          12 |
+| seara      |          11 |
+
+### 2026-02-12 — video-transcript
+
+| cuvânt          |   frecvență |
+|:----------------|------------:|
+| vrea            |          18 |
+| țară            |          15 |
+| românia         |          11 |
+| putea           |           9 |
+| europa          |           9 |
+| european        |           8 |
+| important       |           8 |
+| sine            |           8 |
+| preț            |           7 |
+| discuție        |           7 |
+| consiliu        |           6 |
+| ban             |           6 |
+| merge           |           6 |
+| energie         |           6 |
+| exista          |           6 |
+| componentă      |           5 |
+| chestiune       |           5 |
+| trebui          |           5 |
+| lua             |           5 |
+| competitivitate |           4 |
+
+### 2026-02-19 — video-transcript
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| românia    |          14 |
+| stat       |          11 |
+| spune      |          10 |
+| parte      |           8 |
+| unit       |           8 |
+| sine       |           8 |
+| putea      |           7 |
+| lume       |           7 |
+| chestiune  |           7 |
+| veni       |           7 |
+| european   |           6 |
+| securitate |           5 |
+| angaja     |           5 |
+| întâlnire  |           5 |
+| președinte |           5 |
+| relație    |           5 |
+| discuție   |           5 |
+| vorbi      |           5 |
+| important  |           4 |
+| partener   |           4 |
+
+### 2026-03-06 — video-transcript
+
+| cuvânt        |   frecvență |
+|:--------------|------------:|
+| românia       |          30 |
+| sine          |          25 |
+| vrea          |          22 |
+| spune         |          21 |
+| țară          |          16 |
+| putea         |          14 |
+| vorbi         |          14 |
+| buget         |          14 |
+| partid        |          13 |
+| discuție      |          12 |
+| președinte    |          11 |
+| polonia       |          10 |
+| seara         |           9 |
+| moment        |           9 |
+| parte         |           9 |
+| dumneavoastră |           9 |
+| situație      |           9 |
+| lucru         |           8 |
+| copil         |           7 |
+| domn          |           7 |
+
+### 2026-03-11 — video-transcript
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| românia    |           7 |
+| echipament |           7 |
+| țară       |           6 |
+| situație   |           6 |
+| român      |           6 |
+| discuta    |           5 |
+| ministru   |           5 |
+| parlament  |           4 |
+| ședință    |           3 |
+| militar    |           3 |
+| expunere   |           3 |
+| parte      |           3 |
+| zonă       |           3 |
+| evident    |           3 |
+| consecință |           3 |
+| vrea       |           3 |
+| stat       |           3 |
+| subliniez  |           3 |
+| consiliu   |           2 |
+| termen     |           2 |
+
+### 2026-03-13 — video-transcript
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| românia    |          58 |
+| vrea       |          38 |
+| ucraina    |          32 |
+| putea      |          28 |
+| stat       |          22 |
+| președinte |          20 |
+| domn       |          19 |
+| vorbi      |          18 |
+| sine       |          16 |
+| parte      |          15 |
+| document   |          15 |
+| dronă      |          15 |
+| spune      |          14 |
+| război     |          14 |
+| important  |          13 |
+| colaborare |          13 |
+| europa     |          12 |
+| sprijin    |          12 |
+| european   |          12 |
+| rusia      |          12 |
+
+### 2026-03-19 — video-transcript
+
+| cuvânt                          |   frecvență |
+|:--------------------------------|------------:|
+| românia                         |          23 |
+| vrea                            |          15 |
+| aliat                           |          14 |
+| northatlantictreatyorganization |          13 |
+| ucraina                         |          11 |
+| putea                           |          10 |
+| trebui                          |          10 |
+| securitate                      |           9 |
+| domn                            |           8 |
+| flanc                           |           8 |
+| apăra                           |           8 |
+| capacitate                      |           8 |
+| discuta                         |           8 |
+| secretar                        |           7 |
+| general                         |           7 |
+| președinte                      |           7 |
+| est                             |           7 |
+| apărare                         |           7 |
+| ști                             |           7 |
+| unit                            |           7 |
+
+### 2026-04-09 — video-transcript
+
+| cuvânt        |   frecvență |
+|:--------------|------------:|
+| spune         |          66 |
+| procuror      |          60 |
+| vrea          |          55 |
+| sine          |          47 |
+| dumneavoastră |          46 |
+| trebui        |          38 |
+| crede         |          32 |
+| bun           |          32 |
+| putea         |          29 |
+| ști           |          28 |
+| domn          |          27 |
+| moment        |          27 |
+| întrebare     |          26 |
+| discuție      |          25 |
+| informație    |          25 |
+| președinte    |          25 |
+| parchet       |          24 |
+| om            |          24 |
+| general       |          24 |
+| exista        |          24 |
+
+### 2026-04-22 — video-transcript
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| politic    |           7 |
+| partid     |           4 |
+| moment     |           3 |
+| viitor     |           3 |
+| criză      |           3 |
+| sine       |           3 |
+| vrea       |           3 |
+| consultare |           2 |
+| coaliție   |           2 |
+| evident    |           2 |
+| diferență  |           2 |
+| opinie     |           2 |
+| discuție   |           2 |
+| public     |           2 |
+| uita       |           2 |
+| decât      |           2 |
+| dialog     |           2 |
+| forță      |           2 |
+| pro        |           2 |
+| stat       |           2 |
+
+### 2026-05-05 — video-transcript
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| consens    |           7 |
+| exista     |           6 |
+| guvern     |           5 |
+| vrea       |           4 |
+| parlament  |           3 |
+| românia    |           3 |
+| stat       |           3 |
+| direcție   |           3 |
+| buget      |           3 |
+| program    |           3 |
+| pnrr       |           3 |
+| calm       |           2 |
+| partid     |           2 |
+| pro        |           2 |
+| occidental |           2 |
+| următor    |           2 |
+| safe       |           2 |
+| procedură  |           2 |
+| formare    |           2 |
+| înțeleg    |           2 |
+
+### 2026-05-09 — video-transcript
+
+| cuvânt     |   frecvență |
+|:-----------|------------:|
+| românia    |          18 |
+| european   |          16 |
+| uniune     |          12 |
+| europa     |          10 |
+| vrea       |           7 |
+| an         |           6 |
+| moment     |           5 |
+| duce       |           5 |
+| dezbatere  |           5 |
+| greșeală   |           5 |
+| sine       |           4 |
+| adevărat   |           4 |
+| decât      |           4 |
+| loc        |           4 |
+| exista     |           4 |
+| român      |           4 |
+| politică   |           4 |
+| interior   |           4 |
+| occidental |           3 |
+| pace       |           3 |
+
+
+## Top 30 cuvinte — corpus integral
+
+| cuvânt        |   frecvență |
+|:--------------|------------:|
+| vrea          |         964 |
+| sine          |         791 |
+| spune         |         600 |
+| putea         |         537 |
+| românia       |         519 |
+| ăă            |         463 |
+| trebui        |         431 |
+| moment        |         333 |
+| președinte    |         318 |
+| parte         |         317 |
+| exista        |         309 |
+| domn          |         303 |
+| an            |         299 |
+| discuție      |         274 |
+| lucru         |         265 |
+| vedea         |         255 |
+| om            |         252 |
+| dumneavoastră |         252 |
+| întrebare     |         247 |
+| stat          |         245 |
+| crede         |         238 |
+| ști           |         218 |
+| public        |         209 |
+| chestiune     |         202 |
+| bun           |         194 |
+| procuror      |         193 |
+| sistem        |         188 |
+| veni          |         186 |
+| justiție      |         183 |
+| român         |         181 |
 
 ## Stopwords folosite
 

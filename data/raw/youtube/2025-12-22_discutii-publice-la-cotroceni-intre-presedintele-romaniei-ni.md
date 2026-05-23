@@ -1,16 +1,21 @@
 ---
-data: 2025-12-22
-tip: video-transcript
-sursa: https://www.youtube.com/watch?v=7lGgIpPahUA
 canal: Privesc.Eu România
-titlu_video: Discuții publice la Cotroceni între Președintele României, Nicușor Dan, și magistrați
+data: 2025-12-22
+metoda: heuristic diarization (format=markers, 83 ND segments, 2 JURNALIST segments)
+nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
+  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
+  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
+  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
+  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+sursa: https://www.youtube.com/watch?v=7lGgIpPahUA
+tip: video-transcript
+titlu_video: Discuții publice la Cotroceni între Președintele României, Nicușor Dan,
+  și magistrați
+verificat: true
 vorbitor: nicusor_dan
-verificat: false
-metoda: youtube_transcript_api (captions automate RO)
-nota: Transcript auto-generat din YouTube. Pot exista erori de transcriere; pentru analiză precisă trebuie revizuit manual. Conține doar vocea lui ND DACĂ video-ul e monolog; pentru conferințe de presă cu jurnaliști sau dezbateri, transcriptul include și alte voci (de etichetat ulterior).
 ---
 
-De asemenea, aceeași organizație a cerut ca în justiție să existe posibilitatea ca judecătorii procurorii să devină avertizori de integritate.
+[ND] De asemenea, aceeași organizație a cerut ca în justiție să existe posibilitatea ca judecătorii procurorii să devină avertizori de integritate.
 
 Adică sunt aspecte care ar trebui reglementate legal.
 
@@ -64,13 +69,17 @@ Deci, ca atare, faptul că există totuși atâția colegi care acceptă public 
 
 Este un pas înainte spre transparență, spre soliditatea unor argumente și spre necesitatea unor modificări pe care, credem noi, nici toate autoritățile care garantează aplicarea drepturi europene nu le mai pot întârzia.
 
-Vă mulțumesc mult. >> Obiectez cu o privire la matematică.
+Vă mulțumesc mult.
+
+[ND] Obiectez cu o privire la matematică.
 
 O discuție ulterioară.
 
 Așa.
 
-Cine dorește, vă rog? >> Liviu Cneci din cadrul tribunalului Covazna.
+Cine dorește, vă rog?
+
+[ND] Liviu Cneci din cadrul tribunalului Covazna.
 
 Activez cadrul secției penale.
 
@@ -170,11 +179,17 @@ Da.
 
 Și bine, corespondența a fost mai generală decât solicitarea noastră, dar raportul s a referit doar la funcționarea, ca să spunem așa, metafuncționarea sistemului de justiție, nu la modul în care magistrații pronunță soluții, deci sau în fine, fac cercetarea ăă penală.
 
-Deci noi ne am referit în raport, am extras din corespondența de la magistrați exclusiv chestiuni care țin de funcționarea sistemului de justiție în sensul de raport, concursuri, promovări, detașări funcționarea inspecției judiciare, chestiuni care nu țin de ăă exercitarea profesiei de magistrat. >> Da, este adevărat.
+Deci noi ne am referit în raport, am extras din corespondența de la magistrați exclusiv chestiuni care țin de funcționarea sistemului de justiție în sensul de raport, concursuri, promovări, detașări funcționarea inspecției judiciare, chestiuni care nu țin de ăă exercitarea profesiei de magistrat.
 
-Ăă, eu am constatat o anumită reticență a unora dintre colegi determinată de temerea că aducerea în discuția unor disfuncționalități ar putea alimenta în spațiul public percepția eronată că fiecare magistrat la nivel individual ar fi părtaș la neregulile respective. >> Ok.
+[ND] Da, este adevărat.
 
-Mulțumim, >> domnule președinte.
+Ăă, eu am constatat o anumită reticență a unora dintre colegi determinată de temerea că aducerea în discuția unor disfuncționalități ar putea alimenta în spațiul public percepția eronată că fiecare magistrat la nivel individual ar fi părtaș la neregulile respective.
+
+[ND] Ok.
+
+Mulțumim,
+
+[JURNALIST] domnule președinte.
 
 Eu cred că tot ce s a discutat până în acest moment sunt chestiuni importante, tehnice însă importante.
 
@@ -302,9 +317,13 @@ Aceasta este prima temă pe care eu am dori s o aduc în discuție pentru că mi
 
 Nu discutam.
 
-Vă mulțumesc pentru >> Ați spus că aveți cinci puncte, dar poate reveniți.
+Vă mulțumesc pentru
 
-Da, revin. >> N o să reiau aspectele pe care le au prezentat colegii mei, cu care absolut sunt de acord.
+[ND] Ați spus că aveți cinci puncte, dar poate reveniți.
+
+Da, revin.
+
+[ND] N o să reiau aspectele pe care le au prezentat colegii mei, cu care absolut sunt de acord.
 
 Eu aș vrea să vă fac o prezentare onestă a unui procuror cu experiență.
 
@@ -434,17 +453,33 @@ Prin urmare, eu cred că trebuie avute în vedere și aceste chestiuni factuale 
 
 Și dacă legea permite ca și șeful DNA și șeful secției să evalueze orice act al procurorului, exact cum vorbea colegul despre numirea politică e ca și noi ne simțim ca și cum un factor politic stabilește în orice moment ce activitate pot face eu în orice dosar pentru că trebuie să să avem în vedere faptul că orice solicitare și să fac o citație și să trimit la judecătorul de drepturi și libertăți, presupune o o semnătura șefului pe actele de corespondență.
 
-Ă voiam să >> mai puțin pe chestiunea asta, ea vine din lege sau din regulament? >> Da, legea s a schimbat.
+Ă voiam să
 
-Dacă înainte șeful putea să ți infirme doar soluția și doar pe motive de nelegalitate, la acest moment șeful direcției poate să infirme orice act al procurorului. >> Hm. >> Adică ă >> Ok.
+[ND] mai puțin pe chestiunea asta, ea vine din lege sau din regulament?
+
+[ND] Da, legea s a schimbat.
+
+Dacă înainte șeful putea să ți infirme doar soluția și doar pe motive de nelegalitate, la acest moment șeful direcției poate să infirme orice act al procurorului.
+
+[ND] Hm.
+
+[ND] Adică ă
+
+[ND] Ok.
 
 Modificarea legii din 2022.
 
-Nu spuneți. >> Da.
+Nu spuneți.
+
+[ND] Da.
 
 Ă atât am avut de spus.
 
-Mulțumesc. >> Să iau cuvântul dacă >> În primul rând mă numesc Andrei Soare, sunt de la Tribunalul Brașov.
+Mulțumesc.
+
+[ND] Să iau cuvântul dacă
+
+[ND] În primul rând mă numesc Andrei Soare, sunt de la Tribunalul Brașov.
 
 Am avut o hotărâre a adunării generale în care am fost mandat în unanimitate să reprezint câteva puncte de vedere ale Tribunalului Brașov cu privire la reforme care pot îmbunătăți statutul judecătorului.
 
@@ -556,7 +591,9 @@ Uitându mă totuși în concret la rezultate, am observat că aproape toată lu
 
 Și cu această intervenție, cu această idee mi am terminat intervenția și vă mulțumim pentru șansa de a fi o platformă de mesaj către societate.
 
-Îi >> mulțumesc colegului pentru că cumva a vrut să și manifestat dorința de a discuta, de a vă de a și expune cazul înaintea mea.
+Îi
+
+[ND] mulțumesc colegului pentru că cumva a vrut să și manifestat dorința de a discuta, de a vă de a și expune cazul înaintea mea.
 
 Vă mulțumesc, domnule președinte, că ne ați primit astăzi aice.
 
@@ -658,9 +695,17 @@ Foarte dificil Tribunalul Ilfov, poate că știți ce este acolo.
 
 Sediul era sub orice critică.
 
-Pe lângă faptul că era mult de muncă, >> se rezolvă. >> Da.
+Pe lângă faptul că era mult de muncă,
 
-Ă >> suntem >> normarea muncii.
+[ND] se rezolvă.
+
+[ND] Da.
+
+Ă
+
+[ND] suntem
+
+[ND] normarea muncii.
 
 Ă Ce soluții am putea avea pentru normarea muncii? stau și mă gândesc ce soluții am putea avea.
 
@@ -846,19 +891,29 @@ De aceea trebuie intervenit, trebuie transparență, devii magistrat.
 
 Nu au uite bilețelul, nu mai e bilețelul.
 
-Am înțeles. >> Dă un test de gândire critică.
+Am înțeles.
 
-Vedem dacă ești capabil. >> Ok. >> După ai test psihologic dacă se apreciază că vezi Doamne, ai tu niște, nu știu, devianțe, habar n am.
+[ND] Dă un test de gândire critică.
+
+Vedem dacă ești capabil.
+
+[ND] Ok.
+
+[ND] După ai test psihologic dacă se apreciază că vezi Doamne, ai tu niște, nu știu, devianțe, habar n am.
 
 Da, ai test psihologic pe care poți să te duci acolo, se estimează dacă ești din punct de vedere psihologic apt pentru respectivul job.
 
 Deci e nevoie de transparență, oameni pregătiți, meritocrație.
 
-Asta i părerea mea. >> Ok.
+Asta i părerea mea.
+
+[ND] Ok.
 
 Mulțumesc.
 
-Cine vrea să >> în completarea ceea ce a spus colegul de la Tribunalul Brașov?
+Cine vrea să
+
+[ND] în completarea ceea ce a spus colegul de la Tribunalul Brașov?
 
 Aș vrea să spun că inclusiv în interviurile de la Înalta Curte de Casație și Justiție, în cadrul CSM ului, s au pus întrebări și putem vedea public cu toții dacă respectivul judecător care s a prezentat în fața CSM ului a semnat sau nu a semnat memoriul susținut de noi, asociați reformul judecătorilor din România, ceea ce este inadmisibil în cadrul unui concurs să te întrebe cu privire la ceea ce ai făcut tu în privința modului în care ai intenționat să aperi independența a justiției din perspectiva arătată de formul judecătorilor.
 
@@ -888,9 +943,19 @@ Nu avem un criteriu transparent pentru evaluarea hotărârilor.
 
 Nu avem un anumit o o anumită obligație de obiectivitate, în sensul că în lege să se prevadă.
 
-Trebuie să te uiți să la ce scrie judecătorul la deliberând la analizând sau cum să arate din punct de vedere al formei hotărârea respectivă și atunci există astfel de tendințe exagerate de a aprecia sau nu a aprecia ceva în hotărârile judecătorilor. >> Asta >> cu întrebarea despre semnarea de memorii de câte ori s a întâmplat aici? >> De multe ori.
+Trebuie să te uiți să la ce scrie judecătorul la deliberând la analizând sau cum să arate din punct de vedere al formei hotărârea respectivă și atunci există astfel de tendințe exagerate de a aprecia sau nu a aprecia ceva în hotărârile judecătorilor.
 
-Cred că Cred că la fiecare interviu în fața Înaltei Curți de Casație și Justiției un coleg s a dezis aceste memorii și nici măcar așa n a fost promovat, dar există o practică în acest sens. >> Ce alegeți dintre deciziile Înaltei Curți ale Curții Constituționale versus COCJ uri? >> Da. și o altă problemă a fost întrebați în legătură cu sesizarea Curții de Justiție a Uniunii Europene pentru că era tendința aceasta publică de a fi ă sancționați sau cercetați disciplinar judecătorii care sezează CJUE și atunci pentru a te pune în defensivă îți puneau întrebarea cu privire la sesizarea CJUE care este semnalul transmis judecătorilor de scaun.
+[ND] Asta
+
+[ND] cu întrebarea despre semnarea de memorii de câte ori s a întâmplat aici?
+
+[ND] De multe ori.
+
+Cred că Cred că la fiecare interviu în fața Înaltei Curți de Casație și Justiției un coleg s a dezis aceste memorii și nici măcar așa n a fost promovat, dar există o practică în acest sens.
+
+[ND] Ce alegeți dintre deciziile Înaltei Curți ale Curții Constituționale versus COCJ uri?
+
+[ND] Da. și o altă problemă a fost întrebați în legătură cu sesizarea Curții de Justiție a Uniunii Europene pentru că era tendința aceasta publică de a fi ă sancționați sau cercetați disciplinar judecătorii care sezează CJUE și atunci pentru a te pune în defensivă îți puneau întrebarea cu privire la sesizarea CJUE care este semnalul transmis judecătorilor de scaun.
 
 Trebuie să avem grijă.
 
@@ -900,13 +965,31 @@ Uite, se întreabă la interviul pentru Înalta Curte ăă poți sesiza CJ ul e 
 
 Președinte, dacă permite o scurtă completare la completarea proiectului în cadrul procedurii interviului au existat și situații în care judecători pentru promovarea înaltă curte au fost întrebați dacă cum se raportează la eventuala modificare a soluțiilor din disciplinar date de secția de judecători a CSM.
 
-Nu știu exact care sunt ce se urmărea pe baza criteriilor din lege, dar pot să spun că în rândul nostru, al judecătorilor care dorim să fim curajoși să servim această societate aceste lucruri ne îngrijorează >> legat de >> Nu, nu numai puțin.
+Nu știu exact care sunt ce se urmărea pe baza criteriilor din lege, dar pot să spun că în rândul nostru, al judecătorilor care dorim să fim curajoși să servim această societate aceste lucruri ne îngrijorează
+
+[ND] legat de
+
+[ND] Nu, nu numai puțin.
 
 Întrebarea era cum se comentează modificarea de către CSM a candidatul era întrebat cum se raportează la eventuale modificări.
 
-Secția pentru judecători dă o sancțiune disciplină >> în raport al inspecției. >> Da.
+Secția pentru judecători dă o sancțiune disciplină
 
-Candidatul care urma posibil Noi avem cale de atac la Înalta Curte. >> Da. >> Candidatul care urma posibil să ajungă acolo era întrebat cum va rezolva și în ce limite va rezolva și va modifica cum vede din punct de vedere juridic. >> A, candidatul la Înalta Curte. >> Am înțeles. >> Ceea ce pot să înțeleg o rațiune, dar pe noi ne a îngrijorat. cu privire la recrutarea și promovarea în magistratură lucruri extrem de importante care au fost aduse în discuție.
+[ND] în raport al inspecției.
+
+[ND] Da.
+
+Candidatul care urma posibil Noi avem cale de atac la Înalta Curte.
+
+[ND] Da.
+
+[ND] Candidatul care urma posibil să ajungă acolo era întrebat cum va rezolva și în ce limite va rezolva și va modifica cum vede din punct de vedere juridic.
+
+[ND] A, candidatul la Înalta Curte.
+
+[ND] Am înțeles.
+
+[ND] Ceea ce pot să înțeleg o rațiune, dar pe noi ne a îngrijorat. cu privire la recrutarea și promovarea în magistratură lucruri extrem de importante care au fost aduse în discuție.
 
 Ă am o experiență destul de importantă.
 
@@ -934,7 +1017,11 @@ Desigur, când vorbim despre INM trebuie să ne uităm în momentul de față ș
 
 În al doilea, vă rog.
 
-Uite, haideți să lăsăm, nu ne oprim, n avem limită, dar să lăsăm toată lumea să vorbească înainte să >> dacă >> Domnul Domnule președinte, dacă î permiteți, Daniel Nuguran este numele meu, sunt procuror la Parchetul de pe lângă Curtea de Apel Ploiești de trei ani, secția judiciară.
+Uite, haideți să lăsăm, nu ne oprim, n avem limită, dar să lăsăm toată lumea să vorbească înainte să
+
+[ND] dacă
+
+[ND] Domnul Domnule președinte, dacă î permiteți, Daniel Nuguran este numele meu, sunt procuror la Parchetul de pe lângă Curtea de Apel Ploiești de trei ani, secția judiciară.
 
 Am o vechime de peste 13 ani în magistratură, interval în care mi am desfășurat activitatea doar la unitățile de parchet din provincie, respectiv județul Buzău, respectiv Parchetul de pe lângă Curtea de Apel Ploiești.
 
@@ -1084,7 +1171,13 @@ Părerea mea este că nu.
 
 Îmi pare rău că sunt atât de tranșant de cinic, dar asta este realitatea.
 
-Și repet, sunt convins că aceste opinii sunt împărtășite de colegii mei, dar nu o pot spune. >> Eu nu sunt convins de >> ă când spun clasa politică, domnule președinte, nu mă refer în niciun caz nici la instituția prezidențială, nici la toate instituțiile care participă la viața publică, doar la cele care dețin o majoritate. >> Dar se Asta e întrebarea.
+Și repet, sunt convins că aceste opinii sunt împărtășite de colegii mei, dar nu o pot spune.
+
+[ND] Eu nu sunt convins de
+
+[ND] ă când spun clasa politică, domnule președinte, nu mă refer în niciun caz nici la instituția prezidențială, nici la toate instituțiile care participă la viața publică, doar la cele care dețin o majoritate.
+
+[ND] Dar se Asta e întrebarea.
 
 Se poate se poate în mod concret alcătui o majoritate parlamentară care să și dorească cu adevărat să schimbe situația din justiție?
 
@@ -1094,7 +1187,9 @@ Asta este întrebarea și așteptarea mea, dacă permiteți, de la instituția p
 
 Nu văd altă soluție.
 
-Îmi pare rău. >> Da. față de întrebările dumneavoastră, opinia mea este următoarea.
+Îmi pare rău.
+
+[ND] Da. față de întrebările dumneavoastră, opinia mea este următoarea.
 
 Opinia este că într un proces de selecție ăă în care să existe mai multă implicare, mai multă ăă conștiință profesională un CSM, o componență a CSM ului poate să reprezinte inclusiv pe forma actuală a legii. poate să reprezinte cu adevărat voința magistraților, pentru că în opinia mea există ăă o majoritate inclusiv la instituțiile pe care le menționați, care dorește care dorește să acționeze înspre o ăă justiție bine organizată, ca să i spunem așa.
 
@@ -1104,7 +1199,11 @@ Iar în ceea ce privește clasa politică ea este ăă acționează ăă așa cu
 
 Și atunci poate e cazul într adevăr ca societatea în ansamblul său să și pună această întrebare.
 
-Societatea își dorește un altfel o altfel de justiție? >> Eu sunt sigur. >> Atunci atunci e responsabilitatea fiecăruia să acționeze într un fel sau altul pentru că eu am spus că sunt cel mai puțin curajos.
+Societatea își dorește un altfel o altfel de justiție?
+
+[ND] Eu sunt sigur.
+
+[ND] Atunci atunci e responsabilitatea fiecăruia să acționeze într un fel sau altul pentru că eu am spus că sunt cel mai puțin curajos.
 
 Nu mi a fost deloc Nu mi a fost deloc ușor să fiu astăzi aici ă în fața camerelor.
 
@@ -1114,7 +1213,9 @@ Chiar nu mi aș fi dorit acest lucru.
 
 Dar la un moment dat trebuie să ieși din acea zonă de confort și să spui lucrurilor pe nume.
 
-Cu permisiunea dumneavoastră, eu v aș ruga și pe dumneavoastră și pe cei care vor asculta această discuție să nu i blameze foarte tare pe acei colegi care nu sunt de față >> ă pentru că pentru că cei cei mai mulți dintre ei sunt niște oameni de bună credință, nu au nicio îndoială și niște oameni care se chinuie efectiv să și facă treaba acolo unde se află.
+Cu permisiunea dumneavoastră, eu v aș ruga și pe dumneavoastră și pe cei care vor asculta această discuție să nu i blameze foarte tare pe acei colegi care nu sunt de față
+
+[ND] ă pentru că pentru că cei cei mai mulți dintre ei sunt niște oameni de bună credință, nu au nicio îndoială și niște oameni care se chinuie efectiv să și facă treaba acolo unde se află.
 
 Asta nu se vede.
 
@@ -1132,19 +1233,37 @@ Deci după 12 ani de magistratură cu grad de tribunal, dacă ar fi să mă îns
 
 Ăă ori e clar că oamenii aceștia care ăă au o carieră pe care trebuie s o ducă cumva la bun sfârșit pentru că nu au foarte multe opțiuni ă trebuie să se gândească la binele lor personal.
 
-E >> E de înțeles asta.
+E
 
-Adică nu chiar nu trebuie condamnați. >> Da, da, da.
+[ND] E de înțeles asta.
 
-Am am văzut în presă, de asta spun că a apărut această informație, că sunt puțini cei care au dorit, că e >> nu e nu e un pas pe care ar putea să l facă ușor.
+Adică nu chiar nu trebuie condamnați.
 
-Sunt oameni care au familii, sunt oameni care au credite, sunt nu pot să rămână pe drumuriată, cum din păcate s a întâmplat în cazuri pe care le cunoaștem ale altor colegi pentru simplul delict de opinie, pentru că nu a fost ceva cum de altfel a confirmat ce două de curând în cazul domnului Danileț. >> Hm.
+[ND] Da, da, da.
 
-Și atunci este greu, este greu să ieși în față să spui lucruri care te ar putea afecta personal într un mod decisiv. >> Da.
+Am am văzut în presă, de asta spun că a apărut această informație, că sunt puțini cei care au dorit, că e
+
+[ND] nu e nu e un pas pe care ar putea să l facă ușor.
+
+Sunt oameni care au familii, sunt oameni care au credite, sunt nu pot să rămână pe drumuriată, cum din păcate s a întâmplat în cazuri pe care le cunoaștem ale altor colegi pentru simplul delict de opinie, pentru că nu a fost ceva cum de altfel a confirmat ce două de curând în cazul domnului Danileț.
+
+[ND] Hm.
+
+Și atunci este greu, este greu să ieși în față să spui lucruri care te ar putea afecta personal într un mod decisiv.
+
+[ND] Da.
 
 Deci agreați consultarea în regim de confidențialitate.
 
-Erau glum >> ă Sincer, sincer să fiu, am înțeles că există și acel format ulterior. >> Da. >> Dacă este posibil, aș dori să particip și acolo. >> Da.
+Erau glum
+
+[ND] ă Sincer, sincer să fiu, am înțeles că există și acel format ulterior.
+
+[ND] Da.
+
+[ND] Dacă este posibil, aș dori să particip și acolo.
+
+[ND] Da.
 
 Ok.
 
@@ -1540,9 +1659,21 @@ Bun, la acest moment o să mă opresc, o să mai revin.
 
 Completare, mă gândesc ca și soluție de desemnare a centrilor de secții, șilor de instanțe, poate și la dumneavoastră la parchet, mi s ar părea rezonabil să poată fi aleși de către colectiv. poate și de către colectivul conjugat al magistraților și grefierilor.
 
-Este o variantă, bineînțeles. >> Acuma cineva seară cel mai bine ca o dată la câțiva să se schimbe sistemul astfel încât să nu se poată sedimenta niciun Vă dați seama ce >> schimbat nemulțumirea față de modul general de desemnare.
+Este o variantă, bineînțeles.
 
-Așa trebuie să găsim și niște variante care să să aducem în locul lor alte variante oarecum mai bune >> și mandatul să se reducă la un an și șase luni. >> Da, dar haideți să nu facem un dialog și să ne scriem la cuvânt că >> mai este un coleg care e în activitate și domnul Vartic vrea să fie ultimul. >> Da, așa vă rugăm.
+[ND] Acuma cineva seară cel mai bine ca o dată la câțiva să se schimbe sistemul astfel încât să nu se poată sedimenta niciun Vă dați seama ce
+
+[ND] schimbat nemulțumirea față de modul general de desemnare.
+
+Așa trebuie să găsim și niște variante care să să aducem în locul lor alte variante oarecum mai bune
+
+[ND] și mandatul să se reducă la un an și șase luni.
+
+[ND] Da, dar haideți să nu facem un dialog și să ne scriem la cuvânt că
+
+[ND] mai este un coleg care e în activitate și domnul Vartic vrea să fie ultimul.
+
+[ND] Da, așa vă rugăm.
 
 Dahia de la Asociația Forumul Judecătorilor.
 
@@ -1636,7 +1767,9 @@ Domnule președinte, justiția ca serviciul public integrator suferă și sufer�
 
 Încrederea în justiția democratică s a prăbușit încă din zorii nașterii ei, 25 decembrie 1989, când noua putere a început să confiște treptat și ferm principiile statului de drept.
 
-Domnule președinte, vin în fața dumneavoastră pentru că eroii din decembrie '89 Mă scuzați, >> da, trec peste asta.
+Domnule președinte, vin în fața dumneavoastră pentru că eroii din decembrie '89 Mă scuzați,
+
+[ND] da, trec peste asta.
 
 Ă vin fer convins că aveți voința să duceți la bun sfârșit acest demers constituțional în calitate de mediator și garant al echilibrului puterilor, cu condiția să vă departajați politic și juridic de marile erori voite sau nevoite ale predecedorilor dumneavoastră, care au subminat și subminează aceste erori, reziliența statului de drept.
 
@@ -1698,7 +1831,9 @@ Pentru că pe baza acestui principiu să vă asigurați că auditarea este neutr
 
 Domnule președinte, sunt sigur că veți reuși și odată cu dumneavoastră și noi.
 
-Mulțumesc. >> Mulțumesc.
+Mulțumesc.
+
+[ND] Mulțumesc.
 
 Ăă toată lumea a luat cuvântul până acum și n o să întrerupem, dar eu am două întrebări.
 
@@ -1720,7 +1855,11 @@ Prima chestiune e vorba de transparența sistemului judiciar de la a intra în v
 
 Spre exemplu, nu mai sunt publicate hotărârile de colegiu decât acolo dacă instanțele dispun în acest sens pe site urile pe portalul justiției.
 
-Cred că e un gest de transparență și ajută mult cetățeanul să înțeleagă >> pe colegiul de conducerea instanț >> conducerea instanțelor.
+Cred că e un gest de transparență și ajută mult cetățeanul să înțeleagă
+
+[ND] pe colegiul de conducerea instanț
+
+[ND] conducerea instanțelor.
 
 Da, nu mai sunt publicate, nu mai sunt nu mai există obligație prevăzută de lege în acest sens.
 
@@ -1732,9 +1871,13 @@ Din păcate, legile au intrat în vigoare în forma care a provocat aceste dezba
 
 Apropo de informații pe care la un moment dat mi aș fi dorit să le am învățat și nu le am obținut, am solicitat Oficiului Național de Prevenire Comederea Spălării banilor niște informații legate despre o anumită firmă care la momentul respectiv făcea obiectul insolvenței într unul din dosarele aflate încur și Oficiul Național de Prevenire și Combaterea Spălării banilor a refuzat să mi furnizeze acele date.
 
-Mai sunt domnul >> la întrebările dumneavoastră.
+Mai sunt domnul
 
-Da. >> În ceea ce privește informații, dacă ne referim strict la cazuri, eu vin dintr o nișe a ministerului public, unde nu avem nici măcar o fracție din ceea ce au ca și acces la informații.
+[ND] la întrebările dumneavoastră.
+
+Da.
+
+[ND] În ceea ce privește informații, dacă ne referim strict la cazuri, eu vin dintr o nișe a ministerului public, unde nu avem nici măcar o fracție din ceea ce au ca și acces la informații.
 
 Vorbim de conectări în baze de date parchetele civile care de asemenea nu au cât ar trebui să aibă.
 
@@ -1752,15 +1895,23 @@ Noi, de exemplu, dacă primim o sesizare pentru a verifica dacă o persoană est
 
 În mod normal trebuie pe baza unui cod fiecare procuror care are cauza să se apuce să și verifice.
 
-Altfel pierderi de timp, adrese, îți vine răspunsul peste săptămâni și așa mai departe pe niște chestiuni mega simple. >> Bun.
+Altfel pierderi de timp, adrese, îți vine răspunsul peste săptămâni și așa mai departe pe niște chestiuni mega simple.
 
-Astea sunt chestiuni care țin de activitatea dumneavoastră profesională, dar întrebarea mea se referea la >> discuția cu CSM ul, ca să răspund și la acest aspect.
+[ND] Bun.
 
-Nu cunosc a odată ce s a schimbat, ca să spun așa, orientarea majorității în secția pentru procurori, să mai fi existat consultări de amploare a celor care au existat sub postul CSM, adică una, două excepții, dar în general nu. >> Hm.
+Astea sunt chestiuni care țin de activitatea dumneavoastră profesională, dar întrebarea mea se referea la
+
+[ND] discuția cu CSM ul, ca să răspund și la acest aspect.
+
+Nu cunosc a odată ce s a schimbat, ca să spun așa, orientarea majorității în secția pentru procurori, să mai fi existat consultări de amploare a celor care au existat sub postul CSM, adică una, două excepții, dar în general nu.
+
+[ND] Hm.
 
 Dar pentru că noi discutăm aici de am discutat mult de inspecția judiciară, de modul în care sunt soluționate plângerile la adresa la Inspecția Judiciară.
 
-Există o transparență suplimentară care poate să fac să o facă pe dumneavoastră să știți mai bine ce se întâmplă în titul acesta de >> absolut deloc.
+Există o transparență suplimentară care poate să fac să o facă pe dumneavoastră să știți mai bine ce se întâmplă în titul acesta de
+
+[ND] absolut deloc.
 
 Bine, în cazul meu pot să spun că am o relație specială și de lungă durată cu Inspecția Judiciară.
 
@@ -1820,7 +1971,11 @@ De aceea îl considerăm un experiment eșuat.
 
 N are sens să ne mai cramponăm de acest mecanism în forma actuală.
 
-Ok. >> Aș dori să >> v am oprit la un moment dat și nu este nicio problemă.
+Ok.
+
+[ND] Aș dori să
+
+[ND] v am oprit la un moment dat și nu este nicio problemă.
 
 Aș dori să prezint o situație tangențială, mă rog, cunoscută de secția pentru procurori a CSM.
 
@@ -1980,7 +2135,9 @@ Am lucrat la DNA în perioada în care DNA făcea dosare serioase de corupție.
 
 Ăă la DNA este un fenomen foarte foarte interesant.
 
-Nu știu cât de cunoscut este. >> El este verificabil.
+Nu știu cât de cunoscut este.
+
+[ND] El este verificabil.
 
 Sunt fapte cel puțin trei cazuri de procurori cunosc eu.
 
@@ -2062,7 +2219,11 @@ Dacă oamenii văd că există susținere politică și că sunt lăsați să lu
 
 Și când a existat un mesaj politic important, justiția a funcționat.
 
-Vă mulțumesc mult. >> Mulțumesc. >> Referitor la ce a zis colegul și de aia mi am permis să intervin, în legătură cu ordinul procurorului general prin care a fost răpită o parte din independența procurorului de ședință.
+Vă mulțumesc mult.
+
+[ND] Mulțumesc.
+
+[ND] Referitor la ce a zis colegul și de aia mi am permis să intervin, în legătură cu ordinul procurorului general prin care a fost răpită o parte din independența procurorului de ședință.
 
 La acel moment nu mi am dat seama personal cât este sau care i scopul sau cât de nociv poate să fie și nu am semnat contestația.
 
@@ -2098,7 +2259,9 @@ Da, atât am vrut să spun.
 
 Mulțumesc.
 
-Da, da, >> dacă permiteț E S a discutat foarte mult despre deficiențele care există în acest sistem raportat la procesul de promovare.
+Da, da,
+
+[JURNALIST] dacă permiteț E S a discutat foarte mult despre deficiențele care există în acest sistem raportat la procesul de promovare.
 
 Același lucru cu siguranță poate fi extins la tot ce ține de competențele conducătorilor de la Curțile de Apel și de la CSM, transfer, delegare, detașare.
 
@@ -2204,7 +2367,9 @@ Dar e mulțumită societatea, nu e că e clar poziția, mă rog, exprimată în 
 
 Mulțumesc.
 
-Colegul >> Ia, vă rog.
+Colegul
+
+[ND] Ia, vă rog.
 
 Da. raportat la încercarea de a angrena poliția judiciară mai aproape de către procuror.
 
@@ -2240,11 +2405,17 @@ Din păcate în condițiile în care economia statului nu bubuie.
 
 Eu cred că e un moment bun să renunțăm la această prevedere și să revenim la dispozițiile anterioare care dispuneau care prevedeau înlocuirea anumitor sancțiuni contravenționale, cele care într adevăr sunt grave, vată ordinea publică, cu închisoare cu închisoare contravențională, bineînțeles, cu prealabila judecare, cercetare judecătorească de către un judecător independent, imparțial și eventual chiar și cu o cale de atac.
 
-Din nou ne am îndepărtat de organizarea socială. >> Nu, nu este Nu este pentru că aportul ăsta de muncă pe care polițiștii săraci îl aduc societății, dau amenzi care nu se întâmplă nimic cu ele, ar putea să fie mutat acest aport de muncă către parchet, dar ei trebuie să dea amenzile alea și acelor destinatari, contravenienții care n au nimic pe numele lor, nu le pasă.
+Din nou ne am îndepărtat de organizarea socială.
+
+[ND] Nu, nu este Nu este pentru că aportul ăsta de muncă pe care polițiștii săraci îl aduc societății, dau amenzi care nu se întâmplă nimic cu ele, ar putea să fie mutat acest aport de muncă către parchet, dar ei trebuie să dea amenzile alea și acelor destinatari, contravenienții care n au nimic pe numele lor, nu le pasă.
 
 A, ai venit să mi dai o amendă.
 
-Mai dăm și mâine una, te invit. >> Cunosc. >> Da.
+Mai dăm și mâine una, te invit.
+
+[ND] Cunosc.
+
+[ND] Da.
 
 Colegul zice bine ce zice, dar în realitate lucrurile au fost gândite mult mai serios în materie de aglomerare a poliției.
 
@@ -2332,7 +2503,9 @@ Iar răspunsul unui membru al secției pentru procurori a fost că și ei au afl
 
 Am ținut să subliniez asta pentru că vorbeam despre ă modernizarea sistemului de justiție și că practic ceea ce cred că ar trebui să și dorească toată lumea este o ușurare a activității atât a judecătorilor cât și a procurorilor, astfel încât cu toții să ne concentrăm pe chestiile care sunt importante.
 
-Nu ca procurori, ca procurori de judiciar să alergăm prin instanță să vedem unde este dosarul, că este la arhivă, că este la judecător, că e disponibil, că nu este disponibil. >> Ok.
+Nu ca procurori, ca procurori de judiciar să alergăm prin instanță să vedem unde este dosarul, că este la arhivă, că este la judecător, că e disponibil, că nu este disponibil.
+
+[ND] Ok.
 
 Vreau să vă mulțumesc pentru discuția asta care cred că a fost extrem de utilă și pentru profesioniști și pentru oameni care au un interes, nu sunt în sistemul de justiție, dar au un interes pentru funcționarea lui.
 

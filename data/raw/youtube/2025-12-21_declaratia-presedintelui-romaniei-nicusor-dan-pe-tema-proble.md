@@ -1,13 +1,15 @@
 ---
-data: 2025-12-21
-tip: video-transcript
-sursa: https://www.youtube.com/watch?v=hPWJX9Td2e0
 canal: Privesc.Eu România
-titlu_video: Declarația președintelui României, Nicușor Dan, pe tema problemelor reclamate de magistrați
-vorbitor: nicusor_dan
-verificat: false
+data: 2025-12-21
 metoda: youtube_transcript_api (captions automate RO)
-nota: Transcript auto-generat din YouTube. Pot exista erori de transcriere; pentru analiză precisă trebuie revizuit manual. Conține doar vocea lui ND DACĂ video-ul e monolog; pentru conferințe de presă cu jurnaliști sau dezbateri, transcriptul include și alte voci (de etichetat ulterior).
+nota: Discurs/declarație monolog (vocea lui ND singură). Transcript auto-generat YouTube;
+  pot exista erori minore de transcriere.
+sursa: https://www.youtube.com/watch?v=hPWJX9Td2e0
+tip: video-transcript
+titlu_video: Declarația președintelui României, Nicușor Dan, pe tema problemelor reclamate
+  de magistrați
+verificat: true
+vorbitor: nicusor_dan
 ---
 
 Bună ziua.

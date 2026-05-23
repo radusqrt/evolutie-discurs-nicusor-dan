@@ -1,0 +1,9 @@
+id,data,tip,n_words_raw,n_lemmas_clean,n_unique_lemmas,ttr_lemma,n_sentences
+2025-05-08_dezbatere-euronews-simion,2025-05-08,dezbatere-electorala,63,34,28,0.824,5
+2024-12-16_anunt-candidatura,2024-12-16,anunt-candidatura,113,55,44,0.8,9
+2025-02-03_lansare-campanie-romania-onesta,2025-02-03,lansare-campanie,184,90,68,0.756,13
+2025-05-19_discurs-victorie,2025-05-19,discurs-victorie,255,102,70,0.686,17
+2025-05-26_discurs-investitura,2025-05-26,discurs-investitura,992,528,325,0.616,26
+2025-06-04_conferinta-presa-cotroceni,2025-06-04,conferinta-presa,108,50,44,0.88,9
+2025-09-04_autoevaluare-100-zile,2025-09-04,interviu-autoevaluare,157,67,59,0.881,17
+2025-12-31_mesaj-anul-nou,2025-12-31,mesaj-anul-nou,277,142,116,0.817,16
