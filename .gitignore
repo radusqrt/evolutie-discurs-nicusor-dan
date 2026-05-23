@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Results: keep the latest, but allow regeneration
+# (we commit results so the repo tells the story, but ignore intermediate caches)
+.cache/
+*.tmp
+
+# Secrets
+.env
+.env.local
+*.key

@@ -1,0 +1,4 @@
+id,data,tip,n_words_raw,n_lemmas_clean,n_unique_lemmas,ttr_lemma,n_sentences
+2024-12-16_anunt-candidatura,2024-12-16,anunt-candidatura,113,55,44,0.8,9
+2025-05-19_discurs-victorie,2025-05-19,discurs-victorie,255,102,70,0.686,17
+2025-05-26_discurs-investitura,2025-05-26,discurs-investitura,992,528,325,0.616,26
