@@ -31,13 +31,49 @@ SOURCES = {
 }
 PAGE_LIMIT = 500
 
-KEEP = re.compile(r"Nicu[șs]or Dan|Pre[sș]edintele Rom[âa]niei", re.IGNORECASE)
-SKIP = re.compile(
-    r"primarul (general |municipiului )?(municipiului Bucure[șs]ti|Capitalei|Bucure[șs]ti)|"
-    r"liderul Grupului parlamentar USR|"
-    r"Klaus Iohannis|Ilie Bolojan|Ion Iliescu|Traian Băsescu",
-    re.IGNORECASE,
-)
+# STRICT keep: titles where ND clearly speaks himself. We look for patterns
+# like "Nicușor Dan: ..." (he says X), "Nicușor Dan, declarație/interviu/mesaj/discurs/...",
+# "ND a spus/anunță/a declarat/a transmis", "Mesajul/Discursul/Declarația lui ND", etc.
+KEEP_PATTERNS = [
+    # Speech act + ND
+    r"Nicu[șs]or Dan,?\s*(declar|interviu|mesaj|discurs|aloc|conferin[țt]|cuv[âa]nt|despre|anun[țt]|spus|spune|explică|prim|reac[țt]|afirma|comenteaz|răspund|atac|critică|încep|continu|finaliz|salut|mulțum)",
+    r"(declara|interviu|mesaj|discurs|alocu[țt]|conferin[țt]|cuv[âa]nt) [a-zș]+ Nicu[șs]or Dan",
+    r"Nicu[șs]or Dan: ",  # direct quote pattern
+    # Title role + ND
+    r"Pre[sș]edintele Rom[âa]niei,? Nicu[șs]or Dan",
+    # Direct from him
+    r"Mesajul .{0,30}Nicu[șs]or Dan",
+    r"Discursul .{0,30}Nicu[șs]or Dan",
+    r"Declara[țt]ia .{0,30}Nicu[șs]or Dan",
+    r"Alocu[țt]iunea .{0,30}Nicu[șs]or Dan",
+    r"Conferin[țt]a .{0,30}Nicu[șs]or Dan",
+    # He announces / says X
+    r"Nicu[șs]or Dan\b.*(anun[țt]|aprob|promulg|semneaz|cere|propune|invită|conf)",
+    r"Nicu[șs]or Dan,? (după|înainte) (de )?",
+]
+KEEP = re.compile("|".join(KEEP_PATTERNS), re.IGNORECASE)
+
+# STRICT skip: titles that are clearly about ND but with someone else as speaker
+SKIP_PATTERNS = [
+    # Previous filters
+    r"primarul (general |municipiului )?",
+    r"liderul Grupului parlamentar USR",
+    r"Klaus Iohannis|Ilie Bolojan|Ion Iliescu|Traian Băsescu|Emil Constantinescu",
+    # Commentary BY others ABOUT ND
+    r"\b(CTP|Cristoiu|Băsescu|Becali|Piperea|Șoșoacă|Georgescu|Simion|Grindeanu|Caramitru|Naumescu|Ponta|Năstase|Pleșu|Dragnea|Cioran|Reformata|Antena 3 [^c])\b.*Nicu[șs]or Dan",
+    r"Nicu[șs]or Dan.*(spune|spune|paraplegic|crede)",  # ?
+    # Reactions to ND
+    r"\b(reac[țt]ia|răspuns(ul)?|comentari|critică|atac(at|ă)?|haluc|părere)\b.*Nicu[șs]or Dan",
+    r"despre .* Nicu[șs]or Dan(,| la| de la)",
+    r"către Nicu[șs]or Dan",
+    r"\b(replic|răspund)(ă|e|și|i)\s+(lui |către )?Nicu[șs]or Dan",
+    # Pure analysis / news without his voice
+    r"^(analiz|sondaj|bilan[țt]|bilan)",
+    r"editorial.*Nicu[șs]or Dan",
+    # General talk show name in title
+    r"^(TALK|MARIUS TUCĂ|SINTEZA ZILEI)\s+",
+]
+SKIP = re.compile("|".join(SKIP_PATTERNS), re.IGNORECASE)
 
 
 def list_channel(name: str, url: str) -> list[dict]:
