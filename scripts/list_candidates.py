@@ -77,12 +77,17 @@ SKIP = re.compile("|".join(SKIP_PATTERNS), re.IGNORECASE)
 
 
 def list_channel(name: str, url: str) -> list[dict]:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from proxy import get_proxy_for_yt_dlp
     cmd = [
         "yt-dlp", "--flat-playlist",
         "--print", "%(id)s||%(title)s||%(duration)s||%(view_count)s",
         "--playlist-end", str(PAGE_LIMIT),
-        url,
     ]
+    proxy = get_proxy_for_yt_dlp()
+    if proxy:
+        cmd += ["--proxy", proxy]
+    cmd.append(url)
     proc = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
     items = []
     for line in proc.stdout.splitlines():

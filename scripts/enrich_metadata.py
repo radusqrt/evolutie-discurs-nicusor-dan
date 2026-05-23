@@ -25,8 +25,16 @@ def video_id_from_url(url: str) -> str | None:
     return m.group(1) if m else None
 
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from proxy import get_proxy_for_yt_dlp
+
+
 def get_meta(vid: str) -> dict | None:
-    cmd = ["yt-dlp", "--dump-json", "--skip-download", f"https://www.youtube.com/watch?v={vid}"]
+    cmd = ["yt-dlp", "--dump-json", "--skip-download"]
+    proxy = get_proxy_for_yt_dlp()
+    if proxy:
+        cmd += ["--proxy", proxy]
+    cmd.append(f"https://www.youtube.com/watch?v={vid}")
     try:
         proc = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
         if proc.returncode != 0:

@@ -33,6 +33,10 @@ from youtube_transcript_api._errors import (
     VideoUnavailable,
 )
 
+# Local proxy helper (Webshare credentials from .env)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from proxy import get_proxy_for_yt_dlp, get_proxy_for_transcript_api
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data" / "raw" / "youtube"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -94,8 +98,11 @@ def list_videos(url: str, page_limit: int) -> list[tuple[str, str]]:
         "--flat-playlist",
         "--print", "%(id)s|%(title)s",
         "--playlist-end", str(page_limit),
-        url,
     ]
+    proxy = get_proxy_for_yt_dlp()
+    if proxy:
+        cmd += ["--proxy", proxy]
+    cmd.append(url)
     proc = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
     items: list[tuple[str, str]] = []
     for line in proc.stdout.splitlines():
@@ -128,7 +135,11 @@ def already_collected(video_id: str) -> bool:
 
 
 def get_video_meta(vid: str) -> dict | None:
-    cmd = ["yt-dlp", "--dump-json", "--skip-download", f"https://www.youtube.com/watch?v={vid}"]
+    cmd = ["yt-dlp", "--dump-json", "--skip-download"]
+    proxy = get_proxy_for_yt_dlp()
+    if proxy:
+        cmd += ["--proxy", proxy]
+    cmd.append(f"https://www.youtube.com/watch?v={vid}")
     try:
         proc = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
         if proc.returncode != 0:
@@ -139,7 +150,8 @@ def get_video_meta(vid: str) -> dict | None:
 
 
 def fetch_transcript(vid: str) -> str | None:
-    api = YouTubeTranscriptApi()
+    proxy_cfg = get_proxy_for_transcript_api()
+    api = YouTubeTranscriptApi(proxy_config=proxy_cfg) if proxy_cfg else YouTubeTranscriptApi()
     try:
         transcript = api.fetch(vid, languages=["ro", "ro-RO"])
         text = " ".join(s.text for s in transcript)
