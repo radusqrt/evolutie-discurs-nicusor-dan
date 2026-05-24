@@ -1,5 +1,7 @@
 # Evoluția discursului — Nicușor Dan
 
+**Autor:** Radu Stochitoiu
+
 Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele României) în perioada **candidatură → primul an de mandat** (decembrie 2024 → mai 2026).
 
 **Subiect și goal**: vezi [`BRIEF.md`](./BRIEF.md). Rezultate sintetice: [`results/SINTEZA.md`](./results/SINTEZA.md).
