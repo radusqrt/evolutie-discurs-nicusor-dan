@@ -180,10 +180,22 @@ def main():
                 elif jv >= 0.10: bins["0.10-0.30"] += 1
                 else: bins["<0.10"] += 1
     print(f"\nTotal same-date pairs: {total_pairs}\n")
+    # Current dedupe threshold (mirror of scripts/03_dedupe.py:THRESHOLD_DEFAULT)
+    THRESHOLD = 0.70
+    drop_bins = {"≥0.95", "0.85-0.95"}
+    if THRESHOLD <= 0.85:
+        drop_bins.add("0.70-0.85")
+    if THRESHOLD <= 0.70:
+        drop_bins.add("0.50-0.70")  # would not actually apply with current default
+
+    total_drop = sum(bins[b] for b in drop_bins if b in bins)
+    print(f"\nThreshold curent: Jaccard ≥ {THRESHOLD}")
+    print(f"Total perechi care s-ar drop-ui: {total_drop} ({100*total_drop/max(total_pairs,1):.1f}%)\n")
+
     for label, n in bins.items():
         pct = 100 * n / max(total_pairs, 1)
         bar = "█" * int(pct / 2)
-        marker = " ← drops" if label in ("≥0.95", "0.85-0.95") else ""
+        marker = " ← drops" if label in drop_bins else ""
         print(f"  {label:<10} {n:>5} ({pct:5.1f}%) {bar}{marker}")
 
 
