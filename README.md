@@ -118,7 +118,7 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 | 2 | **Raw collection** | ✅ **verified** | `scripts/fetch_from_candidates.py` (YouTube) + `scripts/fb_apify_collect.py` (Facebook prin Apify) + `scripts/enrich_metadata.py` (backfill) | `data/raw/` (1,525 docs cu YAML frontmatter complet) |
 | 3 | **Dedupe** | ✅ **verified** | `scripts/03_dedupe.py` (Jaccard cu canonical pick prioritar) + `scripts/03_dedupe_verify.py` (spot check pe sample + post-dedup distribuție Jaccard) | `data/1_canonical/` (1,110 docs, **0 duplicate cu Jaccard ≥ 0.70** rămase în canonical) + `data/dedupe_report.md` |
 | 4 | **Diarize** | ✅ **verified** | `scripts/04_diarize.py` (skip-monolog) + `scripts/04d_diarize_llm_v2.py` (Gemini 2.5 Flash + thinking=0, chunked) + manual pentru cazuri tricky | `data/2_diarized/` cu etichete `[ND]/[JURNALIST]/[ANCHOR]/[OFICIAL: nume]` |
-| 5 | **Clean** | ⏳ funcțional | `scripts/corpus.py:tokenize()` (spaCy `ro_core_news_sm` + `stopwordsiso`) | runtime |
+| 5 | **Clean** | ✅ **verified** | `scripts/corpus.py:tokenize()` (spaCy `ro_core_news_sm` + `stopwordsiso` + speech-filler stopwords custom) | runtime |
 | 6 | **Project** | ⏳ funcțional | `scripts/corpus.py:strip_speaker_tags_to_nd()` (filtrare voce ND) | runtime |
 | 7 | **Analyze** | ⏳ funcțional | `scripts/01_basic_analysis.py` (stats + wordclouds + top-N) + `scripts/02_tfidf_temporal.py` (TF-IDF + bigrame + perioade) | `results/01_basic/`, `results/02_tfidf/` |
 | 8 | **Interpret** | ⏳ în curs | manual | `results/SINTEZA.md` |
@@ -128,6 +128,10 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 - **Pasul 1 (Discovery)** — verificat că proxy-ul Webshare cu rotație IP funcționează (5/5 cereri returnează IP-uri distincte), că search-ul pe 8 canale agregă coerent (608 unique candidates).
 - **Pasul 2 (Raw)** — verificat că schema YAML e uniformă (după normalizarea canal/titlu_video → sursa_canal/sursa_titlu pe 22 fișiere legacy), că metadata e completă (1495/1525 au sursa_titlu populat; restul = manual curated).
 - **Pasul 3 (Dedupe)** — verificat **dublu**: (a) spot check manual pe 6 perechi borderline 0.70-0.85 (toate confirmate ca duplicate reale, threshold scăzut de la 0.85 la 0.70); (b) post-dedup, distribuția Jaccard pe `data/1_canonical/` arată **0 perechi ≥ 0.70**.
+
+- **Pasul 5 (Clean)** — verificat prin spot check independent al top 30 cuvinte: counts match cu summary.md (după fix la projection care lăsa `[ND]` tags mid-paragraph), iar cleanup-ul stopwords filtrează corect speech fillers de YouTube auto-captions:
+  - **stopwordsiso RO** (438 cuvinte) + **cardinali** (un, o, doi...) + **speech fillers** (ă, ăă, ăăă, aa, aaa, hm, hmm, mhm, îh, îhî) + **sound effect markers** (muzică, aplauze)
+  - Top 30 cuvinte rezultate sunt **content-words** pure: `vrea, sine, românia, spune, trebui, putea, moment, om, stat, an, exista, discuție, parte, lucru, european, român, vedea, crede, important, țară, bun, public, ști, chestiune, președinte, partid, problemă, adică, veni, față`
 
 - **Pasul 4 (Diarize)** — verificat prin **3 audit-uri manuale** (seeds 9999/42/1337) pe **60 fișiere random LLM-diarizate**, cumulat:
   - **57-58/60 perfect** (95-97%)
