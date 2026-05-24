@@ -9,10 +9,59 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 ## TL;DR
 
 - **1,525 documente brute** colectate din **9 surse** (Facebook NicusorDan.ro, 8 canale YouTube)
-- **1,114 documente canonice** după dedup (Jaccard ≥ 0.85)
-- **~652,961 cuvinte** analizate
+- **1,110 documente canonice** după dedup (Jaccard ≥ 0.70)
+- **~650k cuvinte** analizate
 - **6 etape de discurs** detectate cu TF-IDF pe perioade
 - Arc narativ: *diagnostic critic → mobilizare electorală → tehnocrat → comandant suprem → reformator instituțional → leader regional*
+
+## Diagrama de ingestie + dedupe
+
+```mermaid
+flowchart TB
+    subgraph SRC["📡 SURSE (9 canale)"]
+        direction LR
+        subgraph YT["YouTube (8 canale, prin yt-dlp + youtube_transcript_api via proxy Webshare cu rotație IP 1-200)"]
+            E["Euronews Romania<br/>132 video"]
+            D["Digi24 HD<br/>125 video"]
+            A3["Antena 3 CNN<br/>95 video"]
+            B1["B1 TV<br/>61 video"]
+            PE["Privesc.Eu<br/>41 video"]
+            AP["Adm. Prezidențială<br/>4 video"]
+            KD["Kanal D<br/>2 video"]
+            NDP["Canal personal<br/>Nicușor Dan<br/>2 video"]
+        end
+        subgraph FB["Facebook (1 pagină, prin Apify)"]
+            FBP["NicusorDan.ro<br/>1,054 postări"]
+        end
+        subgraph MAN["Manual curated"]
+            OFI["data/raw/oficial/<br/>7 discursuri-ancoră"]
+            INT["data/raw/interviuri/<br/>1 dezbatere TV"]
+            EXC["data/raw/excluded/<br/>1 off-topic (primar)"]
+        end
+    end
+
+    SRC --> RAW["📦 <b>data/raw/</b><br/>1,525 docs brute<br/>(immutable)<br/>──────<br/>462 YouTube<br/>1,054 Facebook<br/>9 manual"]
+
+    RAW --> DEDUP["🔍 <b>DEDUPE</b><br/>scripts/03_dedupe.py<br/>──────<br/>Grupare pe dată<br/>Jaccard pe token sets<br/>Union-Find @ Jaccard ≥ 0.70<br/>Canonical pick: priority canal → lungime → views"]
+
+    DEDUP --> CAN["✨ <b>data/1_canonical/</b><br/>1,110 docs canonice<br/>──────<br/>378 YouTube (-84)<br/>724 Facebook (-330)<br/>8 manual<br/>414 dropped total"]
+
+    DEDUP -.-> REP["📝 data/dedupe_report.md<br/>394 clustere documentate"]
+
+    CAN --> AN["📊 ANALIZĂ<br/>(Pasul 1: wordclouds<br/>Pasul 2: TF-IDF + bigrame + temporal)"]
+
+    style SRC fill:#e1f5ff,stroke:#0288d1
+    style YT fill:#fff,stroke:#0288d1
+    style FB fill:#fff,stroke:#0288d1
+    style MAN fill:#fff,stroke:#0288d1
+    style RAW fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    style DEDUP fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px
+    style CAN fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    style AN fill:#fce4ec,stroke:#c2185b
+    style REP fill:#fafafa,stroke:#9e9e9e,stroke-dasharray: 5 5
+```
+
+**Reducerea principală vine din Facebook** (-330 dups): Apify a returnat unele posturi de mai multe ori pe re-runs + există posturi quasi-identice (mesaje scurte de mulțumiri reposatete). YouTube pierde doar 84 documente (re-uploads cross-channel ale aceluiași clip).
 
 ## Pipeline (8 pași)
 
@@ -20,7 +69,7 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 |---|---|---|---|
 | 1 | **Discovery** | `scripts/list_candidates.py` (yt-dlp prin proxy Webshare) | `data/index/youtube_candidates.json` (608 candidați) |
 | 2 | **Raw collection** | `scripts/fetch_from_candidates.py` (YouTube) + `scripts/fb_apify_collect.py` (Facebook prin Apify) | `data/raw/` (1,525 docs cu YAML frontmatter) |
-| 3 | **Dedupe** | `scripts/03_dedupe.py` (Jaccard cu canonical pick prioritar) | `data/1_canonical/` (1,114 docs) + `data/dedupe_report.md` |
+| 3 | **Dedupe** | `scripts/03_dedupe.py` (Jaccard cu canonical pick prioritar) + `scripts/03_dedupe_verify.py` (spot check) | `data/1_canonical/` (1,110 docs) + `data/dedupe_report.md` |
 | 4 | **Diarize** | `scripts/diarize_heuristic.py` (>>+intros patterns) + manual pentru joint conferences | inline în .md cu etichete `[ND]/[JURNALIST]/[RUTTE]/...` |
 | 5 | **Clean** | `scripts/corpus.py:tokenize()` (spaCy `ro_core_news_sm` + `stopwordsiso`) | runtime |
 | 6 | **Project** | `scripts/corpus.py:strip_speaker_tags_to_nd()` (filtrare voce ND) | runtime |
@@ -61,20 +110,24 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 
 1. **Grupare pe dată** — doar documentele din aceeași zi sunt candidate la dedup (limitează O(n²) și e logic: clipuri ale aceluiași eveniment sunt din aceeași zi)
 2. **Pairwise similarity** — Jaccard pe seturi de tokens între fiecare pereche în grup
-3. **Clustering** — Union-Find pe graful unde muchiile sunt perechi cu Jaccard ≥ **0.85** (prag empiric: 1.0 = re-upload identic, 0.85 = >85% overlap content, 0.4 = teme diferite din același eveniment, < 0.2 = unrelated)
+3. **Clustering** — Union-Find pe graful unde muchiile sunt perechi cu Jaccard ≥ **0.70** (prag empiric — vezi mai jos)
 4. **Canonical pick** per cluster, în această ordine de prioritate:
    1. **Canal** (Adm. Prezidențială > Privesc.Eu > Canal personal > Manual > Digi24 > Euronews > Antena 3 > B1 > Kanal D)
    2. **Lungime** (cel mai lung text = cea mai completă acoperire)
    3. **Vizionări** (signal de popularitate)
 5. **Output** — copie a fișierelor canonice către `data/1_canonical/` păstrând structura de foldere; report cu toate clusterele și ce a fost dropped în `data/dedupe_report.md`
 
-**Rezultat actual**: 1,525 → 1,114 docs (411 dropped, 392 clustere cu duplicate).
+**Rezultat actual**: 1,524 → 1,110 docs (414 dropped, 394 clustere cu duplicate).
 
-**De ce 0.85?**
+**De ce 0.70?**
 - 1.0 (exact) prinde doar re-uploads cu același transcript byte-for-byte. Captions auto-generate YouTube **nu sunt deterministe** (poate varia cu 1-2 cuvinte).
 - 0.95-0.99 ar fi prea strict — pierde re-uploads cu mici diferențe.
-- 0.85 e dezbătut în literatura de dedup ca threshold "near-duplicate" — văzut de noi că surprinde corect re-uploads pe același canal (Jaccard 1.00 când e exact, ~0.92 când e versiune ușor diferită) și NU prinde fals clipuri tematice cross-channel (Jaccard 0.07-0.15 între B1/Antena 3/Digi24 pe același eveniment = conținut diferit).
-- 0.7-0.8 ar fi prea slab — încep să se piardă clipuri tematice valide.
+- 0.85 (threshold inițial) prinde curat re-uploads identice + clipuri ale aceluiași discurs cu diferențe minore (variații transcripție, intro/outro diferit).
+- 0.70 (threshold curent, după spot check manual) — surprinde clipuri tematice ale **aceluiași discurs**, doar cu intro/preambul diferit (ex. discursul de victorie 18 mai 2025 distribuit pe 3 canale TV cu introduceri diferite dar conținut substanțial identic).
+- 0.5-0.65 (zona păstrată) — clipuri ale aceluiași **eveniment** dar cu conținut **distinct** (ex. două răspunsuri ale lui ND la întrebări diferite din aceeași conferință), corect păstrate.
+- 0.1-0.2 (foarte slab) — conținut complet diferit, doar overlap pe nume proprii/lexic de bază.
+
+**Spot check manual** (`scripts/03_dedupe_verify.py`) pe 6 perechi borderline cu Jaccard ∈ [0.70, 0.85) a confirmat că **toate sunt duplicate reale** (același discurs cu intro-uri diferite). De aceea threshold-ul a fost coborât de la 0.85 la 0.70.
 
 ## Metodologia de diarizare
 
@@ -125,7 +178,7 @@ python scripts/02_tfidf_temporal.py            # TF-IDF + bigrame + perioade
 ```
 data/
 ├── raw/                     # 1,525 docs brute (immutable corpus)
-├── 1_canonical/             # 1,114 docs după dedup (sursa de adevăr pentru analiză)
+├── 1_canonical/             # 1,110 docs după dedup (sursa de adevăr pentru analiză)
 ├── index/
 │   ├── youtube_candidates.json
 │   └── wikipedia_chronology.md
@@ -143,10 +196,11 @@ scripts/
 ├── diarize_heuristic.py     # >>+intros diarization
 ├── 01_basic_analysis.py     # wordclouds + top-N + stats
 ├── 02_tfidf_temporal.py     # TF-IDF distinctive + bigrame + perioade
-└── 03_dedupe.py             # Jaccard ≥0.85 clustering
+├── 03_dedupe.py             # Jaccard ≥0.70 clustering
+└── 03_dedupe_verify.py      # spot check verification (drops + near-miss + cross-channel)
 
 results/
-├── 01_basic/                # wordcloud + top-20 bar chart × 1,114 docs + combinate
+├── 01_basic/                # wordcloud + top-20 bar chart × 1,110 docs + combinate
 ├── 02_tfidf/                # TF-IDF distinctive (per doc + per perioadă) + bigrame
 └── SINTEZA.md               # narațiunea finală a evoluției
 

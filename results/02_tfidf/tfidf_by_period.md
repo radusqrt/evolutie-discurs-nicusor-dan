@@ -20,8 +20,8 @@ Documentele sunt agregate per trimestru; TF-IDF e calculat între perioade pentr
 | președinție       |    0.127 |
 | romaniaonesta     |    0.119 |
 | nicusorpresedinte |    0.113 |
-| proeuropean       |    0.1   |
 | jordan            |    0.1   |
+| proeuropean       |    0.1   |
 | udmr              |    0.086 |
 | clasă             |    0.078 |
 | ciucu             |    0.074 |
@@ -30,21 +30,21 @@ Documentele sunt agregate per trimestru; TF-IDF e calculat între perioade pentr
 | talpă             |    0.069 |
 | cursă             |    0.067 |
 | senat             |    0.063 |
-| scut              |    0.059 |
+| putin             |    0.059 |
 
-## 2025Q2 campanie + investitură  (481 documente)
+## 2025Q2 campanie + investitură  (480 documente)
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| romaniaonesta     |    0.535 |
-| nicusorpresedinte |    0.331 |
+| romaniaonesta     |    0.536 |
+| nicusorpresedinte |    0.332 |
 | tur               |    0.189 |
-| nicușordan        |    0.163 |
-| antonescu         |    0.132 |
+| nicușordan        |    0.164 |
+| antonescu         |    0.133 |
 | ceremonie         |    0.122 |
 | primărie          |    0.122 |
-| aplauze           |    0.118 |
-| ciolacu           |    0.114 |
+| ciolacu           |    0.115 |
+| aplauze           |    0.109 |
 | jurământ          |    0.102 |
 | ponta             |    0.102 |
 | lasconi           |    0.091 |
@@ -54,12 +54,12 @@ Documentele sunt agregate per trimestru; TF-IDF e calculat între perioade pentr
 | nicusorpresedint  |    0.078 |
 | victor            |    0.076 |
 | onestă            |    0.07  |
-| candidatură       |    0.069 |
-| românie           |    0.067 |
+| candidatură       |    0.07  |
 | urban             |    0.067 |
+| românie           |    0.065 |
 | regina            |    0.064 |
-| cpp               |    0.06  |
 | abcde             |    0.06  |
+| publicitar        |    0.06  |
 | nicușor-daniel    |    0.06  |
 
 ## 2025Q3 deficit + reforma economică  (101 documente)
@@ -104,25 +104,25 @@ Documentele sunt agregate per trimestru; TF-IDF e calculat între perioade pentr
 | năstase         |    0.094 |
 | ocde            |    0.092 |
 | alinia          |    0.092 |
-| aerian          |    0.092 |
 | implementare    |    0.092 |
+| aerian          |    0.092 |
 | colaborare      |    0.092 |
 | inamic          |    0.087 |
-| neagră          |    0.084 |
 | sri             |    0.084 |
+| neagră          |    0.084 |
 | vulnerabilitate |    0.083 |
 | potra           |    0.082 |
-| introduce       |    0.08  |
 | insista         |    0.08  |
+| introduce       |    0.08  |
 | pensiona        |    0.079 |
 | safe            |    0.078 |
 | gheorghiu       |    0.078 |
-| tehnologie      |    0.076 |
 | angajament      |    0.076 |
+| tehnologie      |    0.076 |
 | pachet          |    0.076 |
 | exercițiu       |    0.076 |
 
-## 2025Q4-2026Q1 reformă judiciară  (174 documente)
+## 2025Q4-2026Q1 reformă judiciară  (173 documente)
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
@@ -132,17 +132,17 @@ Documentele sunt agregate per trimestru; TF-IDF e calculat între perioade pentr
 | militar         |    0.186 |
 | magistraturii   |    0.102 |
 | disciplinar     |    0.099 |
-| documentar      |    0.095 |
 | recorder        |    0.095 |
+| documentar      |    0.095 |
 | inspecție       |    0.084 |
-| competitivitate |    0.082 |
 | superior        |    0.082 |
+| competitivitate |    0.082 |
 | gaza            |    0.081 |
 | criteriu        |    0.08  |
 | instanțelor     |    0.078 |
 | nicușordan      |    0.077 |
-| corupt          |    0.074 |
 | participare     |    0.074 |
+| corupt          |    0.074 |
 | magistrație     |    0.072 |
 | ianuarie        |    0.071 |
 | magistratură    |    0.067 |
@@ -152,32 +152,32 @@ Documentele sunt agregate per trimestru; TF-IDF e calculat între perioade pentr
 | examen          |    0.06  |
 | reuniune        |    0.06  |
 
-## 2026Q2 cotitură UE + criză guvern  (162 documente)
+## 2026Q2 cotitură UE + criză guvern  (160 documente)
 
-| lemmă       |   TF-IDF |
-|:------------|---------:|
-| summit      |    0.242 |
-| polonia     |    0.233 |
-| colaborare  |    0.174 |
-| militar     |    0.171 |
-| orientul    |    0.169 |
-| echipament  |    0.157 |
-| nuclear     |    0.142 |
-| mijlociu    |    0.127 |
-| dicot       |    0.126 |
-| neagră      |    0.116 |
-| sforăit     |    0.115 |
-| petrol      |    0.109 |
-| regiune     |    0.109 |
-| adjunct     |    0.106 |
-| safe        |    0.103 |
-| polonez     |    0.099 |
-| live        |    0.098 |
-| pnrr        |    0.096 |
-| parchetelor |    0.092 |
-| iași        |    0.092 |
-| nicușordan  |    0.089 |
-| moțiune     |    0.085 |
-| dronă       |    0.082 |
-| penaliza    |    0.079 |
-| cercetare   |    0.079 |
+| lemmă         |   TF-IDF |
+|:--------------|---------:|
+| summit        |    0.244 |
+| polonia       |    0.234 |
+| colaborare    |    0.175 |
+| militar       |    0.171 |
+| orientul      |    0.17  |
+| echipament    |    0.158 |
+| nuclear       |    0.139 |
+| mijlociu      |    0.127 |
+| dicot         |    0.126 |
+| neagră        |    0.117 |
+| sforăit       |    0.116 |
+| petrol        |    0.11  |
+| regiune       |    0.11  |
+| adjunct       |    0.107 |
+| safe          |    0.099 |
+| polonez       |    0.099 |
+| live          |    0.099 |
+| parchetelor   |    0.093 |
+| iași          |    0.093 |
+| pnrr          |    0.093 |
+| nicușordan    |    0.089 |
+| moțiune       |    0.086 |
+| dronă         |    0.082 |
+| penaliza      |    0.079 |
+| transatlantic |    0.079 |

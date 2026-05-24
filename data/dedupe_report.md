@@ -1,9 +1,9 @@
 # Dedup report
 
 - Original: **1524** docs
-- Canonical: **1114**
-- Dropped near-duplicates: **410**
-- Threshold: Jaccard ≥ 0.85
+- Canonical: **1110**
+- Dropped near-duplicates: **414**
+- Threshold: Jaccard ≥ 0.7
 
 ## Clusters with dropped duplicates
 
@@ -265,6 +265,7 @@
   - title: Alegeri prezidențiale 2025. Mesajul lui Nicușor Dan după apariția primelor rezul
 
 **Dropped:**
+  - `youtube/2025-05-18_nicusor-dan-dupa-rezultatele-exit-poll-traim-un-moment-de-sp.md` (Antena 3 CNN, 417w): Nicușor Dan, după rezultatele exit-poll: Trăim un moment de speranță
   - `youtube/2025-05-18_nicusor-dan-dupa-rezultatele-exit-pollurilor-din-turul-doi-r.md` (Euronews Romania, 394w): Nicușor Dan, după rezultatele exit-pollurilor din turul doi: „Românii vor o schi
 
 ### 2025-05-21
@@ -2906,6 +2907,16 @@
 **Dropped:**
   - `facebook/2026-02-15_voi-participa-s-pt-mana-viitoare-la-prima-reuniune-a-consili_620781.md` (Facebook (NicusorDan.ro), 115w): Voi participa sǎptǎmâna viitoare la prima reuniune a Consiliului Pǎcii la Washin
 
+### 2026-02-17
+
+**Kept canonical:** `youtube/2026-02-17_nicusor-dan-prezenta-la-consiliul-de-pace-necesara-dupa-anul.md`
+  - channel: Euronews Romania
+  - words: 216
+  - title: Nicușor Dan: Prezența la Consiliul de Pace, necesară după anularea alegerilor
+
+**Dropped:**
+  - `youtube/2026-02-17_nicusor-dan-prezenta-la-consiliul-de-pace-necesara-dupa-anul_yYS5fW.md` (Euronews Romania, 171w): Nicușor Dan: Prezența la Consiliul de Pace, necesară după anularea alegerilor
+
 ### 2026-02-18
 
 **Kept canonical:** `facebook/2026-02-18_salut-decizia-curtii-constitutionale-privind-reforma-pensiil.md`
@@ -3150,6 +3161,16 @@
 
 **Dropped:**
   - `facebook/2026-03-12_i-am-urat-bun-venit-la-bucuresti-presedintelui-volodimir-zel_284841.md` (Facebook (NicusorDan.ro), 280w): I-am urat bun venit la București Președintelui Volodîmîr Zelenski, aflat într-o
+
+### 2026-03-12
+
+**Kept canonical:** `youtube/2026-03-12_nicusor-dan-we-will-produce-drones-in-romania-together-with.md`
+  - channel: Antena 3 CNN
+  - words: 499
+  - title: Nicușor Dan: We will produce drones in Romania together with Ukraine
+
+**Dropped:**
+  - `youtube/2026-03-12_discursul-lui-nicusor-dan-dupa-intrevederea-cu-zelenski-stir.md` (B1, 380w): DISCURSUL LUI NICUȘOR DAN DUPĂ ÎNTREVEDEREA CU ZELENSKI. Știri B1TV_12 martie 20
 
 ### 2026-03-16
 
@@ -3717,12 +3738,13 @@
 
 ### 2026-05-09
 
-**Kept canonical:** `facebook/2026-05-09_sarbatorim-azi-ziua-europei-maine-ziua-independentei-sunt-do.md`
-  - channel: Facebook (NicusorDan.ro)
-  - words: 751
-  - title: Sărbătorim azi Ziua Europei, mâine Ziua Independenței. Sunt două momente legate
+**Kept canonical:** `youtube/2026-05-09_mesajul-presedintelui-romaniei-nicusor-dan-cu-prilejul-zilei.md`
+  - channel: Privesc.Eu România
+  - words: 780
+  - title: Mesajul Președintelui României, Nicușor Dan, cu prilejul Zilei Europei - 9 mai 2
 
 **Dropped:**
+  - `facebook/2026-05-09_sarbatorim-azi-ziua-europei-maine-ziua-independentei-sunt-do.md` (Facebook (NicusorDan.ro), 751w): Sărbătorim azi Ziua Europei, mâine Ziua Independenței. Sunt două momente legate
   - `facebook/2026-05-09_sarbatorim-azi-ziua-europei-maine-ziua-independentei-sunt-do_736955.md` (Facebook (NicusorDan.ro), 751w): Sărbătorim azi Ziua Europei, mâine Ziua Independenței. Sunt două momente legate
 
 ### 2026-05-12

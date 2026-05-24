@@ -9814,21 +9814,6 @@
 | susține palat    |           1 |
 | palat cotroceni  |           1 |
 
-## 2026-05-09 — facebook-post
-
-| bigramă          |   frecvență |
-|:-----------------|------------:|
-| uniune european  |          11 |
-| românia uniune   |           5 |
-| sine duce        |           3 |
-| european însemna |           2 |
-| adevărat românia |           2 |
-| miliard euro     |           2 |
-| ban european     |           2 |
-| decât lozincă    |           2 |
-| loc dezbatere    |           2 |
-| interior uniune  |           2 |
-
 ## 2026-05-12 — facebook-post
 
 | bigramă                                                 |   frecvență |
@@ -11231,21 +11216,6 @@
 | victorie campanie |           1 |
 | campanie crede    |           1 |
 | crede românia     |           1 |
-
-## 2025-05-18 — video-transcript
-
-| bigramă               |   frecvență |
-|:----------------------|------------:|
-| nicușor nicușor       |          13 |
-| românia românia       |          12 |
-| unitate unitate       |           6 |
-| comunitate vrea       |           4 |
-| societate românesc    |           4 |
-| comunitate comunitate |           3 |
-| forță societate       |           3 |
-| seara seara           |           2 |
-| alegere comunitate    |           2 |
-| românia comunitate    |           2 |
 
 ## 2025-05-18 — video-transcript
 
@@ -14603,21 +14573,6 @@
 | anula țară        |           1 |
 | țară trebui       |           1 |
 
-## 2026-02-17 — video-transcript
-
-| bigramă          |   frecvență |
-|:-----------------|------------:|
-| imagine ansamblu |           2 |
-| cred trebui      |           1 |
-| trebui uita      |           1 |
-| uita imagine     |           1 |
-| ansamblu imagine |           1 |
-| ansamblu exista  |           1 |
-| exista parte     |           1 |
-| parte american   |           1 |
-| american parte   |           1 |
-| parte european   |           1 |
-
 ## 2026-02-19 — video-transcript
 
 | bigramă            |   frecvență |
@@ -15022,9 +14977,6 @@
 | românia stat     |           2 |
 | stat unit        |           2 |
 | ședință consiliu |           1 |
-
-## 2026-03-12 — video-transcript
-
 
 ## 2026-03-12 — video-transcript
 

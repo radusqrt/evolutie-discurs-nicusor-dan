@@ -7,11 +7,11 @@ _File: `2025-02-20_in-orasele-din-moldova-pe-care-le-am-vizitat-recent-am-intal`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | inteligente       |    0.579 |
-| vizita            |    0.379 |
-| recent            |    0.347 |
+| vizita            |    0.378 |
+| recent            |    0.349 |
 | oraș              |    0.327 |
-| întâlni           |    0.307 |
-| moldova           |    0.282 |
+| întâlni           |    0.306 |
+| moldova           |    0.283 |
 | nicusorpresedinte |    0.262 |
 | romaniaonesta     |    0.226 |
 
@@ -22,14 +22,14 @@ _File: `2025-02-20_romania-asteapta-o-schimbare-reala-romania-puternica-are-nev`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | real              |    0.381 |
-| schimbare         |    0.35  |
-| puternic          |    0.343 |
-| clar              |    0.333 |
+| schimbare         |    0.351 |
+| puternic          |    0.345 |
+| clar              |    0.332 |
 | aștepta           |    0.33  |
 | direcție          |    0.328 |
 | românia           |    0.324 |
-| nicusorpresedinte |    0.323 |
-| romaniaonesta     |    0.279 |
+| nicusorpresedinte |    0.322 |
+| romaniaonesta     |    0.278 |
 
 ## 2025-02-21 — facebook-post
 
@@ -42,16 +42,16 @@ _File: `2025-02-21_discutiile-internationale-despre-reconfigurarea-securitatii` 
 | prezentare       |    0.231 |
 | trebui           |    0.228 |
 | echivoc          |    0.224 |
-| europa           |    0.217 |
-| alinia           |    0.199 |
+| europa           |    0.218 |
 | securitate       |    0.199 |
-| credibilitate    |    0.185 |
-| prost            |    0.185 |
-| românia          |    0.169 |
+| alinia           |    0.199 |
+| credibilitate    |    0.184 |
+| prost            |    0.184 |
+| românia          |    0.17  |
 | prinde           |    0.166 |
-| munci            |    0.161 |
-| întări           |    0.161 |
-| uniuneaeuropeană |    0.16  |
+| munci            |    0.16  |
+| întări           |    0.16  |
+| uniuneaeuropeană |    0.159 |
 
 ## 2025-02-21 — facebook-post
 
@@ -70,10 +70,10 @@ _File: `2025-02-21_presedintele-trebuie-sa-uneasca-energiile-din-societate-doar`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | energiile         |    0.533 |
-| societate         |    0.49  |
+| societate         |    0.492 |
 | uni               |    0.387 |
 | dezvolta          |    0.325 |
-| nicusorpresedinte |    0.268 |
+| nicusorpresedinte |    0.267 |
 | romaniaonesta     |    0.231 |
 | președinte        |    0.186 |
 | trebui            |    0.181 |
@@ -97,9 +97,9 @@ _File: `2025-02-21_ultimul-dintre-studiile-de-fundamentare-necesare-pentru-actu`
 | cadru       |    0.141 |
 | studiu      |    0.14  |
 | bucurești   |    0.129 |
-| mincu       |    0.107 |
+| european    |    0.107 |
 | consorțiu   |    0.107 |
-| urbanist    |    0.107 |
+| mincu       |    0.107 |
 
 ## 2025-02-21 — facebook-post
 
@@ -109,9 +109,9 @@ _File: `2025-02-21_vrei-sa-fii-parte-din-schimbare-alatura-te-echipei-de-volunt`
 |:---------------------------|---------:|
 | onestă                     |    0.31  |
 | târgu                      |    0.227 |
+| schimbarereală             |    0.218 |
 | completează                |    0.218 |
 | alătură                    |    0.218 |
-| schimbarereală             |    0.218 |
 | httpsnicusordanrovoluntari |    0.21  |
 | vino                       |    0.21  |
 | mureș                      |    0.204 |
@@ -129,20 +129,20 @@ _File: `2025-02-22_bucurestiul-este-finalist-la-premiile-saptamanii-europene-a` 
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| finalist    |    0.395 |
+| finalist    |    0.396 |
 | bucurești   |    0.249 |
-| mobilităție |    0.206 |
-| action      |    0.206 |
 | interactiv  |    0.206 |
 | tpbi        |    0.206 |
+| action      |    0.206 |
+| mobilităție |    0.206 |
 | premiu      |    0.198 |
 | concura     |    0.198 |
 | stb         |    0.198 |
 | cehia       |    0.191 |
-| vehicul     |    0.181 |
 | organizat   |    0.181 |
-| celebra     |    0.177 |
+| vehicul     |    0.181 |
 | epocă       |    0.177 |
+| celebra     |    0.177 |
 | expoziție   |    0.174 |
 
 ## 2025-02-22 — facebook-post
@@ -155,7 +155,7 @@ _File: `2025-02-22_in-vremuri-complicate-singura-resursa-ramane-discernamantul` 
 | complicat |    0.456 |
 | resursă   |    0.41  |
 | propriu   |    0.368 |
-| singur    |    0.357 |
+| singur    |    0.358 |
 | rămâne    |    0.282 |
 
 ## 2025-02-23 — facebook-post
@@ -164,14 +164,14 @@ _File: `2025-02-23_am-discutat-in-acest-week-end-cu-oameni-din-ploiesti-brasov` 
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| grijă        |    0.25  |
-| criză        |    0.209 |
+| grijă        |    0.249 |
+| criză        |    0.208 |
 | românia      |    0.204 |
 | intern       |    0.191 |
-| vigilent     |    0.18  |
 | reconfigura  |    0.18  |
+| vigilent     |    0.18  |
 | acapara      |    0.172 |
-| stat         |    0.163 |
+| stat         |    0.164 |
 | reorganizare |    0.162 |
 | ploiești     |    0.158 |
 | însă         |    0.155 |
@@ -186,7 +186,7 @@ _File: `2025-02-23_felicit-blocul-de-centru-dreapta-pro-european-cdu-csu-pentru`
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| germania         |    0.353 |
+| germania         |    0.352 |
 | victorie         |    0.255 |
 | uniuneaeuropeană |    0.227 |
 | vrea             |    0.227 |
@@ -194,12 +194,12 @@ _File: `2025-02-23_felicit-blocul-de-centru-dreapta-pro-european-cdu-csu-pentru`
 | merz             |    0.17  |
 | sursa            |    0.156 |
 | pro-european     |    0.152 |
-| economic         |    0.149 |
+| economic         |    0.15  |
 | urnă             |    0.149 |
-| scor             |    0.147 |
+| scor             |    0.146 |
 | cancelar         |    0.144 |
+| credibil         |    0.144 |
 | învinge          |    0.144 |
-| credibil         |    0.142 |
 | german           |    0.14  |
 
 ## 2025-02-23 — facebook-post
@@ -212,8 +212,8 @@ _File: `2025-02-23_grup-de-suport-pentru-femeile-afectate-de-violenta-domestica`
 | grup         |    0.319 |
 | femeie       |    0.253 |
 | dgasmb       |    0.198 |
-| confidențial |    0.189 |
 | vindecare    |    0.189 |
+| confidențial |    0.189 |
 | înscriere    |    0.183 |
 | detaliile    |    0.183 |
 | discriminare |    0.173 |
@@ -222,7 +222,7 @@ _File: `2025-02-23_grup-de-suport-pentru-femeile-afectate-de-violenta-domestica`
 | suport       |    0.158 |
 | locație      |    0.154 |
 | domestic     |    0.154 |
-| sexual       |    0.148 |
+| completa     |    0.148 |
 
 ## 2025-02-24 — facebook-post
 
@@ -231,12 +231,12 @@ _File: `2025-02-24_proiectul-politic-care-va-avea-cei-mai-multi-cei-mai-entuzia`
 | lemmă                      |   TF-IDF |
 |:---------------------------|---------:|
 | vrea                       |    0.291 |
-| nicușorpresedinte          |    0.285 |
 | entuziast                  |    0.285 |
+| nicușorpresedinte          |    0.285 |
 | httpsnicusordanrovoluntari |    0.264 |
 | muncitor                   |    0.25  |
-| voluntarii                 |    0.245 |
-| îndemn                     |    0.245 |
+| voluntarii                 |    0.244 |
+| îndemn                     |    0.244 |
 | formular                   |    0.24  |
 | alătura                    |    0.228 |
 | voluntar                   |    0.216 |
@@ -244,7 +244,7 @@ _File: `2025-02-24_proiectul-politic-care-va-avea-cei-mai-multi-cei-mai-entuzia`
 | romaniaputernica           |    0.207 |
 | onestă                     |    0.194 |
 | cheie                      |    0.185 |
-| succes                     |    0.16  |
+| succes                     |    0.159 |
 
 ## 2025-02-25 — facebook-post
 
@@ -252,21 +252,21 @@ _File: `2025-02-25_cifrele-vorbesc-clar-suntem-pe-drumul-cel-bun-si-romania-one`
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| drum             |    0.316 |
-| obstacol         |    0.249 |
+| drum             |    0.317 |
+| obstacol         |    0.248 |
 | tărie            |    0.242 |
 | orgol            |    0.232 |
-| romaniaputernica |    0.201 |
-| cifră            |    0.189 |
-| onestă           |    0.189 |
+| romaniaputernica |    0.2   |
+| cifră            |    0.19  |
+| onestă           |    0.188 |
 | joc              |    0.187 |
-| merita           |    0.186 |
-| uni              |    0.181 |
+| merita           |    0.185 |
+| uni              |    0.18  |
 | capăt            |    0.178 |
+| prosperitate     |    0.171 |
 | cale             |    0.171 |
-| prosperitate     |    0.17  |
-| lupta            |    0.167 |
-| occidental       |    0.167 |
+| lupta            |    0.168 |
+| occidental       |    0.168 |
 
 ## 2025-02-25 — facebook-post
 
@@ -291,8 +291,8 @@ _File: `2025-02-25_mai-bine-mai-tarziu-decat-niciodata-alegerile-trebuie-organi`
 | târziu       |    0.366 |
 | profesionist |    0.356 |
 | niciodată    |    0.309 |
-| organiza     |    0.308 |
-| decât        |    0.233 |
+| organiza     |    0.307 |
+| decât        |    0.234 |
 | trebui       |    0.166 |
 
 ## 2025-02-26 — facebook-post
@@ -304,14 +304,14 @@ _File: `2025-02-26_daca-voi-avea-increderea-romanilor-voi-fi-un-presedinte-acti`
 | implicat          |    0.333 |
 | determina         |    0.313 |
 | vrea              |    0.309 |
-| romaniaputernica  |    0.293 |
+| romaniaputernica  |    0.292 |
 | aplicare          |    0.29  |
 | activ             |    0.249 |
 | eficient          |    0.234 |
 | constituțional    |    0.213 |
 | folosi            |    0.211 |
 | putere            |    0.204 |
-| soluție           |    0.199 |
+| soluție           |    0.2   |
 | încredere         |    0.186 |
 | nicusorpresedinte |    0.182 |
 | cetățean          |    0.178 |
@@ -323,19 +323,19 @@ _File: `2025-02-26_suntem-aproape-de-100-000-de-semnaturi-pentru-depunerea-cand`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| semnătură    |    0.479 |
+| semnătură    |    0.478 |
 | formular     |    0.35  |
 | dedicar      |    0.208 |
 | descărca     |    0.199 |
-| instrucțiune |    0.193 |
-| răbdr        |    0.187 |
+| răbdr        |    0.192 |
+| instrucțiune |    0.192 |
 | voluntarii   |    0.178 |
 | planifica    |    0.178 |
 | depunere     |    0.172 |
 | candidaturii |    0.169 |
 | -ul          |    0.166 |
 | decurge      |    0.164 |
-| zilnic       |    0.16  |
+| zilnic       |    0.159 |
 | completa     |    0.156 |
 | teren        |    0.152 |
 
@@ -349,7 +349,7 @@ _File: `2025-02-27_500-de-copii-vor-fi-ajutati-sa-ramana-alaturi-de-familiile-l`
 | separare  |    0.255 |
 | municipi  |    0.229 |
 | vrea      |    0.228 |
-| copil     |    0.207 |
+| copil     |    0.206 |
 | suport    |    0.204 |
 | copie     |    0.183 |
 | leu       |    0.177 |
@@ -372,16 +372,16 @@ _File: `2025-02-27_in-sibiu-am-descoperit-aceleasi-probleme-ca-la-bucuresti-cup`
 | catedrală        |    0.289 |
 | sibiu            |    0.262 |
 | problemă         |    0.258 |
-| clădire          |    0.246 |
+| clădire          |    0.245 |
 | rezolvare        |    0.239 |
 | descoperi        |    0.233 |
 | romaniaputernica |    0.226 |
 | ridica           |    0.204 |
 | calitate         |    0.164 |
-| energie          |    0.162 |
+| energie          |    0.163 |
 | alege            |    0.158 |
 | urma             |    0.148 |
-| privi            |    0.144 |
+| privi            |    0.145 |
 
 ## 2025-02-27 — facebook-post
 
@@ -393,7 +393,7 @@ _File: `2025-02-27_mai-multe-despre-copilaria-mea-la-fagaras-maine-dimineata-ro`
 | făgăraș           |    0.532 |
 | dimineață         |    0.447 |
 | nicusorpresedinte |    0.301 |
-| romaniaonesta     |    0.26  |
+| romaniaonesta     |    0.259 |
 
 ## 2025-02-27 — facebook-post
 
@@ -415,20 +415,20 @@ _File: `2025-02-27_toata-viata-mea-am-luptat-pentru-dreptate-pentru-protectia-c`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| neimaginat |    0.237 |
-| soț        |    0.227 |
+| neimaginat |    0.236 |
 | tată       |    0.227 |
 | redi       |    0.227 |
 | viol       |    0.227 |
+| soț        |    0.227 |
 | continuat  |    0.219 |
 | tate       |    0.213 |
-| întâmpla   |    0.201 |
+| întâmpla   |    0.2   |
 | frate      |    0.199 |
 | rușine     |    0.189 |
 | vulnerabil |    0.17  |
 | demnitate  |    0.163 |
 | trafic     |    0.161 |
-| femeie     |    0.152 |
+| femeie     |    0.151 |
 | acuza      |    0.15  |
 
 ## 2025-02-28 — facebook-post
@@ -448,14 +448,14 @@ _File: `2025-02-28_cred-ca-e-important-sa-stiti-de-unde-vin-daca-si-voua-vi-se` 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | important         |    0.501 |
-| cred              |    0.397 |
+| cred              |    0.399 |
 | părea             |    0.379 |
-| nicusorpresedinte |    0.332 |
+| nicusorpresedinte |    0.331 |
 | ști               |    0.296 |
-| romaniaonesta     |    0.287 |
+| romaniaonesta     |    0.286 |
 | veni              |    0.28  |
-| spune             |    0.238 |
-| sine              |    0.181 |
+| spune             |    0.237 |
+| sine              |    0.18  |
 
 ## 2025-02-28 — facebook-post
 
@@ -464,7 +464,7 @@ _File: `2025-02-28_despre-mentinerea-legaturii-cu-parintii-cand-eram-in-straina`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | menținere         |    0.502 |
-| părinte           |    0.482 |
+| părinte           |    0.483 |
 | străinătate       |    0.474 |
 | legătură          |    0.356 |
 | nicusorpresedinte |    0.306 |
@@ -485,7 +485,7 @@ _File: `2025-02-28_este-profund-ingrijorator-ca-romania-a-fost-retrogradata-in` 
 | guvernant    |    0.149 |
 | părăsire     |    0.149 |
 | viciat       |    0.149 |
-| plan         |    0.142 |
+| plan         |    0.141 |
 | democrația   |    0.138 |
 | călătorie    |    0.138 |
 | afectat      |    0.138 |
@@ -502,9 +502,9 @@ _File: `2025-02-28_in-politica-noastra-externa-trebuie-sa-punem-intotdeauna-pe` 
 | întotdeauna       |    0.408 |
 | extern            |    0.308 |
 | politică          |    0.297 |
-| interes           |    0.293 |
+| interes           |    0.294 |
 | nicusorpresedinte |    0.28  |
-| național          |    0.258 |
+| național          |    0.259 |
 | pune              |    0.248 |
 | loc               |    0.246 |
 | romaniaonesta     |    0.242 |
@@ -526,17 +526,17 @@ _File: `2025-02-28_sust-in-ferm-ucraina-i-n-lupta-sa-pentru-o-pace-justa-s-i-su`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | lucid            |    0.327 |
-| calmi            |    0.295 |
+| calmi            |    0.294 |
 | tensionat        |    0.287 |
 | europa           |    0.286 |
 | apreciez         |    0.229 |
 | joc              |    0.222 |
-| martie           |    0.213 |
+| martie           |    0.212 |
 | trebui           |    0.2   |
 | reacție          |    0.192 |
 | ferm             |    0.189 |
 | luptă            |    0.188 |
-| speranță         |    0.183 |
+| speranță         |    0.184 |
 | pace             |    0.17  |
 | efort            |    0.166 |
 | responsabilitate |    0.165 |
@@ -547,12 +547,12 @@ _File: `2025-03-01_ce-le-as-spune-copiilor-din-orasele-mici-ale-romaniei-asa-cu`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| copie             |    0.566 |
+| copie             |    0.565 |
 | oraș              |    0.444 |
-| mic               |    0.407 |
-| nicusorpresedinte |    0.356 |
+| mic               |    0.408 |
+| nicusorpresedinte |    0.355 |
 | romaniaonesta     |    0.307 |
-| spune             |    0.254 |
+| spune             |    0.255 |
 | românia           |    0.179 |
 
 ## 2025-03-01 — facebook-post
@@ -562,10 +562,10 @@ _File: `2025-03-01_filmele-si-cartile-din-copilarie-romaniaonesta-nicusorpresed`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | copilărie         |    0.608 |
-| film              |    0.519 |
-| carte             |    0.445 |
-| nicusorpresedinte |    0.306 |
-| romaniaonesta     |    0.264 |
+| film              |    0.518 |
+| carte             |    0.447 |
+| nicusorpresedinte |    0.305 |
+| romaniaonesta     |    0.263 |
 
 ## 2025-03-01 — facebook-post
 
@@ -581,11 +581,11 @@ _File: `2025-03-01_haideti-sa-stam-de-vorba-va-astept-mesajele-pe-whatsapp-la-0`
 | telefon           |    0.229 |
 | haideți           |    0.181 |
 | număr             |    0.178 |
-| sta               |    0.171 |
+| sta               |    0.17  |
 | vorbă             |    0.161 |
-| cotroceni         |    0.157 |
-| aștepta           |    0.153 |
-| mesaj             |    0.15  |
+| cotroceni         |    0.156 |
+| aștepta           |    0.152 |
+| mesaj             |    0.151 |
 | nicusorpresedinte |    0.149 |
 | duce              |    0.142 |
 
@@ -606,7 +606,7 @@ _File: `2025-03-01_solidaritatea-dintre-noi-romaniaonesta-nicusorpresedinte` · 
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| solidaritate      |    0.723 |
+| solidaritate      |    0.724 |
 | nicusorpresedinte |    0.523 |
 | romaniaonesta     |    0.451 |
 
@@ -616,20 +616,20 @@ _File: `2025-03-01_traim-poate-cele-mai-provocatoare-vremuri-din-ultimele-decen`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| primăvară |    0.376 |
-| pierdem   |    0.376 |
+| primăvară |    0.375 |
+| pierdem   |    0.375 |
 | vremuri   |    0.332 |
 | deceniu   |    0.324 |
 | bucurie   |    0.296 |
 | plin      |    0.294 |
 | trăim     |    0.253 |
-| speranță  |    0.245 |
-| mic       |    0.226 |
+| speranță  |    0.246 |
+| mic       |    0.227 |
 | vedere    |    0.21  |
 | esențial  |    0.2   |
 | ultim     |    0.18  |
 | moment    |    0.146 |
-| putea     |    0.124 |
+| putea     |    0.123 |
 
 ## 2025-03-02 — facebook-post
 
@@ -665,15 +665,15 @@ _File: `2025-03-02_cea-mai-entuziasta-echipa-de-voluntari-la-nivel-national-ei` 
 | botoșani         |    0.255 |
 | piatră           |    0.248 |
 | craiova          |    0.236 |
-| suceava          |    0.232 |
 | sibiu            |    0.232 |
 | diaspora         |    0.232 |
+| suceava          |    0.232 |
 | brașov           |    0.22  |
 | localitate       |    0.217 |
 | voluntar         |    0.209 |
 | iași             |    0.202 |
-| romaniaputernica |    0.2   |
 | constanța        |    0.2   |
+| romaniaputernica |    0.2   |
 
 ## 2025-03-02 — facebook-post
 
@@ -683,7 +683,7 @@ _File: `2025-03-02_educatia-primita-de-la-parinti-romaniaonesta-nicusorpresedin`
 |:------------------|---------:|
 | părinte           |    0.601 |
 | educație          |    0.478 |
-| primi             |    0.396 |
+| primi             |    0.397 |
 | nicusorpresedinte |    0.381 |
 | romaniaonesta     |    0.329 |
 
@@ -713,9 +713,9 @@ _File: `2025-03-02_marim-capacitatea-de-cazare-a-adapostului-de-caini-aspa-miha`
 | căță         |    0.176 |
 | adopție      |    0.176 |
 | mihăilești   |    0.176 |
-| cățel        |    0.169 |
 | caza         |    0.169 |
 | desființat   |    0.169 |
+| cățel        |    0.169 |
 | spațiu       |    0.167 |
 | noile        |    0.163 |
 | adăpost      |    0.151 |
@@ -733,7 +733,7 @@ _File: `2025-03-02_romania-pe-primul-loc-din-lume-la-matematica-romaniaonesta-n`
 | lume              |    0.382 |
 | loc               |    0.343 |
 | romaniaonesta     |    0.338 |
-| românia           |    0.196 |
+| românia           |    0.197 |
 
 ## 2025-03-02 — facebook-post
 
@@ -741,10 +741,10 @@ _File: `2025-03-02_satul-bunicilor-romaniaonesta-nicusorpresedinte` · 4 clean l
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| bunic             |    0.697 |
-| sat               |    0.558 |
-| nicusorpresedinte |    0.34  |
-| romaniaonesta     |    0.294 |
+| bunic             |    0.695 |
+| sat               |    0.562 |
+| nicusorpresedinte |    0.339 |
+| romaniaonesta     |    0.293 |
 
 ## 2025-03-03 — facebook-post
 
@@ -754,16 +754,16 @@ _File: `2025-03-03_am-avut-onoarea-sa-primesc-astazi-la-sediul-primariei-capita`
 |:---------------|---------:|
 | arab           |    0.326 |
 | urbanistic     |    0.286 |
-| dezvoltare     |    0.25  |
+| dezvoltare     |    0.251 |
 | general        |    0.233 |
 | capitală       |    0.171 |
-| regiunii       |    0.17  |
 | urbanist       |    0.17  |
+| regiunii       |    0.17  |
 | municipalitate |    0.17  |
 | primi          |    0.16  |
 | cities         |    0.157 |
-| facilita       |    0.149 |
 | regat          |    0.149 |
+| facilita       |    0.149 |
 | bucurești      |    0.137 |
 | institut       |    0.136 |
 | însoți         |    0.134 |
@@ -776,9 +776,9 @@ _File: `2025-03-03_bucuria-de-a-merge-la-scoala-romaniaonesta-nicusorpresedinte`
 |:------------------|---------:|
 | bucuriă           |    0.719 |
 | școală            |    0.44  |
+| merge             |    0.325 |
 | nicusorpresedinte |    0.325 |
-| merge             |    0.323 |
-| romaniaonesta     |    0.281 |
+| romaniaonesta     |    0.28  |
 
 ## 2025-03-03 — facebook-post
 
@@ -790,7 +790,7 @@ _File: `2025-03-03_cand-vom-alege-pentru-urmatorii-5-ani-sa-nu-uitam-de-tinerii`
 | romaniaputernica |    0.438 |
 | tânăr            |    0.387 |
 | alege            |    0.306 |
-| următor          |    0.282 |
+| următor          |    0.281 |
 | uita             |    0.275 |
 | bucurești        |    0.243 |
 | romaniaonesta    |    0.235 |
@@ -819,7 +819,7 @@ _File: `2025-03-03_vacantele-la-tara-la-bunici-romaniaonesta-nicusorpresedinte` 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | bunică            |    0.818 |
-| nicusorpresedinte |    0.386 |
+| nicusorpresedinte |    0.385 |
 | romaniaonesta     |    0.333 |
 | țară              |    0.268 |
 
@@ -832,17 +832,17 @@ _File: `2025-03-04_astazi-se-implinesc-48-de-ani-de-la-cutremurul-devastator-ca`
 | consolidare     |    0.332 |
 | clădire         |    0.284 |
 | leu             |    0.25  |
-| clădirilor      |    0.24  |
 | seismic         |    0.24  |
-| derulare        |    0.199 |
+| clădirilor      |    0.24  |
+| derulare        |    0.198 |
 | bloc            |    0.18  |
 | afla            |    0.166 |
 | stradă          |    0.165 |
 | finanțare       |    0.153 |
 | risc            |    0.143 |
-| miliard         |    0.139 |
-| documentațiilor |    0.12  |
+| miliard         |    0.14  |
 | stadie          |    0.12  |
+| documentațiilor |    0.12  |
 | memorial        |    0.12  |
 
 ## 2025-03-04 — facebook-post
@@ -857,10 +857,10 @@ _File: `2025-03-04_azi-serviciul-de-informatii-externe-al-rusiei-a-dat-un-comun`
 | român       |    0.218 |
 | informații  |    0.206 |
 | ancheta     |    0.206 |
-| legitima    |    0.196 |
+| legitima    |    0.195 |
 | intervine   |    0.191 |
 | alarmă      |    0.191 |
-| alegere     |    0.188 |
+| alegere     |    0.189 |
 | manipula    |    0.173 |
 | foto        |    0.171 |
 | comunicat   |    0.167 |
@@ -873,18 +873,18 @@ _File: `2025-03-04_in-2019-am-facut-o-promisiune-simpla-dar-esentiala-primaria` 
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| însemna      |    0.397 |
+| însemna      |    0.398 |
 | restricționa |    0.395 |
 | normalitate  |    0.363 |
 | promisiune   |    0.287 |
-| acces        |    0.255 |
-| primărie     |    0.237 |
+| acces        |    0.254 |
+| primărie     |    0.236 |
 | respect      |    0.231 |
 | simplu       |    0.229 |
 | capitală     |    0.221 |
-| alături      |    0.207 |
+| alături      |    0.206 |
 | esențial     |    0.2   |
-| cetățean     |    0.193 |
+| cetățean     |    0.194 |
 | instituție   |    0.18  |
 | față         |    0.161 |
 | trebui       |    0.134 |
@@ -909,14 +909,14 @@ _File: `2025-03-05_astazi-am-avut-o-intalnire-extrem-de-interesanta-cu-reprezen`
 | oraș         |    0.214 |
 | public       |    0.177 |
 | aglomerat    |    0.163 |
-| bucurești    |    0.153 |
+| bucurești    |    0.152 |
 | transformare |    0.151 |
 | digital      |    0.145 |
 | tehnologiu   |    0.145 |
 | îmbunătățire |    0.144 |
 | serviciu     |    0.139 |
-| trafic       |    0.129 |
 | provocare    |    0.129 |
+| trafic       |    0.129 |
 | succes       |    0.106 |
 | capitală     |    0.095 |
 | fluidiza     |    0.095 |
@@ -931,14 +931,14 @@ _File: `2025-03-05_interventia-presedintelui-trump-de-azi-noapte-din-congres-es`
 | intervenție             |    0.258 |
 | stateleunitealeamericii |    0.251 |
 | dialog                  |    0.21  |
-| azi-noapte              |    0.202 |
+| azi-noapte              |    0.201 |
 | fereastră               |    0.181 |
-| legitima                |    0.177 |
 | reluare                 |    0.177 |
+| legitima                |    0.177 |
 | îngrijorător            |    0.177 |
-| rar                     |    0.17  |
-| relua                   |    0.167 |
-| semnare                 |    0.167 |
+| rar                     |    0.169 |
+| relua                   |    0.166 |
+| semnare                 |    0.166 |
 | suspiciune              |    0.149 |
 | congres                 |    0.145 |
 | alb                     |    0.142 |
@@ -954,16 +954,16 @@ _File: `2025-03-05_organizam-cursuri-de-initiere-in-lumea-digitala-pentru-senio`
 | senior    |    0.244 |
 | vârstnic  |    0.175 |
 | dgasmb    |    0.175 |
-| sine      |    0.173 |
+| sine      |    0.172 |
 | program   |    0.169 |
 | persoană  |    0.126 |
 | telefon   |    0.122 |
 | lume      |    0.116 |
 | desfășura |    0.104 |
 | organizăm |    0.088 |
+| seniorii  |    0.088 |
 | senioare  |    0.088 |
 | luxemburg |    0.088 |
-| seniorii  |    0.088 |
 
 ## 2025-03-06 — facebook-post
 
@@ -977,7 +977,7 @@ _File: `2025-03-06_copiii-familia-iubirea-care-ne-tine-ancorati-in-aceasta-lume`
 | sper              |    0.265 |
 | copil             |    0.218 |
 | ține              |    0.189 |
-| mesaj             |    0.183 |
+| mesaj             |    0.184 |
 | nicusorpresedinte |    0.182 |
 | lume              |    0.178 |
 | ajunge            |    0.172 |
@@ -1000,7 +1000,7 @@ _File: `2025-03-06_ne-vedem-la-cluj-sambata-vom-fi-la-cluj-dar-pana-atunci-trim`
 | oraș              |    0.146 |
 | trimite           |    0.141 |
 | număr             |    0.139 |
-| cere              |    0.129 |
+| cere              |    0.128 |
 | încă              |    0.111 |
 | vedea             |    0.094 |
 | vrea              |    0.066 |
@@ -1012,18 +1012,18 @@ _File: `2025-03-06_o-afacere-de-familie-infiintata-in-1995-in-bacau-a-crescut-s`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | muncă            |    0.261 |
-| angajez          |    0.248 |
 | sustenabilita    |    0.248 |
+| angajez          |    0.248 |
 | specializa       |    0.218 |
 | înființa         |    0.213 |
 | bacău            |    0.209 |
+| prosper          |    0.205 |
 | încurajez        |    0.205 |
-| prosper          |    0.202 |
 | viitor           |    0.191 |
 | romaniaputernica |    0.18  |
 | produs           |    0.175 |
-| promova          |    0.167 |
-| tehnologie       |    0.165 |
+| promova          |    0.168 |
+| tehnologie       |    0.164 |
 | genera           |    0.157 |
 | inițiativă       |    0.156 |
 
@@ -1036,18 +1036,18 @@ _File: `2025-03-07_acum-trei-luni-romanii-au-spus-clar-nu-se-mai-poate-au-cerut`
 | schimbare        |    0.279 |
 | captura          |    0.244 |
 | occident         |    0.244 |
-| agricol          |    0.235 |
-| import           |    0.235 |
-| instituție       |    0.232 |
-| corupt           |    0.211 |
+| import           |    0.234 |
+| agricol          |    0.234 |
+| instituție       |    0.233 |
+| corupt           |    0.21  |
 | romaniaputernica |    0.206 |
-| viziune          |    0.166 |
 | sănătate         |    0.166 |
+| viziune          |    0.166 |
 | voce             |    0.165 |
-| eficient         |    0.165 |
+| eficient         |    0.164 |
 | educație         |    0.161 |
 | potențial        |    0.16  |
-| corupție         |    0.155 |
+| corupție         |    0.156 |
 
 ## 2025-03-07 — facebook-post
 
@@ -1055,21 +1055,21 @@ _File: `2025-03-07_candidez-pentru-toti-romanii-onesti-din-tara-si-din-diaspora`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| diasporă     |    0.307 |
-| munci        |    0.233 |
-| țară         |    0.226 |
-| voluntarilor |    0.18  |
+| diasporă     |    0.308 |
+| munci        |    0.232 |
+| țară         |    0.227 |
 | onesc        |    0.18  |
-| puternic     |    0.173 |
+| voluntarilor |    0.18  |
+| puternic     |    0.174 |
 | strângere    |    0.173 |
-| obstacol     |    0.162 |
 | performa     |    0.162 |
+| obstacol     |    0.162 |
 | încrezător   |    0.158 |
 | candidez     |    0.152 |
 | simț         |    0.142 |
 | imens        |    0.14  |
-| suflet       |    0.137 |
 | cer          |    0.137 |
+| suflet       |    0.137 |
 
 ## 2025-03-07 — facebook-post
 
@@ -1083,8 +1083,8 @@ _File: `2025-03-07_vrei-sa-fii-parte-din-schimbare-alatura-te-echipei-de-volunt`
 | schimbarereală             |    0.222 |
 | completează                |    0.222 |
 | cluj-napoca                |    0.222 |
-| vino                       |    0.215 |
-| httpsnicusordanrovoluntari |    0.215 |
+| vino                       |    0.214 |
+| httpsnicusordanrovoluntari |    0.214 |
 | voluntari                  |    0.203 |
 | week-end                   |    0.199 |
 | formular                   |    0.195 |
@@ -1099,17 +1099,17 @@ _File: `2025-03-08_am-avut-ieri-placerea-de-a-oferi-flori-doamnelor-care-lucrea`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| industrie    |    0.325 |
-| fabrică      |    0.32  |
+| industrie    |    0.326 |
+| fabrică      |    0.319 |
 | importanță   |    0.243 |
-| sector       |    0.218 |
+| sector       |    0.217 |
 | muncă        |    0.21  |
 | declin       |    0.191 |
 | cândva       |    0.191 |
 | inițiativ    |    0.185 |
 | fosta        |    0.18  |
-| îngrijorător |    0.175 |
 | revitalizare |    0.175 |
+| îngrijorător |    0.175 |
 | loc          |    0.158 |
 | floare       |    0.157 |
 | sustenabil   |    0.153 |
@@ -1137,10 +1137,10 @@ _File: `2025-03-08_de-8-martie-femeile-sunt-sarbatorite-cu-flori-si-complimente`
 |:-----------|---------:|
 | femeie     |    0.331 |
 | număr      |    0.185 |
-| costin     |    0.172 |
 | programare |    0.172 |
-| georgian   |    0.172 |
+| costin     |    0.172 |
 | schimbăre  |    0.172 |
+| georgian   |    0.172 |
 | oferindu   |    0.165 |
 | binevenit  |    0.165 |
 | încărcat   |    0.165 |
@@ -1159,19 +1159,19 @@ _File: `2025-03-08_peste-15-000-de-puieti-si-arbori-forestieri-sunt-plantati-in`
 |:---------------|---------:|
 | pădure         |    0.345 |
 | arbor          |    0.205 |
-| nativ          |    0.205 |
 | forestier      |    0.205 |
-| planta         |    0.205 |
 | plantare       |    0.205 |
-| tineret        |    0.197 |
+| planta         |    0.205 |
+| nativ          |    0.205 |
 | biodiversitate |    0.197 |
-| metrupătrat    |    0.197 |
+| tineret        |    0.197 |
 | specie         |    0.197 |
+| metrupătrat    |    0.197 |
 | alpab          |    0.19  |
-| copac          |    0.185 |
 | inovator       |    0.185 |
-| accelera       |    0.17  |
-| suprafață      |    0.17  |
+| copac          |    0.185 |
+| suprafață      |    0.169 |
+| accelera       |    0.169 |
 
 ## 2025-03-08 — facebook-post
 
@@ -1183,10 +1183,10 @@ _File: `2025-03-08_vocea-oamenilor-va-conta-mai-mult-decat-vocea-politicienilor`
 | politicienilor    |    0.415 |
 | cluj              |    0.384 |
 | romaniaputernica  |    0.358 |
-| conta             |    0.271 |
+| conta             |    0.272 |
 | nicusorpresedinte |    0.223 |
-| decât             |    0.211 |
-| romaniaonesta     |    0.193 |
+| decât             |    0.212 |
+| romaniaonesta     |    0.192 |
 | vrea              |    0.126 |
 
 ## 2025-03-09 — facebook-post
@@ -1196,17 +1196,17 @@ _File: `2025-03-09_fiecare-conversatie-cu-tinerii-este-o-lectie-despre-dorinta` 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | tineri        |    0.375 |
-| conversație   |    0.356 |
-| cluj          |    0.315 |
+| conversație   |    0.355 |
 | lecție        |    0.315 |
+| cluj          |    0.315 |
 | tinerii       |    0.3   |
-| dorință       |    0.267 |
+| dorință       |    0.268 |
 | onest         |    0.265 |
-| nicusordan    |    0.232 |
+| nicusordan    |    0.231 |
 | construi      |    0.216 |
-| putere        |    0.205 |
+| putere        |    0.204 |
 | schimbare     |    0.199 |
-| împreună      |    0.169 |
+| împreună      |    0.17  |
 | romaniaonesta |    0.158 |
 | viitor        |    0.156 |
 | bun           |    0.147 |
@@ -1215,23 +1215,23 @@ _File: `2025-03-09_fiecare-conversatie-cu-tinerii-este-o-lectie-despre-dorinta` 
 
 _File: `2025-03-09_interventii-pentru-repararea-strazilor-administratia-strazil` · 105 clean lemmas_
 
-| lemmă     |   TF-IDF |
-|:----------|---------:|
-| cale      |    0.29  |
-| lucrare   |    0.222 |
-| stradă    |    0.215 |
-| străze    |    0.156 |
-| străzilor |    0.156 |
-| mihalache |    0.156 |
-| reparare  |    0.156 |
-| arteră    |    0.156 |
-| remediere |    0.156 |
-| marcaj    |    0.156 |
-| asb       |    0.156 |
-| dacia     |    0.156 |
-| manta     |    0.156 |
-| oltului   |    0.15  |
-| ghencea   |    0.15  |
+| lemmă        |   TF-IDF |
+|:-------------|---------:|
+| cale         |    0.289 |
+| lucrare      |    0.222 |
+| stradă       |    0.215 |
+| străze       |    0.156 |
+| străzilor    |    0.156 |
+| mihalache    |    0.156 |
+| reparare     |    0.156 |
+| arteră       |    0.156 |
+| remediere    |    0.156 |
+| marcaj       |    0.156 |
+| asb          |    0.156 |
+| manta        |    0.156 |
+| dacia        |    0.156 |
+| oltului      |    0.15  |
+| independența |    0.15  |
 
 ## 2025-03-09 — facebook-post
 
@@ -1264,18 +1264,18 @@ _File: `2025-03-11_facem-curatenia-de-primavara-in-parcurile-pe-care-le-adminis`
 | parc      |    0.454 |
 | vrea      |    0.265 |
 | lucrare   |    0.211 |
+| parcare   |    0.148 |
 | tunde     |    0.148 |
 | trandafir |    0.148 |
-| parcare   |    0.148 |
-| municipal |    0.142 |
 | curățenie |    0.142 |
-| joacă     |    0.137 |
+| municipal |    0.142 |
 | lac       |    0.137 |
+| joacă     |    0.137 |
 | curăța    |    0.137 |
 | alpab     |    0.137 |
 | wwwpmbro  |    0.137 |
-| îngriji   |    0.133 |
-| câine     |    0.133 |
+| imobil    |    0.133 |
+| municipi  |    0.133 |
 
 ## 2025-03-11 — facebook-post
 
@@ -1285,11 +1285,11 @@ _File: `2025-03-11_onest-cu-el-insusi-onest-cu-membrii-familiei-onest-cu-cei-di`
 |:------------------|---------:|
 | onest             |    0.827 |
 | însuși            |    0.293 |
-| jur               |    0.254 |
+| jur               |    0.255 |
 | familie           |    0.228 |
 | membru            |    0.224 |
 | nicusorpresedinte |    0.191 |
-| romaniaonesta     |    0.165 |
+| romaniaonesta     |    0.164 |
 
 ## 2025-03-11 — facebook-post
 
@@ -1297,17 +1297,17 @@ _File: `2025-03-11_partidele-politice-corupte-care-au-promovat-incompetenti-in` 
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| slab         |    0.306 |
+| slab         |    0.309 |
 | anulare      |    0.265 |
-| schimba      |    0.218 |
+| schimba      |    0.217 |
 | reporni      |    0.211 |
 | român        |    0.206 |
 | covârșitor   |    0.202 |
 | punte        |    0.202 |
 | reface       |    0.181 |
 | alegere      |    0.178 |
+| diviza       |    0.177 |
 | decizie      |    0.175 |
-| diviza       |    0.174 |
 | logic        |    0.166 |
 | haos         |    0.164 |
 | anticorupție |    0.156 |
@@ -1321,8 +1321,8 @@ _File: `2025-03-11_pe-nicusor-l-am-vazut-mereu-ca-pe-un-invingator-romaniaonest`
 |:------------------|---------:|
 | învingător        |    0.64  |
 | romaniaonestă     |    0.6   |
-| nicusorpresedinte |    0.302 |
-| nicușor           |    0.284 |
+| nicusorpresedinte |    0.301 |
+| nicușor           |    0.285 |
 | vedea             |    0.242 |
 
 ## 2025-03-11 — facebook-post
@@ -1336,7 +1336,7 @@ _File: `2025-03-11_responsabilitate-tenacitate-si-acasa-si-in-societate-romania`
 | acasă             |    0.368 |
 | responsabilitate  |    0.309 |
 | nicusorpresedinte |    0.277 |
-| societate         |    0.254 |
+| societate         |    0.255 |
 
 ## 2025-03-12 — facebook-post
 
@@ -1349,15 +1349,15 @@ _File: `2025-03-12_am-semnat-un-acord-cadru-pe-patru-ani-prin-administratia-str`
 | platformă    |    0.207 |
 | trafic       |    0.186 |
 | vrea         |    0.139 |
-| străze       |    0.136 |
 | străzilor    |    0.136 |
+| străze       |    0.136 |
 | subteran     |    0.131 |
 | complexitate |    0.131 |
 | administrare |    0.131 |
 | scanare      |    0.131 |
 | îmbunătățim  |    0.131 |
 | arhivă       |    0.123 |
-| proiect      |    0.119 |
+| proiect      |    0.118 |
 | aglomerat    |    0.117 |
 
 ## 2025-03-12 — facebook-post
@@ -1372,7 +1372,7 @@ _File: `2025-03-12_cand-m-am-intors-din-franta-n-am-suportat-nedreptatea-lupta` 
 | franța            |    0.35  |
 | luptă             |    0.323 |
 | întoarce          |    0.301 |
-| nicusorpresedinte |    0.255 |
+| nicusorpresedinte |    0.254 |
 | romaniaonesta     |    0.22  |
 
 ## 2025-03-12 — facebook-post
@@ -1387,9 +1387,9 @@ _File: `2025-03-12_domnul-cristian-tudor-popescu-mi-a-solicitat-la-finalul-inte`
 | tudor      |    0.234 |
 | cristian   |    0.223 |
 | link       |    0.215 |
-| matematică |    0.215 |
 | radio      |    0.215 |
 | integral   |    0.215 |
+| matematică |    0.215 |
 | cătălin    |    0.208 |
 | plăcere    |    0.205 |
 | comentariu |    0.196 |
@@ -1409,9 +1409,9 @@ _File: `2025-03-12_m-am-revazut-la-alba-iulia-cu-un-prieten-vechi-alaturi-de-ca`
 | roșiă      |    0.285 |
 | montan     |    0.285 |
 | alba       |    0.259 |
+| destin     |    0.254 |
 | iulia      |    0.254 |
-| destin     |    0.25  |
-| protest    |    0.234 |
+| protest    |    0.233 |
 | protesta   |    0.228 |
 | amenința   |    0.215 |
 | vechi      |    0.204 |
@@ -1427,11 +1427,11 @@ _File: `2025-03-12_nicusor-ar-putea-sa-faca-din-romania-o-tara-din-care-sa-nu-s`
 |:------------------|---------:|
 | pleca             |    0.509 |
 | nicusorpresedinte |    0.427 |
-| nicușor           |    0.403 |
+| nicușor           |    0.404 |
 | romaniaonesta     |    0.369 |
 | țară              |    0.297 |
 | putea             |    0.267 |
-| sine              |    0.233 |
+| sine              |    0.232 |
 | românia           |    0.215 |
 
 ## 2025-03-12 — facebook-post
@@ -1452,19 +1452,19 @@ _File: `2025-03-13_34-4-milioane-de-euro-pentru-modernizarea-sistemului-de-term`
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
 | termoficare    |    0.326 |
-| modernizare    |    0.281 |
+| modernizare    |    0.283 |
 | rețea          |    0.223 |
 | milion         |    0.215 |
 | euro           |    0.209 |
 | reabilitare    |    0.207 |
 | fond           |    0.202 |
 | îmbunătățire   |    0.199 |
-| finanțare      |    0.168 |
+| finanțare      |    0.167 |
 | bucurești      |    0.159 |
-| oraș           |    0.149 |
-| infrastructură |    0.149 |
+| oraș           |    0.148 |
+| infrastructură |    0.148 |
 | pas            |    0.143 |
-| tranșă         |    0.132 |
+| tranșă         |    0.131 |
 | furnizare      |    0.122 |
 
 ## 2025-03-13 — facebook-post
@@ -1489,16 +1489,16 @@ _File: `2025-03-13_lucrurile-importante-nu-sunt-doar-cele-care-se-vad-la-supraf`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| lucrurile     |    0.512 |
+| lucrurile     |    0.511 |
 | suprafață     |    0.441 |
-| produce       |    0.317 |
-| real          |    0.284 |
+| produce       |    0.316 |
+| real          |    0.285 |
 | privind       |    0.272 |
-| sine          |    0.263 |
+| sine          |    0.262 |
 | schimbare     |    0.262 |
 | romaniaonesta |    0.208 |
-| lucru         |    0.193 |
-| vedea         |    0.193 |
+| lucru         |    0.194 |
+| vedea         |    0.194 |
 | important     |    0.182 |
 
 ## 2025-03-13 — facebook-post
@@ -1511,8 +1511,8 @@ _File: `2025-03-13_lupta-de-10-ani-cu-institutiile-strambe-ale-statului-si-cu-m`
 | mafie             |    0.358 |
 | imobiliar         |    0.331 |
 | civic             |    0.293 |
-| invi              |    0.257 |
-| lupta             |    0.247 |
+| invi              |    0.256 |
+| lupta             |    0.248 |
 | luptă             |    0.234 |
 | primar            |    0.217 |
 | pregăti           |    0.213 |
@@ -1532,14 +1532,14 @@ _File: `2025-03-13_niciodata-nu-am-suportat-nedreptatea-am-luptat-peste-10-ani` 
 | nedreptate   |    0.399 |
 | civic        |    0.347 |
 | niciodat     |    0.241 |
-| montan       |    0.224 |
 | roșiă        |    0.224 |
+| montan       |    0.224 |
 | sistem       |    0.218 |
 | mafie        |    0.212 |
 | nedrept      |    0.207 |
 | imobiliar    |    0.196 |
-| recunoscător |    0.193 |
 | patrimoniu   |    0.193 |
+| recunoscător |    0.193 |
 | suporta      |    0.188 |
 | corupt       |    0.179 |
 | bucureștean  |    0.173 |
@@ -1559,13 +1559,13 @@ _File: `2025-03-13_tomograful-sonic-picus-detecteaza-in-mod-non-invaziv-eventua`
 | -urilor      |    0.171 |
 | specialitate |    0.171 |
 | clar         |    0.166 |
-| alpab        |    0.165 |
 | recomandare  |    0.165 |
+| alpab        |    0.165 |
 | justificare  |    0.165 |
 | detalia      |    0.153 |
 | detecta      |    0.153 |
-| abuziv       |    0.147 |
 | asigurăm     |    0.147 |
+| abuziv       |    0.147 |
 
 ## 2025-03-14 — facebook-post
 
@@ -1577,16 +1577,16 @@ _File: `2025-03-14_am-avut-o-intalnire-importanta-la-sediul-primariei-capitalei`
 | infrastructură |    0.285 |
 | lucrare        |    0.269 |
 | porr           |    0.252 |
-| oraș           |    0.214 |
+| oraș           |    0.213 |
 | reabilitare    |    0.199 |
 | semnificativ   |    0.164 |
 | vrea           |    0.161 |
 | primărie       |    0.136 |
 | capitală       |    0.127 |
 | pallady        |    0.126 |
+| lot            |    0.126 |
 | mobilităție    |    0.126 |
 | theodor        |    0.126 |
-| lot            |    0.126 |
 | dezvoltare     |    0.124 |
 
 ## 2025-03-14 — facebook-post
@@ -1600,10 +1600,10 @@ _File: `2025-03-14_arcul-de-triumf-va-fi-deschis-permanent-pentru-vizitare-ince`
 | permanent    |    0.228 |
 | cultură      |    0.219 |
 | armată       |    0.205 |
-| istorie      |    0.186 |
+| istorie      |    0.187 |
 | orar         |    0.162 |
-| turistic     |    0.155 |
 | pasionat     |    0.155 |
+| turistic     |    0.155 |
 | porțile      |    0.15  |
 | război       |    0.147 |
 | arhitectural |    0.146 |
@@ -1620,7 +1620,7 @@ _File: `2025-03-14_ce-le-as-spune-tinerilor-e-nevoie-de-o-schimbare-si-simt-si` 
 | romaniaonestă     |    0.588 |
 | tinerilor         |    0.522 |
 | simți             |    0.384 |
-| schimbare         |    0.32  |
+| schimbare         |    0.321 |
 | nicusorpresedinte |    0.295 |
 | spune             |    0.211 |
 
@@ -1636,8 +1636,8 @@ _File: `2025-03-14_daca-vrem-sa-i-aducem-pe-romanii-plecati-acasa-trebuie-sa-le`
 | acasă             |    0.306 |
 | condiție          |    0.249 |
 | oferi             |    0.247 |
-| nicusorpresedinte |    0.231 |
-| același           |    0.231 |
+| același           |    0.23  |
+| nicusorpresedinte |    0.23  |
 | aduce             |    0.221 |
 | român             |    0.166 |
 | trebui            |    0.156 |
@@ -1649,8 +1649,8 @@ _File: `2025-03-14_sarut-mana-aglaia-romaniaonesta-nicusorpresedinte` · 5 clean
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| romaniaonestă     |    0.608 |
 | sărut             |    0.608 |
+| romaniaonestă     |    0.608 |
 | mână              |    0.409 |
 | nicusorpresedinte |    0.305 |
 
@@ -1660,11 +1660,11 @@ _File: `2025-03-14_te-astept-sambata-15-martie-in-orasele-tulcea-si-constanta-s`
 
 | lemmă                      |   TF-IDF |
 |:---------------------------|---------:|
-| onestă                     |    0.33  |
+| onestă                     |    0.329 |
 | plimbare                   |    0.241 |
-| alătură                    |    0.231 |
-| schimbarereală             |    0.231 |
 | completează                |    0.231 |
+| schimbarereală             |    0.231 |
+| alătură                    |    0.231 |
 | httpsnicusordanrovoluntari |    0.224 |
 | tulcea                     |    0.212 |
 | voluntari                  |    0.212 |
@@ -1684,17 +1684,17 @@ _File: `2025-03-14_tinerii-au-nevoie-de-motive-sa-ramana-in-romania-si-sa-conti`
 |:------------------|---------:|
 | tineri            |    0.432 |
 | tinerii           |    0.346 |
-| onestă            |    0.319 |
-| lupta             |    0.283 |
-| românie           |    0.283 |
+| onestă            |    0.318 |
+| lupta             |    0.284 |
+| românie           |    0.284 |
 | motiv             |    0.244 |
 | nicusorpresedinte |    0.211 |
 | continua          |    0.209 |
 | susține           |    0.202 |
 | împreună          |    0.195 |
 | crede             |    0.191 |
-| rămâne            |    0.189 |
-| întru             |    0.187 |
+| rămâne            |    0.188 |
+| întru             |    0.188 |
 | romaniaonesta     |    0.182 |
 | viitor            |    0.18  |
 
@@ -1707,18 +1707,18 @@ _File: `2025-03-15_anul-acesta-se-implinesc-35-de-ani-de-la-citirea-proclamatie`
 | timișoara   |    0.423 |
 | proclamație |    0.376 |
 | fundamental |    0.233 |
-| devotament  |    0.182 |
 | citire      |    0.182 |
-| societate   |    0.162 |
-| celebru     |    0.159 |
+| devotament  |    0.182 |
+| societate   |    0.163 |
 | împlini     |    0.159 |
+| celebru     |    0.159 |
 | servi       |    0.155 |
 | foto        |    0.151 |
 | prevedere   |    0.147 |
-| organizare  |    0.145 |
 | deceniu     |    0.145 |
-| felicit     |    0.144 |
+| organizare  |    0.145 |
 | comunist    |    0.144 |
+| felicit     |    0.144 |
 
 ## 2025-03-15 — facebook-post
 
@@ -1734,13 +1734,13 @@ _File: `2025-03-15_de-ziua-internationala-a-raurilor-angajatii-alpab-impreuna-c`
 | pod       |    0.195 |
 | verde     |    0.167 |
 | proiect   |    0.154 |
-| perean    |    0.118 |
+| pajiște   |    0.118 |
 | amestec   |    0.118 |
-| plantare  |    0.118 |
-| arbor     |    0.118 |
-| plantă    |    0.118 |
 | lemn      |    0.118 |
-| liliac    |    0.118 |
+| plantare  |    0.118 |
+| plantă    |    0.118 |
+| cultiva   |    0.118 |
+| perean    |    0.118 |
 
 ## 2025-03-15 — facebook-post
 
@@ -1748,16 +1748,16 @@ _File: `2025-03-15_felicit-comunitatea-maghiara-din-romania-cu-ocazia-zilei-mag`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| pretutindeni |    0.343 |
 | maghiarilor  |    0.343 |
-| valoros      |    0.295 |
-| maghiar      |    0.289 |
-| zilei        |    0.279 |
-| prosper      |    0.279 |
-| felicit      |    0.252 |
-| contribuție  |    0.226 |
-| ocazie       |    0.216 |
-| depinde      |    0.206 |
+| pretutindeni |    0.343 |
+| valoros      |    0.294 |
+| maghiar      |    0.288 |
+| prosper      |    0.283 |
+| zilei        |    0.278 |
+| felicit      |    0.251 |
+| contribuție  |    0.225 |
+| ocazie       |    0.217 |
+| depinde      |    0.205 |
 | succes       |    0.192 |
 | construi     |    0.183 |
 | comunitate   |    0.176 |
@@ -1771,14 +1771,14 @@ _File: `2025-03-15_la-constanta-am-simtit-ca-oamenii-vor-cu-adevarat-o-schimbar`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | constanța        |    0.373 |
-| administrație    |    0.243 |
+| administrație    |    0.244 |
 | curăța           |    0.238 |
 | municipiu        |    0.231 |
 | valorificare     |    0.231 |
-| economic         |    0.216 |
+| economic         |    0.217 |
 | împiedica        |    0.212 |
 | port             |    0.195 |
-| romaniaputernica |    0.187 |
+| romaniaputernica |    0.186 |
 | județ            |    0.177 |
 | urgent           |    0.174 |
 | central          |    0.168 |
@@ -1792,13 +1792,13 @@ _File: `2025-03-15_romania-trebuie-sa-se-dezvolte-mult-mai-echilibrat-si-sa-imp`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| județ      |    0.344 |
+| județ      |    0.343 |
 | tulcea     |    0.292 |
 | înzestrare |    0.28  |
 | dezvolta   |    0.183 |
 | militar    |    0.166 |
-| navă       |    0.16  |
 | profunde   |    0.16  |
+| navă       |    0.16  |
 | impulsiona |    0.154 |
 | trebui     |    0.152 |
 | românia    |    0.151 |
@@ -1806,7 +1806,7 @@ _File: `2025-03-15_romania-trebuie-sa-se-dezvolte-mult-mai-echilibrat-si-sa-imp`
 | bunăstare  |    0.146 |
 | adus       |    0.146 |
 | maritim    |    0.143 |
-| economic   |    0.14  |
+| economic   |    0.141 |
 
 ## 2025-03-16 — facebook-post
 
@@ -1823,9 +1823,9 @@ _File: `2025-03-16_in-zgomotul-electoral-a-fost-tratata-prea-discret-stirea-ca` 
 | discret    |    0.149 |
 | treaptă    |    0.143 |
 | datoriu    |    0.138 |
-| negativă   |    0.138 |
 | impulsiona |    0.138 |
-| ban        |    0.137 |
+| negativă   |    0.138 |
+| ban        |    0.138 |
 | eșua       |    0.131 |
 | zgomot     |    0.128 |
 | structural |    0.125 |
@@ -1859,8 +1859,8 @@ _File: `2025-03-16_tulcea-si-ivan-patzaichinivan-patzaichin-un-model-de-modesti`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | ivan          |    0.46  |
-| modestie      |    0.444 |
 | perseverență  |    0.444 |
+| modestie      |    0.444 |
 | tulcea        |    0.421 |
 | model         |    0.313 |
 | echilibru     |    0.29  |
@@ -1881,9 +1881,9 @@ _File: `2025-03-17_un-bloc-de-locuinte-situat-pe-calea-victoriei-nr-101-va-fi-c`
 | seismic       |    0.185 |
 | dezvoltării   |    0.177 |
 | fațadă        |    0.171 |
-| lucrările     |    0.167 |
-| victoriei     |    0.167 |
 | imobil        |    0.167 |
+| victoriei     |    0.167 |
+| lucrările     |    0.167 |
 | etaj          |    0.167 |
 | nerambursabil |    0.162 |
 | apartament    |    0.159 |
@@ -1899,12 +1899,12 @@ _File: `2025-03-17_unii-ma-considera-incapatanat-altii-ma-vad-perseverent-acest`
 | dezamăgire       |    0.304 |
 | tulcea           |    0.297 |
 | împărtăși        |    0.248 |
-| constanța        |    0.246 |
-| romaniaputernica |    0.246 |
+| constanța        |    0.245 |
+| romaniaputernica |    0.245 |
 | spune            |    0.219 |
 | clasă            |    0.218 |
-| românie          |    0.205 |
-| considera        |    0.189 |
+| românie          |    0.206 |
+| considera        |    0.188 |
 | folosi           |    0.177 |
 | actual           |    0.168 |
 | schimbare        |    0.166 |
@@ -1916,19 +1916,19 @@ _File: `2025-03-18_am-acordat-un-interviu-pentru-cotidianul-le-monde-in-care-am`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| onestitate    |    0.327 |
 | bună-credință |    0.327 |
+| onestitate    |    0.327 |
 | cotidian      |    0.297 |
 | convingere    |    0.271 |
 | interviu      |    0.235 |
-| țară          |    0.221 |
-| acorda        |    0.213 |
+| țară          |    0.222 |
+| acorda        |    0.212 |
 | potențial     |    0.199 |
 | conta         |    0.194 |
 | respecta      |    0.193 |
-| adevărat      |    0.183 |
+| adevărat      |    0.184 |
 | actual        |    0.175 |
-| valoare       |    0.173 |
+| valoare       |    0.172 |
 | deveni        |    0.169 |
 | context       |    0.162 |
 
@@ -1943,11 +1943,11 @@ _File: `2025-03-18_am-semnat-autorizatia-de-construire-pentru-restaurarea-palat`
 | investitor  |    0.26  |
 | istoric     |    0.234 |
 | societății  |    0.197 |
-| oscar       |    0.197 |
 | elisabet    |    0.197 |
+| oscar       |    0.197 |
 | palat       |    0.194 |
-| restaurare  |    0.188 |
 | lux         |    0.188 |
+| restaurare  |    0.188 |
 | hotel       |    0.182 |
 | consta      |    0.165 |
 | situa       |    0.165 |
@@ -1960,7 +1960,7 @@ _File: `2025-03-18_transparenta-cheltuirii-banilor-cetatenilor-trebuie-sa-devin`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| ban           |    0.323 |
+| ban           |    0.324 |
 | regulă        |    0.28  |
 | public        |    0.262 |
 | transparența  |    0.234 |
@@ -1968,11 +1968,11 @@ _File: `2025-03-18_transparenta-cheltuirii-banilor-cetatenilor-trebuie-sa-devin`
 | cheltuii      |    0.21  |
 | inadmisibil   |    0.201 |
 | excesiv       |    0.187 |
-| justifica     |    0.184 |
 | disciplină    |    0.184 |
+| justifica     |    0.184 |
 | zbor          |    0.182 |
 | convingere    |    0.179 |
-| contact       |    0.16  |
+| contact       |    0.159 |
 | cost          |    0.158 |
 | pur           |    0.152 |
 
@@ -1982,21 +1982,21 @@ _File: `2025-03-19_deschidem-inca-doua-noi-santiere-pentru-modernizarea-a-21-5` 
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| stradă        |    0.497 |
-| conduct       |    0.433 |
-| kilometru     |    0.338 |
-| modernizare   |    0.193 |
-| șosea         |    0.181 |
+| stradă        |    0.496 |
+| conduct       |    0.432 |
+| kilometru     |    0.342 |
+| modernizare   |    0.194 |
+| șosea         |    0.18  |
 | lungime       |    0.173 |
-| șantier       |    0.158 |
 | nerambursabil |    0.158 |
+| șantier       |    0.158 |
 | termoficare   |    0.149 |
-| fond          |    0.139 |
+| fond          |    0.138 |
 | total         |    0.11  |
-| asigura       |    0.095 |
+| asigura       |    0.094 |
 | precum        |    0.094 |
 | măgurele      |    0.09  |
-| aferent       |    0.09  |
+| berceni       |    0.09  |
 
 ## 2025-03-19 — facebook-post
 
@@ -2004,16 +2004,16 @@ _File: `2025-03-19_multumesc-diaspora-sunt-impresionat-de-gestul-romanilor-din` 
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| diasporă      |    0.486 |
+| diasporă      |    0.488 |
 | emotii        |    0.411 |
-| impresiona    |    0.361 |
+| impresiona    |    0.36  |
 | fyp           |    0.348 |
-| gest          |    0.264 |
+| gest          |    0.263 |
 | nicusordan    |    0.245 |
 | comunitate    |    0.22  |
 | oferi         |    0.207 |
-| încredere     |    0.198 |
-| mulțumi       |    0.188 |
+| încredere     |    0.197 |
+| mulțumi       |    0.189 |
 | romaniaonesta |    0.167 |
 | român         |    0.14  |
 
@@ -2036,8 +2036,8 @@ _File: `2025-03-20_am-o-mare-admiratie-pentru-romanii-care-au-plecat-din-tara-a`
 | identitate   |    0.153 |
 | dor          |    0.151 |
 | român        |    0.15  |
-| presupune    |    0.15  |
 | putem        |    0.15  |
+| presupune    |    0.15  |
 
 ## 2025-03-20 — facebook-post
 
@@ -2046,20 +2046,20 @@ _File: `2025-03-20_daca-voi-fi-ales-presedinte-voi-pune-in-practica-toata-exper`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | acumula          |    0.277 |
-| vital            |    0.264 |
+| vital            |    0.263 |
 | descoperi        |    0.247 |
 | romaniaputernica |    0.239 |
 | funcțional       |    0.218 |
 | practică         |    0.218 |
 | stat             |    0.2   |
-| crea             |    0.195 |
+| crea             |    0.194 |
 | grav             |    0.193 |
 | eficient         |    0.191 |
-| consolida        |    0.189 |
+| consolida        |    0.188 |
 | experiență       |    0.185 |
-| corupție         |    0.18  |
-| afecta           |    0.178 |
-| funcționa        |    0.169 |
+| corupție         |    0.181 |
+| afecta           |    0.179 |
+| funcționa        |    0.168 |
 
 ## 2025-03-20 — facebook-post
 
@@ -2083,15 +2083,15 @@ _File: `2025-03-21_am-atribuit-contractul-pentru-realizarea-unui-nou-plan-integ`
 | calitate  |    0.331 |
 | belgia    |    0.227 |
 | pica      |    0.221 |
-| mediu     |    0.184 |
+| mediu     |    0.185 |
 | realizare |    0.178 |
 | contract  |    0.171 |
 | evaluare  |    0.165 |
 | oraș      |    0.142 |
-| poluare   |    0.126 |
 | dispersie |    0.126 |
-| irlanda   |    0.121 |
+| poluare   |    0.126 |
 | atribui   |    0.121 |
+| irlanda   |    0.121 |
 | plan      |    0.12  |
 | surs      |    0.117 |
 
@@ -2115,7 +2115,7 @@ _File: `2025-03-21_combaterea-ferma-a-evaziunii-fiscale-si-recuperarea-justa-a` 
 | romaniaputernica |    0.157 |
 | hotărâre         |    0.155 |
 | scăpa            |    0.152 |
-| inteligență      |    0.15  |
+| defini           |    0.151 |
 
 ## 2025-03-21 — facebook-post
 
@@ -2125,10 +2125,10 @@ _File: `2025-03-21_increderea-cetatenilor-se-castiga-greu-si-se-pierde-usor-ale`
 |:------------|---------:|
 | recâștigare |    0.297 |
 | podcast     |    0.267 |
-| încrederii  |    0.25  |
-| vin         |    0.231 |
-| integral    |    0.225 |
+| încrederii  |    0.249 |
+| vin         |    0.23  |
 | link        |    0.225 |
+| integral    |    0.225 |
 | radu        |    0.222 |
 | comentariu  |    0.206 |
 | accesa      |    0.201 |
@@ -2137,7 +2137,7 @@ _File: `2025-03-21_increderea-cetatenilor-se-castiga-greu-si-se-pierde-usor-ale`
 | urmări      |    0.169 |
 | putea       |    0.167 |
 | temă        |    0.165 |
-| pierde      |    0.164 |
+| pierde      |    0.165 |
 
 ## 2025-03-21 — facebook-post
 
@@ -2152,11 +2152,11 @@ _File: `2025-03-21_politicienii-sunt-alesi-pentru-a-servi-interesele-cetatenilo`
 | întotdeauna       |    0.322 |
 | prezent           |    0.252 |
 | responsabilitate  |    0.247 |
-| interes           |    0.231 |
+| interes           |    0.232 |
 | nicusorpresedinte |    0.221 |
-| cetățean          |    0.216 |
+| cetățean          |    0.217 |
 | romaniaonesta     |    0.191 |
-| trebui            |    0.149 |
+| trebui            |    0.15  |
 
 ## 2025-03-22 — facebook-post
 
@@ -2164,15 +2164,15 @@ _File: `2025-03-22_andrei-m-a-intrebat-ce-masuri-putem-lua-pentru-reducerea-def`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| andrei            |    0.44  |
-| reducere          |    0.321 |
+| andrei            |    0.439 |
+| reducere          |    0.323 |
 | bugetar           |    0.313 |
 | deficit           |    0.294 |
 | întreba           |    0.273 |
-| subiect           |    0.269 |
+| subiect           |    0.27  |
 | răspunde          |    0.265 |
-| nicusorpresedinte |    0.248 |
 | întrebare         |    0.248 |
+| nicusorpresedinte |    0.248 |
 | măsură            |    0.235 |
 | lua               |    0.23  |
 | romaniaonesta     |    0.214 |
@@ -2184,8 +2184,8 @@ _File: `2025-03-22_echipa-se-sustine-si-in-momente-dificile` · 5 clean lemmas_
 
 | lemmă   |   TF-IDF |
 |:--------|---------:|
-| echipa  |    0.75  |
-| dificil |    0.45  |
+| echipa  |    0.749 |
+| dificil |    0.451 |
 | susține |    0.35  |
 | moment  |    0.27  |
 | sine    |    0.199 |
@@ -2198,14 +2198,14 @@ _File: `2025-03-22_luna-sanatatii-orale-campanie-educationala-pentru-copii-in-s`
 |:------------|---------:|
 | oral        |    0.548 |
 | copil       |    0.296 |
-| școală      |    0.252 |
+| școală      |    0.251 |
 | sănătate    |    0.24  |
 | sesiune     |    0.231 |
 | bucurești   |    0.221 |
 | educațional |    0.213 |
 | învăța      |    0.195 |
-| assmb       |    0.137 |
 | unitățile   |    0.137 |
+| assmb       |    0.137 |
 | dinte       |    0.137 |
 | spăla       |    0.131 |
 | oară        |    0.131 |
@@ -2230,20 +2230,20 @@ _File: `2025-03-23_anul-acesta-continuam-investitiile-in-modernizarea-transport`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| tramvai       |    0.455 |
-| modernizare   |    0.385 |
+| tramvai       |    0.454 |
+| modernizare   |    0.388 |
 | concomitent   |    0.259 |
 | accesare      |    0.243 |
 | documentație  |    0.237 |
 | nerambursabil |    0.237 |
 | achiziționa   |    0.232 |
-| lansare       |    0.208 |
+| lansare       |    0.207 |
 | operațional   |    0.205 |
-| regional      |    0.185 |
+| regional      |    0.184 |
 | continuăm     |    0.172 |
-| transport     |    0.166 |
+| transport     |    0.165 |
 | linie         |    0.163 |
-| pregăti       |    0.142 |
+| pregăti       |    0.141 |
 | fond          |    0.138 |
 
 ## 2025-03-23 — facebook-post
@@ -2254,19 +2254,19 @@ _File: `2025-03-23_romania-se-confrunta-cu-o-criza-de-datorie-si-cheltuieli-far`
 |:-------------|---------:|
 | datorie      |    0.325 |
 | cheltuială   |    0.286 |
-| miliard      |    0.2   |
+| miliard      |    0.201 |
 | criză        |    0.2   |
-| fiscal       |    0.195 |
+| fiscal       |    0.196 |
 | nesustenabil |    0.172 |
 | creștere     |    0.169 |
-| echivalent   |    0.165 |
 | furt         |    0.165 |
+| echivalent   |    0.165 |
 | datoriu      |    0.16  |
 | risipă       |    0.148 |
-| viitoară     |    0.145 |
 | abuzure      |    0.145 |
+| viitoară     |    0.145 |
 | favorabil    |    0.14  |
-| elimina      |    0.131 |
+| moral        |    0.131 |
 
 ## 2025-03-23 — facebook-post
 
@@ -2280,11 +2280,11 @@ _File: `2025-03-23_suntem-multi-si-energici-impreuna-suntem-romania-onesta-volu`
 | botoșani  |    0.266 |
 | mureș     |    0.258 |
 | oradea    |    0.252 |
-| ilfov     |    0.247 |
-| craiova   |    0.247 |
-| bucuresti |    0.247 |
-| suceava   |    0.242 |
+| bucuresti |    0.246 |
+| craiova   |    0.246 |
+| ilfov     |    0.246 |
 | sibiu     |    0.242 |
+| suceava   |    0.242 |
 | bacău     |    0.242 |
 | cluj      |    0.223 |
 | constanța |    0.208 |
@@ -2308,12 +2308,12 @@ _File: `2025-03-24_asociatia-salvati-bucurestiul-a-fost-o-scoala-de-dreptul-urb`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | urbanism          |    0.478 |
-| asociație         |    0.447 |
 | salva             |    0.447 |
+| asociație         |    0.447 |
 | școală            |    0.395 |
 | nicusorpresedinte |    0.291 |
 | bucurești         |    0.26  |
-| romaniaonesta     |    0.252 |
+| romaniaonesta     |    0.251 |
 
 ## 2025-03-24 — facebook-post
 
@@ -2336,21 +2336,21 @@ _File: `2025-03-24_tramvaiele-imperio-de-la-astra-arad-sunt-exemplul-perfect-ca`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| tramvai     |    0.381 |
+| tramvai     |    0.38  |
 | producător  |    0.367 |
 | achiziție   |    0.322 |
 | arad        |    0.226 |
 | plecat      |    0.209 |
 | asigurăm    |    0.187 |
+| revoluție   |    0.169 |
 | perfect     |    0.168 |
-| revoluție   |    0.168 |
 | cumpăra     |    0.164 |
 | produs      |    0.16  |
 | străinătate |    0.158 |
 | român       |    0.147 |
-| acasă       |    0.136 |
+| acasă       |    0.135 |
 | procedură   |    0.132 |
-| bucura      |    0.131 |
+| bucura      |    0.132 |
 
 ## 2025-03-24 — facebook-post
 
@@ -2374,7 +2374,7 @@ _File: `2025-03-24_una-dintre-cele-mai-importante-lupte-in-activitatea-mea-publ`
 | corect      |    0.173 |
 | poluare     |    0.17  |
 | calităt     |    0.17  |
-| dezvoltare  |    0.166 |
+| dezvoltare  |    0.167 |
 | lege        |    0.158 |
 | haotic      |    0.153 |
 | aglomerat   |    0.146 |
@@ -2392,7 +2392,7 @@ _File: `2025-03-25_ce-ar-putea-face-nicusor-dan-ca-presedinte-nicusorpresedinte`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | nicusorpresedinte |    0.479 |
-| nicușor           |    0.451 |
+| nicușor           |    0.452 |
 | dan               |    0.442 |
 | romaniaonesta     |    0.413 |
 | președinte        |    0.333 |
@@ -2424,8 +2424,8 @@ _File: `2025-03-25_nicusor-dan-a-avut-curajul-de-a-merge-dincolo-de-protest-ca` 
 | civic             |    0.377 |
 | curaj             |    0.303 |
 | dincolo           |    0.282 |
+| merge             |    0.237 |
 | nicusorpresedinte |    0.237 |
-| merge             |    0.236 |
 | nicușor           |    0.224 |
 | dan               |    0.219 |
 | romaniaonesta     |    0.205 |
@@ -2446,17 +2446,17 @@ _File: `2025-03-26_am-gestionat-o-situatie-financiara-complicata-la-primaria-ca`
 
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
-| reformă             |    0.392 |
+| reformă             |    0.393 |
 | schimbare           |    0.383 |
 | bucuresti           |    0.335 |
 | alegeriprezidential |    0.303 |
 | gestiona            |    0.278 |
-| complica            |    0.257 |
-| lupta               |    0.236 |
+| complica            |    0.256 |
+| lupta               |    0.237 |
 | nicusordan          |    0.223 |
 | financiar           |    0.212 |
 | primărie            |    0.21  |
-| capitală            |    0.197 |
+| capitală            |    0.196 |
 | același             |    0.176 |
 | situație            |    0.164 |
 | romaniaonesta       |    0.152 |
@@ -2470,8 +2470,8 @@ _File: `2025-03-26_de-ce-candidez-nicusorpresedinte-romaniaonesta-panalacapat` �
 |:------------------|---------:|
 | panalacapat       |    0.696 |
 | candidez          |    0.586 |
-| nicusorpresedinte |    0.315 |
-| romaniaonesta     |    0.272 |
+| nicusorpresedinte |    0.314 |
+| romaniaonesta     |    0.271 |
 
 ## 2025-03-26 — facebook-post
 
@@ -2480,19 +2480,19 @@ _File: `2025-03-26_incepem-modernizarea-liniei-de-tramvai-pe-bulevardul-expozit`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | tramvai     |    0.442 |
-| modernizare |    0.375 |
-| linie       |    0.317 |
-| lucrare     |    0.225 |
+| modernizare |    0.377 |
+| linie       |    0.318 |
+| lucrare     |    0.224 |
 | stradă      |    0.217 |
 | strada      |    0.21  |
 | transport   |    0.193 |
 | expoziție   |    0.177 |
 | bulevard    |    0.168 |
-| kilometru   |    0.158 |
-| public      |    0.118 |
-| construct   |    0.105 |
-| srl         |    0.105 |
+| kilometru   |    0.159 |
+| public      |    0.117 |
 | puț         |    0.105 |
+| porr        |    0.105 |
+| srl         |    0.105 |
 | aviator     |    0.105 |
 
 ## 2025-03-26 — facebook-post
@@ -2501,11 +2501,11 @@ _File: `2025-03-26_o-schimbare-profunda-a-sistemului-nicusorpresedinte-romaniao`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| profund           |    0.567 |
+| profund           |    0.569 |
 | schimbare         |    0.452 |
-| nicusorpresedinte |    0.416 |
-| sistem            |    0.415 |
-| romaniaonesta     |    0.359 |
+| nicusorpresedinte |    0.415 |
+| sistem            |    0.414 |
+| romaniaonesta     |    0.358 |
 
 ## 2025-03-26 — facebook-post
 
@@ -2513,15 +2513,15 @@ _File: `2025-03-26_romania-e-pe-minus-e-nevoie-urgenta-de-reforme-pentru-a-echi`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| buget         |    0.442 |
-| fyp           |    0.376 |
-| minus         |    0.37  |
-| echilibra     |    0.313 |
+| buget         |    0.443 |
+| fyp           |    0.375 |
+| minus         |    0.369 |
+| echilibra     |    0.315 |
 | urgent        |    0.313 |
-| cheltuială    |    0.256 |
+| cheltuială    |    0.255 |
 | stabilitate   |    0.25  |
 | asigura       |    0.242 |
-| reformă       |    0.232 |
+| reformă       |    0.233 |
 | economie      |    0.215 |
 | romaniaonesta |    0.18  |
 | românia       |    0.105 |
@@ -2538,7 +2538,7 @@ _File: `2025-03-26_un-presedinte-onest-care-poate-reforma-statul-roman-nicusorp`
 | romaniaonesta     |    0.3   |
 | român             |    0.251 |
 | președinte        |    0.242 |
-| stat              |    0.233 |
+| stat              |    0.234 |
 | putea             |    0.217 |
 
 ## 2025-03-26 — facebook-post
@@ -2548,13 +2548,13 @@ _File: `2025-03-26_viziunea-puterea-cuvantului-dat-pot-aduce-schimbarea-de-care`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | viziunea          |    0.612 |
-| cuvânt            |    0.37  |
-| putere            |    0.334 |
-| schimbare         |    0.324 |
-| nicusorpresedinte |    0.299 |
+| cuvânt            |    0.371 |
+| putere            |    0.333 |
+| schimbare         |    0.325 |
+| nicusorpresedinte |    0.298 |
 | aduce             |    0.286 |
-| romaniaonesta     |    0.258 |
-| putea             |    0.187 |
+| romaniaonesta     |    0.257 |
+| putea             |    0.186 |
 
 ## 2025-03-27 — facebook-post
 
@@ -2567,15 +2567,15 @@ _File: `2025-03-27_4-ani-si-jumatate-de-munca-pentru-un-bucuresti-mai-functiona`
 | faliment    |    0.244 |
 | colaps      |    0.244 |
 | șantier     |    0.223 |
-| termoficare |    0.21  |
 | derulare    |    0.21  |
+| termoficare |    0.21  |
 | generală    |    0.2   |
 | prag        |    0.191 |
 | public      |    0.19  |
 | echilibrat  |    0.185 |
 | blocaj      |    0.179 |
 | bucureșten  |    0.178 |
-| funcțional  |    0.169 |
+| funcțional  |    0.168 |
 | prelua      |    0.159 |
 
 ## 2025-03-27 — facebook-post
@@ -2584,9 +2584,9 @@ _File: `2025-03-27_am-fost-invitat-de-mihai-morar-la-podcastul-fain-simplu-unde`
 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
-| urmăriți |    0.316 |
 | youtubă  |    0.316 |
 | activism |    0.316 |
+| urmăriți |    0.316 |
 | podcast  |    0.284 |
 | candidez |    0.266 |
 | liceu    |    0.266 |
@@ -2596,7 +2596,7 @@ _File: `2025-03-27_am-fost-invitat-de-mihai-morar-la-podcastul-fain-simplu-unde`
 | invita   |    0.187 |
 | complet  |    0.185 |
 | istorie  |    0.182 |
-| motiv    |    0.166 |
+| motiv    |    0.165 |
 | simplu   |    0.165 |
 | aproape  |    0.164 |
 
@@ -2606,19 +2606,19 @@ _File: `2025-03-27_astazi-27-martie-marcam-107-ani-de-la-un-moment-esential-in` 
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| european         |    0.282 |
+| european         |    0.283 |
 | moldova          |    0.248 |
 | chișinău         |    0.244 |
-| republicii       |    0.205 |
-| aderare          |    0.202 |
-| amprentă         |    0.17  |
-| promovez         |    0.17  |
-| angajez          |    0.17  |
-| comun            |    0.161 |
+| republicii       |    0.206 |
+| aderare          |    0.203 |
+| promovez         |    0.169 |
+| angajez          |    0.169 |
+| amprentă         |    0.169 |
+| comun            |    0.16  |
 | țării            |    0.157 |
-| adânc            |    0.153 |
-| referință        |    0.153 |
-| republicamoldova |    0.153 |
+| adânc            |    0.152 |
+| referință        |    0.152 |
+| republicamoldova |    0.152 |
 | uniune           |    0.15  |
 | prut             |    0.149 |
 
@@ -2628,18 +2628,18 @@ _File: `2025-03-27_astazi-este-ziua-internationala-a-teatrului-un-bun-prilej-sa`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| talent        |    0.338 |
-| magie         |    0.324 |
-| teatr         |    0.304 |
-| artist        |    0.304 |
-| celebra       |    0.29  |
+| talent        |    0.337 |
+| magie         |    0.323 |
+| teatr         |    0.303 |
+| artist        |    0.303 |
+| celebra       |    0.289 |
 | teatru        |    0.284 |
-| prilej        |    0.25  |
+| prilej        |    0.253 |
 | emoție        |    0.238 |
 | scenă         |    0.225 |
-| uni           |    0.221 |
-| actor         |    0.221 |
-| perspectivă   |    0.181 |
+| uni           |    0.22  |
+| actor         |    0.22  |
+| perspectivă   |    0.182 |
 | posibil       |    0.173 |
 | oferi         |    0.163 |
 | internațional |    0.153 |
@@ -2655,7 +2655,7 @@ _File: `2025-03-27_telul-meu-este-sa-reconstruim-increderea-oamenilor-in-autori`
 | autoritate        |    0.324 |
 | încredere         |    0.299 |
 | nicusorpresedinte |    0.293 |
-| societate         |    0.268 |
+| societate         |    0.269 |
 | romaniaonesta     |    0.253 |
 | public            |    0.242 |
 
@@ -2665,15 +2665,15 @@ _File: `2025-03-28_am-acordat-un-interviu-publicatiei-politico-si-am-raspuns-in`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| publicație    |    0.389 |
+| publicație    |    0.388 |
 | politico      |    0.365 |
-| interviu      |    0.271 |
-| transatlantic |    0.248 |
+| interviu      |    0.27  |
+| transatlantic |    0.249 |
 | acorda        |    0.244 |
+| încheia       |    0.232 |
 | garanție      |    0.231 |
-| încheia       |    0.231 |
 | amenințare    |    0.23  |
-| pace          |    0.21  |
+| pace          |    0.211 |
 | condiție      |    0.198 |
 | răspunde      |    0.195 |
 | război        |    0.184 |
@@ -2691,10 +2691,10 @@ _File: `2025-03-28_functiile-publice-nu-sunt-mosteniri-de-familie-romania-are-n`
 | competent     |    0.361 |
 | romania       |    0.328 |
 | profesionist  |    0.311 |
-| dreptate      |    0.29  |
-| nicusordan    |    0.273 |
-| familie       |    0.258 |
-| real          |    0.254 |
+| dreptate      |    0.291 |
+| nicusordan    |    0.272 |
+| familie       |    0.257 |
+| real          |    0.255 |
 | necesar       |    0.235 |
 | schimbare     |    0.234 |
 | aduce         |    0.206 |
@@ -2730,7 +2730,7 @@ _File: `2025-03-28_vom-relua-lucrarile-pentru-finalizarea-proiectului-prelungir`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| stradă      |    0.401 |
+| stradă      |    0.4   |
 | ghencea     |    0.335 |
 | tramvai     |    0.294 |
 | oltului     |    0.223 |
@@ -2739,12 +2739,12 @@ _File: `2025-03-28_vom-relua-lucrarile-pentru-finalizarea-proiectului-prelungir`
 | str         |    0.21  |
 | prelungire  |    0.196 |
 | cuprinde    |    0.173 |
-| linie       |    0.14  |
+| linie       |    0.141 |
 | sens        |    0.123 |
-| companie    |    0.12  |
-| terminal    |    0.116 |
-| petrescu    |    0.116 |
-| marcaj      |    0.116 |
+| companie    |    0.119 |
+| nod         |    0.116 |
+| porțiune    |    0.116 |
+| doamna      |    0.116 |
 
 ## 2025-03-29 — facebook-post
 
@@ -2754,19 +2754,19 @@ _File: `2025-03-29_aderarea-republicii-moldova-la-uniunea-europeana-este-o-prio`
 |:-----------------|---------:|
 | esențial         |    0.288 |
 | republicamoldova |    0.284 |
-| uniune           |    0.278 |
+| uniune           |    0.279 |
 | vrea             |    0.242 |
 | valorifica       |    0.231 |
 | chișinău         |    0.227 |
 | beneficiu        |    0.215 |
 | european         |    0.21  |
-| deschidere       |    0.208 |
+| deschidere       |    0.207 |
 | unic             |    0.198 |
-| republicii       |    0.191 |
+| republicii       |    0.192 |
+| aderare          |    0.189 |
 | rapid            |    0.189 |
-| aderare          |    0.188 |
 | prioritate       |    0.181 |
-| oportunitate     |    0.175 |
+| oportunitate     |    0.174 |
 
 ## 2025-03-29 — facebook-post
 
@@ -2777,14 +2777,14 @@ _File: `2025-03-29_am-deschis-astazi-oficial-sediul-de-campanie-pentru-candidat`
 | mișcare     |    0.239 |
 | efort       |    0.173 |
 | anunțare    |    0.171 |
-| puternic    |    0.164 |
+| puternic    |    0.165 |
 | strângere   |    0.164 |
-| comun       |    0.162 |
-| campanie    |    0.159 |
+| comun       |    0.161 |
+| campanie    |    0.16  |
 | oameni      |    0.158 |
 | tineri      |    0.158 |
 | senior      |    0.158 |
-| ban         |    0.157 |
+| ban         |    0.158 |
 | precampanie |    0.154 |
 | donat       |    0.15  |
 | începe      |    0.143 |
@@ -2805,12 +2805,12 @@ _File: `2025-03-29_primul-transplant-hepatic-din-2025-a-fost-realizat-cu-succes`
 | maria          |    0.197 |
 | realiza        |    0.158 |
 | sănătate       |    0.148 |
-| succes         |    0.142 |
 | echipă         |    0.142 |
+| succes         |    0.142 |
+| sfântă         |    0.127 |
 | donatorilor    |    0.127 |
 | assmb          |    0.127 |
-| sfântă         |    0.127 |
-| felicitări     |    0.121 |
+| resurs         |    0.121 |
 
 ## 2025-03-29 — facebook-post
 
@@ -2831,7 +2831,7 @@ _File: `2025-03-30_am-fost-invitatul-lui-radu-andrei-tudor-la-the-news-man-podc`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| man               |    0.354 |
+| man               |    0.355 |
 | podcast           |    0.319 |
 | tudor             |    0.293 |
 | the               |    0.293 |
@@ -2853,20 +2853,20 @@ _File: `2025-03-30_astazi-am-discutat-cu-sustinatorii-din-chisinau-despre-impor`
 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
-| moldova        |    0.488 |
+| moldova        |    0.489 |
 | republică      |    0.47  |
 | european       |    0.167 |
 | energetic      |    0.155 |
-| aderare        |    0.149 |
-| oportunitate   |    0.139 |
+| aderare        |    0.15  |
+| oportunitate   |    0.138 |
 | fond           |    0.128 |
 | redobândire    |    0.125 |
-| moldovan       |    0.12  |
 | vamal          |    0.12  |
+| moldovan       |    0.12  |
 | esențial       |    0.114 |
 | accesare       |    0.113 |
 | relație        |    0.111 |
-| cetățean       |    0.11  |
+| cetățean       |    0.111 |
 | interconectare |    0.107 |
 
 ## 2025-03-30 — facebook-post
@@ -2876,12 +2876,12 @@ _File: `2025-03-30_romanii-vor-o-schimbare-alegerile-prezidentiale-din-mai-vor` 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | etapă             |    0.403 |
-| drum              |    0.358 |
+| drum              |    0.359 |
 | deschide          |    0.338 |
 | vrea              |    0.319 |
-| prezidențial      |    0.308 |
+| prezidențial      |    0.307 |
 | schimbare         |    0.307 |
-| nicusorpresedinte |    0.283 |
+| nicusorpresedinte |    0.282 |
 | alegere           |    0.264 |
 | romaniaonesta     |    0.244 |
 | politic           |    0.233 |
@@ -2893,19 +2893,19 @@ _File: `2025-03-31_am-vizitat-ieri-la-chisinau-cramele-cricova-un-adevarat-simb`
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| turistic        |    0.441 |
-| economic        |    0.387 |
-| regiune         |    0.262 |
-| potențial       |    0.26  |
+| turistic        |    0.44  |
+| economic        |    0.388 |
+| regiune         |    0.261 |
+| potențial       |    0.259 |
 | parteneriatelor |    0.207 |
 | maximum         |    0.19  |
+| simbol          |    0.172 |
 | întărire        |    0.172 |
-| simbol          |    0.17  |
-| valorifica      |    0.169 |
+| valorifica      |    0.168 |
 | chișinău        |    0.165 |
 | cultural        |    0.159 |
 | beneficiu       |    0.157 |
-| promova         |    0.154 |
+| promova         |    0.155 |
 | sublinia        |    0.153 |
 | vizita          |    0.15  |
 
@@ -2918,11 +2918,11 @@ _File: `2025-03-31_asa-cum-v-am-obisnuit-in-spiritul-transparentei-va-impartase`
 | fotografie    |    0.421 |
 | împărtăși     |    0.412 |
 | spirit        |    0.4   |
-| transparență  |    0.387 |
+| transparență  |    0.386 |
 | obișnui       |    0.383 |
-| recent        |    0.337 |
+| recent        |    0.338 |
 | romaniaonesta |    0.219 |
-| moment        |    0.187 |
+| moment        |    0.188 |
 
 ## 2025-03-31 — facebook-post
 
@@ -2937,11 +2937,11 @@ _File: `2025-03-31_voluntarii-campaniei-au-fost-si-in-acest-week-end-prezenti-i`
 | botoșani   |    0.241 |
 | timiș      |    0.228 |
 | prahova    |    0.228 |
-| voluntarii |    0.223 |
 | week-end   |    0.223 |
+| voluntarii |    0.223 |
 | ilfov      |    0.223 |
-| sibiu      |    0.219 |
 | alba       |    0.219 |
+| sibiu      |    0.219 |
 | brașov     |    0.208 |
 | cluj       |    0.202 |
 | iași       |    0.191 |
@@ -2958,15 +2958,15 @@ _File: `2025-04-01_psd-care-a-cheltuit-peste-50-de-milioane-de-euro-din-bani-pu`
 | public   |    0.208 |
 | milion   |    0.203 |
 | euro     |    0.197 |
-| ofens    |    0.186 |
 | see      |    0.186 |
+| ofens    |    0.186 |
 | soma     |    0.186 |
 | psd      |    0.185 |
-| donațiil |    0.178 |
 | tupeu    |    0.178 |
+| donațiil |    0.178 |
 | ban      |    0.172 |
-| donație  |    0.163 |
 | adus     |    0.163 |
+| donație  |    0.163 |
 
 ## 2025-04-01 — facebook-post
 
@@ -2976,8 +2976,8 @@ _File: `2025-04-01_situatia-financiara-actuala-a-romaniei-este-similara-cu-cea` 
 |:-----------|---------:|
 | pragmatism |    0.283 |
 | blocat     |    0.283 |
-| pmb        |    0.262 |
 | datoriu    |    0.262 |
+| pmb        |    0.262 |
 | același    |    0.256 |
 | debloca    |    0.255 |
 | bucuresti  |    0.243 |
@@ -2999,7 +2999,7 @@ _File: `2025-04-02_nicusor-dan-ar-putea-fi-un-presedinte-care-sa-aduca-prestigi`
 | sorbona      |    0.437 |
 | absolvent    |    0.404 |
 | prestigiu    |    0.375 |
-| țară         |    0.205 |
+| țară         |    0.206 |
 | planificare  |    0.202 |
 | doctor       |    0.187 |
 | bogdan       |    0.177 |
@@ -3019,10 +3019,10 @@ _File: `2025-04-02_o-finala-ponta-simion-ar-fi-cea-mai-rea-varianta-pentru-roma`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | finală            |    0.639 |
-| variantă          |    0.43  |
-| rău               |    0.424 |
-| nicusorpresedinte |    0.337 |
-| romaniaonesta     |    0.291 |
+| variantă          |    0.429 |
+| rău               |    0.426 |
+| nicusorpresedinte |    0.336 |
+| romaniaonesta     |    0.29  |
 | românia           |    0.169 |
 
 ## 2025-04-02 — facebook-post
@@ -3042,10 +3042,10 @@ _File: `2025-04-02_teatrul-ion-creanga-a-fost-abandonat-desi-are-multa-istorie` 
 | ion         |    0.237 |
 | onest       |    0.209 |
 | impact      |    0.198 |
-| istorie     |    0.183 |
+| istorie     |    0.184 |
 | nicusordan  |    0.183 |
 | respect     |    0.168 |
-| însemna     |    0.144 |
+| însemna     |    0.145 |
 
 ## 2025-04-03 — facebook-post
 
@@ -3068,11 +3068,11 @@ _File: `2025-04-03_am-avut-astazi-o-intalnire-cu-directori-ai-teatrelor-aflate` 
 |:-------------|---------:|
 | teatr        |    0.49  |
 | subordine    |    0.239 |
-| alocat       |    0.234 |
+| alocat       |    0.233 |
 | cultură      |    0.184 |
 | finanțare    |    0.173 |
 | sursă        |    0.17  |
-| primărie     |    0.147 |
+| primărie     |    0.146 |
 | activitate   |    0.146 |
 | fond         |    0.139 |
 | necesitățe   |    0.136 |
@@ -3091,18 +3091,18 @@ _File: `2025-04-03_am-semnat-astazi-un-protocol-de-colaborare-cu-untold-univers`
 | festival      |    0.576 |
 | artist        |    0.236 |
 | vrea          |    0.235 |
-| eveniment     |    0.221 |
-| bucurești     |    0.159 |
-| bucura        |    0.152 |
+| eveniment     |    0.22  |
+| bucurești     |    0.158 |
+| bucura        |    0.153 |
 | confirmat     |    0.131 |
-| arena         |    0.131 |
 | horeca        |    0.131 |
+| arena         |    0.131 |
 | anvergură     |    0.126 |
 | bucureștan    |    0.122 |
 | organizatorie |    0.122 |
 | internațional |    0.119 |
 | destinație    |    0.115 |
-| turist        |    0.113 |
+| top           |    0.113 |
 
 ## 2025-04-03 — facebook-post
 
@@ -3110,19 +3110,19 @@ _File: `2025-04-03_in-cateva-ore-incepe-oficial-campania-electorala-voluntarii` 
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| susținător   |    0.334 |
+| susținător   |    0.336 |
 | schimba      |    0.26  |
 | postărilor   |    0.252 |
 | sponsorizare |    0.241 |
 | campanie     |    0.235 |
 | restricție   |    0.233 |
-| depuce       |    0.227 |
+| depuce       |    0.226 |
 | voluntarii   |    0.216 |
 | conținut     |    0.193 |
 | determinare  |    0.193 |
 | suflet       |    0.191 |
 | sine         |    0.186 |
-| creare       |    0.185 |
+| creare       |    0.184 |
 | online       |    0.173 |
 | regulă       |    0.151 |
 
@@ -3133,7 +3133,7 @@ _File: `2025-04-03_madrid-londra-roma-paris-berlin-bruxelles-new-york-acolo-und`
 | lemmă     |   TF-IDF |
 |:----------|---------:|
 | diaspora  |    0.59  |
-| român     |    0.228 |
+| român     |    0.229 |
 | york      |    0.217 |
 | new       |    0.201 |
 | roma      |    0.201 |
@@ -3167,12 +3167,12 @@ _File: `2025-04-03_suntem-la-98-sa-atingem-obiectivul-de-donatii-cu-deadline-pa`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| atinge            |    0.623 |
+| atinge            |    0.622 |
 | diseară           |    0.437 |
 | donație           |    0.4   |
 | putem             |    0.296 |
-| obiectiv          |    0.23  |
-| oră               |    0.215 |
+| obiectiv          |    0.231 |
+| oră               |    0.214 |
 | nicusorpresedinte |    0.206 |
 | romaniaonesta     |    0.178 |
 
@@ -3182,11 +3182,11 @@ _File: `2025-04-03_suntem-multi-si-impreuna-mergem-pana-la-capat-nd11-romaniaon`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| capăt             |    0.602 |
-| nicusorpresedinte |    0.422 |
-| merge             |    0.42  |
+| capăt             |    0.601 |
+| merge             |    0.421 |
+| nicusorpresedinte |    0.421 |
 | împreună          |    0.39  |
-| romaniaonesta     |    0.364 |
+| romaniaonesta     |    0.363 |
 
 ## 2025-04-03 — facebook-post
 
@@ -3198,8 +3198,8 @@ _File: `2025-04-03_tarifele-impuse-de-statele-unite-vor-afecta-intreaga-lume-ia`
 | proteja       |    0.266 |
 | vrea          |    0.147 |
 | povar         |    0.144 |
-| antreprenorii |    0.138 |
 | ineficient    |    0.138 |
+| antreprenorii |    0.138 |
 | economie      |    0.134 |
 | tarifă        |    0.133 |
 | românesc      |    0.133 |
@@ -3208,7 +3208,7 @@ _File: `2025-04-03_tarifele-impuse-de-statele-unite-vor-afecta-intreaga-lume-ia`
 | uniune        |    0.127 |
 | imperativ     |    0.126 |
 | măsură        |    0.123 |
-| supraviețui   |    0.121 |
+| coordonat     |    0.121 |
 
 ## 2025-04-03 — facebook-post
 
@@ -3220,14 +3220,14 @@ _File: `2025-04-03_un-proiect-inceput-acum-48-de-ani-finalizat-de-noi-statia-de`
 | pmb        |    0.331 |
 | stație     |    0.307 |
 | bucuresti  |    0.307 |
-| curat      |    0.291 |
+| curat      |    0.29  |
 | finaliza   |    0.262 |
 | maxim      |    0.25  |
 | capacitate |    0.21  |
-| nicusordan |    0.205 |
+| nicusordan |    0.204 |
 | niciodată  |    0.203 |
 | funcționa  |    0.183 |
-| mediu      |    0.174 |
+| mediu      |    0.175 |
 | proiect    |    0.155 |
 | începe     |    0.15  |
 | bucurești  |    0.144 |
@@ -3239,11 +3239,11 @@ _File: `2025-04-04_aniversam-azi-intr-un-context-geopolitic-foarte-complicat-76`
 | lemmă                           |   TF-IDF |
 |:--------------------------------|---------:|
 | northatlantictreatyorganization |    0.232 |
-| activ                           |    0.228 |
+| activ                           |    0.227 |
 | industrie                       |    0.2   |
 | europe                          |    0.191 |
 | context                         |    0.169 |
-| alianță                         |    0.154 |
+| alianță                         |    0.155 |
 | rămâne                          |    0.149 |
 | securitate                      |    0.147 |
 | românia                         |    0.139 |
@@ -3260,11 +3260,11 @@ _File: `2025-04-04_cred-in-noi-cred-in-romania-in-europa-romaniaonesta-nicusorp`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| cred              |    0.813 |
-| nicusorpresedinte |    0.34  |
-| europa            |    0.328 |
-| romaniaonesta     |    0.293 |
-| românia           |    0.171 |
+| cred              |    0.815 |
+| nicusorpresedinte |    0.338 |
+| europa            |    0.327 |
+| romaniaonesta     |    0.292 |
+| românia           |    0.17  |
 
 ## 2025-04-04 — facebook-post
 
@@ -3272,20 +3272,20 @@ _File: `2025-04-04_voluntarii-nostri-au-inceput-campania-electorala-cu-multa-en`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| gorj       |    0.236 |
 | vâlcea     |    0.236 |
+| gorj       |    0.236 |
 | deva       |    0.236 |
 | botoșani   |    0.219 |
 | buzău      |    0.212 |
 | prahova    |    0.207 |
 | oradea     |    0.207 |
 | voluntarii |    0.203 |
-| vaslui     |    0.203 |
 | craiova    |    0.203 |
+| vaslui     |    0.203 |
 | bacău      |    0.199 |
-| sibiu      |    0.199 |
-| alba       |    0.199 |
 | suceava    |    0.199 |
+| alba       |    0.199 |
+| sibiu      |    0.199 |
 | focșani    |    0.192 |
 
 ## 2025-04-05 — facebook-post
@@ -3304,8 +3304,8 @@ _File: `2025-04-05_dupa-o-zi-lunga-la-madrid-am-ajuns-in-camera-de-hotel-si-am` 
 | război       |    0.168 |
 | umanitate    |    0.162 |
 | documentat   |    0.162 |
-| madrid       |    0.156 |
-| distrugere   |    0.156 |
+| madrid       |    0.155 |
+| distrugere   |    0.155 |
 | durere       |    0.15  |
 | imens        |    0.144 |
 | comite       |    0.144 |
@@ -3319,13 +3319,13 @@ _File: `2025-04-05_forta-antreprenorilor-romani-din-regiunea-madrid-am-avut-o-d`
 | oameni                |    0.287 |
 | madrid                |    0.261 |
 | antreprenor           |    0.235 |
-| regiune               |    0.176 |
 | diasporă              |    0.176 |
+| regiune               |    0.176 |
 | muncă                 |    0.163 |
-| panificație           |    0.155 |
 | horeca                |    0.155 |
-| antreprenorilor       |    0.155 |
+| panificație           |    0.155 |
 | logistică             |    0.155 |
+| antreprenorilor       |    0.155 |
 | serviciu              |    0.152 |
 | român                 |    0.151 |
 | imobiliare            |    0.148 |
@@ -3338,21 +3338,21 @@ _File: `2025-04-05_intalnire-romaneasca-la-arganda-del-rey-regiunea-madrid-am-f`
 
 | lemmă                 |   TF-IDF |
 |:----------------------|---------:|
-| madrid                |    0.277 |
+| madrid                |    0.276 |
 | țară                  |    0.258 |
-| limbă                 |    0.223 |
+| limbă                 |    0.222 |
 | regiune               |    0.187 |
 | olt                   |    0.164 |
 | român                 |    0.161 |
-| rădăcinile            |    0.158 |
+| rădăcinile            |    0.157 |
 | căldură               |    0.152 |
-| întâlnire             |    0.152 |
 | românesc              |    0.152 |
+| întâlnire             |    0.152 |
 | uita                  |    0.15  |
 | românia               |    0.149 |
 | însemna               |    0.149 |
 | diasporavreaschimbare |    0.148 |
-| demn                  |    0.144 |
+| prahova               |    0.144 |
 
 ## 2025-04-05 — facebook-post
 
@@ -3361,14 +3361,14 @@ _File: `2025-04-05_interviu-la-radio-romanul-alaturi-de-romanii-din-diaspora-am`
 | lemmă                 |   TF-IDF |
 |:----------------------|---------:|
 | român                 |    0.373 |
-| radio                 |    0.326 |
-| diasporă              |    0.325 |
+| diasporă              |    0.326 |
+| radio                 |    0.325 |
 | real                  |    0.229 |
 | sine                  |    0.176 |
 | vrea                  |    0.146 |
 | ascultat              |    0.143 |
-| irina                 |    0.143 |
 | jurnalistă            |    0.143 |
+| irina                 |    0.143 |
 | întreg                |    0.141 |
 | diasporavreaschimbare |    0.129 |
 | dragoste              |    0.123 |
@@ -3394,8 +3394,8 @@ _File: `2025-04-05_prima-pajiste-urbana-cu-flori-de-camp-salbatice-din-bucurest`
 | vrea      |    0.149 |
 | bucurești |    0.141 |
 | loc       |    0.138 |
-| relaxa    |    0.116 |
 | mac       |    0.116 |
+| relaxa    |    0.116 |
 | pajiște   |    0.116 |
 
 ## 2025-04-05 — facebook-post
@@ -3404,9 +3404,9 @@ _File: `2025-04-05_puterea-nu-ne-o-da-nimeni-o-construim-noi-romaniaonesta-nicu`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| construi          |    0.563 |
-| putere            |    0.534 |
-| nicusorpresedinte |    0.478 |
+| construi          |    0.564 |
+| putere            |    0.533 |
+| nicusorpresedinte |    0.477 |
 | romaniaonesta     |    0.412 |
 
 ## 2025-04-05 — facebook-post
@@ -3428,8 +3428,8 @@ _File: `2025-04-05_sunt-incantat-sa-anunt-bucurestenii-ca-incepand-cu-12-aprili`
 | victoria   |    0.159 |
 | cale       |    0.143 |
 | comunitate |    0.119 |
-| plimbare   |    0.116 |
-| stradal    |    0.116 |
+| delivery   |    0.116 |
+| habits     |    0.116 |
 
 ## 2025-04-05 — facebook-post
 
@@ -3444,14 +3444,14 @@ _File: `2025-04-05_vizita-in-diaspora-romaneasca-din-spania-cubas-de-la-sagra-l`
 | greutate       |    0.189 |
 | spania         |    0.158 |
 | poveste        |    0.136 |
-| diasporă       |    0.122 |
-| succes         |    0.121 |
+| diasporă       |    0.123 |
+| succes         |    0.12  |
 | vizită         |    0.118 |
 | pleca          |    0.116 |
 | construi       |    0.115 |
 | început        |    0.113 |
-| premia         |    0.108 |
-| regiunii       |    0.108 |
+| galați         |    0.108 |
+| imigrant       |    0.108 |
 
 ## 2025-04-06 — facebook-post
 
@@ -3460,12 +3460,12 @@ _File: `2025-04-06_daca-se-repara-romania-ma-intorc-cu-acest-mesaj-am-plecat-di`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | reconstrui        |    0.439 |
-| repara            |    0.414 |
+| repara            |    0.413 |
 | determinare       |    0.384 |
-| diasporă          |    0.284 |
+| diasporă          |    0.285 |
 | pleca             |    0.27  |
 | întoarce          |    0.268 |
-| ține              |    0.234 |
+| ține              |    0.235 |
 | mesaj             |    0.228 |
 | românia           |    0.227 |
 | nicusorpresedinte |    0.226 |
@@ -3492,7 +3492,7 @@ _File: `2025-04-06_impreuna-vindecam-romania-avem-medici-profesionisti-si-asist`
 | depinde      |    0.178 |
 | sănătate     |    0.174 |
 | eficient     |    0.172 |
-| conta        |    0.163 |
+| conta        |    0.164 |
 
 ## 2025-04-06 — facebook-post
 
@@ -3501,9 +3501,9 @@ _File: `2025-04-06_romania-joaca-in-liga-mare-nicusorpresedinte-romaniaonesta` �
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | juca              |    0.715 |
-| nicusorpresedinte |    0.495 |
+| nicusorpresedinte |    0.494 |
 | romaniaonesta     |    0.427 |
-| românia           |    0.248 |
+| românia           |    0.249 |
 
 ## 2025-04-06 — facebook-post
 
@@ -3516,12 +3516,12 @@ _File: `2025-04-06_romania-onesta-este-prezenta-peste-tot-voluntarii-nostri-au` 
 | distribui         |    0.332 |
 | voluntarii        |    0.325 |
 | weekend           |    0.281 |
-| onest             |    0.248 |
-| diasporă          |    0.215 |
+| onest             |    0.247 |
+| diasporă          |    0.216 |
 | acțiune           |    0.196 |
 | prezent           |    0.195 |
 | campanie          |    0.177 |
-| mesaj             |    0.172 |
+| mesaj             |    0.173 |
 | românia           |    0.172 |
 | nicusorpresedinte |    0.171 |
 | atât              |    0.166 |
@@ -3533,19 +3533,19 @@ _File: `2025-04-06_romanii-din-spania-poarta-in-suflet-o-dorinta-arzatoare-de-s`
 
 | lemmă   |   TF-IDF |
 |:--------|---------:|
-| arzător |    0.325 |
+| arzător |    0.324 |
 | madrid  |    0.273 |
 | împlini |    0.264 |
 | auzim   |    0.264 |
 | suflet  |    0.246 |
 | spania  |    0.238 |
-| aducem  |    0.229 |
+| aducem  |    0.231 |
 | romania |    0.223 |
 | înapoi  |    0.218 |
-| dorință |    0.214 |
+| dorință |    0.215 |
 | dor     |    0.212 |
 | purta   |    0.2   |
-| acasă   |    0.195 |
+| acasă   |    0.194 |
 | voce    |    0.189 |
 | acționa |    0.185 |
 
@@ -3558,18 +3558,18 @@ _File: `2025-04-06_traditii-si-flori-de-sarbatori-revine-in-bucuresti-primaria` 
 | tradiții    |    0.255 |
 | creație     |    0.255 |
 | eveniment   |    0.214 |
-| autentic    |    0.201 |
 | floare      |    0.201 |
+| autentic    |    0.201 |
 | sărbători   |    0.193 |
 | tradițional |    0.189 |
 | intrare     |    0.178 |
-| redescoperi |    0.127 |
-| recreativ   |    0.127 |
-| destina     |    0.127 |
-| carusel     |    0.127 |
 | frumusețe   |    0.127 |
-| folclor     |    0.127 |
+| destina     |    0.127 |
+| festiv      |    0.127 |
+| recreativ   |    0.127 |
 | muzical     |    0.127 |
+| carusel     |    0.127 |
+| redescoperi |    0.127 |
 
 ## 2025-04-06 — facebook-post
 
@@ -3584,7 +3584,7 @@ _File: `2025-04-06_zi-reusita-la-targul-de-adoptii-aspa-din-parcul-carol-de-ier`
 | adopție      |    0.22  |
 | câine        |    0.198 |
 | interacționa |    0.193 |
-| adăpost      |    0.188 |
+| adăpost      |    0.189 |
 | târg         |    0.185 |
 | carol        |    0.176 |
 | bucureștean  |    0.158 |
@@ -3609,8 +3609,8 @@ _File: `2025-04-07_adevarul-acest-clip-demonteaza-o-minciuna-nu-am-afirmat-nici`
 | manipulare |    0.248 |
 | dovadă     |    0.218 |
 | nicusordan |    0.215 |
-| niciodată  |    0.214 |
-| educație   |    0.214 |
+| niciodată  |    0.213 |
+| educație   |    0.213 |
 | conta      |    0.207 |
 | trebui     |    0.115 |
 
@@ -3620,21 +3620,21 @@ _File: `2025-04-07_asa-arata-stabilitatea-psd-pnl-riscam-sa-pierdem-miliarde-de`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| stabilitate   |    0.327 |
-| pnrr          |    0.296 |
+| stabilitate   |    0.326 |
+| pnrr          |    0.298 |
 | pierdem       |    0.259 |
-| miliard       |    0.175 |
+| miliard       |    0.176 |
 | euro          |    0.16  |
 | guvernare     |    0.151 |
+| european      |    0.151 |
 | sertare       |    0.151 |
 | modernizăm    |    0.151 |
 | întârzierilor |    0.151 |
-| european      |    0.151 |
 | minciune      |    0.145 |
 | psd-pnl       |    0.14  |
 | incompetență  |    0.136 |
 | promit        |    0.127 |
-| email         |    0.125 |
+| noutate       |    0.125 |
 
 ## 2025-04-07 — facebook-post
 
@@ -3642,7 +3642,7 @@ _File: `2025-04-07_e-timpul-sa-ne-recapatam-increderea-in-noi-nicusorpresedinte`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| recăpăta          |    0.798 |
+| recăpăta          |    0.799 |
 | încredere         |    0.368 |
 | nicusorpresedinte |    0.361 |
 | romaniaonesta     |    0.311 |
@@ -3656,18 +3656,18 @@ _File: `2025-04-07_ieri-m-am-intalnit-cu-una-dintre-cele-mai-puternice-comunita`
 | sănătate              |    0.302 |
 | spania                |    0.252 |
 | temă                  |    0.192 |
-| pierde                |    0.19  |
+| pierde                |    0.191 |
 | bun                   |    0.188 |
-| reformat              |    0.172 |
 | agil                  |    0.172 |
+| reformat              |    0.172 |
 | român                 |    0.168 |
-| profesioniști         |    0.159 |
 | beneficiar            |    0.159 |
+| profesioniști         |    0.159 |
 | românia               |    0.156 |
 | diasporavreaschimbare |    0.155 |
 | mulțumi               |    0.151 |
 | pensionare            |    0.148 |
-| diplomă               |    0.145 |
+| madrid                |    0.145 |
 
 ## 2025-04-07 — facebook-post
 
@@ -3681,7 +3681,7 @@ _File: `2025-04-07_marcel-ciolacu-prim-ministru-al-guvernului-romaniei-conduce` 
 | emisar       |    0.271 |
 | domn         |    0.179 |
 | paralelă     |    0.151 |
-| extern       |    0.149 |
+| extern       |    0.15  |
 | oficial      |    0.149 |
 | român        |    0.147 |
 | intolerabil  |    0.14  |
@@ -3697,13 +3697,13 @@ _File: `2025-04-07_patriotismul-inseamna-sa-pui-romania-in-valoare-nu-s-o-conda`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| condamni          |    0.475 |
+| condamni          |    0.474 |
 | patriotism        |    0.461 |
 | haos              |    0.398 |
 | frică             |    0.372 |
 | valoare           |    0.25  |
 | însemna           |    0.232 |
-| nicusorpresedinte |    0.232 |
+| nicusorpresedinte |    0.231 |
 | pune              |    0.205 |
 | romaniaonesta     |    0.2   |
 | românia           |    0.116 |
@@ -3720,11 +3720,11 @@ _File: `2025-04-08_astazi-de-ziua-internationala-a-romilor-gandurile-mele-se-in`
 | casă       |    0.205 |
 | respect    |    0.167 |
 | comunitate |    0.163 |
-| education  |    0.159 |
 | etnie      |    0.159 |
 | romilor    |    0.159 |
-| sfinții    |    0.152 |
+| education  |    0.159 |
 | fund       |    0.152 |
+| sfinții    |    0.152 |
 | prețui     |    0.147 |
 | paul       |    0.147 |
 | omagiu     |    0.143 |
@@ -3734,23 +3734,23 @@ _File: `2025-04-08_astazi-de-ziua-internationala-a-romilor-gandurile-mele-se-in`
 
 _File: `2025-04-08_consider-ca-propunerea-presedintelui-interimar-domnul-ilie-b` · 72 clean lemmas_
 
-| lemmă          |   TF-IDF |
-|:---------------|---------:|
-| dezbatere      |    0.297 |
-| neutru         |    0.193 |
-| candidaț       |    0.179 |
-| audiență       |    0.179 |
-| văd            |    0.162 |
-| televiziune    |    0.152 |
-| adecvat        |    0.15  |
-| locație        |    0.15  |
-| televiziunea   |    0.15  |
-| cunoștință     |    0.146 |
-| canal          |    0.144 |
-| cpp            |    0.143 |
-| publicitar     |    0.143 |
-| nicușor-daniel |    0.143 |
-| cmf            |    0.143 |
+| lemmă               |   TF-IDF |
+|:--------------------|---------:|
+| dezbatere           |    0.298 |
+| neutru              |    0.193 |
+| audiență            |    0.178 |
+| candidaț            |    0.178 |
+| văd                 |    0.162 |
+| televiziune         |    0.152 |
+| televiziunea        |    0.15  |
+| adecvat             |    0.15  |
+| locație             |    0.15  |
+| cunoștință          |    0.146 |
+| canal               |    0.144 |
+| publicitar          |    0.143 |
+| nicușor-daniel      |    0.143 |
+| cmf                 |    0.143 |
+| contactnicusordanro |    0.143 |
 
 ## 2025-04-08 — facebook-post
 
@@ -3759,17 +3759,17 @@ _File: `2025-04-08_multi-se-declara-luptatori-anti-sistem-putini-au-fapte-concr`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | anti-sistem   |    0.515 |
-| instanță      |    0.339 |
+| instanță      |    0.338 |
 | nicusordan    |    0.294 |
 | declara       |    0.289 |
+| apăra         |    0.286 |
 | cauză         |    0.285 |
-| apăra         |    0.285 |
 | concret       |    0.276 |
-| oară          |    0.246 |
+| oară          |    0.247 |
 | susține       |    0.223 |
 | fapt          |    0.212 |
 | romaniaonesta |    0.201 |
-| sine          |    0.127 |
+| sine          |    0.126 |
 
 ## 2025-04-09 — facebook-post
 
@@ -3779,12 +3779,12 @@ _File: `2025-04-09_succes-tati-va-astept-la-21-00-la-antena-3-sa-vorbim-despre` 
 |:------------------|---------:|
 | vorbima           |    0.398 |
 | antena            |    0.376 |
-| onest             |    0.369 |
-| românie           |    0.341 |
-| succes            |    0.316 |
+| onest             |    0.368 |
+| românie           |    0.343 |
+| succes            |    0.315 |
 | copil             |    0.305 |
-| puternic          |    0.271 |
-| aștepta           |    0.261 |
+| puternic          |    0.272 |
+| aștepta           |    0.26  |
 | nicusorpresedinte |    0.255 |
 | romaniaonesta     |    0.22  |
 
@@ -3802,12 +3802,12 @@ _File: `2025-04-10_later-edit-steven-seagal-este-emisar-special-al-ministerului`
 | inunda       |    0.217 |
 | pagubă       |    0.208 |
 | serbia       |    0.201 |
-| sat          |    0.161 |
+| sat          |    0.163 |
 | produce      |    0.129 |
-| cuno         |    0.109 |
+| suveranista  |    0.109 |
 | inundațiilor |    0.109 |
 | edit         |    0.109 |
-| suveranista  |    0.109 |
+| cuno         |    0.109 |
 | prim         |    0.103 |
 
 ## 2025-04-10 — facebook-post
@@ -3822,7 +3822,7 @@ _File: `2025-04-10_ponta-este-singurul-candidat-autoproclamat-anti-sorosist-car`
 | tupeu        |    0.386 |
 | pretinde     |    0.346 |
 | pontă        |    0.346 |
-| singur       |    0.206 |
+| singur       |    0.207 |
 | întâlnire    |    0.186 |
 | sistem       |    0.182 |
 | sine         |    0.099 |
@@ -3833,11 +3833,11 @@ _File: `2025-04-11_cuvintele-soacrei-mele-m-au-emotionat-profund-multumesc-lili`
 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
-| soacră   |    0.531 |
-| lilian   |    0.531 |
-| emoționa |    0.492 |
-| profund  |    0.326 |
-| cuvânt   |    0.297 |
+| lilian   |    0.53  |
+| soacră   |    0.53  |
+| emoționa |    0.491 |
+| profund  |    0.328 |
+| cuvânt   |    0.298 |
 
 ## 2025-04-11 — facebook-post
 
@@ -3848,17 +3848,17 @@ _File: `2025-04-11_indemnizatiile-persoanelor-cu-dizabilitati-din-bucuresti-au` 
 | dizabilitate   |    0.345 |
 | exprima        |    0.219 |
 | capitală       |    0.188 |
-| viabil         |    0.186 |
 | răspândi       |    0.186 |
-| înșelător      |    0.186 |
+| viabil         |    0.186 |
 | subfinanțare   |    0.186 |
-| brutal         |    0.186 |
 | ignorare       |    0.186 |
+| înșelător      |    0.186 |
+| brutal         |    0.186 |
 | persoană       |    0.179 |
 | sfidare        |    0.179 |
 | bucureștenilor |    0.179 |
-| cinic          |    0.168 |
 | barna          |    0.168 |
+| cinic          |    0.168 |
 | finanț         |    0.164 |
 
 ## 2025-04-11 — facebook-post
@@ -3869,14 +3869,14 @@ _File: `2025-04-11_la-finalul-anului-trecut-coalitia-stabilitatii-psd-pnl-infii`
 |:------------|---------:|
 | cheltuială  |    0.306 |
 | coaliție    |    0.258 |
-| stat        |    0.251 |
-| populism    |    0.238 |
+| stat        |    0.252 |
+| populism    |    0.237 |
 | eficiență   |    0.233 |
 | crește      |    0.207 |
 | observ      |    0.133 |
 | psd-pnl     |    0.128 |
-| dezamăgire  |    0.125 |
-| sporuri     |    0.125 |
+| dezamăgire  |    0.124 |
+| sporuri     |    0.124 |
 | risipă      |    0.119 |
 | naște       |    0.112 |
 | populist    |    0.112 |
@@ -3897,13 +3897,13 @@ _File: `2025-04-12_am-fost-onorat-sa-particip-astazi-alaturi-de-e-s-katae-takas`
 | sărbătoare  |    0.225 |
 | cultură     |    0.203 |
 | popor       |    0.182 |
-| însut       |    0.15  |
-| îndeamna    |    0.15  |
 | spectaculos |    0.15  |
+| îndeamna    |    0.15  |
+| însut       |    0.15  |
 | înșine      |    0.144 |
 | ambasada    |    0.144 |
-| herăstrău   |    0.139 |
 | armonie     |    0.139 |
+| herăstrău   |    0.139 |
 
 ## 2025-04-12 — facebook-post
 
@@ -3917,15 +3917,15 @@ _File: `2025-04-12_domnul-ciolacu-se-teme-ca-va-fi-obligat-sa-poarte-fusta-daca`
 | haină               |    0.208 |
 | teme                |    0.208 |
 | domn                |    0.196 |
+| cpp                 |    0.183 |
 | contactnicusordanro |    0.183 |
+| cmf                 |    0.183 |
 | publicitar          |    0.183 |
 | nicușor-daniel      |    0.183 |
-| cpp                 |    0.183 |
 | abcde               |    0.183 |
-| cmf                 |    0.183 |
 | regina              |    0.181 |
 | elisabeta           |    0.179 |
-| asigur              |    0.171 |
+| asigur              |    0.173 |
 
 ## 2025-04-12 — facebook-post
 
@@ -3937,7 +3937,7 @@ _File: `2025-04-12_live-declaratii-de-presa-la-sediul-de-campanie` · 5 clean le
 | sediu      |    0.512 |
 | live       |    0.481 |
 | presă      |    0.351 |
-| campanie   |    0.315 |
+| campanie   |    0.316 |
 
 ## 2025-04-12 — facebook-post
 
@@ -3946,7 +3946,7 @@ _File: `2025-04-12_sesizare-catre-autoritatea-electorala-permanenta-solicitam-r`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | neloial      |    0.324 |
-| campanie     |    0.302 |
+| campanie     |    0.303 |
 | circumstanță |    0.278 |
 | pretinde     |    0.278 |
 | incorect     |    0.272 |
@@ -3954,8 +3954,8 @@ _File: `2025-04-12_sesizare-catre-autoritatea-electorala-permanenta-solicitam-r`
 | utiliza      |    0.259 |
 | metodă       |    0.23  |
 | respectare   |    0.23  |
-| princip      |    0.221 |
 | sesizare     |    0.221 |
+| princip      |    0.221 |
 | practică     |    0.214 |
 | onest        |    0.211 |
 | solicita     |    0.21  |
@@ -3975,7 +3975,7 @@ _File: `2025-04-13_avand-in-vedere-lipsa-de-reactie-a-institutiilor-responsabil`
 | consider     |    0.237 |
 | dedica       |    0.233 |
 | online       |    0.231 |
-| lansa        |    0.22  |
+| lansa        |    0.219 |
 | dezinformare |    0.211 |
 | lipsă        |    0.21  |
 | responsabil  |    0.198 |
@@ -3991,17 +3991,17 @@ _File: `2025-04-13_condamn-cu-fermitate-atacul-criminal-de-azi-al-rusiei-care-a`
 |:--------------|---------:|
 | florii        |    0.208 |
 | rusia         |    0.207 |
-| balistic      |    0.193 |
-| armistițiu    |    0.193 |
-| condamn       |    0.193 |
 | bună-credință |    0.193 |
-| rachetă       |    0.183 |
-| criminal      |    0.183 |
-| sursa         |    0.183 |
+| condamn       |    0.193 |
+| armistițiu    |    0.193 |
+| balistic      |    0.193 |
+| sursa         |    0.182 |
+| criminal      |    0.182 |
+| rachetă       |    0.182 |
 | zelenski      |    0.175 |
 | volodimir     |    0.169 |
+| biserică      |    0.166 |
 | fermitate     |    0.166 |
-| biserică      |    0.164 |
 | foto          |    0.16  |
 | sărbătoare    |    0.156 |
 
@@ -4011,19 +4011,19 @@ _File: `2025-04-13_coruptia-e-motivul-principal-pentru-care-oamenii-o-duc-greu` 
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| temeliu    |    0.383 |
-| dezamăgi   |    0.329 |
-| trai       |    0.311 |
-| vârf       |    0.281 |
-| spital     |    0.244 |
-| școală     |    0.235 |
-| conduce    |    0.21  |
-| corupție   |    0.21  |
-| greu       |    0.205 |
+| temeliu    |    0.382 |
+| dezamăgi   |    0.328 |
+| trai       |    0.316 |
+| vârf       |    0.28  |
+| spital     |    0.243 |
+| școală     |    0.234 |
+| corupție   |    0.211 |
+| conduce    |    0.209 |
+| greu       |    0.206 |
 | principal  |    0.201 |
-| motiv      |    0.201 |
-| schimba    |    0.198 |
-| nicușordan |    0.191 |
+| motiv      |    0.2   |
+| schimba    |    0.197 |
+| nicușordan |    0.19  |
 | nivel      |    0.167 |
 | duce       |    0.165 |
 
@@ -4041,13 +4041,13 @@ _File: `2025-04-13_primul-week-end-strazi-deschise-bucuresti-promenada-urbana-c`
 | victoria  |    0.194 |
 | cale      |    0.175 |
 | capitală  |    0.142 |
+| străzi    |    0.141 |
+| bazar     |    0.141 |
+| habits    |    0.141 |
+| promenadă |    0.141 |
 | inedit    |    0.141 |
 | dorobanți |    0.141 |
-| habits    |    0.141 |
-| delivery  |    0.141 |
-| bazar     |    0.141 |
-| muzical   |    0.141 |
-| străzi    |    0.141 |
+| manta     |    0.141 |
 
 ## 2025-04-13 — facebook-post
 
@@ -4078,8 +4078,8 @@ _File: `2025-04-14_de-la-ce-functie-in-sus-considera-biroul-electoral-central-c`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | bec         |    0.301 |
-| exprimare   |    0.268 |
-| cetățean    |    0.246 |
+| exprimare   |    0.267 |
+| cetățean    |    0.247 |
 | candidat    |    0.226 |
 | marcel      |    0.225 |
 | ciolacu     |    0.209 |
@@ -4108,8 +4108,8 @@ _File: `2025-04-14_intarirea-pozitiei-romaniei-in-nato-si-ue-incepe-cu-consulta`
 | hibrid                          |    0.276 |
 | amenințare                      |    0.275 |
 | poziție                         |    0.243 |
-| northatlantictreatyorganization |    0.23  |
-| începe                          |    0.203 |
+| northatlantictreatyorganization |    0.229 |
+| începe                          |    0.204 |
 | romaniaonesta                   |    0.189 |
 | față                            |    0.178 |
 | românia                         |    0.11  |
@@ -4138,14 +4138,14 @@ _File: `2025-04-14_presedintele-absent-iohannis-si-tandemul-psd-pnl-au-tolerat` 
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| corupție         |    0.299 |
+| corupție         |    0.301 |
 | tandem           |    0.253 |
 | psd-pnl          |    0.253 |
 | absent           |    0.246 |
 | diicot           |    0.235 |
 | investiga        |    0.235 |
 | tolera           |    0.23  |
-| îmbunătăți       |    0.213 |
+| îmbunătăți       |    0.212 |
 | dna              |    0.203 |
 | nicusorpresedint |    0.193 |
 | competență       |    0.19  |
@@ -4164,12 +4164,12 @@ _File: `2025-04-15_activitatea-suspecta-asupra-conturilor-mele-de-social-media` 
 | raporta         |    0.356 |
 | număr           |    0.272 |
 | vizualiza       |    0.252 |
-| utilizator      |    0.234 |
 | distribuire     |    0.234 |
+| utilizator      |    0.234 |
 | disproporționat |    0.227 |
 | suspect         |    0.222 |
-| platformă       |    0.191 |
 | competent       |    0.191 |
+| platformă       |    0.191 |
 | sesiza          |    0.181 |
 | extinde         |    0.175 |
 | facebook        |    0.174 |
@@ -4185,13 +4185,13 @@ _File: `2025-04-15_avem-o-scadere-a-productiei-industriale-cu-3-9-in-primele-lu`
 | capital      |    0.248 |
 | scădere      |    0.234 |
 | străin       |    0.21  |
-| anemic       |    0.169 |
 | onesc        |    0.169 |
 | românii      |    0.169 |
-| faliment     |    0.162 |
+| anemic       |    0.169 |
 | cheltuielile |    0.162 |
+| faliment     |    0.162 |
 | dobânzile    |    0.156 |
-| același      |    0.153 |
+| același      |    0.152 |
 | insolvență   |    0.152 |
 | instabil     |    0.148 |
 | înființa     |    0.145 |
@@ -4214,11 +4214,11 @@ _File: `2025-04-15_pe-conturile-mele-de-instagram-nicusor-dan-pg-si-tiktok-nicu`
 | atac         |    0.145 |
 | ajuta        |    0.128 |
 | părea        |    0.128 |
-| platform     |    0.124 |
 | murdar       |    0.124 |
 | mascat       |    0.124 |
+| forțat       |    0.124 |
+| platform     |    0.124 |
 | falși        |    0.124 |
-| bruște       |    0.124 |
 
 ## 2025-04-15 — facebook-post
 
@@ -4228,7 +4228,7 @@ _File: `2025-04-15_romania-e-a-voastra-nu-o-lasati-pe-mana-lor-nicusorpresedint`
 |:-----------------|---------:|
 | nicusorpresedint |    0.605 |
 | mână             |    0.519 |
-| lăsa             |    0.464 |
+| lăsa             |    0.463 |
 | romaniaonesta    |    0.334 |
 | românia          |    0.195 |
 
@@ -4241,18 +4241,18 @@ _File: `2025-04-16_astazi-a-mai-venit-o-veste-ingrozitoare-moartea-unui-tanar-d`
 | drog       |    0.396 |
 | prevenție  |    0.301 |
 | trafic     |    0.257 |
-| consum     |    0.191 |
+| consum     |    0.19  |
 | tânăr      |    0.161 |
 | activ      |    0.155 |
 | risc       |    0.149 |
 | rețea      |    0.142 |
+| reactiv    |    0.126 |
 | îngrozitor |    0.126 |
 | restrânge  |    0.126 |
-| reactiv    |    0.126 |
 | program    |    0.121 |
 | căutare    |    0.12  |
 | capcană    |    0.12  |
-| dramă      |    0.116 |
+| pedeapsă   |    0.116 |
 
 ## 2025-04-16 — facebook-post
 
@@ -4266,14 +4266,14 @@ _File: `2025-04-16_romanii-cenzurati-lui-marcel-ciolacu-i-se-permite-orice-ne-a`
 | ne-                         |    0.33  |
 | marcel                      |    0.253 |
 | libertate                   |    0.23  |
-| dreptate                    |    0.229 |
+| dreptate                    |    0.23  |
 | nicusordan                  |    0.215 |
 | permite                     |    0.19  |
 | răspunde                    |    0.181 |
 | instituție                  |    0.154 |
 | romaniaonesta               |    0.147 |
 | politic                     |    0.14  |
-| român                       |    0.122 |
+| român                       |    0.123 |
 | stat                        |    0.114 |
 
 ## 2025-04-16 — facebook-post
@@ -4312,13 +4312,13 @@ _File: `2025-04-17_am-lansat-oficial-planul-de-actiune-pentru-oras-verde-paov-u`
 | urban          |    0.195 |
 | verde          |    0.19  |
 | transport      |    0.164 |
-| infrastructură |    0.152 |
 | oraș           |    0.152 |
+| infrastructură |    0.152 |
 | calitate       |    0.141 |
 | strategic      |    0.136 |
-| alimentare     |    0.134 |
-| green          |    0.134 |
 | decarbonizare  |    0.134 |
+| potabil        |    0.134 |
+| green          |    0.134 |
 
 ## 2025-04-17 — facebook-post
 
@@ -4330,15 +4330,15 @@ _File: `2025-04-17_o-veste-buna-astazi-primaria-capitalei-a-atras-555-de-milioa`
 | primărie    |    0.225 |
 | subscriere  |    0.209 |
 | încerca     |    0.207 |
-| comunicate  |    0.201 |
 | obligațiune |    0.201 |
-| obținem     |    0.194 |
+| comunicate  |    0.201 |
 | psd-pnl     |    0.194 |
+| obținem     |    0.194 |
 | sabota      |    0.188 |
 | salvator    |    0.184 |
+| blocha      |    0.18  |
 | bancar      |    0.18  |
 | seriozitate |    0.18  |
-| blocha      |    0.18  |
 | veste       |    0.157 |
 | leu         |    0.145 |
 
@@ -4349,7 +4349,7 @@ _File: `2025-04-17_presedintele-imparat-nu-a-reprezentat-pe-nimeni-romania-are` 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | prezidential  |    0.738 |
-| schimbare     |    0.402 |
+| schimbare     |    0.403 |
 | reprezenta    |    0.394 |
 | romaniaonesta |    0.32  |
 | românia       |    0.186 |
@@ -4376,21 +4376,21 @@ _File: `2025-04-18_am-vizitat-o-fabrica-de-panificatie-unde-in-prag-de-paste-mi`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| muncă       |    0.433 |
+| muncă       |    0.432 |
 | cozonac     |    0.329 |
 | loc         |    0.196 |
 | fiscal      |    0.187 |
+| panificație |    0.165 |
 | forfotă     |    0.165 |
 | miros       |    0.165 |
-| paste       |    0.165 |
-| stabile     |    0.165 |
-| pâine       |    0.165 |
-| panificație |    0.165 |
 | răsplăti    |    0.165 |
-| tradițiile  |    0.158 |
+| stabile     |    0.165 |
+| paste       |    0.165 |
+| pâine       |    0.165 |
 | povară      |    0.158 |
-| pasiune     |    0.145 |
-| descuraja   |    0.139 |
+| tradițiile  |    0.158 |
+| pasiune     |    0.144 |
+| descuraja   |    0.138 |
 
 ## 2025-04-18 — facebook-post
 
@@ -4407,7 +4407,7 @@ _File: `2025-04-18_realitatea-e-simpla-ei-au-furat-romania-iar-acum-le-e-frica` 
 | nicusordan       |    0.263 |
 | simplu           |    0.24  |
 | schimbare        |    0.226 |
-| puternic         |    0.221 |
+| puternic         |    0.222 |
 | românia          |    0.209 |
 | împreună         |    0.193 |
 | romaniaonesta    |    0.18  |
@@ -4433,21 +4433,21 @@ _File: `2025-04-19_in-noaptea-invierii-lumina-e-speranta-speranta-ca-binele-e-m`
 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
-| speranță |    0.438 |
+| speranță |    0.439 |
 | sărbător |    0.417 |
-| lumină   |    0.379 |
+| lumină   |    0.378 |
 | înviat   |    0.261 |
 | învierii |    0.261 |
-| hristos  |    0.242 |
-| bină     |    0.235 |
+| hristos  |    0.241 |
+| bină     |    0.234 |
 | învinge  |    0.212 |
 | noapte   |    0.193 |
 | liniște  |    0.189 |
-| rău      |    0.148 |
+| rău      |    0.149 |
 | păstra   |    0.148 |
-| adevăr   |    0.142 |
+| adevăr   |    0.141 |
 | dincolo  |    0.14  |
-| puternic |    0.125 |
+| puternic |    0.126 |
 
 ## 2025-04-19 — facebook-post
 
@@ -4461,7 +4461,7 @@ _File: `2025-04-19_ne-pregatim-de-paste-de-sarbatori-momentele-alaturi-de-famil`
 | sărbător   |    0.332 |
 | nicusordan |    0.237 |
 | alături    |    0.195 |
-| moment     |    0.138 |
+| moment     |    0.139 |
 
 ## 2025-04-20 — facebook-post
 
@@ -4483,7 +4483,7 @@ _File: `2025-04-20_pastele-ne-aduce-impreuna-si-ne-reaminteste-cat-de-important`
 | aduce      |    0.181 |
 | împreună   |    0.175 |
 | loc        |    0.165 |
-| important  |    0.142 |
+| important  |    0.143 |
 
 ## 2025-04-20 — facebook-post
 
@@ -4492,10 +4492,10 @@ _File: `2025-04-20_sarbatori-cu-bine-si-paste-luminat-tuturor-nicusordan-nd11-r`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | paște      |    0.785 |
-| sărbători  |    0.367 |
+| sărbători  |    0.366 |
 | romania    |    0.333 |
-| nicusordan |    0.277 |
-| comunitate |    0.248 |
+| nicusordan |    0.276 |
+| comunitate |    0.249 |
 
 ## 2025-04-21 — facebook-post
 
@@ -4503,20 +4503,20 @@ _File: `2025-04-21_cu-profunda-tristete-am-aflat-vestea-trecerii-la-cele-vesnic`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| veșnic      |    0.224 |
-| credincioșe |    0.224 |
-| sanctității |    0.224 |
-| orgoliu     |    0.214 |
+| veșnic      |    0.223 |
+| sanctității |    0.223 |
+| credincioșe |    0.223 |
 | catolic     |    0.214 |
-| bunătate    |    0.207 |
-| modestie    |    0.207 |
+| orgoliu     |    0.214 |
 | papă        |    0.207 |
 | prețui      |    0.207 |
+| modestie    |    0.207 |
+| bunătate    |    0.207 |
 | bisericii   |    0.201 |
 | tristețe    |    0.196 |
 | sincere     |    0.192 |
-| spiritual   |    0.192 |
 | punt        |    0.192 |
+| spiritual   |    0.192 |
 | condoleanță |    0.188 |
 
 ## 2025-04-22 — facebook-post
@@ -4525,12 +4525,12 @@ _File: `2025-04-22_dragi-romani-din-diaspora-ca-voi-vreau-o-tara-in-care-sa-vre`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| dragi             |    0.521 |
-| diasporă          |    0.363 |
-| întoarce          |    0.343 |
+| dragi             |    0.52  |
+| diasporă          |    0.365 |
+| întoarce          |    0.342 |
 | vrea              |    0.327 |
 | vot               |    0.297 |
-| nicusorpresedinte |    0.29  |
+| nicusorpresedinte |    0.289 |
 | romaniaonesta     |    0.25  |
 | vedea             |    0.232 |
 | român             |    0.209 |
@@ -4543,13 +4543,13 @@ _File: `2025-04-22_prea-multa-nedreptate-e-in-romania-vreau-o-romanie-in-care-o`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | nedreptate        |    0.471 |
-| cinstit           |    0.45  |
-| românie           |    0.345 |
-| vreau             |    0.334 |
+| cinstit           |    0.449 |
+| românie           |    0.347 |
+| vreau             |    0.335 |
 | pierde            |    0.316 |
 | vot               |    0.264 |
-| nicusorpresedinte |    0.258 |
-| romaniaonesta     |    0.223 |
+| nicusorpresedinte |    0.257 |
+| romaniaonesta     |    0.222 |
 | vedea             |    0.207 |
 | românia           |    0.129 |
 
@@ -4559,21 +4559,21 @@ _File: `2025-04-22_preturile-mari-nu-apar-din-senin-exista-o-legatura-clara-int`
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| cumpărăt         |    0.381 |
+| cumpărăt         |    0.38  |
 | senin            |    0.352 |
 | politicienilor   |    0.32  |
 | factură          |    0.304 |
-| nicusorpresedint |    0.269 |
+| nicusorpresedint |    0.268 |
 | preț             |    0.224 |
 | nicusordan       |    0.218 |
-| conta            |    0.209 |
+| conta            |    0.21  |
 | trimite          |    0.208 |
 | apărea           |    0.203 |
-| plăti            |    0.201 |
+| plăti            |    0.202 |
 | legătură         |    0.2   |
 | reprezenta       |    0.183 |
 | clar             |    0.177 |
-| alegere          |    0.16  |
+| alegere          |    0.161 |
 
 ## 2025-04-22 — facebook-post
 
@@ -4582,9 +4582,9 @@ _File: `2025-04-22_votul-tau-conteaza-chiar-daca-pe-unii-ii-enerveaza-asta-nicu`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | enerva            |    0.762 |
-| conta             |    0.419 |
+| conta             |    0.42  |
 | vot               |    0.353 |
-| nicusorpresedinte |    0.345 |
+| nicusorpresedinte |    0.344 |
 
 ## 2025-04-23 — facebook-post
 
@@ -4603,13 +4603,13 @@ _File: `2025-04-23_dragi-moldoveni-pe-4-mai-alegeti-o-romanie-onesta-si-puterni`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| moldovan          |    0.495 |
+| moldovan          |    0.494 |
 | dragi             |    0.419 |
 | onest             |    0.337 |
-| românie           |    0.313 |
-| alege             |    0.262 |
+| românie           |    0.314 |
+| alege             |    0.261 |
 | moldova           |    0.252 |
-| puternic          |    0.248 |
+| puternic          |    0.249 |
 | nicusorpresedinte |    0.233 |
 | susține           |    0.223 |
 | romaniaonesta     |    0.201 |
@@ -4621,21 +4621,21 @@ _File: `2025-04-23_fara-profesori-bine-platiti-fara-investitii-in-institutiile` 
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| voinț      |    0.346 |
+| voinț      |    0.345 |
 | abandon    |    0.324 |
 | școlar     |    0.293 |
 | plătit     |    0.28  |
 | hârtie     |    0.273 |
 | învățământ |    0.262 |
 | romania    |    0.248 |
-| promisiune |    0.236 |
+| promisiune |    0.235 |
 | profesor   |    0.232 |
 | nicusordan |    0.206 |
 | educație   |    0.204 |
-| real       |    0.192 |
-| corect     |    0.183 |
-| soluție    |    0.178 |
-| investiție |    0.167 |
+| real       |    0.193 |
+| corect     |    0.184 |
+| soluție    |    0.179 |
+| ban        |    0.166 |
 
 ## 2025-04-23 — facebook-post
 
@@ -4646,17 +4646,17 @@ _File: `2025-04-23_sanatatea-e-un-drept-fundamental-in-romania-onesta-pe-care-o`
 | onestă                   |    0.307 |
 | sănătate                 |    0.263 |
 | acces                    |    0.261 |
-| povar                    |    0.225 |
 | httpsnicusordanroviziune |    0.225 |
+| povar                    |    0.225 |
 | viziunea                 |    0.208 |
 | decent                   |    0.189 |
+| pacient                  |    0.186 |
 | umăr                     |    0.186 |
 | umili                    |    0.186 |
-| pacient                  |    0.186 |
 | întru                    |    0.181 |
 | tratament                |    0.177 |
-| locui                    |    0.169 |
-| sat                      |    0.167 |
+| sat                      |    0.168 |
+| locui                    |    0.168 |
 | medical                  |    0.152 |
 
 ## 2025-04-24 — facebook-post
@@ -4665,21 +4665,21 @@ _File: `2025-04-24_am-semnat-astazi-declaratia-universitatii-din-bucuresti-un-a`
 
 | lemmă                   |   TF-IDF |
 |:------------------------|---------:|
-| libertate               |    0.314 |
-| exprimare               |    0.308 |
+| libertate               |    0.313 |
+| exprimare               |    0.307 |
 | angajament              |    0.21  |
 | știință                 |    0.19  |
-| universitate            |    0.184 |
 | apartenență             |    0.184 |
+| universitate            |    0.184 |
+| societate               |    0.16  |
 | stateleunitealeamericii |    0.159 |
-| societate               |    0.159 |
 | educație                |    0.145 |
 | real                    |    0.137 |
 | precum                  |    0.134 |
+| parteneriat             |    0.13  |
 | strategic               |    0.13  |
-| parteneriat             |    0.129 |
+| european                |    0.128 |
 | opac                    |    0.128 |
-| aliniază                |    0.128 |
 
 ## 2025-04-24 — facebook-post
 
@@ -4709,17 +4709,17 @@ _File: `2025-04-24_educatia-este-temelia-unei-romanii-puternice-fiecare-copil-d`
 | centra                   |    0.237 |
 | httpsnicusordanroviziune |    0.237 |
 | motivat                  |    0.227 |
-| viziunea                 |    0.22  |
+| viziunea                 |    0.219 |
 | temelie                  |    0.196 |
-| viitor                   |    0.183 |
+| viitor                   |    0.182 |
 | elev                     |    0.18  |
-| sat                      |    0.176 |
+| sat                      |    0.177 |
 | pregătire                |    0.163 |
 | onestă                   |    0.162 |
 | merita                   |    0.159 |
 | profesor                 |    0.153 |
 | invi                     |    0.149 |
-| profund                  |    0.146 |
+| profund                  |    0.147 |
 
 ## 2025-04-24 — facebook-post
 
@@ -4749,16 +4749,16 @@ _File: `2025-04-24_justitia-are-nevoie-de-o-reforma-reala-coruptia-sistemica-ti`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| îndepărtat        |    0.37  |
-| sistemic          |    0.37  |
-| trai              |    0.313 |
-| justiția          |    0.275 |
+| îndepărtat        |    0.369 |
+| sistemic          |    0.369 |
+| trai              |    0.318 |
+| justiția          |    0.274 |
 | integritate       |    0.265 |
-| influență         |    0.239 |
+| influență         |    0.238 |
 | trebui            |    0.235 |
-| regulă            |    0.231 |
-| corupție          |    0.211 |
-| real              |    0.205 |
+| regulă            |    0.23  |
+| corupție          |    0.212 |
+| real              |    0.206 |
 | reformă           |    0.194 |
 | dezvoltare        |    0.189 |
 | ține              |    0.18  |
@@ -4774,15 +4774,15 @@ _File: `2025-04-24_o-societate-dreapta-are-nevoie-de-o-justitie-libera-curajoas`
 | nedreptăți |    0.513 |
 | accesibil  |    0.424 |
 | liber      |    0.314 |
-| apăra      |    0.284 |
-| justiție   |    0.261 |
+| apăra      |    0.285 |
+| justiție   |    0.262 |
 | lege       |    0.238 |
-| încredere  |    0.237 |
+| încredere  |    0.236 |
 | același    |    0.232 |
-| societate  |    0.212 |
+| societate  |    0.213 |
 | român      |    0.167 |
-| trebui     |    0.156 |
-| stat       |    0.155 |
+| trebui     |    0.157 |
+| stat       |    0.156 |
 | putea      |    0.145 |
 
 ## 2025-04-25 — facebook-post
@@ -4802,8 +4802,8 @@ _File: `2025-04-25_bucurestiul-a-facut-un-pas-important-spre-un-urbanism-respon`
 | fundamentare |    0.176 |
 | plan         |    0.174 |
 | finaliza     |    0.134 |
-| proces       |    0.126 |
 | reglementare |    0.126 |
+| proces       |    0.126 |
 | general      |    0.126 |
 | accesa       |    0.124 |
 
@@ -4813,10 +4813,10 @@ _File: `2025-04-25_haideti-alaturi-de-mine-sa-facem-dreptate-pentru-romania-nd1`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| dreptate          |    0.568 |
-| haideți           |    0.512 |
-| alături           |    0.439 |
-| nicusorpresedinte |    0.422 |
+| dreptate          |    0.57  |
+| haideți           |    0.511 |
+| alături           |    0.438 |
+| nicusorpresedinte |    0.421 |
 | românia           |    0.212 |
 
 ## 2025-04-25 — facebook-post
@@ -4835,7 +4835,7 @@ _File: `2025-04-25_la-bebe-bucuresti-familiile-gasesc-haine-si-jucarii-donate-c`
 | prevenire   |    0.222 |
 | dificultate |    0.205 |
 | bucureștean |    0.203 |
-| promova     |    0.19  |
+| promova     |    0.191 |
 | drag        |    0.188 |
 | model       |    0.184 |
 | impact      |    0.175 |
@@ -4847,14 +4847,14 @@ _File: `2025-04-25_reconstruim-demnitatea-colectiva-printr-o-economie-puternica`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| slujbă            |    0.45  |
+| slujbă            |    0.449 |
 | printru           |    0.441 |
-| demnitate         |    0.368 |
+| demnitate         |    0.367 |
 | colectiv          |    0.354 |
-| puternic          |    0.257 |
-| interes           |    0.252 |
+| puternic          |    0.258 |
+| interes           |    0.253 |
 | economie          |    0.248 |
-| nicusorpresedinte |    0.242 |
+| nicusorpresedinte |    0.241 |
 | național          |    0.223 |
 | romaniaonesta     |    0.208 |
 
@@ -4869,7 +4869,7 @@ _File: `2025-04-25_sunt-cel-mai-atacat-candidat-le-e-frica-de-schimbare-adica-d`
 | nicusorpresedint |    0.387 |
 | nicusordan       |    0.314 |
 | candidat         |    0.278 |
-| schimbare        |    0.269 |
+| schimbare        |    0.27  |
 | vot              |    0.254 |
 | adică            |    0.239 |
 | romaniaonesta    |    0.214 |
@@ -4889,7 +4889,7 @@ _File: `2025-04-26_din-1990-si-pana-azi-ati-fost-si-ramaneti-un-exemplu-de-impl`
 | exemplu       |    0.239 |
 | mulțumi       |    0.217 |
 | dumneavoastră |    0.211 |
-| rămâne        |    0.2   |
+| rămâne        |    0.199 |
 | domn          |    0.196 |
 
 ## 2025-04-26 — facebook-post
@@ -4904,13 +4904,13 @@ _File: `2025-04-26_m-au-intrebat-multi-tineri-ce-pot-face-pentru-campania-roman`
 | onestă            |    0.296 |
 | suna              |    0.292 |
 | tânăr             |    0.278 |
-| ieși              |    0.229 |
+| ieși              |    0.23  |
 | simplu            |    0.227 |
 | întreba           |    0.216 |
 | campanie          |    0.203 |
 | vot               |    0.201 |
 | nicusorpresedinte |    0.196 |
-| alegere           |    0.183 |
+| alegere           |    0.184 |
 | ultim             |    0.179 |
 | romaniaonesta     |    0.169 |
 
@@ -4927,10 +4927,10 @@ _File: `2025-04-26_o-veste-foarte-buna-toti-cateii-27-care-au-participat-astazi`
 | mihăilești |    0.161 |
 | orar       |    0.161 |
 | viață      |    0.158 |
-| felicitări |    0.154 |
-| adoptat    |    0.154 |
 | cățel      |    0.154 |
+| felicitări |    0.154 |
 | cămin      |    0.154 |
+| adoptat    |    0.154 |
 | salvat     |    0.149 |
 | adăpost    |    0.138 |
 | sâmbătă    |    0.131 |
@@ -4943,12 +4943,12 @@ _File: `2025-04-26_romania-are-nevoie-de-fapte-concrete-si-de-oameni-bine-inten`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | gol               |    0.479 |
-| ascuns            |    0.45  |
+| ascuns            |    0.449 |
 | intenționat       |    0.429 |
-| politician        |    0.301 |
+| politician        |    0.302 |
 | concret           |    0.268 |
 | vorbă             |    0.244 |
-| interes           |    0.236 |
+| interes           |    0.237 |
 | nicusorpresedinte |    0.226 |
 | fapt              |    0.206 |
 | românia           |    0.113 |
@@ -4960,13 +4960,13 @@ _File: `2025-04-26_romania-onesta-e-singura-varianta-de-schimbare-si-dreptate-p`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | onestă            |    0.438 |
-| dreptate          |    0.391 |
-| variantă          |    0.371 |
+| dreptate          |    0.392 |
+| variantă          |    0.37  |
 | singur            |    0.329 |
 | schimbare         |    0.315 |
 | vot               |    0.297 |
 | nicusorpresedinte |    0.29  |
-| romaniaonesta     |    0.251 |
+| romaniaonesta     |    0.25  |
 | vedea             |    0.233 |
 | românia           |    0.146 |
 
@@ -4980,10 +4980,10 @@ _File: `2025-04-27_in-prea-multe-locuri-din-romania-oamenii-nu-au-acces-la-medi`
 | sănătate          |    0.352 |
 | acces             |    0.349 |
 | primar            |    0.321 |
-| capitală          |    0.304 |
+| capitală          |    0.303 |
 | plan              |    0.286 |
 | nicusorpresedinte |    0.272 |
-| pune              |    0.241 |
+| pune              |    0.242 |
 | loc               |    0.239 |
 | romaniaonesta     |    0.235 |
 | președinte        |    0.19  |
@@ -5001,7 +5001,7 @@ _File: `2025-04-27_multumesc-tinerilor-bucuresteni-pentru-sustinere-pe-4-mai-ne`
 | vot               |    0.315 |
 | nicusorpresedinte |    0.307 |
 | romaniaonesta     |    0.265 |
-| vedea             |    0.246 |
+| vedea             |    0.247 |
 
 ## 2025-04-27 — facebook-post
 
@@ -5013,17 +5013,17 @@ _File: `2025-04-27_sa-ne-amintim-cine-e-crin-antonescu-candidatul-lui-marcel-ci`
 | mafie     |    0.319 |
 | imobiliar |    0.296 |
 | klaus     |    0.264 |
-| crin      |    0.262 |
-| antonescu |    0.255 |
+| crin      |    0.261 |
+| antonescu |    0.254 |
 | aminti    |    0.246 |
-| marcel    |    0.245 |
+| marcel    |    0.244 |
 | iohannis  |    0.243 |
 | prieten   |    0.232 |
 | ciolacu   |    0.228 |
 | candidat  |    0.184 |
 | psd       |    0.181 |
 | politică  |    0.174 |
-| parlament |    0.173 |
+| parlament |    0.174 |
 
 ## 2025-04-27 — facebook-post
 
@@ -5032,15 +5032,15 @@ _File: `2025-04-27_se-intreaba-mamele-de-la-sate-si-din-orasele-mici-ce-viitor` 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | fură              |    0.38  |
-| viitor            |    0.326 |
-| sat               |    0.313 |
+| viitor            |    0.325 |
+| sat               |    0.316 |
 | tinerii           |    0.313 |
 | mamă              |    0.31  |
-| românie           |    0.256 |
-| oraș              |    0.239 |
+| românie           |    0.257 |
+| oraș              |    0.238 |
 | trăi              |    0.233 |
-| copil             |    0.229 |
-| mic               |    0.218 |
+| copil             |    0.228 |
+| mic               |    0.219 |
 | întreba           |    0.21  |
 | sine              |    0.208 |
 | nicusorpresedinte |    0.191 |
@@ -5053,18 +5053,18 @@ _File: `2025-04-28_dezbaterea-s-a-incheiat-voi-cum-ati-perceput-aceasta-dezbate`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| dezbatere     |    0.225 |
-| putință       |    0.22  |
-| metehn        |    0.22  |
-| valoare       |    0.215 |
+| dezbatere     |    0.226 |
+| metehn        |    0.219 |
+| putință       |    0.219 |
+| valoare       |    0.214 |
 | sistem        |    0.198 |
 | româniaonestă |    0.188 |
 | limpede       |    0.185 |
-| seriozitat    |    0.181 |
 | temelie       |    0.181 |
+| seriozitat    |    0.181 |
 | clădi         |    0.181 |
-| simț          |    0.173 |
 | percepe       |    0.173 |
+| simț          |    0.173 |
 | aștept        |    0.163 |
 | mergem        |    0.161 |
 | reforma       |    0.159 |
@@ -5076,17 +5076,17 @@ _File: `2025-04-28_mai-e-putin-incepe-in-curand-prima-confruntare-intre-candida`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | echipă      |    0.525 |
-| confruntare |    0.37  |
-| susținător  |    0.311 |
+| confruntare |    0.369 |
+| susținător  |    0.313 |
 | gata        |    0.292 |
-| succes      |    0.263 |
+| succes      |    0.262 |
 | acțiune     |    0.242 |
-| candidat    |    0.238 |
+| candidat    |    0.237 |
 | palat       |    0.231 |
 | cotroceni   |    0.222 |
 | ajunge      |    0.2   |
 | nicușor     |    0.2   |
-| începe      |    0.196 |
+| începe      |    0.197 |
 
 ## 2025-04-28 — facebook-post
 
@@ -5094,9 +5094,9 @@ _File: `2025-04-28_multumesc-mirabela-cand-voi-fi-presedinte-voi-face-tot-ce-mi`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| mirabela   |    0.623 |
+| mirabela   |    0.622 |
 | sta        |    0.375 |
-| vrea       |    0.37  |
+| vrea       |    0.371 |
 | putere     |    0.366 |
 | bun        |    0.264 |
 | președinte |    0.228 |
@@ -5109,10 +5109,10 @@ _File: `2025-04-28_un-presedinte-care-asculta-oamenii-si-gaseste-solutii-pentru`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| asculta           |    0.5   |
-| soluție           |    0.445 |
+| asculta           |    0.499 |
+| soluție           |    0.446 |
 | găsi              |    0.429 |
-| nicusorpresedinte |    0.407 |
+| nicusorpresedinte |    0.406 |
 | romaniaonesta     |    0.351 |
 | președinte        |    0.283 |
 
@@ -5125,18 +5125,18 @@ _File: `2025-04-28_voi-participa-la-toate-cele-trei-dezbateri-cu-candidatii-la` 
 | dezbatere      |    0.328 |
 | civiliza       |    0.306 |
 | tvr            |    0.259 |
-| confruntare    |    0.252 |
+| confruntare    |    0.251 |
 | contracandidat |    0.239 |
 | antena         |    0.213 |
 | digi           |    0.202 |
 | cetățen        |    0.194 |
 | viziune        |    0.187 |
-| diferență      |    0.184 |
+| diferență      |    0.185 |
 | urmări         |    0.182 |
 | organiza       |    0.18  |
 | temă           |    0.178 |
 | idee           |    0.175 |
-| real           |    0.17  |
+| real           |    0.171 |
 
 ## 2025-04-29 — facebook-post
 
@@ -5150,7 +5150,7 @@ _File: `2025-04-29_adevarul-va-invinge-suntem-prea-multi-sa-nu-putem-reusi-nicu`
 | nicusorpresedinte |    0.346 |
 | romaniaonesta     |    0.298 |
 | putea             |    0.216 |
-| vrea              |    0.195 |
+| vrea              |    0.196 |
 
 ## 2025-04-29 — facebook-post
 
@@ -5158,12 +5158,12 @@ _File: `2025-04-29_de-ziua-veteranilor-de-razboi-cinstim-curajul-celor-care-au` 
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| apăra      |    0.371 |
+| apăra      |    0.372 |
 | veteran    |    0.301 |
 | cinsti     |    0.294 |
 | investește |    0.282 |
 | armat      |    0.257 |
-| onora      |    0.246 |
+| onora      |    0.245 |
 | datorie    |    0.211 |
 | preț       |    0.197 |
 | curaj      |    0.193 |
@@ -5187,14 +5187,14 @@ _File: `2025-04-29_domnul-crin-antonescu-cere-documentele-pe-care-de-altfel-i-l`
 | transfer    |    0.229 |
 | antonescu   |    0.214 |
 | instanță    |    0.201 |
-| document    |    0.18  |
+| document    |    0.179 |
 | dezvoltator |    0.153 |
 | arăta       |    0.15  |
 | caz         |    0.143 |
 | herăstrău   |    0.141 |
 | grosolan    |    0.137 |
 | subordine   |    0.134 |
-| imobiliar   |    0.124 |
+| casație     |    0.124 |
 
 ## 2025-04-29 — facebook-post
 
@@ -5204,11 +5204,11 @@ _File: `2025-04-29_multumesc-pentru-sprijinul-vostru-am-dovedit-in-bucuresti-re`
 |:--------------------|---------:|
 | reușim              |    0.527 |
 | nicusordanpresedint |    0.527 |
-| dovedi              |    0.359 |
+| dovedi              |    0.36  |
 | nicusordan          |    0.335 |
 | sprijin             |    0.278 |
 | bucurești           |    0.236 |
-| romaniaonesta       |    0.229 |
+| romaniaonesta       |    0.228 |
 | românia             |    0.133 |
 
 ## 2025-04-29 — facebook-post
@@ -5220,7 +5220,7 @@ _File: `2025-04-29_sistemul-are-nume-de-20-de-ani-ma-lupt-cu-el-romaniaonesta-n`
 | lupt             |    0.669 |
 | nicusorpresedint |    0.492 |
 | nume             |    0.37  |
-| sistem           |    0.315 |
+| sistem           |    0.314 |
 | romaniaonesta    |    0.272 |
 
 ## 2025-04-29 — facebook-post
@@ -5229,9 +5229,9 @@ _File: `2025-04-29_succes-nicusor-echipa-nd` · 3 clean lemmas_
 
 | lemmă   |   TF-IDF |
 |:--------|---------:|
-| succes  |    0.623 |
-| echipă  |    0.623 |
-| nicușor |    0.474 |
+| succes  |    0.622 |
+| echipă  |    0.622 |
+| nicușor |    0.475 |
 
 ## 2025-04-30 — facebook-post
 
@@ -5239,12 +5239,12 @@ _File: `2025-04-30_actele-confirma-ce-spun-eu-va-multumesc-ca-va-uitati-la-dezb`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| confirma  |    0.516 |
+| confirma  |    0.515 |
 | act       |    0.472 |
-| dezbatere |    0.418 |
+| dezbatere |    0.419 |
 | uita      |    0.371 |
 | mulțumi   |    0.358 |
-| spune     |    0.263 |
+| spune     |    0.264 |
 
 ## 2025-04-30 — facebook-post
 
@@ -5263,7 +5263,7 @@ _File: `2025-04-30_diaspora-este-parte-din-viitorul-romaniei-romaniaonesta` · 5
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | diaspora      |    0.773 |
-| romaniaonesta |    0.359 |
+| romaniaonesta |    0.358 |
 | viitor        |    0.354 |
 | parte         |    0.324 |
 | românia       |    0.209 |
@@ -5275,17 +5275,17 @@ _File: `2025-05-01_disperarea-atinge-cote-maxime-marcel-ciolacu-a-ajuns-sa-trim`
 | lemmă     |   TF-IDF |
 |:----------|---------:|
 | disperare |    0.328 |
-| agăța     |    0.314 |
 | cerându   |    0.314 |
-| cotă      |    0.259 |
+| agăța     |    0.314 |
+| cotă      |    0.258 |
 | crin      |    0.236 |
 | antonescu |    0.229 |
 | maxim     |    0.229 |
 | atinge    |    0.224 |
-| marcel    |    0.221 |
+| marcel    |    0.22  |
 | ciolacu   |    0.205 |
-| personal  |    0.183 |
 | șansă     |    0.183 |
+| personal  |    0.183 |
 | trimite   |    0.179 |
 | număr     |    0.177 |
 | singur    |    0.168 |
@@ -5297,17 +5297,17 @@ _File: `2025-05-01_este-incalificabil-sa-folosesti-romanii-bolnavi-de-cancer-ca`
 | lemmă                       |   TF-IDF |
 |:----------------------------|---------:|
 | spital                      |    0.3   |
-| abuza                       |    0.265 |
+| abuza                       |    0.264 |
 | construire                  |    0.251 |
 | bolnav                      |    0.248 |
 | locație                     |    0.244 |
 | privat                      |    0.174 |
 | construi                    |    0.168 |
 | singur                      |    0.161 |
+| ritishroadcastingorporation |    0.157 |
 | supraaglomerat              |    0.157 |
 | investigațiile              |    0.157 |
-| ritishroadcastingorporation |    0.157 |
-| oară                        |    0.15  |
+| oară                        |    0.151 |
 | cancer                      |    0.146 |
 | medicament                  |    0.146 |
 | sistem                      |    0.142 |
@@ -5318,16 +5318,16 @@ _File: `2025-05-01_in-cateva-minute-live-la-lucian-mindruta-material-publicitar`
 
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
-| lucian              |    0.306 |
+| lucian              |    0.307 |
 | liv                 |    0.296 |
 | str                 |    0.288 |
 | email               |    0.264 |
 | cmf                 |    0.237 |
-| abcde               |    0.237 |
-| publicitar          |    0.237 |
-| cpp                 |    0.237 |
 | contactnicusordanro |    0.237 |
 | nicușor-daniel      |    0.237 |
+| publicitar          |    0.237 |
+| cpp                 |    0.237 |
+| abcde               |    0.237 |
 | regina              |    0.234 |
 | elisabeta           |    0.232 |
 | minut               |    0.204 |
@@ -5342,11 +5342,11 @@ _File: `2025-05-01_ne-vedem-la-vot-daca-plecati-in-vacanta-nu-uitati-buletinele`
 |:--------------|---------:|
 | vacanță       |    0.572 |
 | acasă         |    0.422 |
-| pleca         |    0.38  |
+| pleca         |    0.379 |
 | vot           |    0.326 |
 | uita          |    0.321 |
 | romaniaonesta |    0.275 |
-| vedea         |    0.255 |
+| vedea         |    0.256 |
 
 ## 2025-05-01 — facebook-post
 
@@ -5355,16 +5355,16 @@ _File: `2025-05-01_pozele-pe-care-le-a-postat-elena-lasconi-sunt-un-fals-grosol`
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
 | poze                |    0.26  |
-| str                 |    0.244 |
-| grosolan            |    0.244 |
-| email               |    0.224 |
+| str                 |    0.245 |
+| grosolan            |    0.245 |
 | lasconi             |    0.224 |
+| email               |    0.224 |
 | posta               |    0.211 |
 | nicușor-daniel      |    0.201 |
+| cpp                 |    0.201 |
+| cmf                 |    0.201 |
 | abcde               |    0.201 |
 | publicitar          |    0.201 |
-| cmf                 |    0.201 |
-| cpp                 |    0.201 |
 | contactnicusordanro |    0.201 |
 | regina              |    0.199 |
 | elisabeta           |    0.197 |
@@ -5402,8 +5402,8 @@ _File: `2025-05-02_ai-plecat-din-localitate-in-minivacanta-de-1-mai-poti-vota-o`
 |:------------------|---------:|
 | localitate        |    0.604 |
 | pleca             |    0.413 |
-| vota              |    0.387 |
-| nicusorpresedinte |    0.347 |
+| vota              |    0.388 |
+| nicusorpresedinte |    0.346 |
 | romaniaonesta     |    0.299 |
 | țară              |    0.241 |
 | putea             |    0.216 |
@@ -5414,7 +5414,7 @@ _File: `2025-05-02_astazi-celebram-energia-curajul-si-visurile-unei-generatii-c`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| voce      |    0.409 |
+| voce      |    0.408 |
 | celebrăm  |    0.301 |
 | auzit     |    0.301 |
 | vis       |    0.273 |
@@ -5423,12 +5423,12 @@ _File: `2025-05-02_astazi-celebram-energia-curajul-si-visurile-unei-generatii-c`
 | generație |    0.229 |
 | curaj     |    0.202 |
 | ieși      |    0.185 |
-| energie   |    0.182 |
+| energie   |    0.183 |
 | schimba   |    0.181 |
 | alege     |    0.178 |
-| arăta     |    0.173 |
+| arăta     |    0.172 |
 | schimbare |    0.172 |
-| vot       |    0.163 |
+| vot       |    0.162 |
 
 ## 2025-05-02 — facebook-post
 
@@ -5439,10 +5439,10 @@ _File: `2025-05-02_daca-esti-plecat-din-romania-pe-4-mai-poti-vota-in-tara-in-c`
 | httpsvotdiasporaro |    0.465 |
 | votare             |    0.377 |
 | străinătate        |    0.339 |
-| secție             |    0.337 |
+| secție             |    0.336 |
 | listă              |    0.311 |
 | pleca              |    0.261 |
-| vota               |    0.245 |
+| vota               |    0.246 |
 | afla               |    0.223 |
 | nicusorpresedinte  |    0.219 |
 | romaniaonesta      |    0.189 |
@@ -5492,12 +5492,12 @@ _File: `2025-05-02_iesim-la-vot-pentru-ca-romania-are-nevoie-de-oameni-care-sa` 
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| româniaonestă     |    0.519 |
-| ieșim             |    0.453 |
-| nicusordan        |    0.346 |
-| interes           |    0.285 |
-| vot               |    0.28  |
-| nicusorpresedinte |    0.273 |
+| româniaonestă     |    0.518 |
+| ieșim             |    0.457 |
+| nicusordan        |    0.345 |
+| interes           |    0.286 |
+| vot               |    0.279 |
+| nicusorpresedinte |    0.272 |
 | pune              |    0.242 |
 | loc               |    0.239 |
 | țară              |    0.19  |
@@ -5509,19 +5509,19 @@ _File: `2025-05-02_multumesc-din-suflet-tuturor-voluntarilor-si-sustinatorilor` 
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| voluntarilor  |    0.449 |
-| decidem       |    0.394 |
+| voluntarilor  |    0.448 |
+| decidem       |    0.393 |
 | suflet        |    0.34  |
-| duminică      |    0.326 |
-| susținător    |    0.297 |
-| instrument    |    0.281 |
+| duminică      |    0.325 |
+| susținător    |    0.299 |
+| instrument    |    0.28  |
 | alături       |    0.211 |
-| campanie      |    0.209 |
+| campanie      |    0.21  |
 | decât         |    0.192 |
 | împreună      |    0.188 |
 | dori          |    0.186 |
 | romaniaonesta |    0.175 |
-| viitor        |    0.173 |
+| viitor        |    0.172 |
 
 ## 2025-05-02 — facebook-post
 
@@ -5534,12 +5534,12 @@ _File: `2025-05-02_multumim-bec-pentru-consecventa-fotografiile-false-vor-circu`
 | str                 |    0.257 |
 | email               |    0.236 |
 | circula             |    0.222 |
-| cmf                 |    0.212 |
-| cpp                 |    0.212 |
-| abcde               |    0.212 |
-| publicitar          |    0.212 |
-| nicușor-daniel      |    0.212 |
 | contactnicusordanro |    0.212 |
+| publicitar          |    0.212 |
+| abcde               |    0.212 |
+| cpp                 |    0.212 |
+| nicușor-daniel      |    0.212 |
+| cmf                 |    0.212 |
 | news                |    0.21  |
 | regina              |    0.21  |
 | elisabeta           |    0.207 |
@@ -5551,13 +5551,13 @@ _File: `2025-05-02_romani-din-diaspora-mergeti-la-vot-fiecare-vot-conteaza-pent`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| vot               |    0.516 |
-| româniaonestă     |    0.478 |
-| românie           |    0.337 |
+| vot               |    0.515 |
+| româniaonestă     |    0.477 |
+| românie           |    0.338 |
 | diasporă          |    0.316 |
-| conta             |    0.305 |
-| nicusorpresedinte |    0.252 |
-| merge             |    0.25  |
+| conta             |    0.306 |
+| merge             |    0.251 |
+| nicusorpresedinte |    0.251 |
 | bun               |    0.202 |
 | român             |    0.181 |
 
@@ -5569,8 +5569,8 @@ _File: `2025-05-02_votati-cu-inima-impacata-nicusor-presedinte-romaniaonesta` ·
 |:--------------|---------:|
 | votați        |    0.685 |
 | inimă         |    0.542 |
-| nicușor       |    0.315 |
-| romaniaonesta |    0.289 |
+| nicușor       |    0.316 |
+| romaniaonesta |    0.288 |
 | președinte    |    0.233 |
 
 ## 2025-05-03 — facebook-post
@@ -5580,10 +5580,10 @@ _File: `2025-05-03_ca-inainte-de-vot-tinerii-nostri-vor-avea-un-rol-decisiv-la` 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | vot        |    0.411 |
-| cafea      |    0.399 |
+| cafea      |    0.4   |
 | fyp        |    0.361 |
-| tinerii    |    0.329 |
 | weekend    |    0.329 |
+| tinerii    |    0.329 |
 | decisiv    |    0.325 |
 | romania    |    0.305 |
 | nicusordan |    0.254 |
@@ -5596,10 +5596,10 @@ _File: `2025-05-03_cu-cravata-sau-fara-maine-iesim-la-vot-4mai-alegeriprezident`
 
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
-| cravată             |    0.63  |
-| alegeriprezidențial |    0.518 |
-| ieșim               |    0.492 |
-| vot                 |    0.304 |
+| cravată             |    0.628 |
+| alegeriprezidențial |    0.516 |
+| ieșim               |    0.497 |
+| vot                 |    0.303 |
 
 ## 2025-05-03 — facebook-post
 
@@ -5612,7 +5612,7 @@ _File: `2025-05-03_daca-sunteti-plecati-de-acasa-puteti-vota-in-orice-sectie-vo`
 | buletin            |    0.409 |
 | secție             |    0.337 |
 | acasă              |    0.291 |
-| diasporă           |    0.276 |
+| diasporă           |    0.277 |
 | pleca              |    0.262 |
 | vota               |    0.246 |
 | putea              |    0.137 |
@@ -5629,12 +5629,12 @@ _File: `2025-05-03_daca-sunteti-plecati-in-vacanta-va-rog-sa-votati-dimineata-d`
 | alegeriprezidențial |    0.344 |
 | votare              |    0.339 |
 | dimineața           |    0.331 |
-| secție              |    0.303 |
+| secție              |    0.302 |
 | drum                |    0.25  |
 | pleca               |    0.235 |
 | ruga                |    0.224 |
-| vota                |    0.22  |
-| atât                |    0.191 |
+| vota                |    0.221 |
+| atât                |    0.192 |
 | vrea                |    0.111 |
 
 ## 2025-05-03 — facebook-post
@@ -5643,17 +5643,17 @@ _File: `2025-05-03_daca-votati-in-diaspora-tineti-cont-ca-sectiile-se-inchid-la`
 
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
-| diasporă            |    0.501 |
-| oră                 |    0.416 |
+| diasporă            |    0.502 |
+| oră                 |    0.415 |
 | alegeriprezidențial |    0.348 |
 | secție              |    0.306 |
-| închide             |    0.28  |
-| cont                |    0.261 |
-| conta               |    0.242 |
+| închide             |    0.279 |
+| cont                |    0.26  |
+| conta               |    0.243 |
 | vota                |    0.223 |
 | ține                |    0.207 |
-| vot                 |    0.205 |
-| sine                |    0.109 |
+| vot                 |    0.204 |
+| sine                |    0.108 |
 | românia             |    0.1   |
 
 ## 2025-05-03 — facebook-post
@@ -5664,10 +5664,10 @@ _File: `2025-05-03_in-doar-5-minute-poti-decide-cum-arata-urmatorii-5-ani-pentr`
 |:--------------------|---------:|
 | alegeriprezidențial |    0.506 |
 | minut               |    0.409 |
-| conta               |    0.352 |
+| conta               |    0.353 |
 | decide              |    0.348 |
-| arăta               |    0.316 |
-| următor             |    0.3   |
+| arăta               |    0.315 |
+| următor             |    0.299 |
 | vot                 |    0.297 |
 | putea               |    0.181 |
 | românia             |    0.146 |
@@ -5687,11 +5687,11 @@ _File: `2025-05-03_romania-are-nevoie-de-o-presa-onesta-de-ziua-internationala` 
 | jurnalișt   |    0.251 |
 | servi       |    0.235 |
 | meserie     |    0.226 |
-| onora       |    0.219 |
-| asigur      |    0.207 |
+| onora       |    0.218 |
+| asigur      |    0.208 |
 | onest       |    0.195 |
 | funcționare |    0.178 |
-| corupție    |    0.163 |
+| corupție    |    0.164 |
 | contribui   |    0.163 |
 
 ## 2025-05-03 — facebook-post
@@ -5702,7 +5702,7 @@ _File: `2025-05-03_viitorul-vostru-alegerea-voastra-nu-lasati-pe-altii-sa-decid`
 |:--------------------|---------:|
 | alegeriprezidential |    0.422 |
 | parc                |    0.416 |
-| tânăr               |    0.348 |
+| tânăr               |    0.347 |
 | hai                 |    0.317 |
 | nicusordan          |    0.31  |
 | decide              |    0.294 |
@@ -5721,7 +5721,7 @@ _File: `2025-05-04_a-mai-ramas-o-ora-dreptul-vostru-alegerea-voastra-hailavot-a`
 | alegeriprezidential |    0.501 |
 | romania             |    0.443 |
 | oră                 |    0.303 |
-| alegere             |    0.272 |
+| alegere             |    0.273 |
 | rămâne              |    0.26  |
 
 ## 2025-05-04 — facebook-post
@@ -5736,7 +5736,7 @@ _File: `2025-05-04_am-intrat-in-turul-2-multumesc-foto-credit-mihai-balanescu-p`
 | mihai         |    0.392 |
 | tur           |    0.323 |
 | intra         |    0.257 |
-| romaniaonesta |    0.211 |
+| romaniaonesta |    0.21  |
 
 ## 2025-05-04 — facebook-post
 
@@ -5778,7 +5778,7 @@ _File: `2025-05-04_energie-pentru-echipa-hailavot` · 3 clean lemmas_
 |:---------|---------:|
 | hailavot |    0.754 |
 | echipă   |    0.481 |
-| energie  |    0.447 |
+| energie  |    0.448 |
 
 ## 2025-05-04 — facebook-post
 
@@ -5790,7 +5790,7 @@ _File: `2025-05-04_eu-si-mirabela-am-votat-voi-alegeriprezidentiale-romania-vot`
 | fyp                 |    0.473 |
 | alegeriprezidential |    0.453 |
 | romania             |    0.401 |
-| vota                |    0.294 |
+| vota                |    0.295 |
 | vot                 |    0.27  |
 
 ## 2025-05-04 — facebook-post
@@ -5799,15 +5799,15 @@ _File: `2025-05-04_hai-sa-le-aratam-ca-suntem-mai-puternici-decat-instrumentele`
 
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
-| hai                 |    0.523 |
+| hai                 |    0.522 |
 | vot                 |    0.414 |
 | fyp                 |    0.363 |
 | alegeriprezidential |    0.347 |
 | romania             |    0.307 |
 | instrument          |    0.279 |
 | arăta               |    0.22  |
-| puternic            |    0.215 |
-| decât               |    0.191 |
+| puternic            |    0.216 |
+| decât               |    0.192 |
 
 ## 2025-05-04 — facebook-post
 
@@ -5815,17 +5815,17 @@ _File: `2025-05-04_mai-sunt-3-ore-pana-la-inchiderea-urnelor-si-drumurile-de-la`
 
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
-| drum                |    0.388 |
+| drum                |    0.389 |
 | romanie             |    0.339 |
 | aglomera            |    0.325 |
 | aglomerație         |    0.325 |
 | munte               |    0.325 |
-| sect                |    0.291 |
 | închidere           |    0.291 |
+| sect                |    0.291 |
 | alegeriprezidențial |    0.267 |
 | evita               |    0.228 |
 | hai                 |    0.198 |
-| vota                |    0.171 |
+| vota                |    0.172 |
 | oră                 |    0.159 |
 | vot                 |    0.157 |
 | sine                |    0.083 |
@@ -5848,7 +5848,7 @@ _File: `2025-05-04_mai-sunt-5-ore-pana-la-inchiderea-sectiilor-de-votare-daca-s`
 | acasă               |    0.164 |
 | risc                |    0.162 |
 | opri                |    0.162 |
-| drum                |    0.156 |
+| drum                |    0.157 |
 | găsi                |    0.13  |
 | oră                 |    0.128 |
 
@@ -5863,8 +5863,8 @@ _File: `2025-05-04_mai-sunt-cateva-ore-profitati-de-aceste-cateva-ore-si-merget`
 | alegeriprezidențial |    0.423 |
 | lăsa                |    0.29  |
 | alege               |    0.272 |
-| vot                 |    0.249 |
-| merge               |    0.241 |
+| vot                 |    0.248 |
+| merge               |    0.242 |
 
 ## 2025-05-04 — facebook-post
 
@@ -5882,8 +5882,8 @@ _File: `2025-05-04_multumesc-tare-mult-pentru-sprijin-multumesc-celor-care-m-au`
 | independent |    0.253 |
 | tare        |    0.246 |
 | rezultat    |    0.211 |
-| asigura     |    0.203 |
-| vota        |    0.195 |
+| asigura     |    0.202 |
+| vota        |    0.196 |
 | sprijin     |    0.183 |
 | sine        |    0.095 |
 
@@ -5893,9 +5893,9 @@ _File: `2025-05-04_o-prezenta-mare-la-urne-le-strica-planurile-alegerea-ta-poat`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| vota      |    0.534 |
+| vota      |    0.535 |
 | realism   |    0.264 |
-| groapă    |    0.245 |
+| groapă    |    0.244 |
 | onestitat |    0.238 |
 | tăcut     |    0.238 |
 | muncitor  |    0.232 |
@@ -5903,11 +5903,11 @@ _File: `2025-05-04_o-prezenta-mare-la-urne-le-strica-planurile-alegerea-ta-poat`
 | strica    |    0.203 |
 | românia   |    0.18  |
 | dreptate  |    0.161 |
-| hai       |    0.155 |
-| diferență |    0.152 |
+| hai       |    0.154 |
+| diferență |    0.153 |
 | putea     |    0.149 |
 | dificil   |    0.147 |
-| trăi      |    0.146 |
+| trăi      |    0.145 |
 
 ## 2025-05-05 — facebook-post
 
@@ -5915,21 +5915,21 @@ _File: `2025-05-05_prin-votul-romanilor-de-ieri-s-a-incheiat-o-epoca-politica-s`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| fac          |    0.303 |
-| epocă        |    0.28  |
+| fac          |    0.302 |
 | elibera      |    0.28  |
+| epocă        |    0.28  |
 | mediatic     |    0.275 |
 | înțelept     |    0.27  |
-| politic      |    0.243 |
+| politic      |    0.244 |
 | apel         |    0.223 |
 | politicienii |    0.218 |
 | optimist     |    0.208 |
 | resursă      |    0.192 |
-| încheia      |    0.186 |
-| interior     |    0.175 |
+| încheia      |    0.187 |
+| interior     |    0.176 |
 | dezbatere    |    0.168 |
 | corect       |    0.166 |
-| spațiu       |    0.155 |
+| spațiu       |    0.154 |
 
 ## 2025-05-05 — facebook-post
 
@@ -5937,8 +5937,8 @@ _File: `2025-05-05_romania-are-o-sansa-le-multumesc-tuturor-celor-care-au-votat`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| românie       |    0.23  |
-| putea         |    0.215 |
+| românie       |    0.231 |
+| putea         |    0.214 |
 | sta           |    0.196 |
 | neutru        |    0.19  |
 | vorbă         |    0.186 |
@@ -5946,12 +5946,12 @@ _File: `2025-05-05_romania-are-o-sansa-le-multumesc-tuturor-celor-care-au-votat`
 | sfidare       |    0.182 |
 | izolare       |    0.171 |
 | scandalu      |    0.167 |
-| româniaonestă |    0.163 |
 | populism      |    0.163 |
+| româniaonestă |    0.163 |
 | teme          |    0.16  |
 | decent        |    0.16  |
 | împreună      |    0.159 |
-| fapt          |    0.157 |
+| fapt          |    0.156 |
 
 ## 2025-05-06 — facebook-post
 
@@ -5959,16 +5959,16 @@ _File: `2025-05-06_6-mai-1990-podul-de-flori-ziua-in-care-prutul-a-unit-nu-a-de`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| prut      |    0.355 |
+| prut      |    0.354 |
 | inimă     |    0.296 |
-| simți     |    0.238 |
+| simți     |    0.237 |
 | republică |    0.217 |
-| român     |    0.197 |
+| român     |    0.198 |
 | moldova   |    0.197 |
 | țară      |    0.19  |
 | despărți  |    0.182 |
 | pod       |    0.167 |
-| basarabia |    0.157 |
+| basarabia |    0.159 |
 | simbolic  |    0.155 |
 | italia    |    0.151 |
 | britanie  |    0.15  |
@@ -5981,14 +5981,14 @@ _File: `2025-05-06_curajul-si-puterea-femeilor-care-aleg-sa-plece-din-relatii-t`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| femeie       |    0.418 |
+| femeie       |    0.417 |
 | viață        |    0.32  |
 | centru       |    0.255 |
 | toxic        |    0.201 |
 | incredibil   |    0.191 |
 | adăpost      |    0.186 |
-| consiliere   |    0.176 |
 | durere       |    0.176 |
+| consiliere   |    0.176 |
 | emoțional    |    0.171 |
 | domestic     |    0.169 |
 | salva        |    0.151 |
@@ -6001,23 +6001,23 @@ _File: `2025-05-06_curajul-si-puterea-femeilor-care-aleg-sa-plece-din-relatii-t`
 
 _File: `2025-05-07_am-vorbit-azi-in-cadrul-unui-eveniment-organizat-de-romanian` · 65 clean lemmas_
 
-| lemmă       |   TF-IDF |
-|:------------|---------:|
-| fiscal      |    0.231 |
-| leaders     |    0.204 |
-| romanian    |    0.204 |
-| stabă       |    0.204 |
-| ban         |    0.188 |
-| trebui      |    0.186 |
-| companiile  |    0.175 |
-| putea       |    0.173 |
-| protejăm    |    0.172 |
-| cheltuim    |    0.172 |
-| ocupe       |    0.172 |
-| business    |    0.163 |
-| progresa    |    0.163 |
-| firm        |    0.157 |
-| antreprenor |    0.155 |
+| lemmă      |   TF-IDF |
+|:-----------|---------:|
+| fiscal     |    0.232 |
+| stabă      |    0.204 |
+| romanian   |    0.204 |
+| leaders    |    0.204 |
+| ban        |    0.188 |
+| trebui     |    0.187 |
+| companiile |    0.175 |
+| putea      |    0.173 |
+| ocupe      |    0.171 |
+| cheltuim   |    0.171 |
+| protejăm   |    0.171 |
+| progresa   |    0.163 |
+| business   |    0.163 |
+| firm       |    0.156 |
+| ieșim      |    0.154 |
 
 ## 2025-05-07 — facebook-post
 
@@ -6033,12 +6033,12 @@ _File: `2025-05-07_ce-ma-deosebeste-de-contracandidatul-meu-este-aventura-in-ca`
 | depinde        |    0.212 |
 | permite        |    0.179 |
 | viață          |    0.174 |
-| cetățean       |    0.156 |
+| cetățean       |    0.157 |
 | duce           |    0.153 |
 | romaniaonesta  |    0.138 |
 | țară           |    0.111 |
 | putea          |    0.1   |
-| vrea           |    0.09  |
+| vrea           |    0.091 |
 
 ## 2025-05-07 — facebook-post
 
@@ -6048,19 +6048,19 @@ _File: `2025-05-07_eu-sunt-aici-pentru-dezbateri-asa-cum-am-fost-si-in-primul-t`
 |:----------|---------:|
 | primit    |    0.355 |
 | miercuri  |    0.345 |
-| marți     |    0.307 |
+| marți     |    0.306 |
 | joi       |    0.287 |
 | vineri    |    0.281 |
-| euronews  |    0.251 |
+| euronews  |    0.25  |
 | tur       |    0.23  |
 | george    |    0.23  |
-| seară     |    0.225 |
+| seară     |    0.226 |
 | simion    |    0.222 |
 | curs      |    0.214 |
 | dezbatere |    0.197 |
 | aștepta   |    0.177 |
-| merge     |    0.172 |
-| săptămână |    0.17  |
+| merge     |    0.173 |
+| săptămână |    0.171 |
 
 ## 2025-05-08 — facebook-post
 
@@ -6068,12 +6068,12 @@ _File: `2025-05-08_clasa-politica-i-a-ignorat-si-tradat-pe-cetateni-dar-raspuns`
 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
-| trăda    |    0.488 |
-| ignora   |    0.452 |
-| ură      |    0.379 |
-| clasă    |    0.359 |
+| trăda    |    0.487 |
+| ignora   |    0.451 |
+| ură      |    0.382 |
+| clasă    |    0.358 |
 | justiție |    0.283 |
-| răspuns  |    0.28  |
+| răspuns  |    0.279 |
 | cetățean |    0.245 |
 | politic  |    0.207 |
 | putea    |    0.157 |
@@ -6085,8 +6085,8 @@ _File: `2025-05-08_fapte-sau-vorbe-alegeti-intelept-pe-18-mai-alegeriprezidenti`
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
 | alegeriprezidențial |    0.746 |
-| alege               |    0.48  |
-| vorbă               |    0.463 |
+| alege               |    0.479 |
+| vorbă               |    0.462 |
 
 ## 2025-05-08 — facebook-post
 
@@ -6118,8 +6118,8 @@ _File: `2025-05-08_prima-dezbatere-cu-contracandidatul-meu-sustinerea-voastra-i`
 |:---------------|---------:|
 | contracandidat |    0.59  |
 | susținere      |    0.434 |
-| energie        |    0.41  |
-| dezbatere      |    0.404 |
+| energie        |    0.411 |
+| dezbatere      |    0.405 |
 | încredere      |    0.363 |
 
 ## 2025-05-08 — facebook-post
@@ -6130,17 +6130,17 @@ _File: `2025-05-08_salut-alegerea-noului-papa-leon-al-xiv-lea-si-sunt-alaturi-d`
 |:-----------|---------:|
 | creștină   |    0.287 |
 | leon       |    0.287 |
-| tolerant   |    0.275 |
 | catolic    |    0.275 |
-| papă       |    0.266 |
-| compasiune |    0.266 |
-| -lea       |    0.252 |
+| tolerant   |    0.275 |
+| papă       |    0.265 |
+| compasiune |    0.265 |
+| -lea       |    0.251 |
 | moral      |    0.217 |
 | salut      |    0.199 |
 | uman       |    0.196 |
 | bucurie    |    0.194 |
 | plin       |    0.193 |
-| echilibru  |    0.174 |
+| echilibru  |    0.173 |
 | baza       |    0.168 |
 | indiferent |    0.167 |
 
@@ -6150,13 +6150,13 @@ _File: `2025-05-09_alegerile-de-pe-18-mai-au-legatura-cu-facturile-pe-care-le-p`
 
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
-| alegere             |    0.432 |
-| fact                |    0.431 |
-| alegeriprezidențial |    0.404 |
-| schimb              |    0.297 |
+| alegere             |    0.433 |
+| fact                |    0.43  |
+| alegeriprezidențial |    0.403 |
+| schimb              |    0.296 |
 | iată                |    0.294 |
-| curs                |    0.286 |
-| plăti               |    0.271 |
+| curs                |    0.285 |
+| plăti               |    0.272 |
 | legătură            |    0.269 |
 | creștere            |    0.251 |
 
@@ -6180,7 +6180,7 @@ _File: `2025-05-09_la-multi-ani-europa-astazi-de-ziua-europei-celebram-nu-doar` 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | european         |    0.379 |
-| europa           |    0.248 |
+| europa           |    0.249 |
 | uniuneaeuropeană |    0.182 |
 | privilegiat      |    0.142 |
 | economiilor      |    0.142 |
@@ -6212,8 +6212,8 @@ _File: `2025-05-09_oamenii-se-uita-la-fapte-alegeriprezidentiale` · 4 clean lem
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
 | alegeriprezidențial |    0.766 |
-| uita                |    0.442 |
-| fapt                |    0.401 |
+| uita                |    0.443 |
+| fapt                |    0.4   |
 | sine                |    0.239 |
 
 ## 2025-05-09 — facebook-post
@@ -6222,9 +6222,9 @@ _File: `2025-05-09_pacea-se-obtine-prin-descurajarea-razboiului-romaniaonesta` �
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| descurajare   |    0.576 |
+| descurajare   |    0.575 |
 | obține        |    0.477 |
-| pace          |    0.415 |
+| pace          |    0.416 |
 | război        |    0.364 |
 | romaniaonesta |    0.312 |
 | sine          |    0.197 |
@@ -6236,7 +6236,7 @@ _File: `2025-05-09_ucraina-trebuie-sa-aiba-parte-de-o-pace-justa-securitatenati`
 | lemmă   |   TF-IDF |
 |:--------|---------:|
 | justă   |    0.771 |
-| pace    |    0.4   |
+| pace    |    0.401 |
 | ucraina |    0.341 |
 | parte   |    0.272 |
 | trebui  |    0.235 |
@@ -6247,20 +6247,20 @@ _File: `2025-05-10_astazi-10-mai-celebram-ziua-independentei-de-stat-a-romaniei`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| independență |    0.351 |
-| proclamație  |    0.331 |
-| independența |    0.32  |
+| independență |    0.35  |
+| proclamație  |    0.33  |
+| independența |    0.33  |
 | românie      |    0.209 |
 | apăra        |    0.191 |
 | construi     |    0.184 |
-| otoman       |    0.173 |
-| mortal       |    0.173 |
+| mortal       |    0.172 |
+| otoman       |    0.172 |
 | puternic     |    0.166 |
-| înaintaș     |    0.166 |
+| înaintaș     |    0.165 |
 | unit         |    0.161 |
-| definitoriu  |    0.16  |
-| unanimitate  |    0.152 |
-| domnitor     |    0.152 |
+| definitoriu  |    0.159 |
+| domnitor     |    0.151 |
+| unanimitate  |    0.151 |
 | celebrăm     |    0.148 |
 
 ## 2025-05-10 — facebook-post
@@ -6272,9 +6272,9 @@ _File: `2025-05-10_de-ce-se-bucura-simion-de-pierderea-dreptului-romanilor-la-c`
 | călătorie               |    0.503 |
 | viză                    |    0.466 |
 | pierdere                |    0.411 |
-| stateleunitealeamericii |    0.338 |
-| bucura                  |    0.315 |
-| simion                  |    0.315 |
+| stateleunitealeamericii |    0.337 |
+| bucura                  |    0.316 |
+| simion                  |    0.314 |
 | român                   |    0.177 |
 | sine                    |    0.133 |
 
@@ -6287,8 +6287,8 @@ _File: `2025-05-10_george-simion-si-a-dezvaluit-adevarata-fata-un-suveranist-de`
 | bucuriă      |    0.284 |
 | scuti        |    0.284 |
 | trădare      |    0.272 |
-| fațadă       |    0.263 |
 | călătorie    |    0.263 |
+| fațadă       |    0.263 |
 | cinic        |    0.255 |
 | viză         |    0.244 |
 | dezvălui     |    0.239 |
@@ -6297,7 +6297,7 @@ _File: `2025-05-10_george-simion-si-a-dezvaluit-adevarata-fata-un-suveranist-de`
 | suveranist   |    0.215 |
 | român        |    0.185 |
 | george       |    0.17  |
-| simion       |    0.165 |
+| simion       |    0.164 |
 | conduce      |    0.155 |
 
 ## 2025-05-10 — facebook-post
@@ -6309,18 +6309,18 @@ _File: `2025-05-10_o-tara-care-isi-doreste-sa-fie-sigura-si-in-care-legea-este` 
 | otoman       |    0.244 |
 | valoare      |    0.239 |
 | integrităție |    0.22  |
-| ne-          |    0.215 |
+| ne-          |    0.214 |
 | jurământ     |    0.206 |
 | dori         |    0.203 |
 | instituție   |    0.2   |
 | deosebit     |    0.179 |
 | reafirma     |    0.171 |
 | princip      |    0.167 |
-| poliție      |    0.166 |
-| independență |    0.166 |
+| independență |    0.165 |
+| poliție      |    0.165 |
 | continuăm    |    0.156 |
 | aplica       |    0.154 |
-| țară         |    0.153 |
+| țară         |    0.154 |
 
 ## 2025-05-10 — facebook-post
 
@@ -6328,9 +6328,9 @@ _File: `2025-05-10_p-rerea-mea-despre-diaspora-diaspora-romaniaonesta-nicusorpr`
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| diasporă         |    0.815 |
-| nicusorpresedint |    0.507 |
-| romaniaonesta    |    0.28  |
+| diasporă         |    0.816 |
+| nicusorpresedint |    0.506 |
+| romaniaonesta    |    0.279 |
 
 ## 2025-05-10 — facebook-post
 
@@ -6338,21 +6338,21 @@ _File: `2025-05-10_romania-nu-si-permite-sa-faca-un-experiment-sa-vada-cum-ar-f`
 
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
-| perfecționa         |    0.283 |
-| prezidential        |    0.265 |
-| nicusordanpresedint |    0.265 |
+| perfecționa         |    0.282 |
 | minune              |    0.265 |
+| nicusordanpresedint |    0.265 |
+| prezidential        |    0.265 |
 | experiment          |    0.253 |
 | promit              |    0.248 |
 | alegeriprezidential |    0.229 |
 | haos                |    0.229 |
 | performanță         |    0.216 |
 | înapoi              |    0.198 |
-| demonstra           |    0.193 |
 | promite             |    0.193 |
+| demonstra           |    0.193 |
 | echilibru           |    0.178 |
 | experiență          |    0.166 |
-| speranță            |    0.165 |
+| speranță            |    0.166 |
 
 ## 2025-05-11 — facebook-post
 
@@ -6371,9 +6371,9 @@ _File: `2025-05-11_atacurile-botilor-continua-si-nu-intamplator-sunt-vizate-pos`
 | precedent   |    0.205 |
 | manipulare  |    0.199 |
 | încercare   |    0.197 |
-| dreptate    |    0.184 |
+| dreptate    |    0.185 |
 | privință    |    0.184 |
-| viza        |    0.183 |
+| viza        |    0.182 |
 | george      |    0.182 |
 
 ## 2025-05-11 — facebook-post
@@ -6382,11 +6382,11 @@ _File: `2025-05-11_multumesc-araicu-ca-ai-ales-sa-fii-o-voce-in-fata-romanilor` 
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| tăcere        |    0.434 |
+| tăcere        |    0.433 |
 | reuni         |    0.385 |
 | victoria      |    0.361 |
 | opțiune       |    0.343 |
-| voce          |    0.306 |
+| voce          |    0.305 |
 | alege         |    0.266 |
 | piață         |    0.262 |
 | întru         |    0.211 |
@@ -6401,7 +6401,7 @@ _File: `2025-05-11_multumesc-geluduminica-ca-ai-urcat-pe-scena-romaniainlumina` 
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| suflet          |    0.56  |
+| suflet          |    0.559 |
 | românii         |    0.369 |
 | romaniainlumina |    0.369 |
 | temelie         |    0.305 |
@@ -6430,7 +6430,7 @@ _File: `2025-05-11_nu-putem-trece-cu-vederea-faptul-ca-george-simion-a-dat-sper`
 | george         |    0.22  |
 | nicusordan     |    0.21  |
 | putea          |    0.208 |
-| speranță       |    0.206 |
+| speranță       |    0.207 |
 | conduce        |    0.201 |
 | sine           |    0.181 |
 | vedere         |    0.177 |
@@ -6444,19 +6444,19 @@ _File: `2025-05-11_romania-are-nevoie-de-noi-toti-traim-vremuri-care-ne-pun-la` 
 |:-----------------|---------:|
 | vremuri          |    0.354 |
 | uni              |    0.305 |
-| românie          |    0.283 |
-| brio             |    0.234 |
+| românie          |    0.284 |
+| brio             |    0.233 |
 | optimisc         |    0.224 |
 | negociabil       |    0.21  |
 | reconstrui       |    0.205 |
 | generațiile      |    0.2   |
-| proiecta         |    0.182 |
+| proiecta         |    0.181 |
 | solidar          |    0.173 |
-| frică            |    0.17  |
+| frică            |    0.169 |
 | nicusorpresedint |    0.165 |
 | provocăre        |    0.161 |
 | demnitate        |    0.161 |
-| onest            |    0.153 |
+| onest            |    0.152 |
 
 ## 2025-05-11 — facebook-post
 
@@ -6482,12 +6482,12 @@ _File: `2025-05-11_va-astept-in-piata-victoriei-incepand-cu-ora-18-00-romaniaco`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| romaniaunită  |    0.634 |
+| romaniaunită  |    0.635 |
 | victoria      |    0.436 |
-| piață         |    0.317 |
+| piață         |    0.316 |
 | oră           |    0.298 |
 | aștepta       |    0.293 |
-| începe        |    0.265 |
+| începe        |    0.266 |
 | romaniaonesta |    0.247 |
 
 ## 2025-05-12 — facebook-post
@@ -6498,12 +6498,12 @@ _File: `2025-05-12_aceasta-este-diploma-mea-de-bacalaureat-in-original-varianta`
 |:-----------|---------:|
 | original   |    0.403 |
 | diploma    |    0.386 |
-| grosolan   |    0.363 |
+| grosolan   |    0.362 |
 | varianta   |    0.327 |
 | eroare     |    0.317 |
 | circula    |    0.313 |
 | fals       |    0.261 |
-| medie      |    0.248 |
+| medie      |    0.249 |
 | lăsa       |    0.218 |
 | social     |    0.195 |
 | informație |    0.19  |
@@ -6532,10 +6532,10 @@ _File: `2025-05-12_echilibru-si-o-schimbare-in-bine-sau-haos-social-si-dezastru`
 | dezastru         |    0.328 |
 | haos             |    0.319 |
 | nicusorpresedint |    0.29  |
-| echilibru        |    0.249 |
+| echilibru        |    0.248 |
 | depinde          |    0.246 |
 | hai              |    0.24  |
-| schimbare        |    0.201 |
+| schimbare        |    0.202 |
 | social           |    0.198 |
 | mesaj            |    0.187 |
 | duce             |    0.177 |
@@ -6549,21 +6549,21 @@ _File: `2025-05-12_impreuna-putem-construi-o-romanie-in-care-copiii-nostri-sa-r`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| românie       |    0.423 |
-| construi      |    0.372 |
+| românie       |    0.424 |
+| construi      |    0.373 |
 | dezbinare     |    0.349 |
-| emotii        |    0.335 |
-| româniaonestă |    0.3   |
-| ură           |    0.238 |
-| putem         |    0.227 |
-| obligație     |    0.225 |
-| nicusordan    |    0.2   |
-| dezvolta      |    0.192 |
-| copil         |    0.189 |
-| oferi         |    0.169 |
+| emotii        |    0.334 |
+| româniaonestă |    0.299 |
+| ură           |    0.24  |
+| putem         |    0.226 |
+| obligație     |    0.226 |
+| nicusordan    |    0.199 |
+| dezvolta      |    0.191 |
+| copil         |    0.188 |
+| oferi         |    0.168 |
 | împreună      |    0.146 |
 | rămâne        |    0.141 |
-| putea         |    0.099 |
+| putea         |    0.098 |
 
 ## 2025-05-12 — facebook-post
 
@@ -6571,18 +6571,18 @@ _File: `2025-05-12_intotdeauna-inainte-de-primar-sau-presedinte-voi-fi-un-om-pr`
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| romaniainlumina |    0.393 |
+| romaniainlumina |    0.392 |
 | apropiere       |    0.282 |
 | distanță        |    0.277 |
-| construcție     |    0.262 |
+| construcție     |    0.263 |
 | întotdeauna     |    0.258 |
 | românie         |    0.238 |
-| jur             |    0.236 |
-| printre         |    0.233 |
-| voce            |    0.229 |
-| conducere       |    0.226 |
-| conta           |    0.215 |
-| cred            |    0.212 |
+| jur             |    0.237 |
+| printre         |    0.232 |
+| voce            |    0.228 |
+| conducere       |    0.225 |
+| conta           |    0.216 |
+| cred            |    0.213 |
 | primar          |    0.209 |
 | însemna         |    0.177 |
 | împreună        |    0.164 |
@@ -6595,8 +6595,8 @@ _File: `2025-05-12_mari-si-mici-deopotriva-cu-acelasi-gand-romaniainlumina` · 5
 |:-----------|---------:|
 | deopotrivă |    0.706 |
 | gând       |    0.477 |
-| mic        |    0.394 |
-| același    |    0.345 |
+| mic        |    0.395 |
+| același    |    0.344 |
 
 ## 2025-05-12 — facebook-post
 
@@ -6636,7 +6636,7 @@ _File: `2025-05-12_romania-onesta-este-schimbarea-care-ne-uneste-nicusordan` · 
 | onestă     |    0.555 |
 | uni        |    0.531 |
 | nicusordan |    0.465 |
-| schimbare  |    0.399 |
+| schimbare  |    0.4   |
 | românia    |    0.185 |
 
 ## 2025-05-13 — facebook-post
@@ -6664,14 +6664,14 @@ _File: `2025-05-13_iti-multumesc-delia-grigore-pentru-ca-esti-vocea-romilor-din`
 | delia         |    0.367 |
 | grigore       |    0.336 |
 | respectat     |    0.329 |
-| recunoaște    |    0.258 |
-| lupta         |    0.232 |
+| recunoaște    |    0.257 |
+| lupta         |    0.233 |
 | voce          |    0.223 |
 | acces         |    0.222 |
 | educație      |    0.217 |
-| mulțumi       |    0.168 |
+| mulțumi       |    0.169 |
 | societate     |    0.159 |
-| romaniaonesta |    0.15  |
+| romaniaonesta |    0.149 |
 | românia       |    0.087 |
 
 ## 2025-05-13 — facebook-post
@@ -6682,11 +6682,11 @@ _File: `2025-05-13_multe-am-invatat-de-la-domnul-victor-rebengiuc-ii-multumesc` 
 |:--------------|---------:|
 | rebengiuc     |    0.538 |
 | inimă         |    0.411 |
-| învăța        |    0.4   |
+| învăța        |    0.399 |
 | victor        |    0.392 |
 | alături       |    0.264 |
 | mulțumi       |    0.247 |
-| domn          |    0.223 |
+| domn          |    0.222 |
 | romaniaonesta |    0.219 |
 
 ## 2025-05-13 — facebook-post
@@ -6710,11 +6710,11 @@ _File: `2025-05-13_o-romanie-buna-pentru-toti-romanii-din-tara-din-diaspora-din`
 
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
-| nicusordanpresedint |    0.465 |
-| reușima             |    0.465 |
+| nicusordanpresedint |    0.464 |
+| reușima             |    0.464 |
 | uni                 |    0.337 |
-| românie             |    0.313 |
-| diasporă            |    0.293 |
+| românie             |    0.314 |
+| diasporă            |    0.294 |
 | republică           |    0.277 |
 | moldova             |    0.252 |
 | romaniaonesta       |    0.201 |
@@ -6729,14 +6729,14 @@ _File: `2025-05-13_oana-gheorghiu-este-omul-care-a-strans-milioane-de-romani-in`
 | lemmă     |   TF-IDF |
 |:----------|---------:|
 | reușim    |    0.373 |
-| gheorghiu |    0.356 |
+| gheorghiu |    0.355 |
 | onora     |    0.304 |
 | oana      |    0.298 |
 | onestă    |    0.283 |
-| uni       |    0.271 |
+| uni       |    0.27  |
 | strânge   |    0.265 |
 | spital    |    0.264 |
-| jur       |    0.25  |
+| jur       |    0.251 |
 | cauză     |    0.229 |
 | milion    |    0.226 |
 | alături   |    0.195 |
@@ -6755,8 +6755,8 @@ _File: `2025-05-13_totul-pleaca-de-la-educatie-un-popor-puternic-are-nevoie-de` 
 | popor    |    0.384 |
 | educație |    0.358 |
 | pleca    |    0.34  |
-| pregăti  |    0.331 |
-| puternic |    0.304 |
+| pregăti  |    0.33  |
+| puternic |    0.305 |
 
 ## 2025-05-13 — facebook-post
 
@@ -6767,8 +6767,8 @@ _File: `2025-05-13_vin-dintr-o-familie-simpla-dintr-un-oras-mic-al-romaniei-am` 
 | dintru        |    0.48  |
 | rezultatele   |    0.359 |
 | vin           |    0.291 |
-| învăța        |    0.267 |
 | părinte       |    0.267 |
+| învăța        |    0.267 |
 | dedicat       |    0.262 |
 | munci         |    0.242 |
 | profesor      |    0.242 |
@@ -6786,14 +6786,14 @@ _File: `2025-05-13_vom-redresa-economia-si-vom-pune-ordine-in-cheltuielile-stat`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| neschimbat    |    0.475 |
-| redresa       |    0.44  |
-| ordine        |    0.287 |
-| potrivit      |    0.278 |
+| neschimbat    |    0.474 |
+| redresa       |    0.439 |
+| ordine        |    0.289 |
+| potrivit      |    0.277 |
 | taxă          |    0.276 |
-| cheltuială    |    0.263 |
+| cheltuială    |    0.262 |
 | vrea          |    0.242 |
-| economie      |    0.22  |
+| economie      |    0.221 |
 | măsură        |    0.203 |
 | rămâne        |    0.192 |
 | pune          |    0.19  |
@@ -6813,14 +6813,14 @@ _File: `2025-05-14_a-patra-dezbatere-consecutiva-a-patra-oara-cand-george-simio`
 | alegeriprezidențial |    0.27  |
 | confruntare         |    0.27  |
 | evita               |    0.23  |
-| lipsi               |    0.229 |
+| lipsi               |    0.228 |
 | popor               |    0.208 |
-| politician          |    0.206 |
+| politician          |    0.207 |
 | george              |    0.205 |
-| simion              |    0.198 |
 | dovadă              |    0.198 |
+| simion              |    0.198 |
 | nicusordan          |    0.196 |
-| propriu             |    0.181 |
+| propriu             |    0.18  |
 
 ## 2025-05-14 — facebook-post
 
@@ -6836,13 +6836,13 @@ _File: `2025-05-14_am-primit-cu-multa-emotie-si-recunostinta-mesajul-presedinte`
 | email               |    0.176 |
 | împărtășim          |    0.17  |
 | președintă          |    0.165 |
-| politic             |    0.158 |
-| publicitar          |    0.158 |
-| abcde               |    0.158 |
-| cmf                 |    0.158 |
-| nicușor-daniel      |    0.158 |
-| cpp                 |    0.158 |
-| contactnicusordanro |    0.158 |
+| politic             |    0.159 |
+| nicușor-daniel      |    0.157 |
+| cpp                 |    0.157 |
+| cmf                 |    0.157 |
+| abcde               |    0.157 |
+| contactnicusordanro |    0.157 |
+| publicitar          |    0.157 |
 
 ## 2025-05-14 — facebook-post
 
@@ -6859,10 +6859,10 @@ _File: `2025-05-14_banii-folositi-de-stat-pentru-retetele-compensate-nu-sunt-si`
 | george              |    0.233 |
 | simion              |    0.225 |
 | nicusordan          |    0.222 |
-| niciodată           |    0.221 |
+| niciodată           |    0.22  |
 | folosi              |    0.204 |
 | răspuns             |    0.196 |
-| decât               |    0.166 |
+| decât               |    0.167 |
 | față                |    0.143 |
 | român               |    0.127 |
 
@@ -6872,13 +6872,13 @@ _File: `2025-05-14_george-simion-nu-fuge-doar-de-dezbatere-ci-si-de-propriii-su`
 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
-| alegeriromania |    0.47  |
-| fugi           |    0.47  |
-| susținător     |    0.377 |
-| george         |    0.341 |
-| simion         |    0.33  |
+| fugi           |    0.469 |
+| alegeriromania |    0.469 |
+| susținător     |    0.379 |
+| george         |    0.34  |
+| simion         |    0.329 |
 | nicusordan     |    0.325 |
-| dezbatere      |    0.292 |
+| dezbatere      |    0.293 |
 
 ## 2025-05-14 — facebook-post
 
@@ -6891,12 +6891,12 @@ _File: `2025-05-14_gicu-micu-din-spania-este-unul-dintre-milioanele-de-romani-c`
 | micu       |    0.377 |
 | slujbă     |    0.342 |
 | spania     |    0.298 |
-| coerent    |    0.285 |
+| coerent    |    0.287 |
 | demonstra  |    0.266 |
 | român      |    0.265 |
 | reuși      |    0.205 |
-| instituție |    0.166 |
-| întru      |    0.163 |
+| instituție |    0.167 |
+| întru      |    0.164 |
 | stat       |    0.123 |
 
 ## 2025-05-14 — facebook-post
@@ -6905,20 +6905,20 @@ _File: `2025-05-14_ii-multumesc-prim-ministrului-poloniei-donald-tusk-pentru-ac`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| adevărat    |    0.284 |
+| adevărat    |    0.286 |
 | rafa        |    0.274 |
 | trzaskowski |    0.274 |
 | tusk        |    0.254 |
 | emoționant  |    0.247 |
 | polonie     |    0.235 |
-| alegere     |    0.231 |
-| limbă       |    0.186 |
+| alegere     |    0.232 |
 | spere       |    0.186 |
+| limbă       |    0.186 |
 | trata       |    0.182 |
 | adresa      |    0.18  |
 | polonia     |    0.179 |
 | român       |    0.179 |
-| flanc       |    0.171 |
+| flanc       |    0.17  |
 | estic       |    0.165 |
 
 ## 2025-05-14 — facebook-post
@@ -6935,8 +6935,8 @@ _File: `2025-05-14_insusi-omul-pe-care-isi-cladeste-campania-george-simion-spun`
 | george         |    0.252 |
 | nicusordan     |    0.24  |
 | permite        |    0.212 |
-| campanie       |    0.196 |
-| sistem         |    0.19  |
+| campanie       |    0.197 |
+| sistem         |    0.189 |
 | romaniaonesta  |    0.164 |
 | român          |    0.137 |
 | spune          |    0.136 |
@@ -6962,9 +6962,9 @@ _File: `2025-05-14_vocea-femeilor-trebuie-auzita-multumesc-din-inima-adagales-r`
 | auzit         |    0.57  |
 | inimă         |    0.487 |
 | femeie        |    0.425 |
-| voce          |    0.387 |
+| voce          |    0.386 |
 | romaniaonesta |    0.259 |
-| trebui        |    0.202 |
+| trebui        |    0.203 |
 
 ## 2025-05-15 — facebook-post
 
@@ -6988,23 +6988,23 @@ _File: `2025-05-15_cine-pe-cine-ia-de-mana-imparte-sau-nu-george-simion-pareril`
 
 _File: `2025-05-15_contracandidatul-meu-minte-ca-o-gazeta-ruseasca-nu-exista-ni` · 53 clean lemmas_
 
-| lemmă               |   TF-IDF |
-|:--------------------|---------:|
-| casă                |    0.281 |
-| georgesimion        |    0.196 |
-| iresponsabil        |    0.191 |
-| naționalizare       |    0.187 |
-| minciună            |    0.183 |
-| visa                |    0.183 |
-| fugi                |    0.18  |
-| suspendare          |    0.18  |
-| asista              |    0.169 |
-| contracandidat      |    0.163 |
-| abcde               |    0.161 |
-| contactnicusordanro |    0.161 |
-| nicușor-daniel      |    0.161 |
-| publicitar          |    0.161 |
-| cmf                 |    0.161 |
+| lemmă          |   TF-IDF |
+|:---------------|---------:|
+| casă           |    0.281 |
+| georgesimion   |    0.196 |
+| iresponsabil   |    0.191 |
+| naționalizare  |    0.187 |
+| visa           |    0.183 |
+| minciună       |    0.183 |
+| fugi           |    0.18  |
+| suspendare     |    0.18  |
+| asista         |    0.169 |
+| contracandidat |    0.163 |
+| nicușor-daniel |    0.161 |
+| cpp            |    0.161 |
+| cmf            |    0.161 |
+| publicitar     |    0.161 |
+| abcde          |    0.161 |
 
 ## 2025-05-15 — facebook-post
 
@@ -7019,13 +7019,13 @@ _File: `2025-05-15_este-intolerabil-sa-jignesti-sute-de-mii-de-copii-si-adulti` 
 | zbat         |    0.162 |
 | nedemn       |    0.155 |
 | condamn      |    0.15  |
+| familiile    |    0.15  |
 | intolerabil  |    0.15  |
 | jigni        |    0.15  |
-| familiile    |    0.15  |
 | georgesimion |    0.146 |
 | umanitate    |    0.142 |
-| semen        |    0.142 |
 | tulburare    |    0.142 |
+| semen        |    0.142 |
 | adult        |    0.139 |
 
 ## 2025-05-15 — facebook-post
@@ -7044,8 +7044,8 @@ _File: `2025-05-15_ii-multumesc-starului-imsebastianstan-care-a-castigat-globul`
 | aur               |    0.22  |
 | categorie         |    0.215 |
 | hai               |    0.215 |
-| susținere         |    0.203 |
 | câștiga           |    0.202 |
+| susținere         |    0.202 |
 | rol               |    0.182 |
 | vot               |    0.17  |
 | mulțumi           |    0.162 |
@@ -7061,16 +7061,16 @@ _File: `2025-05-15_romania-are-speranta-drumul-spre-stabilitate-cere-seriozitat`
 | tvr              |    0.289 |
 | contracandidat   |    0.267 |
 | nicusorpresedint |    0.251 |
-| voință           |    0.219 |
+| voință           |    0.22  |
 | drum             |    0.204 |
 | nicusordan       |    0.204 |
 | organiza         |    0.201 |
+| speranță         |    0.2   |
 | succes           |    0.199 |
-| speranță         |    0.199 |
-| stabilitate      |    0.193 |
+| stabilitate      |    0.192 |
 | prezenta         |    0.189 |
 | ilie             |    0.189 |
-| bolojan          |    0.185 |
+| bolojan          |    0.184 |
 
 ## 2025-05-15 — facebook-post
 
@@ -7079,16 +7079,16 @@ _File: `2025-05-15_simion-si-interlopii-spune-mi-cu-cine-umbli-ca-sa-iti-spun-c`
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
 | simion         |    0.52  |
-| wow            |    0.299 |
 | esc            |    0.299 |
 | clanure        |    0.299 |
+| wow            |    0.299 |
 | alegeriromania |    0.247 |
-| fyp            |    0.243 |
 | prietenos      |    0.243 |
+| fyp            |    0.243 |
 | valida         |    0.222 |
 | interacțiune   |    0.211 |
-| susținător     |    0.198 |
-| spune          |    0.193 |
+| susținător     |    0.199 |
+| spune          |    0.194 |
 | george         |    0.179 |
 | nicusordan     |    0.171 |
 | lege           |    0.139 |
@@ -7107,7 +7107,7 @@ _File: `2025-05-15_simion-si-partidul-lui-despre-femei-felul-in-care-un-barbat` 
 | alegeriromania    |    0.232 |
 | bărbat            |    0.206 |
 | atitudine         |    0.197 |
-| trebui            |    0.171 |
+| trebui            |    0.172 |
 | george            |    0.168 |
 | aur               |    0.168 |
 | nicusordan        |    0.161 |
@@ -7122,7 +7122,7 @@ _File: `2025-05-15_suntem-o-familie-cu-doi-copii-minunati-cladita-pe-iubire-si` 
 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
-| minunat  |    0.434 |
+| minunat  |    0.435 |
 | celebrăm |    0.373 |
 | clădi    |    0.359 |
 | iubire   |    0.359 |
@@ -7140,19 +7140,19 @@ _File: `2025-05-15_va-multumesc-pentru-sutele-de-mesaje-in-care-imi-spuneti-ca` 
 
 | lemmă               |   TF-IDF |
 |:--------------------|---------:|
-| sutele              |    0.363 |
+| sutele              |    0.362 |
 | nehotărâți          |    0.336 |
 | alegeriprezidential |    0.282 |
-| ieșim               |    0.272 |
+| ieșim               |    0.275 |
 | sincer              |    0.266 |
-| apreciez            |    0.254 |
-| apropiat            |    0.236 |
+| apreciez            |    0.253 |
+| apropiat            |    0.235 |
 | continuăm           |    0.231 |
-| nicusordan          |    0.208 |
+| nicusordan          |    0.207 |
 | convinge            |    0.198 |
+| vota                |    0.184 |
 | efort               |    0.184 |
-| vota                |    0.183 |
-| ales                |    0.177 |
+| ales                |    0.178 |
 | vot                 |    0.168 |
 | mesaj               |    0.165 |
 
@@ -7183,12 +7183,12 @@ _File: `2025-05-16_cirese-si-bujori-de-la-oamenii-vrednici-e-plina-romania-de-e`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| vrednic           |    0.535 |
+| vrednic           |    0.534 |
 | hailavot          |    0.469 |
-| faravotpierdemtot |    0.45  |
+| faravotpierdemtot |    0.449 |
 | plin              |    0.359 |
-| lupta             |    0.324 |
-| romaniaonesta     |    0.209 |
+| lupta             |    0.325 |
+| romaniaonesta     |    0.208 |
 | românia           |    0.121 |
 
 ## 2025-05-16 — facebook-post
@@ -7207,11 +7207,11 @@ _File: `2025-05-16_eu-si-credinta-s-au-spus-multe-minciuni-despre-mine-in-aceas`
 | deget          |    0.248 |
 | sine           |    0.229 |
 | instrument     |    0.194 |
-| păcat          |    0.183 |
+| păcat          |    0.184 |
 | nicusordan     |    0.177 |
 | respect        |    0.163 |
 | părea          |    0.16  |
-| arăta          |    0.153 |
+| arăta          |    0.152 |
 
 ## 2025-05-16 — facebook-post
 
@@ -7220,16 +7220,16 @@ _File: `2025-05-16_final-de-campanie-o-campanie-onesta-pentru-o-romanie-onesta` 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
 | campanie       |    0.492 |
-| onest          |    0.459 |
+| onest          |    0.458 |
 | vot            |    0.325 |
 | alegeriromania |    0.29  |
-| mobiliza       |    0.277 |
+| mobiliza       |    0.276 |
 | românie        |    0.213 |
 | nicusordan     |    0.201 |
 | susținere      |    0.193 |
-| ieși           |    0.185 |
+| ieși           |    0.186 |
 | final          |    0.184 |
-| comunitate     |    0.18  |
+| comunitate     |    0.181 |
 | lume           |    0.155 |
 | mulțumi        |    0.154 |
 | putea          |    0.099 |
@@ -7240,7 +7240,7 @@ _File: `2025-05-16_in-timp-ce-contracandidatul-meu-jignea-poporul-francez-chiar`
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| franța           |    0.479 |
+| franța           |    0.478 |
 | europ            |    0.246 |
 | uniuni           |    0.225 |
 | emmanuel         |    0.216 |
@@ -7263,7 +7263,7 @@ _File: `2025-05-16_multumesc-andreeamarinromania-romaniaonesta-faravotpierdemto`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | faravotpierdemtot |    0.907 |
-| romaniaonesta     |    0.421 |
+| romaniaonesta     |    0.42  |
 
 ## 2025-05-16 — facebook-post
 
@@ -7272,7 +7272,7 @@ _File: `2025-05-16_multumesc-horiatecau-romaniaonesta-faravotpierdemtot` · 3 cl
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | faravotpierdemtot |    0.907 |
-| romaniaonesta     |    0.421 |
+| romaniaonesta     |    0.42  |
 
 ## 2025-05-16 — facebook-post
 
@@ -7306,7 +7306,7 @@ _File: `2025-05-16_romania-care-munceste-merita-respect-si-sustinere-am-fost-la`
 | românia       |    0.198 |
 | dimineață     |    0.195 |
 | merita        |    0.195 |
-| seara         |    0.176 |
+| seara         |    0.177 |
 | acasă         |    0.174 |
 | produce       |    0.172 |
 | sprijini      |    0.164 |
@@ -7333,8 +7333,8 @@ _File: `2025-05-16_sa-ne-ascultam-unii-pe-altii-sa-nu-ne-certam-ne-unim-si-impr`
 |:--------------|---------:|
 | romaniaunită  |    0.555 |
 | certa         |    0.467 |
-| onest         |    0.363 |
-| uni           |    0.363 |
+| onest         |    0.362 |
+| uni           |    0.362 |
 | asculta       |    0.308 |
 | împreună      |    0.232 |
 | romaniaonesta |    0.216 |
@@ -7354,10 +7354,10 @@ _File: `2025-05-16_sunt-oamenii-care-duc-romania-in-toata-europa-pe-ploaie-nins`
 | nicusorpresedint |    0.295 |
 | uriaș            |    0.27  |
 | familie          |    0.226 |
-| greu             |    0.224 |
+| greu             |    0.225 |
 | muncă            |    0.22  |
 | europa           |    0.183 |
-| duce             |    0.18  |
+| duce             |    0.181 |
 | romaniaonesta    |    0.163 |
 | românia          |    0.095 |
 
@@ -7367,17 +7367,17 @@ _File: `2025-05-16_tractorul-porneste-si-pana-pe-camp-arzi-motorina-de-200-de-l`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| motorin       |    0.378 |
 | tractor       |    0.378 |
+| motorin       |    0.378 |
 | milioan       |    0.363 |
 | hailavot      |    0.332 |
 | arde          |    0.325 |
-| câmp          |    0.313 |
+| câmp          |    0.312 |
 | leu           |    0.262 |
 | porni         |    0.251 |
 | nicusordan    |    0.216 |
 | ajunge        |    0.161 |
-| romaniaonesta |    0.148 |
+| romaniaonesta |    0.147 |
 | român         |    0.123 |
 | țară          |    0.119 |
 | trebui        |    0.115 |
@@ -7407,7 +7407,7 @@ _File: `2025-05-17_astazi-am-fost-invitat-de-studentii-din-grozavesti-la-o-lect`
 | studenție |    0.519 |
 | lecție    |    0.47  |
 | invita    |    0.357 |
-| ieși      |    0.319 |
+| ieși      |    0.32  |
 
 ## 2025-05-17 — facebook-post
 
@@ -7416,14 +7416,14 @@ _File: `2025-05-17_continuati-sa-credeti-in-romania-si-iesiti-la-vot-nu-e-o-ale`
 | lemmă    |   TF-IDF |
 |:---------|---------:|
 | trasa    |    0.584 |
-| ieși     |    0.359 |
+| ieși     |    0.36  |
 | vot      |    0.315 |
 | direcție |    0.313 |
-| alegere  |    0.287 |
-| decizie  |    0.283 |
-| crede    |    0.278 |
+| alegere  |    0.288 |
+| decizie  |    0.282 |
+| crede    |    0.279 |
 | viitor   |    0.262 |
-| românia  |    0.154 |
+| românia  |    0.155 |
 
 ## 2025-05-17 — facebook-post
 
@@ -7435,9 +7435,9 @@ _File: `2025-05-17_dragi-romani-din-diaspora-dreptul-vostru-alegerea-voastra-do`
 | dragi    |    0.417 |
 | merita   |    0.345 |
 | hai      |    0.3   |
-| diasporă |    0.291 |
-| vot      |    0.238 |
-| alegere  |    0.216 |
+| diasporă |    0.292 |
+| vot      |    0.237 |
+| alegere  |    0.217 |
 | dori     |    0.213 |
 | loc      |    0.203 |
 | român    |    0.167 |
@@ -7451,18 +7451,18 @@ _File: `2025-05-17_gust-romanesc-nimic-nu-se-compara-cu-legumele-proaspete-de-l`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| legumă     |    0.384 |
 | gust       |    0.384 |
+| legumă     |    0.384 |
 | food       |    0.356 |
 | proaspăt   |    0.323 |
 | compara    |    0.317 |
-| producător |    0.312 |
 | fyp        |    0.312 |
+| producător |    0.312 |
 | nicusordan |    0.22  |
 | afacere    |    0.213 |
 | local      |    0.209 |
-| românesc   |    0.177 |
-| sine       |    0.095 |
+| românesc   |    0.178 |
+| sine       |    0.094 |
 
 ## 2025-05-17 — facebook-post
 
@@ -7471,7 +7471,7 @@ _File: `2025-05-17_maine-este-o-zi-importanta-pentru-romania-si-trebuie-sa-cont`
 | lemmă     |   TF-IDF |
 |:----------|---------:|
 | continuăm |    0.547 |
-| ieși      |    0.453 |
+| ieși      |    0.454 |
 | vot       |    0.398 |
 | lume      |    0.379 |
 | important |    0.293 |
@@ -7484,14 +7484,14 @@ _File: `2025-05-17_romania-poate-fi-din-nou-locul-in-care-femeile-aleg-sa-raman`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| obligație |    0.465 |
-| femeie    |    0.463 |
+| obligație |    0.468 |
+| femeie    |    0.462 |
 | copil     |    0.39  |
-| alege     |    0.366 |
-| rămâne    |    0.292 |
+| alege     |    0.365 |
+| rămâne    |    0.291 |
 | loc       |    0.286 |
 | trebui    |    0.22  |
-| putea     |    0.204 |
+| putea     |    0.203 |
 | românia   |    0.164 |
 
 ## 2025-05-18 — facebook-post
@@ -7502,19 +7502,19 @@ _File: `2025-05-18_a-fost-o-mobilizare-fara-precedent-si-de-aceea-victoria-este`
 |:---------------|---------:|
 | emotii         |    0.291 |
 | vot            |    0.281 |
-| auzit          |    0.261 |
-| mobilizare     |    0.261 |
+| mobilizare     |    0.26  |
+| auzit          |    0.26  |
 | alegeriromania |    0.251 |
 | victorie       |    0.218 |
-| începem        |    0.214 |
-| reconstrucție  |    0.212 |
+| începem        |    0.216 |
+| reconstrucție  |    0.214 |
 | onestă         |    0.207 |
-| precedent      |    0.206 |
-| lupta          |    0.184 |
-| românie        |    0.184 |
+| precedent      |    0.205 |
+| românie        |    0.185 |
+| lupta          |    0.185 |
 | baza           |    0.178 |
 | voce           |    0.177 |
-| nicusordan     |    0.174 |
+| nicusordan     |    0.173 |
 
 ## 2025-05-18 — facebook-post
 
@@ -7524,13 +7524,13 @@ _File: `2025-05-18_am-plecat-spre-fagaras-cu-mic-cu-mare-votul-este-despre-noi` 
 |:------------|---------:|
 | țară        |    0.45  |
 | decidem     |    0.419 |
-| făgăraș     |    0.382 |
-| construcție |    0.319 |
+| făgăraș     |    0.381 |
+| construcție |    0.321 |
 | speranță    |    0.268 |
 | pleca       |    0.257 |
 | dialog      |    0.249 |
 | mic         |    0.247 |
-| unit        |    0.222 |
+| unit        |    0.223 |
 | vot         |    0.221 |
 | vrea        |    0.122 |
 
@@ -7540,21 +7540,21 @@ _File: `2025-05-18_am-votat-astazi-la-fagaras-in-orasul-meu-natal-in-scoala-in` 
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| vota        |    0.35  |
-| oraș        |    0.294 |
+| vota        |    0.351 |
+| oraș        |    0.293 |
 | dezbina     |    0.173 |
 | reprezentat |    0.173 |
 | schimbare   |    0.17  |
 | rădăcinile  |    0.166 |
-| vot         |    0.161 |
 | aventură    |    0.16  |
+| vot         |    0.16  |
 | pasa        |    0.156 |
 | tăcut       |    0.156 |
-| vrei        |    0.152 |
 | cotitură    |    0.152 |
-| muncitor    |    0.152 |
 | distribui   |    0.152 |
+| muncitor    |    0.152 |
 | bunăstare   |    0.152 |
+| vrei        |    0.152 |
 
 ## 2025-05-18 — facebook-post
 
@@ -7565,9 +7565,9 @@ _File: `2025-05-18_cand-te-intorci-acasa-stii-ca-ai-radacini-dar-si-ca-porti-o` 
 | întorci  |    0.524 |
 | rădăcină |    0.502 |
 | porți    |    0.471 |
-| datorie  |    0.33  |
+| datorie  |    0.329 |
 | acasă    |    0.314 |
-| ști      |    0.211 |
+| ști      |    0.212 |
 
 ## 2025-05-18 — facebook-post
 
@@ -7575,13 +7575,13 @@ _File: `2025-05-18_cu-nostalgie-si-incredere-in-generatiile-tinere-de-azi-va-in`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| nostalgie   |    0.52  |
-| generațiile |    0.496 |
+| nostalgie   |    0.519 |
+| generațiile |    0.495 |
 | tânăr       |    0.37  |
 | invi        |    0.363 |
 | vota        |    0.292 |
 | încredere   |    0.266 |
-| alegere     |    0.243 |
+| alegere     |    0.244 |
 
 ## 2025-05-18 — facebook-post
 
@@ -7589,9 +7589,9 @@ _File: `2025-05-18_fiecare-vot-conteaza-iesim-la-vot-astazi-ca-sa-nu-regretam-m`
 
 | lemmă   |   TF-IDF |
 |:--------|---------:|
-| vot     |    0.587 |
-| regreta |    0.556 |
-| ieșim   |    0.475 |
+| vot     |    0.585 |
+| regreta |    0.554 |
+| ieșim   |    0.479 |
 | conta   |    0.348 |
 
 ## 2025-05-18 — facebook-post
@@ -7600,14 +7600,14 @@ _File: `2025-05-18_important-daca-ora-21-00-va-prinde-la-sectia-de-votare-aveti`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| secție    |    0.593 |
-| vota      |    0.432 |
+| secție    |    0.592 |
+| vota      |    0.433 |
 | votare    |    0.332 |
 | prinde    |    0.285 |
 | așteptare |    0.279 |
 | închide   |    0.27  |
 | oră       |    0.201 |
-| lume      |    0.189 |
+| lume      |    0.188 |
 | important |    0.146 |
 | vrea      |    0.109 |
 | sine      |    0.105 |
@@ -7620,7 +7620,7 @@ _File: `2025-05-18_multumesc-ne-vedem-in-cateva-minute-la-cismigiu` · 3 clean l
 |:---------|---------:|
 | cișmigiu |    0.807 |
 | minut    |    0.514 |
-| vedea    |    0.292 |
+| vedea    |    0.293 |
 
 ## 2025-05-18 — facebook-post
 
@@ -7655,8 +7655,8 @@ _File: `2025-05-18_romaniaonesta-e-foarte-aproape-sa-se-implineasca-asteptam-nu`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | voturilor     |    0.48  |
-| numărătoare   |    0.463 |
-| româniaonestă |    0.429 |
+| numărătoare   |    0.464 |
+| româniaonestă |    0.43  |
 | împlini       |    0.406 |
 | final         |    0.263 |
 | aproape       |    0.26  |
@@ -7670,14 +7670,14 @@ _File: `2025-05-18_un-gand-special-de-recunostinta-si-multumiri-cetatenilor-rom`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | mulțumire    |    0.338 |
-| felicitare   |    0.292 |
+| felicitare   |    0.291 |
 | președintă   |    0.283 |
 | recunoștință |    0.276 |
-| sandu        |    0.265 |
+| sandu        |    0.264 |
 | maia         |    0.262 |
 | gând         |    0.228 |
 | drum         |    0.209 |
-| speranță     |    0.204 |
+| speranță     |    0.205 |
 | susținere    |    0.201 |
 | doamnă       |    0.198 |
 | republică    |    0.196 |
@@ -7691,9 +7691,9 @@ _File: `2025-05-18_votam-azi-ca-sa-nu-ne-para-rau-maine` · 3 clean lemmas_
 
 | lemmă   |   TF-IDF |
 |:--------|---------:|
-| rău     |     0.62 |
-| părea   |     0.56 |
-| vota    |     0.55 |
+| rău     |    0.62  |
+| părea   |    0.56  |
+| vota    |    0.549 |
 
 ## 2025-05-18 — facebook-post
 
@@ -7702,7 +7702,7 @@ _File: `2025-05-18_votul-este-un-drept-dar-si-o-responsabilitate-tu-decizi-pent`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | responsabilitate |    0.699 |
-| vot              |    0.643 |
+| vot              |    0.642 |
 | românia          |    0.315 |
 
 ## 2025-05-21 — facebook-post
@@ -7711,14 +7711,14 @@ _File: `2025-05-21_am-avut-o-prima-discutie-informala-cu-presedinta-parlamentul`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| roberta    |    0.543 |
+| roberta    |    0.542 |
 | președintă |    0.422 |
 | informal   |    0.352 |
 | parlament  |    0.259 |
-| sprijin    |    0.257 |
 | prim       |    0.257 |
+| sprijin    |    0.257 |
 | următor    |    0.253 |
-| perioadă   |    0.231 |
+| perioadă   |    0.232 |
 | discuție   |    0.197 |
 | european   |    0.181 |
 | românia    |    0.123 |
@@ -7731,11 +7731,11 @@ _File: `2025-05-21_prioritatea-principala-in-aceasta-perioada-este-corectarea-d`
 |:-------------|---------:|
 | soluțiilor   |    0.25  |
 | vehiculat    |    0.25  |
-| elaborare    |    0.224 |
 | posibe       |    0.224 |
-| nominalizare |    0.216 |
-| identificare |    0.216 |
+| elaborare    |    0.224 |
 | corectare    |    0.216 |
+| identificare |    0.216 |
+| nominalizare |    0.216 |
 | exclusiv     |    0.212 |
 | axa          |    0.206 |
 | speculație   |    0.198 |
@@ -7743,7 +7743,7 @@ _File: `2025-05-21_prioritatea-principala-in-aceasta-perioada-este-corectarea-d`
 | amâna        |    0.183 |
 | referitor    |    0.172 |
 | reducere     |    0.153 |
-| structură    |    0.15  |
+| prioritate   |    0.15  |
 
 ## 2025-05-22 — facebook-post
 
@@ -7751,19 +7751,19 @@ _File: `2025-05-22_am-fost-bucuros-sa-particip-la-gala-repatriot-un-eveniment-d`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| mediu      |    0.305 |
-| bucuros    |    0.259 |
-| previzibil |    0.259 |
+| mediu      |    0.307 |
+| bucuros    |    0.258 |
+| previzibil |    0.258 |
 | încurca    |    0.254 |
 | particip   |    0.243 |
 | dedicat    |    0.219 |
 | încuraja   |    0.219 |
 | român      |    0.204 |
-| inițiativă |    0.197 |
 | competitiv |    0.197 |
+| inițiativă |    0.197 |
 | stat       |    0.19  |
-| acasă      |    0.188 |
-| diasporă   |    0.177 |
+| acasă      |    0.187 |
+| diasporă   |    0.178 |
 | sprijini   |    0.177 |
 | reveni     |    0.176 |
 
@@ -7773,20 +7773,20 @@ _File: `2025-05-22_astazi-am-primit-validarea-mandatului-de-presedinte-al-roman`
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| democrație      |    0.292 |
-| dezamăgi        |    0.232 |
-| respectat       |    0.232 |
+| democrație      |    0.291 |
+| dezamăgi        |    0.231 |
+| respectat       |    0.231 |
 | promit          |    0.227 |
 | validare        |    0.223 |
-| protejat        |    0.21  |
 | reformare       |    0.21  |
-| cer             |    0.205 |
+| protejat        |    0.21  |
+| cer             |    0.204 |
 | masiv           |    0.202 |
 | responsabilitat |    0.2   |
 | onoare          |    0.194 |
 | hotărâre        |    0.194 |
-| datorie         |    0.17  |
 | președinte      |    0.17  |
+| datorie         |    0.17  |
 | liber           |    0.165 |
 
 ## 2025-05-23 — facebook-post
@@ -7798,7 +7798,7 @@ _File: `2025-05-23_dragi-bucuresteni-orasul-apartine-oamenilor-nu-functiilor-ia`
 | oraș          |    0.259 |
 | tramvai       |    0.257 |
 | urbanism      |    0.227 |
-| modernizare   |    0.218 |
+| modernizare   |    0.22  |
 | general       |    0.21  |
 | dedicar       |    0.153 |
 | contractă     |    0.153 |
@@ -7807,8 +7807,8 @@ _File: `2025-05-23_dragi-bucuresteni-orasul-apartine-oamenilor-nu-functiilor-ia`
 | esențial      |    0.14  |
 | municipiului  |    0.131 |
 | urbanistic    |    0.129 |
-| crucial       |    0.126 |
 | termoficare   |    0.126 |
+| crucial       |    0.126 |
 | dragi         |    0.124 |
 
 ## 2025-05-24 — facebook-post
@@ -7817,21 +7817,21 @@ _File: `2025-05-24_investitia-in-educatia-tinerilor-ii-va-ajuta-pe-ei-sa-creasc`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| educație    |    0.282 |
+| educație    |    0.281 |
 | tinerilor   |    0.265 |
 | universitar |    0.261 |
 | civic       |    0.238 |
 | informatică |    0.166 |
 | deveni      |    0.159 |
 | absolvent   |    0.153 |
-| trebui      |    0.151 |
+| trebui      |    0.152 |
 | angajare    |    0.149 |
 | sprijinire  |    0.145 |
 | inginerie   |    0.142 |
-| artă        |    0.139 |
 | pericolă    |    0.139 |
 | invit       |    0.139 |
-| societate   |    0.137 |
+| artă        |    0.139 |
+| dezbaterii  |    0.139 |
 
 ## 2025-05-24 — facebook-post
 
@@ -7846,11 +7846,11 @@ _File: `2025-05-24_romania-continuam-pe-drumul-democratic-pro-european-si-trans`
 | speranță      |    0.156 |
 | comunitate    |    0.143 |
 | vârstnic      |    0.139 |
-| nepot         |    0.139 |
 | reparat       |    0.139 |
+| nepot         |    0.139 |
 | minorităților |    0.139 |
-| întreg        |    0.137 |
 | arăta         |    0.137 |
+| întreg        |    0.137 |
 | păzi          |    0.133 |
 | pretutindan   |    0.133 |
 | țară          |    0.131 |
@@ -7861,7 +7861,7 @@ _File: `2025-05-25_am-ajuns-la-varsovia-unde-am-o-prima-discutie-cu-prim-minist`
 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
-| prim     |    0.512 |
+| prim     |    0.513 |
 | tusk     |    0.502 |
 | varșovia |    0.475 |
 | donald   |    0.321 |
@@ -7877,17 +7877,17 @@ _File: `2025-05-25_am-avut-astazi-o-discutie-utila-si-foarte-placuta-cu-o-parte`
 |:---------------|---------:|
 | frontieră      |    0.333 |
 | misiune        |    0.307 |
-| poliție        |    0.305 |
+| poliție        |    0.304 |
 | român          |    0.22  |
 | garda          |    0.202 |
 | urez           |    0.202 |
 | varșovia       |    0.197 |
 | plăcut         |    0.189 |
 | profesionalism |    0.177 |
-| zilnic         |    0.173 |
-| proveni        |    0.173 |
+| zilnic         |    0.172 |
+| proveni        |    0.172 |
 | sediu          |    0.17  |
-| util           |    0.165 |
+| util           |    0.167 |
 | agenție        |    0.162 |
 | protejare      |    0.16  |
 
@@ -7898,16 +7898,16 @@ _File: `2025-05-25_am-participat-astazi-cu-emotie-si-speranta-la-marsul-milionu`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | polonia     |    0.309 |
-| trzaskowski |    0.236 |
 | rafa        |    0.236 |
 | marș        |    0.236 |
+| trzaskowski |    0.236 |
 | valoare     |    0.231 |
 | onestitat   |    0.213 |
-| ghida       |    0.207 |
 | varșovia    |    0.207 |
-| seriozitat  |    0.195 |
-| ura         |    0.195 |
+| ghida       |    0.207 |
 | proeuropan  |    0.195 |
+| ura         |    0.195 |
+| seriozitat  |    0.195 |
 | împărtășim  |    0.189 |
 | europe      |    0.184 |
 | emoție      |    0.167 |
@@ -7919,21 +7919,21 @@ _File: `2025-05-25_cu-ocazia-zilei-romanilor-de-pretutindeni-gandurile-mele-se` 
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| hotare          |    0.242 |
 | pretutindeni    |    0.242 |
 | românilor       |    0.242 |
-| pretutindean    |    0.232 |
+| hotare          |    0.242 |
+| pretutindean    |    0.231 |
 | maximă          |    0.224 |
 | creez           |    0.224 |
 | asum            |    0.212 |
 | dragoste        |    0.207 |
 | punt            |    0.207 |
-| aspirație       |    0.2   |
+| aspirație       |    0.199 |
 | zilei           |    0.196 |
 | moștenire       |    0.193 |
 | responsabilitat |    0.179 |
-| cultural        |    0.168 |
-| limbă           |    0.164 |
+| cultural        |    0.167 |
+| națiune         |    0.164 |
 
 ## 2025-05-26 — facebook-post
 
@@ -7941,12 +7941,12 @@ _File: `2025-05-26_astazi-am-depus-juramantul-in-fata-parlamentului-romaniei-ca`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| susțin       |    0.237 |
+| susțin       |    0.236 |
 | energiile    |    0.222 |
-| jurământ     |    0.208 |
+| jurământ     |    0.207 |
 | dezbate      |    0.185 |
 | aduna        |    0.181 |
-| amâna        |    0.173 |
+| amâna        |    0.172 |
 | românia      |    0.168 |
 | cultură      |    0.167 |
 | chema        |    0.166 |
@@ -7954,7 +7954,7 @@ _File: `2025-05-26_astazi-am-depus-juramantul-in-fata-parlamentului-romaniei-ca`
 | viu          |    0.161 |
 | președinte   |    0.155 |
 | depune       |    0.153 |
-| republicii   |    0.149 |
+| republicii   |    0.15  |
 | responsabil  |    0.146 |
 
 ## 2025-05-28 — facebook-post
@@ -7964,8 +7964,8 @@ _File: `2025-05-28_am-fost-onorat-sa-port-o-discutie-cu-presedintele-donald-tru`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | trump       |    0.306 |
-| strategic   |    0.273 |
-| interes     |    0.254 |
+| strategic   |    0.272 |
+| interes     |    0.255 |
 | conversație |    0.236 |
 | felicitare  |    0.215 |
 | port        |    0.204 |
@@ -7991,13 +7991,13 @@ _File: `2025-05-29_decizia-surprinzatoare-a-curtii-constitutionale-anuntata-ast`
 | motivare     |    0.214 |
 | contradicție |    0.21  |
 | decizie      |    0.207 |
-| avere        |    0.206 |
 | deficiență   |    0.206 |
+| avere        |    0.206 |
 | fermitate    |    0.199 |
 | public       |    0.186 |
 | corecta      |    0.177 |
-| transparență |    0.171 |
 | integritate  |    0.171 |
+| transparență |    0.171 |
 | natură       |    0.17  |
 | identifica   |    0.166 |
 
@@ -8009,7 +8009,7 @@ _File: `2025-05-29_gandurile-mele-se-indreapta-catre-familiile-lovite-de-inunda`
 |:-----------|---------:|
 | climatic   |    0.327 |
 | rapid      |    0.223 |
-| afecta     |    0.201 |
+| afecta     |    0.202 |
 | autoritate |    0.186 |
 | urgențelor |    0.186 |
 | rezilient  |    0.186 |
@@ -8020,8 +8020,8 @@ _File: `2025-05-29_gandurile-mele-se-indreapta-catre-familiile-lovite-de-inunda`
 | inundație  |    0.16  |
 | salvare    |    0.154 |
 | prevenție  |    0.149 |
-| vital      |    0.149 |
 | lovi       |    0.149 |
+| vital      |    0.149 |
 
 ## 2025-05-31 — facebook-post
 
@@ -8034,13 +8034,13 @@ _File: `2025-05-31_am-fost-astazi-in-comuna-bacel-grav-afectata-de-inundatii-am`
 | disfuncțional |    0.265 |
 | comună        |    0.243 |
 | inundație     |    0.238 |
-| cunoscut      |    0.213 |
-| sistematic    |    0.208 |
+| cunoscut      |    0.212 |
+| sistematic    |    0.207 |
 | funcțional    |    0.183 |
 | intervenție   |    0.177 |
 | trebui        |    0.169 |
+| reacție       |    0.163 |
 | presiune      |    0.163 |
-| reacție       |    0.162 |
 | echipă        |    0.155 |
 | consolidare   |    0.153 |
 | local         |    0.151 |
@@ -8056,16 +8056,16 @@ _File: `2025-05-31_astazi-am-fost-la-praid-alaturi-de-o-comunitate-profund-afec`
 | comunitate  |    0.181 |
 | neglijență  |    0.176 |
 | pătrundere  |    0.176 |
-| miniștrii   |    0.169 |
 | dulce       |    0.169 |
-| controlat   |    0.169 |
+| miniștrii   |    0.169 |
 | promi       |    0.169 |
-| compensație |    0.169 |
 | acordare    |    0.169 |
-| salină      |    0.163 |
+| controlat   |    0.169 |
+| compensație |    0.169 |
 | evacuare    |    0.163 |
-| investiga   |    0.151 |
-| turism      |    0.151 |
+| salină      |    0.163 |
+| mii         |    0.151 |
+| relansare   |    0.151 |
 
 ## 2025-06-01 — facebook-post
 
@@ -8080,8 +8080,8 @@ _File: `2025-06-01_astazi-de-1-iunie-celebram-inocenta-bucuria-si-speranta-pe-c`
 | crește          |    0.203 |
 | lips            |    0.196 |
 | celebrăm        |    0.175 |
-| iubire          |    0.169 |
-| clădi           |    0.169 |
+| iubire          |    0.168 |
+| clădi           |    0.168 |
 | bin             |    0.163 |
 | sărăcie         |    0.159 |
 | viitor          |    0.157 |
@@ -8098,10 +8098,10 @@ _File: `2025-06-02_am-incheiat-astazi-un-summit-b9-important-la-vilnius-alaturi`
 | summit      |    0.323 |
 | colectiv    |    0.257 |
 | flanc       |    0.241 |
-| estic       |    0.234 |
+| estic       |    0.233 |
 | apărare     |    0.175 |
 | ghida       |    0.17  |
-| credibil    |    0.155 |
+| credibil    |    0.157 |
 | vilnius     |    0.151 |
 | convingere  |    0.149 |
 | fermă       |    0.147 |
@@ -8120,17 +8120,17 @@ _File: `2025-06-04_astazi-am-prezentat-principalele-teme-care-se-afla-pe-agenda`
 | iunie            |    0.416 |
 | seriozitate      |    0.22  |
 | extern           |    0.191 |
-| angaja           |    0.167 |
+| angaja           |    0.166 |
 | participare      |    0.156 |
 | românia          |    0.146 |
-| summit           |    0.143 |
+| summit           |    0.142 |
 | activitate       |    0.138 |
 | deficit          |    0.137 |
-| prezenta         |    0.136 |
 | intern           |    0.136 |
+| prezenta         |    0.136 |
 | responsabilitate |    0.129 |
-| politicăexternă  |    0.128 |
 | stabilităție     |    0.128 |
+| politicăexternă  |    0.128 |
 | sine             |    0.126 |
 
 ## 2025-06-08 — facebook-post
@@ -8145,15 +8145,15 @@ _File: `2025-06-08_astazi-romania-a-celebrat-o-pe-una-dintre-cele-mai-mari-spor`
 | tricolor    |    0.262 |
 | celebra     |    0.25  |
 | sportiv     |    0.25  |
-| inspira     |    0.237 |
+| inspira     |    0.236 |
+| simbol      |    0.218 |
 | excepțional |    0.218 |
-| simbol      |    0.216 |
-| performanță |    0.214 |
+| performanță |    0.213 |
 | mulțumim    |    0.176 |
+| istorie     |    0.168 |
 | curaj       |    0.168 |
-| istorie     |    0.167 |
 | oferi       |    0.141 |
-| lume        |    0.129 |
+| lume        |    0.128 |
 
 ## 2025-06-10 — facebook-post
 
@@ -8168,14 +8168,14 @@ _File: `2025-06-10_i-am-urat-un-calduros-bun-venit-in-romania-majestatii-sale-f`
 | legătură   |    0.171 |
 | felipe     |    0.163 |
 | puternic   |    0.157 |
-| spaniol    |    0.156 |
 | profunde   |    0.156 |
+| spaniol    |    0.156 |
 | grupului   |    0.151 |
-| cincu      |    0.147 |
 | călduros   |    0.147 |
+| cincu      |    0.147 |
 | -lea       |    0.143 |
 | ura        |    0.135 |
-| pilon      |    0.127 |
+| prietenie  |    0.127 |
 
 ## 2025-06-10 — facebook-post
 
@@ -8183,9 +8183,9 @@ _File: `2025-06-10_impreuna-suntem-mai-puternici-republicamoldova-romania` · 4 
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| republicamoldova |    0.799 |
-| puternic         |    0.427 |
-| împreună         |    0.371 |
+| republicamoldova |    0.798 |
+| puternic         |    0.429 |
+| împreună         |    0.372 |
 | românia          |    0.202 |
 
 ## 2025-06-10 — facebook-post
@@ -8198,13 +8198,13 @@ _File: `2025-06-10_ma-bucur-sa-ma-aflu-astazi-la-chisinau-in-prima-mea-vizita-o`
 | moldova     |    0.298 |
 | cuprinzător |    0.293 |
 | crucial     |    0.252 |
-| reziliență  |    0.238 |
+| reziliență  |    0.237 |
 | sincer      |    0.224 |
 | chișinău    |    0.22  |
 | românia     |    0.208 |
-| european    |    0.203 |
+| european    |    0.204 |
 | constant    |    0.202 |
-| bucura      |    0.177 |
+| bucura      |    0.178 |
 | parcurs     |    0.176 |
 | consolidare |    0.169 |
 | vizită      |    0.168 |
@@ -8216,17 +8216,17 @@ _File: `2025-06-10_participare-la-evenimentul-viitorul-european-comun-al-romani`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| republicii  |    0.542 |
+| republicii  |    0.543 |
 | moldova     |    0.436 |
-| sandu       |    0.325 |
+| sandu       |    0.324 |
 | maia        |    0.321 |
 | participare |    0.272 |
 | eveniment   |    0.25  |
-| comun       |    0.212 |
+| comun       |    0.211 |
 | alături     |    0.21  |
 | viitor      |    0.172 |
 | european    |    0.149 |
-| președinte  |    0.141 |
+| președinte  |    0.14  |
 | românia     |    0.101 |
 
 ## 2025-06-11 — facebook-post
@@ -8245,8 +8245,8 @@ _File: `2025-06-11_astazi-la-odesa-am-avut-o-discutie-foarte-buna-cu-reprezenta`
 | sud           |    0.203 |
 | cultural      |    0.181 |
 | aborda        |    0.178 |
-| instituțional |    0.177 |
-| limbă         |    0.177 |
+| instituțional |    0.176 |
+| limbă         |    0.176 |
 | identitate    |    0.173 |
 | confrunta     |    0.166 |
 | acces         |    0.151 |
@@ -8258,13 +8258,13 @@ _File: `2025-06-11_astazi-la-odesa-in-marja-summitului-ucraina-europa-de-sud-es`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | trilateral       |    0.351 |
-| ucraina          |    0.311 |
+| ucraina          |    0.31  |
 | precum           |    0.183 |
 | moldova          |    0.171 |
 | marjă            |    0.168 |
 | volodîmîr        |    0.168 |
-| sud-est          |    0.163 |
 | transfrontalier  |    0.163 |
+| sud-est          |    0.163 |
 | republicamoldova |    0.158 |
 | odesa            |    0.154 |
 | zelenski         |    0.148 |
@@ -8286,8 +8286,8 @@ _File: `2025-06-13_mineriada-din-13-15-iunie-1990-ramane-unul-dintre-cele-mai-d`
 | vinovații   |    0.213 |
 | presus      |    0.208 |
 | definitiv   |    0.182 |
-| suferință   |    0.176 |
 | lumină      |    0.176 |
+| suferință   |    0.176 |
 | ideal       |    0.174 |
 | hotărâre    |    0.174 |
 | pronunța    |    0.167 |
@@ -8304,13 +8304,13 @@ _File: `2025-06-16_i-am-invitat-astazi-la-palatul-cotroceni-pe-reprezentantii-s`
 | sinceră    |    0.245 |
 | esențial   |    0.223 |
 | sindicat   |    0.22  |
-| orienta    |    0.215 |
 | cotitură   |    0.215 |
+| orienta    |    0.215 |
 | trasa      |    0.21  |
 | implicat   |    0.202 |
 | pilon      |    0.19  |
 | adecvat    |    0.19  |
-| echilibrat |    0.178 |
+| echilibrat |    0.177 |
 | comunicare |    0.157 |
 | genera     |    0.155 |
 | echilibru  |    0.148 |
@@ -8323,20 +8323,20 @@ _File: `2025-06-18_romania-se-confrunta-cu-un-nivel-ingrijorator-de-violenta-im`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| violență     |    0.466 |
+| violență     |    0.465 |
 | femeie       |    0.289 |
-| niciuna      |    0.257 |
+| niciuna      |    0.256 |
 | victimă      |    0.226 |
 | domestic     |    0.175 |
 | trata        |    0.149 |
 | confrunta    |    0.144 |
 | sine         |    0.139 |
-| construi     |    0.12  |
+| construi     |    0.121 |
 | solidaritat  |    0.113 |
-| agresiunilor |    0.113 |
 | creze        |    0.113 |
-| înfrânt      |    0.108 |
+| agresiunilor |    0.113 |
 | îndreptățit  |    0.108 |
+| înfrânt      |    0.108 |
 | caz          |    0.106 |
 
 ## 2025-06-20 — facebook-post
@@ -8347,19 +8347,19 @@ _File: `2025-06-20_l-am-desemnat-astazi-pe-domnul-ilie-bolojan-in-functia-de-pr`
 |:----------------|---------:|
 | dura            |    0.247 |
 | eficient        |    0.229 |
-| ilie            |    0.21  |
-| bolojan         |    0.205 |
+| ilie            |    0.209 |
+| bolojan         |    0.204 |
 | democrațiile    |    0.197 |
 | necesar         |    0.195 |
 | urgența         |    0.189 |
 | administrație   |    0.187 |
 | esențial        |    0.18  |
-| consolidat      |    0.178 |
+| consolidat      |    0.177 |
 | relansare       |    0.169 |
 | seriozitate     |    0.169 |
-| domn            |    0.157 |
-| desemna         |    0.146 |
+| domn            |    0.156 |
 | responsabilitat |    0.146 |
+| județean        |    0.146 |
 
 ## 2025-06-25 — facebook-post
 
@@ -8368,14 +8368,14 @@ _File: `2025-06-25_a-fost-o-reala-onoare-sa-ma-intalnesc-cu-prim-ministrul-rega`
 | lemmă                           |   TF-IDF |
 |:--------------------------------|---------:|
 | regat                           |    0.405 |
-| starmer                         |    0.221 |
 | contracarare                    |    0.221 |
-| northatlantictreatyorganization |    0.219 |
+| starmer                         |    0.221 |
+| northatlantictreatyorganization |    0.218 |
 | unit                            |    0.215 |
 | marja                           |    0.194 |
 | alia                            |    0.18  |
-| reconfirma                      |    0.175 |
 | accent                          |    0.175 |
+| reconfirma                      |    0.175 |
 | strâns                          |    0.173 |
 | deosebit                        |    0.169 |
 | haga                            |    0.168 |
@@ -8391,16 +8391,16 @@ _File: `2025-06-25_am-avut-o-intalnire-productiva-si-consistenta-cu-presedintel`
 |:-------------|---------:|
 | comun        |    0.335 |
 | regiune      |    0.269 |
-| strategic    |    0.24  |
+| strategic    |    0.239 |
 | natosummit   |    0.236 |
 | ne-          |    0.207 |
 | productiv    |    0.203 |
 | turcia       |    0.186 |
 | prietenie    |    0.184 |
 | durată       |    0.181 |
-| haga         |    0.172 |
-| geopolitic   |    0.16  |
-| consistent   |    0.157 |
+| haga         |    0.171 |
+| geopolitic   |    0.161 |
+| consistent   |    0.156 |
 | negru        |    0.155 |
 | semnificativ |    0.153 |
 | concentra    |    0.145 |
@@ -8425,7 +8425,7 @@ _File: `2025-06-25_am-avut-o-intrevedere-foarte-buna-cu-presedintele-petr-pavel`
 | sprijinim                       |    0.2   |
 | haga                            |    0.181 |
 | descurajare                     |    0.18  |
-| european                        |    0.166 |
+| european                        |    0.167 |
 
 ## 2025-06-25 — facebook-post
 
@@ -8443,7 +8443,7 @@ _File: `2025-06-26_am-avut-o-prima-intalnire-cu-membrii-romani-ai-parlamentului`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| european     |    0.313 |
+| european     |    0.314 |
 | pro-european |    0.269 |
 | strâns       |    0.235 |
 | profil       |    0.232 |
@@ -8451,13 +8451,13 @@ _File: `2025-06-26_am-avut-o-prima-intalnire-cu-membrii-romani-ai-parlamentului`
 | coordonare   |    0.216 |
 | princip      |    0.214 |
 | românia      |    0.214 |
-| promova      |    0.211 |
+| promova      |    0.212 |
 | agendă       |    0.206 |
-| menține      |    0.202 |
 | întări       |    0.202 |
+| menține      |    0.202 |
 | prioritate   |    0.18  |
 | solid        |    0.179 |
-| angajament   |    0.172 |
+| angajament   |    0.171 |
 
 ## 2025-06-26 — facebook-post
 
@@ -8465,18 +8465,18 @@ _File: `2025-06-26_am-avut-un-dialog-foarte-bun-cu-presedintele-consiliului-eur`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
+| european    |    0.329 |
 | antnio      |    0.329 |
-| european    |    0.328 |
-| reitera     |    0.288 |
 | uniuni      |    0.288 |
+| reitera     |    0.288 |
 | reuniuni    |    0.259 |
 | costa       |    0.241 |
 | bruxelles   |    0.236 |
-| strânge     |    0.211 |
+| strânge     |    0.21  |
 | membră      |    0.209 |
 | competitiv  |    0.207 |
 | colabora    |    0.201 |
-| ferm        |    0.19  |
+| ferm        |    0.189 |
 | consolidare |    0.182 |
 | angajament  |    0.18  |
 | dialog      |    0.171 |
@@ -8490,15 +8490,15 @@ _File: `2025-07-02_am-aflat-cu-profunda-tristete-vestea-disparitiei-lui-mihai-l`
 | sport         |    0.323 |
 | mihai         |    0.284 |
 | leu           |    0.271 |
-| legendă       |    0.196 |
+| dispariție    |    0.196 |
 | verticalitate |    0.196 |
 | bun-simț      |    0.196 |
-| dispariție    |    0.196 |
-| profundă      |    0.188 |
+| legendă       |    0.196 |
+| profundă      |    0.187 |
 | campion       |    0.176 |
 | pasiune       |    0.172 |
-| tristețe      |    0.172 |
 | transmit      |    0.172 |
+| tristețe      |    0.172 |
 | sursa         |    0.172 |
 | sincere       |    0.168 |
 | condoleanță   |    0.165 |
@@ -8509,18 +8509,18 @@ _File: `2025-07-08_l-am-numit-astazi-pe-dacian-cosmin-dragos-in-functia-de-jude`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| administrativ |    0.383 |
+| administrativ |    0.382 |
 | dragoș        |    0.306 |
 | dacian        |    0.226 |
 | facultate     |    0.201 |
 | cosmin        |    0.201 |
-| personalitate |    0.196 |
+| personalitate |    0.195 |
 | cod           |    0.179 |
 | recunoaște    |    0.169 |
 | judecător     |    0.162 |
 | profesor      |    0.162 |
-| supremație    |    0.126 |
 | științe       |    0.126 |
+| supremație    |    0.126 |
 | domeniu       |    0.125 |
 | cluj-napoca   |    0.121 |
 | fundamenta    |    0.116 |
@@ -8553,11 +8553,11 @@ _File: `2025-07-14_masurile-fiscale-adoptate-acum-reprezinta-o-situatie-provizo`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| tva           |    0.283 |
+| tva           |    0.282 |
 | vrea          |    0.254 |
-| financiar     |    0.232 |
+| financiar     |    0.231 |
 | piață         |    0.213 |
-| măsură        |    0.183 |
+| măsură        |    0.182 |
 | neonorat      |    0.142 |
 | privilegiilor |    0.142 |
 | reevaluare    |    0.136 |
@@ -8565,8 +8565,8 @@ _File: `2025-07-14_masurile-fiscale-adoptate-acum-reprezinta-o-situatie-provizo`
 | intra         |    0.135 |
 | trece         |    0.135 |
 | redresa       |    0.132 |
-| realizabă     |    0.132 |
 | corecție      |    0.132 |
+| realizabă     |    0.132 |
 | provizorie    |    0.128 |
 
 ## 2025-07-18 — facebook-post
@@ -8576,19 +8576,19 @@ _File: `2025-07-18_am-avut-o-intalnire-foarte-buna-cu-cancelarul-federal-al-ger`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | germania     |    0.419 |
-| industrie    |    0.229 |
+| industrie    |    0.23  |
 | merz         |    0.202 |
 | friedrich    |    0.202 |
 | tehnologiile |    0.181 |
 | federal      |    0.177 |
 | cancelar     |    0.171 |
 | german       |    0.166 |
-| apropiere    |    0.152 |
-| reflecta     |    0.148 |
-| apreciez     |    0.148 |
+| apropiere    |    0.151 |
+| reflecta     |    0.149 |
+| apreciez     |    0.147 |
 | ocde         |    0.141 |
-| minoritate   |    0.139 |
-| dorință      |    0.139 |
+| dorință      |    0.14  |
+| minoritate   |    0.14  |
 | juca         |    0.138 |
 
 ## 2025-07-21 — facebook-post
@@ -8603,15 +8603,15 @@ _File: `2025-07-21_ii-indemn-pe-cei-care-inca-se-indoiesc-de-interferentele-rus`
 | noiembrie                       |    0.198 |
 | dovedire                        |    0.17  |
 | încercările                     |    0.17  |
-| rusia                           |    0.169 |
+| rusia                           |    0.17  |
 | northatlantictreatyorganization |    0.161 |
-| britania                        |    0.158 |
-| îndoii                          |    0.158 |
-| intelligence                    |    0.158 |
-| gru                             |    0.158 |
+| intelligence                    |    0.157 |
+| britania                        |    0.157 |
+| îndoii                          |    0.157 |
+| gru                             |    0.157 |
 | stat                            |    0.155 |
 | îndemn                          |    0.146 |
-| alegere                         |    0.143 |
+| alegere                         |    0.144 |
 
 ## 2025-07-22 — facebook-post
 
@@ -8620,20 +8620,20 @@ _File: `2025-07-22_ma-ingrijoreaza-profund-rezultatele-studiului-prezentat-asta`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | trecut       |    0.206 |
-| dezinformare |    0.177 |
+| dezinformare |    0.176 |
 | lipsă        |    0.175 |
 | profund      |    0.173 |
-| imagine      |    0.159 |
-| construi     |    0.149 |
-| foamet       |    0.14  |
+| imagine      |    0.16  |
+| construi     |    0.15  |
 | represiune   |    0.14  |
+| foamet       |    0.14  |
 | întreținu    |    0.134 |
-| ceaușescu    |    0.13  |
 | inscop       |    0.13  |
+| ceaușescu    |    0.13  |
 | încredere    |    0.129 |
-| nostalgie    |    0.126 |
-| dezamăgire   |    0.126 |
 | echitate     |    0.126 |
+| combatem     |    0.126 |
+| nostalgie    |    0.126 |
 
 ## 2025-07-24 — facebook-post
 
@@ -8643,18 +8643,18 @@ _File: `2025-07-24_ieri-am-avut-o-intalnire-cu-ministrul-mediului-diana-buzoian`
 |:--------------|---------:|
 | romsilva      |    0.352 |
 | reformă       |    0.177 |
-| forestier     |    0.176 |
 | buzoianu      |    0.176 |
-| mediu         |    0.172 |
+| forestier     |    0.176 |
+| mediu         |    0.173 |
 | priorita      |    0.169 |
 | nemeritat     |    0.169 |
 | reorganizare  |    0.158 |
 | diana         |    0.151 |
-| privilegiu    |    0.148 |
 | pădure        |    0.148 |
+| privilegiu    |    0.148 |
 | eficientizare |    0.145 |
-| gestionare    |    0.145 |
 | asocia        |    0.145 |
+| gestionare    |    0.145 |
 | instituție    |    0.144 |
 
 ## 2025-07-25 — facebook-post
@@ -8664,20 +8664,20 @@ _File: `2025-07-25_am-avut-o-intalnire-constructiva-cu-reprezentanti-ai-mediulu`
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
 | austriac       |    0.429 |
-| salzburg       |    0.232 |
+| salzburg       |    0.231 |
 | încurajare     |    0.222 |
-| interes        |    0.218 |
+| interes        |    0.219 |
 | tehnologiile   |    0.199 |
 | economic       |    0.195 |
-| oportunitățile |    0.188 |
 | atragere       |    0.188 |
+| oportunitățile |    0.188 |
 | austria        |    0.182 |
-| constructiv    |    0.174 |
+| constructiv    |    0.173 |
 | valorifica     |    0.17  |
 | construcție    |    0.155 |
-| sublinia       |    0.155 |
+| sublinia       |    0.154 |
 | ambii          |    0.149 |
-| bilateral      |    0.139 |
+| bilateral      |    0.14  |
 
 ## 2025-07-25 — facebook-post
 
@@ -8688,18 +8688,18 @@ _File: `2025-07-25_austria-si-romania-intra-intr-un-nou-capitol-al-relatiei-bil`
 | austria    |    0.698 |
 | sprijinim  |    0.236 |
 | deschis    |    0.214 |
-| extindere  |    0.207 |
+| extindere  |    0.206 |
 | capitol    |    0.197 |
-| investitor |    0.196 |
-| bilateral  |    0.178 |
+| investitor |    0.195 |
+| bilateral  |    0.179 |
 | firmă      |    0.176 |
 | reveni     |    0.166 |
 | cooperare  |    0.165 |
-| prezență   |    0.161 |
+| prezență   |    0.162 |
 | dialog     |    0.154 |
 | crește     |    0.147 |
-| intra      |    0.14  |
-| românesc   |    0.136 |
+| intra      |    0.141 |
+| românesc   |    0.137 |
 
 ## 2025-07-26 — facebook-post
 
@@ -8714,8 +8714,8 @@ _File: `2025-07-26_in-cadrul-intalnirii-de-astazi-cu-cancelarul-federal-al-aust`
 | explora    |    0.202 |
 | christian  |    0.202 |
 | stocker    |    0.202 |
-| federal    |    0.177 |
 | extins     |    0.177 |
+| federal    |    0.177 |
 | cancelar   |    0.171 |
 | dunăre     |    0.164 |
 | tehnologiu |    0.162 |
@@ -8730,19 +8730,19 @@ _File: `2025-07-27_alaturi-de-austria-al-treilea-mare-investitor-din-romania-in`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | austria     |    0.544 |
-| parteneriat |    0.348 |
-| fyp         |    0.281 |
+| parteneriat |    0.35  |
+| fyp         |    0.28  |
 | constructiv |    0.259 |
-| romania     |    0.238 |
+| romania     |    0.237 |
 | investitor  |    0.229 |
 | etapă       |    0.223 |
-| nicusordan  |    0.198 |
-| cooperare   |    0.193 |
+| nicusordan  |    0.197 |
+| cooperare   |    0.192 |
 | consolidare |    0.191 |
 | dialog      |    0.18  |
 | intra       |    0.164 |
-| alături     |    0.163 |
-| economic    |    0.145 |
+| alături     |    0.162 |
+| economic    |    0.146 |
 | întru       |    0.139 |
 
 ## 2025-07-28 — facebook-post
@@ -8751,16 +8751,16 @@ _File: `2025-07-28_astazi-am-avut-placerea-de-a-l-primi-la-palatul-cotroceni-pe`
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| coreea          |    0.251 |
-| parteneriatului |    0.251 |
+| coreea          |    0.25  |
+| parteneriatului |    0.25  |
 | turism          |    0.215 |
 | intensificare   |    0.211 |
 | adunare         |    0.207 |
 | împărtășim      |    0.2   |
 | sud             |    0.195 |
 | substanțial     |    0.184 |
-| plăcere         |    0.182 |
 | apropia         |    0.182 |
+| plăcere         |    0.182 |
 | provocăre       |    0.172 |
 | princip         |    0.171 |
 | cultură         |    0.17  |
@@ -8774,20 +8774,20 @@ _File: `2025-07-29_sunt-profund-afectat-de-pierderile-de-vieti-omenesti-si-de-d`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | familie       |    0.182 |
-| omenesc       |    0.169 |
-| voluntare     |    0.169 |
-| comunităților |    0.169 |
-| inundațiilor  |    0.169 |
 | mitu          |    0.169 |
+| inundațiilor  |    0.169 |
+| comunităților |    0.169 |
+| voluntare     |    0.169 |
 | sustenabe     |    0.169 |
 | devastatoare  |    0.169 |
+| omenesc       |    0.169 |
 | sine          |    0.166 |
 | dezastrelor   |    0.162 |
 | întrerupere   |    0.162 |
 | îndoliat      |    0.156 |
 | afectat       |    0.156 |
 | afla          |    0.155 |
-| gândurile     |    0.148 |
+| climatic      |    0.148 |
 
 ## 2025-07-30 — facebook-post
 
@@ -8799,15 +8799,15 @@ _File: `2025-07-30_astazi-comemorand-ziua-internationala-pentru-lupta-impotriva`
 | trafic          |    0.224 |
 | rețea           |    0.186 |
 | forțat          |    0.164 |
-| comemora        |    0.164 |
 | traficant       |    0.164 |
+| comemora        |    0.164 |
 | ocrotire        |    0.164 |
 | persoană        |    0.158 |
-| exploatare      |    0.152 |
-| traumă          |    0.152 |
-| transfrontalier |    0.152 |
-| compasiune      |    0.152 |
 | tratare         |    0.152 |
+| traumă          |    0.152 |
+| exploatare      |    0.152 |
+| compasiune      |    0.152 |
+| transfrontalier |    0.152 |
 | internațional   |    0.149 |
 | exploata        |    0.148 |
 
@@ -8824,12 +8824,12 @@ _File: `2025-07-30_este-total-aberant-ca-pensia-pe-care-o-ia-un-magistrat-sa-fi`
 | lege            |    0.181 |
 | regulă          |    0.156 |
 | respecta        |    0.142 |
-| justiție        |    0.132 |
-| descoperit      |    0.125 |
+| justiție        |    0.133 |
 | ezita           |    0.125 |
-| funcționalitate |    0.125 |
 | imprevizibil    |    0.125 |
 | redi            |    0.125 |
+| descoperit      |    0.125 |
+| funcționalitate |    0.125 |
 | clar            |    0.121 |
 | prealabil       |    0.121 |
 
@@ -8840,20 +8840,20 @@ _File: `2025-07-31_astazi-in-ziua-europeana-de-comemorare-a-holocaustului-impot`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | holocaustului |    0.36  |
-| comunitate    |    0.205 |
+| comunitate    |    0.206 |
 | romilor       |    0.2   |
 | schimbat      |    0.185 |
-| egalitate     |    0.176 |
-| discriminare  |    0.176 |
-| reamintim     |    0.176 |
+| reamintim     |    0.175 |
+| discriminare  |    0.175 |
+| egalitate     |    0.175 |
 | mentalitate   |    0.172 |
 | greșelile     |    0.172 |
-| comemorare    |    0.168 |
 | concretă      |    0.168 |
+| comemorare    |    0.168 |
 | societate     |    0.166 |
-| destin        |    0.163 |
-| conștient     |    0.156 |
-| dureros       |    0.154 |
+| destin        |    0.165 |
+| conștient     |    0.155 |
+| proveni       |    0.153 |
 
 ## 2025-08-10 — facebook-post
 
@@ -8875,10 +8875,10 @@ _File: `2025-08-10_orheiul-vechi-a-rasunat-de-muzica-folk-la-festivalul-lupilor`
 | călduros   |    0.465 |
 | festival   |    0.453 |
 | primire    |    0.391 |
-| weekend    |    0.383 |
+| weekend    |    0.382 |
 | vechi      |    0.342 |
 | nicusordan |    0.295 |
-| muzică     |    0.274 |
+| muzică     |    0.275 |
 
 ## 2025-08-12 — facebook-post
 
@@ -8886,21 +8886,21 @@ _File: `2025-08-12_aceste-zile-petrecute-dincolo-de-prut-ne-au-reamintit-cat-de`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| prețui     |    0.38  |
-| prut       |    0.36  |
+| prețui     |    0.379 |
+| prut       |    0.359 |
 | petrece    |    0.3   |
 | apropia    |    0.297 |
 | reaminti   |    0.289 |
 | nicusordan |    0.234 |
-| dincolo    |    0.22  |
 | republică  |    0.22  |
+| dincolo    |    0.22  |
 | legătură   |    0.215 |
 | moldova    |    0.2   |
-| puternic   |    0.197 |
-| unit       |    0.19  |
+| puternic   |    0.198 |
+| unit       |    0.191 |
 | privi      |    0.19  |
 | încredere  |    0.189 |
-| rămâne     |    0.166 |
+| rămâne     |    0.165 |
 
 ## 2025-08-12 — facebook-post
 
@@ -8908,7 +8908,7 @@ _File: `2025-08-12_salut-eforturile-presedintelui-donald-trump-de-a-contribui-l`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| ucraina      |    0.278 |
+| ucraina      |    0.277 |
 | construi     |    0.223 |
 | pace         |    0.217 |
 | european     |    0.209 |
@@ -8920,8 +8920,8 @@ _File: `2025-08-12_salut-eforturile-presedintelui-donald-trump-de-a-contribui-l`
 | suveranitate |    0.167 |
 | teritorial   |    0.167 |
 | viitor       |    0.161 |
-| durabil      |    0.161 |
-| susținem     |    0.161 |
+| susținem     |    0.16  |
+| durabil      |    0.16  |
 | declanșa     |    0.157 |
 
 ## 2025-08-13 — facebook-post
@@ -8930,21 +8930,21 @@ _File: `2025-08-13_am-participat-astazi-la-videoconferinta-coalitiei-de-vointa` 
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| pace            |    0.41  |
-| ucraina         |    0.263 |
+| pace            |    0.411 |
+| ucraina         |    0.262 |
 | trump           |    0.225 |
 | poziție         |    0.198 |
 | președinte      |    0.187 |
 | obținem         |    0.183 |
 | videoconferință |    0.174 |
-| federației      |    0.167 |
-| încetare        |    0.167 |
-| unitar          |    0.158 |
+| federației      |    0.166 |
+| încetare        |    0.166 |
 | securitate      |    0.158 |
-| însoți          |    0.156 |
+| unitar          |    0.158 |
 | continent       |    0.156 |
+| însoți          |    0.156 |
 | începere        |    0.154 |
-| durabil         |    0.152 |
+| determinare     |    0.152 |
 
 ## 2025-08-17 — facebook-post
 
@@ -8952,19 +8952,19 @@ _File: `2025-08-17_astazi-in-cadrul-unei-noi-videoconferinte-a-coalitiei-de-voi`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| ucraina     |    0.465 |
+| ucraina     |    0.464 |
 | rusia       |    0.327 |
 | securitate  |    0.21  |
-| pace        |    0.204 |
+| pace        |    0.205 |
 | sprijin     |    0.187 |
-| garanție    |    0.15  |
+| garanție    |    0.149 |
 | consolidare |    0.145 |
 | propriu     |    0.138 |
 | civile      |    0.131 |
 | nevinovat   |    0.131 |
 | arăta       |    0.129 |
 | oferire     |    0.126 |
-| coaliție    |    0.123 |
+| coaliție    |    0.122 |
 | proces      |    0.12  |
 | însemna     |    0.119 |
 
@@ -8979,10 +8979,10 @@ _File: `2025-08-17_cele-mai-frumoase-locuri-pe-care-le-am-vizitat-cu-familia-su`
 | sâmbătă    |    0.409 |
 | vizita     |    0.329 |
 | nicusordan |    0.288 |
-| familie    |    0.273 |
+| familie    |    0.272 |
 | rămâne     |    0.204 |
 | loc        |    0.2   |
-| românia    |    0.114 |
+| românia    |    0.115 |
 
 ## 2025-08-18 — facebook-post
 
@@ -8993,13 +8993,13 @@ _File: `2025-08-18_o-veste-buna-agentia-de-rating-fitch-a-confirmat-vineri-rati`
 | rating      |    0.586 |
 | agenție     |    0.278 |
 | negativ     |    0.264 |
-| confirma    |    0.245 |
-| perspectivă |    0.208 |
+| confirma    |    0.244 |
+| perspectivă |    0.209 |
 | fitch       |    0.193 |
-| românia     |    0.175 |
+| românia     |    0.176 |
 | îndeplinire |    0.166 |
 | seriozitate |    0.166 |
-| reafirm     |    0.16  |
+| reafirm     |    0.162 |
 | veste       |    0.145 |
 | iulie       |    0.145 |
 | față        |    0.142 |
@@ -9012,19 +9012,19 @@ _File: `2025-08-18_rusia-nu-isi-doreste-pacea-in-cadrul-coalitiei-pentru-vointa`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| echitabile |    0.402 |
+| echitabile |    0.401 |
 | rusia      |    0.4   |
 | exercita   |    0.304 |
-| voință     |    0.247 |
+| voință     |    0.248 |
 | presiune   |    0.236 |
-| nicusordan |    0.23  |
-| pace       |    0.208 |
+| nicusordan |    0.229 |
+| pace       |    0.209 |
 | negociere  |    0.206 |
 | oferi      |    0.194 |
-| urma       |    0.19  |
+| urma       |    0.191 |
 | sprijin    |    0.19  |
 | coaliție   |    0.187 |
-| ucraina    |    0.178 |
+| ucraina    |    0.177 |
 | cadru      |    0.177 |
 | economic   |    0.169 |
 
@@ -9035,7 +9035,7 @@ _File: `2025-08-19_astazi-la-videoconferintele-coalitiei-de-vointa-si-ale-consi`
 | lemmă                   |   TF-IDF |
 |:------------------------|---------:|
 | ucraina                 |    0.292 |
-| videoconferință         |    0.29  |
+| videoconferință         |    0.289 |
 | just                    |    0.272 |
 | durabil                 |    0.253 |
 | fermă                   |    0.25  |
@@ -9044,7 +9044,7 @@ _File: `2025-08-19_astazi-la-videoconferintele-coalitiei-de-vointa-si-ale-consi`
 | sancțiune               |    0.227 |
 | sublinia                |    0.22  |
 | stateleunitealeamericii |    0.205 |
-| voință                  |    0.203 |
+| voință                  |    0.204 |
 | nicusordan              |    0.189 |
 | garanție                |    0.188 |
 | sprijini                |    0.186 |
@@ -9056,43 +9056,43 @@ _File: `2025-08-19_videoconferintele-coalitiei-de-vointa-si-ale-consiliului-eur`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| pace       |    0.317 |
+| pace       |    0.318 |
 | ucraina    |    0.271 |
 | securitate |    0.245 |
-| europa     |    0.2   |
+| europa     |    0.201 |
 | trebui     |    0.187 |
+| răpi       |    0.153 |
 | ucraină    |    0.153 |
 | civililor  |    0.153 |
-| răpi       |    0.153 |
-| rusia      |    0.152 |
+| rusia      |    0.153 |
 | ucidere    |    0.147 |
 | pașnic     |    0.142 |
-| atu        |    0.138 |
-| atingere   |    0.138 |
 | înceta     |    0.138 |
+| atingere   |    0.138 |
+| atu        |    0.138 |
 | întoarcere |    0.131 |
 
 ## 2025-08-20 — facebook-post
 
 _File: `2025-08-20_mult-respect-si-recunostinta-pentru-militarii-din-comandamen` · 19 clean lemmas_
 
-| lemmă            |   TF-IDF |
-|:-----------------|---------:|
-| loialitate       |    0.355 |
-| operație         |    0.319 |
-| comandament      |    0.319 |
-| angajamentă      |    0.293 |
-| profesionalism   |    0.279 |
-| recunoștință     |    0.269 |
-| respectare       |    0.252 |
-| uniuneaeuropeană |    0.227 |
-| mulțumim         |    0.215 |
-| nicusordan       |    0.203 |
-| siguranță        |    0.202 |
-| contribui        |    0.194 |
-| respect          |    0.186 |
-| forță            |    0.18  |
-| special          |    0.168 |
+| lemmă                           |   TF-IDF |
+|:--------------------------------|---------:|
+| loialitate                      |    0.355 |
+| comandament                     |    0.319 |
+| operație                        |    0.319 |
+| angajamentă                     |    0.293 |
+| profesionalism                  |    0.279 |
+| recunoștință                    |    0.269 |
+| respectare                      |    0.252 |
+| uniuneaeuropeană                |    0.227 |
+| mulțumim                        |    0.215 |
+| nicusordan                      |    0.203 |
+| siguranță                       |    0.202 |
+| contribui                       |    0.194 |
+| respect                         |    0.186 |
+| forță                           |    0.18  |
+| northatlantictreatyorganization |    0.168 |
 
 ## 2025-08-21 — facebook-post
 
@@ -9109,12 +9109,12 @@ _File: `2025-08-21_am-avut-parte-de-o-primire-calduroasa-la-rosia-montana-trebu`
 | unic         |    0.238 |
 | nicusordan   |    0.216 |
 | oportunitate |    0.209 |
+| milion       |    0.207 |
 | local        |    0.206 |
-| milion       |    0.206 |
-| comunitate   |    0.194 |
+| comunitate   |    0.195 |
 | dezvoltare   |    0.186 |
 | aduce        |    0.164 |
-| parte        |    0.133 |
+| parte        |    0.134 |
 
 ## 2025-08-26 — facebook-post
 
@@ -9127,12 +9127,12 @@ _File: `2025-08-26_m-am-intalnit-astazi-la-palatul-cotroceni-cu-diplomatii-roma`
 | vrea        |    0.182 |
 | economic    |    0.18  |
 | trebui      |    0.174 |
-| prioritate  |    0.164 |
+| prioritate  |    0.163 |
 | cooperare   |    0.159 |
 | strategic   |    0.144 |
-| parteneriat |    0.143 |
-| extern      |    0.141 |
-| necesar     |    0.14  |
+| parteneriat |    0.144 |
+| extern      |    0.142 |
+| necesar     |    0.141 |
 | român       |    0.139 |
 | economia    |    0.136 |
 | economie    |    0.132 |
@@ -9144,19 +9144,19 @@ _File: `2025-08-28_condamn-cu-fermitate-agresiunea-asupra-unui-tanar-venit-la-m`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| ură       |    0.215 |
+| ură       |    0.216 |
 | muncă     |    0.165 |
 | urî       |    0.157 |
 | xenofobă  |    0.157 |
 | etnie     |    0.157 |
 | cauta     |    0.157 |
 | instiga   |    0.151 |
-| atacator  |    0.146 |
-| maximă    |    0.146 |
-| condamn   |    0.146 |
-| degenera  |    0.141 |
+| maximă    |    0.145 |
+| atacator  |    0.145 |
+| condamn   |    0.145 |
 | motiva    |    0.141 |
 | propaga   |    0.141 |
+| degenera  |    0.141 |
 | izolat    |    0.138 |
 | toleranță |    0.138 |
 
@@ -9167,12 +9167,12 @@ _File: `2025-08-31_astazi-am-avut-onoarea-de-a-fi-prezent-la-marea-dictare-nati`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | limbă      |    0.459 |
-| român      |    0.294 |
-| republică  |    0.243 |
+| român      |    0.295 |
+| republică  |    0.242 |
 | dictare    |    0.226 |
-| moldova    |    0.22  |
-| reafirm    |    0.187 |
-| zilei      |    0.184 |
+| moldova    |    0.221 |
+| reafirm    |    0.19  |
+| zilei      |    0.183 |
 | moștenire  |    0.181 |
 | prietenie  |    0.176 |
 | împărtăși  |    0.166 |
@@ -9180,7 +9180,7 @@ _File: `2025-08-31_astazi-am-avut-onoarea-de-a-fi-prezent-la-marea-dictare-nati`
 | maia       |    0.162 |
 | onoare     |    0.162 |
 | identitate |    0.15  |
-| ocazie     |    0.142 |
+| ocazie     |    0.143 |
 
 ## 2025-08-31 — facebook-post
 
@@ -9193,11 +9193,11 @@ _File: `2025-08-31_participare-alaturi-de-presedintele-republicii-moldova-maia` 
 | național    |    0.321 |
 | marii       |    0.308 |
 | sandu       |    0.279 |
-| chișinău    |    0.277 |
-| maia        |    0.277 |
+| chișinău    |    0.276 |
+| maia        |    0.276 |
+| republicii  |    0.234 |
 | participare |    0.234 |
-| republicii  |    0.233 |
-| eveniment   |    0.216 |
+| eveniment   |    0.215 |
 | piață       |    0.192 |
 | moldova     |    0.188 |
 | alături     |    0.181 |
@@ -9213,16 +9213,16 @@ _File: `2025-09-01_astazi-i-am-urat-bun-venit-pe-tarmul-marii-negre-doamnei-pre`
 | uniuneaeuropeană |    0.209 |
 | neagră           |    0.203 |
 | importanță       |    0.198 |
-| nod              |    0.163 |
+| european         |    0.163 |
+| der              |    0.163 |
 | euro-atlantic    |    0.163 |
 | leyen            |    0.163 |
-| der              |    0.163 |
-| readiness        |    0.163 |
 | geostrategic     |    0.163 |
-| european         |    0.163 |
+| readiness        |    0.163 |
+| nod              |    0.163 |
+| operaționalizare |    0.156 |
 | reflect          |    0.156 |
 | strategiei       |    0.156 |
-| operaționalizare |    0.156 |
 | von              |    0.151 |
 
 ## 2025-09-01 — facebook-post
@@ -9235,7 +9235,7 @@ _File: `2025-09-01_ii-multumesc-lui-manfred-weber-pentru-vizita-de-astazi-de-la`
 | apreciere  |    0.248 |
 | popular    |    0.238 |
 | atinge     |    0.226 |
-| european   |    0.22  |
+| european   |    0.221 |
 | constant   |    0.219 |
 | consistent |    0.219 |
 | competitiv |    0.208 |
@@ -9244,8 +9244,8 @@ _File: `2025-09-01_ii-multumesc-lui-manfred-weber-pentru-vizita-de-astazi-de-la`
 | acorda     |    0.199 |
 | exprima    |    0.194 |
 | prioritate |    0.19  |
-| vizită     |    0.182 |
-| lucra      |    0.167 |
+| vizită     |    0.181 |
+| obiectiv   |    0.168 |
 
 ## 2025-09-02 — facebook-post
 
@@ -9253,20 +9253,20 @@ _File: `2025-09-02_ieri-la-malul-marii-negre-am-intampinat-o-pe-ursula-von-der` 
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| solidaritate |    0.342 |
+| solidaritate |    0.341 |
 | leyen        |    0.273 |
 | der          |    0.273 |
 | von          |    0.253 |
 | ursula       |    0.246 |
-| mal          |    0.226 |
+| mal          |    0.225 |
 | întâmpina    |    0.222 |
-| -ul          |    0.218 |
 | securitate   |    0.218 |
+| -ul          |    0.218 |
 | pilon        |    0.212 |
 | hub          |    0.2   |
 | european     |    0.182 |
-| negru        |    0.18  |
 | complica     |    0.18  |
+| negru        |    0.18  |
 | flanc        |    0.17  |
 
 ## 2025-09-03 — facebook-post
@@ -9278,18 +9278,18 @@ _File: `2025-09-03_am-semnat-astazi-cu-respect-si-consideratie-decretul-de-deco`
 | coposu       |    0.618 |
 | doamnă       |    0.175 |
 | lucia        |    0.161 |
-| discret      |    0.161 |
-| cavaler      |    0.161 |
 | seniorului   |    0.161 |
+| cavaler      |    0.161 |
+| discret      |    0.161 |
 | considerație |    0.155 |
 | credincios   |    0.155 |
 | corneliu     |    0.145 |
 | tiner        |    0.141 |
 | spiritual    |    0.138 |
-| frate        |    0.136 |
 | fundație     |    0.136 |
-| moștenire    |    0.129 |
+| frate        |    0.136 |
 | păstrare     |    0.129 |
+| moștenire    |    0.129 |
 
 ## 2025-09-03 — facebook-post
 
@@ -9297,21 +9297,21 @@ _File: `2025-09-03_astazi-am-marcat-un-moment-important-pentru-securitatea-ener`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| nuclear       |    0.347 |
+| nuclear       |    0.351 |
 | energie       |    0.298 |
 | energetic     |    0.212 |
 | cernavodă     |    0.201 |
 | pilon         |    0.178 |
-| investiție    |    0.159 |
+| investiție    |    0.158 |
 | securitate    |    0.137 |
 | viitor        |    0.132 |
 | consolida     |    0.131 |
-| pas           |    0.125 |
+| pas           |    0.124 |
 | pregăti       |    0.12  |
-| reactoar      |    0.114 |
-| modulr        |    0.114 |
-| decarbonizare |    0.114 |
 | doicești      |    0.114 |
+| decarbonizare |    0.114 |
+| modulr        |    0.114 |
+| reactoar      |    0.114 |
 
 ## 2025-09-03 — facebook-post
 
@@ -9319,7 +9319,7 @@ _File: `2025-09-03_m-am-bucurat-sa-il-primesc-astazi-la-palatul-cotroceni-pe-pr`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| european    |    0.29  |
+| european    |    0.291 |
 | agendă      |    0.287 |
 | prioritate  |    0.25  |
 | antnio      |    0.218 |
@@ -9327,13 +9327,13 @@ _File: `2025-09-03_m-am-bucurat-sa-il-primesc-astazi-la-palatul-cotroceni-pe-pr`
 | sprijinire  |    0.191 |
 | îndeplinire |    0.187 |
 | axa         |    0.172 |
-| dimensiune  |    0.167 |
 | durabil     |    0.167 |
-| companiilor |    0.16  |
+| dimensiune  |    0.167 |
 | costa       |    0.16  |
+| companiilor |    0.16  |
 | necesita    |    0.158 |
 | avansa      |    0.155 |
-| reafirma    |    0.153 |
+| reafirma    |    0.152 |
 
 ## 2025-09-10 — facebook-post
 
@@ -9341,7 +9341,7 @@ _File: `2025-09-10_am-avut-astazi-o-intalnire-importanta-cu-reprezentantii-inve`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| american   |    0.264 |
+| american   |    0.265 |
 | strategic  |    0.236 |
 | know-how   |    0.233 |
 | investiție |    0.215 |
@@ -9364,8 +9364,8 @@ _File: `2025-09-15_am-avut-astazi-o-discutie-excelenta-cu-secretarul-general-al`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | ocde       |    0.427 |
-| aderare    |    0.286 |
-| dezvoltat  |    0.235 |
+| aderare    |    0.287 |
+| dezvoltat  |    0.234 |
 | cormann    |    0.16  |
 | mathias    |    0.16  |
 | evaluările |    0.153 |
@@ -9375,8 +9375,8 @@ _File: `2025-09-15_am-avut-astazi-o-discutie-excelenta-cu-secretarul-general-al`
 | direcționa |    0.14  |
 | comerț     |    0.13  |
 | atragere   |    0.13  |
+| finanță    |    0.128 |
 | adera      |    0.128 |
-| progresa   |    0.128 |
 | excelent   |    0.128 |
 
 ## 2025-09-16 — facebook-post
@@ -9392,14 +9392,14 @@ _File: `2025-09-16_cercetarea-prezentata-azi-de-procurorul-general-reprezinta-o`
 | prezenta    |    0.226 |
 | criticil    |    0.204 |
 | prezentat   |    0.187 |
-| chestiune   |    0.187 |
+| chestiune   |    0.186 |
 | cerceta     |    0.176 |
 | ultim       |    0.175 |
 | sistematic  |    0.159 |
 | public      |    0.159 |
 | felicit     |    0.156 |
-| coeziune    |    0.156 |
 | substanțial |    0.156 |
+| coeziune    |    0.156 |
 
 ## 2025-09-17 — facebook-post
 
@@ -9432,18 +9432,18 @@ _File: `2025-09-23_am-avut-astazi-o-intalnire-cu-liderii-coalitiei-de-guvernare`
 | guvernare       |    0.277 |
 | coaliție        |    0.258 |
 | dialog          |    0.192 |
-| crize           |    0.185 |
-| lider           |    0.172 |
-| economic        |    0.155 |
-| media           |    0.152 |
+| crize           |    0.184 |
+| lider           |    0.173 |
+| economic        |    0.156 |
 | printru         |    0.152 |
+| media           |    0.152 |
 | traversa        |    0.143 |
 | îmbunătățire    |    0.14  |
 | sacrificiu      |    0.14  |
 | constructiv     |    0.138 |
-| responsabilitat |    0.137 |
+| menținere       |    0.137 |
 | indicator       |    0.137 |
-| înțeleg         |    0.137 |
+| responsabilitat |    0.137 |
 
 ## 2025-09-24 — facebook-post
 
@@ -9451,21 +9451,21 @@ _File: `2025-09-24_astazi-am-avut-o-intalnire-foarte-buna-la-palatul-cotroceni` 
 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
-| industrie      |    0.366 |
-| european       |    0.299 |
-| spaniei        |    0.216 |
-| aeronautic     |    0.216 |
+| industrie      |    0.367 |
+| european       |    0.3   |
+| aeronautic     |    0.215 |
+| spaniei        |    0.215 |
 | ambasadorii    |    0.208 |
 | apărare        |    0.203 |
 | parteneriată   |    0.197 |
-| oportunitățile |    0.183 |
+| oportunitățile |    0.182 |
 | industrial     |    0.17  |
 | valorifica     |    0.165 |
 | tradiție       |    0.152 |
 | germania       |    0.149 |
 | juca           |    0.147 |
-| safe           |    0.144 |
-| inițiativă     |    0.142 |
+| safe           |    0.145 |
+| inițiativă     |    0.141 |
 
 ## 2025-09-24 — facebook-post
 
@@ -9473,7 +9473,7 @@ _File: `2025-09-24_legatura-dintre-romania-si-republica-moldova-nu-este-doar-un`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| moldova    |    0.349 |
+| moldova    |    0.35  |
 | republică  |    0.256 |
 | legătură   |    0.251 |
 | basaraben  |    0.239 |
@@ -9481,12 +9481,12 @@ _File: `2025-09-24_legatura-dintre-romania-si-republica-moldova-nu-este-doar-un`
 | îndemn     |    0.205 |
 | sect       |    0.205 |
 | crucial    |    0.197 |
-| votare     |    0.186 |
+| votare     |    0.185 |
 | disponibil |    0.181 |
 | duminică   |    0.173 |
-| pagină     |    0.172 |
+| pagină     |    0.171 |
 | septembrie |    0.167 |
-| secție     |    0.166 |
+| secție     |    0.165 |
 | viu        |    0.156 |
 
 ## 2025-09-26 — facebook-post
@@ -9503,11 +9503,11 @@ _File: `2025-09-26_sunt-profund-indurerat-de-tragedia-petrecuta-la-spitalul-de` 
 | sănătate   |    0.147 |
 | copil      |    0.136 |
 | familiu    |    0.126 |
-| ucid       |    0.126 |
 | sfântă     |    0.126 |
-| abdica     |    0.126 |
 | teribil    |    0.126 |
 | neimaginat |    0.126 |
+| ucid       |    0.126 |
+| abdica     |    0.126 |
 | viață      |    0.124 |
 | protocoal  |    0.121 |
 
@@ -9517,19 +9517,19 @@ _File: `2025-09-28_dragi-basarabeni-din-romania-astazi-este-o-zi-importanta-pen`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| basaraban  |    0.401 |
+| basaraban  |    0.4   |
 | înclina    |    0.384 |
 | balanță    |    0.331 |
 | dragi      |    0.325 |
-| stabil     |    0.251 |
-| republicii |    0.243 |
+| stabil     |    0.25  |
+| republicii |    0.244 |
 | parcurs    |    0.231 |
-| conta      |    0.22  |
-| democratic |    0.215 |
-| vota       |    0.202 |
-| moldova    |    0.195 |
-| vot        |    0.186 |
-| încă       |    0.173 |
+| conta      |    0.221 |
+| democratic |    0.216 |
+| vota       |    0.203 |
+| moldova    |    0.196 |
+| vot        |    0.185 |
+| încă       |    0.172 |
 | viitor     |    0.154 |
 | important  |    0.137 |
 
@@ -9539,21 +9539,21 @@ _File: `2025-09-29_cu-ocazia-implinirii-a-30-de-ani-de-la-infiintarea-aliantei` 
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| cipru      |    0.486 |
+| cipru      |    0.485 |
 | românilor  |    0.283 |
 | atașament  |    0.271 |
-| alianță    |    0.267 |
+| alianță    |    0.268 |
 | viu        |    0.185 |
 | îndrepta   |    0.18  |
 | gând       |    0.177 |
-| comunitate |    0.145 |
+| comunitate |    0.146 |
 | legendă    |    0.141 |
 | românește  |    0.136 |
 | rădăcinile |    0.136 |
 | construii  |    0.131 |
 | învață     |    0.131 |
-| românesc   |    0.13  |
-| emoționant |    0.127 |
+| românesc   |    0.131 |
+| împlinire  |    0.127 |
 
 ## 2025-09-29 — facebook-post
 
@@ -9562,19 +9562,19 @@ _File: `2025-09-29_felicit-cetatenii-republicii-moldova-pentru-mobilizare-si-pe`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | moldova      |    0.344 |
-| republicii   |    0.285 |
-| transmit     |    0.206 |
+| republicii   |    0.286 |
 | scrutin      |    0.206 |
-| auzit        |    0.202 |
+| transmit     |    0.206 |
 | mobilizare   |    0.202 |
+| auzit        |    0.202 |
 | amenințările |    0.194 |
 | felicitare   |    0.188 |
 | mândru       |    0.188 |
 | președintă   |    0.183 |
 | organizare   |    0.174 |
-| desfășurare  |    0.172 |
 | felicit      |    0.172 |
-| sandu        |    0.171 |
+| desfășurare  |    0.172 |
+| sandu        |    0.17  |
 | pagină       |    0.169 |
 
 ## 2025-09-30 — facebook-post
@@ -9589,7 +9589,7 @@ _File: `2025-09-30_am-vizitat-azi-la-timisoara-doua-companii-care-folosesc-inte`
 | depista      |    0.217 |
 | cancer       |    0.201 |
 | piedică      |    0.191 |
-| top          |    0.187 |
+| top          |    0.186 |
 | inovație     |    0.174 |
 | video        |    0.169 |
 | inteligent   |    0.169 |
@@ -9605,16 +9605,16 @@ _File: `2025-09-30_in-luna-iulie-am-spus-ca-administratia-prezidentiala-va-cont`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| prezidențială |    0.422 |
-| efort         |    0.259 |
-| administrație |    0.241 |
+| prezidențială |    0.421 |
+| efort         |    0.258 |
+| administrație |    0.242 |
 | gest          |    0.209 |
-| reducere      |    0.199 |
+| reducere      |    0.2   |
 | bugetar       |    0.194 |
-| bun-simț      |    0.17  |
 | credită       |    0.17  |
 | suplu         |    0.17  |
 | vremurile     |    0.17  |
+| bun-simț      |    0.17  |
 | austerita     |    0.163 |
 | buget         |    0.163 |
 | stat          |    0.155 |
@@ -9632,7 +9632,7 @@ _File: `2025-09-30_marile-orase-europene-sunt-motoarele-dezvoltarii-insa-de-pre`
 | primar        |    0.197 |
 | inaugural     |    0.185 |
 | aspi          |    0.185 |
-| cities        |    0.172 |
+| cities        |    0.171 |
 | proces        |    0.17  |
 | decizional    |    0.167 |
 | uniune        |    0.164 |
@@ -9649,19 +9649,19 @@ _File: `2025-10-01_am-trimis-inapoi-parlamentului-o-lege-care-ar-fi-anulat-una` 
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| fiscal     |    0.319 |
-| introduce  |    0.284 |
+| fiscal     |    0.32  |
+| introduce  |    0.283 |
 | efort      |    0.214 |
 | impozit    |    0.204 |
 | lege       |    0.196 |
-| venit      |    0.187 |
+| venit      |    0.188 |
 | recent     |    0.169 |
 | bugetar    |    0.16  |
 | corect     |    0.143 |
-| strădui    |    0.141 |
-| scutire    |    0.141 |
 | stabile    |    0.141 |
+| strădui    |    0.141 |
 | fugă       |    0.141 |
+| scutire    |    0.141 |
 | cere       |    0.14  |
 | amendament |    0.135 |
 
@@ -9671,7 +9671,7 @@ _File: `2025-10-01_astazi-si-maine-sunt-la-copenhaga-pentru-a-participa-la-reun`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| european   |    0.342 |
+| european   |    0.343 |
 | copenhaga  |    0.308 |
 | reziliență |    0.266 |
 | modalitate |    0.263 |
@@ -9695,11 +9695,11 @@ _File: `2025-10-02_a-doua-zi-a-vizitei-mele-la-copenhaga-este-dedicata-particip`
 |:------------|---------:|
 | participăr  |    0.317 |
 | intensifica |    0.294 |
-| copenhaga   |    0.286 |
+| copenhaga   |    0.285 |
 | continent   |    0.25  |
 | dedica      |    0.22  |
 | cibernetic  |    0.215 |
-| european    |    0.211 |
+| european    |    0.212 |
 | încercare   |    0.206 |
 | rapid       |    0.19  |
 | eficient    |    0.184 |
@@ -9715,21 +9715,21 @@ _File: `2025-10-02_am-avut-discutie-foarte-productiva-cu-premierul-suediei-ulf` 
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| suedia      |    0.668 |
+| suedia      |    0.667 |
 | productiv   |    0.206 |
 | marja       |    0.202 |
 | accent      |    0.182 |
 | descurajare |    0.173 |
 | european    |    0.16  |
 | strânge     |    0.154 |
-| alianță     |    0.151 |
-| concentra   |    0.147 |
+| alianță     |    0.152 |
+| concentra   |    0.148 |
 | bilateral   |    0.145 |
 | consolida   |    0.137 |
 | amenințare  |    0.136 |
 | cooperare   |    0.134 |
 | summit      |    0.133 |
-| industrie   |    0.13  |
+| industrie   |    0.131 |
 
 ## 2025-10-02 — facebook-post
 
@@ -9738,11 +9738,11 @@ _File: `2025-10-02_declaratii-de-presa-sustinute-inaintea-participarii-la-reuni`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | participăr |    0.625 |
-| reuniune   |    0.375 |
+| reuniune   |    0.374 |
 | presă      |    0.325 |
-| comunitate |    0.321 |
+| comunitate |    0.322 |
 | declarație |    0.299 |
-| susține    |    0.27  |
+| susține    |    0.271 |
 | politic    |    0.233 |
 | european   |    0.208 |
 
@@ -9752,13 +9752,13 @@ _File: `2025-10-02_le-am-prezentat-colegilor-europeni-principalele-concluzii-di`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| dezinforma |    0.22  |
 | european   |    0.22  |
+| dezinforma |    0.22  |
 | folosire   |    0.193 |
 | prezida    |    0.193 |
 | dronelor   |    0.185 |
-| reuniuni   |    0.173 |
 | le-        |    0.173 |
+| reuniuni   |    0.173 |
 | reziliență |    0.171 |
 | accent     |    0.167 |
 | public     |    0.164 |
@@ -9774,12 +9774,12 @@ _File: `2025-10-02_romania-s-a-alaturat-initiativei-lansate-de-presedintele-emm`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| giorgia     |    0.273 |
 | european    |    0.273 |
-| cuprinzător |    0.262 |
-| meloni      |    0.262 |
+| giorgia     |    0.273 |
+| meloni      |    0.261 |
+| cuprinzător |    0.261 |
 | găsire      |    0.253 |
-| emmanuel    |    0.23  |
+| emmanuel    |    0.229 |
 | alătura     |    0.218 |
 | macron      |    0.215 |
 | urgent      |    0.185 |
@@ -9788,7 +9788,7 @@ _File: `2025-10-02_romania-s-a-alaturat-initiativei-lansate-de-presedintele-emm`
 | abordare    |    0.171 |
 | proteja     |    0.168 |
 | adresă      |    0.165 |
-| grav        |    0.16  |
+| sănătate    |    0.16  |
 
 ## 2025-10-02 — facebook-post
 
@@ -9796,18 +9796,18 @@ _File: `2025-10-02_sprijinul-nostru-pentru-republica-moldova-nu-se-opreste-am-d`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| sustine    |    0.316 |
-| concreț    |    0.316 |
 | european   |    0.316 |
-| moldova    |    0.308 |
+| concreț    |    0.316 |
+| sustine    |    0.316 |
+| moldova    |    0.309 |
 | accelerare |    0.271 |
 | sandu      |    0.229 |
 | maia       |    0.227 |
 | integrare  |    0.216 |
-| republicii |    0.191 |
-| opri       |    0.188 |
+| republicii |    0.192 |
+| opri       |    0.187 |
 | pas        |    0.172 |
-| doamnă     |    0.172 |
+| doamnă     |    0.171 |
 | familie    |    0.171 |
 | republică  |    0.17  |
 | efort      |    0.16  |
@@ -9819,7 +9819,7 @@ _File: `2025-10-03_am-promulgat-astazi-legea-privind-activitatea-anre-asf-si-an`
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
 | ancom           |    0.298 |
-| privind         |    0.238 |
+| privind         |    0.237 |
 | reglementare    |    0.214 |
 | activitate      |    0.167 |
 | funcționa       |    0.159 |
@@ -9842,7 +9842,7 @@ _File: `2025-10-06_am-anuntat-astazi-numirea-urmatorilor-consilieri-prezidentia`
 |:--------------|---------:|
 | consilier     |    0.595 |
 | octombrie     |    0.416 |
-| începe        |    0.367 |
+| începe        |    0.368 |
 | prezidențial  |    0.33  |
 | noiembrie     |    0.21  |
 | onorific      |    0.139 |
@@ -9860,23 +9860,23 @@ _File: `2025-10-06_am-anuntat-astazi-numirea-urmatorilor-consilieri-prezidentia`
 
 _File: `2025-10-09_am-participat-astazi-la-ceremonia-dedicata-comemorarii-victi` · 78 clean lemmas_
 
-| lemmă     |   TF-IDF |
-|:----------|---------:|
-| memorie   |    0.324 |
-| etnic     |    0.286 |
-| suferi    |    0.22  |
-| victimă   |    0.206 |
-| discurs   |    0.199 |
-| tensiune  |    0.186 |
-| istorie   |    0.177 |
-| păstra    |    0.175 |
-| tragic    |    0.154 |
-| social    |    0.149 |
-| tentație  |    0.148 |
-| incluziv  |    0.148 |
-| antisemit |    0.143 |
-| combatem  |    0.139 |
-| ostil     |    0.139 |
+| lemmă         |   TF-IDF |
+|:--------------|---------:|
+| memorie       |    0.324 |
+| etnic         |    0.286 |
+| suferi        |    0.22  |
+| victimă       |    0.206 |
+| discurs       |    0.199 |
+| tensiune      |    0.186 |
+| istorie       |    0.178 |
+| păstra        |    0.175 |
+| tragic        |    0.154 |
+| social        |    0.149 |
+| incluziv      |    0.148 |
+| tentație      |    0.148 |
+| antisemit     |    0.143 |
+| holocaustului |    0.139 |
+| ostil         |    0.139 |
 
 ## 2025-10-12 — facebook-post
 
@@ -9891,9 +9891,9 @@ _File: `2025-10-12_la-usa-inimii-cuiva-trebuie-sa-ne-rugam-sa-navalim-sau-sa-ci`
 | inimă        |    0.236 |
 | limbă        |    0.218 |
 | stă          |    0.161 |
+| prăjit       |    0.161 |
 | culcă        |    0.161 |
 | farfurie     |    0.161 |
-| prăjit       |    0.161 |
 | visăm        |    0.161 |
 | sine         |    0.158 |
 | aflu         |    0.154 |
@@ -9908,13 +9908,13 @@ _File: `2025-10-13_am-primit-astazi-la-palatul-cotroceni-o-delegatie-condusa-de`
 |:-----------------|---------:|
 | australia        |    0.506 |
 | reprezentanță    |    0.176 |
-| reprezentanților |    0.169 |
 | contracarare     |    0.169 |
+| reprezentanților |    0.169 |
 | durabe           |    0.163 |
 | delegație        |    0.148 |
 | stimulare        |    0.145 |
-| transformare     |    0.141 |
 | încurajăm        |    0.141 |
+| transformare     |    0.141 |
 | axa              |    0.139 |
 | expertiză        |    0.13  |
 | împărtăși        |    0.129 |
@@ -9928,10 +9928,10 @@ _File: `2025-10-13_am-promulgat-astazi-legea-de-aprobare-a-ordonantei-de-urgent`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| electronic   |    0.342 |
+| electronic   |    0.341 |
 | alertă       |    0.242 |
 | monitorizare |    0.214 |
-| prevedere    |    0.207 |
+| prevedere    |    0.206 |
 | frontieră    |    0.204 |
 | apropiere    |    0.198 |
 | legislativ   |    0.164 |
@@ -9940,7 +9940,7 @@ _File: `2025-10-13_am-promulgat-astazi-legea-de-aprobare-a-ordonantei-de-urgent`
 | actualizat   |    0.138 |
 | aliniază     |    0.138 |
 | săvârșire    |    0.138 |
-| persoană     |    0.133 |
+| persoană     |    0.132 |
 | ordonanța    |    0.132 |
 | inculpa      |    0.132 |
 
@@ -9951,20 +9951,20 @@ _File: `2025-10-14_fenomenul-coruptiei-trebuie-atacat-frontal-acest-flagel-care`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | frontal    |    0.309 |
-| cristian   |    0.244 |
+| cristian   |    0.243 |
 | link       |    0.234 |
 | jurnalist  |    0.227 |
+| defini     |    0.216 |
 | deplin     |    0.216 |
-| defini     |    0.214 |
 | aborda     |    0.211 |
 | interviu   |    0.206 |
 | juridic    |    0.199 |
 | preocupare |    0.192 |
 | ataca      |    0.192 |
-| trebui     |    0.188 |
+| trebui     |    0.189 |
 | acorda     |    0.186 |
 | pro        |    0.185 |
-| fenomen    |    0.183 |
+| fenomen    |    0.182 |
 
 ## 2025-10-16 — facebook-post
 
@@ -9977,16 +9977,16 @@ _File: `2025-10-16_am-promulgat-astazi-legea-care-sanctioneaza-coruperea-functi`
 | funcționar      |    0.259 |
 | sancționa       |    0.252 |
 | lege            |    0.225 |
-| aderare         |    0.193 |
+| aderare         |    0.194 |
 | necorespunzător |    0.162 |
+| ancheta         |    0.15  |
 | pedeapsă        |    0.15  |
 | indirect        |    0.15  |
-| ancheta         |    0.15  |
 | publică         |    0.146 |
-| închisoare      |    0.142 |
 | distinct        |    0.142 |
+| închisoare      |    0.142 |
 | aduce           |    0.14  |
-| economic        |    0.136 |
+| economic        |    0.137 |
 
 ## 2025-10-17 — facebook-post
 
@@ -9995,42 +9995,42 @@ _File: `2025-10-17_explozia-produsa-astazi-intr-un-bloc-de-pe-calea-rahovei-din`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | neglijență       |    0.298 |
-| tragedie         |    0.235 |
 | moarte           |    0.235 |
-| cetățen          |    0.182 |
+| tragedie         |    0.235 |
+| cetățen          |    0.181 |
 | responsabilitate |    0.15  |
-| cutremurător     |    0.149 |
-| centralelor      |    0.149 |
 | teribile         |    0.149 |
+| cutremurător     |    0.149 |
 | steril           |    0.149 |
+| centralelor      |    0.149 |
 | revoltător       |    0.143 |
 | îndoliat         |    0.138 |
 | aștepta          |    0.138 |
 | explozie         |    0.134 |
-| instalație       |    0.134 |
 | birocratic       |    0.134 |
+| instalație       |    0.134 |
 
 ## 2025-10-20 — facebook-post
 
 _File: `2025-10-20_am-avut-astazi-la-palatul-cotroceni-un-dialog-constructiv-cu` · 100 clean lemmas_
 
-| lemmă      |   TF-IDF |
-|:-----------|---------:|
-| comisar    |    0.284 |
-| schengen   |    0.278 |
-| regiune    |    0.184 |
-| acționa    |    0.184 |
-| european   |    0.162 |
-| românia    |    0.147 |
-| uniune     |    0.143 |
-| apreciem   |    0.142 |
-| migrație   |    0.139 |
-| resimți    |    0.139 |
-| deficiență |    0.134 |
-| securitate |    0.129 |
-| europe     |    0.126 |
-| zilnic     |    0.124 |
-| întărire   |    0.121 |
+| lemmă       |   TF-IDF |
+|:------------|---------:|
+| comisar     |    0.284 |
+| schengen    |    0.278 |
+| acționa     |    0.185 |
+| regiune     |    0.184 |
+| european    |    0.162 |
+| românia     |    0.147 |
+| uniune      |    0.143 |
+| apreciem    |    0.142 |
+| resimți     |    0.139 |
+| migrație    |    0.139 |
+| deficiență  |    0.134 |
+| securitate  |    0.129 |
+| europe      |    0.126 |
+| zilnic      |    0.124 |
+| constructiv |    0.121 |
 
 ## 2025-10-20 — facebook-post
 
@@ -10042,15 +10042,15 @@ _File: `2025-10-20_reforma-pensiilor-magistratilor-ramane-o-prioritate-nu-este` 
 | magistrațe  |    0.413 |
 | reformă     |    0.201 |
 | defectuos   |    0.2   |
-| anormal     |    0.192 |
 | magistraț   |    0.192 |
+| anormal     |    0.192 |
 | poziționare |    0.18  |
 | publicare   |    0.176 |
 | reglementa  |    0.172 |
 | redacta     |    0.168 |
 | decizie     |    0.166 |
 | corectare   |    0.165 |
-| echitabil   |    0.163 |
+| echitabil   |    0.165 |
 | prevedere   |    0.15  |
 | text        |    0.144 |
 
@@ -10062,10 +10062,10 @@ _File: `2025-10-21_am-semnat-astazi-decretul-pentru-trecerea-in-rezerva-a-doamn`
 |:-------------|---------:|
 | înalt        |    0.236 |
 | față         |    0.217 |
-| florentina   |    0.189 |
-| ioniță       |    0.189 |
 | dotare       |    0.189 |
 | exigență     |    0.189 |
+| ioniță       |    0.189 |
+| florentina   |    0.189 |
 | abatere      |    0.189 |
 | uniformă     |    0.182 |
 | integrităție |    0.177 |
@@ -10080,23 +10080,23 @@ _File: `2025-10-21_am-semnat-astazi-decretul-pentru-trecerea-in-rezerva-a-doamn`
 
 _File: `2025-10-22_am-promulgat-o-lege-care-aduce-noi-reglementari-in-domeniul` · 85 clean lemmas_
 
-| lemmă      |   TF-IDF |
-|:-----------|---------:|
-| pacient    |    0.508 |
-| medical    |    0.416 |
-| destinat   |    0.221 |
-| grad       |    0.17  |
-| sistem     |    0.166 |
-| unitate    |    0.156 |
-| personal   |    0.137 |
-| vrea       |    0.126 |
-| urgenț     |    0.123 |
-| cardiac    |    0.118 |
-| protocoal  |    0.118 |
-| salon      |    0.118 |
-| instalare  |    0.118 |
-| lege       |    0.114 |
-| deopotrivă |    0.114 |
+| lemmă     |   TF-IDF |
+|:----------|---------:|
+| pacient   |    0.507 |
+| medical   |    0.416 |
+| destinat  |    0.221 |
+| grad      |    0.17  |
+| sistem    |    0.166 |
+| unitate   |    0.156 |
+| personal  |    0.137 |
+| vrea      |    0.126 |
+| urgenț    |    0.123 |
+| salon     |    0.118 |
+| instalare |    0.118 |
+| cardiac   |    0.118 |
+| protocoal |    0.118 |
+| lege      |    0.114 |
+| îngrijire |    0.114 |
 
 ## 2025-10-22 — facebook-post
 
@@ -10104,10 +10104,10 @@ _File: `2025-10-22_in-drum-spre-bruxelles-la-o-noua-reuniune-a-consiliului-euro`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| bruxelles |    0.578 |
-| reuniune  |    0.482 |
-| drum      |    0.46  |
-| consiliu  |    0.39  |
+| bruxelles |    0.577 |
+| reuniune  |    0.481 |
+| drum      |    0.461 |
+| consiliu  |    0.389 |
 | european  |    0.268 |
 
 ## 2025-10-23 — facebook-post
@@ -10126,10 +10126,10 @@ _File: `2025-10-23_am-promulgat-saptamana-aceasta-legea-care-ne-va-permite-sa-f`
 | inechitate    |    0.137 |
 | diurn         |    0.137 |
 | domeniu       |    0.136 |
-| serviciu      |    0.135 |
+| serviciu      |    0.134 |
 | corporativ    |    0.131 |
-| cancer        |    0.127 |
 | întreprindere |    0.127 |
+| cancer        |    0.127 |
 | sporuri       |    0.123 |
 
 ## 2025-10-23 — facebook-post
@@ -10138,12 +10138,12 @@ _File: `2025-10-23_zi-extrem-de-incarcata-la-reuniunea-liderilor-ue-de-la-bruxe`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| locuință    |    0.308 |
+| locuință    |    0.307 |
 | acces       |    0.235 |
 | temă        |    0.226 |
+| climă       |    0.203 |
 | facil       |    0.203 |
 | economiilor |    0.203 |
-| climă       |    0.203 |
 | apărare     |    0.183 |
 | proiect     |    0.176 |
 | zid         |    0.171 |
@@ -10166,13 +10166,13 @@ _File: `2025-10-24_165-de-ani-de-traditie-si-excelenta-universitara-la-iasi-ast`
 | cuza         |    0.217 |
 | educație     |    0.205 |
 | cunoaștere   |    0.203 |
-| academic     |    0.19  |
 | universitar  |    0.19  |
-| iași         |    0.177 |
+| academic     |    0.19  |
+| iași         |    0.176 |
 | alexandru    |    0.168 |
 | cultură      |    0.163 |
 | tradiție     |    0.163 |
-| național     |    0.15  |
+| național     |    0.151 |
 | decizie      |    0.15  |
 | mână         |    0.146 |
 
@@ -10183,20 +10183,20 @@ _File: `2025-10-24_antibiotice-iasi-un-simbol-al-industriei-farmaceutice-romane`
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
 | iași           |    0.337 |
-| românesc       |    0.318 |
+| românesc       |    0.319 |
 | producție      |    0.284 |
 | valorificare   |    0.207 |
 | inovator       |    0.207 |
 | fabrică        |    0.184 |
 | profesionalism |    0.181 |
-| simbol         |    0.17  |
+| simbol         |    0.172 |
 | felicit        |    0.168 |
-| spirit         |    0.164 |
+| spirit         |    0.163 |
 | reper          |    0.161 |
 | mondial        |    0.159 |
-| tradiție       |    0.156 |
+| tradiție       |    0.155 |
 | deschidere     |    0.151 |
-| vizita         |    0.15  |
+| demonstra      |    0.15  |
 
 ## 2025-10-25 — facebook-post
 
@@ -10205,19 +10205,19 @@ _File: `2025-10-25_astazi-am-onorat-la-brigada-15-mecanizata-podu-inalt-din-ias`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | armată       |    0.315 |
-| apăra        |    0.275 |
-| pace         |    0.258 |
+| apăra        |    0.276 |
+| pace         |    0.259 |
 | brigada      |    0.249 |
-| drapel       |    0.231 |
+| drapel       |    0.23  |
 | românia      |    0.226 |
 | veteran      |    0.224 |
 | descuraja    |    0.209 |
 | servi        |    0.196 |
-| sacrificiu   |    0.189 |
 | recunoștință |    0.189 |
-| iași         |    0.183 |
-| onora        |    0.183 |
-| modernizare  |    0.177 |
+| sacrificiu   |    0.189 |
+| iași         |    0.182 |
+| onora        |    0.182 |
+| modernizare  |    0.179 |
 | proteja      |    0.153 |
 
 ## 2025-10-25 — facebook-post
@@ -10233,14 +10233,14 @@ _File: `2025-10-25_cea-mai-mica-inima-artificiala-complet-implantabila-cu-aplic`
 | proiect      |    0.184 |
 | complet      |    0.165 |
 | dezvolta     |    0.155 |
-| ieșan        |    0.141 |
-| laborator    |    0.141 |
-| transplant   |    0.141 |
-| planificat   |    0.141 |
-| insuficiență |    0.141 |
 | heart        |    0.141 |
-| mecanic      |    0.135 |
+| transplant   |    0.141 |
+| ieșan        |    0.141 |
+| planificat   |    0.141 |
+| laborator    |    0.141 |
+| insuficiență |    0.141 |
 | cardiac      |    0.135 |
+| mecanic      |    0.135 |
 
 ## 2025-10-26 — facebook-post
 
@@ -10248,21 +10248,21 @@ _File: `2025-10-26_am-participat-alaturi-de-familie-la-sfintirea-picturii-cated`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| pictură     |    0.336 |
-| sfințire    |    0.322 |
-| născut      |    0.322 |
-| catedrală   |    0.311 |
-| răbdare     |    0.282 |
+| pictură     |    0.335 |
+| născut      |    0.321 |
+| sfințire    |    0.321 |
+| catedrală   |    0.31  |
+| răbdare     |    0.287 |
 | clădi       |    0.277 |
-| vis         |    0.261 |
+| vis         |    0.26  |
 | aminti      |    0.227 |
-| construcție |    0.224 |
-| credință    |    0.224 |
+| construcție |    0.225 |
+| credință    |    0.223 |
 | speranță    |    0.188 |
 | familie     |    0.181 |
 | participa   |    0.16  |
-| alături     |    0.158 |
-| încredere   |    0.155 |
+| alături     |    0.157 |
+| încredere   |    0.154 |
 
 ## 2025-10-26 — facebook-post
 
@@ -10273,7 +10273,7 @@ _File: `2025-10-26_azi-la-sfintirea-picturii-catedralei-nationale` · 4 clean le
 | pictură   |    0.582 |
 | sfințire  |    0.558 |
 | catedrală |    0.539 |
-| național  |    0.242 |
+| național  |    0.243 |
 
 ## 2025-10-28 — facebook-post
 
@@ -10284,7 +10284,7 @@ _File: `2025-10-28_am-avut-o-discutie-constructiva-astazi-cu-valdis-dombrovskis`
 | redresa          |    0.311 |
 | comisar          |    0.295 |
 | asigura          |    0.264 |
-| reformă          |    0.253 |
+| reformă          |    0.254 |
 | vrea             |    0.215 |
 | reduce           |    0.185 |
 | deficit          |    0.18  |
@@ -10292,7 +10292,7 @@ _File: `2025-10-28_am-avut-o-discutie-constructiva-astazi-cu-valdis-dombrovskis`
 | economie         |    0.156 |
 | anunțat          |    0.156 |
 | excesiv          |    0.134 |
-| simplificare     |    0.133 |
+| simplificare     |    0.132 |
 | predictibilitate |    0.131 |
 | determinare      |    0.129 |
 | constructiv      |    0.126 |
@@ -10303,21 +10303,21 @@ _File: `2025-10-28_cu-profund-respect-si-in-semn-de-recunoastere-pentru-devotam`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| rus          |    0.313 |
+| rus          |    0.312 |
 | domn         |    0.216 |
 | vârst        |    0.181 |
 | sacrificiile |    0.181 |
 | infanterie   |    0.181 |
 | regiment     |    0.181 |
-| acordare     |    0.174 |
 | turnu        |    0.174 |
+| acordare     |    0.174 |
 | severin      |    0.174 |
 | devotament   |    0.168 |
 | război       |    0.165 |
-| veteran      |    0.163 |
-| patriotism   |    0.163 |
-| demnităție   |    0.163 |
 | naștere      |    0.163 |
+| demnităție   |    0.163 |
+| patriotism   |    0.163 |
+| veteran      |    0.163 |
 
 ## 2025-10-29 — facebook-post
 
@@ -10325,9 +10325,9 @@ _File: `2025-10-29_prin-redimensionarea-fortei-rotationale-care-opera-si-in-rom`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| american     |    0.295 |
-| deplin       |    0.243 |
-| continua     |    0.232 |
+| american     |    0.296 |
+| deplin       |    0.242 |
+| continua     |    0.233 |
 | echipament   |    0.218 |
 | flanc        |    0.216 |
 | estic        |    0.209 |
@@ -10347,19 +10347,19 @@ _File: `2025-10-30_se-implinesc-astazi-10-ani-de-la-tragedia-care-a-schimbat-ro`
 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
-| oglindă        |    0.271 |
-| sine           |    0.264 |
+| oglindă        |    0.27  |
+| sine           |    0.263 |
 | tragedie       |    0.253 |
-| rămâne         |    0.217 |
+| rămâne         |    0.216 |
 | supraviețuitor |    0.214 |
 | grav           |    0.125 |
 | acțiune        |    0.111 |
 | reformă        |    0.108 |
-| arșu           |    0.107 |
-| nosocomial     |    0.107 |
-| familiă        |    0.107 |
 | rămas-bun      |    0.107 |
 | ucid           |    0.107 |
+| familiă        |    0.107 |
+| nosocomial     |    0.107 |
+| arșu           |    0.107 |
 | răspica        |    0.107 |
 | viață          |    0.105 |
 
@@ -10375,11 +10375,11 @@ _File: `2025-11-04_am-aflat-cu-profunda-tristete-vestea-ca-romanul-prins-sub-da`
 | dăruire     |    0.215 |
 | turn        |    0.207 |
 | odihni      |    0.201 |
-| gândurile   |    0.197 |
-| italian     |    0.197 |
-| tristețe    |    0.197 |
-| stinge      |    0.197 |
-| transmit    |    0.197 |
+| stinge      |    0.196 |
+| transmit    |    0.196 |
+| italian     |    0.196 |
+| tristețe    |    0.196 |
+| gândurile   |    0.196 |
 | roma        |    0.192 |
 | condoleanță |    0.188 |
 | salvare     |    0.185 |
@@ -10395,17 +10395,17 @@ _File: `2025-11-05_i-am-urat-astazi-bun-venit-in-romania-domnului-mark-rutte-in`
 | rutte                           |    0.309 |
 | secretar                        |    0.226 |
 | apărare                         |    0.212 |
-| euroatlantic                    |    0.202 |
-| mark                            |    0.198 |
+| euroatlantic                    |    0.201 |
+| mark                            |    0.197 |
 | general                         |    0.161 |
 | românia                         |    0.16  |
 | estic                           |    0.141 |
 | securitate                      |    0.141 |
-| industrie                       |    0.127 |
-| vizit                           |    0.113 |
-| amenințr                        |    0.113 |
+| industrie                       |    0.128 |
 | centimetru                      |    0.113 |
 | estului                         |    0.113 |
+| vizit                           |    0.113 |
+| amenințr                        |    0.113 |
 
 ## 2025-11-05 — facebook-post
 
@@ -10417,39 +10417,39 @@ _File: `2025-11-05_multumim-emeric-ienei-pentru-toata-bucuria-pe-care-ne-ai-adu`
 | sport     |    0.243 |
 | generație |    0.192 |
 | echipă    |    0.165 |
-| campionat |    0.147 |
+| de-       |    0.147 |
 | cuceri    |    0.147 |
 | scriere   |    0.147 |
 | eleganță  |    0.147 |
-| de-       |    0.147 |
+| campionat |    0.147 |
 | admira    |    0.141 |
-| îndoliat  |    0.136 |
-| modestie  |    0.136 |
-| glorie    |    0.136 |
+| prețui    |    0.136 |
 | autohton  |    0.136 |
+| modestie  |    0.136 |
+| îndoliat  |    0.136 |
 | sufletesc |    0.136 |
 
 ## 2025-11-06 — facebook-post
 
 _File: `2025-11-06_romania-este-mai-aparata-ca-oricand-si-pregatita-sa-si-asume` · 148 clean lemmas_
 
-| lemmă          |   TF-IDF |
-|:---------------|---------:|
-| apărare        |    0.261 |
-| industrie      |    0.252 |
-| aliat          |    0.216 |
-| angaja         |    0.151 |
-| neagră         |    0.144 |
-| estic          |    0.14  |
-| consolida      |    0.133 |
-| apăra          |    0.128 |
-| pregăti        |    0.121 |
-| precum         |    0.121 |
-| portuare       |    0.116 |
-| capabilitățile |    0.116 |
-| încălcăre      |    0.116 |
-| europenie      |    0.116 |
-| axă            |    0.116 |
+| lemmă        |   TF-IDF |
+|:-------------|---------:|
+| apărare      |    0.262 |
+| industrie    |    0.252 |
+| aliat        |    0.216 |
+| angaja       |    0.15  |
+| neagră       |    0.144 |
+| estic        |    0.139 |
+| consolida    |    0.132 |
+| apăra        |    0.129 |
+| pregăti      |    0.121 |
+| precum       |    0.121 |
+| atlanticului |    0.116 |
+| încălcăre    |    0.116 |
+| europenie    |    0.116 |
+| portuare     |    0.116 |
+| axă          |    0.116 |
 
 ## 2025-11-07 — facebook-post
 
@@ -10463,10 +10463,10 @@ _File: `2025-11-07_competitivitate-si-crestere-economica-acestea-sunt-doua-cuvi`
 | confederație   |    0.145 |
 | piață          |    0.144 |
 | dezvoltare     |    0.142 |
-| concordia      |    0.139 |
-| ineficiență    |    0.139 |
-| antreprenorial |    0.139 |
 | patronală      |    0.139 |
+| ineficiență    |    0.139 |
+| concordia      |    0.139 |
+| antreprenorial |    0.139 |
 | politică       |    0.138 |
 | trebui         |    0.132 |
 | cerință        |    0.13  |
@@ -10484,16 +10484,16 @@ _File: `2025-11-07_in-semn-de-profund-respect-si-consideratie-pentru-memoria-ul`
 | grigore     |    0.22  |
 | domnitor    |    0.22  |
 | alexandru   |    0.175 |
-| dreptate    |    0.152 |
+| dreptate    |    0.153 |
 | acces       |    0.145 |
 | public      |    0.14  |
 | nume        |    0.133 |
 | rome        |    0.125 |
 | rămășiță    |    0.125 |
-| maternitate |    0.125 |
 | privitor    |    0.125 |
-| rămășiț     |    0.125 |
 | vizionar    |    0.125 |
+| maternitate |    0.125 |
+| rămășiț     |    0.125 |
 
 ## 2025-11-09 — facebook-post
 
@@ -10503,19 +10503,19 @@ _File: `2025-11-09_astazi-odata-cu-repatrierea-ramasitelor-pamantesti-ale-ultim`
 |:------------|---------:|
 | ghyka       |    0.409 |
 | domnitor    |    0.269 |
-| istorie     |    0.235 |
-| modern      |    0.205 |
+| istorie     |    0.236 |
+| modern      |    0.204 |
 | grigore     |    0.179 |
 | recunoaștem |    0.172 |
-| moldova     |    0.149 |
+| moldova     |    0.15  |
 | unire       |    0.148 |
 | alexandru   |    0.143 |
-| limbă       |    0.138 |
 | aminti      |    0.138 |
+| limbă       |    0.138 |
 | sprijini    |    0.115 |
+| jandarmeria |    0.102 |
 | rămășiț     |    0.102 |
 | pământesc   |    0.102 |
-| jandarmeria |    0.102 |
 
 ## 2025-11-10 — facebook-post
 
@@ -10523,19 +10523,19 @@ _File: `2025-11-10_am-semnat-sesizarea-catre-curtea-constitutionala-in-legatura`
 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
-| mediu          |    0.351 |
-| evaluare       |    0.236 |
+| mediu          |    0.353 |
+| evaluare       |    0.235 |
 | energetic      |    0.223 |
 | garanta        |    0.189 |
 | protejat       |    0.187 |
 | natural        |    0.176 |
-| sănătos        |    0.173 |
+| sănătos        |    0.174 |
 | lege           |    0.167 |
 | sesizare       |    0.164 |
 | european       |    0.16  |
-| obligație      |    0.155 |
+| obligație      |    0.156 |
 | protecție      |    0.151 |
-| impact         |    0.149 |
+| impact         |    0.148 |
 | constituțional |    0.127 |
 | permite        |    0.121 |
 
@@ -10546,19 +10546,19 @@ _File: `2025-11-10_romania-are-toate-datele-pentru-a-deveni-un-hub-de-inovatie` 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | apărare    |    0.287 |
-| industrie  |    0.259 |
+| industrie  |    0.26  |
 | industrial |    0.241 |
 | germania   |    0.211 |
 | producție  |    0.197 |
-| dezvolta   |    0.175 |
+| dezvolta   |    0.174 |
 | tip        |    0.171 |
 | privind    |    0.162 |
-| domeni     |    0.159 |
 | know-how   |    0.159 |
+| domeni     |    0.159 |
 | fondurile  |    0.152 |
 | economie   |    0.148 |
-| sud-est    |    0.147 |
 | pulbere    |    0.147 |
+| sud-est    |    0.147 |
 | românia    |    0.144 |
 
 ## 2025-11-11 — facebook-post
@@ -10572,14 +10572,14 @@ _File: `2025-11-11_in-urma-cu-trei-decenii-trecea-la-cele-vesnice-marele-om-pol`
 | seniorului |    0.229 |
 | democrație |    0.185 |
 | libertate  |    0.14  |
-| istorie    |    0.131 |
+| istorie    |    0.132 |
 | păstra     |    0.13  |
 | politic    |    0.128 |
-| fidel      |    0.114 |
-| loialitate |    0.114 |
-| veșnic     |    0.114 |
 | idealure   |    0.114 |
-| exemplu    |    0.111 |
+| loialitate |    0.114 |
+| fidel      |    0.114 |
+| veșnic     |    0.114 |
+| exemplu    |    0.11  |
 | etic       |    0.11  |
 | apărător   |    0.11  |
 
@@ -10592,16 +10592,16 @@ _File: `2025-11-12_am-pus-astazi-in-dezbatere-strategia-nationala-de-aparare-ce`
 | strategie       |    0.277 |
 | apărare         |    0.26  |
 | național        |    0.16  |
+| corupție        |    0.159 |
 | corectare       |    0.159 |
-| corupție        |    0.158 |
 | vulnerabilitate |    0.146 |
-| administrație   |    0.136 |
-| societate       |    0.119 |
+| administrație   |    0.137 |
+| societate       |    0.12  |
 | sine            |    0.118 |
 | fenomen         |    0.113 |
 | noiembrie       |    0.112 |
-| public          |    0.108 |
-| sens            |    0.101 |
+| public          |    0.107 |
+| sens            |    0.102 |
 | principal       |    0.101 |
 | colaborare      |    0.1   |
 
@@ -10611,7 +10611,7 @@ _File: `2025-11-13_astazi-s-a-incheiat-la-baza-militara-de-la-cincu-exercitiulu`
 
 | lemmă                           |   TF-IDF |
 |:--------------------------------|---------:|
-| militar                         |    0.379 |
+| militar                         |    0.378 |
 | northatlantictreatyorganization |    0.269 |
 | aliat                           |    0.236 |
 | exercițiu                       |    0.221 |
@@ -10619,9 +10619,9 @@ _File: `2025-11-13_astazi-s-a-incheiat-la-baza-militara-de-la-cincu-exercitiulu`
 | efort                           |    0.144 |
 | descurajare                     |    0.136 |
 | colectiv                        |    0.126 |
-| alianță                         |    0.119 |
-| flanc                           |    0.118 |
+| alianță                         |    0.12  |
 | franța                          |    0.118 |
+| flanc                           |    0.118 |
 | estic                           |    0.114 |
 | securitate                      |    0.114 |
 | rapid                           |    0.114 |
@@ -10633,21 +10633,21 @@ _File: `2025-11-13_l-am-primit-astazi-la-palatul-cotroceni-in-prima-sa-vizita-e`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| republicii  |    0.41  |
+| republicii  |    0.412 |
 | moldova     |    0.331 |
 | integrare   |    0.308 |
 | hotărât     |    0.209 |
 | munteanu    |    0.203 |
 | bunăstare   |    0.198 |
 | preluare    |    0.173 |
-| sincer      |    0.166 |
-| modernizare |    0.161 |
+| sincer      |    0.165 |
+| modernizare |    0.162 |
 | palier      |    0.159 |
-| încuraja    |    0.158 |
 | alexandru   |    0.158 |
-| european    |    0.15  |
-| susținător  |    0.15  |
-| preocupare  |    0.141 |
+| încuraja    |    0.158 |
+| susținător  |    0.151 |
+| european    |    0.151 |
+| preocupare  |    0.14  |
 
 ## 2025-11-17 — facebook-post
 
@@ -10656,18 +10656,18 @@ _File: `2025-11-17_l-am-primit-astazi-la-palatul-cotroceni-pe-enrico-letta-fost`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | pieței      |    0.328 |
-| european    |    0.218 |
+| european    |    0.219 |
 | viitor      |    0.189 |
 | raport      |    0.186 |
 | industrie   |    0.178 |
-| than        |    0.164 |
 | much        |    0.164 |
+| than        |    0.164 |
 | dezvoltare  |    0.161 |
 | convergență |    0.157 |
 | market      |    0.157 |
 | recomandare |    0.152 |
-| campion     |    0.147 |
 | autor       |    0.147 |
+| campion     |    0.147 |
 | guvernanță  |    0.138 |
 | discuta     |    0.136 |
 
@@ -10677,13 +10677,13 @@ _File: `2025-11-18_am-avut-astazi-o-discutie-cu-fatih-birol-presedintele-agenti`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| energie     |    0.385 |
+| energie     |    0.386 |
 | organizație |    0.292 |
-| aderare     |    0.265 |
+| aderare     |    0.266 |
 | agenție     |    0.213 |
-| ocde        |    0.198 |
+| ocde        |    0.197 |
 | energetic   |    0.183 |
-| global      |    0.178 |
+| global      |    0.177 |
 | putea       |    0.167 |
 | cooperare   |    0.165 |
 | european    |    0.148 |
@@ -10705,15 +10705,15 @@ _File: `2025-11-18_ne-a-parasit-dumitru-lupescu-era-presedinte-de-asociatie-de` 
 | odihni      |    0.225 |
 | ne-         |    0.219 |
 | fondator    |    0.214 |
-| curat       |    0.203 |
 | părăsi      |    0.203 |
-| parc        |    0.192 |
-| foto        |    0.192 |
+| curat       |    0.203 |
+| parc        |    0.191 |
+| foto        |    0.191 |
 | dumnezeu    |    0.179 |
 | asociație   |    0.173 |
-| construcție |    0.167 |
+| construcție |    0.168 |
 | instanță    |    0.164 |
-| lupta       |    0.151 |
+| lupta       |    0.152 |
 
 ## 2025-11-18 — facebook-post
 
@@ -10724,9 +10724,9 @@ _File: `2025-11-18_ne-luam-astazi-ramas-bun-de-la-un-patriot-care-a-crezut-si-a`
 | erou          |    0.298 |
 | ilie          |    0.292 |
 | libertate     |    0.224 |
-| rămas-bun     |    0.183 |
 | verticalitate |    0.183 |
 | teribe        |    0.183 |
+| rămas-bun     |    0.183 |
 | ezitare       |    0.176 |
 | riști         |    0.17  |
 | neclintit     |    0.165 |
@@ -10751,10 +10751,10 @@ _File: `2025-11-19_am-sesizat-curtea-constitutionala-in-legatura-cu-legea-de-ap`
 | constituțional |    0.142 |
 | ștergere       |    0.135 |
 | disproporționa |    0.125 |
-| demnităție     |    0.121 |
-| neclar         |    0.121 |
 | contrar        |    0.121 |
 | ingerință      |    0.121 |
+| neclar         |    0.121 |
+| demnităție     |    0.121 |
 | secundar       |    0.116 |
 | registru       |    0.113 |
 | electronic     |    0.111 |
@@ -10770,13 +10770,13 @@ _File: `2025-11-20_operatiunea-de-readucere-in-tara-sub-escorta-a-lui-horatiu-p`
 | suspecta       |    0.285 |
 | operațiune     |    0.225 |
 | justiția       |    0.212 |
-| apreciez       |    0.208 |
 | alexandru      |    0.208 |
+| apreciez       |    0.208 |
 | confirma       |    0.188 |
-| ordine         |    0.18  |
-| ferm           |    0.172 |
-| apăra          |    0.164 |
-| angajament     |    0.163 |
+| ordine         |    0.181 |
+| ferm           |    0.171 |
+| apăra          |    0.165 |
+| angajament     |    0.162 |
 | rezultat       |    0.162 |
 | intern         |    0.158 |
 | constituțional |    0.157 |
@@ -10788,8 +10788,8 @@ _File: `2025-11-20_romania-a-facut-inca-un-pas-decisiv-spre-aderarea-la-ocde-am`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | integritate  |    0.357 |
-| ocde         |    0.347 |
-| aderare      |    0.186 |
+| ocde         |    0.346 |
+| aderare      |    0.187 |
 | funcție      |    0.158 |
 | public       |    0.155 |
 | lege         |    0.145 |
@@ -10797,7 +10797,7 @@ _File: `2025-11-20_romania-a-facut-inca-un-pas-decisiv-spre-aderarea-la-ocde-am`
 | transparență |    0.143 |
 | atribuție    |    0.135 |
 | perioadă     |    0.133 |
-| regulă       |    0.125 |
+| regulă       |    0.124 |
 | legislativ   |    0.124 |
 | pas          |    0.113 |
 | aproape      |    0.108 |
@@ -10813,7 +10813,7 @@ _File: `2025-11-21_am-avut-astazi-la-palatul-cotroceni-o-discutie-importanta-cu`
 | coeziune         |    0.267 |
 | convergență      |    0.262 |
 | uniune           |    0.201 |
-| cadru            |    0.2   |
+| cadru            |    0.201 |
 | sublinia         |    0.182 |
 | competitivitate  |    0.178 |
 | necesitate       |    0.177 |
@@ -10832,18 +10832,18 @@ _File: `2025-11-21_romania-are-in-acest-moment-maturitatea-si-expertiza-pentru` 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | dezvoltat  |    0.266 |
-| economie   |    0.252 |
-| european   |    0.241 |
+| economie   |    0.253 |
+| european   |    0.242 |
 | securitate |    0.217 |
 | expertiza  |    0.181 |
 | țară       |    0.171 |
 | balcanii   |    0.163 |
 | uniune     |    0.16  |
 | zonă       |    0.156 |
-| prioritar  |    0.156 |
+| prioritar  |    0.155 |
 | descuraja  |    0.152 |
-| progresa   |    0.145 |
 | alinia     |    0.145 |
+| progresa   |    0.145 |
 | continent  |    0.143 |
 | maturitate |    0.13  |
 
@@ -10859,15 +10859,15 @@ _File: `2025-11-23_am-promulgat-saptamana-aceasta-legea-care-introduce-amendare`
 | cumpărător   |    0.253 |
 | consumator   |    0.229 |
 | înlocui      |    0.218 |
-| promulga     |    0.202 |
 | cuprinde     |    0.202 |
+| promulga     |    0.202 |
 | aplicare     |    0.196 |
 | achiziție    |    0.194 |
 | produs       |    0.192 |
 | constata     |    0.191 |
 | leu          |    0.189 |
-| online       |    0.188 |
 | fizic        |    0.188 |
+| online       |    0.188 |
 
 ## 2025-11-25 — facebook-post
 
@@ -10880,14 +10880,14 @@ _File: `2025-11-25_a-fost-o-onoare-sa-gazduiesc-astazi-la-palatul-cotroceni-sum`
 | instrument   |    0.179 |
 | permite      |    0.145 |
 | anumit       |    0.144 |
-| institute    |    0.143 |
-| digitalizat  |    0.143 |
-| restrânge    |    0.143 |
-| cauta        |    0.143 |
 | găzduii      |    0.143 |
-| deveni       |    0.137 |
-| pledoarie    |    0.137 |
+| restrânge    |    0.143 |
+| institute    |    0.143 |
+| cauta        |    0.143 |
+| digitalizat  |    0.143 |
 | patronaj     |    0.137 |
+| pledoarie    |    0.137 |
+| deveni       |    0.137 |
 | consulat     |    0.133 |
 | încredere    |    0.132 |
 
@@ -10899,17 +10899,17 @@ _File: `2025-11-26_parlamentul-romaniei-a-votat-astazi-strategia-nationala-de-a`
 |:----------------------------------------------------------------------------------------|---------:|
 | strategie                                                                               |    0.262 |
 | independență                                                                            |    0.205 |
+| cetățean                                                                                |    0.201 |
 | identitate                                                                              |    0.201 |
-| cetățean                                                                                |    0.2   |
-| național                                                                                |    0.189 |
+| național                                                                                |    0.19  |
 | document                                                                                |    0.178 |
 | apăra                                                                                   |    0.168 |
-| httpswwwpresidencyroromediacsatstrategia-nationala-de-aparare-a-tarii-pentru-perioada-- |    0.152 |
-| reunit                                                                                  |    0.152 |
-| noțiune                                                                                 |    0.152 |
+| noțiune                                                                                 |    0.151 |
+| reunit                                                                                  |    0.151 |
+| httpswwwpresidencyroromediacsatstrategia-nationala-de-aparare-a-tarii-pentru-perioada-- |    0.151 |
 | român                                                                                   |    0.148 |
-| abstract                                                                                |    0.145 |
 | clari                                                                                   |    0.145 |
+| abstract                                                                                |    0.145 |
 | corespunde                                                                              |    0.145 |
 | afirmare                                                                                |    0.14  |
 
@@ -10919,19 +10919,19 @@ _File: `2025-12-01_cu-prilejul-zilei-nationale-a-romaniei-l-am-decorat-pe-veter`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| conferi    |    0.267 |
-| banu       |    0.256 |
+| conferi    |    0.266 |
+| banu       |    0.255 |
 | vasile     |    0.2   |
-| ion        |    0.198 |
-| prilej     |    0.198 |
+| prilej     |    0.2   |
+| ion        |    0.197 |
 | gest       |    0.164 |
 | idealurile |    0.133 |
-| decorație  |    0.133 |
-| cavaler    |    0.133 |
-| decora     |    0.133 |
-| virtute    |    0.133 |
-| cot        |    0.133 |
 | neobosi    |    0.133 |
+| decorație  |    0.133 |
+| decora     |    0.133 |
+| cavaler    |    0.133 |
+| cot        |    0.133 |
+| virtute    |    0.133 |
 | militar    |    0.133 |
 | viață      |    0.131 |
 
@@ -10950,8 +10950,8 @@ _File: `2025-12-01_ziua-nationala-este-inainte-de-toate-o-sarbatoare-a-oamenilo`
 | emoționa     |    0.167 |
 | binecuvânta  |    0.167 |
 | afla         |    0.166 |
-| arc          |    0.163 |
-| triumf       |    0.163 |
+| triumf       |    0.162 |
+| arc          |    0.162 |
 | dobândi      |    0.155 |
 | impresiona   |    0.152 |
 | paradă       |    0.147 |
@@ -10963,19 +10963,19 @@ _File: `2025-12-02_am-promulgat-recent-legea-pentru-modificarea-statutului-depu`
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| lege            |    0.284 |
+| lege            |    0.283 |
 | terț            |    0.244 |
 | întâlnirilor    |    0.234 |
-| parlamentar     |    0.21  |
-| registru        |    0.206 |
+| parlamentar     |    0.209 |
+| registru        |    0.205 |
 | prevedere       |    0.183 |
 | ocde            |    0.163 |
 | legislativ      |    0.146 |
 | pas             |    0.133 |
 | constituțional  |    0.129 |
-| reprezentant    |    0.128 |
-| sindical        |    0.122 |
+| reprezentant    |    0.129 |
 | parlamentare    |    0.122 |
+| sindical        |    0.122 |
 | sublinii        |    0.122 |
 | neguvernamental |    0.117 |
 
@@ -11010,13 +11010,13 @@ _File: `2025-12-03_situatia-dezastruoasa-de-la-barajul-paltinu-care-a-generat-o`
 | paltinu         |    0.32  |
 | obligatoriu     |    0.215 |
 | trebui          |    0.195 |
-| documentațiilor |    0.16  |
 | anticipare      |    0.16  |
-| dezastruos      |    0.153 |
+| documentațiilor |    0.16  |
 | dâmbovița       |    0.153 |
-| găsire          |    0.148 |
+| dezastruos      |    0.153 |
 | remedia         |    0.148 |
-| stat            |    0.145 |
+| găsire          |    0.148 |
+| stat            |    0.146 |
 | prahova         |    0.14  |
 | elaborare       |    0.137 |
 | proporție       |    0.137 |
@@ -11033,17 +11033,17 @@ _File: `2025-12-04_am-avut-astazi-onoarea-sa-l-felicit-pe-domnul-victor-rebengi`
 | domn        |    0.223 |
 | asociație   |    0.195 |
 | important   |    0.144 |
+| european    |    0.141 |
 | onestita    |    0.141 |
-| european    |    0.14  |
-| premiu      |    0.135 |
 | incomod     |    0.135 |
+| premiu      |    0.135 |
 | rolură      |    0.13  |
-| artistic    |    0.123 |
 | provoaca    |    0.123 |
 | acut        |    0.123 |
+| artistic    |    0.123 |
 | contemporan |    0.118 |
 | dori        |    0.117 |
-| expunere    |    0.112 |
+| critică     |    0.112 |
 
 ## 2025-12-04 — facebook-post
 
@@ -11055,16 +11055,16 @@ _File: `2025-12-04_am-transmis-parlamentului-cererea-de-reexaminare-a-legii-car`
 | extremism    |    0.263 |
 | datorie      |    0.2   |
 | material     |    0.189 |
-| xenofobie    |    0.153 |
 | pedepse      |    0.153 |
+| xenofobie    |    0.153 |
 | clar         |    0.148 |
 | reexaminare  |    0.148 |
 | distribuire  |    0.148 |
 | amplificare  |    0.143 |
-| contrar      |    0.143 |
 | infractor    |    0.143 |
+| contrar      |    0.143 |
+| xenofob      |    0.14  |
 | opus         |    0.14  |
-| închisoare   |    0.14  |
 | discriminare |    0.14  |
 
 ## 2025-12-05 — facebook-post
@@ -11077,16 +11077,16 @@ _File: `2025-12-05_am-semnat-astazi-decretul-de-promulgare-a-legii-care-introdu`
 | lege            |    0.263 |
 | maximum         |    0.234 |
 | imobiliar       |    0.23  |
-| construcție     |    0.189 |
+| construcție     |    0.19  |
 | scop            |    0.183 |
 | regulă          |    0.17  |
 | dezvoltator     |    0.142 |
-| dezvoltatorilor |    0.142 |
 | nota            |    0.142 |
+| dezvoltatorilor |    0.142 |
 | nerespectare    |    0.136 |
 | cumpărător      |    0.131 |
-| instalație      |    0.128 |
 | vânzare         |    0.128 |
+| instalație      |    0.128 |
 | achiziționa     |    0.122 |
 
 ## 2025-12-07 — facebook-post
@@ -11095,10 +11095,10 @@ _File: `2025-12-07_dragi-bucuresteni-va-invit-sa-mergeti-la-vot-indiferent-de-o`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| vot         |    0.29  |
+| vot         |    0.289 |
 | mafie       |    0.274 |
-| dragi       |    0.254 |
 | imobiliar   |    0.254 |
+| dragi       |    0.254 |
 | apropia     |    0.227 |
 | bucureștean |    0.225 |
 | opțiune     |    0.204 |
@@ -11106,10 +11106,10 @@ _File: `2025-12-07_dragi-bucuresteni-va-invit-sa-mergeti-la-vot-indiferent-de-o`
 | legitim     |    0.198 |
 | invi        |    0.197 |
 | indiferent  |    0.182 |
-| corupție    |    0.171 |
-| primărie    |    0.168 |
-| extrem      |    0.168 |
+| corupție    |    0.172 |
+| democratic  |    0.168 |
 | număr       |    0.168 |
+| primărie    |    0.168 |
 
 ## 2025-12-08 — facebook-post
 
@@ -11123,15 +11123,15 @@ _File: `2025-12-08_felicitari-si-succes-alesilor-locali-confirmati-prin-votul-d`
 | succes           |    0.186 |
 | primar           |    0.177 |
 | responsabilitate |    0.168 |
-| admitere         |    0.166 |
 | bucureștenii     |    0.166 |
-| miz              |    0.16  |
+| admitere         |    0.166 |
 | aleș             |    0.16  |
+| miz              |    0.16  |
 | vot              |    0.154 |
 | general          |    0.152 |
 | cetățean         |    0.147 |
 | restanță         |    0.146 |
-| distribuție      |    0.143 |
+| responsabilita   |    0.143 |
 
 ## 2025-12-09 — facebook-post
 
@@ -11141,19 +11141,19 @@ _File: `2025-12-09_a-fost-o-reala-placere-sa-il-intalnesc-pe-presedintele-repub`
 |:--------------|---------:|
 | franța        |    0.413 |
 | macron        |    0.262 |
-| francez       |    0.244 |
+| francez       |    0.243 |
 | numeroasă     |    0.166 |
 | militar       |    0.166 |
 | rol           |    0.165 |
 | tactic        |    0.154 |
 | cincu         |    0.149 |
-| capacităților |    0.143 |
-| intensificare |    0.14  |
+| capacităților |    0.142 |
 | emmanuel      |    0.14  |
+| intensificare |    0.14  |
 | prietenie     |    0.129 |
 | recunoștință  |    0.126 |
-| reciproc      |    0.122 |
 | deosebit      |    0.122 |
+| reciproc      |    0.122 |
 
 ## 2025-12-09 — facebook-post
 
@@ -11161,20 +11161,20 @@ _File: `2025-12-09_am-avut-in-franta-o-intalnire-cu-reprezentantii-companiilor` 
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| tehnologie |    0.291 |
+| tehnologie |    0.29  |
 | emergent   |    0.28  |
 | tehnologiu |    0.224 |
 | apărare    |    0.198 |
 | franța     |    0.182 |
 | producție  |    0.181 |
-| solid      |    0.166 |
+| solid      |    0.167 |
 | industrie  |    0.159 |
 | colaborare |    0.152 |
 | companie   |    0.15  |
 | radare     |    0.146 |
 | domeniu    |    0.145 |
-| decalajă   |    0.14  |
 | rădăcină   |    0.14  |
+| decalajă   |    0.14  |
 | cumpărător |    0.135 |
 
 ## 2025-12-09 — facebook-post
@@ -11183,7 +11183,7 @@ _File: `2025-12-09_am-avut-o-excelenta-intrevedere-cu-primarul-parisului-anne-h`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| paris       |    0.39  |
+| paris       |    0.389 |
 | cooperare   |    0.222 |
 | nicolae     |    0.204 |
 | numeros     |    0.187 |
@@ -11192,11 +11192,11 @@ _File: `2025-12-09_am-avut-o-excelenta-intrevedere-cu-primarul-parisului-anne-h`
 | educație    |    0.151 |
 | legătură    |    0.14  |
 | capitală    |    0.134 |
-| memorial    |    0.133 |
-| societății  |    0.133 |
 | neobosi     |    0.133 |
 | catalizator |    0.133 |
-| dezvoltare  |    0.13  |
+| memorial    |    0.133 |
+| societății  |    0.133 |
+| dezvoltare  |    0.131 |
 | ală         |    0.127 |
 
 ## 2025-12-10 — facebook-post
@@ -11208,16 +11208,16 @@ _File: `2025-12-10_am-vazut-cap-coada-documentarul-recorder-despre-justitie-cel`
 | justiție      |    0.477 |
 | problemă      |    0.272 |
 | sistem        |    0.211 |
-| interior      |    0.201 |
-| bună-credință |    0.174 |
+| interior      |    0.202 |
+| bună-credință |    0.173 |
 | recorder      |    0.158 |
-| fapt          |    0.155 |
+| fapt          |    0.154 |
 | trebui        |    0.143 |
-| profesie      |    0.141 |
-| asigur        |    0.13  |
+| profesie      |    0.14  |
+| asigur        |    0.131 |
 | probă         |    0.128 |
 | rând          |    0.123 |
-| magistrat     |    0.117 |
+| magistrat     |    0.116 |
 | sine          |    0.115 |
 | vorbi         |    0.114 |
 
@@ -11231,15 +11231,15 @@ _File: `2025-12-11_cand-200-de-magistrati-spun-ca-este-o-problema-de-integritat`
 | decembrie    |    0.348 |
 | adresă       |    0.235 |
 | material     |    0.231 |
-| trimite      |    0.213 |
+| trimite      |    0.212 |
 | justiție     |    0.198 |
 | oră          |    0.183 |
 | înscriere    |    0.18  |
 | sistem       |    0.175 |
-| formate      |    0.167 |
 | reclama      |    0.167 |
-| multilateral |    0.163 |
+| formate      |    0.167 |
 | invit        |    0.163 |
+| multilateral |    0.163 |
 | problemă     |    0.161 |
 | citim        |    0.161 |
 
@@ -11283,8 +11283,8 @@ _File: `2025-12-16_actiunile-rusiei-reprezinta-o-amenintare-majora-pentru-regiu`
 | northatlantictreatyorganization |    0.168 |
 | flancului                       |    0.164 |
 | apărare                         |    0.16  |
-| evidenția                       |    0.156 |
 | complementar                    |    0.156 |
+| evidenția                       |    0.156 |
 | helsinki                        |    0.152 |
 
 ## 2025-12-16 — facebook-post
@@ -11297,17 +11297,17 @@ _File: `2025-12-16_am-trimis-curtii-constitutionale-o-sesizare-de-neconstitutio`
 | lege            |    0.219 |
 | cetățenie       |    0.186 |
 | european        |    0.157 |
-| formare         |    0.147 |
+| formare         |    0.146 |
 | constituție     |    0.141 |
 | junior          |    0.118 |
 | contravențional |    0.118 |
 | consacrat       |    0.118 |
 | susțin          |    0.113 |
-| lucrător        |    0.109 |
-| derogare        |    0.109 |
 | minimum         |    0.109 |
-| academie        |    0.106 |
-| tratată         |    0.106 |
+| derogare        |    0.109 |
+| lucrător        |    0.109 |
+| circulație      |    0.106 |
+| cerință         |    0.106 |
 
 ## 2025-12-16 — facebook-post
 
@@ -11317,15 +11317,15 @@ _File: `2025-12-16_foarte-utile-si-aplicate-discutiile-pe-care-le-am-purtat-cu` 
 |:------------|---------:|
 | finlandez   |    0.393 |
 | industrie   |    0.285 |
-| apărare     |    0.177 |
-| organizație |    0.173 |
+| apărare     |    0.178 |
+| organizație |    0.172 |
 | relevant    |    0.169 |
 | cercetare   |    0.166 |
 | cooperare   |    0.146 |
-| companie    |    0.135 |
+| companie    |    0.134 |
+| consolidăr  |    0.131 |
 | omologi     |    0.131 |
 | romarm      |    0.131 |
-| consolidăr  |    0.131 |
 | oferi       |    0.127 |
 | explora     |    0.126 |
 | comun       |    0.124 |
@@ -11343,14 +11343,14 @@ _File: `2025-12-17_la-londra-intr-unul-dintre-cele-mai-competitive-ecosisteme-e`
 | încuraja       |    0.209 |
 | comercial      |    0.193 |
 | afacere        |    0.165 |
-| susținere      |    0.165 |
-| ecosistemă     |    0.149 |
+| susținere      |    0.164 |
 | startup        |    0.149 |
-| dezvoltare     |    0.146 |
+| ecosistemă     |    0.149 |
+| dezvoltare     |    0.147 |
 | mediu          |    0.146 |
 | -urilor        |    0.143 |
-| antreprenorii  |    0.143 |
 | antreprenoriat |    0.143 |
+| antreprenorii  |    0.143 |
 | continuare     |    0.142 |
 
 ## 2025-12-17 — facebook-post
@@ -11377,17 +11377,17 @@ _File: `2025-12-17_o-intalnire-extraordinar-de-buna-si-calda-cu-comunitatea-de` 
 | regat        |    0.322 |
 | marii        |    0.294 |
 | cald         |    0.294 |
-| nord         |    0.267 |
-| extraordinar |    0.253 |
+| nord         |    0.266 |
+| extraordinar |    0.252 |
 | identitate   |    0.243 |
 | viu          |    0.24  |
 | resursă      |    0.216 |
-| diasporă     |    0.208 |
+| diasporă     |    0.209 |
 | păstra       |    0.208 |
 | comunitate   |    0.189 |
 | unit         |    0.171 |
-| întâlnire    |    0.169 |
-| românesc     |    0.169 |
+| românesc     |    0.17  |
+| întâlnire    |    0.17  |
 
 ## 2025-12-18 — facebook-post
 
@@ -11403,12 +11403,12 @@ _File: `2025-12-18_a-inceput-ultima-reuniune-a-consiliului-european-din-acest-a`
 | comună         |    0.187 |
 | agricol        |    0.176 |
 | definire       |    0.176 |
+| echitabil      |    0.176 |
 | oportunitățile |    0.173 |
-| echitabil      |    0.173 |
-| constructiv    |    0.16  |
+| constructiv    |    0.159 |
 | coeziune       |    0.156 |
 | discuție       |    0.155 |
-| multianual     |    0.152 |
+| multianual     |    0.151 |
 | dedica         |    0.148 |
 
 ## 2025-12-18 — facebook-post
@@ -11421,8 +11421,8 @@ _File: `2025-12-18_dialog-cu-antreprenorii-romani-si-britanici-intalniri-cu-oam`
 | majestate   |    0.271 |
 | charles     |    0.254 |
 | -lea        |    0.248 |
-| punt        |    0.243 |
-| inovare     |    0.23  |
+| punt        |    0.242 |
+| inovare     |    0.229 |
 | londra      |    0.217 |
 | rege        |    0.217 |
 | durabil     |    0.217 |
@@ -11431,7 +11431,7 @@ _File: `2025-12-18_dialog-cu-antreprenorii-romani-si-britanici-intalniri-cu-oam`
 | romania     |    0.194 |
 | vizita      |    0.185 |
 | nicusordan  |    0.162 |
-| solid       |    0.161 |
+| solid       |    0.162 |
 
 ## 2025-12-19 — facebook-post
 
@@ -11442,17 +11442,17 @@ _File: `2025-12-19_am-incheiat-turneul-european-cu-ultimul-consiliu-din-acest-a`
 | turneu           |    0.403 |
 | extindere        |    0.305 |
 | european         |    0.29  |
-| competitivitate  |    0.285 |
+| competitivitate  |    0.284 |
 | uniuneaeuropeană |    0.279 |
-| încheia          |    0.248 |
+| încheia          |    0.249 |
 | temă             |    0.243 |
 | consiliu         |    0.211 |
-| buget            |    0.208 |
-| sprijin          |    0.207 |
+| buget            |    0.209 |
+| sprijin          |    0.206 |
 | esențial         |    0.199 |
+| uniune           |    0.193 |
 | ucraina          |    0.193 |
-| uniune           |    0.192 |
-| economic         |    0.183 |
+| economic         |    0.184 |
 | discuta          |    0.181 |
 
 ## 2025-12-20 — facebook-post
@@ -11461,20 +11461,20 @@ _File: `2025-12-20_am-primit-de-la-magistrati-sute-de-pagini-de-materiale-relev`
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| vrea              |    0.256 |
+| vrea              |    0.257 |
 | magistrat         |    0.25  |
 | discuție          |    0.219 |
 | final             |    0.211 |
 | confidențialitate |    0.201 |
 | primit            |    0.186 |
-| sinteză           |    0.186 |
 | audiență          |    0.186 |
+| sinteză           |    0.186 |
 | jurnalișt         |    0.169 |
 | parcurge          |    0.166 |
 | lună              |    0.165 |
 | mail              |    0.163 |
-| consultăre        |    0.161 |
 | înscrie           |    0.161 |
+| consultăre        |    0.161 |
 | rundă             |    0.158 |
 
 ## 2025-12-20 — facebook-post
@@ -11483,10 +11483,10 @@ _File: `2025-12-20_curtea-constitutionala-a-decis-recent-o-schimbare-esentiala` 
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| constituțional   |    0.368 |
+| constituțional   |    0.367 |
 | curte            |    0.245 |
 | lege             |    0.215 |
-| obiecție         |    0.215 |
+| obiecție         |    0.214 |
 | revenire         |    0.208 |
 | reorganizare     |    0.208 |
 | neconstituțional |    0.195 |
@@ -11495,8 +11495,8 @@ _File: `2025-12-20_curtea-constitutionala-a-decis-recent-o-schimbare-esentiala` 
 | clarificare      |    0.185 |
 | dinainte         |    0.18  |
 | recâștiga        |    0.178 |
-| sesiza           |    0.166 |
 | ccr              |    0.166 |
+| sesiza           |    0.166 |
 | respectare       |    0.165 |
 
 ## 2025-12-21 — facebook-post
@@ -11505,9 +11505,9 @@ _File: `2025-12-21_libertate-acesta-a-fost-strigatul-limpede-al-natiunii-romane`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| revoluție   |    0.253 |
+| revoluție   |    0.256 |
 | libertate   |    0.209 |
-| comunism    |    0.197 |
+| comunism    |    0.196 |
 | uman        |    0.175 |
 | izolare     |    0.154 |
 | decembrie   |    0.153 |
@@ -11527,20 +11527,20 @@ _File: `2025-12-21_voi-initia-in-ianuarie-imediat-dupa-sarbatori-un-referendum` 
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| interes       |    0.36  |
+| interes       |    0.361 |
 | magistrat     |    0.271 |
-| acționa       |    0.248 |
+| acționa       |    0.249 |
 | superior      |    0.227 |
 | discreționar  |    0.191 |
 | instanțelor   |    0.18  |
 | grup          |    0.176 |
 | magistraturii |    0.167 |
 | public        |    0.163 |
-| consiliu      |    0.159 |
+| consiliu      |    0.158 |
 | csm           |    0.143 |
 | legislativ    |    0.13  |
 | conducere     |    0.125 |
-| majoritate    |    0.115 |
+| majoritate    |    0.114 |
 | vrea          |    0.111 |
 
 ## 2025-12-25 — facebook-post
@@ -11555,15 +11555,15 @@ _File: `2025-12-25_nasterea-lui-hristos-este-pentru-noi-crestinii-sarbatoarea-s`
 | binecuvântat |    0.192 |
 | prețioa      |    0.192 |
 | viață        |    0.188 |
+| hotărâtă     |    0.184 |
 | readuce      |    0.184 |
 | magie        |    0.184 |
-| hotărâtă     |    0.184 |
-| hristos      |    0.177 |
 | sufletesc    |    0.177 |
+| hristos      |    0.177 |
 | copilărie    |    0.172 |
 | naștere      |    0.172 |
-| creștin      |    0.168 |
 | apreciem     |    0.168 |
+| creștin      |    0.168 |
 
 ## 2025-12-26 — facebook-post
 
@@ -11582,8 +11582,8 @@ _File: `2025-12-26_in-cadrul-vizitelor-externe-din-ultimele-saptamani-am-avut-b`
 | respectat        |    0.152 |
 | inspira          |    0.144 |
 | carieră          |    0.142 |
-| profesionalism   |    0.14  |
 | autentic         |    0.14  |
+| profesionalism   |    0.14  |
 | remarcabil       |    0.138 |
 | personalitate    |    0.138 |
 
@@ -11593,8 +11593,8 @@ _File: `2025-12-26_o-intalnire-speciala-la-paris-cu-un-regizor-si-scenarist-de` 
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| româniîndiaspora |    0.437 |
 | corneliu         |    0.437 |
+| româniîndiaspora |    0.437 |
 | nume             |    0.258 |
 | asociază         |    0.243 |
 | urez             |    0.218 |
@@ -11621,7 +11621,7 @@ _File: `2025-12-27_astept-cu-ner-bdare-s-aflu-ce-a-spus-mirabela-despre-mine-in`
 | digi     |    0.379 |
 | oră      |    0.281 |
 | afla     |    0.275 |
-| spune    |    0.193 |
+| spune    |    0.194 |
 | vrea     |    0.153 |
 
 ## 2025-12-27 — facebook-post
@@ -11630,21 +11630,21 @@ _File: `2025-12-27_l-am-revazut-cu-mare-emotie-la-paris-pe-profesorul-emerit-la`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| prilej       |    0.352 |
+| prilej       |    0.355 |
 | profesor     |    0.306 |
-| prestigios   |    0.228 |
+| prestigios   |    0.227 |
 | revedea      |    0.22  |
-| inovator     |    0.214 |
+| inovator     |    0.213 |
 | pasiune      |    0.208 |
-| studenție    |    0.204 |
+| studenție    |    0.203 |
 | matematician |    0.193 |
 | matematică   |    0.18  |
 | concurs      |    0.178 |
 | paris        |    0.174 |
 | francez      |    0.174 |
 | învățământ   |    0.172 |
-| universitate |    0.171 |
-| reaminti     |    0.168 |
+| universitate |    0.17  |
+| reaminti     |    0.167 |
 
 ## 2025-12-27 — facebook-post
 
@@ -11658,9 +11658,9 @@ _File: `2025-12-27_pe-fiul-marelui-ion-ratiu-nicolae-ratiu-l-am-revazut-la-lond`
 | fundație         |    0.228 |
 | londra           |    0.208 |
 | ion              |    0.201 |
+| tinerii          |    0.201 |
 | britanie         |    0.201 |
 | deceniu          |    0.201 |
-| tinerii          |    0.201 |
 | civic            |    0.195 |
 | reper            |    0.19  |
 | superior         |    0.188 |
@@ -11678,9 +11678,9 @@ _File: `2025-12-28_a-fost-o-veritabila-placere-sa-il-revad-la-londra-pe-sir-geo`
 | veritabil        |    0.234 |
 | apreciat         |    0.234 |
 | inspirație       |    0.226 |
-| româniîndiaspora |    0.22  |
 | inginer          |    0.22  |
 | celebr           |    0.22  |
+| româniîndiaspora |    0.22  |
 | respectat        |    0.21  |
 | constructor      |    0.202 |
 | remarcabil       |    0.19  |
@@ -11698,8 +11698,8 @@ _File: `2025-12-28_redactia-romana-a-bbc-a-ramas-pana-astazi-un-reper-de-jurnal`
 |:-----------------|---------:|
 | christian        |    0.49  |
 | jurnalism        |    0.245 |
-| redacție         |    0.237 |
 | aprofundat       |    0.237 |
+| redacție         |    0.237 |
 | româniîndiaspora |    0.23  |
 | marcă            |    0.219 |
 | felicita         |    0.208 |
@@ -11719,10 +11719,10 @@ _File: `2026-01-01_2025-a-fost-un-an-al-provocarilor-dar-si-al-curajului-de-a-n`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | viitor        |    0.236 |
-| adevărat      |    0.212 |
+| adevărat      |    0.213 |
 | puls          |    0.204 |
-| bună-credință |    0.189 |
 | încercăre     |    0.189 |
+| bună-credință |    0.189 |
 | încredere     |    0.188 |
 | împlinire     |    0.184 |
 | presus        |    0.175 |
@@ -11740,16 +11740,16 @@ _File: `2026-01-04_am-sperat-pana-in-ultima-clipa-intr-un-deznodamant-diferit-i`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| profundă      |    0.253 |
 | deznodământ   |    0.253 |
+| profundă      |    0.253 |
 | crans-montana |    0.253 |
-| familiile     |    0.244 |
 | îndoliat      |    0.244 |
+| familiile     |    0.244 |
 | incendiu      |    0.237 |
 | tristețe      |    0.231 |
 | transmit      |    0.231 |
-| clipă         |    0.226 |
 | sincere       |    0.226 |
+| clipă         |    0.226 |
 | condoleanță   |    0.222 |
 | pierdere      |    0.2   |
 | solidar       |    0.195 |
@@ -11768,10 +11768,10 @@ _File: `2026-01-05_cheltuielile-administratiei-prezidentiale-in-2025-au-fost-re`
 | angaja        |    0.332 |
 | reduce        |    0.282 |
 | milion        |    0.279 |
-| prezidențial  |    0.252 |
-| administrație |    0.242 |
+| prezidențial  |    0.251 |
+| administrație |    0.243 |
 | adică         |    0.223 |
-| decât         |    0.219 |
+| decât         |    0.22  |
 
 ## 2026-01-06 — facebook-post
 
@@ -11783,7 +11783,7 @@ _File: `2026-01-06_a-inceput-reuniunea-liderilor-de-state-si-de-guverne-la-pala`
 | reuniune |    0.435 |
 | palat    |    0.358 |
 | lider    |    0.339 |
-| începe   |    0.304 |
+| începe   |    0.305 |
 | stat     |    0.22  |
 
 ## 2026-01-06 — facebook-post
@@ -11794,12 +11794,12 @@ _File: `2026-01-06_am-avut-placerea-de-a-l-reintalni-pe-presedintele-emmanuel-m`
 |:-----------|---------:|
 | reîntâlni  |    0.428 |
 | emmanuel   |    0.375 |
-| macron     |    0.352 |
 | reuniuni   |    0.352 |
+| macron     |    0.352 |
 | plăcere    |    0.324 |
-| deschidere |    0.294 |
+| deschidere |    0.293 |
 | membră     |    0.284 |
-| voință     |    0.275 |
+| voință     |    0.276 |
 | coaliție   |    0.208 |
 | președinte |    0.14  |
 | stat       |    0.135 |
@@ -11832,17 +11832,17 @@ _File: `2026-01-08_puteti-asculta-inregistrarea-convorbirii-dintre-pilotul-roma`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| aeronavă      |    0.361 |
+| aeronavă      |    0.36  |
 | gest          |    0.239 |
 | respecta      |    0.213 |
 | spartan       |    0.195 |
 | român         |    0.19  |
 | reprezenta    |    0.187 |
-| crans-montana |    0.187 |
 | incendi       |    0.187 |
+| crans-montana |    0.187 |
 | jurnalism     |    0.187 |
-| convorbire    |    0.175 |
 | pilot         |    0.175 |
+| convorbire    |    0.175 |
 | inadmisibil   |    0.167 |
 | minciună      |    0.164 |
 | înregistrare  |    0.158 |
@@ -11866,7 +11866,7 @@ _File: `2026-01-09_romania-a-votat-in-favoarea-acordului-comercial-dintre-uniun`
 | vrea             |    0.145 |
 | comercial        |    0.122 |
 | carne            |    0.117 |
-| românia          |    0.114 |
+| românia          |    0.115 |
 | produce          |    0.112 |
 | export           |    0.106 |
 
@@ -11879,18 +11879,18 @@ _File: `2026-01-13_parteneriatul-strategic-dintre-romania-si-statele-unite-ale` 
 | flex        |    0.335 |
 | liceen      |    0.321 |
 | program     |    0.269 |
+| american    |    0.191 |
 | educație    |    0.19  |
-| american    |    0.19  |
-| tinerilor   |    0.179 |
-| dorință     |    0.147 |
+| tinerilor   |    0.178 |
+| dorință     |    0.148 |
 | sine        |    0.137 |
 | succes      |    0.125 |
-| perspectivă |    0.12  |
+| perspectivă |    0.121 |
 | strategic   |    0.113 |
 | leaders     |    0.112 |
 | education   |    0.112 |
-| educația    |    0.107 |
 | selecție    |    0.107 |
+| educația    |    0.107 |
 
 ## 2026-01-15 — facebook-post
 
@@ -11899,19 +11899,19 @@ _File: `2026-01-15_reuniunea-anuala-cu-sefii-misiunilor-diplomatice-acreditati` 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | vrea        |    0.238 |
-| politică    |    0.162 |
+| politică    |    0.163 |
 | acredita    |    0.157 |
 | urmări      |    0.145 |
 | angajamentă |    0.14  |
 | securitate  |    0.136 |
 | românia     |    0.135 |
-| extern      |    0.126 |
+| extern      |    0.127 |
 | diplomație  |    0.122 |
 | misiune     |    0.116 |
 | ocde        |    0.113 |
-| promovare   |    0.112 |
+| uniune      |    0.113 |
 | consistent  |    0.112 |
-| uniune      |    0.112 |
+| promovare   |    0.112 |
 | adopta      |    0.11  |
 
 ## 2026-01-15 — facebook-post
@@ -11929,12 +11929,12 @@ _File: `2026-01-15_ziua-culturii-nationale-ne-reaminteste-ca-identitatea-romani`
 | cultural    |    0.142 |
 | tânăr       |    0.131 |
 | deschide    |    0.11  |
+| creație     |    0.102 |
 | brâncuși    |    0.102 |
 | reprezentat |    0.102 |
-| creație     |    0.102 |
 | valoare     |    0.1   |
-| trupele     |    0.098 |
 | priv        |    0.098 |
+| trupele     |    0.098 |
 
 ## 2026-01-16 — facebook-post
 
@@ -11943,19 +11943,19 @@ _File: `2026-01-16_decizia-comisiei-europene-de-a-aproba-aplicatia-romaniei-pen`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | investiție       |    0.205 |
+| safe             |    0.191 |
 | uniuneaeuropeană |    0.19  |
-| safe             |    0.19  |
 | instrument       |    0.185 |
-| securitate       |    0.177 |
+| securitate       |    0.178 |
 | contribui        |    0.162 |
-| instituit        |    0.148 |
 | action           |    0.148 |
+| instituit        |    0.148 |
 | actual           |    0.147 |
 | reprezenta       |    0.142 |
 | finalizat        |    0.137 |
 | esențial         |    0.135 |
 | revitalizare     |    0.13  |
-| proiect          |    0.129 |
+| proiect          |    0.128 |
 | alocat           |    0.127 |
 
 ## 2026-01-17 — facebook-post
@@ -11967,17 +11967,17 @@ _File: `2026-01-17_am-promulgat-legea-care-permite-politistilor-locali-sa-utili`
 | local        |    0.417 |
 | public       |    0.286 |
 | permite      |    0.155 |
-| consimțământ |    0.147 |
-| dotare       |    0.147 |
-| legitimare   |    0.147 |
 | polițiștilor |    0.147 |
+| consimțământ |    0.147 |
+| legitimare   |    0.147 |
+| dotare       |    0.147 |
 | lege         |    0.142 |
-| constatare   |    0.142 |
 | agenților    |    0.142 |
+| constatare   |    0.142 |
 | sistem       |    0.138 |
-| vizat        |    0.138 |
 | exercitare   |    0.138 |
 | polițișt     |    0.138 |
+| vizat        |    0.138 |
 | circumstanță |    0.132 |
 
 ## 2026-01-17 — facebook-post
@@ -12000,7 +12000,7 @@ _File: `2026-01-17_am-promulgat-legea-de-adoptare-a-unei-ordonante-a-guvernului`
 | viață    |    0.143 |
 | serviciu |    0.142 |
 | infecție |    0.139 |
-| fată     |    0.131 |
+| anti     |    0.131 |
 
 ## 2026-01-19 — facebook-post
 
@@ -12013,11 +12013,11 @@ _File: `2026-01-19_l-am-primit-astazi-la-palatul-cotroceni-pe-generalul-alexus` 
 | comandament |    0.237 |
 | aerian      |    0.193 |
 | românia     |    0.179 |
-| inclusiv    |    0.171 |
+| inclusiv    |    0.17  |
 | dialog      |    0.137 |
 | pace        |    0.137 |
+| forță       |    0.134 |
 | strategic   |    0.133 |
-| forță       |    0.133 |
 | obiectiv    |    0.133 |
 | grupăre     |    0.132 |
 | investit    |    0.132 |
@@ -12031,18 +12031,18 @@ _File: `2026-01-23_relatia-transatlantica-are-o-istorie-care-a-adus-stabilitate`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | stat          |    0.234 |
-| european      |    0.214 |
+| european      |    0.215 |
 | uniune        |    0.171 |
 | informal      |    0.167 |
 | membră        |    0.164 |
 | abordare      |    0.161 |
 | transatlantic |    0.158 |
 | importanță    |    0.157 |
-| pace          |    0.133 |
-| desprinde     |    0.129 |
-| garanțiilor   |    0.129 |
-| tarifar       |    0.129 |
+| pace          |    0.134 |
 | compatibil    |    0.129 |
+| tarifar       |    0.129 |
+| garanțiilor   |    0.129 |
+| desprinde     |    0.129 |
 | arctic        |    0.129 |
 | consiliu      |    0.125 |
 
@@ -12053,8 +12053,8 @@ _File: `2026-01-24_am-ales-sa-fiu-astazi-atat-la-iasi-cat-si-la-focsani-pentru` 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | unire      |    0.407 |
-| întru      |    0.18  |
-| construi   |    0.179 |
+| întru      |    0.181 |
+| construi   |    0.18  |
 | prezent    |    0.173 |
 | viitor     |    0.173 |
 | marca      |    0.154 |
@@ -12065,8 +12065,8 @@ _File: `2026-01-24_am-ales-sa-fiu-astazi-atat-la-iasi-cat-si-la-focsani-pentru` 
 | act        |    0.13  |
 | românia    |    0.127 |
 | moment     |    0.112 |
-| niciună    |    0.112 |
 | energic    |    0.112 |
+| niciunui   |    0.112 |
 
 ## 2026-01-24 — facebook-post
 
@@ -12077,18 +12077,18 @@ _File: `2026-01-24_la-implinirea-a-160-de-ani-de-la-infiintare-am-acordat-coleg`
 | elev       |    0.489 |
 | valoare    |    0.189 |
 | profesor   |    0.166 |
-| formare    |    0.161 |
-| societate  |    0.16  |
-| robotic    |    0.129 |
-| colegi     |    0.129 |
+| societate  |    0.161 |
+| formare    |    0.16  |
+| inteligenț |    0.129 |
 | comandor   |    0.129 |
 | geografie  |    0.129 |
-| inteligenț |    0.129 |
+| robotic    |    0.129 |
+| colegi     |    0.129 |
 | confuzie   |    0.124 |
 | esențial   |    0.118 |
 | împlinire  |    0.116 |
-| merit      |    0.111 |
 | îndemn     |    0.111 |
+| merit      |    0.111 |
 
 ## 2026-01-24 — facebook-post
 
@@ -12096,7 +12096,7 @@ _File: `2026-01-24_traim-momente-complicate-dar-intr-o-zi-de-sarbatoare-cred-ca`
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| patriotism       |    0.507 |
+| patriotism       |    0.506 |
 | sărbătoare       |    0.211 |
 | ideal            |    0.202 |
 | însemna          |    0.191 |
@@ -12104,12 +12104,12 @@ _File: `2026-01-24_traim-momente-complicate-dar-intr-o-zi-de-sarbatoare-cred-ca`
 | față             |    0.155 |
 | pas              |    0.153 |
 | responsabilitate |    0.142 |
+| acționeza        |    0.141 |
 | corectezi        |    0.141 |
 | miracol          |    0.141 |
-| acționeza        |    0.141 |
 | mândrie          |    0.13  |
-| pumn             |    0.124 |
-| pământ           |    0.124 |
+| pământ           |    0.123 |
+| pumn             |    0.123 |
 | piept            |    0.118 |
 
 ## 2026-01-26 — facebook-post
@@ -12123,16 +12123,16 @@ _File: `2026-01-26_ziua-internationala-de-comemorare-a-victimelor-holocaustului`
 | comemorare    |    0.216 |
 | tragedie      |    0.202 |
 | victimă       |    0.171 |
-| întru         |    0.154 |
-| istorie       |    0.147 |
+| întru         |    0.155 |
+| istorie       |    0.148 |
 | formă         |    0.144 |
 | adevăr        |    0.139 |
-| prețioa       |    0.128 |
 | tentativelor  |    0.128 |
-| lucid         |    0.128 |
 | xenofobă      |    0.128 |
+| lucid         |    0.128 |
 | victimelor    |    0.128 |
-| deveni        |    0.123 |
+| prețioa       |    0.128 |
+| estompa       |    0.123 |
 
 ## 2026-02-04 — facebook-post
 
@@ -12141,16 +12141,16 @@ _File: `2026-02-04_am-avut-astazi-o-convorbire-consistenta-cu-antonio-costa-pre`
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
 | european        |    0.329 |
-| energie         |    0.257 |
+| energie         |    0.258 |
 | antonio         |    0.229 |
-| susținem        |    0.19  |
+| susținem        |    0.189 |
 | costa           |    0.181 |
-| consiliu        |    0.18  |
+| consiliu        |    0.179 |
 | competitivitate |    0.161 |
 | consolidare     |    0.137 |
-| sustenabe       |    0.124 |
-| pieței          |    0.124 |
-| sustine         |    0.124 |
+| sustine         |    0.123 |
+| pieței          |    0.123 |
+| sustenabe       |    0.123 |
 | creștere        |    0.121 |
 | decalajă        |    0.118 |
 | convorbire      |    0.111 |
@@ -12167,9 +12167,9 @@ _File: `2026-02-04_romania-nu-este-subiectul-raportului-preliminar-al-comitetul`
 | tiktok    |    0.204 |
 | electoral |    0.203 |
 | exprimare |    0.156 |
-| singur    |    0.149 |
+| singur    |    0.15  |
 | amplu     |    0.141 |
-| campanie  |    0.136 |
+| campanie  |    0.137 |
 | strict    |    0.136 |
 | referire  |    0.134 |
 | juridic   |    0.126 |
@@ -12184,17 +12184,17 @@ _File: `2026-02-05_exercitiile-militare-desfasurate-in-ultimele-zile-la-smardan`
 
 | lemmă                           |   TF-IDF |
 |:--------------------------------|---------:|
-| american                        |    0.268 |
+| american                        |    0.269 |
 | instruire                       |    0.236 |
 | militar                         |    0.236 |
-| tanc                            |    0.227 |
-| northatlantictreatyorganization |    0.224 |
+| tanc                            |    0.226 |
+| northatlantictreatyorganization |    0.223 |
 | unit                            |    0.22  |
 | antrena                         |    0.207 |
 | sine                            |    0.174 |
 | permanent                       |    0.167 |
-| confirma                        |    0.15  |
-| armată                          |    0.15  |
+| confirma                        |    0.149 |
+| armată                          |    0.149 |
 | stateleunitealeamericii         |    0.147 |
 | america                         |    0.146 |
 | proteja                         |    0.145 |
@@ -12206,21 +12206,21 @@ _File: `2026-02-08_am-primit-invitatia-de-a-participa-la-prima-reuniune-a-consi`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| pace       |    0.372 |
-| consiliu   |    0.348 |
+| pace       |    0.373 |
+| consiliu   |    0.347 |
 | februarie  |    0.269 |
 | invitație  |    0.21  |
 | revizui    |    0.172 |
 | revizuire  |    0.166 |
 | românia    |    0.163 |
 | cartă      |    0.146 |
-| demara     |    0.144 |
-| adera      |    0.144 |
-| interpreta |    0.144 |
-| alătura    |    0.144 |
+| alătura    |    0.143 |
+| demara     |    0.143 |
+| interpreta |    0.143 |
+| adera      |    0.143 |
 | primire    |    0.136 |
 | prevedere  |    0.134 |
-| clarifica  |    0.133 |
+| clarifica  |    0.134 |
 
 ## 2026-02-11 — facebook-post
 
@@ -12228,21 +12228,21 @@ _File: `2026-02-11_am-avut-ieri-o-discutie-cu-liderii-marilor-companii-american`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| american    |    0.5   |
+| american    |    0.501 |
 | companiă    |    0.169 |
-| intersecție |    0.163 |
 | premi       |    0.163 |
+| intersecție |    0.163 |
 | relevanță   |    0.155 |
 | rută        |    0.151 |
-| economic    |    0.148 |
-| umbrelă     |    0.146 |
+| economic    |    0.149 |
+| umbrelă     |    0.145 |
 | comerț      |    0.143 |
 | atragere    |    0.143 |
-| le-         |    0.139 |
 | puncta      |    0.139 |
+| le-         |    0.139 |
 | modalitate  |    0.135 |
 | materie     |    0.132 |
-| exista      |    0.131 |
+| exista      |    0.132 |
 
 ## 2026-02-12 — facebook-post
 
@@ -12250,21 +12250,21 @@ _File: `2026-02-12_o-importanta-dezbatere-la-care-particip-astazi-in-belgia-ala`
 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
-| energie        |    0.347 |
+| energie        |    0.348 |
 | competitiv     |    0.252 |
-| companie       |    0.206 |
+| companie       |    0.205 |
 | dezvoltat      |    0.196 |
 | reglementare   |    0.184 |
 | sine           |    0.164 |
 | vrea           |    0.136 |
 | european       |    0.133 |
 | piață          |    0.133 |
-| recalculare    |    0.128 |
 | consumatoare   |    0.128 |
 | compatibilizăm |    0.128 |
+| recalculare    |    0.128 |
+| fragmenta      |    0.124 |
 | afectat        |    0.124 |
 | dezavantaj     |    0.124 |
-| fragmenta      |    0.124 |
 
 ## 2026-02-13 — facebook-post
 
@@ -12282,10 +12282,10 @@ _File: `2026-02-13_va-invit-sa-privim-cu-echilibru-datele-publicate-azi-de-ins` 
 | privat     |    0.15  |
 | reduce     |    0.149 |
 | deficit    |    0.145 |
-| reparat    |    0.135 |
+| contracție |    0.135 |
 | evaziunii  |    0.135 |
 | încetini   |    0.135 |
-| contracție |    0.135 |
+| reparat    |    0.135 |
 | dezvoltare |    0.133 |
 
 ## 2026-02-15 — facebook-post
@@ -12301,11 +12301,11 @@ _File: `2026-02-15_voi-participa-s-pt-mana-viitoare-la-prima-reuniune-a-consili`
 | consiliu     |    0.185 |
 | participa    |    0.182 |
 | sprijin      |    0.181 |
-| unit         |    0.177 |
+| unit         |    0.178 |
 | evacuare     |    0.177 |
 | proces       |    0.175 |
 | rezoluție    |    0.172 |
-| încheiere    |    0.161 |
+| încheiere    |    0.16  |
 | onu          |    0.153 |
 | statelor     |    0.153 |
 | operațiune   |    0.145 |
@@ -12316,20 +12316,20 @@ _File: `2026-02-18_salut-decizia-curtii-constitutionale-privind-reforma-pensiil`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| pensie      |    0.36  |
+| pensie      |    0.359 |
 | recalibrare |    0.297 |
 | recunoscut  |    0.287 |
 | echitate    |    0.279 |
 | arhitectură |    0.248 |
-| magistrație |    0.217 |
+| asigur      |    0.217 |
 | deplin      |    0.217 |
+| magistrație |    0.217 |
 | salut       |    0.215 |
-| asigur      |    0.215 |
 | magistrațe  |    0.213 |
 | gest        |    0.191 |
 | importanță  |    0.189 |
 | calcul      |    0.188 |
-| respecta    |    0.17  |
+| respecta    |    0.169 |
 | curte       |    0.164 |
 
 ## 2026-02-19 — facebook-post
@@ -12341,12 +12341,12 @@ _File: `2026-02-19_am-avut-o-interventie-astazi-la-washington-in-cadrul-reuniun`
 | putea                   |    0.249 |
 | contribui               |    0.241 |
 | palestinian             |    0.204 |
-| rând                    |    0.192 |
+| rând                    |    0.193 |
 | gaza                    |    0.174 |
-| pace                    |    0.171 |
+| pace                    |    0.172 |
 | tradițional             |    0.163 |
 | oferi                   |    0.16  |
-| reconstrucție           |    0.154 |
+| reconstrucție           |    0.155 |
 | intervenție             |    0.141 |
 | stateleunitealeamericii |    0.137 |
 | popor                   |    0.134 |
@@ -12360,13 +12360,13 @@ _File: `2026-02-20_pacea-si-securitatea-sunt-temelia-unei-tari-prospere-pentru` 
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| washington  |    0.307 |
-| pace        |    0.231 |
+| washington  |    0.306 |
+| pace        |    0.232 |
 | aprofundăme |    0.214 |
 | soluționare |    0.191 |
 | temelie     |    0.184 |
+| prosper     |    0.184 |
 | umanitar    |    0.181 |
-| prosper     |    0.181 |
 | securitate  |    0.178 |
 | gaza        |    0.176 |
 | transparent |    0.169 |
@@ -12382,16 +12382,16 @@ _File: `2026-02-24_am-avut-o-discutie-aplicat-cu-premierul-ilie-bolojan-inainte`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| bruxelles  |    0.284 |
-| bolojan    |    0.205 |
+| bruxelles  |    0.283 |
+| bolojan    |    0.204 |
 | premier    |    0.193 |
 | sud-est    |    0.183 |
-| cauza      |    0.178 |
-| belarus    |    0.178 |
-| contracara |    0.178 |
+| cauza      |    0.177 |
+| belarus    |    0.177 |
+| contracara |    0.177 |
 | circa      |    0.173 |
 | aplicat    |    0.173 |
-| economic   |    0.166 |
+| economic   |    0.167 |
 | încurajăm  |    0.158 |
 | dunăre     |    0.153 |
 | lansare    |    0.151 |
@@ -12404,21 +12404,21 @@ _File: `2026-02-24_in-urma-cu-patru-ani-unul-dintre-cele-mai-teribile-scenarii` 
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| ucraina      |    0.337 |
+| ucraina      |    0.336 |
 | pace         |    0.237 |
-| ucrainean    |    0.226 |
-| justă        |    0.152 |
+| ucrainean    |    0.225 |
 | destrămat    |    0.152 |
+| justă        |    0.152 |
 | teribile     |    0.152 |
-| rusia        |    0.151 |
-| deveni       |    0.146 |
+| rusia        |    0.152 |
 | inimaginabil |    0.146 |
 | înfrânt      |    0.146 |
+| deveni       |    0.146 |
 | dramă        |    0.141 |
-| milă         |    0.141 |
 | drapel       |    0.141 |
+| milă         |    0.141 |
 | război       |    0.138 |
-| pierdut      |    0.137 |
+| invazie      |    0.137 |
 
 ## 2026-02-27 — facebook-post
 
@@ -12431,10 +12431,10 @@ _File: `2026-02-27_am-promulgat-in-aceasta-dimineata-legea-privind-pensiile-mag`
 | recunoscut  |    0.21  |
 | aștepta     |    0.209 |
 | echitate    |    0.204 |
-| optimizare  |    0.199 |
 | publicare   |    0.199 |
+| optimizare  |    0.199 |
 | monitor     |    0.19  |
-| societate   |    0.187 |
+| societate   |    0.188 |
 | arhitectură |    0.181 |
 | recâștiga   |    0.174 |
 | promulga    |    0.168 |
@@ -12453,10 +12453,10 @@ _File: `2026-02-27_referitor-la-informatia-privind-plangerea-penala-a-aep-in-le`
 | aep        |    0.265 |
 | funcționar |    0.221 |
 | campanie   |    0.194 |
+| anula      |    0.182 |
 | instanță   |    0.182 |
 | știre      |    0.181 |
-| anula      |    0.181 |
-| vedea      |    0.15  |
+| vedea      |    0.151 |
 | suda       |    0.138 |
 | hărțuii    |    0.138 |
 | parcără    |    0.138 |
@@ -12475,16 +12475,16 @@ _File: `2026-03-01_romania-este-in-deplina-siguranta-si-nu-se-afla-sub-niciun-f`
 | rămâne     |    0.189 |
 | securitate |    0.187 |
 | siguranță  |    0.177 |
-| turiștilor |    0.156 |
-| transmis   |    0.156 |
-| mae        |    0.156 |
 | degrada    |    0.156 |
+| mae        |    0.156 |
 | civile     |    0.156 |
+| transmis   |    0.156 |
+| turiștilor |    0.156 |
 | extern     |    0.155 |
 | sine       |    0.153 |
 | român      |    0.152 |
-| celulă     |    0.149 |
 | repatriere |    0.149 |
+| celulă     |    0.149 |
 
 ## 2026-03-03 — facebook-post
 
@@ -12493,20 +12493,20 @@ _File: `2026-03-03_m-am-bucurat-sa-l-primesc-astazi-la-palatul-cotroceni-pe-dar`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | ambasador    |    0.363 |
-| urez         |    0.234 |
+| urez         |    0.233 |
 | orienta      |    0.228 |
 | îndeplinire  |    0.223 |
 | propunem     |    0.199 |
 | bun          |    0.189 |
-| geopolitic   |    0.176 |
+| geopolitic   |    0.177 |
 | națiune      |    0.176 |
-| complicat    |    0.17  |
+| complicat    |    0.169 |
 | prelua       |    0.162 |
-| america      |    0.161 |
 | prosperitate |    0.16  |
-| stat         |    0.157 |
-| bilateral    |    0.156 |
-| eficient     |    0.15  |
+| america      |    0.16  |
+| stat         |    0.158 |
+| bilateral    |    0.157 |
+| bucura       |    0.151 |
 
 ## 2026-03-05 — facebook-post
 
@@ -12519,16 +12519,16 @@ _File: `2026-03-05_am-avut-astazi-un-dialog-substantial-cu-premierul-polonez-do`
 | donald        |    0.19  |
 | continentu    |    0.16  |
 | domeniu       |    0.159 |
-| dezvoltare    |    0.157 |
+| dezvoltare    |    0.158 |
 | premier       |    0.157 |
-| intensifica   |    0.149 |
-| coordonăm     |    0.149 |
-| diversificare |    0.149 |
+| intensifica   |    0.148 |
+| coordonăm     |    0.148 |
+| diversificare |    0.148 |
 | parteneriată  |    0.141 |
 | orienta       |    0.141 |
 | proiect       |    0.139 |
 | insuficient   |    0.13  |
-| vital         |    0.128 |
+| securitate    |    0.128 |
 
 ## 2026-03-05 — facebook-post
 
@@ -12540,17 +12540,17 @@ _File: `2026-03-05_am-raspuns-cu-placere-invitatiei-presedintelui-karol-nawrock`
 | nawrocki      |    0.226 |
 | securitate    |    0.158 |
 | dezvolta      |    0.145 |
-| perspectivă   |    0.142 |
+| perspectivă   |    0.143 |
 | legătură      |    0.139 |
 | important     |    0.135 |
-| parteneriat   |    0.133 |
-| solidarității |    0.132 |
-| interuman     |    0.132 |
+| parteneriat   |    0.134 |
 | tratate       |    0.132 |
-| româno-polon  |    0.132 |
 | înțelega      |    0.132 |
-| sprijina      |    0.126 |
+| interuman     |    0.132 |
+| româno-polon  |    0.132 |
+| solidarității |    0.132 |
 | reafirmare    |    0.126 |
+| sprijina      |    0.126 |
 
 ## 2026-03-06 — facebook-post
 
@@ -12558,9 +12558,9 @@ _File: `2026-03-06_pe-5-martie-cu-ocazia-zilei-solidaritatii-romano-polone-sarb`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| polonia       |    0.335 |
-| solidarității |    0.256 |
+| polonia       |    0.334 |
 | româno-polon  |    0.256 |
+| solidarității |    0.256 |
 | tusk          |    0.237 |
 | karol         |    0.22  |
 | nawrocki      |    0.22  |
@@ -12570,9 +12570,9 @@ _File: `2026-03-06_pe-5-martie-cu-ocazia-zilei-solidaritatii-romano-polone-sarb`
 | complicat     |    0.167 |
 | martie        |    0.166 |
 | cameră        |    0.164 |
-| ocazie        |    0.161 |
+| ocazie        |    0.162 |
 | donald        |    0.152 |
-| regiune       |    0.146 |
+| solid         |    0.146 |
 
 ## 2026-03-08 — facebook-post
 
@@ -12582,18 +12582,18 @@ _File: `2026-03-08_la-multi-ani-tuturor-doamnelor-si-domnisoarelor-de-ziua-inte`
 |:------------|---------:|
 | femeie      |    0.403 |
 | prețuire    |    0.21  |
-| îns         |    0.21  |
 | bunice      |    0.21  |
 | admir       |    0.21  |
+| îns         |    0.21  |
 | toxic       |    0.194 |
 | continua    |    0.187 |
-| gândurile   |    0.184 |
 | curajos     |    0.184 |
+| gândurile   |    0.184 |
 | fermitate   |    0.168 |
 | floare      |    0.165 |
 | domestic    |    0.163 |
 | determinare |    0.161 |
-| sine        |    0.155 |
+| sine        |    0.154 |
 | mamă        |    0.154 |
 
 ## 2026-03-09 — facebook-post
@@ -12602,7 +12602,7 @@ _File: `2026-03-09_am-avut-astazi-o-convorbire-cu-antonio-costa-presedintele-co`
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| european        |    0.305 |
+| european        |    0.306 |
 | competitivitate |    0.3   |
 | costa           |    0.252 |
 | antonio         |    0.212 |
@@ -12612,11 +12612,11 @@ _File: `2026-03-09_am-avut-astazi-o-convorbire-cu-antonio-costa-presedintele-co`
 | verde           |    0.162 |
 | cadru           |    0.152 |
 | temă            |    0.128 |
-| perspectivă     |    0.123 |
-| rezilient       |    0.115 |
+| perspectivă     |    0.124 |
 | fosil           |    0.115 |
 | povere          |    0.115 |
 | unică           |    0.115 |
+| rezilient       |    0.115 |
 
 ## 2026-03-09 — facebook-post
 
@@ -12626,19 +12626,19 @@ _File: `2026-03-09_ziua-detinutilor-politici-anticomunisti-marcata-in-fiecare-a`
 |:------------|---------:|
 | demnitate   |    0.186 |
 | regim       |    0.169 |
-| libertate   |    0.166 |
-| liber       |    0.166 |
+| libertate   |    0.165 |
+| liber       |    0.165 |
 | curaj       |    0.156 |
 | păstra      |    0.153 |
-| îndura      |    0.135 |
 | teribe      |    0.135 |
-| închisore   |    0.135 |
 | închisor    |    0.135 |
-| totalitar   |    0.13  |
-| prospera    |    0.13  |
-| securitatea |    0.13  |
+| închisore   |    0.135 |
+| îndura      |    0.135 |
+| martire     |    0.13  |
 | gros        |    0.13  |
-| îndepărtat  |    0.13  |
+| securitatea |    0.13  |
+| prospera    |    0.13  |
+| totalitar   |    0.13  |
 
 ## 2026-03-10 — facebook-post
 
@@ -12651,15 +12651,15 @@ _File: `2026-03-10_am-avut-in-aceasta-seara-un-dialog-aplicat-cu-liderii-europe`
 | competitivitate |    0.194 |
 | energetic       |    0.184 |
 | reduce          |    0.164 |
+| industrie       |    0.162 |
 | sector          |    0.162 |
-| industrie       |    0.161 |
 | energie         |    0.155 |
 | -ului           |    0.149 |
 | agrava          |    0.149 |
+| relansa         |    0.142 |
 | pozițiilor      |    0.142 |
 | resurs          |    0.142 |
 | abordat         |    0.142 |
-| relansa         |    0.142 |
 | lider           |    0.139 |
 
 ## 2026-03-11 — facebook-post
@@ -12668,21 +12668,21 @@ _File: `2026-03-11_am-convocat-astazi-sedinta-csat-pentru-analiza-evolutiei-sit`
 
 | lemmă                   |   TF-IDF |
 |:------------------------|---------:|
-| echipament              |    0.434 |
+| echipament              |    0.433 |
 | orientul                |    0.193 |
 | mijlociu                |    0.188 |
 | românia                 |    0.188 |
-| stateleunitealeamericii |    0.172 |
+| stateleunitealeamericii |    0.171 |
 | forță                   |    0.14  |
 | mae                     |    0.138 |
-| militar                 |    0.138 |
+| militar                 |    0.137 |
 | realimentare            |    0.132 |
+| apărat                  |    0.128 |
 | dislocare               |    0.128 |
 | înzestra                |    0.128 |
-| apărat                  |    0.128 |
 | război                  |    0.125 |
-| disloca                 |    0.124 |
 | deveselu                |    0.124 |
+| disloca                 |    0.124 |
 
 ## 2026-03-12 — facebook-post
 
@@ -12701,10 +12701,10 @@ _File: `2026-03-12_am-semnat-astazi-cu-presedintele-zelenski-doua-documente-ofi`
 | avantajos      |    0.153 |
 | ucraina        |    0.151 |
 | proiect        |    0.148 |
-| capacităților  |    0.146 |
 | optim          |    0.146 |
-| rută           |    0.146 |
 | prioritar      |    0.146 |
+| rută           |    0.146 |
+| interconectare |    0.146 |
 
 ## 2026-03-12 — facebook-post
 
@@ -12712,21 +12712,21 @@ _File: `2026-03-12_i-am-urat-bun-venit-la-bucuresti-presedintelui-volodimir-zel`
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| ucraina         |    0.325 |
+| ucraina         |    0.324 |
 | minorităție     |    0.227 |
 | reafirma        |    0.171 |
-| neîncredere     |    0.168 |
+| neîncredere     |    0.17  |
 | limbă           |    0.166 |
 | relație         |    0.163 |
-| luptă           |    0.141 |
+| luptă           |    0.14  |
 | românia         |    0.139 |
 | susținere       |    0.135 |
 | matern          |    0.122 |
 | parteneriatului |    0.122 |
 | păcie           |    0.122 |
 | sine            |    0.12  |
+| român           |    0.12  |
 | asuma           |    0.12  |
-| român           |    0.119 |
 
 ## 2026-03-16 — facebook-post
 
@@ -12734,16 +12734,16 @@ _File: `2026-03-16_aderarea-romaniei-in-2026-la-organizatia-pentru-cooperare-si`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| ocde        |    0.283 |
+| ocde        |    0.282 |
 | cormann     |    0.282 |
-| organizație |    0.279 |
+| organizație |    0.278 |
 | elaborare   |    0.242 |
 | studiu      |    0.186 |
 | secretar    |    0.181 |
 | membru      |    0.15  |
 | reformă     |    0.142 |
 | mathias     |    0.141 |
-| dezvoltare  |    0.138 |
+| dezvoltare  |    0.139 |
 | cuprinzător |    0.135 |
 | adoptat     |    0.135 |
 | politică    |    0.135 |
@@ -12757,17 +12757,17 @@ _File: `2026-03-16_astazi-am-discutat-cu-alfred-stern-presedintele-consiliului` 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | petrom      |    0.355 |
-| energetic   |    0.293 |
+| energetic   |    0.292 |
 | deep        |    0.237 |
-| combustibil |    0.182 |
+| combustibil |    0.181 |
 | vrea        |    0.181 |
-| gaz         |    0.161 |
+| gaz         |    0.163 |
 | major       |    0.14  |
 | preț        |    0.139 |
 | importator  |    0.118 |
-| scurt       |    0.117 |
 | termen      |    0.117 |
-| mediu       |    0.115 |
+| scurt       |    0.117 |
+| mediu       |    0.116 |
 | strâmtorii  |    0.113 |
 | izbucnire   |    0.11  |
 | investiție  |    0.109 |
@@ -12783,13 +12783,13 @@ _File: `2026-03-17_donarea-de-sange-salveaza-vieti-impreuna-prin-gesturi-simple`
 | medical       |    0.189 |
 | centru        |    0.164 |
 | traume        |    0.14  |
-| accident      |    0.134 |
 | seman         |    0.134 |
 | ezitare       |    0.134 |
-| exempl        |    0.129 |
+| accident      |    0.134 |
 | colonel       |    0.129 |
-| periodic      |    0.12  |
+| exempl        |    0.129 |
 | doctor        |    0.12  |
+| periodic      |    0.12  |
 | acordat       |    0.118 |
 | prezidențială |    0.115 |
 | încurajez     |    0.115 |
@@ -12819,7 +12819,7 @@ _File: `2026-03-19_romania-este-aparata-este-parte-din-nato-are-un-parteneriat` 
 | secretar                        |    0.175 |
 | echipament                      |    0.172 |
 | american                        |    0.155 |
-| summit                          |    0.152 |
+| summit                          |    0.151 |
 | dialog                          |    0.142 |
 | estului                         |    0.131 |
 | sprijin                         |    0.129 |
@@ -12836,18 +12836,18 @@ _File: `2026-03-20_am-decis-sa-ne-alaturam-declaratiei-regatului-unit-frantei-g`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | internațional |    0.251 |
-| navigație     |    0.185 |
 | ormuz         |    0.185 |
 | suportabil    |    0.185 |
 | dezescaladare |    0.185 |
+| navigație     |    0.185 |
 | implicațiilor |    0.185 |
 | olanda        |    0.177 |
 | strâmtorii    |    0.177 |
-| japonia       |    0.162 |
 | regat         |    0.162 |
-| închidere     |    0.158 |
+| japonia       |    0.162 |
 | resimți       |    0.158 |
 | strâmtoare    |    0.158 |
+| închidere     |    0.158 |
 | alătura       |    0.148 |
 | combustibil   |    0.142 |
 
@@ -12858,14 +12858,14 @@ _File: `2026-03-20_o-onoare-si-o-bucurie-sa-ma-intalnesc-astazi-la-bruxelles-cu`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | majestate    |    0.294 |
-| cincu        |    0.276 |
-| majestății   |    0.276 |
 | belgia       |    0.276 |
+| majestății   |    0.276 |
+| cincu        |    0.276 |
 | rege         |    0.235 |
 | aprecia      |    0.222 |
 | apropia      |    0.222 |
-| bruxelles    |    0.22  |
 | onoare       |    0.22  |
+| bruxelles    |    0.22  |
 | bucurie      |    0.207 |
 | contribuție  |    0.201 |
 | solidaritate |    0.192 |
@@ -12879,19 +12879,19 @@ _File: `2026-03-21_cea-mai-mare-expozitie-din-europa-dedicata-lui-constantin-br`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| brâncuși   |    0.404 |
-| expoziție  |    0.34  |
-| cultural   |    0.28  |
-| muzeu      |    0.277 |
+| brâncuși   |    0.403 |
+| expoziție  |    0.339 |
+| muzeu      |    0.283 |
+| cultural   |    0.279 |
 | constantin |    0.224 |
-| berlin     |    0.204 |
-| artă       |    0.204 |
-| patronaj   |    0.155 |
-| roma       |    0.139 |
+| berlin     |    0.203 |
+| artă       |    0.203 |
+| patronaj   |    0.154 |
+| roma       |    0.138 |
 | institut   |    0.129 |
 | românia    |    0.128 |
-| descoperi  |    0.121 |
 | italia     |    0.121 |
+| descoperi  |    0.121 |
 | lucrare    |    0.115 |
 | germania   |    0.107 |
 
@@ -12901,20 +12901,20 @@ _File: `2026-03-22_am-avut-zilele-trecute-la-bruxelles-o-discutie-cu-oana-gheor`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| companiilor   |    0.293 |
+| companiilor   |    0.292 |
 | stat          |    0.242 |
-| reformă       |    0.2   |
-| digitalizat   |    0.2   |
-| ghișeu        |    0.2   |
-| serviciu      |    0.196 |
-| puternic      |    0.192 |
+| reformă       |    0.201 |
+| ghișeu        |    0.199 |
+| digitalizat   |    0.199 |
+| serviciu      |    0.195 |
+| puternic      |    0.193 |
 | indispensabil |    0.191 |
 | ecosistem     |    0.185 |
-| discutat      |    0.171 |
 | gheorghiu     |    0.171 |
+| discutat      |    0.171 |
 | accesibil     |    0.165 |
-| electronic    |    0.165 |
 | crucial       |    0.165 |
+| electronic    |    0.165 |
 | finalizare    |    0.157 |
 
 ## 2026-03-23 — facebook-post
@@ -12929,7 +12929,7 @@ _File: `2026-03-23_francofonia-si-valorile-pe-care-le-promoveaza-fac-parte-din` 
 | internațional |    0.223 |
 | dacian        |    0.222 |
 | zilei         |    0.2   |
-| promova       |    0.166 |
+| promova       |    0.167 |
 | funcție       |    0.125 |
 | rezonanță     |    0.123 |
 | incluziv      |    0.118 |
@@ -12949,15 +12949,15 @@ _File: `2026-03-26_razboiul-informational-afecteaza-si-profesia-medicala-este-u`
 | medical       |    0.297 |
 | reclamă       |    0.246 |
 | supune        |    0.227 |
-| internet      |    0.225 |
+| internet      |    0.224 |
 | medic         |    0.205 |
+| afecta        |    0.159 |
 | adevăr        |    0.159 |
-| afecta        |    0.158 |
-| contează      |    0.146 |
 | vaccina       |    0.146 |
+| contează      |    0.146 |
 | sine          |    0.144 |
 | spune         |    0.142 |
-| absurd        |    0.136 |
+| absurd        |    0.135 |
 | război        |    0.133 |
 | științific    |    0.132 |
 
@@ -12967,15 +12967,15 @@ _File: `2026-03-27_l-am-primit-astazi-la-palatul-cotroceni-pe-prim-ministrul-sl`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| slovacia      |    0.504 |
+| slovacia      |    0.503 |
 | conflict      |    0.213 |
-| fico          |    0.181 |
 | european      |    0.181 |
+| fico          |    0.181 |
 | mulțumire     |    0.168 |
 | multinațional |    0.163 |
 | eliberare     |    0.152 |
-| robert        |    0.152 |
 | protejăm      |    0.152 |
+| robert        |    0.152 |
 | securitate    |    0.145 |
 | soldat        |    0.136 |
 | conveni       |    0.128 |
@@ -12990,17 +12990,17 @@ _File: `2026-03-27_m-am-intalnit-astazi-la-palatul-cotroceni-cu-numan-kurtulmus`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | turcia      |    0.358 |
+| parteneriat |    0.23  |
 | reconfirma  |    0.23  |
-| parteneriat |    0.229 |
 | neagră      |    0.188 |
 | cooperare   |    0.169 |
 | comunitate  |    0.156 |
-| strategic   |    0.154 |
-| adunări     |    0.152 |
-| marin       |    0.152 |
-| soliditate  |    0.152 |
-| impuls      |    0.152 |
-| atesta      |    0.152 |
+| strategic   |    0.153 |
+| adunări     |    0.151 |
+| atesta      |    0.151 |
+| impuls      |    0.151 |
+| marin       |    0.151 |
+| soliditate  |    0.151 |
 | hotărâți    |    0.145 |
 | grupului    |    0.14  |
 | inspirație  |    0.14  |
@@ -13012,7 +13012,7 @@ _File: `2026-03-30_proiectul-european-trebuie-sa-se-concentreze-inainte-de-toat`
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
 | social          |    0.253 |
-| investiție      |    0.242 |
+| investiție      |    0.241 |
 | european        |    0.232 |
 | muncă           |    0.183 |
 | problematică    |    0.167 |
@@ -13021,10 +13021,10 @@ _File: `2026-03-30_proiectul-european-trebuie-sa-se-concentreze-inainte-de-toat`
 | nivel           |    0.152 |
 | proiect         |    0.151 |
 | diplomă         |    0.147 |
-| continent       |    0.137 |
-| mobilitate      |    0.137 |
 | vizibil         |    0.137 |
+| continent       |    0.137 |
 | vicepreședinte  |    0.137 |
+| mobilitate      |    0.137 |
 | traversa        |    0.135 |
 
 ## 2026-03-31 — facebook-post
@@ -13033,20 +13033,20 @@ _File: `2026-03-31_aderarea-romaniei-la-uniunea-europeana-a-fost-o-poveste-de-m`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| integrare |    0.241 |
+| integrare |    0.24  |
 | uniune    |    0.208 |
 | economic  |    0.198 |
 | european  |    0.196 |
 | românia   |    0.187 |
 | țară      |    0.184 |
 | decalaj   |    0.169 |
-| aderare   |    0.14  |
+| aderare   |    0.141 |
 | major     |    0.139 |
 | lucru     |    0.128 |
 | important |    0.12  |
 | obiectiv  |    0.119 |
-| unică     |    0.118 |
-| etichetă  |    0.118 |
+| etichetă  |    0.117 |
+| unică     |    0.117 |
 | piață     |    0.117 |
 
 ## 2026-03-31 — facebook-post
@@ -13057,17 +13057,17 @@ _File: `2026-03-31_discutia-aplicata-pe-care-am-avut-o-astazi-cu-prim-ministrul`
 |:-----------------|---------:|
 | munteanu         |    0.412 |
 | moldova          |    0.298 |
-| alexandru        |    0.214 |
-| republicii       |    0.185 |
+| alexandru        |    0.213 |
+| republicii       |    0.186 |
 | republică        |    0.164 |
 | transfrontalieră |    0.153 |
 | creștere         |    0.15  |
 | conectare        |    0.146 |
-| prim             |    0.144 |
-| ministru         |    0.143 |
+| prim             |    0.145 |
+| ministru         |    0.142 |
 | uniune           |    0.135 |
 | rețelelor        |    0.134 |
-| proiect          |    0.133 |
+| proiect          |    0.132 |
 | interconectare   |    0.131 |
 | încurajez        |    0.126 |
 
@@ -13079,13 +13079,13 @@ _File: `2026-03-31_transportul-si-asigurarea-unor-rute-sigure-pentru-marfuri-ca`
 |:---------------|---------:|
 | autostradă     |    0.302 |
 | transport      |    0.298 |
-| coridoară      |    0.243 |
 | marfă          |    0.243 |
+| coridoară      |    0.243 |
 | comisar        |    0.214 |
 | european       |    0.203 |
 | fond           |    0.187 |
 | moldova        |    0.178 |
-| ucraina        |    0.162 |
+| ucraina        |    0.161 |
 | infrastructură |    0.137 |
 | republică      |    0.131 |
 | geostrategic   |    0.122 |
@@ -13103,17 +13103,17 @@ _File: `2026-04-02_ma-bucur-ca-bratarile-dacice-si-coiful-de-la-cotofenesti-au` 
 | olandez     |    0.201 |
 | brățăre     |    0.201 |
 | însemna     |    0.182 |
-| aplicat     |    0.177 |
+| aplicat     |    0.176 |
 | viitoară    |    0.169 |
 | gestionare  |    0.166 |
-| moștenire   |    0.161 |
 | patrimoniu  |    0.161 |
+| moștenire   |    0.161 |
 | păstrare    |    0.161 |
-| excepțional |    0.151 |
+| simbol      |    0.151 |
 | obiect      |    0.151 |
 | recupera    |    0.151 |
-| simbol      |    0.149 |
-| felicit     |    0.148 |
+| excepțional |    0.151 |
+| felicit     |    0.147 |
 
 ## 2026-04-05 — facebook-post
 
@@ -13122,19 +13122,19 @@ _File: `2026-04-05_tuturor-credinciosilor-care-celebreaza-invierea-le-doresc-ca`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | celebra     |    0.322 |
-| învia       |    0.188 |
 | florii      |    0.188 |
+| învia       |    0.188 |
 | credincioșe |    0.188 |
 | valoare     |    0.184 |
+| profunde    |    0.18  |
 | seman       |    0.18  |
 | însemnătate |    0.18  |
-| profunde    |    0.18  |
 | minciune    |    0.18  |
 | devotament  |    0.174 |
-| compasiune  |    0.174 |
 | sufletesc   |    0.174 |
-| umanitate   |    0.165 |
+| compasiune  |    0.174 |
 | sfânt       |    0.165 |
+| umanitate   |    0.165 |
 | dori        |    0.156 |
 
 ## 2026-04-07 — facebook-post
@@ -13144,20 +13144,20 @@ _File: `2026-04-07_de-ziua-mondiala-a-sanatatii-transmit-un-gand-de-recunostint`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | medical          |    0.214 |
-| unitate          |    0.2   |
-| fond             |    0.162 |
+| unitate          |    0.201 |
+| fond             |    0.161 |
 | nedormit         |    0.158 |
-| stringent        |    0.158 |
 | tehnician        |    0.158 |
 | nopțile          |    0.158 |
+| stringent        |    0.158 |
 | sine             |    0.155 |
-| asistent         |    0.151 |
 | perfecționa      |    0.151 |
-| finalizat        |    0.146 |
-| demaște          |    0.146 |
+| asistent         |    0.151 |
 | administrator    |    0.146 |
+| demaște          |    0.146 |
+| finalizat        |    0.146 |
 | profesioniștilor |    0.142 |
-| impostură        |    0.142 |
+| minune           |    0.142 |
 
 ## 2026-04-07 — facebook-post
 
@@ -13176,7 +13176,7 @@ _File: `2026-04-07_declaratiile-de-presa-sustinute-la-finalul-vizitei-la-centru`
 | vizită       |    0.235 |
 | final        |    0.225 |
 | presă        |    0.223 |
-| susține      |    0.185 |
+| susține      |    0.186 |
 
 ## 2026-04-08 — facebook-post
 
@@ -13185,15 +13185,15 @@ _File: `2026-04-08_fbi-impreuna-cu-mai-multi-parteneri-printre-care-sri-a-anunt`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | fbi           |    0.387 |
-| occidental    |    0.367 |
-| cibernetic    |    0.274 |
+| occidental    |    0.369 |
+| cibernetic    |    0.273 |
 | asociat       |    0.202 |
 | destructurare |    0.194 |
-| informație    |    0.191 |
+| informație    |    0.19  |
 | gru           |    0.187 |
 | partener      |    0.187 |
 | informatic    |    0.167 |
-| colecta       |    0.162 |
+| colecta       |    0.161 |
 | îmbunătăți    |    0.157 |
 | prelungi      |    0.155 |
 | link          |    0.153 |
@@ -13208,17 +13208,17 @@ _File: `2026-04-12_hristos-a-inviat-este-certitudinea-care-ne-reaminteste-in-fi`
 |:--------------|---------:|
 | putere        |    0.198 |
 | incertitudină |    0.196 |
-| vindeca       |    0.196 |
 | înviat        |    0.196 |
+| vindeca       |    0.196 |
 | învierii      |    0.196 |
 | seman         |    0.188 |
-| sever         |    0.182 |
-| senin         |    0.182 |
 | bunătate      |    0.182 |
-| sufletesc     |    0.182 |
 | hristos       |    0.182 |
-| bină          |    0.177 |
+| sufletesc     |    0.182 |
+| senin         |    0.182 |
+| sever         |    0.182 |
 | triumf        |    0.177 |
+| bină          |    0.177 |
 | îndemn        |    0.168 |
 | iubire        |    0.162 |
 
@@ -13229,17 +13229,17 @@ _File: `2026-04-20_am-trecut-astazi-in-revista-impreuna-cu-ministrul-dragos-pas`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | final      |    0.216 |
-| reformă    |    0.206 |
-| pâslaru    |    0.206 |
+| reformă    |    0.207 |
+| pâslaru    |    0.205 |
 | program    |    0.198 |
-| corporativ |    0.197 |
 | revistă    |    0.197 |
-| proiect    |    0.179 |
+| corporativ |    0.197 |
+| proiect    |    0.178 |
 | preferință |    0.176 |
 | guvernanță |    0.173 |
 | salarizare |    0.17  |
+| încasa     |    0.17  |
 | stadiu     |    0.167 |
-| încasa     |    0.167 |
 | dragoș     |    0.167 |
 | normativ   |    0.154 |
 | august     |    0.154 |
@@ -13250,21 +13250,21 @@ _File: `2026-04-22_am-avut-azi-consultari-cu-partidele-pro-occidentale-din-actu`
 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
-| pro-occidental |    0.424 |
-| politic        |    0.329 |
-| partid         |    0.247 |
-| consultare     |    0.174 |
-| criză          |    0.171 |
-| diferență      |    0.17  |
+| pro-occidental |    0.438 |
+| politic        |    0.327 |
+| partid         |    0.245 |
+| consultare     |    0.173 |
+| diferență      |    0.169 |
+| criză          |    0.169 |
 | forță          |    0.149 |
-| criza          |    0.147 |
-| sine           |    0.145 |
-| minoritară     |    0.141 |
-| neînțelegeril  |    0.141 |
-| dezescalada    |    0.141 |
-| coaliție       |    0.138 |
-| opinie         |    0.137 |
-| oecd           |    0.129 |
+| criza          |    0.146 |
+| sine           |    0.144 |
+| minoritară     |    0.14  |
+| neînțelegeril  |    0.14  |
+| dezescalada    |    0.14  |
+| opinie         |    0.136 |
+| coaliție       |    0.136 |
+| oecd           |    0.131 |
 
 ## 2026-04-22 — facebook-post
 
@@ -13272,14 +13272,14 @@ _File: `2026-04-22_consultari-cu-partide-si-formatiuni-politice-parlamentare-pa`
 
 | lemmă                   |   TF-IDF |
 |:------------------------|---------:|
-| consultări              |    0.501 |
+| consultări              |    0.5   |
 | partid                  |    0.437 |
 | formațiune              |    0.406 |
 | liberal                 |    0.362 |
-| parlamentar             |    0.299 |
+| parlamentar             |    0.298 |
 | partidulnaționalliberal |    0.297 |
-| național                |    0.217 |
-| politic                 |    0.194 |
+| național                |    0.218 |
+| politic                 |    0.195 |
 
 ## 2026-04-22 — facebook-post
 
@@ -13287,14 +13287,14 @@ _File: `2026-04-22_live-consultari-cu-partide-si-formatiuni-politice-parlamenta`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| salvați     |    0.487 |
+| salvați     |    0.486 |
 | consultări  |    0.466 |
 | formațiune  |    0.378 |
 | live        |    0.346 |
 | parlamentar |    0.278 |
 | usr         |    0.27  |
 | uniune      |    0.215 |
-| partid      |    0.203 |
+| partid      |    0.204 |
 | politic     |    0.181 |
 | românia     |    0.11  |
 
@@ -13306,13 +13306,13 @@ _File: `2026-04-22_live-consultari-cu-partide-si-formatiuni-politice-parlamenta_
 |:------------|---------:|
 | maghiar     |    0.451 |
 | formațiune  |    0.417 |
-| live        |    0.382 |
+| live        |    0.381 |
 | udmr        |    0.35  |
 | consultare  |    0.316 |
-| parlamentar |    0.307 |
+| parlamentar |    0.306 |
 | uniune      |    0.237 |
 | partid      |    0.224 |
-| politic     |    0.199 |
+| politic     |    0.2   |
 | românia     |    0.122 |
 
 ## 2026-04-22 — facebook-post
@@ -13321,14 +13321,14 @@ _File: `2026-04-22_live-consultari-cu-partide-si-formatiuni-politice-parlamenta_
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| parlamentar   |    0.506 |
+| parlamentar   |    0.505 |
 | minorităților |    0.442 |
 | consultări    |    0.424 |
 | formațiune    |    0.344 |
 | live          |    0.315 |
 | grup          |    0.238 |
 | partid        |    0.185 |
-| național      |    0.184 |
+| național      |    0.185 |
 | politic       |    0.165 |
 
 ## 2026-04-22 — facebook-post
@@ -13345,7 +13345,7 @@ _File: `2026-04-22_live-consultari-cu-partide-si-formatiuni-politice-parlamenta_
 | parlamentar |    0.306 |
 | psd         |    0.266 |
 | social      |    0.259 |
-| politic     |    0.199 |
+| politic     |    0.2   |
 
 ## 2026-04-22 — facebook-post
 
@@ -13357,7 +13357,7 @@ _File: `2026-04-22_live-declaratie-de-presa-sustinuta-la-palatul-cotroceni` · 6
 | live       |    0.479 |
 | presă      |    0.35  |
 | palat      |    0.332 |
-| declarație |    0.322 |
+| declarație |    0.321 |
 | cotroceni  |    0.319 |
 
 ## 2026-04-23 — facebook-post
@@ -13370,17 +13370,17 @@ _File: `2026-04-23_am-promulgat-astazi-legea-pentru-prevenirea-si-combaterea-fe`
 | femeie          |    0.268 |
 | femicid         |    0.268 |
 | prevenire       |    0.22  |
-| lege            |    0.195 |
-| preceda         |    0.14  |
+| lege            |    0.194 |
 | aspru           |    0.14  |
+| preceda         |    0.14  |
 | necesar         |    0.138 |
 | pedepse         |    0.134 |
-| gravitate       |    0.134 |
 | abordat         |    0.134 |
+| gravitate       |    0.134 |
 | dureroa         |    0.129 |
 | înțelege        |    0.129 |
 | parlamentarilor |    0.126 |
-| comportament    |    0.123 |
+| conștientizare  |    0.123 |
 
 ## 2026-04-23 — facebook-post
 
@@ -13389,20 +13389,20 @@ _File: `2026-04-23_particip-in-aceste-zile-in-cipru-la-reuniunea-informala-a-co`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | resursă          |    0.268 |
-| uniune           |    0.251 |
+| uniune           |    0.252 |
 | informal         |    0.222 |
-| cipru            |    0.196 |
+| cipru            |    0.195 |
 | european         |    0.19  |
 | pilon            |    0.177 |
 | coeziune         |    0.167 |
-| consiliu         |    0.166 |
-| buget            |    0.163 |
+| consiliu         |    0.165 |
+| buget            |    0.164 |
 | asigurare        |    0.152 |
 | competitivitate  |    0.149 |
 | uniuneaeuropeană |    0.146 |
 | trebui           |    0.139 |
-| reuniune         |    0.137 |
-| bucura           |    0.132 |
+| reuniune         |    0.136 |
+| bucura           |    0.133 |
 
 ## 2026-04-24 — facebook-post
 
@@ -13415,11 +13415,11 @@ _File: `2026-04-24_live-declaratiile-de-presa-sustinute-la-finalul-reuniunii-in`
 | declarațiile |    0.381 |
 | live         |    0.344 |
 | informal     |    0.314 |
-| republică    |    0.26  |
+| republică    |    0.259 |
 | final        |    0.254 |
-| presă        |    0.252 |
+| presă        |    0.251 |
 | consiliu     |    0.234 |
-| susține      |    0.209 |
+| susține      |    0.21  |
 | european     |    0.161 |
 
 ## 2026-04-24 — facebook-post
@@ -13430,19 +13430,19 @@ _File: `2026-04-24_subiectul-cel-mai-important-pentru-romania-pe-care-l-am-abor`
 |:---------------|---------:|
 | ban            |    0.236 |
 | european       |    0.227 |
-| fond           |    0.175 |
-| finalizăma     |    0.171 |
+| fond           |    0.174 |
 | agricultura    |    0.171 |
 | începea        |    0.171 |
-| destinat       |    0.154 |
-| coincide       |    0.154 |
-| adică          |    0.149 |
+| finalizăma     |    0.171 |
+| coincide       |    0.153 |
+| destinat       |    0.153 |
+| adică          |    0.148 |
 | fructifica     |    0.146 |
 | competitivitat |    0.146 |
 | cipru          |    0.146 |
-| cheltuim       |    0.144 |
-| dori           |    0.142 |
-| echitabil      |    0.139 |
+| cheltuim       |    0.143 |
+| dori           |    0.141 |
+| echitabil      |    0.141 |
 
 ## 2026-04-25 — facebook-post
 
@@ -13453,16 +13453,16 @@ _File: `2026-04-25_am-semnat-asear-demisiile-ministrilor-social-democrati-si-pr`
 | lider       |    0.277 |
 | demisiile   |    0.26  |
 | miniștrilor |    0.241 |
-| exercita    |    0.225 |
+| exercita    |    0.224 |
 | asear       |    0.215 |
 | miniștru    |    0.215 |
 | mediator    |    0.202 |
-| minoritate  |    0.195 |
-| pnrr        |    0.194 |
-| safe        |    0.19  |
-| aplica      |    0.187 |
+| minoritate  |    0.196 |
+| pnrr        |    0.195 |
+| safe        |    0.191 |
+| aplica      |    0.186 |
 | interimar   |    0.184 |
-| pro         |    0.178 |
+| pro         |    0.177 |
 | major       |    0.176 |
 | invita      |    0.175 |
 
@@ -13475,9 +13475,9 @@ _File: `2026-04-28_astazi-la-dubrovnik-in-marja-summitului-initiativei-celor-tr`
 | inițiativa     |    0.291 |
 | port           |    0.245 |
 | constanța      |    0.235 |
-| vrea           |    0.206 |
+| vrea           |    0.207 |
 | transport      |    0.198 |
-| infrastructură |    0.183 |
+| infrastructură |    0.182 |
 | fond           |    0.165 |
 | strategic      |    0.164 |
 | coridoară      |    0.162 |
@@ -13496,19 +13496,19 @@ _File: `2026-04-28_in-marja-summitului-initiativei-celor-trei-mari-de-la-dubrov`
 |:------------|---------:|
 | austria     |    0.351 |
 | precum      |    0.232 |
-| parteneriat |    0.224 |
+| parteneriat |    0.226 |
 | christian   |    0.213 |
-| stocker     |    0.213 |
 | marjă       |    0.213 |
+| stocker     |    0.213 |
 | cancelaru   |    0.213 |
 | dubrovnik   |    0.206 |
 | inițiativa  |    0.2   |
 | federal     |    0.187 |
 | plăcere     |    0.162 |
 | provocăre   |    0.153 |
-| aborda      |    0.152 |
 | beneficiu   |    0.152 |
-| investitor  |    0.148 |
+| aborda      |    0.152 |
+| investitor  |    0.147 |
 
 ## 2026-04-28 — facebook-post
 
@@ -13516,8 +13516,8 @@ _File: `2026-04-28_live-declaratii-de-presa-sustinute-in-marja-summitului-initi`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| croația    |    0.398 |
 | dubrovnik  |    0.398 |
+| croația    |    0.398 |
 | inițiativa |    0.387 |
 | marja      |    0.361 |
 | declarații |    0.339 |
@@ -13536,18 +13536,18 @@ _File: `2026-04-28_romania-a-participat-activ-si-cu-succes-la-efortul-transatla`
 | intelligence |    0.286 |
 | efort        |    0.235 |
 | sri          |    0.211 |
-| diplomatic   |    0.194 |
+| diplomatic   |    0.195 |
 | schimb       |    0.179 |
-| acțiune      |    0.16  |
-| autoritate   |    0.155 |
-| demersurile  |    0.154 |
+| acțiune      |    0.159 |
+| autoritate   |    0.154 |
 | efectuare    |    0.154 |
 | ținuți       |    0.154 |
+| demersurile  |    0.154 |
 | solicităr    |    0.154 |
 | moldova      |    0.151 |
 | moldoven     |    0.148 |
-| documenta    |    0.143 |
 | fundamenta   |    0.143 |
+| cehia        |    0.143 |
 
 ## 2026-04-29 — facebook-post
 
@@ -13555,21 +13555,21 @@ _File: `2026-04-29_am-participat-astazi-la-sesiunea-speciala-a-forumului-de-afa`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
+| afaceri    |    0.241 |
 | asocie     |    0.241 |
 | forumului  |    0.241 |
-| afaceri    |    0.241 |
 | motor      |    0.231 |
 | împreun    |    0.231 |
-| inițiativa |    0.217 |
+| inițiativa |    0.216 |
 | sesiune    |    0.202 |
 | aspirație  |    0.199 |
 | inovare    |    0.195 |
 | disponibil |    0.182 |
 | conecta    |    0.18  |
-| reuni      |    0.176 |
 | comunist   |    0.176 |
+| reuni      |    0.176 |
 | progres    |    0.173 |
-| promova    |    0.162 |
+| promova    |    0.163 |
 
 ## 2026-04-29 — facebook-post
 
@@ -13578,10 +13578,10 @@ _File: `2026-04-29_live-declaratiile-de-presa-sustinute-dupa-participarea-la-fo`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | afaceri      |    0.398 |
-| croația      |    0.368 |
 | dubrovnik    |    0.368 |
+| croația      |    0.368 |
 | inițiativa   |    0.358 |
-| declarațiile |    0.314 |
+| declarațiile |    0.313 |
 | forum        |    0.295 |
 | live         |    0.283 |
 | participare  |    0.242 |
@@ -13596,18 +13596,18 @@ _File: `2026-05-03_felicitari-elevilor-romani-din-lotul-national-de-robotica-ca`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | echipa      |    0.463 |
-| câștiga     |    0.343 |
-| colegiu     |    0.25  |
-| campionat   |    0.25  |
-| first       |    0.25  |
+| câștiga     |    0.344 |
 | tech        |    0.25  |
+| campionat   |    0.25  |
+| colegiu     |    0.25  |
+| first       |    0.25  |
 | liceu       |    0.21  |
 | loc         |    0.198 |
 | mondial     |    0.173 |
-| național    |    0.156 |
-| informatică |    0.125 |
+| național    |    0.157 |
 | robotic     |    0.125 |
 | heart       |    0.125 |
+| informatică |    0.125 |
 | lot         |    0.125 |
 | prestigios  |    0.12  |
 
@@ -13621,17 +13621,17 @@ _File: `2026-05-03_in-drum-spre-armenia-unde-voi-participa-alaturi-de-doamna-pr`
 | grup       |    0.217 |
 | vrea       |    0.206 |
 | jakov      |    0.201 |
-| muntenegru |    0.201 |
 | gaze       |    0.201 |
-| moldova    |    0.196 |
+| muntenegru |    0.201 |
+| moldova    |    0.197 |
 | coridor    |    0.193 |
-| participa  |    0.193 |
+| participa  |    0.192 |
 | alături    |    0.189 |
-| vertical   |    0.187 |
-| armenia    |    0.187 |
+| vertical   |    0.186 |
+| armenia    |    0.186 |
 | înființa   |    0.173 |
 | reuniuni   |    0.159 |
-| președintă |    0.157 |
+| președintă |    0.156 |
 
 ## 2026-05-04 — facebook-post
 
@@ -13640,18 +13640,18 @@ _File: `2026-05-04_am-avut-placerea-de-a-ma-intalni-cu-principele-albert-al-ii` 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | monaco       |    0.51  |
-| consolidăm   |    0.245 |
-| principe     |    0.245 |
+| principe     |    0.244 |
+| consolidăm   |    0.244 |
 | pașnic       |    0.236 |
-| erevan       |    0.23  |
+| erevan       |    0.229 |
 | -lea         |    0.224 |
-| multilateral |    0.215 |
+| multilateral |    0.214 |
 | continent    |    0.201 |
 | împărtăși    |    0.187 |
 | plăcere      |    0.185 |
 | constant     |    0.169 |
 | preocupare   |    0.159 |
-| ordine       |    0.154 |
+| ordine       |    0.155 |
 | bilateral    |    0.154 |
 | regulă       |    0.153 |
 
@@ -13666,10 +13666,10 @@ _File: `2026-05-04_am-organizat-astazi-in-marja-reuniunii-comunitatii-politice` 
 | coridor       |    0.184 |
 | grecia        |    0.184 |
 | vertical      |    0.178 |
-| diversificare |    0.178 |
 | serbia        |    0.178 |
-| erevan        |    0.173 |
+| diversificare |    0.178 |
 | tranzit       |    0.173 |
+| erevan        |    0.173 |
 | surselor      |    0.169 |
 | aduce         |    0.167 |
 | rută          |    0.165 |
@@ -13685,15 +13685,15 @@ _File: `2026-05-04_live-declaratii-de-presa-dupa-participarea-la-reuniunea-comu`
 |:------------|---------:|
 | armenia     |    0.432 |
 | erevan      |    0.42  |
-| declarații  |    0.368 |
+| declarații  |    0.367 |
 | live        |    0.332 |
 | participare |    0.284 |
-| reuniune    |    0.28  |
+| reuniune    |    0.279 |
 | republică   |    0.25  |
-| presă       |    0.243 |
-| comunitate  |    0.239 |
+| presă       |    0.242 |
+| comunitate  |    0.24  |
 | politic     |    0.174 |
-| european    |    0.155 |
+| european    |    0.156 |
 
 ## 2026-05-04 — facebook-post
 
@@ -13709,13 +13709,13 @@ _File: `2026-05-04_multumesc-prietenilor-europeni-pentru-participarea-la-discut`
 | împreun          |    0.228 |
 | dezinformarea    |    0.221 |
 | ingerință        |    0.214 |
-| coordonat        |    0.2   |
 | structural       |    0.2   |
+| coordonat        |    0.2   |
 | monitorizare     |    0.185 |
-| tehnologic       |    0.181 |
+| tehnologic       |    0.18  |
 | inteligență      |    0.165 |
-| artificial       |    0.161 |
 | cibernetic       |    0.161 |
+| artificial       |    0.161 |
 
 ## 2026-05-05 — facebook-post
 
@@ -13730,49 +13730,27 @@ _File: `2026-05-05_live-declaratii-de-presa-sustinute-la-palatul-cotroceni` · 6
 | cotroceni  |    0.331 |
 | susține    |    0.302 |
 
-## 2026-05-09 — facebook-post
-
-_File: `2026-05-09_sarbatorim-azi-ziua-europei-maine-ziua-independentei-sunt-do` · 352 clean lemmas_
-
-| lemmă          |   TF-IDF |
-|:---------------|---------:|
-| european       |    0.321 |
-| uniune         |    0.319 |
-| europa         |    0.263 |
-| românia        |    0.246 |
-| lozincă        |    0.223 |
-| greșeală       |    0.204 |
-| sine           |    0.178 |
-| dezbatere      |    0.155 |
-| duce           |    0.13  |
-| interior       |    0.129 |
-| adevărat       |    0.125 |
-| pro-occidental |    0.115 |
-| politică       |    0.115 |
-| miliard        |    0.105 |
-| decât          |    0.103 |
-
 ## 2026-05-12 — facebook-post
 
 _File: `2026-05-12_abordarea-strategica-a-romaniei-in-ceea-ce-priveste-politica` · 90 clean lemmas_
 
 | lemmă                           |   TF-IDF |
 |:--------------------------------|---------:|
-| northatlantictreatyorganization |    0.354 |
+| northatlantictreatyorganization |    0.353 |
 | pilon                           |    0.349 |
-| puternic                        |    0.288 |
+| puternic                        |    0.289 |
 | stateleunitealeamericii         |    0.186 |
 | românia                         |    0.17  |
-| exista                          |    0.167 |
+| exista                          |    0.168 |
 | intern                          |    0.159 |
 | corect                          |    0.152 |
-| strategic                       |    0.152 |
-| neschimbat                      |    0.15  |
+| strategic                       |    0.151 |
 | european                        |    0.15  |
+| pro-occidental                  |    0.15  |
+| neschimbat                      |    0.15  |
 | extern                          |    0.149 |
-| niciun                          |    0.148 |
-| pro-occidental                  |    0.144 |
-| bazăma                          |    0.144 |
+| niciun                          |    0.147 |
+| bazăma                          |    0.143 |
 
 ## 2026-05-12 — facebook-post
 
@@ -13780,15 +13758,15 @@ _File: `2026-05-12_am-avut-o-discutie-substantiala-cu-presedintele-poloniei-kar`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| polonia      |    0.551 |
+| polonia      |    0.55  |
 | nawrocki     |    0.289 |
 | cooperare    |    0.188 |
 | oportunitate |    0.186 |
 | inițiativ    |    0.156 |
 | partener     |    0.156 |
 | zonă         |    0.145 |
-| discutat     |    0.145 |
 | karol        |    0.145 |
+| discutat     |    0.145 |
 | baltică      |    0.139 |
 | modalitate   |    0.129 |
 | substanțial  |    0.124 |
@@ -13805,12 +13783,12 @@ _File: `2026-05-12_intalnire-de-lucru-alaturi-de-secretarul-general-al-nato-mar`
 | summit                          |    0.292 |
 | northatlantictreatyorganization |    0.248 |
 | securitate                      |    0.21  |
-| bsummit                         |    0.175 |
 | euro-atlantic                   |    0.175 |
+| bsummit                         |    0.175 |
 | ankara                          |    0.162 |
 | apărare                         |    0.158 |
-| contracara                      |    0.158 |
 | agresiv                         |    0.158 |
+| contracara                      |    0.158 |
 | rutte                           |    0.154 |
 | comportament                    |    0.154 |
 | karol                           |    0.15  |
@@ -13825,11 +13803,11 @@ _File: `2026-05-12_live-declaratii-de-presa-comune-cu-presedintele-republicii-p`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | polone     |    0.453 |
-| karol      |    0.406 |
-| nawrocki   |    0.406 |
+| karol      |    0.405 |
+| nawrocki   |    0.405 |
 | declarații |    0.372 |
 | live       |    0.336 |
-| republicii |    0.286 |
+| republicii |    0.287 |
 | presă      |    0.246 |
 | comun      |    0.223 |
 | președinte |    0.149 |
@@ -13843,8 +13821,8 @@ _File: `2026-05-12_live-declaratii-de-presa-sustinute-dupa-participarea-la-conf`
 | balkans       |    0.385 |
 | black         |    0.338 |
 | sea           |    0.33  |
-| security      |    0.303 |
 | declarații    |    0.303 |
+| security      |    0.303 |
 | forum         |    0.285 |
 | and           |    0.276 |
 | live          |    0.274 |
@@ -13852,7 +13830,7 @@ _File: `2026-05-12_live-declaratii-de-presa-sustinute-dupa-participarea-la-conf`
 | participare   |    0.234 |
 | presă         |    0.2   |
 | internațional |    0.174 |
-| susține       |    0.166 |
+| susține       |    0.167 |
 
 ## 2026-05-12 — facebook-post
 
@@ -13877,12 +13855,12 @@ _File: `2026-05-12_live-primirea-presedintelui-republicii-polone-karol-nawrocki`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| polone     |    0.457 |
+| polone     |    0.456 |
 | karol      |    0.409 |
 | nawrocki   |    0.409 |
 | primire    |    0.361 |
 | live       |    0.339 |
-| republicii |    0.288 |
+| republicii |    0.29  |
 | palat      |    0.235 |
 | cotroceni  |    0.226 |
 | președinte |    0.15  |
@@ -13901,7 +13879,7 @@ _File: `2026-05-12_live-primirea-secretarului-general-nato-mark-rutte-la-palatu`
 | palat                           |    0.251 |
 | cotroceni                       |    0.241 |
 | northatlantictreatyorganization |    0.24  |
-| general                         |    0.233 |
+| general                         |    0.232 |
 
 ## 2026-05-13 — facebook-post
 
@@ -13909,17 +13887,17 @@ _File: `2026-05-13_am-avut-astazi-o-intrevedere-excelenta-cu-presedintele-curti`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| curte        |    0.309 |
+| curte        |    0.308 |
 | hotărârilor  |    0.292 |
 | convenție    |    0.292 |
 | întrevedere  |    0.245 |
 | excelent     |    0.233 |
 | reziliență   |    0.227 |
 | protejare    |    0.208 |
-| reafirma     |    0.204 |
 | deplin       |    0.204 |
+| reafirma     |    0.204 |
 | angajat      |    0.202 |
-| geopolitic   |    0.197 |
+| geopolitic   |    0.199 |
 | european     |    0.194 |
 | implementare |    0.192 |
 | fundamental  |    0.173 |
@@ -13934,7 +13912,7 @@ _File: `2026-05-13_b9summit-romania-polonia-ucraina-b92026` · 4 clean lemmas_
 | bsummit |    0.691 |
 | romania |    0.475 |
 | polonia |    0.451 |
-| ucraina |    0.306 |
+| ucraina |    0.305 |
 
 ## 2026-05-13 — facebook-post
 
@@ -13944,17 +13922,17 @@ _File: `2026-05-13_le-am-urat-bun-venit-la-bucuresti-liderilor-statelor-membre` 
 |:--------------------------------|---------:|
 | northatlantictreatyorganization |    0.323 |
 | securitate                      |    0.273 |
-| transatlantic                   |    0.251 |
+| transatlantic                   |    0.252 |
 | summit                          |    0.228 |
-| ucraina                         |    0.182 |
+| ucraina                         |    0.181 |
 | aliat                           |    0.17  |
 | prioritate                      |    0.157 |
 | securitatetransatlantică        |    0.137 |
 | oferi                           |    0.132 |
 | summitulb                       |    0.131 |
 | flanculestic                    |    0.131 |
-| ankara                          |    0.127 |
 | nordică                         |    0.127 |
+| ankara                          |    0.127 |
 | coagula                         |    0.123 |
 | proximitate                     |    0.123 |
 
@@ -13972,11 +13950,11 @@ _File: `2026-05-13_live-declaratii-de-presa-comune-ale-presedintelui-romaniei-n`
 | mark       |    0.27  |
 | declarații |    0.253 |
 | live       |    0.228 |
-| secretar   |    0.206 |
+| secretar   |    0.205 |
 | președinte |    0.202 |
-| republicii |    0.194 |
+| republicii |    0.195 |
 | summit     |    0.178 |
-| final      |    0.169 |
+| final      |    0.168 |
 | presă      |    0.167 |
 | palat      |    0.158 |
 
@@ -14004,18 +13982,18 @@ _File: `2026-05-13_o-participare-ampla-astazi-la-bucuresti-a-statelor-din-forma`
 |:--------------------------------|---------:|
 | comun                           |    0.258 |
 | declarație                      |    0.196 |
-| northatlantictreatyorganization |    0.194 |
+| northatlantictreatyorganization |    0.193 |
 | format                          |    0.175 |
-| întru                           |    0.164 |
+| întru                           |    0.165 |
 | amenințare                      |    0.155 |
-| summit                          |    0.152 |
+| summit                          |    0.151 |
 | poziționăre                     |    0.136 |
 | aliaților                       |    0.136 |
 | rusia                           |    0.136 |
-| compatibilitate                 |    0.131 |
-| comune                          |    0.131 |
 | sintagma                        |    0.131 |
+| comune                          |    0.131 |
 | compatibiliza                   |    0.131 |
+| compatibilitate                 |    0.131 |
 | comprima                        |    0.131 |
 
 ## 2026-05-13 — facebook-post
@@ -14028,8 +14006,8 @@ _File: `2026-05-13_presedintele-volodimir-zelenski-a-fost-invitatul-special-al` 
 | tehnologiu      |    0.267 |
 | concreaț        |    0.174 |
 | producere       |    0.174 |
-| volodîmîr       |    0.167 |
-| hotărâți        |    0.167 |
+| volodîmîr       |    0.166 |
+| hotărâți        |    0.166 |
 | special         |    0.164 |
 | transfrontalier |    0.161 |
 | apărare         |    0.157 |
@@ -14038,7 +14016,7 @@ _File: `2026-05-13_presedintele-volodimir-zelenski-a-fost-invitatul-special-al` 
 | ucraina         |    0.154 |
 | dronelor        |    0.146 |
 | acumula         |    0.146 |
-| câmp            |    0.144 |
+| câmp            |    0.143 |
 
 ## 2026-05-13 — facebook-post
 
@@ -14046,10 +14024,10 @@ _File: `2026-05-13_summitul-b9-la-palatul-cotroceni-impreuna-suntem-mai-puterni`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| summit    |    0.511 |
-| palat     |    0.454 |
-| puternic  |    0.442 |
-| cotroceni |    0.436 |
+| summit    |    0.51  |
+| palat     |    0.453 |
+| puternic  |    0.444 |
+| cotroceni |    0.435 |
 | împreună  |    0.385 |
 
 ## 2026-05-13 — facebook-post
@@ -14060,16 +14038,16 @@ _File: `2026-05-13_unitatea-forta-si-coerenta-trebuie-sa-ne-ghideze-in-consolid`
 |:--------------------------------|---------:|
 | summitulb                       |    0.368 |
 | flanculestic                    |    0.368 |
-| flancului                       |    0.356 |
+| flancului                       |    0.355 |
 | coerență                        |    0.345 |
 | ghida                           |    0.337 |
-| unitate                         |    0.243 |
-| cetățen                         |    0.234 |
+| unitate                         |    0.244 |
+| cetățen                         |    0.233 |
 | estic                           |    0.231 |
-| siguranță                       |    0.219 |
+| siguranță                       |    0.218 |
 | consolidare                     |    0.212 |
 | forță                           |    0.195 |
-| northatlantictreatyorganization |    0.182 |
+| northatlantictreatyorganization |    0.181 |
 | împreună                        |    0.161 |
 | trebui                          |    0.117 |
 
@@ -14092,7 +14070,7 @@ _File: `2026-05-13_zi-foarte-importanta-astazi-la-palatul-cotroceni-unde-are-lo`
 | membră                   |    0.175 |
 | aplica                   |    0.173 |
 | neagră                   |    0.171 |
-| transatlantic            |    0.168 |
+| transatlantic            |    0.169 |
 | stat                     |    0.167 |
 
 ## 2026-05-14 — facebook-post
@@ -14104,13 +14082,13 @@ _File: `2026-05-14_la-summitul-b9-am-reconfirmat-un-lucru-esential-securitatea` 
 | hotărâți      |    0.337 |
 | sprijinim     |    0.281 |
 | reconfirma    |    0.266 |
-| unitate       |    0.222 |
-| alianță       |    0.221 |
-| flanc         |    0.219 |
-| transatlantic |    0.215 |
-| estic         |    0.212 |
-| depinde       |    0.211 |
-| capacitate    |    0.207 |
+| unitate       |    0.224 |
+| alianță       |    0.222 |
+| flanc         |    0.218 |
+| transatlantic |    0.216 |
+| estic         |    0.211 |
+| depinde       |    0.21  |
+| capacitate    |    0.206 |
 | investi       |    0.203 |
 | consolida     |    0.201 |
 | amenințare    |    0.199 |
@@ -14123,21 +14101,21 @@ _File: `2026-05-15_investitiile-in-tot-ce-tine-de-apararea-cetatenilor-nostri-a`
 
 | lemmă                   |   TF-IDF |
 |:------------------------|---------:|
-| bsda                    |    0.502 |
+| bsda                    |    0.501 |
 | apărare                 |    0.236 |
 | expoziție               |    0.22  |
-| industrie               |    0.213 |
+| industrie               |    0.214 |
 | stateleunitealeamericii |    0.163 |
 | bucurești               |    0.158 |
 | securitate              |    0.157 |
 | defense                 |    0.131 |
 | aerospace               |    0.131 |
-| aeronautic              |    0.125 |
 | prospera                |    0.125 |
-| mapn                    |    0.125 |
+| aeronautic              |    0.125 |
 | sts                     |    0.125 |
+| mapn                    |    0.125 |
 | context                 |    0.12  |
-| internațional           |    0.119 |
+| internațional           |    0.118 |
 
 ## 2026-05-15 — facebook-post
 
@@ -14145,8 +14123,8 @@ _File: `2026-05-15_live-declaratii-de-presa-sustinute-de-presedintele-romaniei` 
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| aerospace     |    0.331 |
 | defense       |    0.331 |
+| aerospace     |    0.331 |
 | bsda          |    0.317 |
 | black         |    0.29  |
 | sea           |    0.284 |
@@ -14155,7 +14133,7 @@ _File: `2026-05-15_live-declaratii-de-presa-sustinute-de-presedintele-romaniei` 
 | security      |    0.261 |
 | and           |    0.238 |
 | live          |    0.235 |
-| vizită        |    0.182 |
+| vizită        |    0.181 |
 | final         |    0.174 |
 | presă         |    0.172 |
 | internațional |    0.15  |
@@ -14170,15 +14148,15 @@ _File: `2026-05-21_t` · 60 clean lemmas_
 | -urilor         |    0.477 |
 | ong             |    0.427 |
 | măsură          |    0.213 |
-| societate       |    0.206 |
+| societate       |    0.207 |
 | civil           |    0.197 |
-| donatorilor     |    0.166 |
-| dizolvare       |    0.166 |
 | inhiba          |    0.166 |
+| dizolvare       |    0.166 |
 | transparența    |    0.166 |
-| decizional      |    0.149 |
+| donatorilor     |    0.166 |
 | disproporționat |    0.149 |
-| donație         |    0.146 |
+| decizional      |    0.149 |
+| donație         |    0.145 |
 | reprezentativ   |    0.127 |
 | anual           |    0.126 |
 | prevedere       |    0.124 |
@@ -14200,8 +14178,8 @@ _File: `2025-05-08_dezbatere-euronews-simion` · 34 clean lemmas_
 | uniuneaeuropeană        |    0.192 |
 | stateleunitealeamericii |    0.186 |
 | activ                   |    0.185 |
-| obține                  |    0.179 |
-| donald                  |    0.178 |
+| obține                  |    0.178 |
+| donald                  |    0.177 |
 | consolida               |    0.171 |
 | trump                   |    0.17  |
 
@@ -14211,17 +14189,17 @@ _File: `2024-12-16_anunt-candidatura` · 55 clean lemmas_
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| problemă     |    0.373 |
+| problemă     |    0.372 |
 | românia      |    0.255 |
 | apăra        |    0.249 |
-| gașcă        |    0.216 |
-| interes      |    0.212 |
+| gașcă        |    0.215 |
+| interes      |    0.213 |
 | cumpănă      |    0.208 |
 | intenționez  |    0.197 |
 | pro-european |    0.193 |
 | candidez     |    0.189 |
-| întru        |    0.18  |
-| revoluție    |    0.167 |
+| întru        |    0.181 |
+| revoluție    |    0.168 |
 | bucureșten   |    0.157 |
 | împărți      |    0.156 |
 | moment       |    0.15  |
@@ -14237,16 +14215,16 @@ _File: `2025-02-03_lansare-campanie-romania-onesta` · 88 clean lemmas_
 | propune    |    0.251 |
 | mecanism   |    0.194 |
 | euro       |    0.177 |
-| comunitate |    0.171 |
-| funcționa  |    0.171 |
+| comunitate |    0.172 |
+| funcționa  |    0.17  |
 | valoare    |    0.163 |
 | interes    |    0.158 |
 | campanie   |    0.156 |
 | stat       |    0.152 |
 | onestitat  |    0.15  |
 | reușim     |    0.15  |
-| donație    |    0.147 |
-| reconstrui |    0.147 |
+| donație    |    0.146 |
+| reconstrui |    0.146 |
 | captura    |    0.143 |
 
 ## 2025-05-19 — discurs-victorie
@@ -14255,20 +14233,20 @@ _File: `2025-05-19_discurs-victorie` · 99 clean lemmas_
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| victorie  |    0.314 |
+| victorie  |    0.313 |
 | împreună  |    0.304 |
 | opțiune   |    0.285 |
 | românia   |    0.264 |
 | construi  |    0.233 |
-| basarabia |    0.226 |
+| basarabia |    0.229 |
 | campanie  |    0.204 |
-| românie   |    0.176 |
+| românie   |    0.177 |
 | diasporă  |    0.165 |
 | român     |    0.142 |
 | politică  |    0.139 |
-| apropiaț  |    0.135 |
+| apropiaț  |    0.134 |
 | săptămână |    0.129 |
-| societate |    0.12  |
+| societate |    0.121 |
 | crede     |    0.119 |
 
 ## 2025-05-26 — discurs-investitura
@@ -14277,16 +14255,16 @@ _File: `2025-05-26_discurs-investitura` · 521 clean lemmas_
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| sistem      |    0.269 |
-| privi       |    0.253 |
+| sistem      |    0.268 |
+| privi       |    0.254 |
 | românia     |    0.214 |
-| național    |    0.186 |
+| național    |    0.187 |
 | român       |    0.178 |
 | diaspora    |    0.167 |
 | reformă     |    0.15  |
 | interes     |    0.141 |
 | extindere   |    0.139 |
-| cultură     |    0.135 |
+| cultură     |    0.134 |
 | dovedi      |    0.122 |
 | participare |    0.121 |
 | acces       |    0.115 |
@@ -14300,17 +14278,17 @@ _File: `2025-06-04_conferinta-presa-cotroceni` · 50 clean lemmas_
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | schiță       |    0.382 |
-| director     |    0.293 |
+| director     |    0.292 |
 | deficit      |    0.238 |
-| guvernare    |    0.223 |
+| guvernare    |    0.222 |
 | onestitat    |    0.2   |
 | ignora       |    0.181 |
 | sie          |    0.181 |
 | joi          |    0.167 |
 | anticorupție |    0.165 |
 | discuție     |    0.162 |
+| neîncredere  |    0.154 |
 | competență   |    0.154 |
-| neîncredere  |    0.153 |
 | sri          |    0.152 |
 | porni        |    0.147 |
 | menține      |    0.143 |
@@ -14329,12 +14307,12 @@ _File: `2025-09-04_autoevaluare-100-zile` · 66 clean lemmas_
 | întâmpla     |    0.185 |
 | margine      |    0.177 |
 | fericire     |    0.16  |
+| important    |    0.149 |
 | uman         |    0.149 |
 | atinge       |    0.149 |
-| important    |    0.149 |
 | consistent   |    0.145 |
-| stabil       |    0.137 |
 | pachet       |    0.137 |
+| stabil       |    0.137 |
 | formare      |    0.136 |
 
 ## 2025-12-31 — mesaj-anul-nou
@@ -14343,17 +14321,17 @@ _File: `2025-12-31_mesaj-anul-nou` · 134 clean lemmas_
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| drum             |    0.239 |
+| drum             |    0.24  |
 | român            |    0.181 |
 | eficient         |    0.161 |
 | viitor           |    0.161 |
 | responsabilitate |    0.14  |
 | onestita         |    0.139 |
-| priv             |    0.133 |
 | imprevizibil     |    0.133 |
+| priv             |    0.133 |
 | ancora           |    0.129 |
 | încercăre        |    0.129 |
-| stat             |    0.126 |
+| stat             |    0.127 |
 | adaptat          |    0.125 |
 | valorificare     |    0.125 |
 | luciditate       |    0.125 |
@@ -14370,14 +14348,14 @@ _File: `2024-12-04_political-studio-nicusor-dan-the-signal-is-good-even-if-it-i`
 | georgescu   |    0.217 |
 | vrea        |    0.21  |
 | scut        |    0.182 |
-| putea       |    0.182 |
+| putea       |    0.181 |
 | elena       |    0.174 |
 | vedea       |    0.157 |
 | lascon      |    0.151 |
 | spune       |    0.15  |
 | antirachetă |    0.129 |
 | sine        |    0.125 |
-| nato        |    0.124 |
+| nato        |    0.123 |
 | trebui      |    0.114 |
 | campanie    |    0.105 |
 
@@ -14388,18 +14366,18 @@ _File: `2024-12-16_nicusor-dan-despre-calin-georgescu-in-ceea-ce-priveste-conte`
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
 | novacovici        |    0.217 |
-| proporționalitate |    0.208 |
 | rud               |    0.208 |
 | contestare        |    0.208 |
+| proporționalitate |    0.208 |
 | declarație        |    0.207 |
 | privi             |    0.201 |
 | șoșoac            |    0.201 |
 | întrebare         |    0.196 |
 | excluce           |    0.195 |
 | legionar          |    0.195 |
-| nato              |    0.179 |
 | controversat      |    0.179 |
-| crede             |    0.177 |
+| nato              |    0.179 |
+| crede             |    0.178 |
 | valida            |    0.161 |
 | apartenență       |    0.156 |
 
@@ -14413,16 +14391,16 @@ _File: `2024-12-16_nicusor-dan-intentionez-sa-candidez-ca-independent-la-aleger`
 | rol        |    0.191 |
 | interes    |    0.182 |
 | competență |    0.16  |
-| problemă   |    0.16  |
+| problemă   |    0.159 |
 | sine       |    0.151 |
-| coagulare  |    0.148 |
+| coagulare  |    0.147 |
 | președinte |    0.145 |
-| direcție   |    0.142 |
+| direcție   |    0.141 |
 | vrea       |    0.138 |
 | enunța     |    0.135 |
 | categorie  |    0.135 |
 | mecanism   |    0.134 |
-| corupție   |    0.126 |
+| corupție   |    0.127 |
 | atribut    |    0.123 |
 
 ## 2024-12-16 — video-transcript
@@ -14433,19 +14411,19 @@ _File: `2024-12-16_nicusor-dan-reactie-la-decizia-ccr-de-a-anula-alegerile-prez`
 |:---------------|---------:|
 | curte          |    0.31  |
 | constituțional |    0.31  |
-| alegere        |    0.247 |
+| alegere        |    0.248 |
 | anulare        |    0.246 |
 | crede          |    0.24  |
 | institute      |    0.195 |
 | nelegal        |    0.176 |
 | enunța         |    0.171 |
-| situație       |    0.164 |
+| situație       |    0.165 |
 | scedea         |    0.161 |
 | instituție     |    0.16  |
 | bun            |    0.142 |
 | cheltui        |    0.142 |
-| nuanță         |    0.139 |
 | răspundere     |    0.139 |
+| nuanță         |    0.139 |
 
 ## 2024-12-16 — video-transcript
 
@@ -14455,13 +14433,13 @@ _File: `2024-12-16_nicusor-dan-si-a-anuntat-candidatura-la-alegerile-prezidenti`
 |:--------------|---------:|
 | partid        |    0.302 |
 | vrea          |    0.202 |
-| crede         |    0.19  |
+| crede         |    0.191 |
 | pro           |    0.181 |
 | alegere       |    0.177 |
-| spune         |    0.15  |
+| spune         |    0.151 |
 | sine          |    0.149 |
 | candida       |    0.148 |
-| întrebare     |    0.137 |
+| întrebare     |    0.136 |
 | primar        |    0.124 |
 | parte         |    0.123 |
 | românia       |    0.121 |
@@ -14477,7 +14455,7 @@ _File: `2024-12-16_nicusor-dan-urmeaza-sa-si-anunte-candidatura-ca-independent` 
 |:-------------|---------:|
 | candidatură  |    0.468 |
 | ordan        |    0.198 |
-| nicuș        |    0.184 |
+| nicuș        |    0.186 |
 | independent  |    0.178 |
 | elena        |    0.176 |
 | informație   |    0.171 |
@@ -14485,11 +14463,11 @@ _File: `2024-12-16_nicusor-dan-urmeaza-sa-si-anunte-candidatura-ca-independent` 
 | usr          |    0.151 |
 | primărie     |    0.147 |
 | candidat     |    0.138 |
-| întreba      |    0.136 |
+| întreba      |    0.135 |
 | anunța       |    0.135 |
 | prezidențial |    0.134 |
 | cursă        |    0.133 |
-| găsi         |    0.13  |
+| intra        |    0.13  |
 
 ## 2024-12-17 — video-transcript
 
@@ -14498,19 +14476,19 @@ _File: `2024-12-17_ciprian-ciucu-despre-candidatura-lui-nicusor-dan-nu-a-cerut` 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
 | partid   |    0.337 |
-| domn     |    0.239 |
+| domn     |    0.238 |
 | vrea     |    0.216 |
 | usr      |    0.202 |
 | sine     |    0.182 |
-| spune    |    0.179 |
+| spune    |    0.18  |
 | candidat |    0.174 |
-| nicușor  |    0.163 |
+| nicușor  |    0.164 |
 | vedea    |    0.149 |
 | dan      |    0.146 |
 | lascon   |    0.144 |
 | putea    |    0.14  |
 | ști      |    0.12  |
-| nicuș    |    0.116 |
+| nicuș    |    0.117 |
 | ordan    |    0.115 |
 
 ## 2024-12-18 — video-transcript
@@ -14520,20 +14498,20 @@ _File: `2024-12-18_nicusor-dan-iesirea-unui-partid-din-coalitie-ne-ar-lasa-cu-u`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | vrea          |    0.28  |
-| alegere       |    0.212 |
+| alegere       |    0.213 |
 | spune         |    0.212 |
-| trebui        |    0.204 |
+| trebui        |    0.205 |
 | crede         |    0.181 |
 | sine          |    0.172 |
 | moment        |    0.168 |
 | partid        |    0.14  |
-| dumneavoastră |    0.137 |
+| dumneavoastră |    0.136 |
 | putea         |    0.125 |
 | anunț         |    0.124 |
-| candidat      |    0.124 |
+| candidat      |    0.123 |
 | prooccidental |    0.117 |
 | informație    |    0.115 |
-| sondaj        |    0.114 |
+| sondaj        |    0.113 |
 
 ## 2024-12-18 — video-transcript
 
@@ -14551,8 +14529,8 @@ _File: `2024-12-18_studio-politic-ludovic-orban-nicusor-dan-nu-e-ca-basescu-nu` 
 | exista     |    0.133 |
 | usr        |    0.127 |
 | guvern     |    0.124 |
-| orban      |    0.123 |
-| decizie    |    0.122 |
+| orban      |    0.122 |
+| decizie    |    0.121 |
 | candidat   |    0.116 |
 | rusia      |    0.114 |
 | putea      |    0.111 |
@@ -14563,14 +14541,14 @@ _File: `2024-12-19_nicusor-dan-dupa-retragerea-psd-de-la-negocieri-sunt-surprin`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| guvern       |    0.325 |
+| guvern       |    0.326 |
 | crede        |    0.303 |
 | partid       |    0.258 |
 | vrea         |    0.252 |
-| alegere      |    0.208 |
+| alegere      |    0.209 |
 | politic      |    0.207 |
 | prezidențial |    0.182 |
-| dialog       |    0.128 |
+| dialog       |    0.129 |
 | lămuri       |    0.124 |
 | parlament    |    0.118 |
 | anulare      |    0.116 |
@@ -14588,18 +14566,18 @@ _File: `2024-12-23_nicusor-dan-despre-candidatura-lui-crin-antonescu-partidele` 
 | partid        |    0.238 |
 | candidat      |    0.216 |
 | pro           |    0.213 |
-| alegere       |    0.18  |
+| alegere       |    0.181 |
 | situație      |    0.15  |
 | antonescu     |    0.149 |
 | candida       |    0.136 |
 | bun           |    0.129 |
 | echilibru     |    0.129 |
 | lucru         |    0.129 |
-| merge         |    0.128 |
+| merge         |    0.129 |
 | vrea          |    0.127 |
 | nivel         |    0.124 |
 | miza          |    0.122 |
-| dumneavoastră |    0.122 |
+| dumneavoastră |    0.121 |
 
 ## 2024-12-25 — video-transcript
 
@@ -14609,17 +14587,17 @@ _File: `2024-12-25_mesajul-lui-nicusor-dan-pentru-romani-stiri-b1tv-25-dec-2024`
 |:----------|---------:|
 | crăciun   |    0.461 |
 | fericit   |    0.191 |
-| alături   |    0.19  |
+| alături   |    0.189 |
 | drag      |    0.179 |
 | complicat |    0.176 |
 | român     |    0.175 |
 | trebui    |    0.164 |
-| românia   |    0.152 |
+| românia   |    0.153 |
 | bun       |    0.147 |
-| forță     |    0.136 |
+| forță     |    0.137 |
+| brad      |    0.129 |
 | definim   |    0.129 |
 | înșine    |    0.129 |
-| brad      |    0.129 |
 | stat      |    0.122 |
 | optimism  |    0.115 |
 
@@ -14633,7 +14611,7 @@ _File: `2024-12-30_nicusor-dan-candidez-indiferent-de-ce-va-fi-stiri-b1tv-30-de`
 | trenuleț    |    0.228 |
 | ordonanța   |    0.218 |
 | radical     |    0.211 |
-| investiție  |    0.211 |
+| investiție  |    0.21  |
 | vrea        |    0.204 |
 | primar      |    0.182 |
 | notă        |    0.177 |
@@ -14657,12 +14635,12 @@ _File: `2024-12-30_nicusor-dan-despre-calin-georgescu-stiri-b1tv-30-dec-2024` ·
 | nemulțumire |    0.199 |
 | bineînțeles |    0.185 |
 | spune       |    0.166 |
-| campanie    |    0.159 |
+| campanie    |    0.16  |
 | plăti       |    0.151 |
 | alegere     |    0.144 |
 | anulare     |    0.143 |
-| politician  |    0.137 |
-| proces      |    0.131 |
+| politician  |    0.138 |
+| proces      |    0.13  |
 | judecată    |    0.124 |
 | punct       |    0.114 |
 | niciun      |    0.112 |
@@ -14674,8 +14652,8 @@ _File: `2025-01-09_nicusor-dan-critica-decizia-coalitiei-privind-data-alegerilo`
 | lemmă                   |   TF-IDF |
 |:------------------------|---------:|
 | alegere                 |    0.291 |
-| candidat                |    0.286 |
-| nicu                    |    0.211 |
+| candidat                |    0.285 |
+| nicu                    |    0.21  |
 | ordan                   |    0.182 |
 | imagine                 |    0.178 |
 | vedea                   |    0.159 |
@@ -14684,10 +14662,10 @@ _File: `2025-01-09_nicusor-dan-critica-decizia-coalitiei-privind-data-alegerilo`
 | partid                  |    0.131 |
 | românia                 |    0.128 |
 | explicație              |    0.127 |
-| anula                   |    0.123 |
+| anula                   |    0.124 |
 | bun                     |    0.114 |
-| politico                |    0.113 |
 | merge                   |    0.113 |
+| politico                |    0.113 |
 
 ## 2025-01-13 — video-transcript
 
@@ -14699,7 +14677,7 @@ _File: `2025-01-13_nicusor-dan-explicatiile-privind-anularea-prezidentialelor-s`
 | veni      |    0.309 |
 | lămurire  |    0.263 |
 | sper      |    0.213 |
-| parte     |    0.171 |
+| parte     |    0.172 |
 | întreba   |    0.161 |
 | necesar   |    0.16  |
 | aștepta   |    0.15  |
@@ -14709,7 +14687,7 @@ _File: `2025-01-13_nicusor-dan-explicatiile-privind-anularea-prezidentialelor-s`
 | ocupe     |    0.136 |
 | începe    |    0.136 |
 | crede     |    0.133 |
-| ști       |    0.13  |
+| ști       |    0.131 |
 
 ## 2025-01-18 — video-transcript
 
@@ -14718,17 +14696,17 @@ _File: `2025-01-18_nicusor-dan-cere-explicatii-pentru-anulare-stiri-b1tv-18-ian`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | iohannis     |    0.452 |
-| alegere      |    0.327 |
+| alegere      |    0.328 |
 | anulare      |    0.305 |
 | klaus        |    0.281 |
-| crede        |    0.198 |
+| crede        |    0.199 |
 | lămuri       |    0.195 |
 | scor         |    0.16  |
 | mandat       |    0.155 |
 | lucru        |    0.14  |
 | extraordinar |    0.133 |
 | miză         |    0.131 |
-| lună         |    0.12  |
+| lună         |    0.119 |
 | rămâne       |    0.117 |
 | final        |    0.102 |
 | singur       |    0.099 |
@@ -14739,20 +14717,20 @@ _File: `2025-01-30_nicusor-dan-despre-alegerile-prezidentiale-daca-va-castiga-g`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| primar      |    0.321 |
+| primar      |    0.32  |
 | mandat      |    0.241 |
 | candidatură |    0.194 |
 | obține      |    0.179 |
 | politic     |    0.168 |
-| câștiga     |    0.165 |
+| câștiga     |    0.166 |
 | imediat     |    0.151 |
-| aleg        |    0.15  |
 | zdrobitor   |    0.15  |
 | cră         |    0.15  |
-| nenorocire  |    0.15  |
 | asociază    |    0.15  |
+| nenorocire  |    0.15  |
+| aleg        |    0.15  |
 | sine        |    0.148 |
-| schimbare   |    0.147 |
+| schimbare   |    0.148 |
 | ria         |    0.144 |
 
 ## 2025-02-04 — video-transcript
@@ -14763,7 +14741,7 @@ _File: `2025-02-04_nicusor-dan-declara-iar-ca-nu-se-retrage-din-cursa-in-turul` 
 |:-------------|---------:|
 | adresez      |    0.446 |
 | tur          |    0.324 |
-| public       |    0.303 |
+| public       |    0.302 |
 | candidat     |    0.274 |
 | lum          |    0.27  |
 | vot          |    0.25  |
@@ -14773,7 +14751,7 @@ _File: `2025-02-04_nicusor-dan-declara-iar-ca-nu-se-retrage-din-cursa-in-turul` 
 | antonescu    |    0.189 |
 | retrage      |    0.175 |
 | real         |    0.144 |
-| schimba      |    0.14  |
+| schimba      |    0.139 |
 | anumit       |    0.136 |
 | încerca      |    0.134 |
 
@@ -14784,7 +14762,7 @@ _File: `2025-02-05_nicusor-dan-cand-statul-se-imprumuta-ca-sa-plateasca-deficit`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | nordis     |    0.294 |
-| spune      |    0.239 |
+| spune      |    0.24  |
 | împrumuta  |    0.233 |
 | sine       |    0.182 |
 | rezolvăm   |    0.167 |
@@ -14792,8 +14770,8 @@ _File: `2025-02-05_nicusor-dan-cand-statul-se-imprumuta-ca-sa-plateasca-deficit`
 | capitală   |    0.16  |
 | buget      |    0.152 |
 | amâna      |    0.148 |
+| ban        |    0.147 |
 | încredere  |    0.146 |
-| ban        |    0.146 |
 | duce       |    0.137 |
 | referendum |    0.131 |
 | total      |    0.129 |
@@ -14810,10 +14788,10 @@ _File: `2025-02-05_nicusor-dan-despre-scandalul-nordis-mult-din-ce-se-construie`
 | vrea          |    0.193 |
 | vedea         |    0.186 |
 | putea         |    0.174 |
-| moment        |    0.162 |
-| sector        |    0.154 |
+| moment        |    0.163 |
+| sector        |    0.153 |
 | crede         |    0.152 |
-| exista        |    0.143 |
+| exista        |    0.144 |
 | trebui        |    0.141 |
 | duce          |    0.133 |
 | dumneavoastră |    0.131 |
@@ -14832,14 +14810,14 @@ _File: `2025-02-08_nicusor-dan-reactie-in-scandalul-cu-lasconi-stiri-b1tv-8-feb`
 | partid    |    0.24  |
 | georgescu |    0.208 |
 | usr       |    0.191 |
-| compara   |    0.19  |
+| compara   |    0.189 |
 | interior  |    0.185 |
 | lascon    |    0.178 |
 | politic   |    0.171 |
 | foc       |    0.165 |
 | trece     |    0.164 |
 | printr    |    0.159 |
-| gaz       |    0.157 |
+| gaz       |    0.158 |
 | situație  |    0.145 |
 | călin     |    0.142 |
 
@@ -14853,8 +14831,8 @@ _File: `2025-02-16_nicusor-dan-vrem-sa-cumparam-inca-250-de-tramvaie-si-sa-mode`
 | ilfov     |    0.318 |
 | transport |    0.226 |
 | vrea      |    0.208 |
+| linie     |    0.179 |
 | bucurești |    0.179 |
-| linie     |    0.178 |
 | centru    |    0.174 |
 | lansare   |    0.17  |
 | contract  |    0.15  |
@@ -14872,19 +14850,19 @@ _File: `2025-02-24_nicusor-dan-despre-demisia-lui-ciolacu-stiri-b1tv-24-febr-20`
 | lemmă     |   TF-IDF |
 |:----------|---------:|
 | ciolacu   |    0.327 |
-| premier   |    0.321 |
+| premier   |    0.32  |
 | fan       |    0.242 |
-| guvern    |    0.212 |
+| guvern    |    0.213 |
 | lung      |    0.206 |
 | coaliție  |    0.183 |
 | printr    |    0.181 |
-| perioadă  |    0.167 |
+| perioadă  |    0.168 |
 | legitim   |    0.166 |
 | interimar |    0.163 |
-| românia   |    0.148 |
+| românia   |    0.149 |
 | guvernare |    0.131 |
-| amenaja   |    0.131 |
 | insistent |    0.131 |
+| amenaja   |    0.131 |
 | interima  |    0.125 |
 
 ## 2025-02-26 — video-transcript
@@ -14896,7 +14874,7 @@ _File: `2025-02-26_nicusor-dan-despre-dovezile-pe-care-vrea-sa-le-vada-in-legat`
 | vedea        |    0.335 |
 | cumpere      |    0.295 |
 | cont         |    0.273 |
-| plăti        |    0.244 |
+| plăti        |    0.245 |
 | plată        |    0.219 |
 | ști          |    0.186 |
 | lucru        |    0.167 |
@@ -14916,11 +14894,11 @@ _File: `2025-02-27_nicusor-dan-despre-inculparea-lui-calin-georgescu-trebuie-sa`
 | lemmă     |   TF-IDF |
 |:----------|---------:|
 | indiciu   |    0.358 |
-| alegere   |    0.226 |
+| alegere   |    0.227 |
 | campanie  |    0.223 |
 | călin     |    0.221 |
 | parchet   |    0.218 |
-| georgescu |    0.217 |
+| georgescu |    0.216 |
 | trebui    |    0.182 |
 | exista    |    0.178 |
 | probă     |    0.163 |
@@ -14941,16 +14919,16 @@ _File: `2025-02-27_sume-uriase-si-tehnologie-avansata-nicusor-dan-despre-campan`
 | călin       |    0.244 |
 | georgescu   |    0.239 |
 | vorbim      |    0.221 |
-| milion      |    0.215 |
+| milion      |    0.216 |
 | plăti       |    0.209 |
-| companie    |    0.203 |
+| companie    |    0.202 |
 | amplitudine |    0.197 |
 | ban         |    0.182 |
 | lămurit     |    0.178 |
 | achiziționa |    0.169 |
-| consultanță |    0.166 |
 | folosit     |    0.166 |
-| furniza     |    0.156 |
+| consultanță |    0.166 |
+| furniza     |    0.155 |
 | costa       |    0.145 |
 
 ## 2025-03-07 — video-transcript
@@ -14964,12 +14942,12 @@ _File: `2025-03-07_nicusor-dan-candidatura-mea-este-candidatura-celor-240-de-mi`
 | retrage        |    0.211 |
 | dumneavoastră  |    0.208 |
 | principiu      |    0.206 |
-| constituțional |    0.172 |
 | curte          |    0.172 |
+| constituțional |    0.172 |
 | vrea           |    0.166 |
 | lacon          |    0.163 |
-| excentric      |    0.163 |
 | mer            |    0.163 |
+| excentric      |    0.163 |
 | dânsă          |    0.146 |
 | pronunțe       |    0.14  |
 | prezidențială  |    0.134 |
@@ -14982,7 +14960,7 @@ _File: `2025-03-07_nicusor-dan-fata-de-aceasta-decizie-a-ccr-ne-invartim-in-cee`
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
 | constituțional |    0.355 |
-| candida        |    0.257 |
+| candida        |    0.256 |
 | principiu      |    0.255 |
 | șoșoacă        |    0.242 |
 | curții         |    0.215 |
@@ -15005,19 +14983,19 @@ _File: `2025-03-07_nicusor-dan-primul-candidat-care-s-a-inscris-oficial-la-prez`
 |:---------------|---------:|
 | candidatură    |    0.418 |
 | candida        |    0.309 |
-| cursă          |    0.238 |
+| cursă          |    0.237 |
 | vrea           |    0.207 |
 | principiu      |    0.205 |
 | depune         |    0.2   |
-| constituțional |    0.171 |
 | curte          |    0.171 |
+| constituțional |    0.171 |
 | excentric      |    0.162 |
 | dânsă          |    0.146 |
 | donat          |    0.142 |
 | pronunțe       |    0.139 |
 | ludovic        |    0.136 |
-| crede          |    0.132 |
-| înscrie        |    0.13  |
+| crede          |    0.133 |
+| înscrie        |    0.129 |
 
 ## 2025-03-14 — video-transcript
 
@@ -15036,10 +15014,10 @@ _File: `2025-03-14_buna-romania-nicusor-dan-romania-e-un-stat-bolnav-bec-trebui`
 | alegere    |    0.14  |
 | președinte |    0.127 |
 | călin      |    0.125 |
-| ști        |    0.119 |
+| ști        |    0.12  |
 | situație   |    0.11  |
 | doamnă     |    0.109 |
-| trebui     |    0.108 |
+| trebui     |    0.109 |
 
 ## 2025-03-14 — video-transcript
 
@@ -15048,7 +15026,7 @@ _File: `2025-03-14_nicusor-dan-despre-premierul-ciolacu-este-evident-ca-toata-l`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | guvern     |    0.511 |
-| veni       |    0.171 |
+| veni       |    0.172 |
 | președinte |    0.17  |
 | spune      |    0.145 |
 | schimba    |    0.139 |
@@ -15057,9 +15035,9 @@ _File: `2025-03-14_nicusor-dan-despre-premierul-ciolacu-este-evident-ca-toata-l`
 | extremist  |    0.129 |
 | evident    |    0.122 |
 | alegere    |    0.114 |
-| situație   |    0.113 |
-| problemă   |    0.112 |
+| situație   |    0.114 |
 | interimar  |    0.112 |
+| problemă   |    0.112 |
 | pericol    |    0.109 |
 | ști        |    0.109 |
 
@@ -15071,7 +15049,7 @@ _File: `2025-03-19_nicusor-dan-am-discutat-cu-bolojan-la-cotroceni-despre-alege`
 |:--------------|---------:|
 | dumneavoastră |    0.317 |
 | domn          |    0.276 |
-| alegere       |    0.225 |
+| alegere       |    0.226 |
 | antonescu     |    0.195 |
 | bolojan       |    0.192 |
 | prezidențial  |    0.171 |
@@ -15079,11 +15057,11 @@ _File: `2025-03-19_nicusor-dan-am-discutat-cu-bolojan-la-cotroceni-despre-alege`
 | tur           |    0.167 |
 | întâlnire     |    0.15  |
 | lascon        |    0.144 |
-| ilie          |    0.136 |
+| ilie          |    0.135 |
 | crin          |    0.133 |
 | spune         |    0.128 |
 | sondaj        |    0.126 |
-| vrea          |    0.124 |
+| vrea          |    0.125 |
 
 ## 2025-03-27 — video-transcript
 
@@ -15091,15 +15069,15 @@ _File: `2025-03-27_bugetul-capitalei-retras-de-pe-ordinea-de-zi-nicusor-dan-nu` 
 
 | lemmă                   |   TF-IDF |
 |:------------------------|---------:|
-| buget                   |    0.444 |
+| buget                   |    0.445 |
 | trece                   |    0.241 |
 | usl                     |    0.235 |
-| vota                    |    0.213 |
+| vota                    |    0.214 |
 | spune                   |    0.191 |
-| proiect                 |    0.184 |
+| proiect                 |    0.183 |
 | vrea                    |    0.173 |
-| edil                    |    0.157 |
-| ordine                  |    0.153 |
+| edil                    |    0.156 |
+| ordine                  |    0.154 |
 | partidulnaționalliberal |    0.144 |
 | ședință                 |    0.138 |
 | andree                  |    0.137 |
@@ -15113,9 +15091,9 @@ _File: `2025-04-01_nicusor-dan-criticat-dur-dupa-declaratia-despre-introducerea`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| domn      |    0.413 |
-| ști       |    0.209 |
-| sine      |    0.203 |
+| domn      |    0.412 |
+| ști       |    0.21  |
+| sine      |    0.202 |
 | spune     |    0.196 |
 | vrea      |    0.183 |
 | ponta     |    0.173 |
@@ -15138,7 +15116,7 @@ _File: `2025-04-02_nicusor-dan-ar-putea-fi-un-presedinte-care-sa-aduca-prestigi`
 | sorbona      |    0.437 |
 | absolvent    |    0.404 |
 | prestigiu    |    0.375 |
-| țară         |    0.205 |
+| țară         |    0.206 |
 | planificare  |    0.202 |
 | doctor       |    0.187 |
 | bogdan       |    0.177 |
@@ -15163,12 +15141,12 @@ _File: `2025-04-03_nicusor-dan-atacat-de-psd-stiri-b1tv-3-apr-2025` · 168 clean
 | finanța     |    0.188 |
 | primărie    |    0.184 |
 | jordan      |    0.178 |
-| nicuș       |    0.174 |
+| nicuș       |    0.175 |
 | ron         |    0.171 |
 | soma        |    0.171 |
 | zamfir      |    0.171 |
-| tupeu       |    0.164 |
 | eur         |    0.164 |
+| tupeu       |    0.164 |
 | senatorilor |    0.154 |
 | publică     |    0.154 |
 | nicușor     |    0.146 |
@@ -15187,10 +15165,10 @@ _File: `2025-04-08_crin-antonescu-il-troleaza-pe-nicusor-dan-nu-mananc-medenele`
 | filmulețe  |    0.202 |
 | mănânc     |    0.202 |
 | social     |    0.195 |
-| mânca      |    0.187 |
 | mănâncă    |    0.187 |
-| xenia      |    0.17  |
+| mânca      |    0.187 |
 | citat      |    0.17  |
+| xenia      |    0.17  |
 | posta      |    0.157 |
 | platformă  |    0.153 |
 | citez      |    0.141 |
@@ -15204,17 +15182,17 @@ _File: `2025-04-08_strategia-lui-nicusor-dan-cum-vrea-sa-o-convinga-pe-lasconi` 
 | lasconi      |    0.442 |
 | elena        |    0.345 |
 | prezidențial |    0.307 |
-| alegere      |    0.263 |
+| alegere      |    0.264 |
 | nicușor      |    0.19  |
 | dan          |    0.186 |
 | vot          |    0.165 |
 | surse        |    0.16  |
 | vrea         |    0.159 |
-| xenia        |    0.15  |
 | buletin      |    0.15  |
-| electoral    |    0.14  |
+| xenia        |    0.15  |
+| electoral    |    0.139 |
 | cursă        |    0.131 |
-| renunța      |    0.119 |
+| renunța      |    0.12  |
 | retrage      |    0.116 |
 
 ## 2025-04-10 — video-transcript
@@ -15227,16 +15205,16 @@ _File: `2025-04-10_usr-decide-daca-il-sprijina-pe-nicusor-dan-la-alegerile-prez`
 | lasconi   |    0.271 |
 | partid    |    0.24  |
 | vrea      |    0.23  |
-| campanie  |    0.229 |
+| campanie  |    0.23  |
 | elena     |    0.211 |
-| candidat  |    0.208 |
+| candidat  |    0.207 |
 | comitet   |    0.203 |
-| susținere |    0.181 |
+| susținere |    0.18  |
 | nicușor   |    0.175 |
 | dan       |    0.171 |
 | sine      |    0.161 |
 | figura    |    0.157 |
-| politic   |    0.152 |
+| politic   |    0.153 |
 | octav     |    0.144 |
 
 ## 2025-04-11 — video-transcript
@@ -15245,7 +15223,7 @@ _File: `2025-04-11_lasconi-arata-mesajul-de-la-nicusor-dan-cand-ii-cere-sa-se-v`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| ciucă     |    0.297 |
+| ciucă     |    0.296 |
 | întâlni   |    0.249 |
 | cere      |    0.234 |
 | retrage   |    0.229 |
@@ -15258,7 +15236,7 @@ _File: `2025-04-11_lasconi-arata-mesajul-de-la-nicusor-dan-cand-ii-cere-sa-se-v`
 | apel      |    0.16  |
 | elena     |    0.152 |
 | noiembrie |    0.137 |
-| usr       |    0.131 |
+| usr       |    0.13  |
 | trimite   |    0.128 |
 
 ## 2025-05-02 — video-transcript
@@ -15267,11 +15245,11 @@ _File: `2025-05-02_nicusor-dan-mesaj-pentru-romani-sa-aleaga-pe-cei-care-au-dov`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| alegere      |    0.423 |
+| alegere      |    0.424 |
 | delegație    |    0.307 |
 | alege        |    0.185 |
-| vot          |    0.169 |
 | monitoriza   |    0.169 |
+| vot          |    0.169 |
 | lupta        |    0.166 |
 | vedea        |    0.165 |
 | rând         |    0.159 |
@@ -15279,8 +15257,8 @@ _File: `2025-05-02_nicusor-dan-mesaj-pentru-romani-sa-aleaga-pe-cei-care-au-dov`
 | vrea         |    0.14  |
 | exista       |    0.136 |
 | duminică     |    0.132 |
-| unit         |    0.127 |
-| interferență |    0.125 |
+| unit         |    0.128 |
+| interferență |    0.124 |
 | spune        |    0.118 |
 
 ## 2025-05-04 — video-transcript
@@ -15289,12 +15267,12 @@ _File: `2025-05-04_nicusor-dan-am-votat-pentru-speranta-si-pentru-un-nou-incepu`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| vota         |    0.307 |
+| vota         |    0.308 |
 | urnă         |    0.256 |
 | alegere      |    0.241 |
-| oră          |    0.215 |
+| oră          |    0.214 |
 | vot          |    0.211 |
-| primar       |    0.203 |
+| primar       |    0.202 |
 | candida      |    0.194 |
 | prezidențial |    0.187 |
 | iată         |    0.175 |
@@ -15302,7 +15280,7 @@ _File: `2025-05-04_nicusor-dan-am-votat-pentru-speranta-si-pentru-un-nou-incepu`
 | candidat     |    0.173 |
 | capitală     |    0.172 |
 | declarație   |    0.145 |
-| diasporă     |    0.129 |
+| diasporă     |    0.13  |
 | român        |    0.124 |
 
 ## 2025-05-04 — video-transcript
@@ -15317,13 +15295,13 @@ _File: `2025-05-04_nicusor-dan-o-sa-fie-o-disputa-intre-un-candidat-pro-occiden`
 | intra         |    0.237 |
 | dumneavoastră |    0.212 |
 | campanie      |    0.211 |
-| spune         |    0.175 |
+| spune         |    0.176 |
 | candidat      |    0.16  |
 | susține       |    0.157 |
 | moment        |    0.151 |
 | lasconi       |    0.149 |
-| majoritate    |    0.143 |
-| guvern        |    0.128 |
+| majoritate    |    0.142 |
+| guvern        |    0.129 |
 | elena         |    0.117 |
 | guvernare     |    0.113 |
 
@@ -15334,20 +15312,20 @@ _File: `2025-05-04_nicusor-dan-sa-ne-raportam-cu-pruden-a-la-rezultatele-exit-p`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | nicușor      |    0.88  |
-| numărătoare  |    0.128 |
-| mulțumi      |    0.121 |
+| numărătoare  |    0.127 |
 | vreau        |    0.121 |
+| mulțumi      |    0.121 |
 | aspirație    |    0.114 |
-| vrea         |    0.106 |
-| campanie     |    0.096 |
+| vrea         |    0.105 |
+| campanie     |    0.097 |
 | politicienii |    0.092 |
 | democrație   |    0.074 |
-| comunitate   |    0.071 |
 | dezbatere    |    0.071 |
+| comunitate   |    0.071 |
 | corect       |    0.07  |
 | voluntare    |    0.069 |
 | felici       |    0.069 |
-| prudență     |    0.066 |
+| voturilor    |    0.066 |
 
 ## 2025-05-05 — video-transcript
 
@@ -15355,20 +15333,20 @@ _File: `2025-05-05_exclusiv-nicusor-dan-dupa-turul-i-al-prezidentialelor-urmeaz`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| dezbatere     |    0.395 |
+| dezbatere     |    0.396 |
 | opțiune       |    0.302 |
 | economie      |    0.286 |
 | direcție      |    0.283 |
-| ură           |    0.21  |
+| ură           |    0.212 |
 | românie       |    0.187 |
 | deschite      |    0.154 |
-| izolaționistă |    0.148 |
+| izolaționistă |    0.147 |
 | politică      |    0.147 |
-| opinie        |    0.143 |
-| investiție    |    0.142 |
+| opinie        |    0.144 |
 | românesc      |    0.142 |
-| notorietate   |    0.139 |
-| climat        |    0.139 |
+| investiție    |    0.142 |
+| climat        |    0.138 |
+| notorietate   |    0.138 |
 | discutat      |    0.132 |
 
 ## 2025-05-05 — video-transcript
@@ -15378,20 +15356,20 @@ _File: `2025-05-05_nicusor-dan-despre-turul-doi-ii-chem-pe-toti-romanii-sa-fie` 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
 | tur            |    0.338 |
-| aplauze        |    0.289 |
-| direcție       |    0.26  |
+| aplauze        |    0.291 |
+| direcție       |    0.259 |
 | vreau          |    0.248 |
 | vrea           |    0.216 |
-| sarcină        |    0.207 |
+| sarcină        |    0.209 |
 | mulțumi        |    0.186 |
 | occidental     |    0.171 |
 | românia        |    0.16  |
 | convinge       |    0.154 |
 | dezbatere      |    0.145 |
 | vota           |    0.143 |
-| câștigăm       |    0.141 |
 | antioccident   |    0.141 |
 | prooccidentală |    0.141 |
+| câștigăm       |    0.141 |
 
 ## 2025-05-06 — video-transcript
 
@@ -15403,15 +15381,15 @@ _File: `2025-05-06_apelul-lui-nicusor-dan-dupa-evolutiile-pietei-financiare-din`
 | absoarbă     |    0.26  |
 | obligațiune  |    0.249 |
 | optimism     |    0.223 |
-| aminte       |    0.22  |
-| piață        |    0.195 |
+| aminte       |    0.221 |
+| piață        |    0.194 |
 | aduce        |    0.169 |
 | față         |    0.143 |
 | primărie     |    0.14  |
 | capitală     |    0.131 |
 | scadent      |    0.13  |
 | reiterez     |    0.13  |
-| schimbare    |    0.127 |
+| schimbare    |    0.128 |
 | valutar      |    0.12  |
 | dezbaterilor |    0.12  |
 
@@ -15425,11 +15403,11 @@ _File: `2025-05-07_editie-speciala-nicusor-dan-anunta-ca-accepta-invitatia-lui` 
 | spune     |    0.264 |
 | domn      |    0.183 |
 | tur       |    0.175 |
-| sine      |    0.169 |
+| sine      |    0.168 |
 | alegere   |    0.156 |
 | putea     |    0.146 |
 | crede     |    0.142 |
-| candidat  |    0.137 |
+| candidat  |    0.136 |
 | partid    |    0.132 |
 | economie  |    0.125 |
 | psd       |    0.119 |
@@ -15443,8 +15421,8 @@ _File: `2025-05-07_interviu-nicusor-dan-despre-criza-economica-in-care-poate-in`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| dumneavoastră |    0.198 |
 | românia       |    0.198 |
+| dumneavoastră |    0.198 |
 | vrea          |    0.181 |
 | partid        |    0.171 |
 | domn          |    0.162 |
@@ -15469,7 +15447,7 @@ _File: `2025-05-07_nicusor-dan-despre-planul-lui-simion-de-concediere-a-bugetar`
 | profesor      |    0.309 |
 | bugetar       |    0.273 |
 | personal      |    0.267 |
-| administrație |    0.227 |
+| administrație |    0.228 |
 | absurd        |    0.222 |
 | forț          |    0.216 |
 | dumnealui     |    0.192 |
@@ -15491,12 +15469,12 @@ _File: `2025-05-07_nicusor-dan-interviu-exclusiv-pentru-euronews-romania` · 61 
 | dori        |    0.32  |
 | partid      |    0.242 |
 | guvern      |    0.235 |
-| occidental  |    0.234 |
-| domn        |    0.23  |
+| occidental  |    0.235 |
+| domn        |    0.229 |
 | nume        |    0.205 |
 | premier     |    0.189 |
 | evident     |    0.175 |
-| preferință  |    0.166 |
+| preferință  |    0.165 |
 | putea       |    0.163 |
 | procidental |    0.148 |
 | vehicula    |    0.146 |
@@ -15512,18 +15490,18 @@ _File: `2025-05-07_nicusor-dan-romania-are-nevoie-de-schimbare-dar-nu-una-care` 
 | plată          |    0.418 |
 | incapacita     |    0.375 |
 | schimbare      |    0.288 |
-| economic       |    0.247 |
-| serios         |    0.206 |
+| economic       |    0.248 |
+| serios         |    0.205 |
 | pens           |    0.196 |
 | imposibilitate |    0.181 |
-| nivel          |    0.17  |
+| nivel          |    0.171 |
 | duce           |    0.169 |
 | bursă          |    0.168 |
 | voiam          |    0.147 |
-| șoc            |    0.144 |
+| șoc            |    0.143 |
 | lucru          |    0.142 |
 | scăpa          |    0.138 |
-| raporta        |    0.138 |
+| inflație       |    0.138 |
 
 ## 2025-05-07 — video-transcript
 
@@ -15536,8 +15514,8 @@ _File: `2025-05-07_nicusor-dan-romania-are-nevoie-de-schimbare-dar-nu-una-care_y
 | imposibilitate |    0.291 |
 | economic       |    0.265 |
 | duce           |    0.203 |
-| românia        |    0.178 |
-| plăti          |    0.166 |
+| românia        |    0.179 |
+| plăti          |    0.167 |
 | serios         |    0.165 |
 | pens           |    0.157 |
 | incapacita     |    0.151 |
@@ -15566,8 +15544,8 @@ _File: `2025-05-10_nicusor-dan-nu-poti-sa-dai-afara-500-000-de-oameni-e-imposib`
 | privat      |    0.134 |
 | plăti       |    0.128 |
 | crește      |    0.12  |
-| asistent    |    0.116 |
 | șomaj       |    0.116 |
+| asistent    |    0.116 |
 
 ## 2025-05-14 — video-transcript
 
@@ -15575,21 +15553,21 @@ _File: `2025-05-14_nicusor-dan-dau-in-scris-ca-tva-nu-va-creste` · 129 clean le
 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
-| taxă           |    0.351 |
+| taxă           |    0.35  |
 | tva            |    0.319 |
 | vrea           |    0.277 |
 | crește         |    0.24  |
 | impozitare     |    0.203 |
-| încasa         |    0.196 |
+| încasa         |    0.199 |
 | candidat       |    0.183 |
 | situație       |    0.152 |
 | bază           |    0.128 |
 | prezent        |    0.124 |
-| încasăm        |    0.121 |
-| televizat      |    0.121 |
+| încasăm        |    0.12  |
+| televizat      |    0.12  |
 | mediu          |    0.118 |
-| antreprenorial |    0.116 |
-| aură           |    0.116 |
+| antreprenorial |    0.115 |
+| aură           |    0.115 |
 
 ## 2025-05-15 — video-transcript
 
@@ -15602,7 +15580,7 @@ _File: `2025-05-15_educatia-e-o-problema-de-securitate-nationala-nicusor-dan-ce`
 | problemă   |    0.236 |
 | educație   |    0.215 |
 | oraș       |    0.214 |
-| mic        |    0.196 |
+| mic        |    0.197 |
 | spital     |    0.181 |
 | trebui     |    0.174 |
 | sănătate   |    0.166 |
@@ -15611,7 +15589,7 @@ _File: `2025-05-15_educatia-e-o-problema-de-securitate-nationala-nicusor-dan-ce`
 | copie      |    0.136 |
 | chestiune  |    0.125 |
 | vrea       |    0.121 |
-| crede      |    0.116 |
+| crede      |    0.117 |
 
 ## 2025-05-15 — video-transcript
 
@@ -15620,14 +15598,14 @@ _File: `2025-05-15_mirabela-gradinaru-partenera-lui-nicusor-dan-despre-momentel`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | mamă          |    0.309 |
-| seara         |    0.255 |
+| seara         |    0.256 |
 | implica       |    0.232 |
-| nicușordan    |    0.21  |
+| nicușordan    |    0.209 |
 | emisiune      |    0.2   |
 | campanie      |    0.197 |
+| perioadă      |    0.18  |
 | dumneavoastră |    0.18  |
-| nicușor       |    0.179 |
-| perioadă      |    0.179 |
+| nicușor       |    0.18  |
 | trăi          |    0.155 |
 | idee          |    0.154 |
 | familie       |    0.152 |
@@ -15644,17 +15622,17 @@ _File: `2025-05-15_nicusor-dan-nu-sunt-izolationist-sunt-suveranist-ce-a-spus-c`
 | suveranist   |    0.532 |
 | izolaționist |    0.364 |
 | globalist    |    0.234 |
-| român        |    0.228 |
+| român        |    0.229 |
 | scrutin      |    0.205 |
 | suveran      |    0.193 |
 | cosmin       |    0.187 |
 | articol      |    0.158 |
 | stat         |    0.142 |
-| constituție  |    0.14  |
 | tur          |    0.14  |
+| constituție  |    0.14  |
 | george       |    0.14  |
 | simion       |    0.136 |
-| acționa      |    0.133 |
+| acționa      |    0.134 |
 | diasporă     |    0.133 |
 
 ## 2025-05-15 — video-transcript
@@ -15674,10 +15652,10 @@ _File: `2025-05-15_nicusor-dan-prima-reactie-dupa-jignirea-lui-simion-n-dan-con`
 | doamnă      |    0.132 |
 | copil       |    0.132 |
 | presă       |    0.127 |
-| injurie     |    0.122 |
-| donțu       |    0.122 |
-| zbat        |    0.122 |
+| jignire     |    0.122 |
 | președintea |    0.122 |
+| injurie     |    0.122 |
+| zbat        |    0.122 |
 
 ## 2025-05-15 — video-transcript
 
@@ -15686,14 +15664,14 @@ _File: `2025-05-15_nicusor-dan-vs-george-simion-cele-mai-importante-momente-din`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | simion        |    0.233 |
-| motiv         |    0.211 |
-| vrea          |    0.205 |
+| motiv         |    0.21  |
+| vrea          |    0.206 |
 | donald        |    0.191 |
 | trump         |    0.183 |
 | dumneavoastră |    0.172 |
 | vorbi         |    0.164 |
 | credită       |    0.161 |
-| domn          |    0.16  |
+| domn          |    0.159 |
 | listă         |    0.155 |
 | marketing     |    0.154 |
 | apere         |    0.138 |
@@ -15732,9 +15710,9 @@ _File: `2025-05-18_alegeri-prezidentiale-2025-mesajul-lui-nicusor-dan-dupa-apar`
 | nicușor    |    0.625 |
 | românia    |    0.346 |
 | comunitate |    0.331 |
-| unitate    |    0.26  |
-| aplauze    |    0.2   |
-| nicuș      |    0.199 |
+| unitate    |    0.261 |
+| aplauze    |    0.201 |
+| nicuș      |    0.2   |
 | societate  |    0.17  |
 | român      |    0.153 |
 | românesc   |    0.108 |
@@ -15760,10 +15738,10 @@ _File: `2025-05-18_nicusor-dan-am-votat-pentru-o-directie-europeana-nu-pentru-i`
 | pleca      |    0.236 |
 | alege      |    0.222 |
 | reprezenta |    0.211 |
-| transmite  |    0.209 |
+| transmite  |    0.208 |
 | ști        |    0.177 |
-| exista     |    0.163 |
-| important  |    0.149 |
+| exista     |    0.164 |
+| important  |    0.15  |
 | român      |    0.143 |
 | trebui     |    0.134 |
 
@@ -15773,43 +15751,21 @@ _File: `2025-05-18_nicusor-dan-dupa-ce-a-castigat-alegerile-prezidentiale-e-vic`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| aplauze   |    0.378 |
+| aplauze   |    0.38  |
 | împreună  |    0.347 |
-| victorie  |    0.299 |
+| victorie  |    0.298 |
 | construi  |    0.295 |
 | opțiune   |    0.271 |
 | românia   |    0.251 |
-| basarabia |    0.215 |
+| basarabia |    0.218 |
 | român     |    0.18  |
 | campanie  |    0.129 |
 | apropiaț  |    0.128 |
 | uita      |    0.126 |
 | săptămână |    0.123 |
-| diaspora  |    0.117 |
+| diaspora  |    0.116 |
 | începe    |    0.116 |
-| traversa  |    0.108 |
-
-## 2025-05-18 — video-transcript
-
-_File: `2025-05-18_nicusor-dan-dupa-rezultatele-exit-poll-traim-un-moment-de-sp` · 204 clean lemmas_
-
-| lemmă      |   TF-IDF |
-|:-----------|---------:|
-| nicușor    |    0.494 |
-| comunitate |    0.42  |
-| românia    |    0.309 |
-| unitate    |    0.302 |
-| aplauze    |    0.233 |
-| societate  |    0.198 |
-| român      |    0.178 |
-| vreau      |    0.16  |
-| românesc   |    0.126 |
-| seara      |    0.124 |
-| vrea       |    0.105 |
-| forță      |    0.104 |
-| moment     |    0.091 |
-| alegere    |    0.086 |
-| dovedi     |    0.083 |
+| traversa  |    0.107 |
 
 ## 2025-05-18 — video-transcript
 
@@ -15817,20 +15773,20 @@ _File: `2025-05-18_nicusor-dan-incepem-o-noua-etapa-de-maine-la-munca-sustinato`
 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
-| aplauze  |    0.708 |
-| nicușor  |    0.306 |
-| unitate  |    0.227 |
+| aplauze  |    0.711 |
+| nicușor  |    0.305 |
+| unitate  |    0.228 |
 | românia  |    0.217 |
 | muzică   |    0.212 |
-| ria      |    0.191 |
+| ria      |    0.19  |
 | europa   |    0.174 |
-| stângă   |    0.15  |
-| dreaptă  |    0.113 |
+| stângă   |    0.149 |
+| dreaptă  |    0.112 |
 | mulțime  |    0.105 |
 | împreună |    0.1   |
 | victorie |    0.086 |
 | construi |    0.085 |
-| andra    |    0.08  |
+| andra    |    0.079 |
 | opțiune  |    0.078 |
 
 ## 2025-05-18 — video-transcript
@@ -15840,9 +15796,9 @@ _File: `2025-05-18_romania-alege-cu-l-chiriac-discursul-presedintelui-nicusor-d`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | nicușor    |    0.484 |
-| dan        |    0.26  |
-| domn       |    0.215 |
-| sine       |    0.2   |
+| dan        |    0.259 |
+| domn       |    0.214 |
+| sine       |    0.199 |
 | românia    |    0.178 |
 | vrea       |    0.162 |
 | spune      |    0.149 |
@@ -15862,8 +15818,8 @@ _File: `2025-05-19_nicusor-dan-despre-scenariul-unei-victorii-a-lui-george-simi`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | moment     |    0.305 |
-| câștiga    |    0.251 |
-| economic   |    0.231 |
+| câștiga    |    0.252 |
+| economic   |    0.232 |
 | românia    |    0.187 |
 | european   |    0.183 |
 | bloca      |    0.182 |
@@ -15872,8 +15828,8 @@ _File: `2025-05-19_nicusor-dan-despre-scenariul-unei-victorii-a-lui-george-simi`
 | muzică     |    0.146 |
 | vedea      |    0.133 |
 | scădere    |    0.127 |
+| geopolitic |    0.125 |
 | însemna    |    0.124 |
-| geopolitic |    0.124 |
 | spune      |    0.118 |
 | limită     |    0.116 |
 
@@ -15890,10 +15846,10 @@ _File: `2025-05-19_nicusor-dan-despre-viitorul-premier-bolojan-ramane-optiunea` 
 | sine          |    0.168 |
 | jurământ      |    0.165 |
 | partid        |    0.164 |
-| boloan        |    0.159 |
 | guvern        |    0.159 |
+| boloan        |    0.159 |
 | amiază        |    0.142 |
-| săptămână     |    0.13  |
+| săptămână     |    0.131 |
 | opțiune       |    0.128 |
 | udmr          |    0.128 |
 | dumneavoastră |    0.125 |
@@ -15907,14 +15863,14 @@ _File: `2025-05-19_prima-reactie-a-rusiei-dupa-victoria-lui-nicusor-dan-alegeri`
 |:-------------|---------:|
 | pandemie     |    0.212 |
 | ușurare      |    0.189 |
-| crede        |    0.18  |
+| crede        |    0.181 |
 | credință     |    0.168 |
 | migrație     |    0.162 |
 | românia      |    0.157 |
 | practic      |    0.152 |
 | european     |    0.147 |
-| moscova      |    0.145 |
 | interzice    |    0.145 |
+| moscova      |    0.145 |
 | sentiment    |    0.143 |
 | bloc         |    0.142 |
 | uniune       |    0.139 |
@@ -15936,10 +15892,10 @@ _File: `2025-05-20_nicusor-dan-despre-planurile-pentru-romania-stiri-b1tv-20-ma`
 | primărie   |    0.17  |
 | capitală   |    0.159 |
 | psd        |    0.157 |
+| dorință    |    0.14  |
 | impune     |    0.139 |
-| dorință    |    0.139 |
-| promite    |    0.138 |
 | opțiune    |    0.138 |
+| promite    |    0.138 |
 | confrunta  |    0.134 |
 | prelua     |    0.132 |
 
@@ -15951,16 +15907,16 @@ _File: `2025-05-21_nicusor-dan-romania-angajament-ferm-fata-de-relatia-cu-sua` �
 |:------------|---------:|
 | america     |    0.466 |
 | ambasadă    |    0.317 |
-| unit        |    0.263 |
-| mesaj       |    0.257 |
-| stat        |    0.228 |
-| ferm        |    0.218 |
-| răspunde    |    0.182 |
+| unit        |    0.264 |
+| mesaj       |    0.258 |
+| stat        |    0.229 |
+| ferm        |    0.217 |
+| răspunde    |    0.181 |
 | urare       |    0.181 |
-| binecuvânta |    0.175 |
+| binecuvânta |    0.174 |
 | încrezător  |    0.165 |
-| garant      |    0.159 |
-| prietenie   |    0.147 |
+| garant      |    0.158 |
+| prietenie   |    0.146 |
 | vrea        |    0.144 |
 | ordan       |    0.137 |
 | dumnezeu    |    0.135 |
@@ -15974,13 +15930,13 @@ _File: `2025-05-21_nicusor-dan-toate-informatiile-despre-viitorul-guvern-sunt-s`
 | social   |    0.227 |
 | masă     |    0.196 |
 | ilie     |    0.187 |
-| bolojan  |    0.183 |
 | tabără   |    0.183 |
+| bolojan  |    0.183 |
 | radu     |    0.176 |
 | inițial  |    0.176 |
 | psd      |    0.175 |
 | nicușor  |    0.15  |
-| partid   |    0.147 |
+| partid   |    0.148 |
 | dan      |    0.147 |
 | opoziție |    0.142 |
 | discuție |    0.128 |
@@ -16000,10 +15956,10 @@ _File: `2025-05-22_ce-spune-nicusor-dan-despre-relatiile-romaniei-cu-sua-si-ue` 
 | republică   |    0.147 |
 | deficit     |    0.147 |
 | discuție    |    0.144 |
-| bineînțeles |    0.127 |
+| bineînțeles |    0.128 |
 | guvern      |    0.124 |
-| ucraina     |    0.121 |
 | american    |    0.121 |
+| ucraina     |    0.121 |
 | partid      |    0.115 |
 | sine        |    0.112 |
 | trebui      |    0.112 |
@@ -16023,12 +15979,12 @@ _File: `2025-05-22_nicusor-dan-anunta-primele-masuri-dupa-ce-a-fost-validat` · 
 | ccr            |    0.192 |
 | vrea           |    0.171 |
 | interimar      |    0.166 |
-| încheia        |    0.152 |
+| încheia        |    0.153 |
 | românia        |    0.152 |
 | ilie           |    0.142 |
 | curte          |    0.141 |
 | constituțional |    0.141 |
-| bolojan        |    0.139 |
+| bolojan        |    0.138 |
 | oficial        |    0.132 |
 
 ## 2025-05-22 — video-transcript
@@ -16038,10 +15994,10 @@ _File: `2025-05-22_nicusor-dan-daca-sunt-amenintari-institutiile-isi-vor-face-d`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | verbal     |    0.286 |
-| încet      |    0.282 |
-| democratic |    0.279 |
-| fizic      |    0.239 |
-| violență   |    0.239 |
+| încet      |    0.281 |
+| democratic |    0.28  |
+| fizic      |    0.238 |
+| violență   |    0.238 |
 | stat       |    0.21  |
 | george     |    0.208 |
 | simion     |    0.201 |
@@ -16049,7 +16005,7 @@ _File: `2025-05-22_nicusor-dan-daca-sunt-amenintari-institutiile-isi-vor-face-d`
 | ales       |    0.17  |
 | președinte |    0.164 |
 | campanie   |    0.162 |
-| cuviință   |    0.161 |
+| cuviință   |    0.16  |
 | tolera     |    0.146 |
 | baie       |    0.146 |
 
@@ -16066,7 +16022,7 @@ _File: `2025-05-22_nicusor-dan-despre-cum-va-evita-romania-atacurile-hibride-tr`
 | marcă      |    0.231 |
 | sistematic |    0.201 |
 | news       |    0.197 |
-| set        |    0.193 |
+| set        |    0.195 |
 | rusesc     |    0.186 |
 | standard   |    0.186 |
 | referire   |    0.185 |
@@ -16084,17 +16040,17 @@ _File: `2025-05-22_nicusor-dan-despre-subventiile-pentru-partide-b1tv-22-mai-20`
 | mesaj      |    0.323 |
 | vota       |    0.287 |
 | meloni     |    0.272 |
-| băga       |    0.244 |
+| băga       |    0.243 |
 | felicitare |    0.227 |
-| treabă     |    0.179 |
-| seamă      |    0.162 |
+| treabă     |    0.178 |
+| seamă      |    0.161 |
 | încerca    |    0.14  |
 | premier    |    0.139 |
 | sesizările |    0.136 |
-| vot        |    0.131 |
-| emanuel    |    0.131 |
 | răspundem  |    0.131 |
+| emanuel    |    0.131 |
 | arestare   |    0.131 |
+| vot        |    0.131 |
 | tratată    |    0.128 |
 
 ## 2025-05-22 — video-transcript
@@ -16103,16 +16059,16 @@ _File: `2025-05-22_nicusor-dan-o-tinta-realista-de-deficit-este-7-5-din-pib` · 
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| deficit          |    0.439 |
+| deficit          |    0.438 |
 | recesiune        |    0.253 |
-| bugetar          |    0.208 |
-| țintă            |    0.197 |
+| bugetar          |    0.207 |
+| țintă            |    0.198 |
 | economic         |    0.192 |
 | creștere         |    0.179 |
 | însemna          |    0.165 |
 | vrea             |    0.163 |
 | taxă             |    0.159 |
-| nicușor          |    0.155 |
+| nicușor          |    0.156 |
 | dan              |    0.152 |
 | estima           |    0.148 |
 | ales             |    0.134 |
@@ -16127,10 +16083,10 @@ _File: `2025-05-22_nicusor-dan-statul-roman-trebuie-sa-rezolve-obstacolele-pe-c`
 |:------------|---------:|
 | afacere     |    0.31  |
 | sistematic  |    0.28  |
-| diasporă    |    0.265 |
+| diasporă    |    0.266 |
 | ban         |    0.215 |
 | exista      |    0.209 |
-| român       |    0.182 |
+| român       |    0.183 |
 | recalculare |    0.179 |
 | trebui      |    0.171 |
 | vrea        |    0.167 |
@@ -16147,21 +16103,21 @@ _File: `2025-05-22_nicusor-dan-trebuie-sa-lamurim-anularea-alegerilor-de-anul-t`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| legitim   |    0.267 |
 | alegere   |    0.267 |
+| legitim   |    0.267 |
 | anulare   |    0.265 |
-| noiembrie |    0.246 |
-| american  |    0.239 |
-| interior  |    0.226 |
+| noiembrie |    0.245 |
+| american  |    0.24  |
+| interior  |    0.227 |
 | vrea      |    0.215 |
-| trecut    |    0.207 |
+| trecut    |    0.206 |
 | continuat |    0.195 |
 | lămurit   |    0.19  |
 | alina     |    0.181 |
 | repara    |    0.174 |
-| dubiu     |    0.156 |
+| dubiu     |    0.158 |
 | anulat    |    0.156 |
-| oarecare  |    0.148 |
+| oarecare  |    0.147 |
 
 ## 2025-05-22 — video-transcript
 
@@ -16169,17 +16125,17 @@ _File: `2025-05-22_nicusor-dan-urmeaza-un-nou-capitol-in-istoria-recenta-si-con`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| provocare    |    0.332 |
-| lupta        |    0.294 |
+| provocare    |    0.331 |
+| lupta        |    0.295 |
 | vrea         |    0.248 |
 | libertăților |    0.243 |
-| garant       |    0.205 |
+| garant       |    0.204 |
 | înțelepciune |    0.194 |
-| pozitiv      |    0.169 |
-| asigur       |    0.169 |
-| aplauze      |    0.166 |
+| asigur       |    0.17  |
+| pozitiv      |    0.168 |
+| aplauze      |    0.167 |
 | capitol      |    0.162 |
-| necesitate   |    0.158 |
+| necesitate   |    0.157 |
 | spera        |    0.152 |
 | prosperitate |    0.15  |
 | recent       |    0.146 |
@@ -16197,14 +16153,14 @@ _File: `2025-05-22_romania-tinta-atacurilor-hibride-rusesti-nicusor-dan-suntem` 
 | supraveghere |    0.234 |
 | cameră       |    0.196 |
 | idee         |    0.167 |
-| parte        |    0.161 |
+| parte        |    0.162 |
 | world        |    0.153 |
-| extern       |    0.151 |
+| extern       |    0.152 |
 | distribui    |    0.134 |
 | atac         |    0.134 |
-| spune        |    0.123 |
+| spune        |    0.124 |
 | britanic     |    0.122 |
-| reprezentant |    0.12  |
+| reprezentant |    0.121 |
 | apropiere    |    0.11  |
 
 ## 2025-05-23 — video-transcript
@@ -16215,19 +16171,19 @@ _File: `2025-05-23_nicusor-dan-propune-o-tinta-de-deficit-bugetar-de-7-5-din-pi`
 |:----------|---------:|
 | deficit   |    0.418 |
 | bugetar   |    0.297 |
-| taxă      |    0.266 |
-| țintă     |    0.187 |
+| taxă      |    0.265 |
+| țintă     |    0.189 |
 | recesiune |    0.181 |
 | impozit   |    0.142 |
 | vrea      |    0.133 |
 | ron       |    0.13  |
 | încasăm   |    0.13  |
-| tva       |    0.13  |
+| tva       |    0.129 |
 | creștere  |    0.128 |
 | încasare  |    0.125 |
 | criză     |    0.113 |
 | brut      |    0.112 |
-| situație  |    0.11  |
+| economic  |    0.11  |
 
 ## 2025-05-24 — video-transcript
 
@@ -16235,21 +16191,21 @@ _File: `2025-05-24_nicusor-dan-e-un-deficit-de-implicare-in-politica-statul-est`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| educație     |    0.311 |
+| educație     |    0.31  |
 | universitar  |    0.288 |
 | avantaj      |    0.249 |
 | vrea         |    0.233 |
 | competitiv   |    0.23  |
-| crede        |    0.224 |
+| crede        |    0.225 |
 | schimba      |    0.189 |
 | autoritate   |    0.183 |
-| mediu        |    0.178 |
+| mediu        |    0.179 |
 | recuperezi   |    0.175 |
 | aștepta      |    0.169 |
-| zonă         |    0.158 |
+| zonă         |    0.157 |
 | îmbunătăți   |    0.142 |
 | îmbunătățire |    0.138 |
-| învățământ   |    0.133 |
+| învățământ   |    0.132 |
 
 ## 2025-05-26 — video-transcript
 
@@ -16260,15 +16216,15 @@ _File: `2025-05-26_live-investirea-lui-nicusor-dan-juramantul-de-la-parlament-s`
 | vrea       |    0.399 |
 | președinte |    0.235 |
 | moment     |    0.204 |
-| domn       |    0.203 |
+| domn       |    0.202 |
 | vedea      |    0.196 |
 | spune      |    0.173 |
 | nicușor    |    0.162 |
 | dan        |    0.156 |
 | trebui     |    0.137 |
 | sine       |    0.133 |
-| ceremonie  |    0.132 |
 | important  |    0.132 |
+| ceremonie  |    0.132 |
 | parlament  |    0.122 |
 | guvern     |    0.121 |
 | psd        |    0.121 |
@@ -16283,16 +16239,16 @@ _File: `2025-05-26_nicusor-dan-depune-azi-juramantul-de-presedinte-al-romaniei` 
 | nicușor    |    0.193 |
 | președinte |    0.19  |
 | dan        |    0.189 |
-| interimar  |    0.188 |
-| formare    |    0.188 |
+| interimar  |    0.187 |
+| formare    |    0.187 |
 | guvern     |    0.184 |
 | mandat     |    0.161 |
 | tet        |    0.151 |
 | psd        |    0.15  |
-| actual     |    0.15  |
-| deveni     |    0.145 |
-| dură       |    0.145 |
-| novakovici |    0.145 |
+| actual     |    0.149 |
+| dură       |    0.144 |
+| novakovici |    0.144 |
+| deveni     |    0.144 |
 | oră        |    0.142 |
 
 ## 2025-05-26 — video-transcript
@@ -16301,16 +16257,16 @@ _File: `2025-05-26_nicusor-dan-incepe-o-munca-de-cosmar-ca-presedinte-al-romani`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| vrea       |    0.308 |
+| vrea       |    0.309 |
 | psd        |    0.263 |
 | președinte |    0.19  |
 | guvernare  |    0.189 |
-| sine       |    0.186 |
+| sine       |    0.185 |
 | iohannis   |    0.151 |
 | usr        |    0.147 |
 | opoziție   |    0.137 |
 | vorbă      |    0.129 |
-| crede      |    0.123 |
+| crede      |    0.124 |
 | vedea      |    0.123 |
 | simion     |    0.109 |
 | guvern     |    0.107 |
@@ -16323,19 +16279,19 @@ _File: `2025-05-26_nicusor-dan-oficial-presedintele-romaniei-ceremonia-de-inves`
 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
-| muzică         |    0.308 |
+| muzică         |    0.309 |
 | președinte     |    0.261 |
-| jurământ       |    0.256 |
-| șef            |    0.176 |
+| jurământ       |    0.255 |
+| șef            |    0.175 |
 | sosi           |    0.17  |
 | vrea           |    0.162 |
 | ceremonie      |    0.156 |
 | parlament      |    0.145 |
-| plen           |    0.135 |
-| aplauze        |    0.132 |
-| constituțional |    0.132 |
+| plen           |    0.134 |
+| aplauze        |    0.133 |
+| constituțional |    0.131 |
 | vedea          |    0.13  |
-| nicușor        |    0.129 |
+| nicușor        |    0.13  |
 | prezent        |    0.128 |
 | daniel         |    0.127 |
 
@@ -16346,7 +16302,7 @@ _File: `2025-05-26_nicusor-dan-reformele-fiscale-sunt-inevitabile-e-obligatoriu`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | rezolvăm      |    0.312 |
-| ieși          |    0.209 |
+| ieși          |    0.21  |
 | majoritate    |    0.208 |
 | sine          |    0.195 |
 | potențialilor |    0.19  |
@@ -16358,8 +16314,8 @@ _File: `2025-05-26_nicusor-dan-reformele-fiscale-sunt-inevitabile-e-obligatoriu`
 | întâmpla      |    0.168 |
 | definire      |    0.164 |
 | lună          |    0.163 |
-| plen          |    0.161 |
 | guvern        |    0.161 |
+| plen          |    0.161 |
 
 ## 2025-05-26 — video-transcript
 
@@ -16371,11 +16327,11 @@ _File: `2025-05-26_stirile-kanal-d-exclusiv-nicusor-dan-primul-discurs-ca-prese`
 | sine        |    0.205 |
 | președinte  |    0.151 |
 | temperatură |    0.142 |
-| palat       |    0.123 |
+| palat       |    0.122 |
 | românia     |    0.117 |
 | reformă     |    0.116 |
 | nicușordan  |    0.115 |
-| nicușor     |    0.113 |
+| nicușor     |    0.114 |
 | sistem      |    0.112 |
 | român       |    0.11  |
 | cer         |    0.108 |
@@ -16396,12 +16352,12 @@ _File: `2025-05-27_nicusor-dan-despre-fetita-sa-mi-a-zis-ca-m-am-plictisit-la-d`
 | școlar     |    0.2   |
 | rămâneți   |    0.197 |
 | adăuga     |    0.184 |
-| ceremonie  |    0.174 |
-| emoție     |    0.174 |
-| aplauze    |    0.168 |
+| emoție     |    0.173 |
+| ceremonie  |    0.173 |
+| aplauze    |    0.169 |
 | iunie      |    0.16  |
-| discurs    |    0.159 |
 | casă       |    0.159 |
+| discurs    |    0.159 |
 | președinte |    0.155 |
 | școală     |    0.15  |
 
@@ -16417,15 +16373,15 @@ _File: `2025-05-28_mesajul-lui-nicusor-dan-inainte-de-consultarile-de-la-cotroc`
 | cară       |    0.28  |
 | boicota    |    0.272 |
 | consultăre |    0.242 |
-| loc        |    0.239 |
+| loc        |    0.24  |
 | discuție   |    0.22  |
 | spere      |    0.205 |
-| invita     |    0.179 |
+| invita     |    0.178 |
 | viziune    |    0.177 |
 | cheltuială |    0.167 |
 | tehnic     |    0.165 |
 | sta        |    0.156 |
-| vrea       |    0.154 |
+| vrea       |    0.155 |
 
 ## 2025-05-29 — video-transcript
 
@@ -16437,14 +16393,14 @@ _File: `2025-05-29_nicusor-dan-explica-de-ce-nu-vrea-un-premier-tehnocrat-in-vi`
 | guvern     |    0.213 |
 | moment     |    0.2   |
 | confirm    |    0.197 |
-| începe     |    0.188 |
+| începe     |    0.189 |
 | tehnocrat  |    0.18  |
 | informație |    0.177 |
 | variantă   |    0.173 |
 | vrea       |    0.172 |
 | exclude    |    0.153 |
-| premier    |    0.147 |
 | serviciu   |    0.147 |
+| premier    |    0.147 |
 | taxă       |    0.131 |
 | cheltuială |    0.124 |
 | idee       |    0.123 |
@@ -16455,21 +16411,21 @@ _File: `2025-05-29_nicusor-dan-la-ceremonia-de-ziua-eroilor-primul-eveniment-of`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| muzică      |    0.638 |
+| muzică      |    0.639 |
 | erou        |    0.293 |
-| mormânt     |    0.223 |
+| mormânt     |    0.222 |
 | necunoscut  |    0.211 |
-| câmp        |    0.199 |
+| câmp        |    0.198 |
 | religios    |    0.189 |
 | luptă       |    0.138 |
 | comemora    |    0.12  |
 | lagăr       |    0.12  |
 | încărcătură |    0.115 |
-| preot       |    0.115 |
 | vece        |    0.115 |
+| preot       |    0.115 |
 | râsete      |    0.115 |
 | cor         |    0.111 |
-| intona      |    0.108 |
+| gardă       |    0.108 |
 
 ## 2025-05-30 — video-transcript
 
@@ -16481,8 +16437,8 @@ _File: `2025-05-30_nicusor-dan-dupa-decizia-ccr-privind-declaratiile-de-avere-d`
 | publica    |    0.345 |
 | acces      |    0.3   |
 | probabil   |    0.264 |
-| declarație |    0.248 |
-| ține       |    0.242 |
+| declarație |    0.247 |
+| ține       |    0.243 |
 | lege       |    0.24  |
 | chestiune  |    0.227 |
 | redacta    |    0.218 |
@@ -16508,8 +16464,8 @@ _File: `2025-05-30_nicusor-dan-primele-discutii-cu-partidele-privind-formarea-g`
 | vrea        |    0.172 |
 | crește      |    0.168 |
 | trebui      |    0.154 |
-| progresiv   |    0.144 |
 | alternativă |    0.144 |
+| progresiv   |    0.144 |
 | mărire      |    0.142 |
 | programa    |    0.139 |
 | încadra     |    0.137 |
@@ -16521,9 +16477,9 @@ _File: `2025-05-30_presedintele-nicusor-dan-l-am-invitat-pe-donald-trump-in-rom`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| donald     |    0.39  |
+| donald     |    0.389 |
 | trump      |    0.374 |
-| merge      |    0.295 |
+| merge      |    0.297 |
 | probabil   |    0.251 |
 | deocamdată |    0.212 |
 | întâi      |    0.207 |
@@ -16535,7 +16491,7 @@ _File: `2025-05-30_presedintele-nicusor-dan-l-am-invitat-pe-donald-trump-in-rom`
 | telefonic  |    0.144 |
 | decât      |    0.141 |
 | lună       |    0.135 |
-| crede      |    0.134 |
+| crede      |    0.135 |
 
 ## 2025-06-02 — video-transcript
 
@@ -16543,8 +16499,8 @@ _File: `2025-06-02_briefing-nicusor-dan-avem-un-stat-disfunctional-si-trebuie-s`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| psd        |    0.384 |
-| partid     |    0.278 |
+| psd        |    0.383 |
+| partid     |    0.279 |
 | domn       |    0.208 |
 | guvern     |    0.206 |
 | vrea       |    0.192 |
@@ -16574,9 +16530,9 @@ _File: `2025-06-02_conferinta-presa-nicusor-dan-concluzii-summit-si-situatia-di`
 | țară                            |    0.182 |
 | participant                     |    0.174 |
 | northatlantictreatyorganization |    0.164 |
-| parte                           |    0.163 |
-| produsinternbrut                |    0.158 |
+| parte                           |    0.164 |
 | război                          |    0.158 |
+| produsinternbrut                |    0.158 |
 | ucraina                         |    0.154 |
 | inițiativă                      |    0.146 |
 | flanc                           |    0.144 |
@@ -16587,18 +16543,18 @@ _File: `2025-06-03_nicusor-dan-anunturi-de-ultima-ora-despre-situatia-economica`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| ron          |    0.396 |
+| ron          |    0.395 |
 | spor         |    0.241 |
 | discuție     |    0.216 |
 | comisie      |    0.197 |
 | excesiv      |    0.178 |
-| deficit      |    0.159 |
-| salariu      |    0.149 |
+| deficit      |    0.158 |
+| salariu      |    0.15  |
 | european     |    0.148 |
 | hrană        |    0.142 |
 | cătălina     |    0.137 |
-| angajaților  |    0.12  |
 | indemnizație |    0.12  |
+| angajaților  |    0.12  |
 | număr        |    0.12  |
 | țară         |    0.116 |
 | fond         |    0.114 |
@@ -16610,17 +16566,17 @@ _File: `2025-06-03_nicusor-dan-cere-implicarea-serviciilor-secrete-pentru-a-com`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | sri        |    0.371 |
-| serviciu   |    0.267 |
+| serviciu   |    0.266 |
 | informație |    0.256 |
 | evaziune   |    0.247 |
-| domn       |    0.216 |
+| domn       |    0.215 |
 | agenților  |    0.168 |
 | ban        |    0.167 |
 | procesare  |    0.163 |
 | specializa |    0.159 |
-| culegere   |    0.156 |
-| predoiu    |    0.156 |
-| descurca   |    0.156 |
+| descurca   |    0.155 |
+| culegere   |    0.155 |
+| predoiu    |    0.155 |
 | anaf       |    0.152 |
 | colectare  |    0.147 |
 | chestie    |    0.136 |
@@ -16631,16 +16587,16 @@ _File: `2025-06-03_romania-lui-vitalie-nicusor-dan-cere-implicarea-serviciilor` 
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| trebui    |    0.222 |
+| trebui    |    0.223 |
 | victimă   |    0.218 |
 | sine      |    0.215 |
 | violență  |    0.196 |
 | putea     |    0.19  |
-| spune     |    0.186 |
+| spune     |    0.187 |
 | vrea      |    0.172 |
 | femeie    |    0.169 |
 | vedea     |    0.164 |
-| ști       |    0.148 |
+| ști       |    0.149 |
 | problemă  |    0.144 |
 | evaziune  |    0.133 |
 | protecție |    0.122 |
@@ -16656,7 +16612,7 @@ _File: `2025-06-04_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_
 | iunie     |    0.294 |
 | program   |    0.218 |
 | deficit   |    0.202 |
-| moment    |    0.201 |
+| moment    |    0.202 |
 | imediat   |    0.19  |
 | joi       |    0.17  |
 | summit    |    0.168 |
@@ -16664,7 +16620,7 @@ _File: `2025-06-04_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_
 | grup      |    0.163 |
 | începe    |    0.158 |
 | referitor |    0.149 |
-| spune     |    0.146 |
+| spune     |    0.147 |
 | lucru     |    0.137 |
 | vrea      |    0.135 |
 | schiță    |    0.13  |
@@ -16675,19 +16631,19 @@ _File: `2025-06-04_nicusor-dan-amenintarea-ruseasca-vizeaza-toata-europa-relati`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| palier      |    0.364 |
+| palier      |    0.363 |
 | discuție    |    0.328 |
-| neîncredere |    0.266 |
+| neîncredere |    0.268 |
 | moment      |    0.258 |
-| unit        |    0.239 |
-| stat        |    0.234 |
+| unit        |    0.24  |
+| stat        |    0.235 |
 | europă      |    0.2   |
 | depăși      |    0.163 |
 | crede       |    0.158 |
 | rus         |    0.148 |
 | amenințare  |    0.146 |
-| cheltuială  |    0.143 |
-| militar     |    0.129 |
+| cheltuială  |    0.142 |
+| militar     |    0.128 |
 | întreg      |    0.127 |
 | vizi        |    0.119 |
 
@@ -16699,7 +16655,7 @@ _File: `2025-06-04_nicusor-dan-despre-cheltuielile-statului-platim-o-pizza-medi`
 |:----------|---------:|
 | octavian  |    0.622 |
 | vasilescu |    0.562 |
-| euronews  |    0.516 |
+| euronews  |    0.515 |
 | românia   |    0.179 |
 
 ## 2025-06-04 — video-transcript
@@ -16711,9 +16667,9 @@ _File: `2025-06-04_nicusor-dan-despre-situatia-bugetului` · 8 clean lemmas_
 | analogie   |    0.677 |
 | interesant |    0.416 |
 | măsură     |    0.29  |
-| nicușor    |    0.288 |
-| dan        |    0.283 |
-| vorbi      |    0.275 |
+| nicușor    |    0.289 |
+| dan        |    0.282 |
+| vorbi      |    0.276 |
 | președinte |    0.213 |
 
 ## 2025-06-04 — video-transcript
@@ -16722,21 +16678,21 @@ _File: `2025-06-04_nicusor-dan-luni-vom-avea-o-prima-schita-a-programului-de-gu`
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| exclude      |    0.394 |
+| exclude      |    0.393 |
 | tehnocrat    |    0.307 |
 | posibilitate |    0.223 |
 | variantă     |    0.222 |
 | discuție     |    0.21  |
 | grup         |    0.207 |
+| moment       |    0.193 |
 | guvernare    |    0.192 |
-| moment       |    0.192 |
-| premier      |    0.189 |
+| premier      |    0.188 |
 | program      |    0.185 |
 | excludeți    |    0.184 |
 | confirm      |    0.169 |
 | schiță       |    0.165 |
 | partid       |    0.161 |
-| exclusiv     |    0.156 |
+| guvern       |    0.156 |
 
 ## 2025-06-04 — video-transcript
 
@@ -16747,7 +16703,7 @@ _File: `2025-06-04_zamfir-si-buzaianu-au-comentat-conferinta-de-presa-a-lui-nic`
 | domn       |    0.308 |
 | fotografie |    0.265 |
 | poză       |    0.259 |
-| lucrare    |    0.252 |
+| lucrare    |    0.251 |
 | desen      |    0.203 |
 | tiktok     |    0.198 |
 | femeie     |    0.181 |
@@ -16756,7 +16712,7 @@ _File: `2025-06-04_zamfir-si-buzaianu-au-comentat-conferinta-de-presa-a-lui-nic`
 | bărbat     |    0.155 |
 | real       |    0.151 |
 | adevărat   |    0.147 |
-| ști        |    0.142 |
+| ști        |    0.143 |
 | circ       |    0.141 |
 | neterminat |    0.141 |
 
@@ -16772,20 +16728,20 @@ _File: `2025-06-09_nicusor-dan-taxele-pe-tranzactii-bancare-doar-scenarii-guver`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | partid     |    0.281 |
-| scenarii   |    0.241 |
+| scenarii   |    0.243 |
 | discuta    |    0.209 |
 | discuție   |    0.183 |
-| lucru      |    0.183 |
-| extrem     |    0.181 |
-| vrea       |    0.172 |
-| guvernare  |    0.168 |
+| lucru      |    0.182 |
+| extrem     |    0.18  |
+| vrea       |    0.171 |
 | moment     |    0.168 |
+| guvernare  |    0.168 |
 | civilizate |    0.168 |
+| asumat     |    0.161 |
 | intra      |    0.16  |
 | cotroceni  |    0.159 |
 | lider      |    0.157 |
-| conturat   |    0.156 |
-| asumat     |    0.156 |
+| conturat   |    0.155 |
 
 ## 2025-06-10 — video-transcript
 
@@ -16793,19 +16749,19 @@ _File: `2025-06-10_conferinta-sustinuta-de-presedinta-moldovei-maia-sandu-si-pr`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| moldova    |    0.424 |
+| moldova    |    0.425 |
 | republică  |    0.246 |
 | românia    |    0.181 |
-| proiect    |    0.158 |
+| proiect    |    0.157 |
 | european   |    0.145 |
 | pod        |    0.14  |
 | ucraina    |    0.139 |
 | vorbi      |    0.138 |
-| sprijin    |    0.138 |
+| sprijin    |    0.137 |
 | președinte |    0.137 |
 | domn       |    0.134 |
 | vrea       |    0.123 |
-| republicii |    0.117 |
+| republicii |    0.118 |
 | parte      |    0.102 |
 | uniune     |    0.096 |
 
@@ -16817,8 +16773,8 @@ _File: `2025-06-10_nicusor-dan-a-confirmat-continuarea-sprijinului-romaniei-pen`
 |:-----------------|---------:|
 | moldova          |    0.287 |
 | același          |    0.266 |
-| republicii       |    0.238 |
-| garanție         |    0.224 |
+| republicii       |    0.239 |
+| garanție         |    0.223 |
 | insecurita       |    0.188 |
 | accede           |    0.182 |
 | război           |    0.178 |
@@ -16827,9 +16783,9 @@ _File: `2025-06-10_nicusor-dan-a-confirmat-continuarea-sprijinului-romaniei-pen`
 | aspirație        |    0.162 |
 | felicita         |    0.159 |
 | împărtășim       |    0.157 |
-| predictibilitate |    0.153 |
-| determinare      |    0.151 |
-| reforma          |    0.142 |
+| predictibilitate |    0.152 |
+| determinare      |    0.15  |
+| set              |    0.142 |
 
 ## 2025-06-10 — video-transcript
 
@@ -16842,7 +16798,7 @@ _File: `2025-06-10_presedintele-nicusor-dan-este-in-vizita-la-chisinau-unde-va` 
 | chișinău   |    0.277 |
 | vizită     |    0.235 |
 | nicușor    |    0.219 |
-| dan        |    0.215 |
+| dan        |    0.214 |
 | republicii |    0.182 |
 | oficial    |    0.127 |
 | românia    |    0.126 |
@@ -16894,7 +16850,7 @@ _File: `2025-06-11_editie-speciala-nicusor-dan-prezinta-prioritatile-partidelor`
 | spune      |    0.115 |
 | putea      |    0.11  |
 | discuție   |    0.109 |
-| vorbi      |    0.108 |
+| vorbi      |    0.109 |
 | tva        |    0.103 |
 
 ## 2025-06-11 — video-transcript
@@ -16905,7 +16861,7 @@ _File: `2025-06-11_taxele-ultima-optiune-nicusor-dan-prioritatea-taierea-unor-c`
 |:-------------|---------:|
 | taxă         |    0.353 |
 | posibilitate |    0.351 |
-| vorbi        |    0.246 |
+| vorbi        |    0.247 |
 | incisivi     |    0.202 |
 | permeabil    |    0.194 |
 | comasare     |    0.182 |
@@ -16915,8 +16871,8 @@ _File: `2025-06-11_taxele-ultima-optiune-nicusor-dan-prioritatea-taierea-unor-c`
 | semnare      |    0.167 |
 | tăiere       |    0.148 |
 | continuu     |    0.144 |
-| blocaj       |    0.143 |
-| parte        |    0.142 |
+| parte        |    0.143 |
+| blocaj       |    0.142 |
 | spere        |    0.137 |
 
 ## 2025-06-20 — video-transcript
@@ -16929,17 +16885,17 @@ _File: `2025-06-20_declaratie-de-presa-sustinuta-de-presedintele-romaniei-nicus`
 | majoritate |    0.218 |
 | guvern     |    0.211 |
 | relansare  |    0.178 |
-| dificil    |    0.173 |
+| dificil    |    0.174 |
 | domn       |    0.165 |
 | vrea       |    0.159 |
 | guvernare  |    0.156 |
 | discuție   |    0.151 |
 | persoană   |    0.15  |
-| parte      |    0.146 |
+| parte      |    0.147 |
 | românia    |    0.141 |
 | dura       |    0.13  |
 | gata       |    0.129 |
-| potrivit   |    0.122 |
+| potrivit   |    0.121 |
 
 ## 2025-06-25 — video-transcript
 
@@ -16947,16 +16903,16 @@ _File: `2025-06-25_nicusor-dan-crestem-cheltuielile-de-aparare-pentru-ca-orice` 
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| sacrificiu  |    0.488 |
+| sacrificiu  |    0.487 |
 | ajustările  |    0.322 |
-| decât       |    0.275 |
-| ideal       |    0.231 |
+| decât       |    0.276 |
 | aparat      |    0.231 |
+| ideal       |    0.231 |
 | continuăm   |    0.205 |
 | armată      |    0.204 |
 | funcționare |    0.192 |
 | educație    |    0.182 |
-| speranță    |    0.18  |
+| speranță    |    0.181 |
 | cheltuială  |    0.178 |
 | reduce      |    0.177 |
 | deficit     |    0.172 |
@@ -16969,12 +16925,12 @@ _File: `2025-06-26_declaratia-presedintelui-romaniei-nicusor-dan-dupa-participa`
 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
-| împrumut |    0.342 |
+| împrumut |    0.341 |
 | produce  |    0.201 |
-| ieftin   |    0.175 |
+| ieftin   |    0.179 |
 | degrabă  |    0.169 |
-| trebui   |    0.166 |
 | moldova  |    0.166 |
+| trebui   |    0.166 |
 | explica  |    0.153 |
 | vrea     |    0.139 |
 | grant    |    0.136 |
@@ -16983,7 +16939,7 @@ _File: `2025-06-26_declaratia-presedintelui-romaniei-nicusor-dan-dupa-participa`
 | românia  |    0.123 |
 | îngheța  |    0.122 |
 | ucraina  |    0.12  |
-| lua      |    0.114 |
+| lua      |    0.113 |
 
 ## 2025-06-26 — video-transcript
 
@@ -16991,19 +16947,19 @@ _File: `2025-06-26_nicusor-dan-declaratie-de-la-summitul-nato-digi24v-stiriledi`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| reafirma      |    0.464 |
-| reafirmare    |    0.424 |
-| prezență      |    0.362 |
+| reafirma      |    0.463 |
+| reafirmare    |    0.423 |
+| prezență      |    0.363 |
 | aliat         |    0.275 |
 | facilitate    |    0.19  |
 | alia          |    0.172 |
-| soldat        |    0.166 |
+| soldat        |    0.165 |
 | implicit      |    0.164 |
 | găzdui        |    0.162 |
 | românia       |    0.15  |
 | negru         |    0.145 |
-| unitate       |    0.14  |
-| transatlantic |    0.135 |
+| unitate       |    0.141 |
+| transatlantic |    0.136 |
 | pericol       |    0.134 |
 | investi       |    0.127 |
 
@@ -17014,7 +16970,7 @@ _File: `2025-07-14_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | vrea          |    0.279 |
-| ron           |    0.261 |
+| ron           |    0.26  |
 | moment        |    0.188 |
 | spune         |    0.187 |
 | lege          |    0.181 |
@@ -17023,7 +16979,7 @@ _File: `2025-07-14_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_
 | guvern        |    0.146 |
 | chestiune     |    0.137 |
 | măsură        |    0.127 |
-| românia       |    0.113 |
+| românia       |    0.114 |
 | dumneavoastră |    0.107 |
 | trebui        |    0.1   |
 | vedea         |    0.096 |
@@ -17036,7 +16992,7 @@ _File: `2025-07-14_nicusor-dan-despre-cresterea-tva-digi24-stiriledigi24` · 38 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | octombrie  |    0.365 |
-| tva        |    0.33  |
+| tva        |    0.329 |
 | măsură     |    0.319 |
 | comisie    |    0.264 |
 | moment     |    0.249 |
@@ -17044,11 +17000,11 @@ _File: `2025-07-14_nicusor-dan-despre-cresterea-tva-digi24-stiriledigi24` · 38 
 | realizabă  |    0.23  |
 | agențiile  |    0.209 |
 | vrea       |    0.191 |
-| majorare   |    0.189 |
-| rating     |    0.189 |
-| set        |    0.179 |
-| evaluare   |    0.163 |
-| investi    |    0.144 |
+| rating     |    0.188 |
+| majorare   |    0.188 |
+| set        |    0.18  |
+| evaluare   |    0.162 |
+| investi    |    0.143 |
 | putea      |    0.14  |
 
 ## 2025-07-14 — video-transcript
@@ -17057,7 +17013,7 @@ _File: `2025-07-14_nicusor-dan-despre-introducerea-femicidului-in-legislatia-ro`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| problemă    |    0.303 |
+| problemă    |    0.302 |
 | femeie      |    0.234 |
 | aplica      |    0.229 |
 | fenomen     |    0.215 |
@@ -17065,7 +17021,7 @@ _File: `2025-07-14_nicusor-dan-despre-introducerea-femicidului-in-legislatia-ro`
 | femicid     |    0.175 |
 | lege        |    0.169 |
 | slăbiciune  |    0.164 |
-| mentalitate |    0.157 |
+| mentalitate |    0.156 |
 | descuraja   |    0.153 |
 | temeinic    |    0.151 |
 | mărturisi   |    0.148 |
@@ -17079,19 +17035,19 @@ _File: `2025-07-14_nicusor-dan-despre-primele-de-pensionare-de-la-ccr-si-pensii`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| lege          |    0.408 |
+| lege          |    0.407 |
 | moment        |    0.293 |
 | tranzitoriu   |    0.263 |
 | pensie        |    0.254 |
 | prevedere     |    0.219 |
 | pensionară    |    0.21  |
 | magistraților |    0.203 |
-| salariu       |    0.197 |
-| extrem        |    0.158 |
-| ieși          |    0.154 |
+| salariu       |    0.198 |
+| extrem        |    0.157 |
+| ieși          |    0.155 |
 | vrea          |    0.149 |
 | pensia        |    0.146 |
-| parlament     |    0.139 |
+| parlament     |    0.14  |
 | stimulez      |    0.135 |
 | spectator     |    0.132 |
 
@@ -17101,7 +17057,7 @@ _File: `2025-07-14_nicusor-dan-nu-ne-dorim-sa-avem-rusia-ca-vecin-vom-ajuta-ucr`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| rusia      |    0.439 |
+| rusia      |    0.44  |
 | vecin      |    0.415 |
 | ucraina    |    0.26  |
 | dori       |    0.244 |
@@ -17110,10 +17066,10 @@ _File: `2025-07-14_nicusor-dan-nu-ne-dorim-sa-avem-rusia-ca-vecin-vom-ajuta-ucr`
 | echipament |    0.185 |
 | sprijini   |    0.166 |
 | numi       |    0.164 |
-| cred       |    0.159 |
+| cred       |    0.16  |
 | muzică     |    0.156 |
 | propriu    |    0.155 |
-| ajuta      |    0.151 |
+| ajuta      |    0.152 |
 | anunța     |    0.145 |
 | oară       |    0.141 |
 
@@ -17124,16 +17080,16 @@ _File: `2025-07-14_prima-reactie-a-lui-nicusor-dan-dupa-masurile-fiscale-ale-gu`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | președinte    |    0.302 |
-| fiscal        |    0.297 |
+| fiscal        |    0.298 |
 | serviciu      |    0.214 |
 | informație    |    0.206 |
-| reacție       |    0.204 |
+| reacție       |    0.205 |
 | vasile        |    0.196 |
-| clarifica     |    0.194 |
+| clarifica     |    0.196 |
 | măsură        |    0.187 |
 | nicușordan    |    0.174 |
 | prezidențial  |    0.172 |
-| administrație |    0.165 |
+| administrație |    0.166 |
 | pachet        |    0.164 |
 | dan           |    0.146 |
 | guvern        |    0.142 |
@@ -17148,14 +17104,14 @@ _File: `2025-07-15_nicusor-dan-masura-cresterii-tva-putea-sa-nu-fie-luata` · 22
 | majorare    |    0.249 |
 | tva         |    0.218 |
 | măsură      |    0.211 |
-| pachet      |    0.206 |
+| pachet      |    0.205 |
 | bugetar     |    0.187 |
-| stat        |    0.174 |
+| stat        |    0.175 |
 | ron         |    0.164 |
-| șef         |    0.161 |
+| șef         |    0.16  |
 | buget       |    0.157 |
+| reducere    |    0.145 |
 | adăugat     |    0.144 |
-| reducere    |    0.144 |
 | brut        |    0.141 |
 | fiscal      |    0.14  |
 | austeritate |    0.136 |
@@ -17179,7 +17135,7 @@ _File: `2025-07-16_nicusor-dan-despre-femicid-digi24-stiriledigi24` · 44 clean 
 | instanț   |    0.198 |
 | decurge   |    0.195 |
 | domestic  |    0.192 |
-| judecată  |    0.18  |
+| judecată  |    0.179 |
 | violență  |    0.17  |
 | român     |    0.161 |
 
@@ -17189,7 +17145,7 @@ _File: `2025-07-16_nicusor-dan-despre-femicid-trebuie-sa-ajungem-sa-transmitem` 
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| minister    |    0.346 |
+| minister    |    0.345 |
 | trebui      |    0.243 |
 | afacere     |    0.22  |
 | intern      |    0.211 |
@@ -17212,13 +17168,13 @@ _File: `2025-07-18_declaratia-presedintelui-romaniei-nicusor-dan-si-cancelarul` 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
 | european |    0.29  |
-| uniune   |    0.224 |
+| uniune   |    0.225 |
 | germania |    0.208 |
 | ucraina  |    0.203 |
 | privi    |    0.168 |
 | discuta  |    0.161 |
 | vrea     |    0.154 |
-| rusia    |    0.144 |
+| rusia    |    0.145 |
 | țară     |    0.137 |
 | german   |    0.133 |
 | românia  |    0.132 |
@@ -17243,7 +17199,7 @@ _File: `2025-07-18_nicusor-dan-despre-interferentele-rusesti-in-alegerile-prezi`
 | îmbucurător |    0.139 |
 | putea       |    0.138 |
 | evident     |    0.136 |
-| persoană    |    0.127 |
+| persoană    |    0.126 |
 | identifica  |    0.125 |
 | pachet      |    0.118 |
 | exista      |    0.112 |
@@ -17258,13 +17214,13 @@ _File: `2025-07-21_nicusor-dan-despre-influenta-rusiei-in-alegeri-anuntul-impor`
 | intelligence |    0.214 |
 | semnal       |    0.194 |
 | postare      |    0.177 |
-| alegere      |    0.162 |
+| alegere      |    0.163 |
 | comunitate   |    0.158 |
-| interferență |    0.158 |
-| domn         |    0.153 |
+| interferență |    0.157 |
+| domn         |    0.152 |
 | spune        |    0.149 |
-| gru          |    0.143 |
-| acoperire    |    0.143 |
+| gru          |    0.142 |
+| acoperire    |    0.142 |
 | stat         |    0.14  |
 | euroatlantic |    0.132 |
 | nicușor      |    0.131 |
@@ -17299,21 +17255,21 @@ _File: `2025-07-25_sindicalistii-din-invatamant-ii-cer-lui-nicusor-dan-sa-nu-pr`
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| rată            |    0.293 |
+| rată            |    0.292 |
 | școlar          |    0.282 |
-| renunța         |    0.232 |
+| renunța         |    0.233 |
 | analfabetism    |    0.222 |
 | oră             |    0.218 |
 | vrea            |    0.207 |
-| coleg           |    0.187 |
-| funcțional      |    0.154 |
+| coleg           |    0.186 |
+| funcțional      |    0.153 |
 | permite         |    0.117 |
-| mascat          |    0.116 |
 | voucher         |    0.116 |
+| mascat          |    0.116 |
 | aceaste         |    0.116 |
 | prefigura       |    0.116 |
 | disponibilizare |    0.116 |
-| anunța          |    0.115 |
+| anunța          |    0.114 |
 
 ## 2025-07-30 — video-transcript
 
@@ -17322,8 +17278,8 @@ _File: `2025-07-30_nicusor-dan-propune-reguli-noi-privind-cererile-de-pensionar`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | sine       |    0.191 |
-| spune      |    0.185 |
-| domn       |    0.181 |
+| spune      |    0.186 |
+| domn       |    0.18  |
 | ornis      |    0.178 |
 | pensionară |    0.17  |
 | magistrat  |    0.157 |
@@ -17334,8 +17290,8 @@ _File: `2025-07-30_nicusor-dan-propune-reguli-noi-privind-cererile-de-pensionar`
 | trebui     |    0.129 |
 | cerere     |    0.122 |
 | întrebare  |    0.122 |
-| moment     |    0.112 |
-| justiție   |    0.111 |
+| moment     |    0.113 |
+| justiție   |    0.112 |
 
 ## 2025-07-30 — video-transcript
 
@@ -17343,11 +17299,11 @@ _File: `2025-07-30_ora-14-presedintele-nicusor-dan-sustine-o-conferinta-de-pres`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| vrea       |    0.226 |
+| vrea       |    0.227 |
 | spune      |    0.212 |
 | sine       |    0.203 |
-| întrebare  |    0.17  |
-| domn       |    0.156 |
+| întrebare  |    0.169 |
+| domn       |    0.155 |
 | trebui     |    0.148 |
 | pensionară |    0.141 |
 | vedea      |    0.136 |
@@ -17392,13 +17348,13 @@ _File: `2025-07-31_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_
 | sine       |    0.201 |
 | întrebare  |    0.167 |
 | domn       |    0.157 |
-| trebui     |    0.149 |
+| trebui     |    0.15  |
 | magistrat  |    0.144 |
 | vedea      |    0.137 |
-| putea      |    0.134 |
+| putea      |    0.133 |
 | csm        |    0.13  |
 | pensionară |    0.13  |
-| pensie     |    0.13  |
+| pensie     |    0.129 |
 | parte      |    0.127 |
 | moment     |    0.118 |
 | lege       |    0.116 |
@@ -17410,7 +17366,7 @@ _File: `2025-07-31_nicusor-dan-despre-valul-de-pensionari-din-justitie-ce-este` 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | pensionară |    0.496 |
-| cerere     |    0.341 |
+| cerere     |    0.34  |
 | pensiona   |    0.28  |
 | cofetărie  |    0.16  |
 | cojocărie  |    0.16  |
@@ -17432,17 +17388,17 @@ _File: `2025-08-24_nicusor-dan-mesaj-pentru-ucraina-ucraina-celebreaza-ziua-ind`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | and          |    0.331 |
-| the          |    0.272 |
+| the          |    0.271 |
 | for          |    0.221 |
 | zelenschi    |    0.21  |
 | ucrainian    |    0.207 |
-| ucraina      |    0.204 |
+| ucraina      |    0.203 |
 | moscova      |    0.202 |
-| centrală     |    0.178 |
+| centrală     |    0.177 |
 | volodimir    |    0.16  |
 | independență |    0.134 |
-| doborî       |    0.126 |
 | sovietic     |    0.126 |
+| doborî       |    0.126 |
 | incendiu     |    0.118 |
 | celebra      |    0.113 |
 | garanție     |    0.112 |
@@ -17458,13 +17414,13 @@ _File: `2025-08-26_discursul-presedintelui-romaniei-nicusor-dan-cu-ocazia-reuni`
 | strategie     |    0.213 |
 | dumneavoastră |    0.184 |
 | românia       |    0.181 |
-| economic      |    0.155 |
+| economic      |    0.156 |
 | economie      |    0.143 |
 | continua      |    0.137 |
 | muzică        |    0.131 |
-| strategic     |    0.125 |
 | efort         |    0.125 |
-| parteneriat   |    0.124 |
+| strategic     |    0.125 |
+| parteneriat   |    0.125 |
 | direct        |    0.123 |
 | domn          |    0.122 |
 | sine          |    0.121 |
@@ -17475,12 +17431,12 @@ _File: `2025-08-29_editie-speciala-nicusor-dan-reactioneaza-in-cazul-livratorul`
 
 | lemmă   |   TF-IDF |
 |:--------|---------:|
-| sine    |    0.215 |
+| sine    |    0.214 |
 | spune   |    0.189 |
 | vrea    |    0.18  |
 | elev    |    0.169 |
 | trebui  |    0.161 |
-| silva   |    0.149 |
+| silva   |    0.148 |
 | ron     |    0.142 |
 | putea   |    0.134 |
 | lovi    |    0.126 |
@@ -17499,10 +17455,10 @@ _File: `2025-08-31_nicusor-dan-sunteti-mai-europeni-decat-europenii-si-locul-du`
 |:-----------|---------:|
 | acelorași  |    0.375 |
 | europene   |    0.375 |
-| european   |    0.26  |
-| dovedi     |    0.239 |
+| european   |    0.261 |
+| dovedi     |    0.24  |
 | presiune   |    0.23  |
-| apăra      |    0.216 |
+| apăra      |    0.217 |
 | democrație |    0.211 |
 | tip        |    0.21  |
 | încerca    |    0.193 |
@@ -17510,8 +17466,8 @@ _File: `2025-08-31_nicusor-dan-sunteti-mai-europeni-decat-europenii-si-locul-du`
 | exemplu    |    0.189 |
 | opinie     |    0.182 |
 | același    |    0.177 |
-| lume       |    0.173 |
 | uniune     |    0.173 |
+| lume       |    0.172 |
 
 ## 2025-09-01 — video-transcript
 
@@ -17519,17 +17475,17 @@ _File: `2025-09-01_nicusor-dan-2025-si-2026-vor-fi-ani-dificili-pentru-romani` �
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| corecta   |    0.272 |
+| corecta   |    0.271 |
 | chestiune |    0.251 |
 | măsură    |    0.245 |
 | presiune  |    0.224 |
-| dificil   |    0.212 |
+| dificil   |    0.213 |
 | moment    |    0.191 |
 | săptămână |    0.17  |
 | lună      |    0.157 |
 | încadra   |    0.155 |
 | rămâne    |    0.154 |
-| finanță   |    0.153 |
+| finanță   |    0.152 |
 | exercițiu |    0.148 |
 | vrea      |    0.146 |
 | sine      |    0.141 |
@@ -17541,9 +17497,9 @@ _File: `2025-09-02_conferinta-presedintele-romaniei-nicusor-dan-si-presedinta-c`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| safe       |    0.208 |
-| european   |    0.204 |
-| ști        |    0.189 |
+| safe       |    0.209 |
+| european   |    0.205 |
+| ști        |    0.19  |
 | constanța  |    0.157 |
 | apărare    |    0.147 |
 | românia    |    0.139 |
@@ -17553,8 +17509,8 @@ _File: `2025-09-02_conferinta-presedintele-romaniei-nicusor-dan-si-presedinta-c`
 | sancțiune  |    0.124 |
 | important  |    0.123 |
 | putea      |    0.122 |
-| program    |    0.122 |
 | economic   |    0.122 |
+| program    |    0.122 |
 | investiție |    0.117 |
 
 ## 2025-09-03 — video-transcript
@@ -17563,12 +17519,12 @@ _File: `2025-09-03_nicusor-dan-coalitia-de-guvernare-functioneaza-si-va-merge-i`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| coaliție    |    0.49  |
+| coaliție    |    0.489 |
 | funcționa   |    0.429 |
-| merge       |    0.283 |
+| merge       |    0.284 |
 | nicuan      |    0.21  |
-| spune       |    0.203 |
-| partid      |    0.175 |
+| spune       |    0.204 |
+| partid      |    0.176 |
 | rezista     |    0.161 |
 | preciza     |    0.151 |
 | moment      |    0.14  |
@@ -17577,7 +17533,7 @@ _File: `2025-09-03_nicusor-dan-coalitia-de-guvernare-functioneaza-si-va-merge-i`
 | lidere      |    0.129 |
 | cont        |    0.124 |
 | parlamentar |    0.12  |
-| asculta     |    0.117 |
+| asculta     |    0.116 |
 
 ## 2025-09-03 — video-transcript
 
@@ -17585,21 +17541,21 @@ _File: `2025-09-03_nicusor-dan-energia-nucleara-reprezinta-20-din-necesarul-de` 
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| lucrare     |    0.353 |
-| energie     |    0.309 |
-| nuclear     |    0.3   |
-| electric    |    0.297 |
-| avantaj     |    0.203 |
+| lucrare     |    0.352 |
+| energie     |    0.31  |
+| nuclear     |    0.304 |
+| electric    |    0.296 |
+| avantaj     |    0.202 |
 | reactoar    |    0.198 |
 | competitiv  |    0.187 |
-| ambasador   |    0.139 |
+| ambasador   |    0.138 |
 | inteligență |    0.137 |
 | important   |    0.135 |
 | artificial  |    0.134 |
 | tehnologie  |    0.131 |
-| vrea        |    0.127 |
+| vrea        |    0.126 |
 | domn        |    0.118 |
-| doicești    |    0.099 |
+| coreea      |    0.099 |
 
 ## 2025-09-05 — video-transcript
 
@@ -17617,8 +17573,8 @@ _File: `2025-09-05_nicusor-dan-despre-pensiile-specialilor-au-fost-suprasolicit`
 | declara        |    0.157 |
 | politicianist  |    0.139 |
 | înjurăm        |    0.134 |
-| cor            |    0.129 |
 | anticipez      |    0.129 |
+| cor            |    0.129 |
 | uita           |    0.127 |
 | admisibil      |    0.126 |
 | intervine      |    0.12  |
@@ -17629,14 +17585,14 @@ _File: `2025-09-05_nicusor-dan-romania-nu-va-trimite-trupe-de-mentinere-a-pacii`
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| pace            |    0.462 |
-| eventual        |    0.316 |
+| pace            |    0.463 |
+| eventual        |    0.315 |
 | încetare        |    0.3   |
 | menținere       |    0.264 |
 | foc             |    0.256 |
 | ucraina         |    0.236 |
 | trimite         |    0.195 |
-| rusia           |    0.177 |
+| rusia           |    0.178 |
 | proximitate     |    0.16  |
 | videoconferință |    0.156 |
 | decizie         |    0.148 |
@@ -17658,12 +17614,12 @@ _File: `2025-09-10_nicusor-dan-daca-se-va-intampla-si-la-noi-vom-reactiona-la-f`
 |:-----------|---------:|
 | reacționa  |    0.432 |
 | polonia    |    0.389 |
-| solidarita |    0.199 |
-| nicușordan |    0.198 |
+| solidarita |    0.198 |
+| nicușordan |    0.197 |
 | dron       |    0.19  |
 | incidentă  |    0.19  |
-| justificat |    0.179 |
-| accidental |    0.179 |
+| justificat |    0.184 |
+| accidental |    0.178 |
 | alertă     |    0.174 |
 | vladimir   |    0.156 |
 | metru      |    0.152 |
@@ -17678,15 +17634,15 @@ _File: `2025-09-11_ce-spune-nicusor-dan-despre-vizita-in-sua-sper-sa-fie-o-vizi`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| diasporă   |    0.503 |
+| diasporă   |    0.504 |
 | america    |    0.329 |
 | consistent |    0.235 |
 | român      |    0.231 |
-| preocupare |    0.221 |
+| preocupare |    0.22  |
 | niciun     |    0.175 |
-| traduce    |    0.16  |
+| traduce    |    0.159 |
 | relație    |    0.158 |
-| chestiune  |    0.156 |
+| chestiune  |    0.155 |
 | vorbi      |    0.144 |
 | securitate |    0.142 |
 | îmbunătăți |    0.138 |
@@ -17700,18 +17656,18 @@ _File: `2025-09-11_nicusor-dan-daca-ucraina-cedeaza-romania-ar-fi-vecina-direct`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| ban       |    0.45  |
+| ban       |    0.451 |
 | ucraina   |    0.216 |
-| spune     |    0.18  |
-| sine      |    0.172 |
+| spune     |    0.181 |
+| sine      |    0.171 |
 | trebui    |    0.128 |
 | apărare   |    0.126 |
 | belarus   |    0.126 |
 | aur       |    0.125 |
 | chestiune |    0.122 |
-| ploua     |    0.12  |
+| decât     |    0.12  |
 | primim    |    0.12  |
-| decât     |    0.119 |
+| ploua     |    0.12  |
 | atace     |    0.117 |
 | apăra     |    0.116 |
 | ajuta     |    0.108 |
@@ -17724,12 +17680,12 @@ _File: `2025-09-11_nicusor-dan-de-zece-ani-romania-e-in-razboiul-hibrid-al-fede`
 |:-----------|---------:|
 | serviciu   |    0.255 |
 | zonă       |    0.243 |
-| exista     |    0.242 |
+| exista     |    0.243 |
 | rus        |    0.224 |
 | stat       |    0.197 |
 | federației |    0.146 |
-| coaliție   |    0.142 |
-| sine       |    0.139 |
+| coaliție   |    0.141 |
+| sine       |    0.138 |
 | românia    |    0.138 |
 | lung       |    0.137 |
 | funcționa  |    0.133 |
@@ -17745,18 +17701,18 @@ _File: `2025-09-11_nicusor-dan-despre-cresterea-aur-in-sondaje-arata-ca-cei-40` 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | arăta       |    0.232 |
-| exista      |    0.205 |
+| exista      |    0.206 |
 | conservator |    0.203 |
 | partid      |    0.198 |
-| pro         |    0.189 |
-| coaliție    |    0.184 |
+| pro         |    0.188 |
+| coaliție    |    0.183 |
 | republică   |    0.169 |
 | moldova     |    0.154 |
 | barieră     |    0.146 |
-| aur         |    0.142 |
-| occident    |    0.135 |
+| aur         |    0.141 |
 | alternativă |    0.135 |
-| societate   |    0.13  |
+| occident    |    0.135 |
+| societate   |    0.131 |
 | crede       |    0.129 |
 | guvern      |    0.128 |
 
@@ -17766,20 +17722,20 @@ _File: `2025-09-12_nicusor-dan-romania-de-10-ani-sub-atacul-hibrid-al-rusiei-ab`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| captura       |    0.308 |
+| captura       |    0.307 |
 | federației    |    0.301 |
 | încet         |    0.291 |
 | influența     |    0.237 |
-| atac          |    0.21  |
+| atac          |    0.209 |
 | rus           |    0.206 |
 | hibrid        |    0.204 |
-| parte         |    0.189 |
+| parte         |    0.19  |
 | ofensiva      |    0.179 |
 | ruseasc       |    0.172 |
 | dezinformarea |    0.166 |
 | zonă          |    0.155 |
 | începe        |    0.15  |
-| societate     |    0.148 |
+| societate     |    0.149 |
 | gradual       |    0.148 |
 
 ## 2025-09-16 — video-transcript
@@ -17791,14 +17747,14 @@ _File: `2025-09-16_nicusor-dan-reactie-dupa-incidentul-din-spatiul-aerian-roman`
 | pagubă     |    0.312 |
 | colateral  |    0.285 |
 | comandant  |    0.279 |
-| operațiune |    0.247 |
-| știm       |    0.234 |
+| operațiune |    0.246 |
 | interval   |    0.234 |
-| teritoriu  |    0.185 |
-| putea      |    0.184 |
+| știm       |    0.234 |
+| teritoriu  |    0.186 |
+| putea      |    0.183 |
 | doborâre   |    0.163 |
 | doborî     |    0.156 |
-| caz        |    0.153 |
+| caz        |    0.152 |
 | românesc   |    0.15  |
 | trebui     |    0.149 |
 | spionaj    |    0.146 |
@@ -17817,11 +17773,11 @@ _File: `2025-09-16_nicusor-dan-we-don-t-know-if-the-russian-drone-was-armed` · 
 | aerian     |    0.246 |
 | dispărea   |    0.243 |
 | avion      |    0.243 |
-| dronă      |    0.229 |
+| dronă      |    0.228 |
 | ucraina    |    0.222 |
 | putea      |    0.189 |
 | drona      |    0.167 |
-| spune      |    0.162 |
+| spune      |    0.163 |
 | înăuntru   |    0.151 |
 | duce       |    0.144 |
 | informația |    0.144 |
@@ -17835,7 +17791,7 @@ _File: `2025-09-23_nicusor-dan-cere-responsabilitate-liderilor-coalitiei-romani`
 | coaliție      |    0.294 |
 | președinte    |    0.242 |
 | discuție      |    0.229 |
-| parte         |    0.222 |
+| parte         |    0.223 |
 | susținere     |    0.154 |
 | vârf          |    0.154 |
 | ședință       |    0.153 |
@@ -17860,13 +17816,13 @@ _File: `2025-09-25_nicusor-dan-au-fost-80-000-de-atacuri-cibernetice-in-perioad`
 | învățăm     |    0.213 |
 | degeabă     |    0.213 |
 | zonă        |    0.204 |
-| parchetului |    0.203 |
 | numită      |    0.203 |
+| parchetului |    0.203 |
 | facem       |    0.192 |
 | tehnologic  |    0.179 |
 | vedea       |    0.171 |
 | online      |    0.163 |
-| sită        |    0.156 |
+| sită        |    0.155 |
 | fals        |    0.153 |
 | spune       |    0.153 |
 
@@ -17881,16 +17837,16 @@ _File: `2025-09-25_nicusor-dan-georgescu-nu-a-fost-un-calaret-singuratic-in-jur`
 | călin        |    0.268 |
 | georgescu    |    0.262 |
 | viziune      |    0.253 |
-| rețea        |    0.245 |
+| rețea        |    0.244 |
 | moment       |    0.217 |
-| călăreț      |    0.217 |
 | singuratic   |    0.217 |
+| călăreț      |    0.217 |
 | dou          |    0.208 |
 | salvator     |    0.19  |
 | complicitate |    0.186 |
-| ști          |    0.174 |
-| vocație      |    0.173 |
+| ști          |    0.175 |
 | alinia       |    0.173 |
+| vocație      |    0.173 |
 
 ## 2025-09-25 — video-transcript
 
@@ -17900,10 +17856,10 @@ _File: `2025-09-25_nicusor-dan-nu-vad-rusia-capabila-sa-atace-nato-dar-provocar`
 |:--------------------------------|---------:|
 | extrem                          |    0.35  |
 | conflict                        |    0.286 |
-| provocăre                       |    0.224 |
+| provocăre                       |    0.223 |
 | dronă                           |    0.222 |
 | mic                             |    0.168 |
-| moment                          |    0.162 |
+| moment                          |    0.163 |
 | militar                         |    0.162 |
 | distruga                        |    0.156 |
 | northatlantictreatyorganization |    0.154 |
@@ -17931,10 +17887,10 @@ _File: `2025-09-25_nicusor-dan-primul-interviu-dupa-sedinta-csat-la-digi24` · 1
 | bun        |    0.127 |
 | vedea      |    0.127 |
 | alinia     |    0.122 |
-| inamic     |    0.122 |
+| inamic     |    0.121 |
 | putea      |    0.117 |
+| trage      |    0.116 |
 | parte      |    0.116 |
-| trage      |    0.115 |
 
 ## 2025-09-25 — video-transcript
 
@@ -17948,7 +17904,7 @@ _File: `2025-09-25_nicusor-dan-primul-interviu-dupa-sedinta-csat-rusia-ramane-i`
 | românia    |    0.151 |
 | lucru      |    0.148 |
 | moment     |    0.136 |
-| putea      |    0.135 |
+| putea      |    0.134 |
 | președinte |    0.134 |
 | rusia      |    0.127 |
 | vedea      |    0.117 |
@@ -17966,19 +17922,19 @@ _File: `2025-09-26_nicusor-dan-despre-influenta-sri-in-romania-stiri-b1tv-26-se`
 |:-----------|---------:|
 | sri        |    0.333 |
 | influență  |    0.302 |
-| serviciu   |    0.24  |
-| parte      |    0.229 |
+| serviciu   |    0.239 |
+| parte      |    0.23  |
 | vrea       |    0.208 |
-| potrivit   |    0.191 |
-| persoană   |    0.157 |
+| potrivit   |    0.19  |
+| persoană   |    0.156 |
 | zdruncina  |    0.151 |
-| informații |    0.151 |
 | asie       |    0.151 |
+| informații |    0.151 |
 | trebui     |    0.149 |
 | exces      |    0.147 |
 | economic   |    0.137 |
 | decizie    |    0.135 |
-| operativ   |    0.135 |
+| operativ   |    0.134 |
 
 ## 2025-09-26 — video-transcript
 
@@ -17987,14 +17943,14 @@ _File: `2025-09-26_nicusor-dan-sri-a-intervenit-in-viata-politica-si-economica` 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | vrea         |    0.324 |
-| sri          |    0.289 |
+| sri          |    0.288 |
 | serviciu     |    0.207 |
 | interferență |    0.192 |
 | numire       |    0.176 |
 | influență    |    0.174 |
 | trebui       |    0.172 |
 | civil        |    0.167 |
-| politic      |    0.157 |
+| politic      |    0.158 |
 | lucru        |    0.153 |
 | parte        |    0.149 |
 | sine         |    0.139 |
@@ -18012,17 +17968,17 @@ _File: `2025-09-30_nicusor-dan-a-anuntat-cand-va-desecretiza-sedinta-csat-si-ac`
 | raport      |    0.311 |
 | specific    |    0.256 |
 | rus         |    0.21  |
-| nereușitel  |    0.183 |
 | european    |    0.183 |
-| general     |    0.168 |
+| nereușitel  |    0.183 |
+| general     |    0.167 |
 | evidență    |    0.161 |
 | temere      |    0.157 |
 | societate   |    0.152 |
 | prietenos   |    0.149 |
 | amplifica   |    0.146 |
-| destabiliza |    0.141 |
-| sistematic  |    0.137 |
+| destabiliza |    0.14  |
 | diferi      |    0.137 |
+| sistematic  |    0.137 |
 
 ## 2025-09-30 — video-transcript
 
@@ -18037,14 +17993,14 @@ _File: `2025-09-30_nicusor-dan-avem-dovada-cu-peschir-banuim-ca-au-fost-20-de-m`
 | ordin     |    0.222 |
 | uri       |    0.22  |
 | metodă    |    0.218 |
-| promovare |    0.203 |
-| rețea     |    0.173 |
+| promovare |    0.202 |
+| rețea     |    0.172 |
 | milion    |    0.167 |
 | plăti     |    0.162 |
 | euro      |    0.162 |
 | peșchir   |    0.153 |
-| documenta |    0.142 |
 | educa     |    0.142 |
+| documenta |    0.142 |
 
 ## 2025-09-30 — video-transcript
 
@@ -18052,13 +18008,13 @@ _File: `2025-09-30_nicusor-dan-despre-aderarea-moldovei-la-ue-poate-fi-facuta-c`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| moldova    |    0.38  |
-| aderare    |    0.372 |
-| pas        |    0.255 |
+| moldova    |    0.381 |
+| aderare    |    0.373 |
+| pas        |    0.254 |
 | statut     |    0.218 |
 | capitol    |    0.208 |
 | ucraina    |    0.207 |
-| republicii |    0.189 |
+| republicii |    0.19  |
 | graniță    |    0.186 |
 | moment     |    0.156 |
 | uniune     |    0.138 |
@@ -18075,9 +18031,9 @@ _File: `2025-09-30_nicusor-dan-despre-anularea-alegerilor-avem-dovada-ca-au-fos`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | raport       |    0.364 |
-| publicitate  |    0.25  |
+| publicitate  |    0.249 |
 | rusia        |    0.213 |
-| context      |    0.196 |
+| context      |    0.197 |
 | specific     |    0.15  |
 | general      |    0.147 |
 | duce         |    0.138 |
@@ -18096,21 +18052,21 @@ _File: `2025-09-30_nicusor-dan-despre-stagiul-militar-voluntar-romania-sa-aiba` 
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| lege        |    0.365 |
-| voluntar    |    0.298 |
+| lege        |    0.364 |
+| voluntar    |    0.297 |
 | pregătirii  |    0.251 |
 | vrea        |    0.234 |
 | plăti       |    0.208 |
 | militar     |    0.196 |
 | populație   |    0.166 |
-| detaliu     |    0.155 |
+| detaliu     |    0.154 |
 | pregăti     |    0.137 |
 | important   |    0.134 |
 | instruire   |    0.131 |
 | dezacord    |    0.125 |
 | semnifica   |    0.125 |
-| stagiu      |    0.125 |
 | reintroduce |    0.125 |
+| stagiu      |    0.125 |
 
 ## 2025-10-02 — video-transcript
 
@@ -18119,7 +18075,7 @@ _File: `2025-10-02_nicusor-dan-amenin-area-nu-mai-este-o-chestiune-de-vecinatat`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | aeroport   |    0.498 |
-| rusia      |    0.282 |
+| rusia      |    0.283 |
 | belarus    |    0.255 |
 | vecinătate |    0.255 |
 | schiță     |    0.243 |
@@ -18127,7 +18083,7 @@ _File: `2025-10-02_nicusor-dan-amenin-area-nu-mai-este-o-chestiune-de-vecinatat`
 | concept    |    0.212 |
 | vedea      |    0.206 |
 | nuanță     |    0.202 |
-| dronă      |    0.194 |
+| dronă      |    0.193 |
 | moment     |    0.189 |
 | confrunta  |    0.181 |
 | respectiv  |    0.167 |
@@ -18163,14 +18119,14 @@ _File: `2025-10-14_studio-politic-nicusor-dan-vrea-sa-implice-sri-in-lupta-anti`
 | lemmă   |   TF-IDF |
 |:--------|---------:|
 | aur     |    0.2   |
-| psd     |    0.2   |
+| psd     |    0.199 |
 | năstase |    0.187 |
 | partid  |    0.185 |
 | vedea   |    0.165 |
-| sine    |    0.164 |
 | spune   |    0.164 |
+| sine    |    0.164 |
 | vrea    |    0.164 |
-| crede   |    0.153 |
+| crede   |    0.154 |
 | putea   |    0.143 |
 | domn    |    0.143 |
 | adrian  |    0.139 |
@@ -18185,10 +18141,10 @@ _File: `2025-10-21_nicusor-dan-in-principiu-imi-doresc-un-al-doilea-mandat-la-c`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | mandat       |    0.355 |
-| devreme      |    0.34  |
-| societate    |    0.275 |
+| devreme      |    0.339 |
+| societate    |    0.276 |
 | necesita     |    0.241 |
-| exclude      |    0.227 |
+| exclude      |    0.226 |
 | apropo       |    0.218 |
 | dor          |    0.217 |
 | semnificativ |    0.215 |
@@ -18213,10 +18169,10 @@ _File: `2025-10-23_nicusor-dan-avem-un-razboi-hibrid-de-cel-putin-10-ani` · 252
 | amiază   |    0.179 |
 | discuta  |    0.171 |
 | membră   |    0.157 |
-| înghețat |    0.153 |
+| înghețat |    0.152 |
 | vedea    |    0.149 |
 | detaliu  |    0.146 |
-| uniune   |    0.145 |
+| uniune   |    0.146 |
 | sine     |    0.142 |
 | noutate  |    0.136 |
 | buget    |    0.118 |
@@ -18233,7 +18189,7 @@ _File: `2025-10-23_nicusor-dan-trebuie-sa-ne-echipam-ca-sa-descurajam-rusia-de` 
 | pregăti     |    0.218 |
 | descurajă   |    0.208 |
 | echipa      |    0.193 |
-| trebui      |    0.19  |
+| trebui      |    0.191 |
 | apărare     |    0.188 |
 | noutate     |    0.172 |
 | confruntare |    0.164 |
@@ -18252,15 +18208,15 @@ _File: `2025-10-24_nicusor-dan-a-society-is-defined-by-the-institutions-it-has` 
 |:-------------|---------:|
 | universitate |    0.373 |
 | universitar  |    0.327 |
-| mediu        |    0.304 |
-| crede        |    0.212 |
-| cunoaștere   |    0.175 |
+| mediu        |    0.305 |
+| crede        |    0.213 |
 | rațiune      |    0.175 |
+| cunoaștere   |    0.175 |
 | instituție   |    0.17  |
 | academic     |    0.164 |
 | trebui       |    0.158 |
 | onora        |    0.152 |
-| emoție       |    0.147 |
+| emoție       |    0.146 |
 | important    |    0.142 |
 | lupta        |    0.126 |
 | adevăr       |    0.113 |
@@ -18273,20 +18229,20 @@ _File: `2025-10-27_nicusor-dan-catedrala-nationala-simbol-de-speranta-intr-o-pe`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | catedrală    |    0.327 |
-| reconciliere |    0.226 |
+| reconciliere |    0.225 |
 | ortodox      |    0.212 |
 | neam         |    0.198 |
 | român        |    0.192 |
-| simbol       |    0.174 |
+| simbol       |    0.176 |
 | românesc     |    0.163 |
 | credință     |    0.157 |
-| unitate      |    0.149 |
+| unitate      |    0.15  |
 | stat         |    0.143 |
 | speranță     |    0.132 |
 | respect      |    0.124 |
 | sanctității  |    0.118 |
-| lăcaș        |    0.118 |
 | frumusețe    |    0.118 |
+| lăcaș        |    0.118 |
 
 ## 2025-11-02 — video-transcript
 
@@ -18295,8 +18251,8 @@ _File: `2025-11-02_nicusor-dan-reactie-despre-reducerea-numarului-de-militari-a`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | vrea         |    0.282 |
-| merge        |    0.203 |
-| bucurești    |    0.182 |
+| merge        |    0.204 |
+| bucurești    |    0.181 |
 | președinte   |    0.173 |
 | american     |    0.171 |
 | domn         |    0.159 |
@@ -18305,7 +18261,7 @@ _File: `2025-11-02_nicusor-dan-reactie-despre-reducerea-numarului-de-militari-a`
 | coaliție     |    0.14  |
 | usr          |    0.139 |
 | spune        |    0.13  |
-| bucureștenie |    0.127 |
+| bucureștenie |    0.126 |
 | protecție    |    0.126 |
 | românia      |    0.125 |
 | referendum   |    0.124 |
@@ -18317,15 +18273,15 @@ _File: `2025-11-06_rutte-nato-isi-va-juca-rolul-sau-nicusor-dan-reinarmarea-nu` 
 | lemmă                           |   TF-IDF |
 |:--------------------------------|---------:|
 | northatlantictreatyorganization |    0.4   |
-| apărare                         |    0.293 |
-| industrie                       |    0.247 |
+| apărare                         |    0.294 |
+| industrie                       |    0.248 |
 | aliat                           |    0.162 |
 | amenințările                    |    0.161 |
 | renarmare                       |    0.13  |
 | inovație                        |    0.13  |
 | alianță                         |    0.123 |
-| forum                           |    0.121 |
-| rusia                           |    0.113 |
+| forum                           |    0.12  |
+| rusia                           |    0.114 |
 | trebui                          |    0.109 |
 | secretar                        |    0.104 |
 | precum                          |    0.102 |
@@ -18339,7 +18295,7 @@ _File: `2025-11-07_nicusor-dan-despre-intalnirea-lui-bolojan-nu-cred-ca-premier`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | întrebare     |    0.313 |
-| premier       |    0.255 |
+| premier       |    0.254 |
 | interacțiune  |    0.244 |
 | depăși        |    0.219 |
 | limită        |    0.219 |
@@ -18360,21 +18316,21 @@ _File: `2025-11-07_nicusor-dan-despre-salariul-minim-sa-inghete` · 54 clean lem
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| salariu    |    0.494 |
-| minim      |    0.423 |
-| sindicat   |    0.331 |
-| salariile  |    0.267 |
-| permite    |    0.186 |
+| salariu    |    0.496 |
+| minim      |    0.422 |
+| sindicat   |    0.33  |
+| salariile  |    0.269 |
+| permite    |    0.185 |
 | mulțime    |    0.161 |
-| putea      |    0.156 |
-| mărire     |    0.155 |
-| prefera    |    0.145 |
+| putea      |    0.155 |
+| mărire     |    0.154 |
+| prefera    |    0.144 |
 | trezi      |    0.139 |
-| majora     |    0.138 |
+| majora     |    0.137 |
 | ăia        |    0.126 |
 | executiv   |    0.12  |
 | plăcea     |    0.118 |
-| competitiv |    0.116 |
+| competitiv |    0.115 |
 
 ## 2025-11-11 — video-transcript
 
@@ -18385,7 +18341,7 @@ _File: `2025-11-11_nicusor-dan-declaratia-oanei-gheorghiu-e-nefericita-reactia` 
 | gheorghiu   |    0.358 |
 | oana        |    0.22  |
 | vedea       |    0.202 |
-| sine        |    0.185 |
+| sine        |    0.184 |
 | penal       |    0.183 |
 | csm         |    0.183 |
 | justiție    |    0.17  |
@@ -18409,7 +18365,7 @@ _File: `2025-11-11_posibile-fragmente-de-drona-cazute-in-tulcea-nicusor-dan-a-f`
 | acțiune     |    0.224 |
 | condiție    |    0.193 |
 | dronă       |    0.188 |
-| categorie   |    0.185 |
+| categorie   |    0.184 |
 | militar     |    0.177 |
 | zonă        |    0.153 |
 | aerian      |    0.145 |
@@ -18426,14 +18382,14 @@ _File: `2025-11-11_presedintele-romaniei-nicusor-dan-despre-pensii-si-justitie` 
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| problemă  |    0.531 |
-| salariile |    0.31  |
+| problemă  |    0.53  |
+| salariile |    0.313 |
 | deveni    |    0.307 |
-| politic   |    0.238 |
+| politic   |    0.239 |
 | campanie  |    0.199 |
 | nefiresc  |    0.198 |
-| corectat  |    0.187 |
 | colateral |    0.187 |
+| corectat  |    0.187 |
 | magistra  |    0.176 |
 | normă     |    0.164 |
 | vinovat   |    0.155 |
@@ -18448,20 +18404,20 @@ _File: `2025-11-12_ce-l-a-socat-pe-nicusor-dan-dupa-ce-a-ajuns-presedinte` · 55
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| administrație   |    0.47  |
-| public          |    0.223 |
+| administrație   |    0.472 |
+| public          |    0.222 |
 | cauză           |    0.22  |
-| bălti           |    0.184 |
 | apetență        |    0.184 |
+| bălti           |    0.184 |
 | surprinder      |    0.184 |
 | micuță          |    0.179 |
 | sectorial       |    0.179 |
-| inova           |    0.175 |
-| apeti           |    0.175 |
+| inova           |    0.174 |
+| apeti           |    0.174 |
 | rutină          |    0.167 |
 | ști             |    0.16  |
 | integrat        |    0.159 |
-| defensiv        |    0.157 |
+| defensiv        |    0.156 |
 | vulnerabilitate |    0.151 |
 
 ## 2025-11-12 — video-transcript
@@ -18477,14 +18433,14 @@ _File: `2025-11-12_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_
 | vedea         |    0.155 |
 | sine          |    0.152 |
 | lucru         |    0.149 |
-| corupție      |    0.145 |
+| corupție      |    0.146 |
 | serviciu      |    0.137 |
-| stat          |    0.129 |
+| stat          |    0.13  |
 | societate     |    0.128 |
 | justiție      |    0.112 |
 | magistrat     |    0.11  |
-| crede         |    0.108 |
-| administrație |    0.104 |
+| crede         |    0.109 |
+| administrație |    0.105 |
 
 ## 2025-11-12 — video-transcript
 
@@ -18498,11 +18454,11 @@ _File: `2025-11-12_nicusor-dan-conferinta-de-presa-presedintele-prezinta-strate`
 | sine          |    0.176 |
 | strategie     |    0.169 |
 | vedea         |    0.153 |
-| administrație |    0.115 |
-| putea         |    0.115 |
+| administrație |    0.116 |
 | parte         |    0.115 |
+| putea         |    0.115 |
 | rus           |    0.112 |
-| context       |    0.104 |
+| context       |    0.105 |
 | creștere      |    0.104 |
 | pune          |    0.098 |
 | moment        |    0.092 |
@@ -18515,20 +18471,20 @@ _File: `2025-11-12_nicusor-dan-e-mai-bine-sa-fii-vecin-cu-ucraina-decat-cu-rusi`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | vecin         |    0.265 |
-| insista       |    0.259 |
+| insista       |    0.258 |
 | ucraina       |    0.249 |
 | implementare  |    0.247 |
 | nivel         |    0.246 |
 | ordine        |    0.228 |
 | document      |    0.221 |
-| respecta      |    0.206 |
+| respecta      |    0.205 |
 | posibilităț   |    0.188 |
 | elaborat      |    0.18  |
 | internațional |    0.17  |
 | dezechilibra  |    0.161 |
 | eventualitate |    0.161 |
 | expunere      |    0.15  |
-| înțeles       |    0.148 |
+| înțeles       |    0.15  |
 
 ## 2025-11-12 — video-transcript
 
@@ -18536,20 +18492,20 @@ _File: `2025-11-12_nicusor-dan-nu-ne-dorim-sa-fim-vecini-cu-rusia` · 166 clean 
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| rusia        |    0.279 |
-| august       |    0.253 |
+| rusia        |    0.28  |
+| august       |    0.252 |
 | pace         |    0.233 |
 | ucraina      |    0.199 |
-| vecin        |    0.159 |
-| insista      |    0.155 |
-| sancțiune    |    0.155 |
+| vecin        |    0.158 |
+| sancțiune    |    0.154 |
+| insista      |    0.154 |
 | implementare |    0.148 |
 | nivel        |    0.147 |
-| decât        |    0.144 |
+| decât        |    0.145 |
 | dori         |    0.14  |
 | efect        |    0.139 |
 | sine         |    0.138 |
-| ordine       |    0.136 |
+| ordine       |    0.137 |
 | document     |    0.132 |
 
 ## 2025-11-12 — video-transcript
@@ -18561,17 +18517,17 @@ _File: `2025-11-12_nicusor-dan-nu-vrem-sa-aparam-statul-vrem-sa-aparam-cetateni`
 | vrea          |    0.31  |
 | vedea         |    0.213 |
 | strategie     |    0.212 |
-| administrație |    0.209 |
+| administrație |    0.21  |
 | apărare       |    0.149 |
 | oportunitate  |    0.142 |
 | parte         |    0.13  |
-| rând          |    0.128 |
+| rând          |    0.129 |
 | pensiona      |    0.119 |
 | context       |    0.118 |
 | expres        |    0.118 |
-| sine          |    0.118 |
+| sine          |    0.117 |
 | militar       |    0.11  |
-| fenomen       |    0.109 |
+| fenomen       |    0.108 |
 | creștere      |    0.108 |
 
 ## 2025-11-12 — video-transcript
@@ -18580,10 +18536,10 @@ _File: `2025-11-12_nicusor-dan-serviciile-de-informatii-vor-fi-implicate-in-lup`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| expres     |    0.357 |
+| expres     |    0.356 |
 | implicare  |    0.284 |
 | fenomen    |    0.263 |
-| cunoaște   |    0.26  |
+| cunoaște   |    0.259 |
 | exprimat   |    0.223 |
 | informație |    0.21  |
 | etapa      |    0.206 |
@@ -18602,20 +18558,20 @@ _File: `2025-11-21_nicusor-dan-despre-aducerea-in-tara-a-mercenarului-horatiu-p`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| întâmpla   |    0.339 |
+| întâmpla   |    0.338 |
 | minister   |    0.289 |
 | utila      |    0.266 |
 | evident    |    0.241 |
-| bucată     |    0.234 |
+| bucată     |    0.233 |
 | potra      |    0.228 |
 | interne    |    0.22  |
 | instituție |    0.218 |
 | felicita   |    0.216 |
 | informare  |    0.197 |
 | lucru      |    0.193 |
-| justiția   |    0.19  |
+| justiția   |    0.189 |
 | anulare    |    0.167 |
-| seară      |    0.156 |
+| seară      |    0.157 |
 | repede     |    0.155 |
 
 ## 2025-11-21 — video-transcript
@@ -18627,7 +18583,7 @@ _File: `2025-11-21_nicusor-dan-orice-plan-de-pace-trebuie-aprobat-de-ucraina` ·
 | trebui        |    0.248 |
 | vrea          |    0.232 |
 | sine          |    0.223 |
-| spune         |    0.192 |
+| spune         |    0.193 |
 | întâmpla      |    0.186 |
 | putea         |    0.168 |
 | termen        |    0.155 |
@@ -18636,8 +18592,8 @@ _File: `2025-11-21_nicusor-dan-orice-plan-de-pace-trebuie-aprobat-de-ucraina` ·
 | evident       |    0.142 |
 | funcționa     |    0.128 |
 | moment        |    0.115 |
-| lucru         |    0.114 |
 | vedea         |    0.114 |
+| lucru         |    0.114 |
 | dumneavoastră |    0.107 |
 
 ## 2025-11-21 — video-transcript
@@ -18649,14 +18605,14 @@ _File: `2025-11-21_prima-reactie-a-lui-nicusor-dan-dupa-informatiile-aparute-cu`
 | partid      |    0.466 |
 | sacoșe      |    0.318 |
 | principiu   |    0.302 |
-| subvenție   |    0.259 |
-| discuție    |    0.231 |
+| subvenție   |    0.258 |
+| discuție    |    0.232 |
 | ban         |    0.22  |
 | duce        |    0.206 |
 | trebui      |    0.194 |
 | răspuns     |    0.16  |
 | contrafavor |    0.159 |
-| sine        |    0.157 |
+| sine        |    0.156 |
 | prim        |    0.151 |
 | întrebare   |    0.144 |
 | ceri        |    0.14  |
@@ -18669,9 +18625,9 @@ _File: `2025-11-26_nicusor-dan-declaratii-din-parlament-despre-problemele-inter`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | oportunitate |    0.234 |
-| zonă         |    0.229 |
+| zonă         |    0.228 |
 | dezvoltare   |    0.208 |
-| corupție     |    0.203 |
+| corupție     |    0.204 |
 | important    |    0.199 |
 | strategie    |    0.183 |
 | competitiv   |    0.133 |
@@ -18679,10 +18635,10 @@ _File: `2025-11-26_nicusor-dan-declaratii-din-parlament-despre-problemele-inter`
 | vorbi        |    0.129 |
 | vrea         |    0.122 |
 | românia      |    0.12  |
-| exista       |    0.118 |
+| exista       |    0.119 |
 | uniune       |    0.117 |
 | industrie    |    0.115 |
-| implementare |    0.105 |
+| implementare |    0.104 |
 
 ## 2025-11-26 — video-transcript
 
@@ -18696,13 +18652,13 @@ _File: `2025-11-26_nicusor-dan-declaratii-dupa-sustinerea-discursului-in-parlam`
 | femeie     |    0.172 |
 | proceda    |    0.166 |
 | discuție   |    0.163 |
+| atât       |    0.158 |
 | anchet     |    0.157 |
-| atât       |    0.157 |
 | lua        |    0.15  |
 | moment     |    0.15  |
 | faptă      |    0.146 |
 | autoritate |    0.135 |
-| vorbă      |    0.132 |
+| vorbă      |    0.131 |
 | excepție   |    0.129 |
 | adopta     |    0.116 |
 
@@ -18717,11 +18673,11 @@ _File: `2025-11-26_nicusor-dan-drone-care-din-cand-in-cand-intra-pe-teritoriul` 
 | explicație  |    0.257 |
 | alat        |    0.19  |
 | vorbă       |    0.185 |
-| precizie    |    0.182 |
 | accident    |    0.182 |
+| precizie    |    0.182 |
 | ministru    |    0.177 |
-| ostil       |    0.171 |
 | accidental  |    0.171 |
+| ostil       |    0.171 |
 | aeroport    |    0.166 |
 | chestiune   |    0.166 |
 | vede        |    0.157 |
@@ -18741,13 +18697,13 @@ _File: `2025-11-26_nicusor-dan-vom-sustine-in-continuare-ucraina-si-republica-m`
 | vecin       |    0.23  |
 | vest        |    0.226 |
 | integrare   |    0.222 |
-| republicii  |    0.197 |
+| republicii  |    0.198 |
 | sprijini    |    0.184 |
-| obiectiv    |    0.164 |
-| extern      |    0.161 |
+| obiectiv    |    0.165 |
+| extern      |    0.162 |
 | dezvoltare  |    0.16  |
-| condiție    |    0.159 |
 | moldova     |    0.159 |
+| condiție    |    0.159 |
 | politică    |    0.156 |
 
 ## 2025-12-01 — video-transcript
@@ -18763,10 +18719,10 @@ _File: `2025-12-01_a-inceput-parada-militara-la-arcul-de-triumf-nicusor-dan-pre`
 | moment     |    0.192 |
 | infanterie |    0.192 |
 | național   |    0.176 |
-| forță      |    0.175 |
+| forță      |    0.176 |
 | armată     |    0.17  |
 | program    |    0.148 |
-| apărare    |    0.138 |
+| apărare    |    0.139 |
 | memorie    |    0.107 |
 | domn       |    0.107 |
 | război     |    0.105 |
@@ -18779,7 +18735,7 @@ _File: `2025-12-01_nicusor-dan-mesaj-de-ziua-nationala-e-o-zi-de-sarbatoare-sa` 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | sărbătoare |    0.293 |
-| domn       |    0.233 |
+| domn       |    0.232 |
 | trainic    |    0.195 |
 | pup        |    0.195 |
 | șef        |    0.191 |
@@ -18788,11 +18744,11 @@ _File: `2025-12-01_nicusor-dan-mesaj-de-ziua-nationala-e-o-zi-de-sarbatoare-sa` 
 | haidet     |    0.181 |
 | miruță     |    0.181 |
 | relație    |    0.174 |
-| recepție   |    0.172 |
+| recepție   |    0.171 |
 | foști      |    0.168 |
 | paliere    |    0.164 |
 | ura        |    0.161 |
-| desemnare  |    0.159 |
+| paradă     |    0.159 |
 
 ## 2025-12-01 — video-transcript
 
@@ -18812,7 +18768,7 @@ _File: `2025-12-01_nicusor-dan-suntem-membri-ai-ue-dar-de-multe-ori-vocea-roman`
 | aproximativ |    0.184 |
 | auzi        |    0.176 |
 | voce        |    0.17  |
-| miliard     |    0.169 |
+| miliard     |    0.17  |
 | tehnic      |    0.159 |
 | interior    |    0.157 |
 
@@ -18822,20 +18778,20 @@ _File: `2025-12-02_nicusor-dan-mesaj-de-1-decembrie-digi24-stiriledigi24` · 61 
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| trăim      |    0.479 |
-| corupt     |    0.369 |
-| decât      |    0.284 |
-| dreptate   |    0.202 |
-| corupție   |    0.182 |
+| trăim      |    0.48  |
+| corupt     |    0.368 |
+| decât      |    0.285 |
+| dreptate   |    0.203 |
+| corupție   |    0.183 |
 | moment     |    0.166 |
 | modula     |    0.166 |
 | luciditate |    0.149 |
-| moralitate |    0.146 |
-| puteam     |    0.146 |
-| celebrăm   |    0.143 |
-| așteptără  |    0.143 |
+| puteam     |    0.145 |
+| moralitate |    0.145 |
+| celebrăm   |    0.142 |
+| așteptără  |    0.142 |
+| revolta    |    0.137 |
 | împlini    |    0.135 |
-| revolta    |    0.135 |
 | vis        |    0.129 |
 
 ## 2025-12-02 — video-transcript
@@ -18844,17 +18800,17 @@ _File: `2025-12-02_nicusor-dan-mesaj-de-1-decembrie-totusi-suntem-mai-putin-cor`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| muzică     |    0.328 |
+| muzică     |    0.329 |
 | românia    |    0.281 |
 | țară       |    0.205 |
-| corupție   |    0.202 |
+| corupție   |    0.203 |
 | corupt     |    0.194 |
 | român      |    0.178 |
 | spune      |    0.15  |
 | președinte |    0.15  |
 | sine       |    0.149 |
-| putea      |    0.138 |
-| decât      |    0.132 |
+| putea      |    0.137 |
+| decât      |    0.133 |
 | discurs    |    0.123 |
 | trăim      |    0.117 |
 | moment     |    0.115 |
@@ -18871,8 +18827,8 @@ _File: `2025-12-03_nicusor-dan-despre-criza-apei-potabile-din-prahova-vinova-ia`
 | ministru   |    0.172 |
 | fapt       |    0.171 |
 | sine       |    0.159 |
-| apă        |    0.154 |
 | moment     |    0.154 |
+| apă        |    0.154 |
 | filma      |    0.147 |
 | vrea       |    0.141 |
 | situație   |    0.136 |
@@ -18888,21 +18844,21 @@ _File: `2025-12-03_nicusor-dan-despre-criza-apei-potabile-din-prahova-vinova-ia_
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| opinie     |    0.418 |
-| energie    |    0.311 |
+| opinie     |    0.419 |
+| energie    |    0.312 |
 | vinovații  |    0.263 |
 | citim      |    0.247 |
 | stabilim   |    0.243 |
 | vinovăție  |    0.239 |
 | acoperi    |    0.206 |
 | cheie      |    0.194 |
-| des        |    0.191 |
+| des        |    0.19  |
 | control    |    0.184 |
 | electoral  |    0.156 |
 | autoritate |    0.15  |
 | declarație |    0.143 |
-| ministru   |    0.14  |
 | campanie   |    0.14  |
+| ministru   |    0.14  |
 
 ## 2025-12-03 — video-transcript
 
@@ -18912,14 +18868,14 @@ _File: `2025-12-03_nicusor-dan-dupa-amenintarile-lui-putin-sunt-declaratii-pent`
 |:------------|---------:|
 | declara     |    0.609 |
 | putin       |    0.311 |
-| declarație  |    0.311 |
-| public      |    0.243 |
+| declarație  |    0.31  |
+| public      |    0.242 |
 | intern      |    0.23  |
 | domn        |    0.172 |
 | vladimir    |    0.171 |
 | reacționa   |    0.157 |
-| citez       |    0.151 |
 | doamnelor   |    0.151 |
+| citez       |    0.151 |
 | firesc      |    0.148 |
 | întotdeauna |    0.142 |
 | lidere      |    0.133 |
@@ -18935,18 +18891,18 @@ _File: `2025-12-03_nicusor-dan-vinovatia-este-la-apele-romane` · 183 clean lemm
 | apă        |    0.399 |
 | situație   |    0.21  |
 | dușman     |    0.168 |
-| instituție |    0.163 |
+| instituție |    0.164 |
 | domn       |    0.158 |
 | calitate   |    0.157 |
 | vrea       |    0.153 |
 | sine       |    0.147 |
 | cătălin    |    0.146 |
-| bucureșten |    0.139 |
 | opinie     |    0.139 |
+| bucureșten |    0.139 |
 | urmă       |    0.135 |
 | sorin      |    0.131 |
 | evaluare   |    0.13  |
-| susține    |    0.129 |
+| susține    |    0.13  |
 
 ## 2025-12-04 — video-transcript
 
@@ -18957,10 +18913,10 @@ _File: `2025-12-04_bomba-lui-nicusor-dan-serviciile-au-stiut-cine-este-calin-ge`
 | detecta        |    0.446 |
 | reuși          |    0.349 |
 | călin          |    0.321 |
-| georgescu      |    0.315 |
-| ști            |    0.279 |
+| georgescu      |    0.314 |
+| ști            |    0.28  |
 | comunicare     |    0.222 |
-| infrastructură |    0.196 |
+| infrastructură |    0.195 |
 | serviciu       |    0.17  |
 | evident        |    0.157 |
 | radar          |    0.152 |
@@ -18976,21 +18932,21 @@ _File: `2025-12-04_nicusor-dan-despre-alegerile-anulate-au-aparut-suficiente-in`
 
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
-| raport         |    0.274 |
+| raport         |    0.273 |
 | prezenta       |    0.256 |
 | schimba        |    0.249 |
-| alegere        |    0.203 |
+| alegere        |    0.204 |
 | dezinformare   |    0.202 |
 | ianuarie       |    0.2   |
-| explica        |    0.182 |
+| explica        |    0.181 |
 | moment         |    0.161 |
 | viabil         |    0.161 |
 | trecut         |    0.158 |
 | campanie       |    0.15  |
-| spuneați       |    0.149 |
 | periferic      |    0.149 |
+| spuneați       |    0.149 |
 | conștientizare |    0.141 |
-| ște            |    0.138 |
+| informat       |    0.138 |
 
 ## 2025-12-04 — video-transcript
 
@@ -19001,13 +18957,13 @@ _File: `2025-12-04_nicusor-dan-despre-demisia-lui-mosteanu-intensitatea-critici`
 | ministru     |    0.375 |
 | moșteanu     |    0.296 |
 | fapt         |    0.237 |
-| apărare      |    0.207 |
+| apărare      |    0.208 |
 | intensitate  |    0.207 |
 | blama        |    0.207 |
 | usr          |    0.191 |
 | decizie      |    0.191 |
 | proporțional |    0.176 |
-| sine         |    0.17  |
+| sine         |    0.169 |
 | protocol     |    0.165 |
 | numire       |    0.144 |
 | ocupa        |    0.141 |
@@ -19022,16 +18978,16 @@ _File: `2025-12-04_nicusor-dan-vinovatia-este-la-apele-romane-newsroom-din-3-de`
 |:----------|---------:|
 | apă       |    0.548 |
 | sine      |    0.237 |
-| domn      |    0.21  |
+| domn      |    0.209 |
 | vedea     |    0.175 |
 | centrală  |    0.169 |
 | vrea      |    0.147 |
 | spune     |    0.144 |
-| ministru  |    0.132 |
+| ministru  |    0.131 |
 | baraj     |    0.129 |
 | moțiune   |    0.123 |
 | rafinărie |    0.12  |
-| ști       |    0.113 |
+| ști       |    0.114 |
 | situație  |    0.109 |
 | psd       |    0.105 |
 | problemă  |    0.102 |
@@ -19042,21 +18998,21 @@ _File: `2025-12-07_presedintele-nicusor-dan-de-mult-nu-am-mai-votat-pentru-altc`
 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
-| vota     |    0.304 |
-| milita   |    0.289 |
+| vota     |    0.305 |
+| milita   |    0.288 |
 | adică    |    0.262 |
 | occident |    0.258 |
 | alegere  |    0.254 |
 | simbolic |    0.231 |
-| defini   |    0.209 |
+| defini   |    0.21  |
 | afară    |    0.195 |
 | cunosc   |    0.194 |
-| candida  |    0.192 |
-| românie  |    0.182 |
-| jumătate |    0.174 |
+| candida  |    0.191 |
+| românie  |    0.183 |
+| jumătate |    0.173 |
 | oraș     |    0.17  |
 | personal |    0.168 |
-| cauză    |    0.167 |
+| cauză    |    0.166 |
 
 ## 2025-12-08 — video-transcript
 
@@ -19067,7 +19023,7 @@ _File: `2025-12-08_l-orban-a-izbucnit-in-ras-dupa-mesajul-transmis-de-nicusor-d`
 | ciprianciucu |    0.324 |
 | ciprian      |    0.267 |
 | inclusiv     |    0.233 |
-| alegere      |    0.182 |
+| alegere      |    0.183 |
 | ciucu        |    0.178 |
 | aleși        |    0.175 |
 | felicitare   |    0.173 |
@@ -19075,8 +19031,8 @@ _File: `2025-12-08_l-orban-a-izbucnit-in-ras-dupa-mesajul-transmis-de-nicusor-d`
 | cătălin      |    0.158 |
 | special      |    0.153 |
 | campanie     |    0.151 |
-| mesaj        |    0.147 |
-| rând         |    0.141 |
+| mesaj        |    0.148 |
+| rând         |    0.142 |
 | nicușor      |    0.138 |
 | dan          |    0.135 |
 
@@ -19095,9 +19051,9 @@ _File: `2025-12-09_nicusor-dan-nu-vad-vreun-motiv-pentru-care-un-ministru-trebu`
 | demisie       |    0.163 |
 | trebui        |    0.153 |
 | administrativ |    0.153 |
-| politician    |    0.151 |
+| politician    |    0.152 |
 | printre       |    0.149 |
-| diferență     |    0.145 |
+| diferență     |    0.146 |
 | conducere     |    0.144 |
 | fine          |    0.141 |
 | pleca         |    0.135 |
@@ -19109,20 +19065,20 @@ _File: `2025-12-10_nicusor-dan-nu-toti-votantii-aur-sunt-extremisti-stiri-b1tv` 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | spune       |    0.305 |
-| aur         |    0.283 |
-| alegător    |    0.265 |
+| aur         |    0.282 |
+| alegător    |    0.264 |
 | nemulțumi   |    0.238 |
 | extremist   |    0.226 |
 | îndrepta    |    0.2   |
 | vrea        |    0.161 |
 | antieuropen |    0.157 |
 | schița      |    0.151 |
-| votanț      |    0.151 |
 | proe        |    0.151 |
 | refugia     |    0.151 |
+| votanț      |    0.151 |
 | motivație   |    0.146 |
-| narativ     |    0.142 |
-| reașezare   |    0.142 |
+| narativ     |    0.141 |
+| reașezare   |    0.141 |
 
 ## 2025-12-10 — video-transcript
 
@@ -19132,15 +19088,15 @@ _File: `2025-12-10_romania-lui-vitalie-nicusor-dan-despre-strategia-de-securita`
 |:---------|---------:|
 | europa   |    0.281 |
 | european |    0.222 |
-| vrea     |    0.222 |
+| vrea     |    0.221 |
 | uniune   |    0.198 |
 | sine     |    0.181 |
 | unit     |    0.18  |
 | spune    |    0.17  |
 | trump    |    0.163 |
-| adică    |    0.142 |
+| adică    |    0.141 |
 | stat     |    0.141 |
-| putea    |    0.125 |
+| putea    |    0.124 |
 | război   |    0.116 |
 | digital  |    0.113 |
 | exista   |    0.11  |
@@ -19152,20 +19108,20 @@ _File: `2025-12-11_nicusor-dan-judecatorii-sa-se-implice-in-rezolvarea-probleme`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| justiție  |    0.409 |
+| justiție  |    0.41  |
 | sistem    |    0.302 |
 | investiga |    0.23  |
 | interior  |    0.216 |
 | probă     |    0.183 |
 | spune     |    0.173 |
 | magistrat |    0.167 |
-| fapt      |    0.166 |
+| fapt      |    0.165 |
 | material  |    0.159 |
 | raport    |    0.152 |
 | vorbim    |    0.15  |
+| sesizăre  |    0.134 |
 | recurență |    0.134 |
 | reporter  |    0.134 |
-| cazurile  |    0.134 |
 | pedepsit  |    0.134 |
 
 ## 2025-12-12 — video-transcript
@@ -19174,21 +19130,21 @@ _File: `2025-12-12_bolojan-anunta-ca-a-discutat-cu-nicusor-dan-dupa-acuzatiile` 
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| documentar  |    0.294 |
+| documentar  |    0.293 |
 | spune       |    0.223 |
 | judecător   |    0.216 |
 | justiție    |    0.213 |
 | trebui      |    0.185 |
 | domn        |    0.166 |
-| sine        |    0.165 |
+| sine        |    0.164 |
 | magistrat   |    0.156 |
 | putea       |    0.153 |
-| prescripție |    0.144 |
+| prescripție |    0.143 |
 | modifica    |    0.143 |
 | recorder    |    0.141 |
-| ști         |    0.126 |
-| lucru       |    0.121 |
+| ști         |    0.127 |
 | vedea       |    0.121 |
+| lucru       |    0.121 |
 
 ## 2025-12-15 — video-transcript
 
@@ -19201,16 +19157,16 @@ _File: `2025-12-15_nicusor-dan-anunturi-majore-in-scandalurile-momentului` · 13
 | privi        |    0.189 |
 | asociație    |    0.188 |
 | același      |    0.184 |
-| dorință      |    0.179 |
+| dorință      |    0.18  |
 | societate    |    0.169 |
-| diasporă     |    0.154 |
+| diasporă     |    0.155 |
 | deschide     |    0.147 |
 | reprezentant |    0.143 |
 | folosi       |    0.142 |
 | reuși        |    0.137 |
-| pute         |    0.136 |
-| latin        |    0.136 |
 | portal       |    0.136 |
+| expertiza    |    0.136 |
+| latin        |    0.136 |
 
 ## 2025-12-15 — video-transcript
 
@@ -19221,16 +19177,16 @@ _File: `2025-12-15_nicusor-dan-dupa-guta-buna-romania-b1tv-15-dec-2025` · 418 c
 | nicolae  |    0.459 |
 | domn     |    0.257 |
 | duce     |    0.236 |
-| crede    |    0.224 |
+| crede    |    0.225 |
 | ști      |    0.181 |
-| emisiune |    0.178 |
+| emisiune |    0.177 |
 | râset    |    0.175 |
 | nicușor  |    0.17  |
 | canal    |    0.149 |
 | păi      |    0.145 |
 | iancu    |    0.143 |
-| părea    |    0.128 |
-| sine     |    0.123 |
+| părea    |    0.129 |
+| sine     |    0.122 |
 | doamnă   |    0.108 |
 | situație |    0.105 |
 
@@ -19240,7 +19196,7 @@ _File: `2025-12-15_nicusor-dan-voi-actiona-pentru-apararea-independentei-justit`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| perioadă   |    0.264 |
+| perioadă   |    0.265 |
 | helsinki   |    0.213 |
 | trimite    |    0.203 |
 | mail       |    0.201 |
@@ -19253,8 +19209,8 @@ _File: `2025-12-15_nicusor-dan-voi-actiona-pentru-apararea-independentei-justit`
 | legislativ |    0.148 |
 | lucru      |    0.135 |
 | interior   |    0.133 |
-| însris     |    0.124 |
 | sute       |    0.124 |
+| însris     |    0.124 |
 
 ## 2025-12-16 — video-transcript
 
@@ -19264,15 +19220,15 @@ _File: `2025-12-16_ciucu-spune-ce-a-gasit-la-primarie-dupa-nicusor-dan-lucruril`
 |:---------|---------:|
 | stb      |    0.348 |
 | grav     |    0.283 |
-| buget    |    0.231 |
+| buget    |    0.232 |
 | datorie  |    0.228 |
 | dator    |    0.204 |
 | acumula  |    0.204 |
-| primărie |    0.196 |
+| primărie |    0.195 |
 | vrea     |    0.185 |
 | șoc      |    0.177 |
 | ron      |    0.161 |
-| miliard  |    0.14  |
+| miliard  |    0.141 |
 | lucru    |    0.132 |
 | primar   |    0.129 |
 | mic      |    0.125 |
@@ -19289,12 +19245,12 @@ _File: `2025-12-16_nicusor-dan-declara-ca-rusia-va-continua-sa-fie-o-amenintare`
 | parte                           |    0.169 |
 | sistem                          |    0.162 |
 | interior                        |    0.161 |
+| util                            |    0.133 |
 | sine                            |    0.132 |
-| util                            |    0.132 |
 | protocol                        |    0.129 |
 | justiție                        |    0.122 |
 | moment                          |    0.12  |
-| european                        |    0.119 |
+| european                        |    0.12  |
 | rusia                           |    0.119 |
 | spune                           |    0.116 |
 | program                         |    0.115 |
@@ -19307,16 +19263,16 @@ _File: `2025-12-16_nicusor-dan-sunt-destul-de-pesimist-cu-privire-la-intentia-r`
 | lemmă     |   TF-IDF |
 |:----------|---------:|
 | ucraina   |    0.283 |
-| the       |    0.265 |
+| the       |    0.264 |
 | were      |    0.23  |
-| negociere |    0.205 |
+| negociere |    0.206 |
 | pace      |    0.166 |
-| working   |    0.16  |
 | theyve    |    0.16  |
-| rusia     |    0.159 |
+| working   |    0.16  |
+| rusia     |    0.16  |
 | you       |    0.153 |
 | pesimist  |    0.144 |
-| front     |    0.141 |
+| front     |    0.14  |
 | zelenschi |    0.128 |
 | security  |    0.126 |
 | europe    |    0.124 |
@@ -19330,7 +19286,7 @@ _File: `2025-12-16_nicusor-dan-trebuie-sa-fim-calmi-dar-sa-investim-in-aparare` 
 |:--------------------------------|---------:|
 | amenințare                      |    0.257 |
 | intensific                      |    0.226 |
-| rusia                           |    0.225 |
+| rusia                           |    0.226 |
 | northatlantictreatyorganization |    0.214 |
 | țară                            |    0.213 |
 | înarma                          |    0.21  |
@@ -19351,10 +19307,10 @@ _File: `2025-12-17_declaratia-presedintelui-romaniei-nicusor-dan-in-regatul-mar`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | vrea        |    0.367 |
-| impozit     |    0.244 |
+| impozit     |    0.243 |
 | reformă     |    0.193 |
-| buget       |    0.16  |
-| coaliție    |    0.157 |
+| buget       |    0.161 |
+| coaliție    |    0.156 |
 | întrebare   |    0.13  |
 | sine        |    0.13  |
 | dimineață   |    0.129 |
@@ -19362,9 +19318,9 @@ _File: `2025-12-17_declaratia-presedintelui-romaniei-nicusor-dan-in-regatul-mar`
 | întreba     |    0.119 |
 | transpune   |    0.117 |
 | decembrie   |    0.114 |
-| proprietate |    0.109 |
 | grăbi       |    0.109 |
-| spune       |    0.108 |
+| proprietate |    0.109 |
+| spune       |    0.109 |
 
 ## 2025-12-17 — video-transcript
 
@@ -19385,7 +19341,7 @@ _File: `2025-12-17_nicusor-dan-despre-cresterea-impozitelor-nu-e-nici-fericire` 
 | ideal       |    0.139 |
 | inflație    |    0.136 |
 | agrea       |    0.132 |
-| venit       |    0.128 |
+| venit       |    0.129 |
 | munci       |    0.124 |
 
 ## 2025-12-17 — video-transcript
@@ -19396,10 +19352,10 @@ _File: `2025-12-17_nicusor-dan-sunt-probleme-la-modul-in-care-se-fac-promovaril`
 |:----------|---------:|
 | problemă  |    0.275 |
 | vrea      |    0.254 |
-| spune     |    0.232 |
+| spune     |    0.233 |
 | justiție  |    0.225 |
 | chestiune |    0.218 |
-| coaliție  |    0.207 |
+| coaliție  |    0.206 |
 | discuție  |    0.161 |
 | opinie    |    0.155 |
 | trebui    |    0.152 |
@@ -19416,21 +19372,21 @@ _File: `2025-12-18_nicusor-dan-avem-atacuri-cibernetice-campanie-de-dezinformar`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| raport        |    0.362 |
-| ieșim         |    0.359 |
+| ieșim         |    0.362 |
+| raport        |    0.361 |
 | întâmpla      |    0.203 |
 | alegere       |    0.202 |
 | rus           |    0.183 |
 | important     |    0.163 |
 | campanie      |    0.149 |
-| desecretizare |    0.144 |
+| desecretizare |    0.143 |
 | sabotaj       |    0.14  |
 | elită         |    0.137 |
 | lună          |    0.131 |
-| conducător    |    0.13  |
-| preda         |    0.128 |
-| numit         |    0.128 |
-| manifesta     |    0.124 |
+| conducător    |    0.129 |
+| numit         |    0.127 |
+| preda         |    0.127 |
+| roșu          |    0.124 |
 
 ## 2025-12-18 — video-transcript
 
@@ -19444,15 +19400,15 @@ _File: `2025-12-18_nicusor-dan-primit-de-regele-charles-stiri-b1tv-18-dec-2025` 
 | monarh      |    0.165 |
 | nicușordan  |    0.164 |
 | scurt       |    0.163 |
-| palat       |    0.163 |
+| palat       |    0.162 |
 | vizit       |    0.158 |
 | transmite   |    0.157 |
 | mesaj       |    0.15  |
 | majestății  |    0.148 |
 | întrevedere |    0.139 |
 | suveran     |    0.136 |
-| britanic    |    0.132 |
 | felicitare  |    0.132 |
+| britanic    |    0.132 |
 
 ## 2025-12-18 — video-transcript
 
@@ -19467,12 +19423,12 @@ _File: `2025-12-18_nicusor-dan-problema-fundamentala-este-de-ce-nu-reusim-in-15`
 | faptă       |    0.29  |
 | rezolvăm    |    0.281 |
 | cercetare   |    0.226 |
-| dosar       |    0.221 |
+| dosar       |    0.22  |
 | viza        |    0.215 |
 | termina     |    0.206 |
-| corupție    |    0.195 |
-| reuși       |    0.18  |
-| soluție     |    0.176 |
+| corupție    |    0.196 |
+| reuși       |    0.179 |
+| soluție     |    0.177 |
 | persoană    |    0.171 |
 | adică       |    0.155 |
 
@@ -19480,23 +19436,23 @@ _File: `2025-12-18_nicusor-dan-problema-fundamentala-este-de-ce-nu-reusim-in-15`
 
 _File: `2025-12-18_nicusor-dan-problema-fundamentala-este-de-ce-nu-reusim-in-15_wynkjt` · 446 clean lemmas_
 
-| lemmă      |   TF-IDF |
-|:-----------|---------:|
-| partid     |    0.228 |
-| liberal    |    0.21  |
-| lac        |    0.168 |
-| interior   |    0.162 |
-| sine       |    0.149 |
-| politic    |    0.135 |
-| analiză    |    0.131 |
-| dreaptă    |    0.128 |
-| majoritate |    0.127 |
-| bolojan    |    0.125 |
-| vilă       |    0.121 |
-| domn       |    0.12  |
-| subiect    |    0.119 |
-| următor    |    0.113 |
-| miruță     |    0.112 |
+| lemmă         |   TF-IDF |
+|:--------------|---------:|
+| partid        |    0.228 |
+| liberal       |    0.21  |
+| lac           |    0.168 |
+| interior      |    0.163 |
+| sine          |    0.149 |
+| politic       |    0.135 |
+| analiză       |    0.131 |
+| dreaptă       |    0.128 |
+| majoritate    |    0.127 |
+| bolojan       |    0.125 |
+| vilă          |    0.121 |
+| domn          |    0.12  |
+| subiect       |    0.119 |
+| următor       |    0.113 |
+| vicepreședint |    0.112 |
 
 ## 2025-12-18 — video-transcript
 
@@ -19508,7 +19464,7 @@ _File: `2025-12-18_nicusor-dan-sustinem-oricare-dintre-variantele-de-ajutor-fin`
 | ungaria     |    0.219 |
 | vest        |    0.207 |
 | public      |    0.186 |
-| miruță      |    0.185 |
+| miruță      |    0.184 |
 | discuție    |    0.181 |
 | balcanii    |    0.179 |
 | fundamental |    0.177 |
@@ -19526,16 +19482,16 @@ _File: `2025-12-19_nicusor-dan-anunt-inainte-de-intalnirea-cu-magistratii` · 48
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| curți      |    0.332 |
 | înaltei    |    0.332 |
+| curți      |    0.332 |
 | casație    |    0.307 |
-| justiție   |    0.288 |
+| justiție   |    0.289 |
 | numire     |    0.237 |
-| conducerii |    0.189 |
 | șefă       |    0.189 |
-| niciun     |    0.187 |
+| conducerii |    0.189 |
+| niciun     |    0.186 |
 | șef        |    0.185 |
-| președinte |    0.178 |
+| președinte |    0.179 |
 | urmă       |    0.171 |
 | spectator  |    0.17  |
 | desemnare  |    0.154 |
@@ -19552,13 +19508,13 @@ _File: `2025-12-21_declaratia-presedintelui-romaniei-nicusor-dan-pe-tema-proble`
 | chestiune     |    0.233 |
 | instanțelor   |    0.183 |
 | justiție      |    0.18  |
-| vrea          |    0.169 |
+| vrea          |    0.17  |
 | semnala       |    0.168 |
 | public        |    0.165 |
 | sine          |    0.163 |
-| sistem        |    0.16  |
+| sistem        |    0.159 |
 | superior      |    0.153 |
-| interes       |    0.146 |
+| interes       |    0.147 |
 | magistraturii |    0.136 |
 | scrie         |    0.131 |
 | față          |    0.13  |
@@ -19576,7 +19532,7 @@ _File: `2025-12-21_nicusor-dan-exista-magistrati-care-actioneaza-in-interesul-u`
 | sine           |    0.178 |
 | curte          |    0.164 |
 | referendum     |    0.16  |
-| fapt           |    0.15  |
+| fapt           |    0.149 |
 | președinte     |    0.147 |
 | țăranu         |    0.144 |
 | bătălie        |    0.14  |
@@ -19596,12 +19552,12 @@ _File: `2025-12-21_nicusor-dan-exista-magistrati-care-actioneaza-in-interesul-u_
 | criteriu     |    0.267 |
 | magistrat    |    0.241 |
 | înalt        |    0.232 |
-| acționa      |    0.221 |
+| acționa      |    0.222 |
 | curte        |    0.205 |
-| justiție     |    0.197 |
+| justiție     |    0.198 |
 | predicat     |    0.194 |
 | obediență    |    0.186 |
-| interes      |    0.183 |
+| interes      |    0.184 |
 | promovăril   |    0.174 |
 | dependent    |    0.174 |
 | discreționar |    0.17  |
@@ -19619,13 +19575,13 @@ _File: `2025-12-21_nicusor-dan-magistratii-intimidati-inainte-de-discutiile-de` 
 | spune      |    0.239 |
 | public     |    0.221 |
 | sine       |    0.212 |
-| interes    |    0.198 |
+| interes    |    0.199 |
 | sistem     |    0.167 |
 | vedea      |    0.161 |
 | csm        |    0.146 |
 | ști        |    0.139 |
 | discuție   |    0.126 |
-| grup       |    0.12  |
+| grup       |    0.119 |
 | președinte |    0.116 |
 | justiție   |    0.113 |
 | urmă       |    0.112 |
@@ -19636,17 +19592,17 @@ _File: `2025-12-21_nicusor-dan-magistratii-intimidati-inainte-de-discutiile-de__
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| benzinăr     |    0.24  |
-| intimidar    |    0.222 |
-| influențare  |    0.222 |
-| cotrăceni    |    0.222 |
-| săli         |    0.222 |
+| benzinăr     |    0.239 |
 | intersecta   |    0.222 |
-| repercusiune |    0.216 |
-| nepotrivit   |    0.216 |
+| cotrăceni    |    0.222 |
+| influențare  |    0.222 |
+| săli         |    0.222 |
+| intimidar    |    0.222 |
+| nepotrivit   |    0.215 |
+| repercusiune |    0.215 |
 | lume         |    0.211 |
 | teamă        |    0.189 |
-| exista       |    0.178 |
+| exista       |    0.179 |
 | vedea        |    0.174 |
 | trafic       |    0.163 |
 | solicita     |    0.155 |
@@ -19659,16 +19615,16 @@ _File: `2025-12-21_nicusor-dan-voi-face-un-referendum-daca-csm-nu-actioneaza-in`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | magistraturii |    0.441 |
-| superior      |    0.399 |
-| interes       |    0.339 |
-| consiliu      |    0.279 |
+| superior      |    0.398 |
+| interes       |    0.34  |
+| consiliu      |    0.278 |
 | acționa       |    0.246 |
-| judiciar      |    0.207 |
+| judiciar      |    0.206 |
 | grav          |    0.168 |
 | public        |    0.161 |
 | vrea          |    0.147 |
-| spune         |    0.139 |
-| sistem        |    0.13  |
+| spune         |    0.14  |
+| sistem        |    0.129 |
 | breslei       |    0.129 |
 | iniție        |    0.123 |
 | situație      |    0.121 |
@@ -19682,13 +19638,13 @@ _File: `2025-12-21_nicusor-dan-voi-initia-in-ianuarie-un-referendum-in-cadrul-c`
 |:--------------|---------:|
 | magistraturii |    0.415 |
 | superior      |    0.375 |
-| interes       |    0.319 |
+| interes       |    0.32  |
 | consiliu      |    0.262 |
-| acționa       |    0.231 |
+| acționa       |    0.232 |
 | spune         |    0.219 |
 | judiciar      |    0.194 |
 | grav          |    0.158 |
-| public        |    0.152 |
+| public        |    0.151 |
 | vrea          |    0.138 |
 | sesizat       |    0.135 |
 | sistem        |    0.122 |
@@ -19705,17 +19661,17 @@ _File: `2025-12-22_discutii-publice-la-cotroceni-intre-presedintele-romaniei-ni_
 | judecător |    0.27  |
 | sine      |    0.248 |
 | procuror  |    0.243 |
-| judiciar  |    0.206 |
+| judiciar  |    0.205 |
 | putea     |    0.188 |
 | secție    |    0.167 |
 | dosar     |    0.156 |
-| justiție  |    0.145 |
+| justiție  |    0.146 |
 | coleg     |    0.145 |
 | sistem    |    0.143 |
 | spune     |    0.122 |
 | aspect    |    0.12  |
 | trebui    |    0.12  |
-| exista    |    0.106 |
+| exista    |    0.107 |
 | curte     |    0.101 |
 
 ## 2025-12-22 — video-transcript
@@ -19724,13 +19680,13 @@ _File: `2025-12-22_nicusor-dan-anunta-un-referendum-printre-magistrati-digi24` �
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| interes       |    0.415 |
-| magistraturii |    0.386 |
-| acționa       |    0.358 |
-| superior      |    0.349 |
-| consiliu      |    0.244 |
-| public        |    0.188 |
-| sesizare      |    0.172 |
+| interes       |    0.416 |
+| magistraturii |    0.385 |
+| acționa       |    0.359 |
+| superior      |    0.348 |
+| consiliu      |    0.243 |
+| public        |    0.187 |
+| sesizare      |    0.171 |
 | magistrat     |    0.156 |
 | grup          |    0.135 |
 | majoritate    |    0.132 |
@@ -19760,7 +19716,7 @@ _File: `2025-12-22_nicusor-dan-multe-dintre-cele-semnalate-necesita-verificari` 
 | anunța       |    0.164 |
 | informație   |    0.157 |
 | oră          |    0.156 |
-| merge        |    0.149 |
+| merge        |    0.15  |
 
 ## 2025-12-22 — video-transcript
 
@@ -19768,7 +19724,7 @@ _File: `2025-12-22_opozitia-vrea-suspendarea-lui-nicusor-dan-dupa-anuntul-despr`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| sos         |    0.289 |
+| sos         |    0.29  |
 | suspendare  |    0.266 |
 | semnătură   |    0.247 |
 | deputat     |    0.227 |
@@ -19792,7 +19748,7 @@ _File: `2026-01-01_nicusor-dan-mesaj-de-anul-nou-drumul-nu-va-fi-usor` · 121 cl
 |:-------------|---------:|
 | anulare      |    0.324 |
 | președinte   |    0.284 |
-| alegere      |    0.217 |
+| alegere      |    0.218 |
 | prezenta     |    0.205 |
 | vrea         |    0.198 |
 | nicușordan   |    0.192 |
@@ -19815,18 +19771,18 @@ _File: `2026-01-01_nicusor-dan-mesaj-de-condoleante-dupa-incediul-din-elvetia` �
 | răni        |    0.41  |
 | condoleanță |    0.393 |
 | victimă     |    0.311 |
-| incendi     |    0.224 |
 | întrista    |    0.224 |
+| incendi     |    0.224 |
 | transmite   |    0.222 |
 | incendiu    |    0.21  |
-| elveția     |    0.21  |
 | explozie    |    0.21  |
+| elveția     |    0.21  |
 | sincere     |    0.2   |
 | platformă   |    0.177 |
 | profund     |    0.144 |
 | popor       |    0.142 |
 | scrie       |    0.138 |
-| pierde      |    0.129 |
+| pierde      |    0.13  |
 
 ## 2026-01-06 — video-transcript
 
@@ -19840,7 +19796,7 @@ _File: `2026-01-06_declaratia-presedintelui-romaniei-nicusor-dan-dupa-participa_
 | coaliție   |    0.182 |
 | militar    |    0.146 |
 | românia    |    0.14  |
-| spune      |    0.136 |
+| spune      |    0.137 |
 | mecanism   |    0.132 |
 | lucru      |    0.129 |
 | seara      |    0.118 |
@@ -19856,17 +19812,17 @@ _File: `2026-01-06_nicusor-dan-declaratii-la-bordul-avionului-spartan-cu-care-a`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| gradual       |    0.525 |
-| încet         |    0.516 |
-| schimbare     |    0.311 |
+| gradual       |    0.524 |
+| încet         |    0.515 |
+| schimbare     |    0.312 |
 | context       |    0.291 |
+| revoluție     |    0.238 |
 | subliniez     |    0.238 |
-| revoluție     |    0.235 |
-| dorință       |    0.209 |
-| dificil       |    0.176 |
+| dorință       |    0.21  |
+| dificil       |    0.177 |
 | românia       |    0.144 |
-| internațional |    0.144 |
 | însemna       |    0.144 |
+| internațional |    0.144 |
 | pune          |    0.127 |
 | moment        |    0.106 |
 
@@ -19880,16 +19836,16 @@ _File: `2026-01-06_nicusor-dan-suntem-intr-un-context-international-dificil` · 
 | stabilizare   |    0.34  |
 | încet         |    0.315 |
 | coaliție      |    0.271 |
-| dificil       |    0.215 |
+| dificil       |    0.216 |
 | schimbare     |    0.19  |
 | context       |    0.178 |
-| internațional |    0.176 |
+| internațional |    0.175 |
 | rosti         |    0.16  |
 | destabilizare |    0.16  |
 | reuniuni      |    0.153 |
+| revoluție     |    0.145 |
 | categoric     |    0.145 |
 | subliniez     |    0.145 |
-| revoluție     |    0.144 |
 | paris         |    0.142 |
 
 ## 2026-01-07 — video-transcript
@@ -19922,19 +19878,19 @@ _File: `2026-01-07_nicusor-dan-e-nevoie-de-un-avion-prezidential` · 109 clean l
 |:------------|---------:|
 | zăpadă      |    0.527 |
 | avion       |    0.319 |
-| bloca       |    0.219 |
+| bloca       |    0.218 |
 | tren        |    0.204 |
-| înăuntru    |    0.198 |
 | ceai        |    0.198 |
-| bucura      |    0.191 |
+| înăuntru    |    0.198 |
+| bucura      |    0.192 |
 | cald        |    0.176 |
 | noapte      |    0.163 |
 | franța      |    0.137 |
 | moment      |    0.11  |
-| delegat     |    0.11  |
-| nefavorabil |    0.11  |
-| tinerețe    |    0.11  |
 | naș         |    0.11  |
+| nefavorabil |    0.11  |
+| delegat     |    0.11  |
+| spartan     |    0.11  |
 
 ## 2026-01-07 — video-transcript
 
@@ -19942,15 +19898,15 @@ _File: `2026-01-07_nicusor-dan-mi-ar-fi-placut-mai-degraba-ca-taxele-sa-scada` �
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| taxă       |    0.535 |
+| taxă       |    0.534 |
 | scedea     |    0.253 |
 | niciun     |    0.226 |
 | plăcea     |    0.197 |
-| guvern     |    0.186 |
-| crește     |    0.152 |
-| ține       |    0.143 |
-| notificare |    0.138 |
+| guvern     |    0.187 |
+| crește     |    0.153 |
+| ține       |    0.144 |
 | nevoit     |    0.138 |
+| notificare |    0.138 |
 | întrebat   |    0.134 |
 | chestiune  |    0.134 |
 | nicuordan  |    0.131 |
@@ -19965,7 +19921,7 @@ _File: `2026-01-12_sefa-curtii-de-apel-bucuresti-cere-intalnire-cu-nicusor-dan` 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | matematic    |    0.354 |
-| justiție     |    0.262 |
+| justiție     |    0.263 |
 | putere       |    0.26  |
 | judecătoresc |    0.244 |
 | judecător    |    0.199 |
@@ -19973,12 +19929,12 @@ _File: `2026-01-12_sefa-curtii-de-apel-bucuresti-cere-intalnire-cu-nicusor-dan` 
 | restrâns     |    0.191 |
 | control      |    0.19  |
 | sistem       |    0.186 |
-| cinic        |    0.186 |
+| cinic        |    0.185 |
 | șefa         |    0.181 |
 | conduce      |    0.169 |
 | preluare     |    0.158 |
 | sine         |    0.152 |
-| merge        |    0.139 |
+| merge        |    0.14  |
 
 ## 2026-01-15 — video-transcript
 
@@ -19989,17 +19945,17 @@ _File: `2026-01-15_nicusor-dan-despre-taierile-pentru-romani-dureroase-dar-obli`
 | dureros       |    0.342 |
 | măsură        |    0.286 |
 | deficit       |    0.238 |
-| macroeconomic |    0.223 |
 | imperativele  |    0.223 |
+| macroeconomic |    0.223 |
 | așteptat      |    0.201 |
-| redresare     |    0.188 |
+| redresare     |    0.187 |
 | lua           |    0.186 |
 | austeritate   |    0.184 |
 | aparține      |    0.165 |
 | metodă        |    0.159 |
 | guvernamental |    0.152 |
-| scădea        |    0.151 |
 | urgent        |    0.151 |
+| scădea        |    0.151 |
 | obligatoriu   |    0.15  |
 
 ## 2026-01-15 — video-transcript
@@ -20009,14 +19965,14 @@ _File: `2026-01-15_nicusor-dan-ne-asteapta-o-perioada-complicata-si-dificil-de` 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | reconsolidare |    0.226 |
-| dinamism      |    0.217 |
 | reconciliere  |    0.217 |
+| dinamism      |    0.217 |
 | realităță     |    0.217 |
 | prompt        |    0.198 |
 | diplomat      |    0.194 |
 | reclamă       |    0.19  |
 | flexibilitate |    0.187 |
-| anticipa      |    0.184 |
+| anticipa      |    0.183 |
 | test          |    0.181 |
 | multiplu      |    0.178 |
 | suprapune     |    0.176 |
@@ -20034,14 +19990,14 @@ _File: `2026-01-15_nicusor-dan-romania-sustine-pacea-in-ucraina-si-integrarea-r`
 | stat       |    0.179 |
 | românia    |    0.168 |
 | global     |    0.159 |
-| european   |    0.157 |
+| european   |    0.158 |
 | extern     |    0.147 |
 | securitate |    0.142 |
-| politică   |    0.141 |
-| partener   |    0.137 |
+| politică   |    0.142 |
+| partener   |    0.136 |
 | instrument |    0.129 |
 | continua   |    0.119 |
-| uniune     |    0.117 |
+| uniune     |    0.118 |
 | sine       |    0.116 |
 | cooperare  |    0.115 |
 | reprezenta |    0.114 |
@@ -20056,11 +20012,11 @@ _File: `2026-01-20_nicusor-dan-anunta-azi-daca-merge-la-davos-pentru-consiliul` 
 | joi        |    0.265 |
 | președinte |    0.223 |
 | răspuns    |    0.214 |
-| parte      |    0.199 |
+| parte      |    0.2   |
 | veni       |    0.189 |
 | european   |    0.165 |
 | trump      |    0.161 |
-| dan        |    0.148 |
+| dan        |    0.147 |
 | pace       |    0.147 |
 | șef        |    0.138 |
 | oră        |    0.133 |
@@ -20082,7 +20038,7 @@ _File: `2026-01-22_nicusor-dan-despre-pozitia-romaniei-cu-privire-la-groenlanda`
 | cartă         |    0.192 |
 | poziție       |    0.177 |
 | scenari       |    0.173 |
-| unire         |    0.172 |
+| unire         |    0.171 |
 | declarație    |    0.169 |
 | chestiune     |    0.155 |
 | transatlantic |    0.145 |
@@ -20098,16 +20054,16 @@ _File: `2026-01-23_nicusor-dan-explica-ce-inseamna-ca-nu-a-mers-teleleu-la-davo`
 |:------------|---------:|
 | dincolo     |    0.259 |
 | întâlni     |    0.255 |
-| redescoperi |    0.241 |
 | european    |    0.241 |
+| redescoperi |    0.241 |
 | filozofic   |    0.231 |
-| reprezint   |    0.231 |
 | remarcă     |    0.231 |
-| lider       |    0.225 |
+| reprezint   |    0.231 |
+| lider       |    0.226 |
 | opinie      |    0.225 |
-| davos       |    0.224 |
+| davos       |    0.223 |
 | însemna     |    0.218 |
-| lună        |    0.199 |
+| lună        |    0.198 |
 | odată       |    0.159 |
 | român       |    0.157 |
 | spune       |    0.156 |
@@ -20118,8 +20074,8 @@ _File: `2026-01-24_discursul-lui-nicusor-dan-de-la-iasi-bruiat-de-simpatizantii`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| reuși         |    0.341 |
-| societate     |    0.28  |
+| reuși         |    0.34  |
+| societate     |    0.281 |
 | excepțional   |    0.217 |
 | unire         |    0.21  |
 | proiect       |    0.21  |
@@ -20128,7 +20084,7 @@ _File: `2026-01-24_discursul-lui-nicusor-dan-de-la-iasi-bruiat-de-simpatizantii`
 | cogălniceanu  |    0.179 |
 | împreună      |    0.162 |
 | pune          |    0.155 |
-| medicină      |    0.155 |
+| medicină      |    0.154 |
 | constitui     |    0.129 |
 | loc           |    0.115 |
 | românia       |    0.11  |
@@ -20141,19 +20097,19 @@ _File: `2026-01-24_huiduieli-si-aplauze-la-focsani-nicusor-dan-este-un-drept-pe`
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
 | patriotism       |    0.528 |
-| însemna          |    0.265 |
-| pământ           |    0.258 |
+| însemna          |    0.266 |
+| pământ           |    0.257 |
 | responsabilitate |    0.246 |
 | asumare          |    0.211 |
 | reuși            |    0.148 |
 | sărbătoare       |    0.147 |
 | ideal            |    0.141 |
-| reflecta         |    0.137 |
-| moment           |    0.13  |
+| reflecta         |    0.138 |
+| moment           |    0.131 |
 | ianuarie         |    0.122 |
-| bucura           |    0.113 |
-| istorie          |    0.112 |
-| rău              |    0.111 |
+| bucura           |    0.114 |
+| istorie          |    0.113 |
+| rău              |    0.112 |
 | gândi            |    0.111 |
 
 ## 2026-01-24 — video-transcript
@@ -20162,21 +20118,21 @@ _File: `2026-01-24_iasi-nicusor-dan-prezent-la-ceremonia-de-ziua-unirii-princip`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| unire      |    0.469 |
-| sine       |    0.188 |
+| unire      |    0.468 |
+| sine       |    0.187 |
 | piață      |    0.176 |
 | iași       |    0.172 |
 | principat  |    0.169 |
 | vrea       |    0.165 |
 | veni       |    0.157 |
-| onor       |    0.155 |
+| onor       |    0.154 |
 | monument   |    0.151 |
-| începe     |    0.147 |
+| începe     |    0.148 |
 | oră        |    0.138 |
 | președinte |    0.129 |
 | împărți    |    0.122 |
 | program    |    0.113 |
-| tabăr      |    0.113 |
+| horă       |    0.112 |
 
 ## 2026-01-24 — video-transcript
 
@@ -20189,7 +20145,7 @@ _File: `2026-01-24_nicusor-dan-e-democratie-e-libertate-sa-spuna-fiecare-ce-vre`
 | mercosur      |    0.173 |
 | coaliție      |    0.169 |
 | românia       |    0.155 |
-| dumneavoastră |    0.155 |
+| dumneavoastră |    0.154 |
 | agricultor    |    0.154 |
 | urmă          |    0.146 |
 | putea         |    0.136 |
@@ -20206,21 +20162,21 @@ _File: `2026-01-24_nicusor-dan-la-multi-ani-dragi-focsaneni-care-huiduiti-autor`
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| responsabilitate |    0.593 |
+| responsabilitate |    0.592 |
 | gândi            |    0.268 |
-| pas              |    0.257 |
+| pas              |    0.256 |
 | autoritate       |    0.236 |
 | focșan           |    0.226 |
 | huiduie          |    0.226 |
 | huidui           |    0.207 |
-| însă             |    0.202 |
+| însă             |    0.203 |
 | focșani          |    0.191 |
 | muri             |    0.178 |
 | public           |    0.176 |
-| aplauze          |    0.161 |
+| aplauze          |    0.162 |
 | drag             |    0.157 |
 | speranță         |    0.132 |
-| câștiga          |    0.129 |
+| câștiga          |    0.13  |
 
 ## 2026-01-24 — video-transcript
 
@@ -20228,19 +20184,19 @@ _File: `2026-01-24_nicusor-dan-mae-analizeaza-participarea-romaniei-la-consiliu`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| invita      |    0.289 |
+| invita      |    0.288 |
 | minister    |    0.265 |
 | plăti       |    0.259 |
 | solicitat   |    0.244 |
 | extern      |    0.243 |
 | consiliu    |    0.237 |
 | tratată     |    0.22  |
-| cartă       |    0.199 |
-| focșani     |    0.199 |
-| românia     |    0.166 |
+| cartă       |    0.198 |
+| focșani     |    0.198 |
+| românia     |    0.167 |
 | analiza     |    0.164 |
 | moment      |    0.163 |
-| țară        |    0.153 |
+| țară        |    0.154 |
 | participare |    0.149 |
 | recent      |    0.147 |
 
@@ -20251,20 +20207,20 @@ _File: `2026-01-24_nicusor-dan-nu-facem-comedii-din-relatia-intre-guvern-si-par`
 | lemmă                   |   TF-IDF |
 |:------------------------|---------:|
 | guvern                  |    0.474 |
-| premier                 |    0.382 |
+| premier                 |    0.381 |
 | coaliție                |    0.303 |
 | susține                 |    0.281 |
-| partid                  |    0.271 |
-| partidulnaționalliberal |    0.222 |
+| partid                  |    0.272 |
+| partidulnaționalliberal |    0.221 |
 | moment                  |    0.173 |
 | forma                   |    0.151 |
-| bolojan                 |    0.135 |
+| bolojan                 |    0.134 |
 | sigur                   |    0.128 |
-| sprijina                |    0.124 |
 | stabilit                |    0.124 |
 | lucrez                  |    0.124 |
+| sprijina                |    0.124 |
 | parlament               |    0.124 |
-| lege                    |    0.121 |
+| lege                    |    0.12  |
 
 ## 2026-01-24 — video-transcript
 
@@ -20272,12 +20228,12 @@ _File: `2026-01-24_ziua-unirii-principatelor-umbrita-de-proteste-discursul-lui` 
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| muzică     |    0.613 |
+| muzică     |    0.614 |
 | unire      |    0.314 |
 | huidui     |    0.253 |
 | focșani    |    0.195 |
 | bravo      |    0.178 |
-| ceremonie  |    0.136 |
+| ceremonie  |    0.135 |
 | simpatie   |    0.119 |
 | președinte |    0.106 |
 | iași       |    0.106 |
@@ -20285,7 +20241,7 @@ _File: `2026-01-24_ziua-unirii-principatelor-umbrita-de-proteste-discursul-lui` 
 | colegi     |    0.096 |
 | vorbă      |    0.094 |
 | horă       |    0.092 |
-| principat  |    0.092 |
+| huiduie    |    0.092 |
 | carmen     |    0.092 |
 
 ## 2026-01-30 — video-transcript
@@ -20295,19 +20251,19 @@ _File: `2026-01-30_nicusor-dan-despre-numirile-la-sri-si-sie-digi24-stiriledigi`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | apărea     |    0.32  |
-| nume       |    0.319 |
+| nume       |    0.318 |
 | afara      |    0.263 |
 | listă      |    0.256 |
 | șansă      |    0.223 |
 | lung       |    0.21  |
 | caz        |    0.188 |
-| partidă    |    0.185 |
 | neferici   |    0.185 |
+| partidă    |    0.185 |
 | partid     |    0.167 |
 | scedea     |    0.165 |
-| discuție   |    0.145 |
-| echilibrat |    0.145 |
+| discuție   |    0.146 |
 | teoretic   |    0.145 |
+| echilibrat |    0.145 |
 | sensibil   |    0.144 |
 
 ## 2026-01-30 — video-transcript
@@ -20316,8 +20272,8 @@ _File: `2026-01-30_nicusor-dan-despre-tensiunile-din-coalitie-nu-exista-alterna`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| exista        |    0.26  |
-| sine          |    0.223 |
+| exista        |    0.261 |
+| sine          |    0.222 |
 | spune         |    0.201 |
 | partid        |    0.173 |
 | vrea          |    0.139 |
@@ -20327,7 +20283,7 @@ _File: `2026-01-30_nicusor-dan-despre-tensiunile-din-coalitie-nu-exista-alterna`
 | impozit       |    0.113 |
 | moment        |    0.112 |
 | stat          |    0.11  |
-| coaliție      |    0.109 |
+| coaliție      |    0.108 |
 | problemă      |    0.107 |
 | european      |    0.103 |
 | dumneavoastră |    0.099 |
@@ -20351,7 +20307,7 @@ _File: `2026-01-30_nicusor-dan-despre-tensiunile-din-coalitie-nu-exista-alterna_
 | partidulnaționalliberal |    0.163 |
 | putea                   |    0.162 |
 | lăsa                    |    0.155 |
-| poziție                 |    0.144 |
+| poziție                 |    0.143 |
 | psd                     |    0.143 |
 
 ## 2026-01-30 — video-transcript
@@ -20361,9 +20317,9 @@ _File: `2026-01-30_nicusor-dan-despre-vizita-in-sua-digi24-stiriledigi24` · 42 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | martie     |    0.294 |
-| economic   |    0.286 |
+| economic   |    0.287 |
 | invitație  |    0.265 |
-| exista     |    0.253 |
+| exista     |    0.254 |
 | curs       |    0.253 |
 | vizită     |    0.249 |
 | probabil   |    0.231 |
@@ -20382,21 +20338,21 @@ _File: `2026-01-30_nicusor-dan-nu-exista-risc-de-crestere-de-taxe-in-viitorul-a`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| măsură      |    0.264 |
-| cifr        |    0.255 |
+| măsură      |    0.263 |
+| cifr        |    0.254 |
 | guvern      |    0.25  |
 | alinia      |    0.246 |
 | dureros     |    0.236 |
 | iulie       |    0.231 |
 | august      |    0.231 |
-| vigoare     |    0.222 |
-| tăia        |    0.216 |
+| vigoare     |    0.221 |
+| tăia        |    0.215 |
 | așteptare   |    0.201 |
 | major       |    0.183 |
 | taxă        |    0.179 |
 | putea       |    0.174 |
 | cuvânt      |    0.173 |
-| perspectivă |    0.165 |
+| perspectivă |    0.166 |
 
 ## 2026-01-30 — video-transcript
 
@@ -20404,8 +20360,8 @@ _File: `2026-01-30_nicusor-dan-un-guvern-minoritar-putin-probabil-bolojan-a-rap`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| bolojan    |    0.301 |
-| exista     |    0.27  |
+| bolojan    |    0.3   |
+| exista     |    0.271 |
 | friț       |    0.244 |
 | matematică |    0.22  |
 | teoretic   |    0.21  |
@@ -20413,12 +20369,12 @@ _File: `2026-01-30_nicusor-dan-un-guvern-minoritar-putin-probabil-bolojan-a-rap`
 | sorin      |    0.191 |
 | grindeanu  |    0.187 |
 | discuta    |    0.181 |
-| domn       |    0.173 |
+| domn       |    0.172 |
 | ilie       |    0.154 |
 | posibil    |    0.149 |
 | probabil   |    0.148 |
-| răspunzi   |    0.145 |
 | dezis      |    0.145 |
+| răspunzi   |    0.145 |
 
 ## 2026-02-09 — video-transcript
 
@@ -20428,7 +20384,7 @@ _File: `2026-02-09_participa-sau-nu-romania-la-consiliul-pentru-pace-al-lui-tru`
 |:---------|---------:|
 | domn     |    0.292 |
 | spune    |    0.202 |
-| sine     |    0.178 |
+| sine     |    0.177 |
 | simion   |    0.169 |
 | românia  |    0.161 |
 | trump    |    0.158 |
@@ -20450,17 +20406,17 @@ _File: `2026-02-12_ce-spune-nicusor-dan-despre-participarea-romaniei-la-prima-e`
 |:------------|---------:|
 | discuție    |    0.333 |
 | observator  |    0.323 |
-| american    |    0.26  |
-| anunța      |    0.227 |
+| american    |    0.261 |
+| anunța      |    0.226 |
 | arab        |    0.219 |
-| merge       |    0.206 |
+| merge       |    0.207 |
 | decidem     |    0.201 |
 | israel      |    0.186 |
 | gaza        |    0.18  |
 | vrea        |    0.175 |
-| obiect      |    0.172 |
+| obiect      |    0.171 |
 | tradițional |    0.17  |
-| parte       |    0.161 |
+| parte       |    0.162 |
 | statut      |    0.16  |
 | important   |    0.156 |
 
@@ -20472,11 +20428,11 @@ _File: `2026-02-12_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus`
 |:----------------|---------:|
 | țară            |    0.233 |
 | vrea            |    0.228 |
-| preț            |    0.204 |
-| europa          |    0.194 |
+| preț            |    0.203 |
+| europa          |    0.195 |
 | viteză          |    0.158 |
+| energie         |    0.155 |
 | componentă      |    0.155 |
-| energie         |    0.154 |
 | consiliu        |    0.144 |
 | observator      |    0.14  |
 | ban             |    0.137 |
@@ -20503,9 +20459,9 @@ _File: `2026-02-12_nicusor-dan-anunt-de-la-consiliul-european-il-refuza-din-nou`
 | trebui          |    0.15  |
 | exista          |    0.149 |
 | competitivitate |    0.141 |
-| unic            |    0.136 |
+| unic            |    0.135 |
 | spune           |    0.129 |
-| sine            |    0.129 |
+| sine            |    0.128 |
 | lucru           |    0.123 |
 
 ## 2026-02-12 — video-transcript
@@ -20514,8 +20470,8 @@ _File: `2026-02-12_nicusor-dan-despre-candidatii-la-sefia-parchetelor-sunt-pers`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| părea      |    0.474 |
-| interesant |    0.378 |
+| părea      |    0.475 |
+| interesant |    0.377 |
 | sine       |    0.302 |
 | concurs    |    0.23  |
 | vedea      |    0.167 |
@@ -20536,20 +20492,20 @@ _File: `2026-02-12_nicusor-dan-dupa-summitul-din-belgia-comisia-europeana-va-pr`
 
 | lemmă    |   TF-IDF |
 |:---------|---------:|
-| discuție |    0.27  |
+| discuție |    0.269 |
 | sine     |    0.207 |
-| parte    |    0.169 |
+| parte    |    0.17  |
 | vrea     |    0.169 |
 | spune    |    0.168 |
 | exista   |    0.157 |
 | europa   |    0.149 |
 | buget    |    0.144 |
 | moment   |    0.14  |
-| energie  |    0.135 |
+| energie  |    0.136 |
 | trebui   |    0.134 |
 | lucru    |    0.131 |
 | piață    |    0.13  |
-| preț     |    0.13  |
+| preț     |    0.129 |
 | uniune   |    0.124 |
 
 ## 2026-02-12 — video-transcript
@@ -20560,10 +20516,10 @@ _File: `2026-02-12_nicusor-dan-este-evidenta-tergiversarea-ccr-imi-doresc-o-asu`
 |:---------------|---------:|
 | curte          |    0.344 |
 | constituțional |    0.344 |
-| cjue           |    0.293 |
 | tergiversare   |    0.293 |
+| cjue           |    0.293 |
 | trimitere      |    0.26  |
-| pensie         |    0.189 |
+| pensie         |    0.188 |
 | vedea          |    0.177 |
 | majoritate     |    0.171 |
 | special        |    0.154 |
@@ -20572,7 +20528,7 @@ _File: `2026-02-12_nicusor-dan-este-evidenta-tergiversarea-ccr-imi-doresc-o-asu`
 | mut            |    0.14  |
 | voia           |    0.137 |
 | comentez       |    0.137 |
-| problemă       |    0.135 |
+| societate      |    0.135 |
 
 ## 2026-02-12 — video-transcript
 
@@ -20581,8 +20537,8 @@ _File: `2026-02-12_nicusor-dan-pretul-energiei-este-o-chestiune-foarte-importan`
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
 | preț            |    0.537 |
-| energie         |    0.476 |
-| diferență       |    0.211 |
+| energie         |    0.477 |
+| diferență       |    0.212 |
 | consumatoare    |    0.175 |
 | discontinuitate |    0.175 |
 | discutat        |    0.157 |
@@ -20593,8 +20549,8 @@ _File: `2026-02-12_nicusor-dan-pretul-energiei-este-o-chestiune-foarte-importan`
 | china           |    0.137 |
 | verde           |    0.129 |
 | important       |    0.125 |
-| competitivitate |    0.12  |
-| ridica          |    0.12  |
+| competitivitate |    0.119 |
+| ridica          |    0.119 |
 
 ## 2026-02-12 — video-transcript
 
@@ -20602,21 +20558,21 @@ _File: `2026-02-12_nicusor-dan-romania-poate-fi-cel-mult-observator-in-consiliu`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| exista     |    0.332 |
+| exista     |    0.333 |
 | februarie  |    0.286 |
 | posibil    |    0.261 |
 | discuție   |    0.185 |
-| observator |    0.18  |
+| observator |    0.179 |
 | statut     |    0.178 |
 | întâlnire  |    0.176 |
 | moment     |    0.17  |
 | minut      |    0.162 |
 | președinte |    0.16  |
-| discuta    |    0.159 |
-| reuniune   |    0.153 |
+| discuta    |    0.158 |
+| reuniune   |    0.152 |
 | donald     |    0.151 |
 | invitație  |    0.149 |
-| trump      |    0.145 |
+| american   |    0.145 |
 
 ## 2026-02-13 — video-transcript
 
@@ -20629,7 +20585,7 @@ _File: `2026-02-13_declaratiile-presedintelui-romaniei-nicusor-dan-dupa-reuniun`
 | spune    |    0.175 |
 | moment   |    0.164 |
 | trebui   |    0.157 |
-| exista   |    0.155 |
+| exista   |    0.156 |
 | buget    |    0.153 |
 | vrea     |    0.151 |
 | lucru    |    0.142 |
@@ -20652,13 +20608,13 @@ _File: `2026-02-13_nicusor-dan-despre-propunerile-privind-scaderea-pretului-ene`
 | subiect    |    0.217 |
 | coborâre   |    0.212 |
 | lega       |    0.211 |
-| compani    |    0.205 |
-| intră      |    0.205 |
+| compani    |    0.204 |
+| intră      |    0.204 |
 | speculator |    0.199 |
 | certificat |    0.182 |
 | stabilire  |    0.179 |
-| veni       |    0.168 |
-| opera      |    0.166 |
+| veni       |    0.169 |
+| opera      |    0.165 |
 | preocupa   |    0.154 |
 | agendă     |    0.145 |
 
@@ -20668,20 +20624,20 @@ _File: `2026-02-13_nicusor-dan-in-ciuda-atacurilor-coalitia-functioneaza-mai-bi`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| coaliție   |    0.436 |
+| coaliție   |    0.435 |
 | percepție  |    0.303 |
 | întâlni    |    0.282 |
 | funcționa  |    0.205 |
-| preciza    |    0.192 |
 | individual |    0.192 |
+| preciza    |    0.192 |
 | ambii      |    0.172 |
 | vrea       |    0.17  |
 | des        |    0.17  |
 | sine       |    0.164 |
 | implica    |    0.147 |
 | grup       |    0.144 |
+| moment     |    0.134 |
 | guvernare  |    0.133 |
-| moment     |    0.133 |
 | coție      |    0.128 |
 
 ## 2026-02-17 — video-transcript
@@ -20691,15 +20647,15 @@ _File: `2026-02-17_nicusor-dan-a-anuntat-ca-romania-va-participa-la-consiliul-p`
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
 | apartenență    |    0.272 |
-| clar           |    0.265 |
+| clar           |    0.264 |
 | organizație    |    0.249 |
 | pro            |    0.227 |
-| idee           |    0.207 |
+| idee           |    0.208 |
 | asemănare      |    0.189 |
-| contraveni     |    0.189 |
 | croi           |    0.189 |
+| contraveni     |    0.189 |
 | subiect        |    0.186 |
-| contradictoriu |    0.182 |
+| contradictoriu |    0.181 |
 | președinte     |    0.179 |
 | abține         |    0.175 |
 | chip           |    0.17  |
@@ -20712,43 +20668,21 @@ _File: `2026-02-17_nicusor-dan-prezenta-la-consiliul-de-pace-necesara-dupa-anul`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| ansamblu      |    0.298 |
-| clarifica     |    0.236 |
-| relație       |    0.212 |
-| anula         |    0.208 |
-| transatlantic |    0.195 |
-| românia       |    0.18  |
-| american      |    0.18  |
-| imagine       |    0.18  |
-| perspectivă   |    0.171 |
-| parte         |    0.168 |
-| parteneriat   |    0.16  |
-| contrareacție |    0.159 |
-| dubiile       |    0.159 |
-| spune         |    0.154 |
-| unit          |    0.148 |
-
-## 2026-02-17 — video-transcript
-
-_File: `2026-02-17_nicusor-dan-prezenta-la-consiliul-de-pace-necesara-dupa-anul_yYS5fW` · 76 clean lemmas_
-
-| lemmă         |   TF-IDF |
-|:--------------|---------:|
-| ansamblu      |    0.353 |
-| relație       |    0.251 |
-| transatlantic |    0.23  |
-| american      |    0.213 |
-| imagine       |    0.213 |
-| perspectivă   |    0.202 |
-| parte         |    0.199 |
-| contrareacție |    0.188 |
-| întrerupe     |    0.158 |
-| turbulență    |    0.155 |
-| crede         |    0.154 |
-| totdeauna     |    0.15  |
-| exista        |    0.14  |
-| dubiu         |    0.139 |
-| clarifica     |    0.139 |
+| ansamblu      |    0.304 |
+| clarifica     |    0.24  |
+| relație       |    0.214 |
+| anula         |    0.211 |
+| transatlantic |    0.197 |
+| american      |    0.182 |
+| imagine       |    0.182 |
+| românia       |    0.182 |
+| perspectivă   |    0.173 |
+| parte         |    0.17  |
+| parteneriat   |    0.162 |
+| dubiile       |    0.16  |
+| spune         |    0.156 |
+| unit          |    0.149 |
+| întrerupe     |    0.137 |
 
 ## 2026-02-19 — video-transcript
 
@@ -20756,17 +20690,17 @@ _File: `2026-02-19_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus`
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| unit      |    0.194 |
+| unit      |    0.195 |
 | stat      |    0.174 |
 | angaja    |    0.169 |
 | spune     |    0.169 |
 | românia   |    0.166 |
 | lume      |    0.161 |
 | chestiune |    0.16  |
-| palier    |    0.147 |
 | parte     |    0.147 |
+| palier    |    0.147 |
 | davos     |    0.145 |
-| veni      |    0.139 |
+| veni      |    0.14  |
 | judecător |    0.135 |
 | ambasadă  |    0.132 |
 | gaza      |    0.123 |
@@ -20789,7 +20723,7 @@ _File: `2026-02-19_interviu-exclusiv-cu-nicusor-dan-dupa-intalnirea-cu-trump` ·
 | românia    |    0.132 |
 | punct      |    0.128 |
 | trump      |    0.125 |
-| american   |    0.124 |
+| american   |    0.125 |
 | vedere     |    0.123 |
 | discuție   |    0.119 |
 | securitate |    0.117 |
@@ -20804,8 +20738,8 @@ _File: `2026-02-19_nicusor-dan-discurs-la-consiliul-pentru-pace-in-sua-avem-bur`
 | refacere    |    0.263 |
 | experiență  |    0.258 |
 | gaza        |    0.241 |
-| lume        |    0.203 |
-| rând        |    0.2   |
+| lume        |    0.202 |
+| rând        |    0.201 |
 | putem       |    0.199 |
 | copil       |    0.165 |
 | parte       |    0.162 |
@@ -20814,7 +20748,7 @@ _File: `2026-02-19_nicusor-dan-discurs-la-consiliul-pentru-pace-in-sua-avem-bur`
 | evreiesc    |    0.147 |
 | palestinian |    0.142 |
 | burs        |    0.142 |
-| extrage     |    0.138 |
+| ambulanță   |    0.138 |
 
 ## 2026-02-19 — video-transcript
 
@@ -20829,7 +20763,7 @@ _File: `2026-02-19_prima-reactie-a-lui-nicusor-dan-dupa-ce-donald-trump-l-a-num`
 | comenta    |    0.283 |
 | greși      |    0.279 |
 | trump      |    0.231 |
-| singur     |    0.207 |
+| singur     |    0.208 |
 | premier    |    0.199 |
 | nicușor    |    0.173 |
 | dan        |    0.169 |
@@ -20844,21 +20778,21 @@ _File: `2026-02-20_nicusor-dan-nu-alegem-intre-sua-si-ue-romania-trebuie-sa-fie`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| subtext     |    0.4   |
-| sforăit     |    0.311 |
-| unit        |    0.279 |
-| electoral   |    0.209 |
-| alege       |    0.203 |
-| parteneriat |    0.201 |
+| subtext     |    0.399 |
+| sforăit     |    0.31  |
+| unit        |    0.28  |
+| electoral   |    0.208 |
+| parteneriat |    0.202 |
+| alege       |    0.202 |
 | european    |    0.2   |
-| aprofundăme |    0.192 |
+| aprofundăme |    0.191 |
 | campanie    |    0.187 |
-| partener    |    0.185 |
+| partener    |    0.184 |
 | stat        |    0.182 |
 | uniune      |    0.177 |
 | încă        |    0.172 |
 | încercăm    |    0.165 |
-| veni        |    0.152 |
+| veni        |    0.153 |
 
 ## 2026-02-20 — video-transcript
 
@@ -20866,13 +20800,13 @@ _File: `2026-02-20_presedintele-nicusor-dan-problema-legitimitatii-administrati`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| unit       |    0.227 |
+| unit       |    0.228 |
 | stat       |    0.214 |
-| donald     |    0.194 |
+| donald     |    0.193 |
 | trump      |    0.186 |
 | tensiune   |    0.164 |
-| peace      |    0.163 |
 | european   |    0.163 |
+| peace      |    0.163 |
 | românia    |    0.16  |
 | fapt       |    0.157 |
 | președinte |    0.154 |
@@ -20880,7 +20814,7 @@ _File: `2026-02-20_presedintele-nicusor-dan-problema-legitimitatii-administrati`
 | domn       |    0.151 |
 | duce       |    0.141 |
 | format     |    0.139 |
-| discuta    |    0.136 |
+| discuta    |    0.135 |
 
 ## 2026-02-24 — video-transcript
 
@@ -20916,9 +20850,9 @@ _File: `2026-02-24_nicusor-dan-mesaj-de-sustinere-fata-de-ucraina-la-patru-ani` 
 | dimineață    |    0.185 |
 | președinte   |    0.173 |
 | solidaritate |    0.172 |
+| european     |    0.138 |
 | coșta        |    0.138 |
 | sacrificiile |    0.138 |
-| european     |    0.137 |
 | premier      |    0.135 |
 | ceremoniile  |    0.132 |
 | participa    |    0.132 |
@@ -20933,17 +20867,17 @@ _File: `2026-02-27_acum-nicusor-dan-a-promulgat-reforma-pensiilor-magistratilor`
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
 | pensie         |    0.374 |
-| lege           |    0.3   |
+| lege           |    0.299 |
 | promulga       |    0.239 |
 | magistrață     |    0.209 |
 | practic        |    0.194 |
-| moment         |    0.179 |
-| curte          |    0.171 |
+| moment         |    0.18  |
 | constituțional |    0.171 |
+| curte          |    0.171 |
 | reformă        |    0.162 |
 | vasile         |    0.161 |
-| vigoare        |    0.155 |
-| pensionară     |    0.155 |
+| vigoare        |    0.154 |
+| pensionară     |    0.154 |
 | vrea           |    0.137 |
 | vârstă         |    0.135 |
 | guvern         |    0.131 |
@@ -20956,14 +20890,14 @@ _File: `2026-02-27_nicusor-dan-a-promulgat-reforma-pensiilor-magistratilor` · 1
 |:---------------|---------:|
 | jalon          |    0.339 |
 | lege           |    0.239 |
-| trebui         |    0.235 |
+| trebui         |    0.236 |
 | pensie         |    0.224 |
 | xenia          |    0.216 |
-| moment         |    0.214 |
+| moment         |    0.215 |
 | vrea           |    0.197 |
 | pensionară     |    0.185 |
 | vârstă         |    0.162 |
-| comisie        |    0.137 |
+| comisie        |    0.136 |
 | constituțional |    0.136 |
 | curte          |    0.136 |
 | privind        |    0.131 |
@@ -20977,9 +20911,9 @@ _File: `2026-03-05_acum-nicusor-dan-anunta-daca-romania-va-gazdui-arme-nucleare`
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | vorbi      |    0.323 |
-| polonia    |    0.289 |
-| comun      |    0.209 |
+| polonia    |    0.288 |
 | polonez    |    0.209 |
+| comun      |    0.209 |
 | forum      |    0.196 |
 | dezvoltat  |    0.194 |
 | românia    |    0.18  |
@@ -20998,11 +20932,11 @@ _File: `2026-03-05_nicusor-dan-conferinta-de-presa-in-polonia-stiri-b1tv-5-mar` 
 
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
-| domn         |    0.348 |
+| domn         |    0.347 |
 | polonez      |    0.238 |
 | polonia      |    0.237 |
 | președinte   |    0.2   |
-| nuclear      |    0.161 |
+| nuclear      |    0.162 |
 | privi        |    0.154 |
 | întrebare    |    0.15  |
 | situație     |    0.14  |
@@ -21022,14 +20956,14 @@ _File: `2026-03-05_nicusor-dan-despre-propunerile-pentru-sefia-parchetelor-stir`
 |:------------|---------:|
 | analiză     |    0.402 |
 | aviz        |    0.35  |
-| amplu       |    0.323 |
+| amplu       |    0.322 |
 | csm         |    0.195 |
 | numire      |    0.185 |
 | moment      |    0.148 |
 | dezord      |    0.148 |
 | antepronunț |    0.142 |
-| analiz      |    0.137 |
 | justiției   |    0.137 |
+| analiz      |    0.137 |
 | specula     |    0.133 |
 | selecta     |    0.133 |
 | adică       |    0.129 |
@@ -21064,18 +20998,18 @@ _File: `2026-03-05_nicusor-dan-despre-situatia-din-orient-nu-o-sa-plangem-iranu`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| regiune     |    0.391 |
+| regiune     |    0.39  |
 | convoca     |    0.36  |
-| vorbă       |    0.224 |
+| vorbă       |    0.223 |
 | terorism    |    0.219 |
 | sponsoriza  |    0.212 |
 | islamic     |    0.212 |
 | iranian     |    0.201 |
 | iran        |    0.189 |
 | asigurăm    |    0.189 |
+| destabiliza |    0.175 |
 | suprem      |    0.175 |
 | plânge      |    0.175 |
-| destabiliza |    0.175 |
 | îngrijorare |    0.159 |
 | prinde      |    0.153 |
 | regim       |    0.143 |
@@ -21086,21 +21020,21 @@ _File: `2026-03-05_nicusor-dan-despre-umbrela-nucleara-propusa-de-franta-stiri` 
 
 | lemmă                           |   TF-IDF |
 |:--------------------------------|---------:|
-| nuclear                         |    0.488 |
-| umbrelă                         |    0.213 |
+| nuclear                         |    0.492 |
+| umbrelă                         |    0.212 |
 | propunere                       |    0.204 |
-| northatlantictreatyorganization |    0.183 |
+| northatlantictreatyorganization |    0.182 |
 | întrebare                       |    0.174 |
 | franța                          |    0.16  |
 | proteja                         |    0.158 |
-| element                         |    0.153 |
+| element                         |    0.152 |
 | teritoriu                       |    0.147 |
 | românia                         |    0.146 |
 | public                          |    0.144 |
-| ență                            |    0.129 |
+| ență                            |    0.128 |
 | subiect                         |    0.126 |
 | răspunde                        |    0.124 |
-| umbrel                          |    0.123 |
+| militarure                      |    0.123 |
 
 ## 2026-03-05 — video-transcript
 
@@ -21109,7 +21043,7 @@ _File: `2026-03-05_nicusor-dan-dezbaterea-pe-buget-este-o-dezbatere-legitima` ·
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
 | nazare     |    0.303 |
-| spațiu     |    0.299 |
+| spațiu     |    0.298 |
 | virgulă    |    0.292 |
 | cifr       |    0.261 |
 | cunoșteam  |    0.256 |
@@ -21120,7 +21054,7 @@ _File: `2026-03-05_nicusor-dan-dezbaterea-pe-buget-este-o-dezbatere-legitima` ·
 | categorie  |    0.185 |
 | putea      |    0.178 |
 | cheltuială |    0.175 |
-| tip        |    0.169 |
+| tip        |    0.17  |
 | diferit    |    0.161 |
 | încerca    |    0.156 |
 
@@ -21137,14 +21071,14 @@ _File: `2026-03-05_nicusor-dan-nu-o-sa-plangem-republica-islamica-iran` · 64 cl
 | supuce         |    0.172 |
 | rezonabilitate |    0.172 |
 | vorbă          |    0.168 |
-| terorism       |    0.165 |
-| teroriza       |    0.165 |
 | reziden        |    0.165 |
-| islamic        |    0.159 |
+| teroriza       |    0.165 |
+| terorism       |    0.165 |
 | sponsoriza     |    0.159 |
+| islamic        |    0.159 |
 | iranian        |    0.151 |
 | iran           |    0.142 |
-| plânge         |    0.132 |
+| destabiliza    |    0.132 |
 
 ## 2026-03-05 — video-transcript
 
@@ -21157,12 +21091,12 @@ _File: `2026-03-05_nicusor-dan-polonia-participa-la-brigada-multinationala-care`
 | discuta       |    0.3   |
 | securitate    |    0.231 |
 | context       |    0.199 |
-| obliga        |    0.182 |
-| păcat         |    0.17  |
+| obliga        |    0.181 |
+| păcat         |    0.171 |
 | posibilitate  |    0.167 |
 | summit        |    0.16  |
 | industrie     |    0.157 |
-| important     |    0.147 |
+| important     |    0.148 |
 | invitare      |    0.144 |
 | participa     |    0.138 |
 | comun         |    0.136 |
@@ -21179,12 +21113,12 @@ _File: `2026-03-05_nicusor-dan-polonia-si-romania-impreuna-au-multe-oportunitat`
 | românia       |    0.188 |
 | țară          |    0.181 |
 | discuție      |    0.144 |
+| nuclear       |    0.138 |
 | buget         |    0.138 |
-| nuclear       |    0.137 |
 | sine          |    0.133 |
 | vrea          |    0.12  |
 | spune         |    0.117 |
-| seara         |    0.109 |
+| seara         |    0.11  |
 | moment        |    0.108 |
 | dumneavoastră |    0.108 |
 | situație      |    0.106 |
@@ -21196,20 +21130,20 @@ _File: `2026-03-05_nicusor-dan-romania-este-acoperita-de-o-umbrela-nucleara` · 
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| nuclear     |    0.452 |
+| nuclear     |    0.456 |
 | parteneriat |    0.451 |
-| umbrelă     |    0.246 |
+| umbrelă     |    0.245 |
 | palier      |    0.21  |
-| extindere   |    0.209 |
-| acoperi     |    0.205 |
-| membră      |    0.19  |
+| extindere   |    0.208 |
+| acoperi     |    0.204 |
+| membră      |    0.189 |
 | alianță     |    0.188 |
-| componentă  |    0.187 |
-| franța      |    0.186 |
-| opri        |    0.177 |
-| strategic   |    0.151 |
-| punct       |    0.15  |
-| program     |    0.144 |
+| componentă  |    0.186 |
+| franța      |    0.185 |
+| opri        |    0.176 |
+| strategic   |    0.15  |
+| punct       |    0.149 |
+| program     |    0.143 |
 | vedere      |    0.143 |
 
 ## 2026-03-05 — video-transcript
@@ -21218,17 +21152,17 @@ _File: `2026-03-05_pretul-carburantilor-nicusor-dan-exclude-modificarea-taxelor`
 
 | lemmă            |   TF-IDF |
 |:-----------------|---------:|
-| sancționa        |    0.37  |
-| concurență       |    0.294 |
+| sancționa        |    0.369 |
+| concurență       |    0.293 |
 | acciză           |    0.278 |
 | întâmpla         |    0.269 |
 | sine             |    0.234 |
 | preț             |    0.186 |
-| taxă             |    0.185 |
+| taxă             |    0.184 |
 | jumătate         |    0.183 |
-| ieși             |    0.167 |
-| rafinat          |    0.159 |
-| anticoncurențial |    0.159 |
+| ieși             |    0.168 |
+| rafinat          |    0.158 |
+| anticoncurențial |    0.158 |
 | consiliu         |    0.154 |
 | sever            |    0.147 |
 | benzină          |    0.143 |
@@ -21240,15 +21174,15 @@ _File: `2026-03-06_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus_
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| polonia       |    0.235 |
+| polonia       |    0.234 |
 | vorbi         |    0.204 |
 | românia       |    0.187 |
 | țară          |    0.18  |
 | discuție      |    0.144 |
 | sine          |    0.141 |
+| nuclear       |    0.138 |
 | buget         |    0.137 |
-| nuclear       |    0.136 |
-| seara         |    0.13  |
+| seara         |    0.131 |
 | vrea          |    0.128 |
 | spune         |    0.128 |
 | polonez       |    0.113 |
@@ -21262,21 +21196,21 @@ _File: `2026-03-06_nicusor-dan-romania-nu-va-gazdui-focoase-nucleare-in-viitoru`
 
 | lemmă                           |   TF-IDF |
 |:--------------------------------|---------:|
-| nuclear                         |    0.682 |
-| umbrelă                         |    0.372 |
-| northatlantictreatyorganization |    0.213 |
+| nuclear                         |    0.686 |
+| umbrelă                         |    0.369 |
+| northatlantictreatyorganization |    0.211 |
 | teritoriu                       |    0.192 |
-| găzdui                          |    0.165 |
-| presupune                       |    0.146 |
-| franța                          |    0.14  |
+| găzdui                          |    0.164 |
+| presupune                       |    0.145 |
+| franța                          |    0.139 |
 | proteja                         |    0.138 |
 | prezență                        |    0.123 |
 | spațiu                          |    0.106 |
 | românia                         |    0.102 |
-| întrebare                       |    0.102 |
+| întrebare                       |    0.101 |
 | componente                      |    0.101 |
 | pune                            |    0.09  |
-| demult                          |    0.09  |
+| demult                          |    0.089 |
 
 ## 2026-03-07 — video-transcript
 
@@ -21286,13 +21220,13 @@ _File: `2026-03-07_nicusor-dan-imi-voi-asuma-in-justitie-vin-din-societatea-civ`
 |:---------|---------:|
 | vrea     |    0.406 |
 | numirile |    0.318 |
-| semna    |    0.259 |
-| muzică   |    0.253 |
+| semna    |    0.258 |
+| muzică   |    0.254 |
 | numire   |    0.199 |
 | rezultat |    0.173 |
 | sta      |    0.164 |
-| cuno     |    0.159 |
 | gir      |    0.159 |
+| cuno     |    0.159 |
 | șef      |    0.155 |
 | asuma    |    0.155 |
 | deodată  |    0.143 |
@@ -21311,15 +21245,15 @@ _File: `2026-03-11_ce-trimite-sua-in-tara-noastra-declaratiile-lui-nicusor-dan` 
 | colaborare   |    0.166 |
 | satelitare   |    0.159 |
 | dvsl         |    0.159 |
-| sigur        |    0.158 |
+| sigur        |    0.157 |
 | vorbă        |    0.156 |
 | realimentare |    0.153 |
 | avioană      |    0.153 |
 | țară         |    0.15  |
-| unit         |    0.148 |
+| unit         |    0.149 |
 | dislocare    |    0.147 |
 | înzestra     |    0.147 |
-| românia      |    0.144 |
+| românia      |    0.145 |
 | disloca      |    0.143 |
 
 ## 2026-03-11 — video-transcript
@@ -21330,24 +21264,19 @@ _File: `2026-03-11_declaratie-sustinuta-de-presedintele-romaniei-nicusor-dan-du`
 |:-----------|---------:|
 | echipament |    0.357 |
 | situație   |    0.205 |
-| expunere   |    0.195 |
+| expunere   |    0.194 |
 | ministru   |    0.189 |
 | subliniez  |    0.182 |
-| discuta    |    0.169 |
-| român      |    0.158 |
-| reziden    |    0.156 |
+| discuta    |    0.168 |
+| român      |    0.159 |
+| reziden    |    0.155 |
 | parlament  |    0.155 |
 | consecință |    0.154 |
 | țară       |    0.153 |
-| ședință    |    0.133 |
+| ședință    |    0.132 |
 | golf       |    0.132 |
 | românia    |    0.129 |
 | cetățenie  |    0.128 |
-
-## 2026-03-12 — video-transcript
-
-_File: `2026-03-12_discursul-lui-nicusor-dan-dupa-intrevederea-cu-zelenski-stir` · 0 clean lemmas_
-
 
 ## 2026-03-12 — video-transcript
 
@@ -21357,11 +21286,11 @@ _File: `2026-03-12_nicusor-dan-we-will-produce-drones-in-romania-together-with` 
 |:------------|---------:|
 | ucraina     |    0.298 |
 | vorbi       |    0.274 |
-| document    |    0.248 |
+| document    |    0.247 |
 | moment      |    0.197 |
 | românia     |    0.191 |
-| parteneriat |    0.17  |
-| minoritate  |    0.166 |
+| parteneriat |    0.171 |
+| minoritate  |    0.167 |
 | sprijin     |    0.16  |
 | comun       |    0.159 |
 | război      |    0.153 |
@@ -21381,8 +21310,8 @@ _File: `2026-03-13_conferinta-sustinuta-de-presedintii-romaniei-si-ucrainei-nic`
 | românia    |    0.261 |
 | dronă      |    0.203 |
 | vrea       |    0.192 |
-| document   |    0.175 |
-| putea      |    0.157 |
+| document   |    0.174 |
+| putea      |    0.156 |
 | domn       |    0.149 |
 | vorbi      |    0.145 |
 | rachet     |    0.136 |
@@ -21400,8 +21329,8 @@ _File: `2026-03-16_nicusor-dan-resursele-de-petrol-ale-tarii-insuficiente-rafin`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | petrol      |    0.218 |
-| omw         |    0.189 |
 | petrom      |    0.189 |
+| omw         |    0.189 |
 | piață       |    0.189 |
 | energetic   |    0.176 |
 | închidere   |    0.163 |
@@ -21447,15 +21376,15 @@ _File: `2026-03-19_nicusor-dan-romania-has-taken-a-clear-position-on-the-transa`
 | discuta                         |    0.325 |
 | est                             |    0.254 |
 | neagră                          |    0.243 |
-| sigur                           |    0.194 |
+| sigur                           |    0.193 |
 | reîntări                        |    0.188 |
 | northatlantictreatyorganization |    0.185 |
 | coproducție                     |    0.181 |
 | ancara                          |    0.176 |
 | bineînțelege                    |    0.176 |
-| santinela                       |    0.165 |
 | dronelor                        |    0.165 |
-| securitate                      |    0.156 |
+| santinela                       |    0.165 |
+| securitate                      |    0.157 |
 | capabilitate                    |    0.147 |
 | hub                             |    0.143 |
 
@@ -21478,8 +21407,8 @@ _File: `2026-03-19_nicusor-dan-romania-has-taken-a-clear-position-on-the-transa_
 | northatlantictreatyorganization |    0.163 |
 | est                             |    0.149 |
 | neagră                          |    0.143 |
-| invitație                       |    0.135 |
-| românia                         |    0.13  |
+| invitație                       |    0.134 |
+| românia                         |    0.131 |
 
 ## 2026-03-26 — video-transcript
 
@@ -21496,7 +21425,7 @@ _File: `2026-03-26_nicusor-dan-a-anuntat-ca-va-promulga-legea-bugetului-asa-cum`
 | curte          |    0.301 |
 | interzica      |    0.285 |
 | promulge       |    0.273 |
-| veni           |    0.217 |
+| veni           |    0.218 |
 | promulga       |    0.211 |
 | veți           |    0.207 |
 | text           |    0.205 |
@@ -21515,7 +21444,7 @@ _File: `2026-03-27_nicusor-dan-if-the-measures-are-not-sufficient-the-governmen`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | dinamică      |    0.261 |
-| preț          |    0.256 |
+| preț          |    0.255 |
 | măsură        |    0.248 |
 | petrol        |    0.222 |
 | perfect       |    0.215 |
@@ -21539,14 +21468,14 @@ _File: `2026-03-30_nicusor-dan-despre-iesirea-psd-de-la-guvernare-un-guvern-min`
 | ferici    |    0.337 |
 | crede     |    0.307 |
 | potrivi   |    0.269 |
-| minoritar |    0.265 |
-| guverna   |    0.247 |
+| minoritar |    0.264 |
+| guverna   |    0.246 |
 | forma     |    0.218 |
-| trăim     |    0.216 |
+| trăim     |    0.217 |
 | formă     |    0.21  |
-| idee      |    0.205 |
+| idee      |    0.206 |
 | vrea      |    0.192 |
-| soluție   |    0.185 |
+| soluție   |    0.186 |
 | sine      |    0.184 |
 | condiție  |    0.183 |
 | coaliție  |    0.175 |
@@ -21558,9 +21487,9 @@ _File: `2026-03-30_o-posibila-iesire-a-psd-de-la-guvernare-nicusor-dan-nu-cred` 
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| guvern        |    0.358 |
+| guvern        |    0.359 |
 | vrea          |    0.226 |
-| lua           |    0.222 |
+| lua           |    0.221 |
 | crede         |    0.217 |
 | minoritar     |    0.208 |
 | sine          |    0.203 |
@@ -21569,7 +21498,7 @@ _File: `2026-03-30_o-posibila-iesire-a-psd-de-la-guvernare-nicusor-dan-nu-cred` 
 | preț          |    0.173 |
 | moment        |    0.157 |
 | tva           |    0.156 |
-| petrol        |    0.136 |
+| petrol        |    0.135 |
 | săptămână     |    0.131 |
 | bun           |    0.128 |
 | dumneavoastră |    0.126 |
@@ -21580,16 +21509,16 @@ _File: `2026-03-31_carburantii-s-ar-putea-ieftini-nicusor-dan-cred-ca-va-fi-o-s`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| joi        |    0.408 |
+| joi        |    0.407 |
 | consticare |    0.272 |
 | profiza    |    0.261 |
 | coaliție   |    0.254 |
 | asume      |    0.252 |
 | guvern     |    0.221 |
-| rezolve    |    0.202 |
+| rezolve    |    0.201 |
 | sensibil   |    0.195 |
-| scădere    |    0.189 |
 | formulă    |    0.189 |
+| scădere    |    0.189 |
 | sper       |    0.179 |
 | intenție   |    0.17  |
 | măcar      |    0.161 |
@@ -21610,8 +21539,8 @@ _File: `2026-03-31_carburantii-s-ar-putea-ieftini-nicusor-dan-cred-ca-va-fi-o-s_
 | formulă    |    0.199 |
 | scădere    |    0.199 |
 | scădea     |    0.195 |
-| tva        |    0.191 |
-| crede      |    0.176 |
+| tva        |    0.19  |
+| crede      |    0.177 |
 | guvern     |    0.175 |
 | ședință    |    0.157 |
 | consticare |    0.144 |
@@ -21626,19 +21555,19 @@ _File: `2026-04-01_presedintele-nicusor-dan-trecerea-romaniei-la-euro-esentiala`
 |:-----------|---------:|
 | șansă      |    0.306 |
 | deficit    |    0.293 |
-| euro       |    0.29  |
+| euro       |    0.291 |
 | grafic     |    0.247 |
 | atât       |    0.241 |
 | ajunge     |    0.234 |
 | adera      |    0.219 |
 | vrea       |    0.21  |
-| esență     |    0.194 |
+| esență     |    0.193 |
 | criteriu   |    0.189 |
 | acoperi    |    0.189 |
 | agrea      |    0.187 |
 | necesitate |    0.178 |
 | îndeplini  |    0.176 |
-| datorie    |    0.173 |
+| datorie    |    0.172 |
 
 ## 2026-04-07 — video-transcript
 
@@ -21650,8 +21579,8 @@ _File: `2026-04-07_declaratiile-presedintelui-nicusor-dan-dupa-vizita-la-centru`
 | vrea       |    0.222 |
 | timișoara  |    0.183 |
 | vedea      |    0.177 |
-| spune      |    0.164 |
-| putea      |    0.15  |
+| spune      |    0.165 |
+| putea      |    0.149 |
 | lucru      |    0.146 |
 | președinte |    0.14  |
 | românia    |    0.135 |
@@ -21669,17 +21598,17 @@ _File: `2026-04-07_nicusor-dan-despre-demisia-lui-bolojan-in-ce-calitate-sa-i-o`
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
 | acutiza         |    0.315 |
-| scenariil       |    0.256 |
+| scenariil       |    0.255 |
 | vehicula        |    0.249 |
-| responsabilitat |    0.244 |
-| veți            |    0.239 |
+| responsabilitat |    0.243 |
+| veți            |    0.238 |
 | informal        |    0.213 |
 | demisie         |    0.213 |
 | spune           |    0.213 |
-| medie           |    0.202 |
-| trebui          |    0.2   |
+| medie           |    0.203 |
+| trebui          |    0.201 |
 | analiză         |    0.178 |
-| ilie            |    0.175 |
+| ilie            |    0.174 |
 | calitate        |    0.173 |
 | bolojan         |    0.17  |
 | posibil         |    0.169 |
@@ -21698,13 +21627,13 @@ _File: `2026-04-07_nicusor-dan-intrebat-daca-ii-va-cere-demisia-lui-bolojan-eu` 
 | românia       |    0.132 |
 | putea         |    0.132 |
 | dicot         |    0.131 |
-| exista        |    0.13  |
+| exista        |    0.131 |
 | parte         |    0.123 |
 | întrebare     |    0.123 |
 | moment        |    0.117 |
 | fotografie    |    0.116 |
 | dumneavoastră |    0.116 |
-| vedea         |    0.113 |
+| scenarii      |    0.113 |
 
 ## 2026-04-07 — video-transcript
 
@@ -21723,10 +21652,10 @@ _File: `2026-04-07_nicusor-dan-lucescu-was-romania-s-ambassador-on-the-world-s` 
 | fig         |    0.097 |
 | întrista    |    0.093 |
 | admira      |    0.093 |
+| tenacitate  |    0.09  |
 | afirmare    |    0.09  |
 | tactic      |    0.09  |
-| tenacitate  |    0.09  |
-| românesc    |    0.089 |
+| românesc    |    0.09  |
 
 ## 2026-04-07 — video-transcript
 
@@ -21734,21 +21663,21 @@ _File: `2026-04-07_nicusor-dan-nu-sunt-riscuri-acum-dar-avem-un-plan-de-criza-p`
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| criză         |    0.469 |
-| exista        |    0.301 |
-| scenarii      |    0.291 |
+| criză         |    0.468 |
+| exista        |    0.302 |
+| scenarii      |    0.293 |
 | procurare     |    0.194 |
 | rafinare      |    0.182 |
-| relata        |    0.178 |
-| eventualitate |    0.174 |
+| relata        |    0.177 |
+| eventualitate |    0.173 |
 | discuta       |    0.168 |
 | aprovizionare |    0.159 |
-| petrol        |    0.155 |
 | combustibil   |    0.155 |
-| electric      |    0.152 |
+| petrol        |    0.155 |
+| electric      |    0.151 |
 | lanț          |    0.144 |
-| produs        |    0.143 |
 | parte         |    0.143 |
+| produs        |    0.143 |
 
 ## 2026-04-08 — video-transcript
 
@@ -21756,17 +21685,17 @@ _File: `2026-04-08_nicusor-dan-anunta-numiri-in-fruntea-parchetelor-astept-o-di`
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| procuror    |    0.467 |
+| procuror    |    0.466 |
 | șef         |    0.236 |
-| parchet     |    0.177 |
+| parchet     |    0.176 |
 | dna         |    0.174 |
-| spune       |    0.147 |
+| spune       |    0.148 |
 | activitate  |    0.141 |
 | judecată    |    0.14  |
 | adjunct     |    0.137 |
 | general     |    0.133 |
 | trimite     |    0.128 |
-| parchetelor |    0.122 |
+| parchetelor |    0.121 |
 | vrea        |    0.116 |
 | sine        |    0.112 |
 | dosar       |    0.111 |
@@ -21781,15 +21710,15 @@ _File: `2026-04-08_nicusor-dan-confirma-sabotajul-in-cazul-pozelor-trucate-foto`
 | fotografie |    0.277 |
 | lasconi    |    0.203 |
 | ponta      |    0.184 |
-| arăta      |    0.182 |
+| arăta      |    0.181 |
 | crin       |    0.177 |
-| campanie   |    0.172 |
-| victor     |    0.172 |
+| campanie   |    0.173 |
 | antonescu  |    0.172 |
+| victor     |    0.172 |
 | apropiat   |    0.16  |
 | spune      |    0.159 |
-| elena      |    0.159 |
 | însă       |    0.159 |
+| elena      |    0.159 |
 | sursă      |    0.154 |
 | respectiv  |    0.145 |
 | coldea     |    0.123 |
@@ -21811,8 +21740,8 @@ _File: `2026-04-08_nicusor-dan-i-was-happy-that-the-head-of-the-iasi-dna-is-run`
 | dosar      |    0.146 |
 | spune      |    0.127 |
 | ști        |    0.116 |
-| credință   |    0.105 |
 | bun        |    0.105 |
+| credință   |    0.105 |
 | activitate |    0.098 |
 | general    |    0.096 |
 
@@ -21822,17 +21751,17 @@ _File: `2026-04-08_nicusor-dan-if-i-make-a-mistake-romanians-will-penalize-me` �
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| dumneavoastră |    0.279 |
+| dumneavoastră |    0.278 |
 | penaliza      |    0.232 |
 | vrea          |    0.187 |
-| spune         |    0.184 |
+| spune         |    0.185 |
 | echipă        |    0.16  |
 | campanie      |    0.152 |
 | contract      |    0.138 |
 | persoană      |    0.137 |
 | apărea        |    0.13  |
 | întrebare     |    0.129 |
-| procuror      |    0.128 |
+| procuror      |    0.127 |
 | adică         |    0.124 |
 | crede         |    0.117 |
 | informație    |    0.115 |
@@ -21849,14 +21778,14 @@ _File: `2026-04-08_nicusor-dan-respinge-acuzatiile-nu-sunt-propunerile-psd` · 5
 | parchetelor |    0.281 |
 | aproba      |    0.25  |
 | procuror    |    0.24  |
-| activitate  |    0.206 |
+| activitate  |    0.205 |
 | justiție    |    0.195 |
 | român       |    0.187 |
 | dinamizare  |    0.184 |
 | ministru    |    0.179 |
 | falcone     |    0.177 |
-| giovanni    |    0.172 |
 | falcon      |    0.172 |
+| giovanni    |    0.172 |
 | audia       |    0.164 |
 | infinit     |    0.164 |
 
@@ -21867,16 +21796,16 @@ _File: `2026-04-09_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | procuror      |    0.411 |
-| spune         |    0.212 |
+| spune         |    0.213 |
 | șef           |    0.186 |
 | parchet       |    0.179 |
 | judecată      |    0.176 |
 | trimite       |    0.161 |
 | dumneavoastră |    0.155 |
 | dna           |    0.154 |
-| penal         |    0.137 |
+| penal         |    0.136 |
 | bun           |    0.132 |
-| ști           |    0.118 |
+| ști           |    0.119 |
 | dosar         |    0.118 |
 | întrebare     |    0.117 |
 | iași          |    0.114 |
@@ -21919,12 +21848,12 @@ _File: `2026-04-17_nicusor-dan-calin-georgescu-a-fost-sustinut-de-o-infrastruct`
 | crea           |    0.211 |
 | rus            |    0.205 |
 | raport         |    0.202 |
-| infrastructură |    0.202 |
+| infrastructură |    0.201 |
 | public         |    0.2   |
 | lucru          |    0.194 |
 | mhm            |    0.178 |
 | dezvăluire     |    0.161 |
-| susține        |    0.154 |
+| susține        |    0.155 |
 
 ## 2026-04-20 — video-transcript
 
@@ -21934,7 +21863,7 @@ _File: `2026-04-20_ciprian-ciucu-critics-of-nicusor-dan-he-coordinates-more-wit`
 |:------------------------|---------:|
 | psd                     |    0.378 |
 | liberal                 |    0.278 |
-| partid                  |    0.277 |
+| partid                  |    0.278 |
 | vrea                    |    0.258 |
 | sine                    |    0.251 |
 | partidulnaționalliberal |    0.157 |
@@ -21956,7 +21885,7 @@ _File: `2026-04-20_nicusor-dan-lack-of-financial-education-led-to-unhealthy-dec`
 |:---------------|---------:|
 | financiar      |    0.402 |
 | educație       |    0.28  |
-| economie       |    0.191 |
+| economie       |    0.192 |
 | capital        |    0.181 |
 | nesănătos      |    0.165 |
 | antreprenoriat |    0.158 |
@@ -21965,10 +21894,10 @@ _File: `2026-04-20_nicusor-dan-lack-of-financial-education-led-to-unhealthy-dec`
 | guvernator     |    0.145 |
 | zonă           |    0.142 |
 | corelație      |    0.141 |
-| societate      |    0.136 |
+| societate      |    0.137 |
 | profit         |    0.134 |
 | informațional  |    0.125 |
-| sănătos        |    0.118 |
+| sănătos        |    0.12  |
 
 ## 2026-04-20 — video-transcript
 
@@ -21977,20 +21906,20 @@ _File: `2026-04-20_nicusor-dan-traim-un-razboi-informational-ce-a-anuntat-prese`
 | lemmă          |   TF-IDF |
 |:---------------|---------:|
 | capital        |    0.261 |
-| financiar      |    0.258 |
+| financiar      |    0.257 |
 | antreprenoriat |    0.227 |
-| economie       |    0.22  |
-| reclam         |    0.214 |
+| economie       |    0.221 |
+| reclam         |    0.213 |
 | invita         |    0.21  |
 | guvernator     |    0.208 |
 | educație       |    0.202 |
 | profit         |    0.193 |
 | informațional  |    0.18  |
-| sănătos        |    0.171 |
-| zonă           |    0.154 |
-| profesional    |    0.149 |
+| sănătos        |    0.172 |
+| zonă           |    0.153 |
 | aspect         |    0.149 |
-| societate      |    0.147 |
+| profesional    |    0.149 |
+| societate      |    0.148 |
 
 ## 2026-04-20 — video-transcript
 
@@ -21999,16 +21928,16 @@ _File: `2026-04-20_we-will-enter-political-turbulence-nicusor-dan-i-do-not-supp`
 | lemmă     |   TF-IDF |
 |:----------|---------:|
 | spune     |    0.284 |
-| exista    |    0.206 |
+| exista    |    0.207 |
 | consens   |    0.195 |
 | domn      |    0.183 |
 | vrea      |    0.177 |
 | financiar |    0.175 |
-| ilie      |    0.172 |
+| ilie      |    0.171 |
 | coerență  |    0.166 |
-| pnrr      |    0.151 |
+| pnrr      |    0.152 |
 | vedea     |    0.151 |
-| bolojan   |    0.144 |
+| bolojan   |    0.143 |
 | condamna  |    0.135 |
 | lucru     |    0.134 |
 | transmite |    0.132 |
@@ -22021,19 +21950,19 @@ _File: `2026-04-22_declaratie-de-presa-sustinuta-de-presedintele-romaniei-nicus`
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
 | politic       |    0.343 |
-| criză         |    0.229 |
+| criză         |    0.228 |
 | partid        |    0.22  |
-| pro           |    0.158 |
+| pro           |    0.157 |
 | consultare    |    0.155 |
-| viitor        |    0.152 |
 | diferență     |    0.152 |
+| viitor        |    0.152 |
 | dialog        |    0.137 |
-| forță         |    0.133 |
+| forță         |    0.134 |
 | moment        |    0.132 |
-| rect          |    0.132 |
-| dezescaladare |    0.132 |
-| dezescalada   |    0.126 |
+| rect          |    0.131 |
+| dezescaladare |    0.131 |
 | neînțelegeril |    0.126 |
+| dezescalada   |    0.126 |
 | minoritară    |    0.126 |
 
 ## 2026-04-22 — video-transcript
@@ -22042,21 +21971,21 @@ _File: `2026-04-22_kelemen-hunor-at-the-end-of-discussions-with-nicusor-dan-we` 
 
 | lemmă     |   TF-IDF |
 |:----------|---------:|
-| greu      |    0.383 |
+| greu      |    0.385 |
 | soluție   |    0.266 |
-| coaliție  |    0.251 |
+| coaliție  |    0.25  |
 | urmă      |    0.243 |
 | moment    |    0.239 |
 | dificil   |    0.199 |
 | funcționa |    0.183 |
 | vrea      |    0.183 |
 | impui     |    0.179 |
-| conflictă |    0.172 |
-| miraculos |    0.172 |
-| dispută   |    0.166 |
+| miraculos |    0.171 |
+| conflictă |    0.171 |
+| dispută   |    0.165 |
 | înțelege  |    0.165 |
-| partid    |    0.15  |
 | împreună  |    0.15  |
+| partid    |    0.15  |
 
 ## 2026-04-23 — video-transcript
 
@@ -22068,13 +21997,13 @@ _File: `2026-04-23_nicusor-dan-despre-situatia-demisiilor-ministrilor-psd-aprec`
 | competitivitate |    0.195 |
 | discuție        |    0.19  |
 | important       |    0.178 |
-| seară           |    0.175 |
+| seară           |    0.176 |
 | uniune          |    0.165 |
-| dori            |    0.155 |
+| dori            |    0.154 |
 | spune           |    0.145 |
 | deblocare       |    0.143 |
 | inflama         |    0.138 |
-| ban             |    0.137 |
+| ban             |    0.138 |
 | performa        |    0.134 |
 | ocd             |    0.128 |
 | formă           |    0.125 |
@@ -22093,11 +22022,11 @@ _File: `2026-04-24_nicusor-dan-reacts-to-george-simion-s-new-discriminatory-sta`
 | situație                |    0.183 |
 | spune                   |    0.161 |
 | criză                   |    0.144 |
-| psd                     |    0.139 |
 | întreba                 |    0.139 |
+| psd                     |    0.139 |
 | guvern                  |    0.139 |
+| exista                  |    0.128 |
 | mesaj                   |    0.128 |
-| exista                  |    0.127 |
 | partidulnaționalliberal |    0.124 |
 | ucraina                 |    0.124 |
 | putea                   |    0.123 |
@@ -22120,7 +22049,7 @@ _File: `2026-04-24_nicusor-dan-simion-s-statement-to-me-is-below-any-level-of-d`
 | dialogha      |    0.2   |
 | declarație    |    0.199 |
 | vot           |    0.193 |
-| metaforă      |    0.188 |
+| metaforă      |    0.187 |
 | adversar      |    0.179 |
 | dumneavoastră |    0.178 |
 
@@ -22154,16 +22083,16 @@ _File: `2026-04-29_nicusor-dan-i-wish-romania-would-be-governed-by-pro-western` 
 |:---------------|---------:|
 | suspendare     |    0.437 |
 | constituțional |    0.28  |
-| alianță        |    0.222 |
-| acționa        |    0.201 |
+| alianță        |    0.223 |
+| acționa        |    0.202 |
 | parte          |    0.187 |
 | serios         |    0.185 |
-| decid          |    0.177 |
-| psd            |    0.176 |
+| decid          |    0.176 |
+| psd            |    0.175 |
 | declarație     |    0.169 |
 | dori           |    0.146 |
 | vorbit         |    0.146 |
-| crede          |    0.144 |
+| crede          |    0.145 |
 | nicidecum      |    0.143 |
 | penaliza       |    0.143 |
 | procidental    |    0.135 |
@@ -22175,8 +22104,8 @@ _File: `2026-05-04_nicusor-dan-europa-isi-consolideaza-apararea-pe-fondul-reori`
 | lemmă       |   TF-IDF |
 |:------------|---------:|
 | europa      |    0.401 |
-| compensa    |    0.279 |
-| unit        |    0.256 |
+| compensa    |    0.278 |
+| unit        |    0.257 |
 | vrea        |    0.235 |
 | pas         |    0.2   |
 | impulsu     |    0.184 |
@@ -22188,7 +22117,7 @@ _File: `2026-05-04_nicusor-dan-europa-isi-consolideaza-apararea-pe-fondul-reori`
 | furniza     |    0.145 |
 | recupera    |    0.138 |
 | cuprinde    |    0.136 |
-| surpriză    |    0.132 |
+| parțial     |    0.132 |
 
 ## 2026-05-04 — video-transcript
 
@@ -22200,13 +22129,13 @@ _File: `2026-05-04_nicusor-dan-regardless-of-what-happens-romania-will-continue`
 | vrea        |    0.263 |
 | moldova     |    0.195 |
 | uniune      |    0.176 |
-| cenzură     |    0.173 |
+| cenzură     |    0.172 |
 | discuție    |    0.157 |
 | exista      |    0.149 |
 | european    |    0.144 |
 | sine        |    0.131 |
 | ungaria     |    0.122 |
-| politic     |    0.111 |
+| politic     |    0.112 |
 | trece       |    0.111 |
 | bineînțeles |    0.108 |
 | direcție    |    0.107 |
@@ -22222,17 +22151,17 @@ _File: `2026-05-04_nicusor-dan-the-state-will-function-regardless-of-the-outcom`
 | predicție    |    0.381 |
 | cenzură      |    0.305 |
 | aur          |    0.247 |
-| putea        |    0.233 |
+| putea        |    0.232 |
 | răsturnare   |    0.197 |
 | trece        |    0.196 |
 | trăda        |    0.181 |
+| credibil     |    0.167 |
 | matematician |    0.167 |
-| credibil     |    0.165 |
 | semnătură    |    0.158 |
 | speculație   |    0.156 |
 | credeți      |    0.143 |
 | moment       |    0.137 |
-| șansă        |    0.115 |
+| considera    |    0.115 |
 
 ## 2026-05-05 — video-transcript
 
@@ -22240,18 +22169,18 @@ _File: `2026-05-05_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| consens    |    0.517 |
+| consens    |    0.516 |
 | exista     |    0.234 |
 | guvern     |    0.212 |
-| pnrr       |    0.205 |
-| așteptără  |    0.18  |
-| calm       |    0.161 |
+| pnrr       |    0.206 |
+| așteptără  |    0.179 |
+| calm       |    0.16  |
 | înțeleg    |    0.155 |
 | program    |    0.151 |
 | buget      |    0.15  |
 | parlament  |    0.15  |
 | direcție   |    0.144 |
-| safe       |    0.134 |
+| safe       |    0.135 |
 | formare    |    0.13  |
 | occidental |    0.127 |
 | pro        |    0.125 |
@@ -22273,8 +22202,8 @@ _File: `2026-05-05_nicusor-dan-vom-avea-un-nou-guvern-pro-occidental-in-termen` 
 | parlament  |    0.165 |
 | cristaliza |    0.16  |
 | stat       |    0.157 |
-| invit      |    0.145 |
 | demite     |    0.145 |
+| invit      |    0.145 |
 | consultăre |    0.138 |
 | anticipat  |    0.138 |
 
@@ -22328,21 +22257,21 @@ _File: `2026-05-07_ciucu-about-the-possible-suspension-of-nicusor-dan-pnl-would`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| guvernare  |    0.292 |
+| guvernare  |    0.291 |
 | suspendare |    0.275 |
 | palmă      |    0.25  |
 | președinte |    0.236 |
 | chema      |    0.224 |
 | asuma      |    0.203 |
-| aur        |    0.2   |
-| veni       |    0.19  |
+| aur        |    0.199 |
+| veni       |    0.191 |
 | guvern     |    0.169 |
 | psd        |    0.166 |
 | procedură  |    0.146 |
 | pregătim   |    0.14  |
 | spune      |    0.135 |
 | declanșa   |    0.125 |
-| crește     |    0.124 |
+| crește     |    0.125 |
 
 ## 2026-05-08 — video-transcript
 
@@ -22372,21 +22301,21 @@ _File: `2026-05-09_mesajul-presedintelui-romaniei-nicusor-dan-cu-prilejul-zilei`
 
 | lemmă      |   TF-IDF |
 |:-----------|---------:|
-| european   |    0.33  |
-| uniune     |    0.328 |
-| europa     |    0.27  |
-| românia    |    0.253 |
-| greșeală   |    0.21  |
-| dezbatere  |    0.159 |
-| duce       |    0.133 |
-| interior   |    0.133 |
-| adevărat   |    0.128 |
-| politică   |    0.118 |
-| lozincă    |    0.115 |
-| occidental |    0.112 |
+| european   |    0.331 |
+| uniune     |    0.329 |
+| europa     |    0.271 |
+| românia    |    0.254 |
+| greșeală   |    0.212 |
+| dezbatere  |    0.16  |
+| duce       |    0.134 |
+| interior   |    0.134 |
+| adevărat   |    0.129 |
+| lozincă    |    0.119 |
+| politică   |    0.119 |
+| occidental |    0.113 |
 | vrea       |    0.111 |
 | miliard    |    0.108 |
-| decât      |    0.106 |
+| decât      |    0.107 |
 
 ## 2026-05-09 — video-transcript
 
@@ -22395,20 +22324,20 @@ _File: `2026-05-09_nicusor-dan-we-will-continue-discussions-for-a-pro-western-g`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | occidental   |    0.322 |
-| pro          |    0.319 |
-| rezonabil    |    0.248 |
-| vrea         |    0.226 |
+| pro          |    0.317 |
+| rezonabil    |    0.249 |
+| vrea         |    0.225 |
 | partid       |    0.222 |
-| guvern       |    0.216 |
+| guvern       |    0.215 |
 | încheia      |    0.202 |
 | negociere    |    0.182 |
 | termen       |    0.175 |
 | lider        |    0.165 |
-| oecd         |    0.156 |
+| oecd         |    0.159 |
+| constrângere |    0.148 |
 | începe       |    0.148 |
-| constrângere |    0.146 |
 | întru        |    0.142 |
-| rundă        |    0.14  |
+| traiectorie  |    0.141 |
 
 ## 2026-05-12 — video-transcript
 
@@ -22419,16 +22348,16 @@ _File: `2026-05-12_nicusor-dan-daca-ne-referim-la-europa-asa-ca-la-o-icoana-nu` 
 | europa        |    0.536 |
 | spune         |    0.35  |
 | discurs       |    0.279 |
-| dezbatere     |    0.185 |
+| dezbatere     |    0.186 |
 | dumneavoastră |    0.154 |
-| exemplu       |    0.14  |
+| exemplu       |    0.139 |
+| ideologic     |    0.121 |
 | european      |    0.12  |
-| ideologic     |    0.119 |
 | integrat      |    0.115 |
 | conecta       |    0.108 |
 | organism      |    0.106 |
-| participa     |    0.104 |
 | politică      |    0.104 |
+| participa     |    0.103 |
 | opinie        |    0.101 |
 | critica       |    0.099 |
 
@@ -22436,23 +22365,23 @@ _File: `2026-05-12_nicusor-dan-daca-ne-referim-la-europa-asa-ca-la-o-icoana-nu` 
 
 _File: `2026-05-12_nicusor-dan-i-will-convene-the-parties-for-formal-consultati` · 95 clean lemmas_
 
-| lemmă      |   TF-IDF |
-|:-----------|---------:|
-| vrea       |    0.316 |
-| formal     |    0.306 |
-| avansa     |    0.294 |
-| consultare |    0.244 |
-| partid     |    0.23  |
-| tehnocrat  |    0.22  |
-| majoritate |    0.217 |
-| premier    |    0.202 |
-| chema      |    0.185 |
-| minte      |    0.176 |
-| variantă   |    0.159 |
-| exista     |    0.154 |
-| șansă      |    0.153 |
-| propunere  |    0.146 |
-| delegație  |    0.116 |
+| lemmă          |   TF-IDF |
+|:---------------|---------:|
+| vrea           |    0.316 |
+| formal         |    0.306 |
+| avansa         |    0.294 |
+| consultare     |    0.244 |
+| partid         |    0.23  |
+| tehnocrat      |    0.22  |
+| majoritate     |    0.217 |
+| premier        |    0.202 |
+| chema          |    0.185 |
+| minte          |    0.176 |
+| variantă       |    0.159 |
+| exista         |    0.154 |
+| șansă          |    0.153 |
+| propunere      |    0.146 |
+| antioccidental |    0.116 |
 
 ## 2026-05-12 — video-transcript
 
@@ -22468,12 +22397,12 @@ _File: `2026-05-12_nicusor-dan-suntem-intr-o-perioada-cu-provocari-statele-care`
 | turcia                          |    0.138 |
 | președinte                      |    0.129 |
 | provocare                       |    0.12  |
-| obiectiv                        |    0.118 |
+| obiectiv                        |    0.119 |
 | navigație                       |    0.117 |
 | spune                           |    0.114 |
 | puternic                        |    0.113 |
-| deminare                        |    0.109 |
-| colabora                        |    0.108 |
+| deminare                        |    0.108 |
+| colabora                        |    0.107 |
 | discuție                        |    0.107 |
 
 ## 2026-05-13 — video-transcript
@@ -22484,19 +22413,19 @@ _File: `2026-05-13_nicusor-dan-am-discutat-cu-secretarul-general-al-nato-despre`
 |:--------------------------------|---------:|
 | summit                          |    0.338 |
 | northatlantictreatyorganization |    0.252 |
-| alianță                         |    0.24  |
+| alianță                         |    0.241 |
 | fază                            |    0.163 |
 | salut                           |    0.158 |
 | moldova                         |    0.149 |
 | secretar                        |    0.146 |
-| declarație                      |    0.146 |
+| declarație                      |    0.145 |
 | general                         |    0.139 |
 | ancara                          |    0.137 |
 | ucraina                         |    0.135 |
 | vreau                           |    0.134 |
-| amenințare                      |    0.13  |
+| amenințare                      |    0.129 |
 | delegație                       |    0.128 |
-| nordic                          |    0.126 |
+| angajamentă                     |    0.126 |
 
 ## 2026-05-13 — video-transcript
 
@@ -22505,20 +22434,20 @@ _File: `2026-05-13_nicusor-dan-moldova-e-un-stat-pe-flancul-estic-amenintat-int`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | moldova      |    0.436 |
-| alianță      |    0.422 |
+| alianță      |    0.424 |
 | suplimentare |    0.192 |
 | piept        |    0.188 |
 | echilibrare  |    0.188 |
-| angajamentă  |    0.185 |
-| transformare |    0.179 |
-| capabilitate |    0.168 |
+| angajamentă  |    0.184 |
+| transformare |    0.178 |
+| capabilitate |    0.167 |
 | respectare   |    0.159 |
 | amenința     |    0.156 |
 | important    |    0.152 |
 | contribuție  |    0.147 |
-| agresiune    |    0.142 |
+| agresiune    |    0.141 |
 | flanc        |    0.139 |
-| stat         |    0.135 |
+| stat         |    0.136 |
 
 ## 2026-05-13 — video-transcript
 
@@ -22527,10 +22456,10 @@ _File: `2026-05-13_summit-b9-la-bucuresti-nicusor-dan-trebuie-sa-sporim-cheltui`
 | lemmă        |   TF-IDF |
 |:-------------|---------:|
 | apropiere    |    0.388 |
-| spori        |    0.27  |
-| alianță      |    0.226 |
+| spori        |    0.269 |
+| alianță      |    0.228 |
 | aliat        |    0.224 |
-| trebui       |    0.219 |
+| trebui       |    0.22  |
 | prezență     |    0.197 |
 | nordică      |    0.167 |
 | viziunile    |    0.167 |
@@ -22551,16 +22480,16 @@ _File: `2026-05-13_summit-b9-la-bucuresti-nicusor-dan-trebuie-sa-sporim-cheltui_
 | apropiere     |    0.265 |
 | trebui        |    0.262 |
 | securitate    |    0.246 |
-| alianță       |    0.232 |
-| transatlantic |    0.226 |
+| alianță       |    0.233 |
+| transatlantic |    0.227 |
 | prioritate    |    0.212 |
 | spori         |    0.184 |
 | ucraina       |    0.163 |
 | aliat         |    0.153 |
 | reuniune      |    0.147 |
-| desfășura     |    0.145 |
-| exista        |    0.137 |
-| summit        |    0.137 |
+| desfășura     |    0.146 |
+| exista        |    0.138 |
+| summit        |    0.136 |
 | oportunitate  |    0.136 |
 | consolidare   |    0.136 |
 
@@ -22578,9 +22507,9 @@ _File: `2026-05-15_nicusor-dan-i-would-not-like-to-appoint-a-government-that-wo`
 | guvern           |    0.201 |
 | usr              |    0.183 |
 | majoritate       |    0.173 |
-| condiționările   |    0.165 |
-| nască            |    0.165 |
 | dificilă         |    0.165 |
+| nască            |    0.165 |
+| condiționările   |    0.165 |
 | întrebare        |    0.149 |
 | componență       |    0.145 |
 | partid           |    0.138 |
@@ -22595,13 +22524,13 @@ _File: `2026-05-15_nicusor-dan-majoritatea-parlamentara-va-fi-cheia-consultaril`
 | parlamentar |    0.267 |
 | majoritate  |    0.245 |
 | vrea        |    0.221 |
-| exista      |    0.186 |
+| exista      |    0.187 |
 | guvern      |    0.176 |
 | discuție    |    0.158 |
+| spune       |    0.151 |
 | răspuns     |    0.151 |
 | lună        |    0.151 |
-| spune       |    0.151 |
-| întrebare   |    0.151 |
+| întrebare   |    0.15  |
 | partid      |    0.139 |
 | trebui      |    0.132 |
 | parte       |    0.129 |
@@ -22618,15 +22547,15 @@ _File: `2026-05-20_nicusor-dan-continues-consultations-a-psd-only-government-is`
 | partid      |    0.289 |
 | variantă    |    0.285 |
 | guvern      |    0.281 |
-| social      |    0.239 |
+| social      |    0.238 |
 | democrat    |    0.183 |
-| jur         |    0.178 |
+| jur         |    0.179 |
 | parlamentar |    0.169 |
 | consultăre  |    0.158 |
 | politic     |    0.147 |
 | refuza      |    0.146 |
 | independent |    0.129 |
-| însă        |    0.127 |
+| însă        |    0.128 |
 | nicușor     |    0.126 |
 | președinte  |    0.124 |
 
@@ -22639,7 +22568,7 @@ _File: `2026-05-20_the-us-president-s-strategist-impressed-by-nicusor-dan-i-lik`
 | președinte |    0.355 |
 | românia    |    0.214 |
 | plăcea     |    0.182 |
-| unit       |    0.175 |
+| unit       |    0.176 |
 | trump      |    0.161 |
 | impresiona |    0.158 |
 | dan        |    0.157 |
@@ -22647,7 +22576,7 @@ _File: `2026-05-20_the-us-president-s-strategist-impressed-by-nicusor-dan-i-lik`
 | relație    |    0.126 |
 | spune      |    0.122 |
 | prieten    |    0.12  |
-| ocazie     |    0.118 |
+| ocazie     |    0.119 |
 | fapt       |    0.116 |
 | trebui     |    0.115 |
 | stat       |    0.114 |

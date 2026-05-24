@@ -32,7 +32,7 @@ SRC = ROOT / "data" / "raw"
 DST = ROOT / "data" / "1_canonical"
 REPORT = ROOT / "data" / "dedupe_report.md"
 
-THRESHOLD_DEFAULT = 0.85
+THRESHOLD_DEFAULT = 0.70
 
 # Channel priority (lower = better/more authoritative)
 CHANNEL_PRIORITY = [
