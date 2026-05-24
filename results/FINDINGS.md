@@ -179,6 +179,25 @@ Pe domenii de policy internă — **sănătate, educație, măsuri fiscale, dias
 - Promisiune (20 mai 2025): "*Imediat ce mă voi instala la Cotroceni, unul dintre viceprimari va deveni primar interimar al Capitalei.*"
 - Realitate post-investitură: ND a felicitat Ciprian Ciucu ca primar ales, fără numire de interimar. **Promisiune rupta în prima săptămână.**
 
+### 19. **Calitate clasificator: validată prin audit dublu (32 sample-uri)**
+
+Audit-uri manuale cu seed-uri 42 + 1337 (16 sample-uri stratificat per status × 2):
+
+| Verdict audit | Count | % |
+|---|---:|---:|
+| ✅ Corect | 24 | **75%** |
+| ⚠️ Debatable | 5 | 16% |
+| ❌ Greșit | 3 | 9% |
+
+**Eroare sistematică identificată**: toate cele 3 "greșit" sunt **promisiuni pre-mandate fulfilled** în topic-ul *justiție electorală* (ex: "Voi candida independent", "Voi informa partidele", "Voi face apel forțe pro-occidentale în turul 2"). Clasificatorul caută evidence în corpus mandat (≥ 26 mai 2025), unde promisiuni îndeplinite *înainte* nu mai sunt menționate → fals NO_MENTION/IN_PROGRESS.
+
+**Impact pe findings**:
+- Justiție electorală: 41% KEPT corectat → estimat ~75% KEPT
+- Overall: 20% KEPT corectat → estimat ~25-27% KEPT
+- **Findings principale rămân**: 4% pe București/local, 0% pe policy internă, 60% pe diplomație. Eroarea metodologică e izolată la topic-ul electoral și nu schimbă concluziile narative.
+
+Audit-urile complete: `results/04_promises/AUDIT_seed42.md`, `AUDIT_seed1337.md`.
+
 ---
 
 ## Verificări de calitate (post-projection)
