@@ -17,6 +17,7 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 - **~650k cuvinte** analizate
 - **6 etape de discurs** detectate cu TF-IDF pe perioade
 - Arc narativ: *diagnostic critic → mobilizare electorală → tehnocrat → comandant suprem → reformator instituțional → leader regional*
+- **BERTopic (Pasul 3)** — rulează pe Colab cu T4 GPU gratis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/radusqrt/evolutie-discurs-nicusor-dan/blob/main/notebooks/03_bertopic_colab.ipynb)
 - **5 findings principale** (vezi [`results/FINDINGS.md`](./results/FINDINGS.md)):
   1. Două registre distincte: **scris (FB) = instituțional/branding** vs **vorbit (video) = deliberativ/reflexiv**
   2. Vocabular dominant **abstract** (`vrea, sine, trebui, putea`), nu enumerare de policy
