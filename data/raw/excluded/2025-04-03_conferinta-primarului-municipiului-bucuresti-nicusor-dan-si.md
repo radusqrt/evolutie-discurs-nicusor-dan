@@ -1,13 +1,17 @@
 ---
 data: 2025-04-03
-tip: video-transcript
-sursa: https://www.youtube.com/watch?v=n3LH7IDaBrc
-canal: Privesc.Eu România
-titlu_video: Conferința primarului municipiului București, Nicușor Dan, și reprezentanții Untold Universe
-vorbitor: nicusor_dan
-verificat: false
 metoda: youtube_transcript_api (captions automate RO)
-nota: Transcript auto-generat din YouTube. Pot exista erori de transcriere; pentru analiză precisă trebuie revizuit manual. Conține doar vocea lui ND DACĂ video-ul e monolog; pentru conferințe de presă cu jurnaliști sau dezbateri, transcriptul include și alte voci (de etichetat ulterior).
+nota: Transcript auto-generat din YouTube. Pot exista erori de transcriere; pentru
+  analiză precisă trebuie revizuit manual. Conține doar vocea lui ND DACĂ video-ul
+  e monolog; pentru conferințe de presă cu jurnaliști sau dezbateri, transcriptul
+  include și alte voci (de etichetat ulterior).
+sursa: https://www.youtube.com/watch?v=n3LH7IDaBrc
+sursa_canal: Privesc.Eu România
+sursa_titlu: Conferința primarului municipiului București, Nicușor Dan, și reprezentanții
+  Untold Universe
+tip: video-transcript
+verificat: false
+vorbitor: nicusor_dan
 ---
 
 Bună ziua.

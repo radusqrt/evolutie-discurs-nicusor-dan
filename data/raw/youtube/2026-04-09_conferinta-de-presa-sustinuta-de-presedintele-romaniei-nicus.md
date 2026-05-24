@@ -1,5 +1,4 @@
 ---
-canal: Privesc.Eu România
 data: 2026-04-09
 metoda: heuristic diarization (format=markers, 41 ND segments, 42 JURNALIST segments)
 nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
@@ -8,8 +7,9 @@ nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate:
   [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
   Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
 sursa: https://www.youtube.com/watch?v=yJJ1E7095u4
+sursa_canal: Privesc.Eu România
+sursa_titlu: Conferință de presă susținută de Președintele României, Nicușor Dan
 tip: video-transcript
-titlu_video: Conferință de presă susținută de Președintele României, Nicușor Dan
 verificat: true
 vorbitor: nicusor_dan
 ---

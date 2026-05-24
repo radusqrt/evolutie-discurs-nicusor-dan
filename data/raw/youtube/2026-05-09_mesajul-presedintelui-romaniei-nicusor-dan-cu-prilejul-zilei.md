@@ -1,13 +1,13 @@
 ---
-canal: Privesc.Eu România
 data: 2026-05-09
 metoda: youtube_transcript_api (captions automate RO)
 nota: Discurs/declarație monolog (vocea lui ND singură). Transcript auto-generat YouTube;
   pot exista erori minore de transcriere.
 sursa: https://www.youtube.com/watch?v=3axZciVHj-0
-tip: video-transcript
-titlu_video: Mesajul Președintelui României, Nicușor Dan, cu prilejul Zilei Europei
+sursa_canal: Privesc.Eu România
+sursa_titlu: Mesajul Președintelui României, Nicușor Dan, cu prilejul Zilei Europei
   - 9 mai 2026
+tip: video-transcript
 verificat: true
 vorbitor: nicusor_dan
 ---

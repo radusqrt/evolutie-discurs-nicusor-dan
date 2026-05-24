@@ -1,13 +1,13 @@
 ---
-canal: Privesc.Eu România
 data: 2026-05-05
 metoda: youtube_transcript_api (captions automate RO)
 nota: Discurs/declarație monolog (vocea lui ND singură). Transcript auto-generat YouTube;
   pot exista erori minore de transcriere.
 sursa: https://www.youtube.com/watch?v=w7s5ZGXouXU
-tip: video-transcript
-titlu_video: Declarații de presă susținute de Președintele României, Nicușor Dan -
+sursa_canal: Privesc.Eu România
+sursa_titlu: Declarații de presă susținute de Președintele României, Nicușor Dan -
   5 mai 2026
+tip: video-transcript
 verificat: true
 vorbitor: nicusor_dan
 ---

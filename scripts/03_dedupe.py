@@ -28,7 +28,7 @@ from pathlib import Path
 import frontmatter
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = ROOT / "data" / "0_raw"
+SRC = ROOT / "data" / "raw"
 DST = ROOT / "data" / "1_canonical"
 REPORT = ROOT / "data" / "dedupe_report.md"
 

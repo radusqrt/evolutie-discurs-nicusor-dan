@@ -1,13 +1,13 @@
 ---
-canal: Privesc.Eu România
 data: 2025-06-26
 metoda: youtube_transcript_api (captions automate RO)
 nota: Discurs/declarație monolog (vocea lui ND singură). Transcript auto-generat YouTube;
   pot exista erori minore de transcriere.
 sursa: https://www.youtube.com/watch?v=W3BJET3qO8I
-tip: video-transcript
-titlu_video: Declarația Președintelui României, Nicușor Dan, după participarea la
+sursa_canal: Privesc.Eu România
+sursa_titlu: Declarația Președintelui României, Nicușor Dan, după participarea la
   Summitul NATO - 25 iunie 2025
+tip: video-transcript
 verificat: true
 vorbitor: nicusor_dan
 ---

@@ -1,12 +1,12 @@
 ---
-canal: Privesc.Eu România
 data: 2025-12-17
 metoda: youtube_transcript_api (captions automate RO)
 nota: Discurs/declarație monolog (vocea lui ND singură). Transcript auto-generat YouTube;
   pot exista erori minore de transcriere.
 sursa: https://www.youtube.com/watch?v=W8Ber6qM-DQ
+sursa_canal: Privesc.Eu România
+sursa_titlu: Declarația Președintelui României, Nicușor Dan, în Regatul Marii Britanii
 tip: video-transcript
-titlu_video: Declarația Președintelui României, Nicușor Dan, în Regatul Marii Britanii
 verificat: true
 vorbitor: nicusor_dan
 ---

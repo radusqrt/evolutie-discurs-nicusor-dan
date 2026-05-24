@@ -1,13 +1,13 @@
 ---
-canal: Privesc.Eu România
 data: 2026-03-11
 metoda: youtube_transcript_api (captions automate RO)
 nota: Discurs/declarație monolog (vocea lui ND singură). Transcript auto-generat YouTube;
   pot exista erori minore de transcriere.
 sursa: https://www.youtube.com/watch?v=Kk6CvIcvuHk
-tip: video-transcript
-titlu_video: Declarație susținută de Președintele României, Nicușor Dan, după ședința
+sursa_canal: Privesc.Eu România
+sursa_titlu: Declarație susținută de Președintele României, Nicușor Dan, după ședința
   CSAT din 11 martie 2026
+tip: video-transcript
 verificat: true
 vorbitor: nicusor_dan
 ---

@@ -18,9 +18,9 @@
 | Pas | Acțiune | Locație |
 |---|---|---|
 | 1. DISCOVERY | catalogare candidați | `data/index/youtube_candidates.json` |
-| 2. RAW | snapshot brut (immutable) | `data/0_raw/` (470 docs) |
-| 3. DEDUPE | clustere Jaccard ≥ 0.85 | `data/1_canonical/` (389 docs) + `data/dedupe_report.md` |
-| 4. DIARIZE | etichete `[ND]`/`[JURNALIST]` | inline (heuristic) + 1 manual |
+| 2. RAW | fișiere brute cu YAML frontmatter | `data/raw/` (1,525 docs: 462 YouTube + 1,054 FB + 9 manual) |
+| 3. DEDUPE | clustere Jaccard ≥ 0.85 | `data/1_canonical/` (1,114 docs) + `data/dedupe_report.md` |
+| 4. DIARIZE | etichete `[ND]`/`[JURNALIST]` | inline (heuristic) + 1 manual (Rutte) |
 | 5. CLEAN | lemmatizare + stopwords | inline în `corpus.py:tokenize()` |
 | 6. PROJECT | filtru pe vocea ND | `corpus.py:strip_speaker_tags_to_nd()` |
 | 7. ANALYZE | Pasul 1 + Pasul 2 | `results/01_basic/`, `results/02_tfidf/` |
@@ -123,13 +123,13 @@ Aceeași persoană, dar discursul migrează **de la idealuri către detaliu tehn
 
 Repo organizat în:
 
-- `data/0_raw/` — snapshot imutabil al colecției brute (470 docs)
-- `data/1_canonical/` — corpus canonic dedupat (389 docs, sursa de adevăr pentru analiză)
-- `data/raw/` — același cu `data/0_raw/`, păstrat pentru compatibilitate
+- `data/raw/` — colecția brută (1,525 docs cu YAML frontmatter)
   - `oficial/` — 7 manual-curated (anchor speeches)
   - `interviuri/` — 1 dezbatere
-  - `youtube/` — 462 transcripturi YouTube (cu metadata bogată per fișier)
-  - `excluded/` — 1 conferință primarie (off-topic)
-- `data/index/youtube_candidates.json` — catalog 608 candidați
-- `data/index/wikipedia_chronology.md` — index master de evenimente
+  - `youtube/` — 462 transcripturi YouTube
+  - `facebook/` — 1,054 postări Facebook
+  - `excluded/` — 1 conferință primarie (off-topic, pre-prezidențial)
+- `data/1_canonical/` — corpus canonic dedupat (**1,114 docs**, sursa de adevăr pentru analiză)
+- `data/index/youtube_candidates.json` — catalog 608 candidați YouTube
+- `data/index/wikipedia_chronology.md` — index master de evenimente prezidențiale
 - `data/dedupe_report.md` — raport detaliat clustere & duplicate eliminate

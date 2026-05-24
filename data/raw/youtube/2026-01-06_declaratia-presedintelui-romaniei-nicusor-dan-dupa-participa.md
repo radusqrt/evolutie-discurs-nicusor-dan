@@ -1,5 +1,4 @@
 ---
-canal: Privesc.Eu România
 data: 2026-01-06
 metoda: heuristic diarization (format=markers, 26 ND segments, 25 JURNALIST segments)
 nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
@@ -8,9 +7,10 @@ nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate:
   [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
   Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
 sursa: https://www.youtube.com/watch?v=iZQQF2JQClI
-tip: video-transcript
-titlu_video: Declarația Președintelui României, Nicușor Dan, după participarea la
+sursa_canal: Privesc.Eu România
+sursa_titlu: Declarația Președintelui României, Nicușor Dan, după participarea la
   Summitul Coaliției de Voință
+tip: video-transcript
 verificat: true
 vorbitor: nicusor_dan
 ---

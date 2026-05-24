@@ -1,13 +1,17 @@
 ---
 data: 2026-03-13
-tip: video-transcript
-sursa: https://www.youtube.com/watch?v=PByYMNewLXg
-canal: Privesc.Eu România
-titlu_video: Conferință susținută de Președinții României și Ucrainei, Nicușor Dan și Volodymyr Zelenskyy
-vorbitor: nicusor_dan
-verificat: false
 metoda: youtube_transcript_api (captions automate RO)
-nota: Transcript auto-generat din YouTube. Pot exista erori de transcriere; pentru analiză precisă trebuie revizuit manual. Conține doar vocea lui ND DACĂ video-ul e monolog; pentru conferințe de presă cu jurnaliști sau dezbateri, transcriptul include și alte voci (de etichetat ulterior).
+nota: Transcript auto-generat din YouTube. Pot exista erori de transcriere; pentru
+  analiză precisă trebuie revizuit manual. Conține doar vocea lui ND DACĂ video-ul
+  e monolog; pentru conferințe de presă cu jurnaliști sau dezbateri, transcriptul
+  include și alte voci (de etichetat ulterior).
+sursa: https://www.youtube.com/watch?v=PByYMNewLXg
+sursa_canal: Privesc.Eu România
+sursa_titlu: Conferință susținută de Președinții României și Ucrainei, Nicușor Dan
+  și Volodymyr Zelenskyy
+tip: video-transcript
+verificat: false
+vorbitor: nicusor_dan
 ---
 
 The signing ceremony of the official documents. sign statement of intent of president of Romania Nicu Jordan and president of Ukraine Volimir Zelenski concerning the production of defense material in Romania It is sign.

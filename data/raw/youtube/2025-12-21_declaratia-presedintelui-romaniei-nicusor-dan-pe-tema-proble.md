@@ -1,13 +1,13 @@
 ---
-canal: Privesc.Eu România
 data: 2025-12-21
 metoda: youtube_transcript_api (captions automate RO)
 nota: Discurs/declarație monolog (vocea lui ND singură). Transcript auto-generat YouTube;
   pot exista erori minore de transcriere.
 sursa: https://www.youtube.com/watch?v=hPWJX9Td2e0
-tip: video-transcript
-titlu_video: Declarația președintelui României, Nicușor Dan, pe tema problemelor reclamate
+sursa_canal: Privesc.Eu România
+sursa_titlu: Declarația președintelui României, Nicușor Dan, pe tema problemelor reclamate
   de magistrați
+tip: video-transcript
 verificat: true
 vorbitor: nicusor_dan
 ---

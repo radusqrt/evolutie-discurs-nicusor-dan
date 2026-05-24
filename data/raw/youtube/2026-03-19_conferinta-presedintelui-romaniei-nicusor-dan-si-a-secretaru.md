@@ -1,13 +1,20 @@
 ---
 data: 2026-03-19
-tip: video-transcript-diarizat
+metoda: diarizare manuală (transcript YouTube auto, etichete asignate manual pe baza
+  contextului)
+nota: Conferință comună cu Mark Rutte. Vorbitorii sunt etichetați [ND], [RUTTE], [JURNALIST].
+  Replicile lui Rutte sunt traduse simultan în română (cu unele bucăți finale în engleză).
+  Pentru analiza pe vocea pură ND, filtrează doar liniile [ND].
 sursa: https://www.youtube.com/watch?v=bcEshg3UCL0
-canal: Privesc.Eu România
-titlu_video: Conferința Președintelui României, Nicușor Dan, și a Secretarului General al NATO, Mark Rutte
-vorbitori: [nicusor_dan, mark_rutte, jurnalisti]
+sursa_canal: Privesc.Eu România
+sursa_titlu: Conferința Președintelui României, Nicușor Dan, și a Secretarului General
+  al NATO, Mark Rutte
+tip: video-transcript-diarizat
 verificat: true
-metoda: diarizare manuală (transcript YouTube auto, etichete asignate manual pe baza contextului)
-nota: Conferință comună cu Mark Rutte. Vorbitorii sunt etichetați [ND], [RUTTE], [JURNALIST]. Replicile lui Rutte sunt traduse simultan în română (cu unele bucăți finale în engleză). Pentru analiza pe vocea pură ND, filtrează doar liniile [ND].
+vorbitori:
+- nicusor_dan
+- mark_rutte
+- jurnalisti
 ---
 
 [MODERATOR] O declarație din partea secretarului general, apoi declarația președintelui, apoi vom întrebările dumneavoastră.

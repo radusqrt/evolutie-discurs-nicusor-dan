@@ -1,13 +1,13 @@
 ---
-canal: Privesc.Eu România
 data: 2025-06-20
 metoda: youtube_transcript_api (captions automate RO)
 nota: Discurs/declarație monolog (vocea lui ND singură) la desemnarea PM Bolojan.
   Transcript auto YouTube.
 sursa: https://www.youtube.com/watch?v=u5bQrWA86pE
-tip: video-transcript
-titlu_video: Declarație de presă susținută de Președintele României, Nicușor Dan -
+sursa_canal: Privesc.Eu România
+sursa_titlu: Declarație de presă susținută de Președintele României, Nicușor Dan -
   20 iunie 2025
+tip: video-transcript
 verificat: true
 vorbitor: nicusor_dan
 ---
