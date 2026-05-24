@@ -261,6 +261,29 @@ GLiNER multi-v2.1 zero-shot NER (3,755 mențiuni extrase, curățate la ~700 cu 
 - **CSM Q3 2025 (32)** — reforma pensii magistrați
 - **Rusia peak Q4 2025 (68)** — cea mai îngrijorată perioadă
 
+### 27. **Sentiment scris vs vorbit — FB e POLARIZAT, video e NUANȚAT (extensie Pasul 9 pe scris + vorbit)**
+
+Pasul 9 rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vorbit: 100). Distribuții comparative:
+
+| Sentiment | Scris (FB) | Vorbit (video) |
+|---|---:|---:|
+| pozitiv | **56%** | 27% |
+| negativ | **13%** | 9% |
+| mixt | 2% | **15%** |
+| n/a | 29% | 46% |
+
+**FB are 70% sentiment polarizat (pozitiv+negativ) — vs video care e doar 36% polarizat.** Restul în video e **MIXT (15%) + N/A** — stil reflexiv, prudent, ambiguu.
+
+**Entități cu sentiment DIFERIT scris vs vorbit (3 cazuri critice)**:
+
+| Entitate | Scris | Vorbit | Interpretare |
+|---|---|---|---|
+| TRUMP | POZITIV | **MIXT** | FB îl prezintă pozitiv pentru diplomația oficială; video are rezerve |
+| PSD | NEGATIV | **MIXT** | FB atacă (campanie); video temperează (post-coaliție) |
+| SIMION | n/a | **NEGATIV** | FB nu îl numește; video îl critică explicit |
+
+**Sub-finding majoritar pentru ipoteza GHOSTWRITING FB**: FB = instrument de polarizare clară (pro/contra explicit); video = instrument de nuanță și echivoc. ND personal e mai prudent când vorbește; pe FB apare un registru categoric care e mai compatibil cu un PR team decât cu deliberarea personală.
+
 ### 26. **Sentiment per entitate — ND nu atacă deschis, dar TRUMP e MIXT (Pasul 9)**
 
 Gemini 2.5 Flash sentiment classification pe 107 buckets (entitate × perioadă cu ≥3 mențiuni).

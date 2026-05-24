@@ -1,0 +1,71 @@
+# Pasul 8 — NER + Entity timeline (scris)
+
+**Model**: GLiNER multi-v2.1 (zero-shot multilingv, threshold 0.45)
+**Labels**: persoană politică, țară, instituție națională, instituție internațională, partid politic
+**Docs procesate**: 546 | **Mentions extrase**: 1578
+**Entități canonice unice**: 424
+
+## Top 30 entități (by mention count)
+
+| canonical            | label                     |   count |
+|:---------------------|:--------------------------|--------:|
+| românia              | țară                      |     447 |
+| româniei             | țară                      |     170 |
+| romaniaonesta        | țară                      |     108 |
+| nicusorpresedinte    | persoană politică         |      55 |
+| nato                 | instituție internațională |      49 |
+| ucraina              | țară                      |      47 |
+| ue                   | instituție internațională |      41 |
+| r. moldova           | țară                      |      39 |
+| sua                  | țară                      |      38 |
+| nicusordan           | persoană politică         |      32 |
+| ocde                 | instituție internațională |      27 |
+| românie              | țară                      |      24 |
+| ucrainei             | țară                      |      23 |
+| republicii moldova   | țară                      |      23 |
+| rusiei               | țară                      |      23 |
+| rusia                | țară                      |      21 |
+| polonia              | țară                      |      18 |
+| romaniaputernica     | țară                      |      17 |
+| romania              | țară                      |      17 |
+| simion               | persoană politică         |      17 |
+| nicușor-daniel dan   | persoană politică         |      16 |
+| președinte           | persoană politică         |      15 |
+| nd11                 | partid politic            |      12 |
+| uniunii europene     | instituție internațională |      11 |
+| franța               | țară                      |      10 |
+| spania               | țară                      |      10 |
+| țara noastră         | țară                      |      10 |
+| ciolacu              | persoană politică         |      10 |
+| germania             | țară                      |       9 |
+| consiliului european | instituție internațională |       9 |
+
+## Entity timeline (top 25, count per perioadă)
+
+| canonical          |   2024Q4-2025Q1 candidatură-precampanie |   2025Q2 campanie + investitură |   2025Q3 deficit + reforma economică |   2025Q4 stabilizare + diplomație |   2025Q4-2026Q1 reformă judiciară |   2026Q2 cotitură UE + criză guvern |
+|:-------------------|----------------------------------------:|--------------------------------:|-------------------------------------:|----------------------------------:|----------------------------------:|------------------------------------:|
+| românia            |                                      15 |                             151 |                                   44 |                                82 |                                86 |                                  69 |
+| româniei           |                                       3 |                              46 |                                   22 |                                34 |                                28 |                                  37 |
+| romaniaonesta      |                                       9 |                              99 |                                    0 |                                 0 |                                 0 |                                   0 |
+| nicusorpresedinte  |                                       6 |                              49 |                                    0 |                                 0 |                                 0 |                                   0 |
+| nato               |                                       0 |                               7 |                                    8 |                                11 |                                 6 |                                  20 |
+| ucraina            |                                       1 |                               3 |                                   18 |                                 2 |                                 8 |                                  15 |
+| ue                 |                                       1 |                               7 |                                    3 |                                 3 |                                16 |                                  12 |
+| r. moldova         |                                       0 |                              13 |                                    9 |                                 5 |                                 2 |                                  10 |
+| sua                |                                       0 |                               8 |                                    4 |                                 1 |                                17 |                                   8 |
+| nicusordan         |                                       0 |                              26 |                                    5 |                                 0 |                                 1 |                                   0 |
+| ocde               |                                       0 |                               0 |                                    3 |                                15 |                                 4 |                                   5 |
+| românie            |                                       0 |                              19 |                                    1 |                                 0 |                                 4 |                                   0 |
+| ucrainei           |                                       0 |                               0 |                                   12 |                                 3 |                                 1 |                                   7 |
+| republicii moldova |                                       0 |                               6 |                                    2 |                                 9 |                                 1 |                                   5 |
+| rusiei             |                                       1 |                               3 |                                    5 |                                 9 |                                 3 |                                   2 |
+| rusia              |                                       0 |                               5 |                                    8 |                                 1 |                                 2 |                                   5 |
+| polonia            |                                       0 |                               4 |                                    0 |                                 1 |                                 0 |                                  13 |
+| romaniaputernica   |                                       6 |                              11 |                                    0 |                                 0 |                                 0 |                                   0 |
+| romania            |                                       0 |                              11 |                                    1 |                                 0 |                                 2 |                                   3 |
+| simion             |                                       0 |                              17 |                                    0 |                                 0 |                                 0 |                                   0 |
+| nicușor-daniel dan |                                       0 |                              16 |                                    0 |                                 0 |                                 0 |                                   0 |
+| președinte         |                                       0 |                              13 |                                    2 |                                 0 |                                 0 |                                   0 |
+| nd11               |                                       0 |                              12 |                                    0 |                                 0 |                                 0 |                                   0 |
+| uniunii europene   |                                       0 |                               1 |                                    1 |                                 3 |                                 5 |                                   1 |
+| franța             |                                       0 |                               2 |                                    0 |                                 2 |                                 6 |                                   0 |
