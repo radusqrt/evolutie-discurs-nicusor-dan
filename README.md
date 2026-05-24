@@ -48,7 +48,11 @@ flowchart TB
 
     DEDUP -.-> REP["📝 data/dedupe_report.md<br/>394 clustere documentate"]
 
-    CAN --> AN["📊 ANALIZĂ<br/>(Pasul 1: wordclouds<br/>Pasul 2: TF-IDF + bigrame + temporal)"]
+    CAN --> DIARIZE["🎙️ <b>DIARIZE</b><br/>Aplicat doar pe transcripturile multi-voce<br/>──────<br/>FB posts + mesaje oficiale = monolog implicit (skip)<br/>YouTube conferințe/interviuri = LLM diarize (Gemini 2.5 Flash, thinking=0)<br/>Joint conferences (Sandu/Zelensky/Rutte) = manual"]
+
+    DIARIZE --> DIA["🏷️ <b>data/2_diarized/</b><br/>1,110 docs etichetate<br/>──────<br/>725 monolog implicit (FB + ND-only)<br/>337 LLM-diarize (multi-voce)<br/>41 heuristic v3 (declarații scurte)<br/>2 manual Claude (joint + intros tricky)<br/>5 pass-through (manual curated etc.)"]
+
+    DIA --> AN["📊 ANALIZĂ<br/>(Pasul 1: wordclouds<br/>Pasul 2: TF-IDF + bigrame + temporal)"]
 
     style SRC fill:#e1f5ff,stroke:#0288d1
     style YT fill:#fff,stroke:#0288d1
@@ -57,9 +61,20 @@ flowchart TB
     style RAW fill:#fff3e0,stroke:#f57c00,stroke-width:3px
     style DEDUP fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px
     style CAN fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
+    style DIARIZE fill:#fff8e1,stroke:#f9a825,stroke-width:3px
+    style DIA fill:#e0f2f1,stroke:#00695c,stroke-width:3px
     style AN fill:#fce4ec,stroke:#c2185b
     style REP fill:#fafafa,stroke:#9e9e9e,stroke-dasharray: 5 5
 ```
+
+**De ce 725 sunt "monolog implicit" (skip diarize)?**
+
+Aceste documente conțin **doar vocea lui Nicușor Dan** by-design — nu necesită separare de vorbitori:
+- **Toate 724 FB posts**: text scris direct de el, no journalists involved
+- **7 discursuri-ancoră manual curated**: anunț candidatură, lansare campanie, victorie, învestitură, mesaj Anul Nou, mesaj Ziua Europei, etc. — discursuri solo
+- **+ 1 conferință press care a fost transcrisă doar cu citatele lui** (la curation time)
+
+Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferințe presă, interviuri TV, talk shows) unde sunt mai mulți vorbitori. Plus 41 declarații scurte și 2 cazuri tricky făcute manual.
 
 **Reducerea principală vine din Facebook** (-330 dups): Apify a returnat unele posturi de mai multe ori pe re-runs + există posturi quasi-identice (mesaje scurte de mulțumiri reposatete). YouTube pierde doar 84 documente (re-uploads cross-channel ale aceluiași clip).
 
@@ -70,7 +85,7 @@ flowchart TB
 | 1 | **Discovery** | ✅ **verified** | `scripts/list_candidates.py` (yt-dlp prin proxy Webshare cu rotație IP 1-200) | `data/index/youtube_candidates.json` (608 candidați) |
 | 2 | **Raw collection** | ✅ **verified** | `scripts/fetch_from_candidates.py` (YouTube) + `scripts/fb_apify_collect.py` (Facebook prin Apify) + `scripts/enrich_metadata.py` (backfill) | `data/raw/` (1,525 docs cu YAML frontmatter complet) |
 | 3 | **Dedupe** | ✅ **verified** | `scripts/03_dedupe.py` (Jaccard cu canonical pick prioritar) + `scripts/03_dedupe_verify.py` (spot check pe sample + post-dedup distribuție Jaccard) | `data/1_canonical/` (1,110 docs, **0 duplicate cu Jaccard ≥ 0.70** rămase în canonical) + `data/dedupe_report.md` |
-| 4 | **Diarize** | ⏳ funcțional, parțial verificat | `scripts/diarize_heuristic.py` (>>+intros patterns) + manual pentru joint conferences | inline în .md cu etichete `[ND]/[JURNALIST]/[RUTTE]/...` |
+| 4 | **Diarize** | ✅ **verified** | `scripts/04_diarize.py` (skip-monolog) + `scripts/04d_diarize_llm_v2.py` (Gemini 2.5 Flash + thinking=0, chunked) + manual pentru cazuri tricky | `data/2_diarized/` cu etichete `[ND]/[JURNALIST]/[ANCHOR]/[OFICIAL: nume]` |
 | 5 | **Clean** | ⏳ funcțional | `scripts/corpus.py:tokenize()` (spaCy `ro_core_news_sm` + `stopwordsiso`) | runtime |
 | 6 | **Project** | ⏳ funcțional | `scripts/corpus.py:strip_speaker_tags_to_nd()` (filtrare voce ND) | runtime |
 | 7 | **Analyze** | ⏳ funcțional | `scripts/01_basic_analysis.py` (stats + wordclouds + top-N) + `scripts/02_tfidf_temporal.py` (TF-IDF + bigrame + perioade) | `results/01_basic/`, `results/02_tfidf/` |
@@ -82,7 +97,9 @@ flowchart TB
 - **Pasul 2 (Raw)** — verificat că schema YAML e uniformă (după normalizarea canal/titlu_video → sursa_canal/sursa_titlu pe 22 fișiere legacy), că metadata e completă (1495/1525 au sursa_titlu populat; restul = manual curated).
 - **Pasul 3 (Dedupe)** — verificat **dublu**: (a) spot check manual pe 6 perechi borderline 0.70-0.85 (toate confirmate ca duplicate reale, threshold scăzut de la 0.85 la 0.70); (b) post-dedup, distribuția Jaccard pe `data/1_canonical/` arată **0 perechi ≥ 0.70**.
 
-Pașii 4-8 sunt funcționali, dar nu au trecut printr-un check formal de validitate (ex. pentru pasul 4 — diarizare — încă au scapat 2 joint conferences nediarizate, iar heuristic-ul are eroare estimată ~5-15% pe edge cases).
+- **Pasul 4 (Diarize)** — verificat prin **2 audit-uri manuale** pe 20+20 fișiere random LLM-diarizate: ~88-90% segmente perfect etichetate, ~3-7% erori minore (ANCHOR vs JURNALIST blur, fragmente UNKNOWN). 0 candidate left undiarized — 100% coverage pe transcripturile multi-voce. Quality jump major vs heuristic-ul anterior care avea 11.5% error rate pe TV anchor narrative.
+
+Pașii 5-8 sunt funcționali, dar nu au trecut printr-un check formal de validitate.
 
 ## Surse de date
 
