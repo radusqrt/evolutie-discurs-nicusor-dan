@@ -7,23 +7,38 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 **Subiect și goal**: vezi [`BRIEF.md`](./BRIEF.md).
 
 **Rezultate**:
-- [`results/FINDINGS.md`](./results/FINDINGS.md) — **concluzii sintetizate** după Pasul 1+2 (5 findings principale)
+- [`results/FINDINGS.md`](./results/FINDINGS.md) — **21 findings sintetizate** după Pasul 1+2+3+4 + audit + fact-check independent
+- [`results/04_promises/SINTEZA.md`](./results/04_promises/SINTEZA.md) — Promise Tracker complet per topic
+- [`results/04_promises/FACT_CHECK_realworld.md`](./results/04_promises/FACT_CHECK_realworld.md) + [`FACT_CHECK_policy.md`](./results/04_promises/FACT_CHECK_policy.md) — fact-check web pe 10 promisiuni
 - [`results/SINTEZA.md`](./results/SINTEZA.md) — sinteza inițială (pre-branching scris/vorbit)
 
 ## TL;DR
 
 - **1,525 documente brute** colectate din **9 surse** (Facebook NicusorDan.ro, 8 canale YouTube)
-- **1,110 documente canonice** după dedup (Jaccard ≥ 0.70)
-- **~650k cuvinte** analizate
-- **6 etape de discurs** detectate cu TF-IDF pe perioade
-- Arc narativ: *diagnostic critic → mobilizare electorală → tehnocrat → comandant suprem → reformator instituțional → leader regional*
+- **1,110 documente canonice** după dedup (Jaccard ≥ 0.70), **1,062/724/338 docs** pe proiecții overall/scris/vorbit
+- **~650k cuvinte** analizate; LLM-diarized (Gemini 2.5 Flash, 95-97% acc); 26 topice BERTopic; **131 promisiuni** extrase + clasificate
 - **BERTopic (Pasul 3)** — rulează pe Colab cu T4 GPU gratis: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/radusqrt/evolutie-discurs-nicusor-dan/blob/main/notebooks/03_bertopic_colab.ipynb)
-- **5 findings principale** (vezi [`results/FINDINGS.md`](./results/FINDINGS.md)):
-  1. Două registre distincte: **scris (FB) = instituțional/branding** vs **vorbit (video) = deliberativ/reflexiv**
-  2. Vocabular dominant **abstract** (`vrea, sine, trebui, putea`), nu enumerare de policy
-  3. **Volum prăbușit post-mandat** (drop 3.6× față de campanie)
-  4. **Pivot tematic abrupt** trimestru-la-trimestru (electoral → magistrați/pensii → apărare)
-  5. **Brand-shedding "România onestă"** după investitură (TF-IDF 0.6 → 0)
+
+### Findings principale (vezi [`results/FINDINGS.md`](./results/FINDINGS.md) pentru 21 detaliate)
+
+**Discurs (analize pe text):**
+1. Două registre distincte: **scris (FB) = instituțional/branding** vs **vorbit (video) = deliberativ/reflexiv**
+2. Vocabular dominant **abstract** (`vrea, sine, trebui, putea`), nu enumerare de policy
+3. **Volum prăbușit post-mandat** (drop 3.6× față de campanie)
+4. **Pivot tematic abrupt** trimestru-la-trimestru (electoral → magistrați/pensii → apărare)
+5. **Brand-shedding "România onestă"** după investitură (TF-IDF 0.6 → 0)
+6. FB ultra-disciplinat: **76% într-un singur mega-topic instituțional**
+
+**Promisiuni (Pasul 4 — 131 promisiuni canonice):**
+- **20% KEPT, 59% IN_PROGRESS, 21% NO_MENTION, 0.8% CONTRADICTED, 0 ABANDONED** după 1 an mandat
+- București/local: 4% KEPT, **67% NO_MENTION** (abandonare narativă)
+- Diplomația: **60% KEPT** (singurul domeniu cu rate înalt)
+- Audit dublu (32 sample-uri, seed 42+1337): **75% spot-on** clasificator
+
+**🔥 Răsturnare prin fact-check independent (10 promisiuni verificate web):**
+- **Rate KEPT real = 60%** vs clasificator 20% — **subestimare factor 3×**
+- **ND livrează prin ACȚIUNE, nu prin DISCURS**: pensii magistrați promulgată (CCR 6-3), DNA/DIICOT numire (apr 2026), deficit -1.4pp (cea mai mare corecție UE), OCDE 22/25 opinii, cheltuieli militare 2.24% PIB cu angajament 5% până 2035, **50km tramvai contracte semnate**, **8 șantiere consolidare active** (vs 5 promise).
+- ND **NU rupe promisiuni** explicit (0 ABANDONED, 1 CONTRADICTED) — fie le ține, fie le tace.
 
 ## Diagrama de ingestie + dedupe
 
@@ -121,7 +136,7 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 
 **Reducerea principală vine din Facebook** (-330 dups): Apify a returnat unele posturi de mai multe ori pe re-runs + există posturi quasi-identice (mesaje scurte de mulțumiri reposatete). YouTube pierde doar 84 documente (re-uploads cross-channel ale aceluiași clip).
 
-## Pipeline (8 pași)
+## Pipeline (10 pași)
 
 | # | Pas | Status | Script / Acțiune | Output |
 |---|---|---|---|---|
@@ -130,9 +145,11 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 | 3 | **Dedupe** | ✅ **verified** | `scripts/03_dedupe.py` (Jaccard cu canonical pick prioritar) + `scripts/03_dedupe_verify.py` (spot check pe sample + post-dedup distribuție Jaccard) | `data/1_canonical/` (1,110 docs, **0 duplicate cu Jaccard ≥ 0.70** rămase în canonical) + `data/dedupe_report.md` |
 | 4 | **Diarize** | ✅ **verified** | `scripts/04_diarize.py` (skip-monolog) + `scripts/04d_diarize_llm_v2.py` (Gemini 2.5 Flash + thinking=0, chunked) + manual pentru cazuri tricky | `data/2_diarized/` cu etichete `[ND]/[JURNALIST]/[ANCHOR]/[OFICIAL: nume]` |
 | 5 | **Clean** | ✅ **verified** | `scripts/corpus.py:tokenize()` (spaCy `ro_core_news_sm` + `stopwordsiso` + speech-filler stopwords custom) | runtime |
-| 6 | **Project** | ⏳ funcțional | `scripts/corpus.py:strip_speaker_tags_to_nd()` (filtrare voce ND) | runtime |
-| 7 | **Analyze** | ⏳ funcțional | `scripts/01_basic_analysis.py` (stats + wordclouds + top-N) + `scripts/02_tfidf_temporal.py` (TF-IDF + bigrame + perioade) | `results/01_basic/`, `results/02_tfidf/` |
-| 8 | **Interpret** | ⏳ în curs | manual | `results/SINTEZA.md` |
+| 6 | **Project** | ✅ **verified** | `scripts/05_project.py` (3 proiecții: overall/scris/vorbit, filter pe `tip`) | `data/3_nd_{overall,scris,vorbit}/` (1062/724/338 docs) |
+| 7 | **Analyze (basic + TF-IDF)** | ✅ **verified** | `scripts/01_basic_analysis.py` (stats + wordclouds + top-N) + `scripts/02_tfidf_temporal.py` (TF-IDF per perioadă) | `results/01_basic_*/`, `results/02_tfidf_*/` (× 3 proiecții) |
+| 8 | **BERTopic** | ✅ **complete** | `scripts/03_bertopic.py` rulat în [Colab T4](./notebooks/03_bertopic_colab.ipynb) cu `multilingual-e5-large` + UMAP + HDBSCAN + c-TF-IDF | `results/03_bertopic_{overall,scris,vorbit}/` (26+7+8 topice descoperite + heatmap-uri temporale) |
+| 9 | **Promise Tracker** | ✅ **complete + audited + fact-checked** | `scripts/04_promises_extract.py` + `04b_dedupe.py` + `04c_match_classify.py` + `04d_synth.py` + `04e_audit.py` (Gemini 2.5 Flash + embedding mpnet retrieval) | `results/04_promises/SINTEZA.md`, `promise_status.csv`, `AUDIT_*.md`, `FACT_CHECK_*.md` (131 promisiuni, 20% KEPT classifier / 60% KEPT realitate) |
+| 10 | **Interpret** | ✅ **complete** | manual + audit dublu + fact-check independent (web search) | `results/FINDINGS.md` (21 findings) |
 
 **Status verification**:
 
@@ -152,7 +169,14 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
   - Realizări impresionante: identificare cu nume a oficialilor (Ilie Bolojan, Marcel Ciolacu, Patriarhul Daniel, Cancelarul Germaniei, Ciprian Ciucu, Lia Arsenie, Andrei Țăranu); joint conference cu Zelensky etichetat consistent pe 130 segmente
   - Quality jump major vs heuristic-ul anterior care avea 11.5% error rate pe TV anchor narrative
 
-Pașii 5-8 sunt funcționali, dar nu au trecut printr-un check formal de validitate.
+- **Pasul 8 (BERTopic)** — rulat pe Colab T4 GPU cu `multilingual-e5-large` (fp16) pe toate 3 proiecții; **26 topice overall + 7 scris + 8 vorbit** descoperite cu HDBSCAN (min_cluster_size=8). FB e ultra-disciplinat (76% într-un singur mega-topic instituțional), vorbit e mai dispersat (25% outliers) — confirmă registru-dualitate dintre cele 2 proiecții.
+
+- **Pasul 9 (Promise Tracker)** — verificat prin **trei mecanisme**:
+  - **Audit dublu manual** pe **32 sample-uri stratificate** (seed 42 + 1337): 75% spot-on, 16% debatable, 9% wrong. Eroarea sistematică: pre-mandate fulfilled promises (ex. "voi candida independent") clasificate ca NO_MENTION fiindcă mandate corpus nu le mai discută.
+  - **Fact-check independent web** (mai 2026) pe **10 promisiuni**: 5 PMB + 5 policy internă. **Rate KEPT real = 60% vs classifier 20% — subestimare factor 3×**. Promisiuni cu KEPT real confirmat: pensii speciale magistrați (CCR 6-3 + promulgare), DNA/DIICOT numire (apr 2026), cheltuieli militare (2.24% PIB + angajament 5%), 50km reabilitare tramvai, 8 șantiere consolidare clădiri.
+  - **Insight metodologic**: classifier-ul măsoară DISCURSUL, nu REALITATEA. Pentru proiectele delegate (PMB sub Bujduveanu/Ciucu) și acțiuni concrete (decrete, promulgări), ND livrează semnificativ mai mult decât anunță în discurs. **Framing-ul corect: "ND livrează prin acțiune, nu prin discurs"**.
+
+Pașii 1-9 sunt verificați. Pasul 10 (Interpret) e curent (vezi FINDINGS.md cu 21 findings).
 
 ## Surse de date
 
