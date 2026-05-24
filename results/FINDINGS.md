@@ -134,6 +134,53 @@ Se vor adăuga în stopwords sau filtru pentru runs viitoare.
 
 ---
 
+---
+
+## Pasul 4 (Promise Tracker) — findings explosive
+
+**Metoda**: 150 promisiuni extrase cu Gemini 2.5 Flash din corpusul de campanie (≤ 25 mai 2025, 319 docs). Dedup embedding cu paraphrase-multilingual-mpnet → 131 unice. Match vs corpusul mandat (≥ 26 mai 2025, ~540 docs, top-8 paragrafe per promisiune) + clasificare LLM cu taxonomie {KEPT, IN_PROGRESS, REFRAMED, ABANDONED, CONTRADICTED, NO_MENTION}.
+
+**Status global**:
+
+| Status | Count | % |
+|---|---:|---:|
+| ✅ KEPT | 26 | **20%** |
+| 🔄 IN_PROGRESS | 77 | **59%** |
+| ⚠️ CONTRADICTED | 1 | 0.8% |
+| ❓ NO_MENTION | 27 | 21% |
+| ABANDONED | 0 | 0% |
+| REFRAMED | 0 | 0% |
+
+### 14. **20% KEPT după 1 an de mandat — rată modestă, dar zero promisiuni rupte explicit**
+
+Doar 1 contradicție vizibilă (vice-primar interimar București nepromis) și **zero promisiuni abandonate sau redefinite**. ND nu rupe vizibil promisiuni — fie le ține (20%), fie le tace (21%), fie le tot menționează fără finalizare (59%).
+
+### 15. **București/local: pierdere completă de focus (4% KEPT, 67% NO_MENTION)**
+
+Din 27 promisiuni făcute ca primar/candidat pentru București, **18 (67%) n-au mai fost menționate** după investitură. Plus 1 contradicție explicită (vice-primar interimar promis, dar a felicitat Ciucu ca primar ales).
+
+ND a "abandonat narativ" rolul de primar.
+
+### 16. **Politica internă: ZERO promisiuni clar îndeplinite**
+
+Pe domenii de policy internă — **sănătate, educație, măsuri fiscale, diaspora, anti-corupție, R. Moldova** — *toate* au rată **0% KEPT**. Toate cele 30+ promisiuni din aceste zone sunt **IN_PROGRESS** (vorbite, nu livrate) sau **NO_MENTION**.
+
+### 17. **Diplomația = singurul domeniu de livrare reală**
+
+- **Diplomație: 60% KEPT, 0% NO_MENTION** — cel mai înalt rate de livrare
+- **Ucraina/Rusia: 67% KEPT** (2 din 3)
+- **NATO/apărare: 29% KEPT** (2 din 7)
+- **Justiție electorală: 41% KEPT** (dar parțial auto-fulfilling — "voi candida independent")
+
+**ND livrează vizibil în zona externă. Politica internă e in-progress sau tăcută.**
+
+### 18. **Top contradicție explicită**
+
+- Promisiune (20 mai 2025): "*Imediat ce mă voi instala la Cotroceni, unul dintre viceprimari va deveni primar interimar al Capitalei.*"
+- Realitate post-investitură: ND a felicitat Ciprian Ciucu ca primar ales, fără numire de interimar. **Promisiune rupta în prima săptămână.**
+
+---
+
 ## Verificări de calitate (post-projection)
 
 - **Dedup secundar pe ND-only**: verificat cu `scripts/check_nd_dup.py` — doar **4 perechi** cu Jaccard ≥ 0.85 din 835 docs substantive (≥20 token-uri unice). Toate sunt aceeași declarație publicată în 2 zile consecutive (conferința 2025-07-30/31, declarația Ucraina 2026-01-06/07, vizita Polonia 2026-03-05/06). Impact negligibil (0.5%), **nu se aplică al doilea dedup**.
