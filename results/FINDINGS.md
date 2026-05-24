@@ -381,7 +381,17 @@ Pasul 10 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Boloja
 
 **Verdict**: prima divergență publică vizibilă între președinte și premier — confirmată atât de corpus (Gemini Q2 2026 = "tensionat") cât și de surse media (Recorder: *"coaliția, cu un picior în groapă"*).
 
-**Sursă fact-check**: `results/10_nd_bolojan/RAPORT.md` + URL-uri ebihoreanul, Digi24, Capital, Recorder, Veridica, Profit.
+**Fact-check complet pe toate 6 perioade** (`results/10_nd_bolojan/FACT_CHECK.md`):
+- Q1 2025: distant ✅ (Bolojan = preș. interimar din 12 feb după demisia Iohannis)
+- Q2 2025: mixt ✅ (Bolojan a anunțat că votează ND în turul 2, primire la Cotroceni 15 mai)
+- Q3 2025: colaborativ ⚠️ (Gemini a RATAT dezacordul TVA dintre ND și Bolojan în negocieri; Bolojan a câștigat)
+- Q4 2025: mixt ✅ (scandal Fănel Bogoș — afacerist plătit 1.5M€ acces la birou Bolojan; ND a apărat indirect prin "limita de principialitate")
+- Q1 2026: colaborativ/deferent ✅ (PNRR 231M€ + EastInvest 20mld €, vizita Bruxelles)
+- Q2 2026: tensionat ✅ (Pfizer 600M€, ND cere transparență publică)
+
+**Calitate clasificare Gemini**: 5/6 perioade complet confirmate + 1 cu nuanță ratată (TVA Q3). **~83% spot-on**, 100% direcțional.
+
+**Arc narativ real**: distanță → primă întâlnire → desemnare (cu friction pe TVA) → apărare nuanțată în scandal Bogoș → coordonare EU → prima fisură publică (Pfizer). **ND-Bolojan = aliat tactic, niciodată prieten** — stil formal-instituțional consistent.
 
 ---
 
