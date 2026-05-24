@@ -31,7 +31,7 @@ from corpus import _normalize_diacritics, strip_speaker_tags_to_nd
 PROJECTION = os.getenv("PROJECTION", "overall")
 ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
-SRC_NER = ROOT / "results" / f"08_ner_{PROJECTION}" / "entities_per_doc.jsonl"
+SRC_NER = ROOT / "results" / f"08_ner_{PROJECTION}" / "entities_per_doc_clean.jsonl"
 SRC_CORPUS = ROOT / "data" / f"3_nd_{PROJECTION}"
 OUT = ROOT / "results" / f"09_sentiment_per_entity_{PROJECTION}"
 OUT.mkdir(parents=True, exist_ok=True)

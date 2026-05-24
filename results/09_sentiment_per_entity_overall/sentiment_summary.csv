@@ -1,0 +1,108 @@
+entity,period,n_passages,n_docs,sentiment,confidence,rationale
+ROMÂNIA,2025Q2 campanie + investitură,243,173,n/a,?,timeout: 'list' object is not a mapping
+ROMÂNIA,2025Q3 deficit + reforma economică,146,62,n/a,?,timeout: 'list' object is not a mapping
+ROMÂNIA,2025Q4 stabilizare + diplomație,160,81,n/a,?,timeout: 'list' object is not a mapping
+ROMÂNIA,2024Q4-2025Q1 candidatură-precampanie,58,28,n/a,?,timeout: 'list' object is not a mapping
+UCRAINA,2025Q2 campanie + investitură,8,7,n/a,?,timeout: 'list' object is not a mapping
+ROMÂNIA,2025Q4-2026Q1 reformă judiciară,169,95,n/a,?,timeout: 'list' object is not a mapping
+ROMÂNIA,2026Q2 cotitură UE + criză guvern,171,88,n/a,?,timeout: 'list' object is not a mapping
+UCRAINA,2025Q3 deficit + reforma economică,29,20,n/a,?,timeout: 'list' object is not a mapping
+UCRAINA,2026Q2 cotitură UE + criză guvern,45,33,pozitiv,high,"Nicușor Dan exprimă în mod repetat susținere fermă pentru Ucraina, atât în contextul integrării europene, cât și în cel al cooperării în domeniul apărării și securității energetice, menționând 'sprijinirea Ucrainei și Republica Moldova pe calea lor către integrarea europeană' și 'România va continua"
+UCRAINA,2025Q4-2026Q1 reformă judiciară,27,15,n/a,?,timeout: 'list' object is not a mapping
+UCRAINA,2025Q4 stabilizare + diplomație,26,20,n/a,?,timeout: 'list' object is not a mapping
+R. MOLDOVA,2025Q3 deficit + reforma economică,24,18,n/a,?,timeout: 'list' object is not a mapping
+R. MOLDOVA,2025Q4-2026Q1 reformă judiciară,7,5,pozitiv,high,"Nicușor Dan exprimă în mod repetat sprijinul României pentru Republica Moldova, în special în contextul securității și al aderării la Uniunea Europeană, considerând securitatea R. Moldova ca fiind direct legată de securitatea României și menționând că 'nu ne va fi indiferentă soarta unui stat în car"
+R. MOLDOVA,2025Q2 campanie + investitură,29,23,n/a,?,timeout: 'list' object is not a mapping
+R. MOLDOVA,2026Q2 cotitură UE + criză guvern,20,19,n/a,?,timeout: 'list' object is not a mapping
+R. MOLDOVA,2025Q4 stabilizare + diplomație,18,17,n/a,?,timeout: 'list' object is not a mapping
+SUA,2025Q2 campanie + investitură,17,15,n/a,?,timeout: 'list' object is not a mapping
+SUA,2025Q3 deficit + reforma economică,16,13,n/a,?,timeout: 'list' object is not a mapping
+UE,2024Q4-2025Q1 candidatură-precampanie,8,7,pozitiv,high,"Nicușor Dan exprimă o atitudine favorabilă față de UE, considerând că o coaliție de guvernare în Germania va asigura consolidarea UE ca actor global credibil și predictibil și că apartenența la UE este o alegere foarte importantă pentru societate, opunându-se celor care o contestă."
+SUA,2025Q4 stabilizare + diplomație,8,6,n/a,?,timeout: 'list' object is not a mapping
+UE,2025Q2 campanie + investitură,20,15,pozitiv,high,"Nicușor Dan susține ferm aderarea Republicii Moldova la UE, consideră apartenența României la UE esențială pentru prosperitate și securitate, și celebrează UE ca o comunitate de valori. El menționează beneficiile economice și strategice ale apartenenței la UE."
+SUA,2026Q2 cotitură UE + criză guvern,22,21,n/a,?,timeout: 'list' object is not a mapping
+SUA,2025Q4-2026Q1 reformă judiciară,61,26,n/a,?,timeout: 'list' object is not a mapping
+UE,2025Q3 deficit + reforma economică,23,15,n/a,?,timeout: 'list' object is not a mapping
+UE,2025Q4 stabilizare + diplomație,17,13,n/a,?,timeout: 'list' object is not a mapping
+RUSIA,2024Q4-2025Q1 candidatură-precampanie,3,2,negativ,high,"Nicușor Dan menționează Rusia în contextul implicării în anularea alegerilor, a influenței străine și a suspiciunilor legate de subminarea valorilor democratice și a NATO, indicând o atitudine critică și de dezaprobare."
+RUSIA,2025Q3 deficit + reforma economică,25,19,negativ,high,"Nicușor Dan critică în mod repetat Rusia, menționând-o ca o 'amenințare constantă', 'agresiuni de natură cibernetică', 'manipulare și dezinformare', și afirmând că 'Rusia nu își respectă propriile angajamente' și 'nu își dorește pacea'."
+UE,2025Q4-2026Q1 reformă judiciară,50,30,n/a,?,timeout: 'list' object is not a mapping
+RUSIA,2025Q2 campanie + investitură,6,6,n/a,?,timeout: 'list' object is not a mapping
+UE,2026Q2 cotitură UE + criză guvern,27,18,n/a,?,timeout: 'list' object is not a mapping
+NATO,2024Q4-2025Q1 candidatură-precampanie,10,6,pozitiv,high,"Nicușor Dan susține ferm apartenența României la NATO, considerând-o o direcție asumată și un pilon de stabilitate, opunându-se celor care o contestă. El menționează că 'niciun dintre ele nu pune în discuție apartenența la Nato și la Uniunea Europeană e foarte bine că ele se reunesc și dau un mesaj "
+NATO,2025Q2 campanie + investitură,13,9,pozitiv,high,"Nicușor Dan exprimă o atitudine puternic pozitivă față de NATO, considerând-o vitală pentru securitatea României și a Europei, principalul garant al păcii și securității, și susținând activ apartenența României la această alianță."
+RUSIA,2025Q4 stabilizare + diplomație,48,28,n/a,?,timeout: 'list' object is not a mapping
+RUSIA,2025Q4-2026Q1 reformă judiciară,16,13,n/a,?,timeout: 'list' object is not a mapping
+NATO,2025Q4 stabilizare + diplomație,25,13,pozitiv,high,"Nicușor Dan menționează NATO în contextul securității României și a flancului estic, al colaborării cu Secretarul General NATO și al exercițiilor militare comune, subliniind rolul protector al Alianței. Afirmații precum 'angajamentul NATO este acela de a apăra fiecare centimetru al teritoriului alia"
+RUSIA,2026Q2 cotitură UE + criză guvern,13,11,n/a,?,timeout: 'list' object is not a mapping
+NATO,2025Q4-2026Q1 reformă judiciară,7,6,pozitiv,high,"Nicușor Dan menționează NATO în contexte de consolidare a apărării, coordonare strategică și îndeplinire a angajamentelor, subliniind importanța alianței pentru securitatea României și a Flancului Estic."
+CSM,2025Q3 deficit + reforma economică,24,6,mixt,high,"Nicușor Dan critică 'debacle' și lipsa de predictibilitate a CSM-ului, dar își exprimă dorința de a fi un 'partener' și de a participa la ședințele CSM pentru un dialog necesar."
+CSM,2025Q4 stabilizare + diplomație,7,4,mixt,high,"Nicușor Dan critică vehement 'reacția CSM-ului a fost mult exagerată' și 'nu a fost cel mai echilibrat gestul CSM-ului de a face o plângere penală', dar salută 'declarația de ieri a CSM-ului că va aviza astfel încât guvernul să poată să și asume răspunderea'."
+CSM,2026Q2 cotitură UE + criză guvern,15,4,mixt,high,"Nicușor Dan critică CSM pentru refuzul numirii unor procurori și pentru modul în care gestionează reputația procurorilor, dar menționează și că respectă opinia CSM-ului și că a lăsat procesul de candidaturi să se desfășoare fără influență."
+NATO,2026Q2 cotitură UE + criză guvern,28,21,n/a,?,timeout: 'list' object is not a mapping
+CSM,2025Q4-2026Q1 reformă judiciară,14,4,n/a,?,timeout: 'list' object is not a mapping
+PARLAMENT,2025Q2 campanie + investitură,25,10,pozitiv,high,"Nicușor Dan menționează Parlamentul în contextul formării unui guvern stabil și cu majoritate, exprimându-și dorința ca partidele pro-occidentale să aibă susținere în Parlament pentru a asigura predictibilitate și a face reforme. De asemenea, el susține o reprezentare proporțională în Parlament pent"
+NATO,2025Q3 deficit + reforma economică,17,14,n/a,?,timeout: 'list' object is not a mapping
+PARLAMENT,2024Q4-2025Q1 candidatură-precampanie,12,5,n/a,?,timeout: 'list' object is not a mapping
+PARLAMENT,2025Q4 stabilizare + diplomație,8,5,n/a,?,timeout: 'list' object is not a mapping
+PARLAMENT,2025Q3 deficit + reforma economică,12,4,n/a,?,timeout: 'list' object is not a mapping
+POLONIA,2025Q2 campanie + investitură,4,4,pozitiv,high,"Nicușor Dan exprimă în mod repetat apreciere, susținere și dorința de parteneriat cu Polonia, menționând 'mesaj emoționant de susținere', 'un adevărat parteneriat între România și Polonia' și 'România și Polonia sunt două națiuni proeuropene'."
+POLONIA,2025Q3 deficit + reforma economică,3,2,pozitiv,high,"Nicușor Dan menționează Polonia ca partener strategic al României în cadrul NATO și în fața amenințării ruse, subliniind necesitatea colaborării."
+POLONIA,2025Q4 stabilizare + diplomație,3,3,pozitiv,high,"Nicușor Dan exprimă solidaritate cu Polonia și subliniază că nu există o diferență de abordare între Polonia și România în situații similare, indicând o relație de colaborare și înțelegere reciprocă."
+PARLAMENT,2025Q4-2026Q1 reformă judiciară,18,9,n/a,?,timeout: 'list' object is not a mapping
+POLONIA,2026Q2 cotitură UE + criză guvern,22,13,pozitiv,high,"Nicușor Dan menționează constant colaborarea, parteneriatul strategic, prietenia și interesele comune cu Polonia, subliniind aspecte precum securitatea, economia și sprijinul reciproc. Expresii precum 'dialog substanțial', 'Parteneriat Strategic solid' și 'parteneri de încredere și aliați' demonstre"
+PSD,2025Q4 stabilizare + diplomație,4,3,mixt,high,"Nicușor Dan critică PSD pentru tergiversarea deciziilor ('PSD ulice că de ce să facem noi acum în noiembrie?'), dar recunoaște influența și structura partidului ('PSD ul este un partid care are primari, mulți primari, 1700, care are structuri care își doresc niște lucruri') și exclude scenarii extre"
+PSD,2025Q3 deficit + reforma economică,3,3,n/a,?,timeout: 'list' object is not a mapping
+PARLAMENT,2026Q2 cotitură UE + criză guvern,15,9,n/a,?,timeout: 'list' object is not a mapping
+PSD,2025Q4-2026Q1 reformă judiciară,5,4,n/a,?,timeout: 'list' object is not a mapping
+GUVERN,2025Q2 campanie + investitură,14,8,negativ,high,"Nicușor Dan critică în mod repetat Guvernul pentru ineficiență, lipsa de reforme, creșterea cheltuielilor și incapacitatea de a rezolva probleme structurale, menționând că 'Guvernul nu pare în stare să le rezolve' și că 'este un guvern obosit care nu a făcut reformele'."
+PSD,2025Q2 campanie + investitură,15,13,n/a,?,timeout: 'list' object is not a mapping
+PSD,2026Q2 cotitură UE + criză guvern,11,11,n/a,?,timeout: 'list' object is not a mapping
+GUVERN,2024Q4-2025Q1 candidatură-precampanie,9,4,n/a,?,timeout: 'list' object is not a mapping
+GUVERN,2026Q2 cotitură UE + criză guvern,12,5,mixt,high,"Nicușor Dan exprimă atât susținere pentru acțiunile guvernului în gestionarea crizelor ('Nu cred eu că ritmul în care guvernul a acționat nu a fost unul bun') și dorința de a forma un guvern stabil ('Eu îmi doresc un guvern cu cele patru partide'), cât și critici sau rezerve față de anumite aspecte "
+GUVERN,2025Q4 stabilizare + diplomație,9,4,n/a,?,timeout: 'list' object is not a mapping
+GUVERN,2025Q4-2026Q1 reformă judiciară,7,5,n/a,?,timeout: 'list' object is not a mapping
+GUVERN,2025Q3 deficit + reforma economică,14,7,n/a,?,timeout: 'list' object is not a mapping
+STATUL ROMÂN,2025Q3 deficit + reforma economică,23,9,n/a,?,timeout: 'list' object is not a mapping
+STATUL ROMÂN,2025Q2 campanie + investitură,12,9,n/a,?,timeout: 'list' object is not a mapping
+STATUL ROMÂN,2025Q4-2026Q1 reformă judiciară,6,6,n/a,?,timeout: 'list' object is not a mapping
+STATUL ROMÂN,2026Q2 cotitură UE + criză guvern,3,3,neutru,high,"Nicușor Dan menționează 'statul român' într-un context pur descriptiv și informațional, explicând cine îl reprezintă pe chestiuni financiare, fără a exprima o atitudine pozitivă sau negativă."
+STATUL ROMÂN,2025Q4 stabilizare + diplomație,12,7,n/a,?,timeout: 'list' object is not a mapping
+CCR,2024Q4-2025Q1 candidatură-precampanie,5,4,n/a,?,timeout: 'list' object is not a mapping
+CCR,2025Q3 deficit + reforma economică,7,5,mixt,high,"Nicușor Dan menționează CCR ca o instituție cu rol constituțional în procesul legislativ, la care trimite legi pentru verificare ('am trimis-o la Curtea Constituțională'). Totuși, el își menține opinia ('Opinie pe care o am în continuare, chiar dacă Curtea Constituțională a spus altceva') chiar și a"
+CCR,2025Q2 campanie + investitură,7,6,n/a,?,timeout: 'list' object is not a mapping
+CCR,2025Q4-2026Q1 reformă judiciară,5,5,n/a,?,timeout: 'list' object is not a mapping
+CCR,2025Q4 stabilizare + diplomație,9,6,n/a,?,timeout: 'list' object is not a mapping
+GEORGESCU,2025Q4 stabilizare + diplomație,6,3,negativ,high,"Nicușor Dan îl prezintă pe Călin Georgescu ca fiind parte dintr-o rețea cu bani, nu un 'călăreț singuratic', și îl asociază cu 'acțiunea de dezinfoc' și cu o acțiune a Rusiei, sugerând că alegerile câștigate de Georgescu au fost anulate pe bună dreptate."
+OCDE,2025Q3 deficit + reforma economică,7,6,pozitiv,high,"Nicușor Dan menționează constant OCDE ca un obiectiv strategic și un factor de dezvoltare economică pentru România, apreciind susținerea pentru aderare."
+OCDE,2025Q4 stabilizare + diplomație,12,8,pozitiv,high,"Nicușor Dan menționează constant OCDE ca un obiectiv strategic pentru România, asociind aderarea cu beneficii economice semnificative, recunoaștere internațională și consolidarea democrației. El laudă progresele României în acest proces și mulțumește pentru suport."
+OCDE,2025Q4-2026Q1 reformă judiciară,3,2,pozitiv,high,"Nicușor Dan menționează OCDE ca un standard de îndeplinit și un obiectiv strategic, subliniind beneficiile aderării pentru economia românească, cum ar fi 'credibilitate investitorilor și creditorilor externi'."
+GEORGESCU,2024Q4-2025Q1 candidatură-precampanie,20,9,n/a,?,timeout: 'list' object is not a mapping
+OCDE,2026Q2 cotitură UE + criză guvern,12,12,pozitiv,high,"Nicușor Dan vorbește constant favorabil despre OCDE, subliniind beneficiile aderării pentru România, cum ar fi atragerea investițiilor și modernizarea administrației, și mulțumește pentru sprijinul acordat."
+FRANȚA,2025Q4 stabilizare + diplomație,6,5,pozitiv,high,"Nicușor Dan menționează Franța în contexte de colaborare strategică, exerciții militare NATO și schimb de informații, toate fiind prezentate într-o lumină favorabilă și constructivă pentru România și securitatea europeană. De asemenea, președintele Franței prezidează un panel important la care parti"
+FRANȚA,2025Q2 campanie + investitură,4,4,n/a,?,timeout: 'list' object is not a mapping
+GEORGESCU,2025Q2 campanie + investitură,14,8,n/a,?,timeout: 'list' object is not a mapping
+FRANȚA,2026Q2 cotitură UE + criză guvern,8,8,pozitiv,high,"Nicușor Dan menționează Franța în contexte de colaborare și parteneriat strategic, exprimând recunoștință și subliniind extinderea relațiilor. Exemple includ inițiativa comună pentru Republica Moldova și prezența soldaților francezi în România."
+SIMION,2025Q3 deficit + reforma economică,4,1,negativ,high,"Nicușor Dan critică acțiunile și credibilitatea lui Simion, considerându-l un personaj care 'n-are treabă în țară' și punând la îndoială propunerile sale economice. Deși recunoaște prezența lui Simion în teritoriu, o face într-un context de critică generală a politicienilor români."
+COMISIA EUROPEANĂ,2025Q2 campanie + investitură,6,6,n/a,?,timeout: 'list' object is not a mapping
+COMISIA EUROPEANĂ,2025Q3 deficit + reforma economică,10,6,mixt,high,"Nicușor Dan exprimă o atitudine de colaborare și angajament față de Comisia Europeană, recunoscând în același timp că România nu și-a respectat angajamentele anterioare și se află într-o situație dificilă, ceea ce generează o lipsă de credibilitate. El subliniază necesitatea de a menține o relație p"
+FRANȚA,2025Q4-2026Q1 reformă judiciară,11,10,n/a,?,timeout: 'list' object is not a mapping
+GERMANIA,2025Q2 campanie + investitură,4,3,mixt,high,"Nicușor Dan menționează Germania ca o țară unde locuiesc români din diaspora, dar și ca un etalon economic pe care România nu-l poate atinge curând, criticând promisiunile false. De asemenea, o menționează ca partener strategic."
+GERMANIA,2025Q3 deficit + reforma economică,6,4,pozitiv,high,"Nicușor Dan menționează în mod repetat o cooperare consolidată, parteneriat esențial și mulțumește pentru susținere, subliniind dorința de a dezvolta relațiile economice și de apărare cu Germania."
+GERMANIA,2025Q4-2026Q1 reformă judiciară,3,3,pozitiv,high,Nicușor Dan menționează Germania ca parte a unei coaliții puternice care formează un scut în jurul Ucrainei și subliniază o colaborare foarte bună cu Germania.
+SIMION,2025Q2 campanie + investitură,26,20,n/a,?,timeout: 'list' object is not a mapping
+USR,2024Q4-2025Q1 candidatură-precampanie,4,3,pozitiv,high,"Nicușor Dan recunoaște avantajul USR în negocieri, menționează că a fost votat de membrii USR și își exprimă respectul pentru electoratul USR."
+COMISIA EUROPEANĂ,2025Q4-2026Q1 reformă judiciară,7,7,n/a,?,timeout: 'list' object is not a mapping
+USR,2025Q3 deficit + reforma economică,3,3,pozitiv,high,Nicușor Dan salută disponibilitatea USR de a participa la formarea guvernului și menționează o relație foarte bună cu miniștrii USR.
+USR,2025Q4-2026Q1 reformă judiciară,4,4,neutru,high,"Nicușor Dan menționează USR în contextul deciziilor de coaliție și al preferințelor publicului, fără a exprima o atitudine favorabilă sau nefavorabilă. Afirmațiile sunt pur informaționale, descriind o situație existentă sau o atribuție."
+USR,2025Q4 stabilizare + diplomație,4,3,n/a,?,timeout: 'list' object is not a mapping
+PNL,2024Q4-2025Q1 candidatură-precampanie,4,4,mixt,high,"Nicușor Dan critică guvernarea PSD PNL, dar recunoaște că 'a funcționat bine' intern. De asemenea, menționează că a fost votat și de membrii PNL și că PNL-ul a fost de acord cu o decizie importantă pentru București, dar și că scorul PNL arată o distanță a oamenilor față de Klaus Iohannis."
+PNL,2025Q4-2026Q1 reformă judiciară,5,4,neutru,high,"Nicușor Dan menționează PNL în extrase într-un mod pur informativ, descriind rolul partidului în coaliție și acordurile existente, fără a exprima o atitudine pozitivă sau negativă. El subliniază că 'acordul spune că până în aprilie anul viitor PNL ul dă primul ministru' și 'PNL a decis că premier es"
+USR,2025Q2 campanie + investitură,8,5,n/a,?,timeout: 'list' object is not a mapping
+PNL,2025Q2 campanie + investitură,4,3,n/a,?,timeout: 'list' object is not a mapping
+PNL,2026Q2 cotitură UE + criză guvern,5,5,n/a,?,timeout: 'list' object is not a mapping
+TRUMP,2025Q2 campanie + investitură,6,4,mixt,high,"Nicușor Dan exprimă onoare și mulțumire pentru discuția cu Trump și mesajul de felicitare, dar și o critică voalată la adresa 'slugărniciei' și a liderilor europeni care 'au dat fuguța la Washington să ia o șapcă cu Donald Trump'."
+DNA,2025Q4-2026Q1 reformă judiciară,4,3,n/a,?,timeout: 'list' object is not a mapping
+TRUMP,2025Q4-2026Q1 reformă judiciară,7,6,mixt,high,"Nicușor Dan susține eforturile lui Trump pentru pace și participă la inițiativele sale, dar menționează și 'contradicții juridice' și necesitatea ca inițiativele să fie 'pe deplin compatibile cu angajamentele internaționale'. De asemenea, recunoaște că 'unde Donald Trump are dreptate este că decenii"
+UNGARIA,2026Q2 cotitură UE + criză guvern,10,6,n/a,?,timeout: 'list' object is not a mapping
+DNA,2026Q2 cotitură UE + criză guvern,14,3,n/a,?,timeout: 'list' object is not a mapping

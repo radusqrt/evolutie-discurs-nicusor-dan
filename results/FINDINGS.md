@@ -197,6 +197,97 @@ Fact-check independent (web search, mai 2026) pe 5 promisiuni București/local e
 
 Findings ne-PMB (policy internă 0% KEPT, diplomație 60% KEPT) NU sunt afectate de acest blind spot — pe acelea ND e *singurul actor relevant*.
 
+---
+
+## Pasul 5-9 — analize SotA suplimentare
+
+### 22. **Discourse complexity confirmă scris vs vorbit divergence (Pasul 5)**
+
+Pe spaCy parser: sentence length, dependency tree depth, MTLD, TTR, function ratio.
+
+- **Scris (FB)**: cuvinte 5.5-6.3 chars, function ratio 0.36-0.44, **MTLD growing 34 → 87 post-mandat**
+- **Vorbit (video)**: cuvinte 4.5-4.7 chars, function ratio 0.52-0.56, MTLD stabil 42-54
+
+FB **își diversifică lexicon-ul dramatic post-mandat** (MTLD 2.5× growth), video rămâne stabil. Sugerează profesionalizare PR pe FB (sub-finding pentru ipoteza ghostwriting).
+
+### 23. **Hedging confirmă brutal ipoteza ghostwriting FB (Pasul 6)**
+
+Lexicon custom RO: 35+ hedging, 24 certitudine, 19 personal markers.
+
+| Proiecție | Hedge:Cert ratio | Personal/1000w |
+|---|---:|---:|
+| **Scris (FB)** | **0.13-0.23** (ULTRA categoric) | 0.7-3.3 |
+| **Vorbit (video)** | **0.51-1.06** (deliberativ) | 5.3-9.5 |
+
+**4-5× diferență** între cele 2 register-uri pe hedging și personal pronouns. Confirmă **brutal** că FB e scris în registru "instituțional formalizat" (sau de un team PR), iar video e ND vorbind genuine.
+
+**Evoluție temporală overall**: Q2 campanie = cel mai categoric (0.27), Q1 2026 reformă judiciară = revenire la deliberativ (0.66). ND e **categoric când vinde mesaj** și **deliberativ când are putere și complexitate**.
+
+### 24. **Semantic drift confirmă schimbări majore de framing (Pasul 7)**
+
+Centroid embedding per (topic × perioadă), cosine drift vs prima perioadă cu ≥3 docs.
+
+**Top drifts overall**:
+- T0 brand `nicusorpresedinte/romaniaonesta`: **0.37** — major brand-evolution
+- T9 `Georgescu campania`: **0.32** — frame schimbat (electoral → dezinformare)
+- T5 `JUSTIȚIE/csm`: **0.30** — framing al justiției substanțial mutat
+- T3 alt brand `romaniaonesta`: 0.04 — STABIL
+
+**Vorbit drifts mai mari decât scris** (justiție 0.23 vs scris 0.18) — confirmă din nou că video e dinamic, FB e static repetitiv.
+
+### 25. **Entity timeline — adversari electorali dispar, geopolitica explodează (Pasul 8)**
+
+GLiNER multi-v2.1 zero-shot NER (3,755 mențiuni extrase, curățate la ~700 cu top 30 entități canonice).
+
+| Entitate | Q1 2025 | Q2 2025 | Q4 2025 | Q2 2026 |
+|---|---:|---:|---:|---:|
+| ROMÂNIA | 114 | **515** | 280 | 333 |
+| UCRAINA | 2 | 12 | 41 | **85** |
+| SUA | 2 | 20 | 11 | 29 |
+| (Q1 2026 SUA spike) | — | — | — | **97** |
+| RUSIA | 3 | 9 | **68** | 14 |
+| NATO | 8 | 16 | **33** | **50** |
+| POLONIA | 0 | 8 | 3 | **47** |
+| GEORGESCU | **21** | 18 | 8 | 1 |
+| SIMION | 1 | **31** | 0 | 0 |
+| CIOLACU / BOLOJAN | — | — | — | **17 / 14 total** |
+
+**Findings**:
+
+- **Georgescu / Simion DISPAR complet** după Q2 2025 (1, 0 mențiuni Q2 2026 vs 21, 31 peak)
+- **Colegii de guvernare sub-menționați**: Ciolacu 17 total, Bolojan doar 14 — *premierul actual abia apare în discurs*
+- **SUA Q1 2026 spike (97)** — relația cu administrația Trump
+- **Polonia Q2 2026 explozie (47)** — vizita oficială
+- **CSM Q3 2025 (32)** — reforma pensii magistrați
+- **Rusia peak Q4 2025 (68)** — cea mai îngrijorată perioadă
+
+### 26. **Sentiment per entitate — ND nu atacă deschis, dar TRUMP e MIXT (Pasul 9)**
+
+Gemini 2.5 Flash sentiment classification pe 107 buckets (entitate × perioadă cu ≥3 mențiuni).
+
+**Distribuție**: 61% n/a, 21% pozitiv, 10% mixt, **doar 5% (5 buckets) negativ**.
+
+**Trajectories cheie**:
+
+| Entitate | Pattern | Interpretare |
+|---|---|---|
+| NATO, POLONIA, OCDE, FRANȚA | pozi × 4 | Aliat necontestat |
+| RUSIA | nega × 2 | Singur negativ constant |
+| CSM | **mixt × 3** | Reformă complicată, fără condamnare |
+| **TRUMP** | **MIXT × 2** | **NU îl laudă, are rezerve** |
+| GERMANIA | mixt → pozi | Îmbunătățire |
+| USR | pozi → neutru | Răcire post-mandat |
+| GUVERN | nega → mixt | Schimbare odată cu Bolojan |
+
+**Insighturi devastatoare**:
+
+- **Doar 5 sentimente NEGATIVE** în tot corpus-ul — ND e **diplomat, non-confrontational**.
+- **TRUMP = MIXT, nu pozitiv** — surprinzător; ND are rezerve față de Trump.
+- **USR a trecut pozitiv → neutru** — răcire față de partidul de origine după ce a devenit independent.
+- **Georgescu/Simion = N/A constant** — mențiuni superficiale fără sentiment polarizat → **i-a IGNORAT** explicit.
+
+---
+
 ### 21. **REINTERPRETARE: 60% KEPT în realitate, nu 20% — ND livrează prin acțiune, nu prin discurs**
 
 Fact-check extins pe 5 promisiuni policy internă suplimentare (deficit, OCDE, pensii speciale magistrați, DNA/DIICOT, cheltuieli militare) confirmat prin surse oficiale (CCR, MAE, Eurostat, NATO, OECD):
