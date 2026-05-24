@@ -137,7 +137,9 @@ with col_nav2:
 with col_nav3:
     st.markdown(
         """
-        **Findings** → cele 27 findings detaliate cu link-uri către artefacte.
+        **Findings** → cele 28 findings detaliate cu link-uri către artefacte.
+
+        **PM Relationship** → raportul ND-Bolojan timeline + fact-check pe 6 perioade.
 
         Navighează din sidebar →
         """

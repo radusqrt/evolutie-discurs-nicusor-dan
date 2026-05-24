@@ -7,7 +7,7 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 **Subiect și goal**: vezi [`BRIEF.md`](./BRIEF.md).
 
 **Rezultate**:
-- [`results/FINDINGS.md`](./results/FINDINGS.md) — **27 findings sintetizate** după Pasul 1-10 + audit + fact-check independent
+- [`results/FINDINGS.md`](./results/FINDINGS.md) — **28 findings sintetizate** după Pasul 1-10 + audit + fact-check independent
 - [`results/04_promises/SINTEZA.md`](./results/04_promises/SINTEZA.md) — Promise Tracker complet per topic
 - [`results/04_promises/FACT_CHECK_realworld.md`](./results/04_promises/FACT_CHECK_realworld.md) + [`FACT_CHECK_policy.md`](./results/04_promises/FACT_CHECK_policy.md) — fact-check web pe 10 promisiuni
 - [`results/SINTEZA.md`](./results/SINTEZA.md) — sinteza inițială (pre-branching scris/vorbit)
@@ -136,7 +136,7 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 
 **Reducerea principală vine din Facebook** (-330 dups): Apify a returnat unele posturi de mai multe ori pe re-runs + există posturi quasi-identice (mesaje scurte de mulțumiri reposatete). YouTube pierde doar 84 documente (re-uploads cross-channel ale aceluiași clip).
 
-## Pipeline (11 pași)
+## Pipeline (12 pași)
 
 | # | Pas | Status | Script / Acțiune | Output |
 |---|---|---|---|---|
@@ -150,7 +150,8 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 | 8 | **BERTopic** | ✅ **complete** | `scripts/03_bertopic.py` rulat în [Colab T4](./notebooks/03_bertopic_colab.ipynb) cu `multilingual-e5-large` + UMAP + HDBSCAN + c-TF-IDF | `results/03_bertopic_{overall,scris,vorbit}/` (26+7+8 topice descoperite + heatmap-uri temporale) |
 | 9 | **Promise Tracker** | ✅ **complete + audited + fact-checked** | `scripts/04_promises_extract.py` + `04b_dedupe.py` + `04c_match_classify.py` + `04d_synth.py` + `04e_audit.py` (Gemini 2.5 Flash + embedding mpnet retrieval) | `results/04_promises/SINTEZA.md`, `promise_status.csv`, `AUDIT_*.md`, `FACT_CHECK_*.md` (131 promisiuni, 20% KEPT classifier / 60% KEPT realitate) |
 | 10 | **Advanced analyses (SotA)** | ✅ **complete × 3 proiecții** | `scripts/05_discourse_complexity.py` (spaCy parser) + `06_hedging.py` (lexicon RO custom) + `07_semantic_drift.py` (mpnet centroids) + `08_ner_entities.py` (GLiNER multi-v2.1 zero-shot) + `08b_ner_clean.py` + `09_sentiment_per_entity.py` (Gemini 2.5 Flash) | `results/05_complexity_*/`, `06_hedging_*/`, `07_semantic_drift_*/`, `08_ner_*/`, `09_sentiment_per_entity_*/` (× 3 proiecții) |
-| 11 | **Interpret** | ✅ **complete** | manual + audit dublu + fact-check independent (web search) | `results/FINDINGS.md` (27 findings) |
+| 11 | **Raportul ND-Bolojan** | ✅ **complete + fact-checked** | `scripts/10_nd_bolojan_relation.py` (extract 86 spans Bolojan/premier + 22 Ciolacu, ton relațional Gemini per perioadă) + fact-check web pe toate 6 perioade | `results/10_nd_bolojan/` (RAPORT.md, FACT_CHECK.md, period_analyses.jsonl) |
+| 12 | **Interpret** | ✅ **complete** | manual + audit dublu + fact-check independent (web search) | `results/FINDINGS.md` (28 findings) |
 
 **Status verification**:
 
@@ -186,7 +187,17 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 
 **Insight major Pasul 10**: 3 piloni convergenți pentru ipoteza GHOSTWRITING FB — (1) hedging 4-5× diferit, (2) MTLD growth dramatică doar pe FB, (3) sentiment 2× mai polarizat pe FB. Plus (4) BERTopic 76% într-un singur mega-topic FB. ND e *un alt agent comunicativ* pe FB față de video.
 
-Pașii 1-10 sunt verificați. Pasul 11 (Interpret) curent — vezi FINDINGS.md cu 27 findings.
+- **Pasul 11 (Raportul ND-Bolojan)** — extract complet 86 spans Bolojan + premier + prim-ministru din corpus (vs doar 14 în NER GLiNER, fiindcă majoritatea sunt "premier" fără nume direct) + 22 spans Ciolacu pentru comparație. Clasificare Gemini ton relațional per perioadă:
+  - Q1 2025: **distant** ("am uitat de el")
+  - Q2 2025: mixt (campanie, dezbatere Cotroceni 15 mai)
+  - Q3 2025: **colaborativ** ← peak (desemnare 20 iunie, dar Gemini RATAT dezacord TVA în negocieri)
+  - Q4 2025: mixt (scandal Fănel Bogoș 1.5M€ acces la birou Bolojan, ND apăra "limita de principialitate")
+  - Q1 2026: colaborativ/deferent (EastInvest 20mld€, PNRR 231M€ Bruxelles)
+  - **Q2 2026: TENSIONAT** ⚠️ (cazul Pfizer 600M€ — ND cere transparență publică, Bolojan negociază privat)
+  - Fact-check pe 6 perioade: **5/6 complet validate, 1 cu nuanță ratată (TVA Q3)** — calitate Gemini 83% spot-on. Vezi `results/10_nd_bolojan/FACT_CHECK.md`.
+  - **ND-Bolojan = aliat tactic, nu prieten.** Stil formal-instituțional, niciodată cald.
+
+Pașii 1-11 sunt verificați. Pasul 12 (Interpret) curent — vezi FINDINGS.md cu 28 findings.
 
 ## Surse de date
 
