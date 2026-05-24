@@ -1,0 +1,33 @@
+topic_id,topic_label,period,n_docs,cosine_sim_to_base,drift
+0,0_nicusorpresedinte_romaniaonesta_romaniaonesta nicusorpresedinte_nicusordan,2024Q4-2025Q1 candidatură-precampanie,10,1.0,0.0
+0,0_nicusorpresedinte_romaniaonesta_romaniaonesta nicusorpresedinte_nicusordan,2025Q2 campanie + investitură,103,0.9638,0.0362
+0,0_nicusorpresedinte_romaniaonesta_romaniaonesta nicusorpresedinte_nicusordan,2025Q3 deficit + reforma economică,3,0.6329,0.3671
+1,1_bucurești_capitalei_modernizarea_str,2024Q4-2025Q1 candidatură-precampanie,5,1.0,0.0
+1,1_bucurești_capitalei_modernizarea_str,2025Q2 campanie + investitură,43,0.8509,0.1491
+2,2_vot_votat_votare_alegeriprezidențiale,2025Q2 campanie + investitură,34,1.0,0.0
+2,2_vot_votat_votare_alegeriprezidențiale,2025Q4-2026Q1 reformă judiciară,3,0.78,0.22
+3,3_romaniaonesta_nicusorpresedinte_romaniaonesta nicusorpresedinte_nicusorpresedi,2024Q4-2025Q1 candidatură-precampanie,3,1.0,-0.0
+3,3_romaniaonesta_nicusorpresedinte_romaniaonesta nicusorpresedinte_nicusorpresedi,2025Q2 campanie + investitură,33,0.9627,0.0373
+4,4_există_guvern_momentul_evident,2025Q2 campanie + investitură,4,1.0,-0.0
+4,4_există_guvern_momentul_evident,2025Q3 deficit + reforma economică,7,0.8795,0.1205
+4,4_există_guvern_momentul_evident,2025Q4 stabilizare + diplomație,5,0.8654,0.1346
+4,4_există_guvern_momentul_evident,2025Q4-2026Q1 reformă judiciară,7,0.8502,0.1498
+4,4_există_guvern_momentul_evident,2026Q2 cotitură UE + criză guvern,16,0.8837,0.1163
+5,5_trebuie_csm_cred_momentul,2025Q3 deficit + reforma economică,7,1.0,-0.0
+5,5_trebuie_csm_cred_momentul,2025Q4 stabilizare + diplomație,3,0.8722,0.1278
+5,5_trebuie_csm_cred_momentul,2025Q4-2026Q1 reformă judiciară,19,0.7581,0.2419
+5,5_trebuie_csm_cred_momentul,2026Q2 cotitură UE + criză guvern,7,0.6984,0.3016
+6,6_ani_responsabilitate_românia_unirea,2025Q2 campanie + investitură,7,1.0,-0.0
+6,6_ani_responsabilitate_românia_unirea,2025Q3 deficit + reforma economică,5,0.7966,0.2034
+6,6_ani_responsabilitate_românia_unirea,2025Q4 stabilizare + diplomație,8,0.7958,0.2042
+6,6_ani_responsabilitate_românia_unirea,2025Q4-2026Q1 reformă judiciară,11,0.8124,0.1876
+7,7_unite_statele_statele unite_românia,2025Q2 campanie + investitură,3,1.0,-0.0
+7,7_unite_statele_statele unite_românia,2025Q4-2026Q1 reformă judiciară,19,0.8557,0.1443
+7,7_unite_statele_statele unite_românia,2026Q2 cotitură UE + criză guvern,7,0.8396,0.1604
+8,8_live_presă_susținute_declarații,2025Q4 stabilizare + diplomație,4,1.0,-0.0
+8,8_live_presă_susținute_declarații,2026Q2 cotitură UE + criză guvern,22,0.8198,0.1802
+9,9_campania_georgescu_călin georgescu_călin,2024Q4-2025Q1 candidatură-precampanie,5,1.0,0.0
+9,9_campania_georgescu_călin georgescu_călin,2025Q2 campanie + investitură,4,0.7847,0.2153
+9,9_campania_georgescu_călin georgescu_călin,2025Q3 deficit + reforma economică,3,0.6842,0.3158
+9,9_campania_georgescu_călin georgescu_călin,2025Q4 stabilizare + diplomație,13,0.8192,0.1808
+9,9_campania_georgescu_călin georgescu_călin,2025Q4-2026Q1 reformă judiciară,4,0.8228,0.1772

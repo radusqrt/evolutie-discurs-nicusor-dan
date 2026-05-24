@@ -1,0 +1,334 @@
+id,date,tip,period,n_words,n_hedging,n_certitudine,n_personal,hedge_per_1000w,cert_per_1000w,personal_per_1000w,hedge_cert_ratio
+2025-05-08_dezbatere-euronews-simion,2025-05-08,dezbatere-electorala,2025Q2 campanie + investitură,62,1,4,0,16.129032258064516,64.51612903225806,0.0,0.2
+2024-12-16_anunt-candidatura,2024-12-16,anunt-candidatura,2024Q4-2025Q1 candidatură-precampanie,122,0,0,0,0.0,0.0,0.0,0.0
+2025-02-03_lansare-campanie-romania-onesta,2025-02-03,lansare-campanie,2024Q4-2025Q1 candidatură-precampanie,191,1,0,1,5.2356020942408374,0.0,5.2356020942408374,1.0
+2025-05-19_discurs-victorie,2025-05-19,discurs-victorie,2025Q2 campanie + investitură,268,1,0,0,3.7313432835820897,0.0,0.0,1.0
+2025-05-26_discurs-investitura,2025-05-26,discurs-investitura,2025Q2 campanie + investitură,1030,3,3,1,2.912621359223301,2.912621359223301,0.970873786407767,0.75
+2025-06-04_conferinta-presa-cotroceni,2025-06-04,conferinta-presa,2025Q3 deficit + reforma economică,111,2,0,2,18.01801801801802,0.0,18.01801801801802,2.0
+2025-09-04_autoevaluare-100-zile,2025-09-04,interviu-autoevaluare,2025Q4 stabilizare + diplomație,168,3,1,2,17.857142857142858,5.9523809523809526,11.904761904761905,1.5
+2025-12-31_mesaj-anul-nou,2025-12-31,mesaj-anul-nou,2025Q4-2026Q1 reformă judiciară,293,0,3,0,0.0,10.238907849829351,0.0,0.0
+2024-12-04_political-studio-nicusor-dan-the-signal-is-good-even-if-it-i,2024-12-04,video-transcript,2024Q4-2025Q1 candidatură-precampanie,2478,27,18,13,10.895883777239709,7.263922518159807,5.246166263115415,1.4210526315789473
+2024-12-16_nicusor-dan-despre-calin-georgescu-in-ceea-ce-priveste-conte,2024-12-16,video-transcript,2024Q4-2025Q1 candidatură-precampanie,70,1,1,1,14.285714285714286,14.285714285714286,14.285714285714286,0.5
+2024-12-16_nicusor-dan-intentionez-sa-candidez-ca-independent-la-aleger,2024-12-16,video-transcript,2024Q4-2025Q1 candidatură-precampanie,716,4,4,1,5.58659217877095,5.58659217877095,1.3966480446927374,0.8
+2024-12-16_nicusor-dan-si-a-anuntat-candidatura-la-alegerile-prezidenti,2024-12-16,video-transcript,2024Q4-2025Q1 candidatură-precampanie,2551,33,19,36,12.93610348882791,7.448059584476676,14.112112896903175,1.65
+2024-12-18_nicusor-dan-iesirea-unui-partid-din-coalitie-ne-ar-lasa-cu-u,2024-12-18,video-transcript,2024Q4-2025Q1 candidatură-precampanie,4318,40,45,48,9.263547938860583,10.421491431218156,11.116257526632701,0.8695652173913043
+2024-12-19_nicusor-dan-dupa-retragerea-psd-de-la-negocieri-sunt-surprin,2024-12-19,video-transcript,2024Q4-2025Q1 candidatură-precampanie,527,11,4,5,20.872865275142313,7.590132827324478,9.487666034155598,2.2
+2024-12-23_nicusor-dan-despre-candidatura-lui-crin-antonescu-partidele,2024-12-23,video-transcript,2024Q4-2025Q1 candidatură-precampanie,569,3,5,5,5.272407732864675,8.787346221441124,8.787346221441124,0.5
+2024-12-25_mesajul-lui-nicusor-dan-pentru-romani-stiri-b1tv-25-dec-2024,2024-12-25,video-transcript,2024Q4-2025Q1 candidatură-precampanie,206,0,2,1,0.0,9.70873786407767,4.854368932038835,0.0
+2024-12-30_nicusor-dan-candidez-indiferent-de-ce-va-fi-stiri-b1tv-30-de,2024-12-30,video-transcript,2024Q4-2025Q1 candidatură-precampanie,223,3,0,2,13.452914798206278,0.0,8.968609865470851,3.0
+2024-12-30_nicusor-dan-despre-calin-georgescu-stiri-b1tv-30-dec-2024,2024-12-30,video-transcript,2024Q4-2025Q1 candidatură-precampanie,643,3,5,3,4.665629860031104,7.776049766718507,4.665629860031104,0.5
+2025-01-09_nicusor-dan-critica-decizia-coalitiei-privind-data-alegerilo,2025-01-09,video-transcript,2024Q4-2025Q1 candidatură-precampanie,534,2,2,0,3.745318352059925,3.745318352059925,0.0,0.6666666666666666
+2025-01-13_nicusor-dan-explicatiile-privind-anularea-prezidentialelor-s,2025-01-13,video-transcript,2024Q4-2025Q1 candidatură-precampanie,132,0,2,1,0.0,15.151515151515152,7.575757575757576,0.0
+2025-01-18_nicusor-dan-cere-explicatii-pentru-anulare-stiri-b1tv-18-ian,2025-01-18,video-transcript,2024Q4-2025Q1 candidatură-precampanie,219,4,1,3,18.264840182648403,4.566210045662101,13.698630136986301,2.0
+2025-01-30_nicusor-dan-despre-alegerile-prezidentiale-daca-va-castiga-g,2025-01-30,video-transcript,2024Q4-2025Q1 candidatură-precampanie,170,2,0,5,11.764705882352942,0.0,29.41176470588235,2.0
+2025-02-04_nicusor-dan-declara-iar-ca-nu-se-retrage-din-cursa-in-turul,2025-02-04,video-transcript,2024Q4-2025Q1 candidatură-precampanie,92,0,0,2,0.0,0.0,21.73913043478261,0.0
+2025-02-05_nicusor-dan-cand-statul-se-imprumuta-ca-sa-plateasca-deficit,2025-02-05,video-transcript,2024Q4-2025Q1 candidatură-precampanie,383,0,0,0,0.0,0.0,0.0,0.0
+2025-02-05_nicusor-dan-despre-scandalul-nordis-mult-din-ce-se-construie,2025-02-05,video-transcript,2024Q4-2025Q1 candidatură-precampanie,5459,32,29,41,5.861879465103499,5.312328265250046,7.510533064663858,1.0666666666666667
+2025-02-08_nicusor-dan-reactie-in-scandalul-cu-lasconi-stiri-b1tv-8-feb,2025-02-08,video-transcript,2024Q4-2025Q1 candidatură-precampanie,113,2,1,4,17.699115044247787,8.849557522123893,35.39823008849557,1.0
+2025-02-16_nicusor-dan-vrem-sa-cumparam-inca-250-de-tramvaie-si-sa-mode,2025-02-16,video-transcript,2024Q4-2025Q1 candidatură-precampanie,318,3,0,0,9.433962264150944,0.0,0.0,3.0
+2025-02-24_nicusor-dan-despre-demisia-lui-ciolacu-stiri-b1tv-24-febr-20,2025-02-24,video-transcript,2024Q4-2025Q1 candidatură-precampanie,173,1,2,0,5.780346820809249,11.560693641618498,0.0,0.3333333333333333
+2025-02-26_nicusor-dan-despre-dovezile-pe-care-vrea-sa-le-vada-in-legat,2025-02-26,video-transcript,2024Q4-2025Q1 candidatură-precampanie,214,1,3,1,4.672897196261682,14.018691588785046,4.672897196261682,0.25
+2025-02-27_nicusor-dan-despre-inculparea-lui-calin-georgescu-trebuie-sa,2025-02-27,video-transcript,2024Q4-2025Q1 candidatură-precampanie,558,8,7,5,14.336917562724015,12.544802867383513,8.960573476702509,1.0
+2025-02-27_sume-uriase-si-tehnologie-avansata-nicusor-dan-despre-campan,2025-02-27,video-transcript,2024Q4-2025Q1 candidatură-precampanie,139,3,2,3,21.58273381294964,14.388489208633093,21.58273381294964,1.0
+2025-03-07_nicusor-dan-candidatura-mea-este-candidatura-celor-240-de-mi,2025-03-07,video-transcript,2025Q2 campanie + investitură,132,1,1,4,7.575757575757576,7.575757575757576,30.303030303030305,0.5
+2025-03-07_nicusor-dan-fata-de-aceasta-decizie-a-ccr-ne-invartim-in-cee,2025-03-07,video-transcript,2025Q2 campanie + investitură,158,1,2,3,6.329113924050633,12.658227848101266,18.9873417721519,0.3333333333333333
+2025-03-07_nicusor-dan-primul-candidat-care-s-a-inscris-oficial-la-prez,2025-03-07,video-transcript,2025Q2 campanie + investitură,90,1,0,4,11.11111111111111,0.0,44.44444444444444,1.0
+2025-03-14_buna-romania-nicusor-dan-romania-e-un-stat-bolnav-bec-trebui,2025-03-14,video-transcript,2025Q2 campanie + investitură,3085,25,20,27,8.103727714748784,6.482982171799027,8.752025931928687,1.1904761904761905
+2025-03-14_nicusor-dan-despre-premierul-ciolacu-este-evident-ca-toata-l,2025-03-14,video-transcript,2025Q2 campanie + investitură,435,1,6,2,2.2988505747126435,13.793103448275861,4.597701149425287,0.14285714285714285
+2025-03-19_nicusor-dan-am-discutat-cu-bolojan-la-cotroceni-despre-alege,2025-03-19,video-transcript,2025Q2 campanie + investitură,1363,14,4,23,10.271460014673515,2.93470286133529,16.874541452677917,2.8
+2025-04-01_nicusor-dan-criticat-dur-dupa-declaratia-despre-introducerea,2025-04-01,video-transcript,2025Q2 campanie + investitură,1184,10,3,3,8.445945945945946,2.5337837837837838,2.5337837837837838,2.5
+2025-04-02_nicusor-dan-ar-putea-fi-un-presedinte-care-sa-aduca-prestigi,2025-04-02,video-transcript,2025Q2 campanie + investitură,71,1,0,0,14.084507042253522,0.0,0.0,1.0
+2025-04-08_crin-antonescu-il-troleaza-pe-nicusor-dan-nu-mananc-medenele,2025-04-08,video-transcript,2025Q2 campanie + investitură,57,0,1,0,0.0,17.54385964912281,0.0,0.0
+2025-04-11_lasconi-arata-mesajul-de-la-nicusor-dan-cand-ii-cere-sa-se-v,2025-04-11,video-transcript,2025Q2 campanie + investitură,142,4,1,1,28.169014084507044,7.042253521126761,7.042253521126761,2.0
+2025-05-02_nicusor-dan-mesaj-pentru-romani-sa-aleaga-pe-cei-care-au-dov,2025-05-02,video-transcript,2025Q2 campanie + investitură,205,0,0,2,0.0,0.0,9.75609756097561,0.0
+2025-05-04_nicusor-dan-am-votat-pentru-speranta-si-pentru-un-nou-incepu,2025-05-04,video-transcript,2025Q2 campanie + investitură,146,0,0,0,0.0,0.0,0.0,0.0
+2025-05-04_nicusor-dan-o-sa-fie-o-disputa-intre-un-candidat-pro-occiden,2025-05-04,video-transcript,2025Q2 campanie + investitură,679,4,8,5,5.891016200294551,11.782032400589102,7.363770250368188,0.4444444444444444
+2025-05-04_nicusor-dan-sa-ne-raportam-cu-pruden-a-la-rezultatele-exit-p,2025-05-04,video-transcript,2025Q2 campanie + investitură,242,2,0,3,8.264462809917354,0.0,12.396694214876034,2.0
+2025-05-05_exclusiv-nicusor-dan-dupa-turul-i-al-prezidentialelor-urmeaz,2025-05-05,video-transcript,2025Q2 campanie + investitură,171,2,2,3,11.695906432748538,11.695906432748538,17.54385964912281,0.6666666666666666
+2025-05-05_nicusor-dan-despre-turul-doi-ii-chem-pe-toti-romanii-sa-fie,2025-05-05,video-transcript,2025Q2 campanie + investitură,249,0,0,0,0.0,0.0,0.0,0.0
+2025-05-06_apelul-lui-nicusor-dan-dupa-evolutiile-pietei-financiare-din,2025-05-06,video-transcript,2025Q2 campanie + investitură,213,1,0,0,4.694835680751174,0.0,0.0,1.0
+2025-05-07_editie-speciala-nicusor-dan-anunta-ca-accepta-invitatia-lui,2025-05-07,video-transcript,2025Q2 campanie + investitură,3786,36,22,15,9.508716323296355,5.8108821975699945,3.9619651347068148,1.565217391304348
+2025-05-07_interviu-nicusor-dan-despre-criza-economica-in-care-poate-in,2025-05-07,video-transcript,2025Q2 campanie + investitură,1991,14,16,13,7.031642390758413,8.03616273229533,6.529382219989955,0.8235294117647058
+2025-05-07_nicusor-dan-despre-planul-lui-simion-de-concediere-a-bugetar,2025-05-07,video-transcript,2025Q2 campanie + investitură,72,4,1,2,55.55555555555556,13.88888888888889,27.77777777777778,2.0
+2025-05-07_nicusor-dan-interviu-exclusiv-pentru-euronews-romania,2025-05-07,video-transcript,2025Q2 campanie + investitură,140,0,2,2,0.0,14.285714285714286,14.285714285714286,0.0
+2025-05-07_nicusor-dan-romania-are-nevoie-de-schimbare-dar-nu-una-care,2025-05-07,video-transcript,2025Q2 campanie + investitură,100,1,1,0,10.0,10.0,0.0,0.5
+2025-05-07_nicusor-dan-romania-are-nevoie-de-schimbare-dar-nu-una-care_yMbfqR,2025-05-07,video-transcript,2025Q2 campanie + investitură,99,1,1,0,10.1010101010101,10.1010101010101,0.0,0.5
+2025-05-10_nicusor-dan-nu-poti-sa-dai-afara-500-000-de-oameni-e-imposib,2025-05-10,video-transcript,2025Q2 campanie + investitură,212,1,1,1,4.716981132075472,4.716981132075472,4.716981132075472,0.5
+2025-05-14_nicusor-dan-dau-in-scris-ca-tva-nu-va-creste,2025-05-14,video-transcript,2025Q2 campanie + investitură,98,0,2,0,0.0,20.408163265306122,0.0,0.0
+2025-05-15_educatia-e-o-problema-de-securitate-nationala-nicusor-dan-ce,2025-05-15,video-transcript,2025Q2 campanie + investitură,274,2,6,1,7.299270072992701,21.8978102189781,3.6496350364963503,0.2857142857142857
+2025-05-15_nicusor-dan-nu-sunt-izolationist-sunt-suveranist-ce-a-spus-c,2025-05-15,video-transcript,2025Q2 campanie + investitură,94,1,0,1,10.638297872340425,0.0,10.638297872340425,1.0
+2025-05-15_nicusor-dan-prima-reactie-dupa-jignirea-lui-simion-n-dan-con,2025-05-15,video-transcript,2025Q2 campanie + investitură,80,0,0,0,0.0,0.0,0.0,0.0
+2025-05-15_nicusor-dan-vs-george-simion-cele-mai-importante-momente-din,2025-05-15,video-transcript,2025Q2 campanie + investitură,534,3,2,3,5.617977528089888,3.745318352059925,5.617977528089888,1.0
+2025-05-16_fiul-lui-ratiu-mesaj-pentru-nicusor-dan-b1tv-16-mai-2025,2025-05-16,video-transcript,2025Q2 campanie + investitură,59,1,0,1,16.949152542372882,0.0,16.949152542372882,1.0
+2025-05-18_alegeri-prezidentiale-2025-mesajul-lui-nicusor-dan-dupa-apar,2025-05-18,video-transcript,2025Q2 campanie + investitură,364,0,0,0,0.0,0.0,0.0,0.0
+2025-05-18_nicusor-dan-am-votat-pentru-o-directie-europeana-nu-pentru-i,2025-05-18,video-transcript,2025Q2 campanie + investitură,52,0,1,0,0.0,19.23076923076923,0.0,0.0
+2025-05-18_nicusor-dan-dupa-ce-a-castigat-alegerile-prezidentiale-e-vic,2025-05-18,video-transcript,2025Q2 campanie + investitură,234,1,0,1,4.273504273504273,0.0,4.273504273504273,1.0
+2025-05-18_nicusor-dan-incepem-o-noua-etapa-de-maine-la-munca-sustinato,2025-05-18,video-transcript,2025Q2 campanie + investitură,330,1,0,0,3.0303030303030303,0.0,0.0,1.0
+2025-05-18_romania-alege-cu-l-chiriac-discursul-presedintelui-nicusor-d,2025-05-18,video-transcript,2025Q2 campanie + investitură,445,3,0,6,6.741573033707865,0.0,13.48314606741573,3.0
+2025-05-19_nicusor-dan-despre-scenariul-unei-victorii-a-lui-george-simi,2025-05-19,video-transcript,2025Q2 campanie + investitură,290,4,0,0,13.793103448275861,0.0,0.0,4.0
+2025-05-19_nicusor-dan-despre-viitorul-premier-bolojan-ramane-optiunea,2025-05-19,video-transcript,2025Q2 campanie + investitură,221,1,2,1,4.524886877828054,9.049773755656108,4.524886877828054,0.3333333333333333
+2025-05-20_nicusor-dan-despre-planurile-pentru-romania-stiri-b1tv-20-ma,2025-05-20,video-transcript,2025Q2 campanie + investitură,205,0,1,2,0.0,4.878048780487805,9.75609756097561,0.0
+2025-05-22_ce-spune-nicusor-dan-despre-relatiile-romaniei-cu-sua-si-ue,2025-05-22,video-transcript,2025Q2 campanie + investitură,1769,11,20,15,6.218202374222725,11.305822498586773,8.479366873940078,0.5238095238095238
+2025-05-22_nicusor-dan-daca-sunt-amenintari-institutiile-isi-vor-face-d,2025-05-22,video-transcript,2025Q2 campanie + investitură,64,1,0,0,15.625,0.0,0.0,1.0
+2025-05-22_nicusor-dan-despre-cum-va-evita-romania-atacurile-hibride-tr,2025-05-22,video-transcript,2025Q2 campanie + investitură,75,1,1,1,13.333333333333334,13.333333333333334,13.333333333333334,0.5
+2025-05-22_nicusor-dan-despre-subventiile-pentru-partide-b1tv-22-mai-20,2025-05-22,video-transcript,2025Q2 campanie + investitură,434,1,3,5,2.304147465437788,6.912442396313364,11.52073732718894,0.25
+2025-05-22_nicusor-dan-o-tinta-realista-de-deficit-este-7-5-din-pib,2025-05-22,video-transcript,2025Q2 campanie + investitură,133,2,0,0,15.037593984962406,0.0,0.0,2.0
+2025-05-22_nicusor-dan-statul-roman-trebuie-sa-rezolve-obstacolele-pe-c,2025-05-22,video-transcript,2025Q2 campanie + investitură,291,1,2,3,3.4364261168384878,6.8728522336769755,10.309278350515465,0.3333333333333333
+2025-05-22_nicusor-dan-trebuie-sa-lamurim-anularea-alegerilor-de-anul-t,2025-05-22,video-transcript,2025Q2 campanie + investitură,84,0,4,0,0.0,47.61904761904762,0.0,0.0
+2025-05-22_nicusor-dan-urmeaza-un-nou-capitol-in-istoria-recenta-si-con,2025-05-22,video-transcript,2025Q2 campanie + investitură,92,0,2,0,0.0,21.73913043478261,0.0,0.0
+2025-05-23_nicusor-dan-propune-o-tinta-de-deficit-bugetar-de-7-5-din-pi,2025-05-23,video-transcript,2025Q2 campanie + investitură,152,1,1,0,6.578947368421052,6.578947368421052,0.0,0.5
+2025-05-24_nicusor-dan-e-un-deficit-de-implicare-in-politica-statul-est,2025-05-24,video-transcript,2025Q2 campanie + investitură,230,1,1,1,4.3478260869565215,4.3478260869565215,4.3478260869565215,0.5
+2025-05-26_live-investirea-lui-nicusor-dan-juramantul-de-la-parlament-s,2025-05-26,video-transcript,2025Q2 campanie + investitură,2601,14,15,12,5.3825451749327184,5.767012687427912,4.61361014994233,0.875
+2025-05-26_nicusor-dan-oficial-presedintele-romaniei-ceremonia-de-inves,2025-05-26,video-transcript,2025Q2 campanie + investitură,2411,14,12,10,5.806719203649938,4.977187888842804,4.14765657403567,1.0769230769230769
+2025-05-26_nicusor-dan-reformele-fiscale-sunt-inevitabile-e-obligatoriu,2025-05-26,video-transcript,2025Q2 campanie + investitură,935,9,7,7,9.62566844919786,7.4866310160427805,7.4866310160427805,1.125
+2025-05-26_stirile-kanal-d-exclusiv-nicusor-dan-primul-discurs-ca-prese,2025-05-26,video-transcript,2025Q2 campanie + investitură,794,2,2,0,2.5188916876574305,2.5188916876574305,0.0,0.6666666666666666
+2025-05-27_nicusor-dan-despre-fetita-sa-mi-a-zis-ca-m-am-plictisit-la-d,2025-05-27,video-transcript,2025Q2 campanie + investitură,91,0,0,0,0.0,0.0,0.0,0.0
+2025-05-28_mesajul-lui-nicusor-dan-inainte-de-consultarile-de-la-cotroc,2025-05-28,video-transcript,2025Q2 campanie + investitură,51,0,0,2,0.0,0.0,39.21568627450981,0.0
+2025-05-29_nicusor-dan-explica-de-ce-nu-vrea-un-premier-tehnocrat-in-vi,2025-05-29,video-transcript,2025Q2 campanie + investitură,387,2,3,3,5.167958656330749,7.751937984496124,7.751937984496124,0.5
+2025-05-30_nicusor-dan-dupa-decizia-ccr-privind-declaratiile-de-avere-d,2025-05-30,video-transcript,2025Q2 campanie + investitură,73,2,1,1,27.397260273972602,13.698630136986301,13.698630136986301,1.0
+2025-05-30_nicusor-dan-primele-discutii-cu-partidele-privind-formarea-g,2025-05-30,video-transcript,2025Q2 campanie + investitură,81,1,2,1,12.345679012345679,24.691358024691358,12.345679012345679,0.3333333333333333
+2025-05-30_presedintele-nicusor-dan-l-am-invitat-pe-donald-trump-in-rom,2025-05-30,video-transcript,2025Q2 campanie + investitură,50,3,1,0,60.0,20.0,0.0,1.5
+2025-06-02_briefing-nicusor-dan-avem-un-stat-disfunctional-si-trebuie-s,2025-06-02,video-transcript,2025Q3 deficit + reforma economică,1238,8,7,7,6.462035541195476,5.654281098546042,5.654281098546042,1.0
+2025-06-02_conferinta-presa-nicusor-dan-concluzii-summit-si-situatia-di,2025-06-02,video-transcript,2025Q3 deficit + reforma economică,1579,6,13,5,3.799873337555415,8.233058898036733,3.1665611146295123,0.42857142857142855
+2025-06-03_nicusor-dan-anunturi-de-ultima-ora-despre-situatia-economica,2025-06-03,video-transcript,2025Q3 deficit + reforma economică,154,0,0,1,0.0,0.0,6.4935064935064934,0.0
+2025-06-03_nicusor-dan-cere-implicarea-serviciilor-secrete-pentru-a-com,2025-06-03,video-transcript,2025Q3 deficit + reforma economică,155,0,1,0,0.0,6.451612903225806,0.0,0.0
+2025-06-03_romania-lui-vitalie-nicusor-dan-cere-implicarea-serviciilor,2025-06-03,video-transcript,2025Q3 deficit + reforma economică,3526,15,37,28,4.254112308564946,10.493477027793533,7.941009642654566,0.39473684210526316
+2025-06-04_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_74PzSE,2025-06-04,video-transcript,2025Q3 deficit + reforma economică,4650,36,56,39,7.741935483870968,12.043010752688172,8.387096774193548,0.631578947368421
+2025-06-04_nicusor-dan-amenintarea-ruseasca-vizeaza-toata-europa-relati,2025-06-04,video-transcript,2025Q3 deficit + reforma economică,182,3,1,3,16.483516483516482,5.4945054945054945,16.483516483516482,1.5
+2025-06-04_nicusor-dan-despre-cheltuielile-statului-platim-o-pizza-medi,2025-06-04,video-transcript,2025Q3 deficit + reforma economică,64,2,0,0,31.25,0.0,0.0,2.0
+2025-06-04_nicusor-dan-despre-situatia-bugetului,2025-06-04,video-transcript,2025Q3 deficit + reforma economică,116,1,1,0,8.620689655172415,8.620689655172415,0.0,0.5
+2025-06-04_nicusor-dan-luni-vom-avea-o-prima-schita-a-programului-de-gu,2025-06-04,video-transcript,2025Q3 deficit + reforma economică,56,0,0,1,0.0,0.0,17.857142857142858,0.0
+2025-06-04_zamfir-si-buzaianu-au-comentat-conferinta-de-presa-a-lui-nic,2025-06-04,video-transcript,2025Q3 deficit + reforma economică,109,0,1,0,0.0,9.174311926605505,0.0,0.0
+2025-06-05_alocutiunea-presedintelui-romaniei-nicusor-dan-la-forumul-na,2025-06-05,video-transcript,2025Q3 deficit + reforma economică,412,3,6,1,7.281553398058253,14.563106796116505,2.4271844660194173,0.42857142857142855
+2025-06-09_nicusor-dan-taxele-pe-tranzactii-bancare-doar-scenarii-guver,2025-06-09,video-transcript,2025Q3 deficit + reforma economică,112,0,0,1,0.0,0.0,8.928571428571429,0.0
+2025-06-10_conferinta-sustinuta-de-presedinta-moldovei-maia-sandu-si-pr,2025-06-10,video-transcript,2025Q3 deficit + reforma economică,900,2,8,6,2.2222222222222223,8.88888888888889,6.666666666666667,0.2222222222222222
+2025-06-10_nicusor-dan-a-confirmat-continuarea-sprijinului-romaniei-pen,2025-06-10,video-transcript,2025Q3 deficit + reforma economică,136,1,3,1,7.352941176470588,22.058823529411764,7.352941176470588,0.25
+2025-06-10_studio-politic-nicusor-dan-romania-sprijina-aderarea-republi,2025-06-10,video-transcript,2025Q3 deficit + reforma economică,556,1,3,1,1.7985611510791366,5.39568345323741,1.7985611510791366,0.25
+2025-06-11_editie-speciala-nicusor-dan-prezinta-prioritatile-partidelor,2025-06-11,video-transcript,2025Q3 deficit + reforma economică,237,1,2,1,4.219409282700422,8.438818565400844,4.219409282700422,0.3333333333333333
+2025-06-11_taxele-ultima-optiune-nicusor-dan-prioritatea-taierea-unor-c,2025-06-11,video-transcript,2025Q3 deficit + reforma economică,124,1,1,1,8.064516129032258,8.064516129032258,8.064516129032258,0.5
+2025-06-20_declaratie-de-presa-sustinuta-de-presedintele-romaniei-nicus,2025-06-20,video-transcript,2025Q3 deficit + reforma economică,291,0,3,0,0.0,10.309278350515465,0.0,0.0
+2025-06-25_nicusor-dan-crestem-cheltuielile-de-aparare-pentru-ca-orice,2025-06-25,video-transcript,2025Q3 deficit + reforma economică,64,0,1,1,0.0,15.625,15.625,0.0
+2025-06-26_declaratia-presedintelui-romaniei-nicusor-dan-dupa-participa,2025-06-26,video-transcript,2025Q3 deficit + reforma economică,542,12,8,2,22.14022140221402,14.760147601476016,3.690036900369004,1.3333333333333333
+2025-06-26_nicusor-dan-declaratie-de-la-summitul-nato-digi24v-stiriledi,2025-06-26,video-transcript,2025Q3 deficit + reforma economică,67,0,0,0,0.0,0.0,0.0,0.0
+2025-07-14_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_cp-szg,2025-07-14,video-transcript,2025Q3 deficit + reforma economică,6807,46,52,46,6.757749375642721,7.639194946378728,6.757749375642721,0.8679245283018868
+2025-07-14_nicusor-dan-despre-cresterea-tva-digi24-stiriledigi24,2025-07-14,video-transcript,2025Q3 deficit + reforma economică,90,0,1,0,0.0,11.11111111111111,0.0,0.0
+2025-07-14_nicusor-dan-despre-introducerea-femicidului-in-legislatia-ro,2025-07-14,video-transcript,2025Q3 deficit + reforma economică,131,0,0,0,0.0,0.0,0.0,0.0
+2025-07-14_nicusor-dan-despre-primele-de-pensionare-de-la-ccr-si-pensii,2025-07-14,video-transcript,2025Q3 deficit + reforma economică,189,2,3,1,10.582010582010582,15.873015873015873,5.291005291005291,0.5
+2025-07-14_nicusor-dan-nu-ne-dorim-sa-avem-rusia-ca-vecin-vom-ajuta-ucr,2025-07-14,video-transcript,2025Q3 deficit + reforma economică,84,1,0,0,11.904761904761905,0.0,0.0,1.0
+2025-07-15_nicusor-dan-masura-cresterii-tva-putea-sa-nu-fie-luata,2025-07-15,video-transcript,2025Q3 deficit + reforma economică,105,0,1,0,0.0,9.523809523809524,0.0,0.0
+2025-07-16_nicusor-dan-despre-femicid-digi24-stiriledigi24,2025-07-16,video-transcript,2025Q3 deficit + reforma economică,88,1,2,0,11.363636363636363,22.727272727272727,0.0,0.3333333333333333
+2025-07-16_nicusor-dan-despre-femicid-trebuie-sa-ajungem-sa-transmitem,2025-07-16,video-transcript,2025Q3 deficit + reforma economică,347,3,9,1,8.645533141210375,25.936599423631122,2.881844380403458,0.3
+2025-07-18_declaratia-presedintelui-romaniei-nicusor-dan-si-cancelarul,2025-07-18,video-transcript,2025Q3 deficit + reforma economică,888,6,6,0,6.756756756756757,6.756756756756757,0.0,0.8571428571428571
+2025-07-18_nicusor-dan-despre-interferentele-rusesti-in-alegerile-prezi,2025-07-18,video-transcript,2025Q3 deficit + reforma economică,1510,6,13,14,3.9735099337748343,8.609271523178808,9.271523178807946,0.42857142857142855
+2025-07-21_nicusor-dan-despre-influenta-rusiei-in-alegeri-anuntul-impor,2025-07-21,video-transcript,2025Q3 deficit + reforma economică,150,0,2,0,0.0,13.333333333333334,0.0,0.0
+2025-07-30_nicusor-dan-propune-reguli-noi-privind-cererile-de-pensionar,2025-07-30,video-transcript,2025Q3 deficit + reforma economică,3638,28,29,24,7.696536558548653,7.971412864211105,6.597031335898846,0.9333333333333333
+2025-07-30_ora-14-presedintele-nicusor-dan-sustine-o-conferinta-de-pres,2025-07-30,video-transcript,2025Q3 deficit + reforma economică,7533,58,61,55,7.699455728129563,8.09770343820523,7.301208018053896,0.9354838709677419
+2025-07-31_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_nGAQ5B,2025-07-31,video-transcript,2025Q3 deficit + reforma economică,7537,58,61,55,7.695369510415285,8.093405864402282,7.297333156428287,0.9354838709677419
+2025-07-31_nicusor-dan-despre-valul-de-pensionari-din-justitie-ce-este,2025-07-31,video-transcript,2025Q3 deficit + reforma economică,99,0,0,1,0.0,0.0,10.1010101010101,0.0
+2025-08-24_nicusor-dan-mesaj-pentru-ucraina-ucraina-celebreaza-ziua-ind,2025-08-24,video-transcript,2025Q3 deficit + reforma economică,99,0,0,0,0.0,0.0,0.0,0.0
+2025-08-26_discursul-presedintelui-romaniei-nicusor-dan-cu-ocazia-reuni,2025-08-26,video-transcript,2025Q3 deficit + reforma economică,879,4,25,4,4.550625711035267,28.441410693970422,4.550625711035267,0.15384615384615385
+2025-08-29_editie-speciala-nicusor-dan-reactioneaza-in-cazul-livratorul,2025-08-29,video-transcript,2025Q3 deficit + reforma economică,518,14,9,4,27.027027027027028,17.374517374517374,7.722007722007722,1.4
+2025-08-31_nicusor-dan-sunteti-mai-europeni-decat-europenii-si-locul-du,2025-08-31,video-transcript,2025Q3 deficit + reforma economică,53,1,0,1,18.867924528301888,0.0,18.867924528301888,1.0
+2025-09-01_nicusor-dan-2025-si-2026-vor-fi-ani-dificili-pentru-romani,2025-09-01,video-transcript,2025Q4 stabilizare + diplomație,175,0,3,1,0.0,17.142857142857142,5.714285714285714,0.0
+2025-09-02_conferinta-presedintele-romaniei-nicusor-dan-si-presedinta-c,2025-09-02,video-transcript,2025Q4 stabilizare + diplomație,383,2,2,0,5.221932114882507,5.221932114882507,0.0,0.6666666666666666
+2025-09-03_nicusor-dan-coalitia-de-guvernare-functioneaza-si-va-merge-i,2025-09-03,video-transcript,2025Q4 stabilizare + diplomație,45,1,0,2,22.22222222222222,0.0,44.44444444444444,1.0
+2025-09-03_nicusor-dan-energia-nucleara-reprezinta-20-din-necesarul-de,2025-09-03,video-transcript,2025Q4 stabilizare + diplomație,316,2,0,0,6.329113924050633,0.0,0.0,2.0
+2025-09-05_nicusor-dan-despre-pensiile-specialilor-au-fost-suprasolicit,2025-09-05,video-transcript,2025Q4 stabilizare + diplomație,185,4,0,2,21.62162162162162,0.0,10.81081081081081,4.0
+2025-09-05_nicusor-dan-romania-nu-va-trimite-trupe-de-mentinere-a-pacii,2025-09-05,video-transcript,2025Q4 stabilizare + diplomație,103,1,1,0,9.70873786407767,9.70873786407767,0.0,0.5
+2025-09-10_alocutiunea-presedintelui-romaniei-nicusor-dan-sustinuta-in,2025-09-10,video-transcript,2025Q4 stabilizare + diplomație,475,3,1,5,6.315789473684211,2.1052631578947367,10.526315789473685,1.5
+2025-09-10_nicusor-dan-daca-se-va-intampla-si-la-noi-vom-reactiona-la-f,2025-09-10,video-transcript,2025Q4 stabilizare + diplomație,69,0,1,0,0.0,14.492753623188406,0.0,0.0
+2025-09-11_ce-spune-nicusor-dan-despre-vizita-in-sua-sper-sa-fie-o-vizi,2025-09-11,video-transcript,2025Q4 stabilizare + diplomație,124,2,0,3,16.129032258064516,0.0,24.193548387096776,2.0
+2025-09-11_nicusor-dan-daca-ucraina-cedeaza-romania-ar-fi-vecina-direct,2025-09-11,video-transcript,2025Q4 stabilizare + diplomație,522,4,6,0,7.662835249042145,11.494252873563218,0.0,0.5714285714285714
+2025-09-11_nicusor-dan-de-zece-ani-romania-e-in-razboiul-hibrid-al-fede,2025-09-11,video-transcript,2025Q4 stabilizare + diplomație,873,15,6,7,17.18213058419244,6.8728522336769755,8.018327605956472,2.142857142857143
+2025-09-11_nicusor-dan-despre-cresterea-aur-in-sondaje-arata-ca-cei-40,2025-09-11,video-transcript,2025Q4 stabilizare + diplomație,470,7,5,11,14.893617021276595,10.638297872340425,23.404255319148938,1.1666666666666667
+2025-09-12_nicusor-dan-romania-de-10-ani-sub-atacul-hibrid-al-rusiei-ab,2025-09-12,video-transcript,2025Q4 stabilizare + diplomație,76,0,0,1,0.0,0.0,13.157894736842104,0.0
+2025-09-16_nicusor-dan-reactie-dupa-incidentul-din-spatiul-aerian-roman,2025-09-16,video-transcript,2025Q4 stabilizare + diplomație,155,0,3,1,0.0,19.35483870967742,6.451612903225806,0.0
+2025-09-16_nicusor-dan-we-don-t-know-if-the-russian-drone-was-armed,2025-09-16,video-transcript,2025Q4 stabilizare + diplomație,101,0,0,1,0.0,0.0,9.900990099009901,0.0
+2025-09-25_nicusor-dan-au-fost-80-000-de-atacuri-cibernetice-in-perioad,2025-09-25,video-transcript,2025Q4 stabilizare + diplomație,138,0,1,0,0.0,7.246376811594203,0.0,0.0
+2025-09-25_nicusor-dan-georgescu-nu-a-fost-un-calaret-singuratic-in-jur,2025-09-25,video-transcript,2025Q4 stabilizare + diplomație,94,0,1,0,0.0,10.638297872340425,0.0,0.0
+2025-09-25_nicusor-dan-nu-vad-rusia-capabila-sa-atace-nato-dar-provocar,2025-09-25,video-transcript,2025Q4 stabilizare + diplomație,126,1,3,1,7.936507936507937,23.80952380952381,7.936507936507937,0.25
+2025-09-25_nicusor-dan-primul-interviu-dupa-sedinta-csat-la-digi24,2025-09-25,video-transcript,2025Q4 stabilizare + diplomație,2174,9,18,3,4.139834406623735,8.27966881324747,1.3799448022079117,0.47368421052631576
+2025-09-25_nicusor-dan-primul-interviu-dupa-sedinta-csat-rusia-ramane-i,2025-09-25,video-transcript,2025Q4 stabilizare + diplomație,7052,35,52,30,4.963131026659104,7.37379466817924,4.254112308564946,0.660377358490566
+2025-09-26_nicusor-dan-despre-influenta-sri-in-romania-stiri-b1tv-26-se,2025-09-26,video-transcript,2025Q4 stabilizare + diplomație,136,0,1,0,0.0,7.352941176470588,0.0,0.0
+2025-09-26_nicusor-dan-sri-a-intervenit-in-viata-politica-si-economica,2025-09-26,video-transcript,2025Q4 stabilizare + diplomație,158,0,1,0,0.0,6.329113924050633,0.0,0.0
+2025-09-30_nicusor-dan-a-anuntat-cand-va-desecretiza-sedinta-csat-si-ac,2025-09-30,video-transcript,2025Q4 stabilizare + diplomație,179,2,0,0,11.1731843575419,0.0,0.0,2.0
+2025-09-30_nicusor-dan-avem-dovada-cu-peschir-banuim-ca-au-fost-20-de-m,2025-09-30,video-transcript,2025Q4 stabilizare + diplomație,230,0,0,1,0.0,0.0,4.3478260869565215,0.0
+2025-09-30_nicusor-dan-despre-aderarea-moldovei-la-ue-poate-fi-facuta-c,2025-09-30,video-transcript,2025Q4 stabilizare + diplomație,141,4,0,1,28.368794326241133,0.0,7.092198581560283,4.0
+2025-09-30_nicusor-dan-despre-anularea-alegerilor-avem-dovada-ca-au-fos,2025-09-30,video-transcript,2025Q4 stabilizare + diplomație,367,3,1,0,8.174386920980927,2.7247956403269753,0.0,1.5
+2025-09-30_nicusor-dan-despre-stagiul-militar-voluntar-romania-sa-aiba,2025-09-30,video-transcript,2025Q4 stabilizare + diplomație,195,2,1,0,10.256410256410257,5.128205128205129,0.0,1.0
+2025-10-02_nicusor-dan-amenin-area-nu-mai-este-o-chestiune-de-vecinatat,2025-10-02,video-transcript,2025Q4 stabilizare + diplomație,84,0,0,0,0.0,0.0,0.0,0.0
+2025-10-14_studio-politic-nicusor-dan-vrea-sa-implice-sri-in-lupta-anti,2025-10-14,video-transcript,2025Q4 stabilizare + diplomație,129,0,1,0,0.0,7.751937984496124,0.0,0.0
+2025-10-21_nicusor-dan-in-principiu-imi-doresc-un-al-doilea-mandat-la-c,2025-10-21,video-transcript,2025Q4 stabilizare + diplomație,83,1,0,1,12.048192771084338,0.0,12.048192771084338,1.0
+2025-10-23_nicusor-dan-avem-un-razboi-hibrid-de-cel-putin-10-ani,2025-10-23,video-transcript,2025Q4 stabilizare + diplomație,591,3,3,2,5.0761421319796955,5.0761421319796955,3.3840947546531304,0.75
+2025-10-23_nicusor-dan-trebuie-sa-ne-echipam-ca-sa-descurajam-rusia-de,2025-10-23,video-transcript,2025Q4 stabilizare + diplomație,81,0,2,2,0.0,24.691358024691358,24.691358024691358,0.0
+2025-10-24_nicusor-dan-a-society-is-defined-by-the-institutions-it-has,2025-10-24,video-transcript,2025Q4 stabilizare + diplomație,313,5,5,2,15.97444089456869,15.97444089456869,6.389776357827476,0.8333333333333334
+2025-10-27_nicusor-dan-catedrala-nationala-simbol-de-speranta-intr-o-pe,2025-10-27,video-transcript,2025Q4 stabilizare + diplomație,221,0,0,0,0.0,0.0,0.0,0.0
+2025-11-02_nicusor-dan-reactie-despre-reducerea-numarului-de-militari-a,2025-11-02,video-transcript,2025Q4 stabilizare + diplomație,631,4,5,8,6.3391442155309035,7.9239302694136295,12.678288431061807,0.6666666666666666
+2025-11-06_rutte-nato-isi-va-juca-rolul-sau-nicusor-dan-reinarmarea-nu,2025-11-06,video-transcript,2025Q4 stabilizare + diplomație,773,1,6,0,1.2936610608020698,7.7619663648124195,0.0,0.14285714285714285
+2025-11-07_nicusor-dan-despre-intalnirea-lui-bolojan-nu-cred-ca-premier,2025-11-07,video-transcript,2025Q4 stabilizare + diplomație,98,0,3,2,0.0,30.612244897959183,20.408163265306122,0.0
+2025-11-07_nicusor-dan-despre-salariul-minim-sa-inghete,2025-11-07,video-transcript,2025Q4 stabilizare + diplomație,89,3,1,0,33.70786516853933,11.235955056179776,0.0,1.5
+2025-11-11_nicusor-dan-declaratia-oanei-gheorghiu-e-nefericita-reactia,2025-11-11,video-transcript,2025Q4 stabilizare + diplomație,57,2,0,1,35.08771929824562,0.0,17.54385964912281,2.0
+2025-11-11_presedintele-romaniei-nicusor-dan-despre-pensii-si-justitie,2025-11-11,video-transcript,2025Q4 stabilizare + diplomație,111,0,3,0,0.0,27.027027027027028,0.0,0.0
+2025-11-12_ce-l-a-socat-pe-nicusor-dan-dupa-ce-a-ajuns-presedinte,2025-11-12,video-transcript,2025Q4 stabilizare + diplomație,145,1,0,1,6.896551724137931,0.0,6.896551724137931,1.0
+2025-11-12_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_6l2Eup,2025-11-12,video-transcript,2025Q4 stabilizare + diplomație,6453,45,36,44,6.97350069735007,5.578800557880056,6.818534015186735,1.2162162162162162
+2025-11-12_nicusor-dan-conferinta-de-presa-presedintele-prezinta-strate,2025-11-12,video-transcript,2025Q4 stabilizare + diplomație,5484,47,32,46,8.570386579139315,5.835156819839534,8.38803792851933,1.4242424242424243
+2025-11-12_nicusor-dan-e-mai-bine-sa-fii-vecin-cu-ucraina-decat-cu-rusi,2025-11-12,video-transcript,2025Q4 stabilizare + diplomație,196,1,1,0,5.1020408163265305,5.1020408163265305,0.0,0.5
+2025-11-12_nicusor-dan-nu-ne-dorim-sa-fim-vecini-cu-rusia,2025-11-12,video-transcript,2025Q4 stabilizare + diplomație,332,1,1,1,3.0120481927710845,3.0120481927710845,3.0120481927710845,0.5
+2025-11-12_nicusor-dan-nu-vrem-sa-aparam-statul-vrem-sa-aparam-cetateni,2025-11-12,video-transcript,2025Q4 stabilizare + diplomație,1839,2,13,1,1.0875475802066341,7.0690592713431215,0.5437737901033171,0.14285714285714285
+2025-11-12_nicusor-dan-serviciile-de-informatii-vor-fi-implicate-in-lup,2025-11-12,video-transcript,2025Q4 stabilizare + diplomație,97,0,1,0,0.0,10.309278350515465,0.0,0.0
+2025-11-21_nicusor-dan-despre-aducerea-in-tara-a-mercenarului-horatiu-p,2025-11-21,video-transcript,2025Q4 stabilizare + diplomație,87,1,2,1,11.494252873563218,22.988505747126435,11.494252873563218,0.3333333333333333
+2025-11-21_nicusor-dan-orice-plan-de-pace-trebuie-aprobat-de-ucraina,2025-11-21,video-transcript,2025Q4 stabilizare + diplomație,406,3,6,5,7.389162561576355,14.77832512315271,12.31527093596059,0.42857142857142855
+2025-11-21_prima-reactie-a-lui-nicusor-dan-dupa-informatiile-aparute-cu,2025-11-21,video-transcript,2025Q4 stabilizare + diplomație,166,0,5,0,0.0,30.120481927710845,0.0,0.0
+2025-11-26_nicusor-dan-declaratii-din-parlament-despre-problemele-inter,2025-11-26,video-transcript,2025Q4 stabilizare + diplomație,1054,5,6,0,4.743833017077799,5.692599620493358,0.0,0.7142857142857143
+2025-11-26_nicusor-dan-declaratii-dupa-sustinerea-discursului-in-parlam,2025-11-26,video-transcript,2025Q4 stabilizare + diplomație,273,1,2,1,3.663003663003663,7.326007326007326,3.663003663003663,0.3333333333333333
+2025-11-26_nicusor-dan-drone-care-din-cand-in-cand-intra-pe-teritoriul,2025-11-26,video-transcript,2025Q4 stabilizare + diplomație,130,1,0,0,7.6923076923076925,0.0,0.0,1.0
+2025-11-26_nicusor-dan-vom-sustine-in-continuare-ucraina-si-republica-m,2025-11-26,video-transcript,2025Q4 stabilizare + diplomație,49,0,0,0,0.0,0.0,0.0,0.0
+2025-12-01_nicusor-dan-mesaj-de-ziua-nationala-e-o-zi-de-sarbatoare-sa,2025-12-01,video-transcript,2025Q4-2026Q1 reformă judiciară,71,0,0,0,0.0,0.0,0.0,0.0
+2025-12-01_nicusor-dan-suntem-membri-ai-ue-dar-de-multe-ori-vocea-roman,2025-12-01,video-transcript,2025Q4-2026Q1 reformă judiciară,77,0,1,0,0.0,12.987012987012987,0.0,0.0
+2025-12-02_nicusor-dan-mesaj-de-1-decembrie-digi24-stiriledigi24,2025-12-02,video-transcript,2025Q4-2026Q1 reformă judiciară,165,1,1,0,6.0606060606060606,6.0606060606060606,0.0,0.5
+2025-12-02_nicusor-dan-mesaj-de-1-decembrie-totusi-suntem-mai-putin-cor,2025-12-02,video-transcript,2025Q4-2026Q1 reformă judiciară,1205,2,4,0,1.6597510373443984,3.319502074688797,0.0,0.4
+2025-12-03_nicusor-dan-despre-criza-apei-potabile-din-prahova-vinova-ia,2025-12-03,video-transcript,2025Q4-2026Q1 reformă judiciară,798,5,5,8,6.265664160401003,6.265664160401003,10.025062656641603,0.8333333333333334
+2025-12-03_nicusor-dan-despre-criza-apei-potabile-din-prahova-vinova-ia_cxJ5Wc,2025-12-03,video-transcript,2025Q4-2026Q1 reformă judiciară,86,3,2,3,34.883720930232556,23.25581395348837,34.883720930232556,1.0
+2025-12-03_nicusor-dan-dupa-amenintarile-lui-putin-sunt-declaratii-pent,2025-12-03,video-transcript,2025Q4-2026Q1 reformă judiciară,80,0,0,0,0.0,0.0,0.0,0.0
+2025-12-03_nicusor-dan-vinovatia-este-la-apele-romane,2025-12-03,video-transcript,2025Q4-2026Q1 reformă judiciară,291,3,3,5,10.309278350515465,10.309278350515465,17.18213058419244,0.75
+2025-12-04_nicusor-dan-despre-alegerile-anulate-au-aparut-suficiente-in,2025-12-04,video-transcript,2025Q4-2026Q1 reformă judiciară,149,5,1,3,33.557046979865774,6.7114093959731544,20.13422818791946,2.5
+2025-12-04_nicusor-dan-despre-demisia-lui-mosteanu-intensitatea-critici,2025-12-04,video-transcript,2025Q4-2026Q1 reformă judiciară,139,0,0,0,0.0,0.0,0.0,0.0
+2025-12-04_nicusor-dan-vinovatia-este-la-apele-romane-newsroom-din-3-de,2025-12-04,video-transcript,2025Q4-2026Q1 reformă judiciară,660,4,4,6,6.0606060606060606,6.0606060606060606,9.090909090909092,0.8
+2025-12-07_presedintele-nicusor-dan-de-mult-nu-am-mai-votat-pentru-altc,2025-12-07,video-transcript,2025Q4-2026Q1 reformă judiciară,112,1,0,3,8.928571428571429,0.0,26.785714285714285,1.0
+2025-12-09_nicusor-dan-nu-vad-vreun-motiv-pentru-care-un-ministru-trebu,2025-12-09,video-transcript,2025Q4-2026Q1 reformă judiciară,109,1,1,2,9.174311926605505,9.174311926605505,18.34862385321101,0.5
+2025-12-10_nicusor-dan-nu-toti-votantii-aur-sunt-extremisti-stiri-b1tv,2025-12-10,video-transcript,2025Q4-2026Q1 reformă judiciară,163,0,3,1,0.0,18.404907975460123,6.134969325153374,0.0
+2025-12-10_romania-lui-vitalie-nicusor-dan-despre-strategia-de-securita,2025-12-10,video-transcript,2025Q4-2026Q1 reformă judiciară,2880,23,14,10,7.986111111111111,4.861111111111111,3.4722222222222223,1.5333333333333334
+2025-12-11_nicusor-dan-judecatorii-sa-se-implice-in-rezolvarea-probleme,2025-12-11,video-transcript,2025Q4-2026Q1 reformă judiciară,40,1,0,1,25.0,0.0,25.0,1.0
+2025-12-15_nicusor-dan-anunturi-majore-in-scandalurile-momentului,2025-12-15,video-transcript,2025Q4-2026Q1 reformă judiciară,331,5,0,2,15.105740181268882,0.0,6.042296072507553,5.0
+2025-12-16_nicusor-dan-declara-ca-rusia-va-continua-sa-fie-o-amenintare,2025-12-16,video-transcript,2025Q4-2026Q1 reformă judiciară,880,2,6,3,2.272727272727273,6.818181818181818,3.409090909090909,0.2857142857142857
+2025-12-16_nicusor-dan-sunt-destul-de-pesimist-cu-privire-la-intentia-r,2025-12-16,video-transcript,2025Q4-2026Q1 reformă judiciară,85,1,0,2,11.764705882352942,0.0,23.529411764705884,1.0
+2025-12-16_nicusor-dan-trebuie-sa-fim-calmi-dar-sa-investim-in-aparare,2025-12-16,video-transcript,2025Q4-2026Q1 reformă judiciară,60,0,2,0,0.0,33.333333333333336,0.0,0.0
+2025-12-17_declaratia-presedintelui-romaniei-nicusor-dan-in-regatul-mar,2025-12-17,video-transcript,2025Q4-2026Q1 reformă judiciară,890,11,3,9,12.359550561797754,3.3707865168539324,10.112359550561798,2.75
+2025-12-17_nicusor-dan-despre-cresterea-impozitelor-nu-e-nici-fericire,2025-12-17,video-transcript,2025Q4-2026Q1 reformă judiciară,88,1,1,1,11.363636363636363,11.363636363636363,11.363636363636363,0.5
+2025-12-17_nicusor-dan-sunt-probleme-la-modul-in-care-se-fac-promovaril,2025-12-17,video-transcript,2025Q4-2026Q1 reformă judiciară,660,5,9,7,7.575757575757576,13.636363636363637,10.606060606060606,0.5
+2025-12-18_nicusor-dan-avem-atacuri-cibernetice-campanie-de-dezinformar,2025-12-18,video-transcript,2025Q4-2026Q1 reformă judiciară,263,2,2,0,7.604562737642586,7.604562737642586,0.0,0.6666666666666666
+2025-12-18_nicusor-dan-problema-fundamentala-este-de-ce-nu-reusim-in-15,2025-12-18,video-transcript,2025Q4-2026Q1 reformă judiciară,53,1,0,1,18.867924528301888,0.0,18.867924528301888,1.0
+2025-12-18_nicusor-dan-problema-fundamentala-este-de-ce-nu-reusim-in-15_wynkjt,2025-12-18,video-transcript,2025Q4-2026Q1 reformă judiciară,200,2,0,2,10.0,0.0,10.0,2.0
+2025-12-18_nicusor-dan-sustinem-oricare-dintre-variantele-de-ajutor-fin,2025-12-18,video-transcript,2025Q4-2026Q1 reformă judiciară,370,2,3,2,5.405405405405405,8.108108108108109,5.405405405405405,0.5
+2025-12-19_nicusor-dan-anunt-inainte-de-intalnirea-cu-magistratii,2025-12-19,video-transcript,2025Q4-2026Q1 reformă judiciară,93,0,1,0,0.0,10.75268817204301,0.0,0.0
+2025-12-21_declaratia-presedintelui-romaniei-nicusor-dan-pe-tema-proble,2025-12-21,video-transcript,2025Q4-2026Q1 reformă judiciară,1403,8,8,9,5.702066999287242,5.702066999287242,6.414825374198147,0.8888888888888888
+2025-12-21_nicusor-dan-exista-magistrati-care-actioneaza-in-interesul-u_i-HYCW,2025-12-21,video-transcript,2025Q4-2026Q1 reformă judiciară,114,0,0,0,0.0,0.0,0.0,0.0
+2025-12-21_nicusor-dan-magistratii-intimidati-inainte-de-discutiile-de,2025-12-21,video-transcript,2025Q4-2026Q1 reformă judiciară,299,0,0,1,0.0,0.0,3.3444816053511706,0.0
+2025-12-21_nicusor-dan-magistratii-intimidati-inainte-de-discutiile-de__MoX2e,2025-12-21,video-transcript,2025Q4-2026Q1 reformă judiciară,135,0,0,2,0.0,0.0,14.814814814814815,0.0
+2025-12-21_nicusor-dan-voi-face-un-referendum-daca-csm-nu-actioneaza-in,2025-12-21,video-transcript,2025Q4-2026Q1 reformă judiciară,124,0,0,0,0.0,0.0,0.0,0.0
+2025-12-21_nicusor-dan-voi-initia-in-ianuarie-un-referendum-in-cadrul-c,2025-12-21,video-transcript,2025Q4-2026Q1 reformă judiciară,184,1,0,0,5.434782608695652,0.0,0.0,1.0
+2025-12-22_discutii-publice-la-cotroceni-intre-presedintele-romaniei-ni_7lGgIp,2025-12-22,video-transcript,2025Q4-2026Q1 reformă judiciară,12220,105,78,83,8.592471358428805,6.382978723404255,6.7921440261865795,1.3291139240506329
+2025-12-22_nicusor-dan-anunta-un-referendum-printre-magistrati-digi24,2025-12-22,video-transcript,2025Q4-2026Q1 reformă judiciară,151,0,0,0,0.0,0.0,0.0,0.0
+2025-12-22_nicusor-dan-multe-dintre-cele-semnalate-necesita-verificari,2025-12-22,video-transcript,2025Q4-2026Q1 reformă judiciară,54,0,0,0,0.0,0.0,0.0,0.0
+2026-01-01_nicusor-dan-mesaj-de-condoleante-dupa-incediul-din-elvetia,2026-01-01,video-transcript,2025Q4-2026Q1 reformă judiciară,75,0,0,0,0.0,0.0,0.0,0.0
+2026-01-06_declaratia-presedintelui-romaniei-nicusor-dan-dupa-participa_iZQQF2,2026-01-06,video-transcript,2025Q4-2026Q1 reformă judiciară,2632,22,8,17,8.358662613981762,3.0395136778115504,6.458966565349544,2.4444444444444446
+2026-01-06_nicusor-dan-declaratii-la-bordul-avionului-spartan-cu-care-a,2026-01-06,video-transcript,2025Q4-2026Q1 reformă judiciară,50,0,0,0,0.0,0.0,0.0,0.0
+2026-01-06_nicusor-dan-suntem-intr-un-context-international-dificil,2026-01-06,video-transcript,2025Q4-2026Q1 reformă judiciară,96,0,1,0,0.0,10.416666666666666,0.0,0.0
+2026-01-07_garantii-de-securitate-pentru-ucraina-si-mize-interne-nicuso,2026-01-07,video-transcript,2025Q4-2026Q1 reformă judiciară,2510,22,8,17,8.764940239043824,3.187250996015936,6.772908366533865,2.4444444444444446
+2026-01-07_nicusor-dan-e-nevoie-de-un-avion-prezidential,2026-01-07,video-transcript,2025Q4-2026Q1 reformă judiciară,204,0,2,2,0.0,9.803921568627452,9.803921568627452,0.0
+2026-01-07_nicusor-dan-mi-ar-fi-placut-mai-degraba-ca-taxele-sa-scada,2026-01-07,video-transcript,2025Q4-2026Q1 reformă judiciară,134,0,0,2,0.0,0.0,14.925373134328359,0.0
+2026-01-15_nicusor-dan-ne-asteapta-o-perioada-complicata-si-dificil-de,2026-01-15,video-transcript,2025Q4-2026Q1 reformă judiciară,84,0,0,0,0.0,0.0,0.0,0.0
+2026-01-15_nicusor-dan-romania-sustine-pacea-in-ucraina-si-integrarea-r,2026-01-15,video-transcript,2025Q4-2026Q1 reformă judiciară,2099,9,4,1,4.287756074321106,1.9056693663649358,0.47641734159123394,1.8
+2026-01-20_nicusor-dan-anunta-azi-daca-merge-la-davos-pentru-consiliul,2026-01-20,video-transcript,2025Q4-2026Q1 reformă judiciară,45,0,1,0,0.0,22.22222222222222,0.0,0.0
+2026-01-22_nicusor-dan-despre-pozitia-romaniei-cu-privire-la-groenlanda,2026-01-22,video-transcript,2025Q4-2026Q1 reformă judiciară,263,1,4,1,3.802281368821293,15.209125475285171,3.802281368821293,0.2
+2026-01-23_nicusor-dan-explica-ce-inseamna-ca-nu-a-mers-teleleu-la-davo,2026-01-23,video-transcript,2025Q4-2026Q1 reformă judiciară,125,2,0,3,16.0,0.0,24.0,2.0
+2026-01-24_discursul-lui-nicusor-dan-de-la-iasi-bruiat-de-simpatizantii,2026-01-24,video-transcript,2025Q4-2026Q1 reformă judiciară,477,0,3,3,0.0,6.289308176100629,6.289308176100629,0.0
+2026-01-24_huiduieli-si-aplauze-la-focsani-nicusor-dan-este-un-drept-pe,2026-01-24,video-transcript,2025Q4-2026Q1 reformă judiciară,371,0,2,0,0.0,5.390835579514825,0.0,0.0
+2026-01-24_nicusor-dan-e-democratie-e-libertate-sa-spuna-fiecare-ce-vre,2026-01-24,video-transcript,2025Q4-2026Q1 reformă judiciară,1548,10,8,12,6.459948320413437,5.167958656330749,7.751937984496124,1.1111111111111112
+2026-01-24_nicusor-dan-la-multi-ani-dragi-focsaneni-care-huiduiti-autor,2026-01-24,video-transcript,2025Q4-2026Q1 reformă judiciară,99,0,0,0,0.0,0.0,0.0,0.0
+2026-01-24_nicusor-dan-mae-analizeaza-participarea-romaniei-la-consiliu,2026-01-24,video-transcript,2025Q4-2026Q1 reformă judiciară,57,0,0,0,0.0,0.0,0.0,0.0
+2026-01-24_nicusor-dan-nu-facem-comedii-din-relatia-intre-guvern-si-par,2026-01-24,video-transcript,2025Q4-2026Q1 reformă judiciară,123,0,3,1,0.0,24.390243902439025,8.130081300813009,0.0
+2026-01-24_ziua-unirii-principatelor-umbrita-de-proteste-discursul-lui,2026-01-24,video-transcript,2025Q4-2026Q1 reformă judiciară,192,0,0,3,0.0,0.0,15.625,0.0
+2026-01-30_nicusor-dan-despre-numirile-la-sri-si-sie-digi24-stiriledigi,2026-01-30,video-transcript,2025Q4-2026Q1 reformă judiciară,169,1,1,0,5.9171597633136095,5.9171597633136095,0.0,0.5
+2026-01-30_nicusor-dan-despre-tensiunile-din-coalitie-nu-exista-alterna,2026-01-30,video-transcript,2025Q4-2026Q1 reformă judiciară,4944,21,23,34,4.247572815533981,4.65210355987055,6.877022653721683,0.875
+2026-01-30_nicusor-dan-despre-tensiunile-din-coalitie-nu-exista-alterna_9sksTM,2026-01-30,video-transcript,2025Q4-2026Q1 reformă judiciară,87,2,0,0,22.988505747126435,0.0,0.0,2.0
+2026-01-30_nicusor-dan-despre-vizita-in-sua-digi24-stiriledigi24,2026-01-30,video-transcript,2025Q4-2026Q1 reformă judiciară,101,2,0,2,19.801980198019802,0.0,19.801980198019802,2.0
+2026-01-30_nicusor-dan-nu-exista-risc-de-crestere-de-taxe-in-viitorul-a,2026-01-30,video-transcript,2025Q4-2026Q1 reformă judiciară,122,0,1,0,0.0,8.19672131147541,0.0,0.0
+2026-01-30_nicusor-dan-un-guvern-minoritar-putin-probabil-bolojan-a-rap,2026-01-30,video-transcript,2025Q4-2026Q1 reformă judiciară,132,5,0,0,37.878787878787875,0.0,0.0,5.0
+2026-02-09_participa-sau-nu-romania-la-consiliul-pentru-pace-al-lui-tru,2026-02-09,video-transcript,2025Q4-2026Q1 reformă judiciară,54,0,0,0,0.0,0.0,0.0,0.0
+2026-02-12_ce-spune-nicusor-dan-despre-participarea-romaniei-la-prima-e,2026-02-12,video-transcript,2025Q4-2026Q1 reformă judiciară,100,2,0,0,20.0,0.0,0.0,2.0
+2026-02-12_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus,2026-02-12,video-transcript,2025Q4-2026Q1 reformă judiciară,702,3,5,0,4.273504273504273,7.122507122507122,0.0,0.5
+2026-02-12_nicusor-dan-anunt-de-la-consiliul-european-il-refuza-din-nou,2026-02-12,video-transcript,2025Q4-2026Q1 reformă judiciară,1923,5,16,3,2.6001040041601664,8.320332813312532,1.5600624024960998,0.29411764705882354
+2026-02-12_nicusor-dan-despre-candidatii-la-sefia-parchetelor-sunt-pers,2026-02-12,video-transcript,2025Q4-2026Q1 reformă judiciară,153,15,0,7,98.03921568627452,0.0,45.751633986928105,15.0
+2026-02-12_nicusor-dan-dupa-summitul-din-belgia-comisia-europeana-va-pr,2026-02-12,video-transcript,2025Q4-2026Q1 reformă judiciară,3128,25,22,17,7.9923273657289,7.033248081841432,5.434782608695652,1.0869565217391304
+2026-02-12_nicusor-dan-este-evidenta-tergiversarea-ccr-imi-doresc-o-asu,2026-02-12,video-transcript,2025Q4-2026Q1 reformă judiciară,59,0,0,2,0.0,0.0,33.898305084745765,0.0
+2026-02-12_nicusor-dan-pretul-energiei-este-o-chestiune-foarte-importan,2026-02-12,video-transcript,2025Q4-2026Q1 reformă judiciară,117,0,1,0,0.0,8.547008547008547,0.0,0.0
+2026-02-12_nicusor-dan-romania-poate-fi-cel-mult-observator-in-consiliu,2026-02-12,video-transcript,2025Q4-2026Q1 reformă judiciară,184,1,1,0,5.434782608695652,5.434782608695652,0.0,0.5
+2026-02-13_declaratiile-presedintelui-romaniei-nicusor-dan-dupa-reuniun,2026-02-13,video-transcript,2025Q4-2026Q1 reformă judiciară,2572,25,19,17,9.720062208398133,7.387247278382581,6.609642301710731,1.25
+2026-02-13_nicusor-dan-despre-propunerile-privind-scaderea-pretului-ene,2026-02-13,video-transcript,2025Q4-2026Q1 reformă judiciară,93,0,0,0,0.0,0.0,0.0,0.0
+2026-02-13_nicusor-dan-in-ciuda-atacurilor-coalitia-functioneaza-mai-bi,2026-02-13,video-transcript,2025Q4-2026Q1 reformă judiciară,143,1,0,1,6.993006993006993,0.0,6.993006993006993,1.0
+2026-02-17_nicusor-dan-prezenta-la-consiliul-de-pace-necesara-dupa-anul,2026-02-17,video-transcript,2025Q4-2026Q1 reformă judiciară,170,6,1,1,35.294117647058826,5.882352941176471,5.882352941176471,3.0
+2026-02-19_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus,2026-02-19,video-transcript,2025Q4-2026Q1 reformă judiciară,913,7,2,2,7.667031763417306,2.190580503833516,2.190580503833516,2.3333333333333335
+2026-02-19_interviu-exclusiv-cu-nicusor-dan-dupa-intalnirea-cu-trump,2026-02-19,video-transcript,2025Q4-2026Q1 reformă judiciară,1463,7,9,6,4.784688995215311,6.151742993848257,4.101161995898838,0.7
+2026-02-19_nicusor-dan-discurs-la-consiliul-pentru-pace-in-sua-avem-bur,2026-02-19,video-transcript,2025Q4-2026Q1 reformă judiciară,193,4,0,0,20.72538860103627,0.0,0.0,4.0
+2026-02-19_prima-reactie-a-lui-nicusor-dan-dupa-ce-donald-trump-l-a-num,2026-02-19,video-transcript,2025Q4-2026Q1 reformă judiciară,33,0,0,0,0.0,0.0,0.0,0.0
+2026-02-20_nicusor-dan-nu-alegem-intre-sua-si-ue-romania-trebuie-sa-fie,2026-02-20,video-transcript,2025Q4-2026Q1 reformă judiciară,121,0,0,1,0.0,0.0,8.264462809917354,0.0
+2026-02-20_presedintele-nicusor-dan-problema-legitimitatii-administrati,2026-02-20,video-transcript,2025Q4-2026Q1 reformă judiciară,837,6,0,4,7.168458781362007,0.0,4.778972520908005,6.0
+2026-02-24_nicusor-dan-explica-de-ce-nu-a-promulgat-legea-pensiilor-spe,2026-02-24,video-transcript,2025Q4-2026Q1 reformă judiciară,80,2,0,0,25.0,0.0,0.0,2.0
+2026-03-05_acum-nicusor-dan-anunta-daca-romania-va-gazdui-arme-nucleare,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,548,0,4,1,0.0,7.299270072992701,1.8248175182481752,0.0
+2026-03-05_nicusor-dan-conferinta-de-presa-in-polonia-stiri-b1tv-5-mar,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,848,2,4,1,2.358490566037736,4.716981132075472,1.179245283018868,0.4
+2026-03-05_nicusor-dan-despre-propunerile-pentru-sefia-parchetelor-stir,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,149,0,0,0,0.0,0.0,0.0,0.0
+2026-03-05_nicusor-dan-despre-scumpirile-la-pompa-nu-putem-umbla-la-acc,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,201,1,0,0,4.975124378109452,0.0,0.0,1.0
+2026-03-05_nicusor-dan-despre-situatia-din-orient-nu-o-sa-plangem-iranu,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,93,0,0,0,0.0,0.0,0.0,0.0
+2026-03-05_nicusor-dan-despre-umbrela-nucleara-propusa-de-franta-stiri,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,172,0,1,0,0.0,5.813953488372093,0.0,0.0
+2026-03-05_nicusor-dan-dezbaterea-pe-buget-este-o-dezbatere-legitima,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,115,0,0,0,0.0,0.0,0.0,0.0
+2026-03-05_nicusor-dan-nu-o-sa-plangem-republica-islamica-iran,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,146,0,1,0,0.0,6.8493150684931505,0.0,0.0
+2026-03-05_nicusor-dan-polonia-participa-la-brigada-multinationala-care,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,154,2,0,0,12.987012987012987,0.0,0.0,2.0
+2026-03-05_nicusor-dan-polonia-si-romania-impreuna-au-multe-oportunitat,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,1854,2,8,4,1.0787486515641855,4.314994606256742,2.157497303128371,0.2222222222222222
+2026-03-05_nicusor-dan-romania-este-acoperita-de-o-umbrela-nucleara,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,65,0,0,0,0.0,0.0,0.0,0.0
+2026-03-05_pretul-carburantilor-nicusor-dan-exclude-modificarea-taxelor,2026-03-05,video-transcript,2026Q2 cotitură UE + criză guvern,159,1,0,0,6.289308176100629,0.0,0.0,1.0
+2026-03-06_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus_Ry-ZYl,2026-03-06,video-transcript,2026Q2 cotitură UE + criză guvern,1912,2,8,4,1.0460251046025104,4.184100418410042,2.092050209205021,0.2222222222222222
+2026-03-06_nicusor-dan-romania-nu-va-gazdui-focoase-nucleare-in-viitoru,2026-03-06,video-transcript,2026Q2 cotitură UE + criză guvern,108,0,1,0,0.0,9.25925925925926,0.0,0.0
+2026-03-07_nicusor-dan-imi-voi-asuma-in-justitie-vin-din-societatea-civ,2026-03-07,video-transcript,2026Q2 cotitură UE + criză guvern,157,1,1,2,6.369426751592357,6.369426751592357,12.738853503184714,0.5
+2026-03-11_ce-trimite-sua-in-tara-noastra-declaratiile-lui-nicusor-dan,2026-03-11,video-transcript,2026Q2 cotitură UE + criză guvern,151,0,0,0,0.0,0.0,0.0,0.0
+2026-03-11_declaratie-sustinuta-de-presedintele-romaniei-nicusor-dan-du,2026-03-11,video-transcript,2026Q2 cotitură UE + criză guvern,549,0,4,0,0.0,7.285974499089253,0.0,0.0
+2026-03-12_nicusor-dan-we-will-produce-drones-in-romania-together-with,2026-03-12,video-transcript,2026Q2 cotitură UE + criză guvern,378,0,1,1,0.0,2.6455026455026456,2.6455026455026456,0.0
+2026-03-13_conferinta-sustinuta-de-presedintii-romaniei-si-ucrainei-nic,2026-03-13,video-transcript,2026Q2 cotitură UE + criză guvern,911,3,1,1,3.293084522502744,1.0976948408342482,1.0976948408342482,1.5
+2026-03-19_conferinta-presedintelui-romaniei-nicusor-dan-si-a-secretaru,2026-03-19,video-transcript-diarizat,2026Q2 cotitură UE + criză guvern,39,0,0,0,0.0,0.0,0.0,0.0
+2026-03-19_nicusor-dan-romania-has-taken-a-clear-position-on-the-transa,2026-03-19,video-transcript,2026Q2 cotitură UE + criză guvern,155,0,1,0,0.0,6.451612903225806,0.0,0.0
+2026-03-19_nicusor-dan-romania-has-taken-a-clear-position-on-the-transa_BurJvC,2026-03-19,video-transcript,2026Q2 cotitură UE + criză guvern,331,0,2,0,0.0,6.042296072507553,0.0,0.0
+2026-03-26_ce-a-spus-nicusor-dan-despre-o-eventuala-rationalizare-a-car,2026-03-26,video-transcript,2026Q2 cotitură UE + criză guvern,94,0,0,0,0.0,0.0,0.0,0.0
+2026-03-26_nicusor-dan-a-anuntat-ca-va-promulga-legea-bugetului-asa-cum,2026-03-26,video-transcript,2026Q2 cotitură UE + criză guvern,68,0,1,1,0.0,14.705882352941176,14.705882352941176,0.0
+2026-03-27_nicusor-dan-if-the-measures-are-not-sufficient-the-governmen,2026-03-27,video-transcript,2026Q2 cotitură UE + criză guvern,176,0,0,0,0.0,0.0,0.0,0.0
+2026-03-30_nicusor-dan-despre-iesirea-psd-de-la-guvernare-un-guvern-min,2026-03-30,video-transcript,2026Q2 cotitură UE + criză guvern,66,2,0,1,30.303030303030305,0.0,15.151515151515152,2.0
+2026-03-30_o-posibila-iesire-a-psd-de-la-guvernare-nicusor-dan-nu-cred,2026-03-30,video-transcript,2026Q2 cotitură UE + criză guvern,570,10,4,6,17.54385964912281,7.017543859649122,10.526315789473685,2.0
+2026-03-31_carburantii-s-ar-putea-ieftini-nicusor-dan-cred-ca-va-fi-o-s,2026-03-31,video-transcript,2026Q2 cotitură UE + criză guvern,82,1,0,2,12.195121951219512,0.0,24.390243902439025,1.0
+2026-03-31_carburantii-s-ar-putea-ieftini-nicusor-dan-cred-ca-va-fi-o-s_eIg4Ys,2026-03-31,video-transcript,2026Q2 cotitură UE + criză guvern,141,2,0,2,14.184397163120567,0.0,14.184397163120567,2.0
+2026-04-01_presedintele-nicusor-dan-trecerea-romaniei-la-euro-esentiala,2026-04-01,video-transcript,2026Q2 cotitură UE + criză guvern,108,0,1,0,0.0,9.25925925925926,0.0,0.0
+2026-04-07_declaratiile-presedintelui-nicusor-dan-dupa-vizita-la-centru,2026-04-07,video-transcript,2026Q2 cotitură UE + criză guvern,2191,10,13,14,4.564125969876769,5.933363760839799,6.389776357827476,0.7142857142857143
+2026-04-07_nicusor-dan-despre-demisia-lui-bolojan-in-ce-calitate-sa-i-o,2026-04-07,video-transcript,2026Q2 cotitură UE + criză guvern,81,2,2,3,24.691358024691358,24.691358024691358,37.03703703703704,0.6666666666666666
+2026-04-07_nicusor-dan-intrebat-daca-ii-va-cere-demisia-lui-bolojan-eu,2026-04-07,video-transcript,2026Q2 cotitură UE + criză guvern,1539,10,6,14,6.49772579597141,3.898635477582846,9.096816114359974,1.4285714285714286
+2026-04-07_nicusor-dan-nu-sunt-riscuri-acum-dar-avem-un-plan-de-criza-p,2026-04-07,video-transcript,2026Q2 cotitură UE + criză guvern,128,1,0,0,7.8125,0.0,0.0,1.0
+2026-04-08_nicusor-dan-anunta-numiri-in-fruntea-parchetelor-astept-o-di,2026-04-08,video-transcript,2026Q2 cotitură UE + criză guvern,3684,32,32,42,8.686210640608035,8.686210640608035,11.400651465798045,0.9696969696969697
+2026-04-08_nicusor-dan-i-was-happy-that-the-head-of-the-iasi-dna-is-run,2026-04-08,video-transcript,2026Q2 cotitură UE + criză guvern,2197,7,7,9,3.186162949476559,3.186162949476559,4.096495220755576,0.875
+2026-04-08_nicusor-dan-if-i-make-a-mistake-romanians-will-penalize-me,2026-04-08,video-transcript,2026Q2 cotitură UE + criză guvern,971,16,8,19,16.4778578784758,8.2389289392379,19.56745623069001,1.7777777777777777
+2026-04-08_nicusor-dan-respinge-acuzatiile-nu-sunt-propunerile-psd,2026-04-08,video-transcript,2026Q2 cotitură UE + criză guvern,98,1,0,0,10.204081632653061,0.0,0.0,1.0
+2026-04-09_conferinta-de-presa-sustinuta-de-presedintele-romaniei-nicus_yJJ1E7,2026-04-09,video-transcript,2026Q2 cotitură UE + criză guvern,5594,38,39,56,6.792992491955666,6.97175545227029,10.010725777618877,0.95
+2026-04-17_nicusor-dan-calin-georgescu-a-fost-sustinut-de-o-infrastruct,2026-04-17,video-transcript,2026Q2 cotitură UE + criză guvern,68,0,3,0,0.0,44.11764705882353,0.0,0.0
+2026-04-20_nicusor-dan-lack-of-financial-education-led-to-unhealthy-dec,2026-04-20,video-transcript,2026Q2 cotitură UE + criză guvern,477,1,1,0,2.0964360587002098,2.0964360587002098,0.0,0.5
+2026-04-20_nicusor-dan-traim-un-razboi-informational-ce-a-anuntat-prese,2026-04-20,video-transcript,2026Q2 cotitură UE + criză guvern,277,0,0,0,0.0,0.0,0.0,0.0
+2026-04-20_we-will-enter-political-turbulence-nicusor-dan-i-do-not-supp,2026-04-20,video-transcript,2026Q2 cotitură UE + criză guvern,1352,9,4,7,6.65680473372781,2.9585798816568047,5.177514792899408,1.8
+2026-04-22_declaratie-de-presa-sustinuta-de-presedintele-romaniei-nicus,2026-04-22,video-transcript,2026Q2 cotitură UE + criză guvern,288,0,3,2,0.0,10.416666666666666,6.944444444444445,0.0
+2026-04-22_kelemen-hunor-at-the-end-of-discussions-with-nicusor-dan-we,2026-04-22,video-transcript,2026Q2 cotitură UE + criză guvern,177,2,1,3,11.299435028248588,5.649717514124294,16.949152542372882,1.0
+2026-04-23_nicusor-dan-despre-situatia-demisiilor-ministrilor-psd-aprec,2026-04-23,video-transcript,2026Q2 cotitură UE + criză guvern,483,0,3,3,0.0,6.211180124223603,6.211180124223603,0.0
+2026-04-24_nicusor-dan-reacts-to-george-simion-s-new-discriminatory-sta,2026-04-24,video-transcript,2026Q2 cotitură UE + criză guvern,1810,13,7,14,7.18232044198895,3.867403314917127,7.734806629834254,1.625
+2026-04-24_nicusor-dan-simion-s-statement-to-me-is-below-any-level-of-d,2026-04-24,video-transcript,2026Q2 cotitură UE + criză guvern,86,1,1,0,11.627906976744185,11.627906976744185,0.0,0.5
+2026-04-25_nicusor-dan-a-semnat-demisiile-ministrilor-psd-anuntul-facut,2026-04-25,video-transcript,2026Q2 cotitură UE + criză guvern,81,2,0,1,24.691358024691358,0.0,12.345679012345679,2.0
+2026-04-29_nicusor-dan-i-wish-romania-would-be-governed-by-pro-western,2026-04-29,video-transcript,2026Q2 cotitură UE + criză guvern,122,3,1,3,24.59016393442623,8.19672131147541,24.59016393442623,1.5
+2026-05-04_nicusor-dan-europa-isi-consolideaza-apararea-pe-fondul-reori,2026-05-04,video-transcript,2026Q2 cotitură UE + criză guvern,153,1,0,1,6.5359477124183005,0.0,6.5359477124183005,1.0
+2026-05-04_nicusor-dan-regardless-of-what-happens-romania-will-continue,2026-05-04,video-transcript,2026Q2 cotitură UE + criză guvern,1434,4,8,6,2.789400278940028,5.578800557880056,4.184100418410042,0.4444444444444444
+2026-05-04_nicusor-dan-the-state-will-function-regardless-of-the-outcom,2026-05-04,video-transcript,2026Q2 cotitură UE + criză guvern,55,1,1,1,18.181818181818183,18.181818181818183,18.181818181818183,0.5
+2026-05-05_declaratii-de-presa-sustinute-de-presedintele-romaniei-nicus,2026-05-05,video-transcript,2026Q2 cotitură UE + criză guvern,250,0,1,0,0.0,4.0,0.0,0.0
+2026-05-05_nicusor-dan-vom-avea-un-nou-guvern-pro-occidental-in-termen,2026-05-05,video-transcript,2026Q2 cotitură UE + criză guvern,142,0,1,0,0.0,7.042253521126761,0.0,0.0
+2026-05-06_usr-attack-on-nicusor-dan-he-was-totally-disinterested-in-th,2026-05-06,video-transcript,2026Q2 cotitură UE + criză guvern,80,0,0,0,0.0,0.0,0.0,0.0
+2026-05-09_mesajul-presedintelui-romaniei-nicusor-dan-cu-prilejul-zilei,2026-05-09,video-transcript,2026Q2 cotitură UE + criză guvern,780,0,3,3,0.0,3.8461538461538463,3.8461538461538463,0.0
+2026-05-09_nicusor-dan-we-will-continue-discussions-for-a-pro-western-g,2026-05-09,video-transcript,2026Q2 cotitură UE + criză guvern,101,0,0,0,0.0,0.0,0.0,0.0
+2026-05-12_nicusor-dan-daca-ne-referim-la-europa-asa-ca-la-o-icoana-nu,2026-05-12,video-transcript,2026Q2 cotitură UE + criză guvern,580,3,1,6,5.172413793103448,1.7241379310344827,10.344827586206897,1.5
+2026-05-12_nicusor-dan-i-will-convene-the-parties-for-formal-consultati,2026-05-12,video-transcript,2026Q2 cotitură UE + criză guvern,104,1,1,2,9.615384615384615,9.615384615384615,19.23076923076923,0.5
+2026-05-12_nicusor-dan-suntem-intr-o-perioada-cu-provocari-statele-care,2026-05-12,video-transcript,2026Q2 cotitură UE + criză guvern,420,2,5,0,4.761904761904762,11.904761904761905,0.0,0.3333333333333333
+2026-05-13_nicusor-dan-am-discutat-cu-secretarul-general-al-nato-despre,2026-05-13,video-transcript,2026Q2 cotitură UE + criză guvern,566,0,1,0,0.0,1.7667844522968197,0.0,0.0
+2026-05-13_nicusor-dan-moldova-e-un-stat-pe-flancul-estic-amenintat-int,2026-05-13,video-transcript,2026Q2 cotitură UE + criză guvern,94,0,0,0,0.0,0.0,0.0,0.0
+2026-05-13_summit-b9-la-bucuresti-nicusor-dan-trebuie-sa-sporim-cheltui,2026-05-13,video-transcript,2026Q2 cotitură UE + criză guvern,127,0,4,0,0.0,31.496062992125985,0.0,0.0
+2026-05-13_summit-b9-la-bucuresti-nicusor-dan-trebuie-sa-sporim-cheltui_VSRZ5y,2026-05-13,video-transcript,2026Q2 cotitură UE + criză guvern,265,0,7,0,0.0,26.41509433962264,0.0,0.0
+2026-05-15_nicusor-dan-i-would-not-like-to-appoint-a-government-that-wo,2026-05-15,video-transcript,2026Q2 cotitură UE + criză guvern,144,0,2,1,0.0,13.88888888888889,6.944444444444445,0.0
+2026-05-15_nicusor-dan-majoritatea-parlamentara-va-fi-cheia-consultaril,2026-05-15,video-transcript,2026Q2 cotitură UE + criză guvern,1709,8,11,13,4.681100058513751,6.436512580456407,7.606787595084845,0.6666666666666666

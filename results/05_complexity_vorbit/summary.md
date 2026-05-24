@@ -1,0 +1,23 @@
+# Pasul 5 — Discourse complexity (vorbit)
+
+**Docs analizate**: 338 | total words: 225,280 | total sentences: 9,642
+
+## Aggregate per perioadă
+
+| period                                |   n_words_sum |   n_sentences_sum |   sent_len_mean_mean |   sent_len_mean_std |   tree_depth_mean_mean |   tree_depth_mean_std |   ttr_lemma_mean |   mtld_mean |   func_ratio_mean |   word_len_mean_mean |   docs |
+|:--------------------------------------|--------------:|------------------:|---------------------:|--------------------:|-----------------------:|----------------------:|-----------------:|------------:|------------------:|---------------------:|-------:|
+| 2024Q4-2025Q1 candidatură-precampanie |         20826 |                78 |              301.46  |             344.058 |                 11.6   |                 5.748 |            0.445 |      48.17  |             0.559 |                4.549 |     25 |
+| 2025Q2 campanie + investitură         |         30206 |              1316 |               43.858 |              90.844 |                  5.106 |                 2.499 |            0.518 |      42.621 |             0.54  |                4.647 |     62 |
+| 2025Q3 deficit + reforma economică    |         45544 |              2184 |               22.29  |               6.98  |                  4.526 |                 0.809 |            0.487 |      53.755 |             0.524 |                4.745 |     42 |
+| 2025Q4 stabilizare + diplomație       |         34775 |              1670 |               21.37  |               6.588 |                  4.535 |                 0.977 |            0.523 |      45.95  |             0.546 |                4.614 |     57 |
+| 2025Q4-2026Q1 reformă judiciară       |         55094 |              2520 |               22.242 |               8     |                  4.617 |                 1.192 |            0.53  |      48.018 |             0.526 |                4.674 |     85 |
+| 2026Q2 cotitură UE + criză guvern     |         38835 |              1874 |               20.87  |               6.312 |                  4.431 |                 0.758 |            0.498 |      49.593 |             0.542 |                4.683 |     67 |
+
+## Métrici explicate
+
+- **sent_len_mean**: lungime medie a propoziției (token-uri non-punctuație)
+- **tree_depth_mean**: adâncimea medie a arborelui de dependență (proxy de complexitate sintactică)
+- **ttr_lemma**: type-token ratio pe leme (0-1, mai mare = vocabular mai divers)
+- **mtld**: Measure of Textual Lexical Diversity (robust la length, valori tipice 50-150)
+- **func_ratio**: proporție de cuvinte funcționale (proxy pentru stil simplu — mai sus = mai simplu)
+- **word_len_mean**: lungime medie cuvânt (caractere)
