@@ -154,69 +154,158 @@ Gândește te că tu ai dispozitivul ăsta cu tine în fiecare zi și oricât de
 Adică oamenii credeau că se uită online fără să știe nimeni că se uită online, dar totuși Google monitoriza.
 
 Deci hai să i vindem niște anvelope de iarnă în mare și superficial explicat.
-[ND] Cam așa funcționează.
-[ANCHOR] Uau!
-[ND] Gândește te că tot ce faci pe Instagram e un trifecta.
-[ANCHOR] Da.
-[ND] E un triunghi al social media, dacă vrei.
-[ND] Ce ți spun eu și Uniunea Europeană, chiar și ne ne întoarcem aici, Uniunea Europeană a luptat foarte mult ca datele să nu poată fi corelate de pe WhatsApp, de pe Instagram, pe Facebook.
-[ANCHOR] Ce se întâmplă în momentul în care le dai drumul?
-[ND] Păi, tu știi exact ce face omul ăla pentru că știi ce publică pe Instagram, știi ce mesaje are pe mesagerie instantă.
-[ND] Unul dintre motivele pentru care toate aplicațiile de social media au mesagerie instantă este pentru că acolo oamenii vorbesc la adăpost și poate să spună orice.
-[ANCHOR] Exact.
-[ND] Și în momentul în care faci treaba asta, tu iei datele de acolo, le procesezi și le vinzi vendorilor.
-[ND] Tu chiar dacă nu dai acces Facebook la modulul de GPS, nicio problemă.
-[ND] Există alte aplicații care au, din care Google sau Facebook sau X poate să extragă date.
-[ND] E suficient să dai acces doar la aplicația de vreme.
-[ND] Tot timpul îți este că vrei să știi cum e vremea.
-[ND] E un detaliu foarte important în viața noastră.
-[ND] Ei bine, cine procesează datele respective le ia, le cataloghează și le vinde mai departe.
-[ND] Toate aplicațiile care sunt în telefonul nostru vând despre noi într un fel sau altul.
-[ANCHOR] Bun.
-[ANCHOR] Bun.
-[ANCHOR] Hai să le explicăm oamenilor și poate ne ajută și Alexandra.
-[ANCHOR] Ok, să se întâmple asta.
-[ANCHOR] N am nimica de ascuns.
-[ND] Da.
-[ANCHOR] Ce am ce am eu de ascuns?
-[ANCHOR] Nu sunt un terorist și până la urmă, na, mă folosesc mă folosesc de o aplicație.
-[ANCHOR] De ce este important pentru mine să nu știe Meta, să nu știe Google ce am făcut, unde m am dus și așa mai departe?
-[ANCHOR] Adică de ce este important, de ce discutăm despre asta, de ce vorbește Uniunea Europeană?
-[ND] Și aici o să mai zic ceva încă o dată.
-[ND] Ce spunea vicepreședintele J Vens nu să amendeze companiile pentru nimicuri.
-[ANCHOR] Păi sunt niște nimicuri de mare lucru că am vorbit cu soția mea că trebuie să mi cumpăr cauciucuri de iarnă.
-[ND] Într adevăr, pot fi privite ca niște nimicuri.
-[ND] În schimb, uite, o să dau un exemplu, altă amendă Google care a fost replicată atât în America, în anumite state federale, cât și în Marea Britanie, de exemplu.
-[ND] În septembrie, comisia a amendat Google 3 miliarde de euro pentru abuz de poziție dominantă în sectorul publicității online, că tot am vorbit de cetățeni și utilizatori finali și cred că asta e înțeles și este până la urmă și decizia personală de protecția datelor.
-[ND] Ă, mi se pare foarte important să avem opțiunea să ne protejăm datele dacă suntem destul de ă educați în strategiile big tech, cum discutăm mai devreme.
-[ND] Dar revenind, în sectorul publicității online sunt și actori de business.
-[ND] Publicitatea online e o infrastructură economică a internetului și Google era singurul care controla lanțul complet de la instrumentele de achiziție ale ale reclamelor la datele utilizatorii și la filtrarea targetată a publicității.
-[ND] Adică ei alegeau de la început până la sfârșit cum vor fi ă aceste reclame arătate pe interfața lor ă și a favorizat propriile tehnologii în mod sistematic și propriile companii în mod sistematic.
-[ND] Ă asta aduce un risc enorm la enorm la concurența reală de pe piață, atât când vine vorba și de actori intermediari și în mediul de business.
-[ND] Înseamnă prețuri mai mari, înseamnă mai puțină transparență și înseamnă mai puțin acces la public.
-[ND] Dacă tu ca companie sau ca editor sau ca presă depinzi de Google, ca platformă să ai acces la mase și la utilizatori asta înseamnă că poți accepta cam orice condiții pe care ți le impune platforma dominantă.
-[ND] Iar asta este problema principală pe care a și demonstrat o comisie, această strategie de autofavorizare și de excludere atât a competitorilor, cât și de restrângerea opțiunilor utilizatorilor.
-[ANCHOR] Da.
-[ANCHOR] Și ce mare lucru că dispare presa, nu?
-[ANCHOR] Sau jurnaliștii. [râsete]
-[ND] Da.
-[ND] Și mai gând Hai să să ne mai gândim la un detaliu.
-[ND] Ție ți se spun periodic mesaj?
-[ND] Ți se dau mesaje că am schimbat times and conditions.
-[ANCHOR] Da. [râsete] Cine?
-[ND] Practic, ăla este un contract între companie și între tine ca utilizator.
-[ND] Tu nu poți să faci apel.
-[ND] Tu nu poți să zici eu nu sunt de acord cu paragraful al treilea.
-[ANCHOR] Da.
-[ANCHOR] Din din ce mi ai trimis tu aice e discreționară această
-[ND] Da, nu sunt de acord.
-[ANCHOR] Dar și chiar dacă nu ești de acord
-[ND] și chiar dacă nu ești de acord, atunci trebuie să părăsești incinta în contextul ăsta.
-[ND] Problema cea mai mare este că informăm sau pretindem că informăm printr un instrument care a fost făcut by default și by design să vândă publicitate, să facă bani.
-[ND] Iar în momentul ăsta este o linie atât de subțire între business și politică
-[ANCHOR] și democrație și
-[ND] democrația este în momentul de față se plimbă pe o sârmă foarte subțire la o înălțime foarte mare.
-[ANCHOR] Aș vrea să vorbim despre asta, dar îi lăsăm pe oamenii care ne urmăresc să aștepte discuția pentru că trebuie să intru în publicitate. [muzică] După această publicitate vorbim și despre democrație dacă are de suferit și vom mai discuta despre ceva. [muzică] O să vedeți ce implicație ar avea Republica Moldova, dar și România în [muzică] acest context, pentru că mai există un actor din zona aceasta digitală care a venit și a spus: "Din nou, există o cenzură și a dat exemplu România și Republica Moldova." Despre cine este vorba vă spun imediat [muzică] după o scurtă pauză.
+
+Cam așa funcționează.
+
+Gândește te că tot ce faci pe Instagram e un trifecta.
+
+E un triunghi al social media, dacă vrei.
+
+Ce ți spun eu și Uniunea Europeană, chiar și ne ne întoarcem aici, Uniunea Europeană a luptat foarte mult ca datele să nu poată fi corelate de pe WhatsApp, de pe Instagram, pe Facebook.
+
+Păi, tu știi exact ce face omul ăla pentru că știi ce publică pe Instagram, știi ce mesaje are pe mesagerie instantă.
+
+Unul dintre motivele pentru care toate aplicațiile de social media au mesagerie instantă este pentru că acolo oamenii vorbesc la adăpost și poate să spună orice.
+
+Și în momentul în care faci treaba asta, tu iei datele de acolo, le procesezi și le vinzi vendorilor.
+
+Tu chiar dacă nu dai acces Facebook la modulul de GPS, nicio problemă.
+
+Există alte aplicații care au, din care Google sau Facebook sau X poate să extragă date.
+
+E suficient să dai acces doar la aplicația de vreme.
+
+Tot timpul îți este că vrei să știi cum e vremea.
+
+E un detaliu foarte important în viața noastră.
+
+Ei bine, cine procesează datele respective le ia, le cataloghează și le vinde mai departe.
+
+Toate aplicațiile care sunt în telefonul nostru vând despre noi într un fel sau altul.
+
+Da.
+
+Și aici o să mai zic ceva încă o dată.
+
+Ce spunea vicepreședintele J Vens nu să amendeze companiile pentru nimicuri.
+
+Într adevăr, pot fi privite ca niște nimicuri.
+
+În schimb, uite, o să dau un exemplu, altă amendă Google care a fost replicată atât în America, în anumite state federale, cât și în Marea Britanie, de exemplu.
+
+În septembrie, comisia a amendat Google 3 miliarde de euro pentru abuz de poziție dominantă în sectorul publicității online, că tot am vorbit de cetățeni și utilizatori finali și cred că asta e înțeles și este până la urmă și decizia personală de protecția datelor.
+
+Ă, mi se pare foarte important să avem opțiunea să ne protejăm datele dacă suntem destul de ă educați în strategiile big tech, cum discutăm mai devreme.
+
+Dar revenind, în sectorul publicității online sunt și actori de business.
+
+Publicitatea online e o infrastructură economică a internetului și Google era singurul care controla lanțul complet de la instrumentele de achiziție ale ale reclamelor la datele utilizatorii și la filtrarea targetată a publicității.
+
+Adică ei alegeau de la început până la sfârșit cum vor fi ă aceste reclame arătate pe interfața lor ă și a favorizat propriile tehnologii în mod sistematic și propriile companii în mod sistematic.
+
+Ă asta aduce un risc enorm la enorm la concurența reală de pe piață, atât când vine vorba și de actori intermediari și în mediul de business.
+
+Înseamnă prețuri mai mari, înseamnă mai puțină transparență și înseamnă mai puțin acces la public.
+
+Dacă tu ca companie sau ca editor sau ca presă depinzi de Google, ca platformă să ai acces la mase și la utilizatori asta înseamnă că poți accepta cam orice condiții pe care ți le impune platforma dominantă.
+
+Iar asta este problema principală pe care a și demonstrat o comisie, această strategie de autofavorizare și de excludere atât a competitorilor, cât și de restrângerea opțiunilor utilizatorilor.
+
+Da.
+
+Și mai gând Hai să să ne mai gândim la un detaliu.
+
+Ție ți se spun periodic mesaj?
+
+Ți se dau mesaje că am schimbat times and conditions.
+
+Practic, ăla este un contract între companie și între tine ca utilizator.
+
+Tu nu poți să faci apel.
+
+Tu nu poți să zici eu nu sunt de acord cu paragraful al treilea.
+
+Da, nu sunt de acord.
+
+și chiar dacă nu ești de acord, atunci trebuie să părăsești incinta în contextul ăsta.
+
+Problema cea mai mare este că informăm sau pretindem că informăm printr un instrument care a fost făcut by default și by design să vândă publicitate, să facă bani.
+
+Iar în momentul ăsta este o linie atât de subțire între business și politică
+
+democrația este în momentul de față se plimbă pe o sârmă foarte subțire la o înălțime foarte mare.
+
+Păi și și în sp și în Statele Unite la fel e trecut în constituție.
+
+E vorba de libertatea de exprimare, libertatea presei, adică ce se schimbă, ce e la ei diferit față de
+
+Da.
+
+ca distribuitor,
+
+Și acum mai o dilemă sau mai o problemă cu care te confrunți.
+
+Democrația merge mână în mână cu capitalismul.
+
+Noi nu știm să funcționeze altfel.
+
+Iar în capitalism foarte puțină lume mai are steak.
+
+Nu mi vine în limba engleză.
+
+Ajută mă tu.
+
+Nu, nu mai are.
+
+Miză.
+
+Nu mai are miză pentru că capitalismul îns este cel mai mare dușman al capitalismului.
+
+Este vorba despre a lua cât de mult capital poți din piață.
+
+Iar în momentul în care iei cât de mult capital poți din piață, există foarte mulți nefericiți care nu apucă capitalul ăla și atunci ideea de socialism începe să devină din nou populară.
+
+nu doar despre Cred mi se pare că ăsta european este cumva inofensiv.
+
+Inofensiv.
+
+Atâta timp cât ai o opinie care atâta timp cât ai o opinie care nu poate fi verificată.
+
+E o diferență între opinie și fapte.
+
+Atâta timp cât faptele alea nu pot fi verificate, faptul că ești blogger nu te absolve de orice vină.
+
+Faptul că ai un cont de Instagram sau de Facebook și emiți opinii polarizante nu te absoarbe de nicio vină.
+
+bife,
+
+semne ticuri de verificareului.
+
+Ce e amuzant aici că însuși X și a dat practic cu stângul în dreptul pentru că a făcut publice locațiile, a a practic a transparentizat conturile și ai văzut când a fost contul făcut, din ce locație scrie, când scrie, cât scrie și așa mai departe și s a demonstrat de fapt că prin această transparență care este bine vită,
+
+prin această transparență s a demonstrat că acele conturi care erau populare în Statele Unite, spre exemplu, și aveau opinii politice puternice, Da, fie că sunt de stânga sau de dreapta, nu erau din America.
+
+Bineînțeles că văd asta.
+
+Văd și știu că da.
+
+Meta a făcut 10% din profitul de anul trecut din schemuri și prosteală. schemuri, adică oameni care îi păcăleau pe alți oameni și să dea bani pentru pe metoda accidentul și așa alte pi.
+
+Eu eu nu mai pot.
+
+Adică pe rețelele de socializare unde activez.
+
+Deci efectiv este clar că există foarte mulți multe conturi din acestea false.
+
+Jumătate din traficul de pe internet este fals
+
+și este incredibil pentru că nu poți să blochezi tot.
+
+Nu ai timp să blochezi tot.
+
+E vin și vin încontinuu încontinuu și cu acuzații foarte grave și cu un conținut extrem de violent.
+
+Mai țiin minte începuturile social media sau mai țineți minte începuturile social media când timeline ul adică ceea ce ți venea pe ecran era în ordine cronologică?
 
 Da.
 

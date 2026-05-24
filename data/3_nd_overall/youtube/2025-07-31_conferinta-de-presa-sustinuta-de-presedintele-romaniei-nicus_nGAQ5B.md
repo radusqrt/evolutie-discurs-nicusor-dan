@@ -620,192 +620,248 @@ L am solicitat, mi l au trimis foarte repede la toți cei care și ulterior pent
 Ăă deci am constatat eu ăă citind cu atenție dosarele este că ăă unii oameni niciodată nu și au exprimat intenția de a se pensiona.
 
 Deci oameni de 52 55 de ani așa care erau în care puteau să se pensioneze de acum șe te ani. unii dintre ei și care ăă brusc în contextul discuțiilor despre rediscutarea pensiilă legii 303 și au exprimat această intenție și doi dintre ei au spus o cu cuvintele lor: Eu aș vrea să mi continui activitatea de magistrat, dar în contextul nesiguranței care se proiectează în spațiul public, vă rog să mi semnați ceva de pensionare și pentru că am văzut și mai ales că e un fenomen care durează două luni.
-[ND] Din momentul în care se face cerere, până se duce, se fac verificări, se întreabă câte hotărâri mai sunt de redactat.
-[ND] În fine.
-[ND] Ă între timp cred că este mai clar în spațiul public că va exista această normă tranzitorie, că cine are un drept câștigat îl va avea în continuare decât era la jumătatea lui iunie, de exemplu.
-[ND] Și atunci mi se pare important pentru oamenii ăștia care au vocația și vor să rămână în sistem să facă anunțul ăsta.
-[ND] Mulțumesc.
-[JURNALIST] Bună ziua, Diana Buze.
-[JURNALIST] Știrile Canal D.
-[JURNALIST] Domnule președinte, în județul Caraș Severin, un un polițist a fost amenințat și în același timp umilit de un grup de localnici care încercau să l apere pe un tânăr care fusese prins pe ATV după ce consumase alcool.
-[JURNALIST] Vorbim despre un agent tânăr în uniformă care își exercita meseria.
-[JURNALIST] Aș vrea să vă întreb în contextul în care în același timp oamenii legii încearcă să prindă acel criminal din Mureș, însă fără rezultat.
-[JURNALIST] Dacă dumneavoastră considerați că Poliția Română își pierde din credibilitate și dacă vedeți aici o problemă.
-[ND] Da, o întrebare foarte bună.
-[ND] Știți că am fost de dimineață la ceremonia de absolvire a studenților de la Academia de Poliție.
-[ND] O întrebare foarte bună.
-[ND] Pe de o parte răspuns parțial, poliția română are și succese pe care din păcate nu le comunică suficient.
-[ND] Da, ar trebui s o facă pentru ca să avem o Noi din păcate vedem numai eșecurile și ni se pare că din cauza asta nu e o instituție bună.
-[ND] Totuși, totuși România este o țară mult mai sigură decât multe țări europene.
-[ND] Da.
-[ND] Și asta din cauză că avem niște instituții care își fac treaba și lucrul ăsta trebuie spus.
-[ND] Ăă ăsta este un lucru.
-[ND] Apoi ăă da ăă exact cum spuneam mai devreme de ăă ăă cazul generic al studentelor abuzate de victimele violenței domestice atâta timp cât nu se imprimă în mentalul colectiv că un om care a îmbrânncit un polițist a făcut trei luni de pușcărie.
-[ND] Da.
-[ND] Atunci oamenii vor fi tentați mai ales când văd un tânăr polițist sau o tânăra polițistă să continue.
-[ND] Da.
-[ND] Deci noi trebuie să consolidăm statul ăsta.
-[ND] Da.
-[ND] Și asta înseamnă pe de o parte poliție, da, cu toate structurile care arhite care mă bucur că au intervenit foarte repede, dar asta înseamnă și parchet.
-[ND] Da, pentru că parchetul pentru un caz banal cum este cel de acolo, în două zile ar trebui să încheie cercetarea, că nu e nimic de cercetat.
-[ND] Am văzut toți la televizor ce s a întâmplat.
-[ND] Da, trebuie doar să vedem cine sunt oamenii ăia și mai departe justiția care într un an să vedem toți, iată niște oameni au îmbrâncit un polițist, au fost condamnați.
-[ND] O lună de pușcărie sau în fine cât cât a fost, ca să imprimăm odată în mentalul colectiv că există stat în România, altfel ne vom învârti tot timpul în jurul cozii.
-[ND] Mulțumesc.
-[JURNALIST] Bună ziua, Rebeca Popescu.
-[JURNALIST] Hot News.
-[JURNALIST] Domnule președinte, ați făcut o campanie electorală antisistem și v-ați axat în special pe abuzurile statului.
-[JURNALIST] Însă atunci când și a dat demisia, vicepremierul Dragoș Anastasiu a invocat alte abuzuri, acelea ale ANAF.
-[JURNALIST] Astăzi ați vorbit despre oamenii care lucrează bine în urma dezastrelor și despre succesele poliției, dar aș vrea să vă întreb ca președinte dacă ați observat până acum surprize plăcute în sistemul bugetar. oameni competenți sau sisteme care funcționează bine.
-[JURNALIST] Sau sisteme care
-[JURNALIST] care funcționează bine.
-[ND] Da, sunt un om în spațiul public de mult.
-[ND] Vreau să vă spun că foarte mulți magistrați sunt extrem de bine pregătiți și dedicați meseriei lor și stau și muncesc peste weekend.
-[ND] Da, tocmai pentru ca să aibă o calitate a muncior.
-[ND] În primăria capitalei, pe care o cunosc mai bine că am stat 4ru ani și jumătate, am avut niște oameni extrem de competenți.
-[ND] Ăă toată problema este, în opinia mea, e o problemă de sistem.
-[ND] Adică este cum cum facem ca ă Deci toate exemplele pe care le am dat sunt cumva oameni care funcționează bine dacă li se trasează o direcție.
-[ND] Întrebarea este cum facem să avem și inițiativă în mediul public, că pe aia n o prea vedem.
-[ND] Adică la nivel de director general, director, nu vedem oameni cu inițiativă. toată lumea așteaptă să vină primarul, primul ministru sau așa să spună fă aia și dacă nu
-[JURNALIST] și aș vrea să revenim, dacă î permiteți, la cazul SNSPA pentru că astăzi ați vorbit despre responsabilitatea statului și a justiției în cazurile de abuz sexual.
-[JURNALIST] În dezbaterea prezidențială organizată de Euronews pe 9 mai, v-ați ați vorbit mult despre tema educației și ați insistat pe faptul că școala trebuie să le ofere, are responsabilitatea de a le oferi elevilor elevilor abilități, printre aceste abilități și cea de a lucra în echipă.
-[JURNALIST] Hm.
-[JURNALIST] Snop a scos la iveală
-[ND] și scuzați mă că vă întrerup și inclusiv abilitatea de a cunoaște funcționarea statului și a instituțiilor la care să apeleze în diferite momente.
-[ND] Cred că asta e important legat de cazurile de abuz de care vorbim.
-[JURNALIST] Site ul de investigații SNOP a scos la iveală două abuzuri la SNSPA comisă de cei doi profesori Alfred Bulei și Marius Pieleanu, ambele abuzuri scoase la iveală într un singur an.
-[JURNALIST] Iar în acest context aș vrea să vă întreb să lucreze în echipă pentru un student sau un elev înseamnă să lucreze cu încredere și cu profesorul, nu i așa?
-[ND] Bineînțeles.
-[ND] Bineînțeles.
-[ND] Și tocmai de aia și din nou vorbesc general până în momentul în care se va dovedi vreo vinovăție.
-[ND] Înspre orice formă de abuz trebuie sancționată cu atât mai mult cu cât ea este asupra unor în fine adolescenți dintr o poziție de putere în că cum este cea în sistemul de educație.
-[JURNALIST] Dar în acest context școala, ca să nu punem și statul și justiția aici, doar școala ar încă continuă să nu tranșeze aceste cazuri.
-[JURNALIST] Ce credeți că poate fi făcut ca elevii români să poată lucra împreună cu profesorii și să aibă încredere în ei alături de școală?
-[JURNALIST] Mă refer aici la la niște decizii concrete care pot fi luate.
-[ND] Da.
-[ND] Da.
-[ND] Imensa majoritate a profesorilor din țara asta sunt de bună credință.
-[ND] Da.
-[ND] Ă noi avem cultural cumva o problemă în a lucra în echipă.
-[ND] Deci îmi puneți două întrebări de fapt.
-[ND] Una, cum facem să stimulăm lucrul în echipă?
-[ND] Și asta e o chestiune de educație pe care în care trebuie să schimbăm puțin mentalitatea în cuprinsul parcursului educațional, inclusiv a profesorilor.
-[ND] Da, care ă fine, eu fiind din sistemul în care profesorul mă întreba și eu trebuia să i răspund, dar nu se punea prea să facem ceva împreună.
-[ND] Asta e una.
-[ND] Și doi, chestiunea de prevenție a abuzului.
-[ND] Adică profesorul care se gândește doar că poate să abuzeze să știe că statul e pe se uită la problema asta.
-[ND] Astea sunt.
-[ND] Mulțumesc.
-[JURNALIST] Bună ziua, domnule președinte.
-[JURNALIST] Silviu Sergiu de la Independent News.
-[JURNALIST] Câteva scurte întrebări legate de Înalta Curte de Casație și Justiție.
-[JURNALIST] Prima întrebare este veți publica și decretul de pensionare a doamnei Corbu, președinte și în ce dată va intra?
-[ND] 1 august.
-[ND] 1 august.
-[JURNALIST] A doua întrebare
-[ND] și este și o doamnă vicepreședinte care a solicitat pensionarea.
-[ND] Mulțumesc.
-[JURNALIST] A doua întrebare se referă la noul președinte.
-[JURNALIST] CSM a desemnat o pe doamna Lia Savonea.
-[JURNALIST] Există și un termen oarecum strâns în sensul în care până pe 17 septembrie, dacă nu mă înșel, doamna Savona ar trebui să preia funcția.
-[ND] Nu.
-[JURNALIST] În ipoteza în care doamna Corbun se răzgândește, doamna Savone va prelua pe 1 august.
-[JURNALIST] Am înțeles.
-[JURNALIST] Și veți semna decretul de numire a doamnei Savonea.
-[JURNALIST] Ați evaluat. este, mă rog, au fost demersuri ale societății civile ă cum că nu ar fi fost respectată procedura de desemnare, ați evaluat această situație și ați luat o decizie.
-[ND] Ă deocamdată nu, dar foarte foarte probabil voi semna.
-[ND] Da.
-[ND] Adică nu ca să fiu mai precisă am citit niște sesizări care mi au fost făcute din punct de vedere juridic le am găsit neîntemeiate.
-[ND] Vă mulțumesc.
-[JURNALIST] Bună ziua, Teodora Suciu, știrile Pro TV.
-[JURNALIST] Domnule președinte, având în vedere că tot mai multe surse spun că UE ar putea opri o parte din ajutorul financiar dat Ucrainei în problema, bineînțeles, știută acum lupta împotriva corupției și acele legi controversate privind instituțiile anticorupție din Ucraina.
-[JURNALIST] Ce ar putea însemna asta pentru România, mai ales că și dumneavoastră ați început să vorbiți despre reconstrucția Ucrainei, dar vedem că încă nu avem un prim pas, adică pacea.
-[ND] Da, sunt convins că o să se ajungă la o soluție ăă negociată și Europa nu și permite să suspende ajutorul militar pentru Ucraina pentru că e o chestiune care ține de e o chestiune care ține de propria sa securitate.
-[ND] Iar reconstrucția ă reconstrucția ăă are o componentă de ăă economică, să i spunem, da, reconstrucție, firme ăă ăă a reconstrui niște instalații, locuințe, ăă rețele și așa mai departe.
-[ND] Pe de altă parte, o componentă de asemenea de securitate, pentru că vom fi pentru peste peste un teritoriu distrus într o oarecare măsură și cu foarte multe arme la foarte mulți oameni.
-[JURNALIST] Și în acest context vedem că dezinformările pe rețele sociale mai ales continuă privind războiul din Ucraina și o eventuală intrare a României în acest conflict.
-[JURNALIST] Știm că în preajma alegerilor au fost multe discuții despre inițiative legislative.
-[JURNALIST] Cum să combatem acest fenomen, dacă s-a mai făcut ceva și dacă instituțiile române pot să facă pași în acest sens?
-[ND] Da, pentru moment există un grup care este la care participă mai multe instituții și care cumva analizează și îndepărtează dezinformarea.
-[ND] Ăă întrebarea Da, e o întrebare pe un an doi de acum încolo și care este o întrebare generală europeană.
-[ND] Cum să optimizezi procesul ăsta?
-[JURNALIST] Știm că ați avut mai multe discuții cu partidele europene, renew și partidul Popular European.
-[JURNALIST] Dacă veți decide până la urmă să vă afiliați unuia dintre acestea?
-[ND] Nu la nu la cele două consilii din octombrie.
-[ND] După aceea mai vedem.
-[JURNALIST] În regulă.
-[JURNALIST] Și dacă îmi permiteți, referitor la proiectul privind pensiile magistraților, dacă putem avea un orizont de timp sfârșit de august, putem să vorbim despre
-[ND] Eu cred că toată lumea vrea ca acest această chestiune să fie tranșată în să fie inclusă în pachetul doi.
-[ND] Mulțumesc.
-[JURNALIST] Bună ziua, Stoica Digi 24.
-[JURNALIST] În momentul de față se analizează în executiv un proiect prin care să fie stopate detașările de la o instituție publică la alta.
-[JURNALIST] Inclusiv în administrația prezidențială există oameni care sunt detașați aici, la fel cum există oameni care sunt pensionari, dar totuși lucrează în administrația prezidențială.
-[JURNALIST] Cum vedeți dumneavoastră acest lucru și dacă există o dublă măsură în privința instituției din care faceți dumneavoastră parte?
-[ND] Bun.
-[JURNALIST] În ce privință dubla măsură?
-[JURNALIST] În privința oamenilor pensionați care sunt angajați la administrația prezidențială.
-[ND] Hm.
-[ND] Da.
-[ND] Ă bun.
-[ND] Că e o administrație pe care n-o cunosc încă bine.
-[ND] Da.
-[ND] Adică sunt cam, nu știu, 70 80 de 90 de oameni cu care am interacționat cu vreo 10 dintre ei.
-[ND] Ă poate 20.
-[ND] Ă Nu cred că am detașat eu pe cineva în perioada asta.
-[JURNALIST] Sunt detașați aici.
-[ND] Da.
-[ND] Da.
-[ND] Nu, dar în mandatul ăsta de două luni cred că a fost vreo detașare.
-[ND] Asta legat de instituție.
-[ND] Apoi, din păcate, [Muzică] fenomene administrative sunt influențate de fenomene legislative care nu sunt bine puse în ordine.
-[ND] Adică ă în sistemul public ăă după ce am avut o lege a salarizării unitare am avut câteva sute de acte normative care au bulversat totul și atunci e cumva legitim, vorbesc general acum, e cumva legitim dacă în instituția ta salariile sunt mai mici și vrei să aduci un om bun care prin transfer ar avea un salariu mic, dar prin detașare ar avea salariu mai mare, atunci e legitim și el îți spune: „Eu nu vin dacă îmi dai un salariu mai mic." Și atunci e legitim să l detașezi câte șase luni, câte șase luni, câte șase luni.
-[ND] Ă Deci ă e e complex.
-[ND] Noi trebuie să ne întoarcem la o lege a salarizării unitare și de care să agreem toți că nu ne mai atingem cumva.
-[JURNALIST] Și o a doua întrebare, ca fost membru al administrației locale, v-aș întreba cum vedeți dumneavoastră stoparea anumitor investiții din Anghel Salini, dacă acestea au ajutat cu adevărat administrațiile locale pentru a se dezvolta și dacă această perioadă în care vor fi stopate vor fi va fi o perioadă care va influența negativ în anumite zone, mai ales cele nedezvoltate.
-[ND] Da, evident că orice investiție este bună pentru o comunitate la modul general, să zicem mai puțin 1 2% celebrele terenuri de sport în pantă sau așa.
-[ND] Ă întrebarea este care este ierarhia acestor proiecte?
-[ND] Adică și cred că nimeni n-a avut în toți anii ăștia nimeni n-a avut un o imagine de ansamblu și a pune în echilibru.
-[ND] Adică pe măsură ce un primar era mai influent, obținea mai multe fonduri decât un primar care nu era influent.
-[ND] Am depus și noi niște ca primar al Bucureștiului niște proiecte la Anghel Salini s-a ales praful de ele, s-a așternut praful pe ele, mai precis.
-[ND] Ăă ă și din nouă în momentul ăsta, ca să vorbim foarte grosier ă e mult mai e mult mai bine să te concentrezi, să te uiți la imaginea de ansamblu care e conectată cu posibilitatea investițiilor de a veni în România decât niște chestiuni locale care îmbunătățesc pot îmbunătăți viața, de exemplu, un drum care se asfaltează sau așa, poate să îmbunătățească ă confortul oamenilor de acolo, dar dacă ei n-au de lucru, se vor duce în Marea Britanie.
-[ND] Da.
-[ND] Deci tot timpul trebuie să pui în balanță lucruri de astea.
-[ND] Mulțumesc.
-[JURNALIST] Bună ziua, Oana Bâlă, Radio România Actualități.
-[JURNALIST] Cum vedeți dumneavoastră rezolvarea crizei de personal din magistratură asupra căreia CSM a atras recent atenția, semnalând deficitul de magistrați, dar și faptul că mai mult de 800 de persoane îndeplinesc anul acesta condițiile de pensionare.
-[JURNALIST] Membrii CSM spun că situația ar putea duce la blocaje în instanțe și va afecta ritmul de soluționare a cazurilor care și în momentul de față este foarte lent.
-[ND] Așa este.
-[ND] Au dreptate.
-[ND] Da.
-[ND] Și cum am spus aici la punctul trei și la punctul 1, de asemenea a fost o aberație faptul că noi am stimulat oamenii să iasă din sistem ăă și ă îi încurajăm pe cei care ies și se le dăm bani mai mulți celor care ies și se întorc.
-[ND] E bine că sunt 800 de oameni care aleg să muncească în continuare, deși ar putea ieși la pensie și trebuie să le mulțumim acestor oameni.
-[ND] Pe de altă parte, trebuie să fim m cum să zic, echilibrați în și predictibili în ceea ce privește ă viitorul sistemului.
-[ND] Ăă, cum am spus, ă, mi-aș dori ca oameni să se întoarcă pur și simplu pentru că sunt niște judecători care au contribuit la echilibrul social, atâta cât îl avem prin deciziile care și au voința asta de a pune în ordine lucruri și mai departe ă ăă prin aducerea oamenilor din avocatură, din alte profesii în magistratură, dar haideți cumva să ăă să colaborăm în sectorul ăsta, de exemplu, când CSM ul a ieșit și a spus dezastru, președintele nu semnează decizii de pensionare.
-[ND] Putea să dea un telefon înainte să vadă care i situația, adică să nu mai punem din nou și din nou paie pe foc pe un sistem care este instabil.
-[JURNALIST] Și aș mai avea o curiozitate.
-[JURNALIST] Ați spus că i vei îi veți suna pe cei doi magistrați care nu au decis dacă vor ieși la pensie sau nu.
-[JURNALIST] Ei au semnat.
-[JURNALIST] Ei mai întâi au zis că n-ar vrea, dar după aceea au făcut tot ce vrea.
-[JURNALIST] Și ce le veți spune ca să i convingeți să rămână?
-[ND] Nu, nu vreau să i conving.
-[ND] Vreau doar să i întreb dacă în condițiile în care în condițiile în care e clar acum că o să fie acea normă tranzitorie și că drepturile nu se pierd, dacă î mențin sau nu, fără fiecare, bineînțeles, face ce vrea cu viața lui.
-[ND] Mulțumesc.
-[JURNALIST] Bună ziua, domnule președinte Marcobadexlicativ.com.
-[JURNALIST] Aveți obligația de a elabora în primele șase luni de mandat o nouă strategie de apărare.
-[JURNALIST] Ați început deja procesul în cadrul administrației și dacă da, ne puteți spune dacă veți păstra conceptul de securitate extinsă care permite serviciilor de informații să intervină într-un număr mare de domenii publice.
-[ND] Bun,
-[JURNALIST] de politici publice.
-[ND] Depinde ce înseamnă să intervină.
-[JURNALIST] Păi, chiar dumneavoastră ați solicitat lunile trecute la preluarea mandatului ca SRI și serviciile să ajute ANAF să combată mare?
-[ND] Da, exact, exact, exact.
-[ND] Da, da, da.
-[ND] Ca să precizăm ă serviciile sunt servicii de informații.
-[ND] Da.
-[ND] Ele trebuie să interfereze cu activitatea administrativă.
-[ND] Ele trebuie să comunice instituțiilor, să le spunem civile, zonele prin care pe prin specificul muncii lor observă că se întâmplă fenomene de corupție, evaziune fiscală sau ceea ce va spune ceea ce va spune strategia.
-[ND] Și eu cred, da, că e important.
-[ND] Eu cred că corupția este un fenomen important, nociv pentru societatea noastră. eziunea fiscală de asemenea pentru că dezechilibrează bugetul.
-[ND] Deci în sensul ăsta, da, o să aibă atribuții sau strategia va fi una extinsă la domenii sociale importante cu mențiunea că n-o să fie interferență neconstituțională, ci doar serviciile vor oferi informații.
+
+Din momentul în care se face cerere, până se duce, se fac verificări, se întreabă câte hotărâri mai sunt de redactat.
+
+În fine.
+
+Ă între timp cred că este mai clar în spațiul public că va exista această normă tranzitorie, că cine are un drept câștigat îl va avea în continuare decât era la jumătatea lui iunie, de exemplu.
+
+Și atunci mi se pare important pentru oamenii ăștia care au vocația și vor să rămână în sistem să facă anunțul ăsta.
+
+Mulțumesc.
+
+Da, o întrebare foarte bună.
+
+Știți că am fost de dimineață la ceremonia de absolvire a studenților de la Academia de Poliție.
+
+O întrebare foarte bună.
+
+Pe de o parte răspuns parțial, poliția română are și succese pe care din păcate nu le comunică suficient.
+
+Da, ar trebui s o facă pentru ca să avem o Noi din păcate vedem numai eșecurile și ni se pare că din cauza asta nu e o instituție bună.
+
+Totuși, totuși România este o țară mult mai sigură decât multe țări europene.
+
+Da.
+
+Și asta din cauză că avem niște instituții care își fac treaba și lucrul ăsta trebuie spus.
+
+Ăă ăsta este un lucru.
+
+Apoi ăă da ăă exact cum spuneam mai devreme de ăă ăă cazul generic al studentelor abuzate de victimele violenței domestice atâta timp cât nu se imprimă în mentalul colectiv că un om care a îmbrânncit un polițist a făcut trei luni de pușcărie.
+
+Da.
+
+Atunci oamenii vor fi tentați mai ales când văd un tânăr polițist sau o tânăra polițistă să continue.
+
+Da.
+
+Deci noi trebuie să consolidăm statul ăsta.
+
+Da.
+
+Și asta înseamnă pe de o parte poliție, da, cu toate structurile care arhite care mă bucur că au intervenit foarte repede, dar asta înseamnă și parchet.
+
+Da, pentru că parchetul pentru un caz banal cum este cel de acolo, în două zile ar trebui să încheie cercetarea, că nu e nimic de cercetat.
+
+Am văzut toți la televizor ce s a întâmplat.
+
+Da, trebuie doar să vedem cine sunt oamenii ăia și mai departe justiția care într un an să vedem toți, iată niște oameni au îmbrâncit un polițist, au fost condamnați.
+
+O lună de pușcărie sau în fine cât cât a fost, ca să imprimăm odată în mentalul colectiv că există stat în România, altfel ne vom învârti tot timpul în jurul cozii.
+
+Mulțumesc.
+
+Da, sunt un om în spațiul public de mult.
+
+Vreau să vă spun că foarte mulți magistrați sunt extrem de bine pregătiți și dedicați meseriei lor și stau și muncesc peste weekend.
+
+Da, tocmai pentru ca să aibă o calitate a muncior.
+
+În primăria capitalei, pe care o cunosc mai bine că am stat 4ru ani și jumătate, am avut niște oameni extrem de competenți.
+
+Ăă toată problema este, în opinia mea, e o problemă de sistem.
+
+Adică este cum cum facem ca ă Deci toate exemplele pe care le am dat sunt cumva oameni care funcționează bine dacă li se trasează o direcție.
+
+Întrebarea este cum facem să avem și inițiativă în mediul public, că pe aia n o prea vedem.
+
+Adică la nivel de director general, director, nu vedem oameni cu inițiativă. toată lumea așteaptă să vină primarul, primul ministru sau așa să spună fă aia și dacă nu
+
+și scuzați mă că vă întrerup și inclusiv abilitatea de a cunoaște funcționarea statului și a instituțiilor la care să apeleze în diferite momente.
+
+Cred că asta e important legat de cazurile de abuz de care vorbim.
+
+Bineînțeles.
+
+Bineînțeles.
+
+Și tocmai de aia și din nou vorbesc general până în momentul în care se va dovedi vreo vinovăție.
+
+Înspre orice formă de abuz trebuie sancționată cu atât mai mult cu cât ea este asupra unor în fine adolescenți dintr o poziție de putere în că cum este cea în sistemul de educație.
+
+Da.
+
+Da.
+
+Imensa majoritate a profesorilor din țara asta sunt de bună credință.
+
+Da.
+
+Ă noi avem cultural cumva o problemă în a lucra în echipă.
+
+Deci îmi puneți două întrebări de fapt.
+
+Una, cum facem să stimulăm lucrul în echipă?
+
+Și asta e o chestiune de educație pe care în care trebuie să schimbăm puțin mentalitatea în cuprinsul parcursului educațional, inclusiv a profesorilor.
+
+Da, care ă fine, eu fiind din sistemul în care profesorul mă întreba și eu trebuia să i răspund, dar nu se punea prea să facem ceva împreună.
+
+Asta e una.
+
+Și doi, chestiunea de prevenție a abuzului.
+
+Adică profesorul care se gândește doar că poate să abuzeze să știe că statul e pe se uită la problema asta.
+
+Astea sunt.
+
+Mulțumesc.
+
+1 august.
+
+1 august.
+
+și este și o doamnă vicepreședinte care a solicitat pensionarea.
+
+Mulțumesc.
+
+Nu.
+
+Ă deocamdată nu, dar foarte foarte probabil voi semna.
+
+Da.
+
+Adică nu ca să fiu mai precisă am citit niște sesizări care mi au fost făcute din punct de vedere juridic le am găsit neîntemeiate.
+
+Vă mulțumesc.
+
+Da, sunt convins că o să se ajungă la o soluție ăă negociată și Europa nu și permite să suspende ajutorul militar pentru Ucraina pentru că e o chestiune care ține de e o chestiune care ține de propria sa securitate.
+
+Iar reconstrucția ă reconstrucția ăă are o componentă de ăă economică, să i spunem, da, reconstrucție, firme ăă ăă a reconstrui niște instalații, locuințe, ăă rețele și așa mai departe.
+
+Pe de altă parte, o componentă de asemenea de securitate, pentru că vom fi pentru peste peste un teritoriu distrus într o oarecare măsură și cu foarte multe arme la foarte mulți oameni.
+
+Da, pentru moment există un grup care este la care participă mai multe instituții și care cumva analizează și îndepărtează dezinformarea.
+
+Ăă întrebarea Da, e o întrebare pe un an doi de acum încolo și care este o întrebare generală europeană.
+
+Cum să optimizezi procesul ăsta?
+
+Nu la nu la cele două consilii din octombrie.
+
+După aceea mai vedem.
+
+Eu cred că toată lumea vrea ca acest această chestiune să fie tranșată în să fie inclusă în pachetul doi.
+
+Mulțumesc.
+
+Bun.
+
+Hm.
+
+Da.
+
+Ă bun.
+
+Că e o administrație pe care n-o cunosc încă bine.
+
+Da.
+
+Adică sunt cam, nu știu, 70 80 de 90 de oameni cu care am interacționat cu vreo 10 dintre ei.
+
+Ă poate 20.
+
+Ă Nu cred că am detașat eu pe cineva în perioada asta.
+
+Da.
+
+Da.
+
+Nu, dar în mandatul ăsta de două luni cred că a fost vreo detașare.
+
+Asta legat de instituție.
+
+Apoi, din păcate, [Muzică] fenomene administrative sunt influențate de fenomene legislative care nu sunt bine puse în ordine.
+
+Adică ă în sistemul public ăă după ce am avut o lege a salarizării unitare am avut câteva sute de acte normative care au bulversat totul și atunci e cumva legitim, vorbesc general acum, e cumva legitim dacă în instituția ta salariile sunt mai mici și vrei să aduci un om bun care prin transfer ar avea un salariu mic, dar prin detașare ar avea salariu mai mare, atunci e legitim și el îți spune: „Eu nu vin dacă îmi dai un salariu mai mic." Și atunci e legitim să l detașezi câte șase luni, câte șase luni, câte șase luni.
+
+Ă Deci ă e e complex.
+
+Noi trebuie să ne întoarcem la o lege a salarizării unitare și de care să agreem toți că nu ne mai atingem cumva.
+
+Da, evident că orice investiție este bună pentru o comunitate la modul general, să zicem mai puțin 1 2% celebrele terenuri de sport în pantă sau așa.
+
+Ă întrebarea este care este ierarhia acestor proiecte?
+
+Adică și cred că nimeni n-a avut în toți anii ăștia nimeni n-a avut un o imagine de ansamblu și a pune în echilibru.
+
+Adică pe măsură ce un primar era mai influent, obținea mai multe fonduri decât un primar care nu era influent.
+
+Am depus și noi niște ca primar al Bucureștiului niște proiecte la Anghel Salini s-a ales praful de ele, s-a așternut praful pe ele, mai precis.
+
+Ăă ă și din nouă în momentul ăsta, ca să vorbim foarte grosier ă e mult mai e mult mai bine să te concentrezi, să te uiți la imaginea de ansamblu care e conectată cu posibilitatea investițiilor de a veni în România decât niște chestiuni locale care îmbunătățesc pot îmbunătăți viața, de exemplu, un drum care se asfaltează sau așa, poate să îmbunătățească ă confortul oamenilor de acolo, dar dacă ei n-au de lucru, se vor duce în Marea Britanie.
+
+Da.
+
+Deci tot timpul trebuie să pui în balanță lucruri de astea.
+
+Mulțumesc.
+
+Așa este.
+
+Au dreptate.
+
+Da.
+
+Și cum am spus aici la punctul trei și la punctul 1, de asemenea a fost o aberație faptul că noi am stimulat oamenii să iasă din sistem ăă și ă îi încurajăm pe cei care ies și se le dăm bani mai mulți celor care ies și se întorc.
+
+E bine că sunt 800 de oameni care aleg să muncească în continuare, deși ar putea ieși la pensie și trebuie să le mulțumim acestor oameni.
+
+Pe de altă parte, trebuie să fim m cum să zic, echilibrați în și predictibili în ceea ce privește ă viitorul sistemului.
+
+Ăă, cum am spus, ă, mi-aș dori ca oameni să se întoarcă pur și simplu pentru că sunt niște judecători care au contribuit la echilibrul social, atâta cât îl avem prin deciziile care și au voința asta de a pune în ordine lucruri și mai departe ă ăă prin aducerea oamenilor din avocatură, din alte profesii în magistratură, dar haideți cumva să ăă să colaborăm în sectorul ăsta, de exemplu, când CSM ul a ieșit și a spus dezastru, președintele nu semnează decizii de pensionare.
+
+Putea să dea un telefon înainte să vadă care i situația, adică să nu mai punem din nou și din nou paie pe foc pe un sistem care este instabil.
+
+Nu, nu vreau să i conving.
+
+Vreau doar să i întreb dacă în condițiile în care în condițiile în care e clar acum că o să fie acea normă tranzitorie și că drepturile nu se pierd, dacă î mențin sau nu, fără fiecare, bineînțeles, face ce vrea cu viața lui.
+
+Mulțumesc.
+
+Bun,
+
+Depinde ce înseamnă să intervină.
+
+Da, exact, exact, exact.
+
+Da, da, da.
+
+Ca să precizăm ă serviciile sunt servicii de informații.
+
+Da.
+
+Ele trebuie să interfereze cu activitatea administrativă.
+
+Ele trebuie să comunice instituțiilor, să le spunem civile, zonele prin care pe prin specificul muncii lor observă că se întâmplă fenomene de corupție, evaziune fiscală sau ceea ce va spune ceea ce va spune strategia.
+
+Și eu cred, da, că e important.
+
+Eu cred că corupția este un fenomen important, nociv pentru societatea noastră. eziunea fiscală de asemenea pentru că dezechilibrează bugetul.
+
+Deci în sensul ăsta, da, o să aibă atribuții sau strategia va fi una extinsă la domenii sociale importante cu mențiunea că n-o să fie interferență neconstituțională, ci doar serviciile vor oferi informații.
 
 Ăă, prima parte a întrebării ă au fost trimise solicitări către toate instituțiile care au raport cu strategia de securitate, astfel încât ele să trimită propuneri, după care va ele se vor va fi un prim proiect al strategiei.
 

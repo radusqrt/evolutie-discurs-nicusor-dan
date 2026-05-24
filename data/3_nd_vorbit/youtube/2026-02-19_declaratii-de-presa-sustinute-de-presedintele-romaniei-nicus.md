@@ -36,7 +36,8 @@ Să ajutăm la formarea unor instituții. poliția locală de acolo, justiție, 
 Iar ca rezultat general al întâlnirii ă mi se pare remarcabil că multe state într o situație financiară mai bună decât România s a oferit să contribuie.
 
 Deci suntem în situația unei, să i spunem așa, democrației, unei diplomații economice în care state contribuie pentru stabilizarea unei părți de lume destul de apropiată geografic de România și asta nu poate decât să ne bucure.
-[JURNALIST] Bună sea, domnule președinte.
+
+Bun.
 
 În tipul acesta de reuniuni sunt mai mult chestiuni de politețe între diverși participanți.
 
@@ -57,7 +58,8 @@ De ce am venit aici?
 Am venit pentru că este o iniț, cum am spus mai devreme, este o inițiativă a partenerului nostru strategic și este o chestiune de securitate în condițiile în care în lumea actuală toate lucrurile sunt legate între ele.
 
 Participăm la coaliția de voință, de exemplu, pentru că ne interesează securitatea Europei și e important să fim acolo unde se iau decizii.
-[JURNALIST] Bună ziua, Mădălin Puiu, România TV.
+
+Bă, am explicat de ce am venit.
 
 Pentru politica noastră externă e important să fim parteneri în diferite formate și mai ales dacă vorbim strict de securitate să consolidăm, să aprofundăm parteneriatul cu Statele Unite.
 
@@ -72,7 +74,10 @@ Cum faci, cum alegem între Statele Unite și Uniunea Europeană?
 Da, avem și într o parte și în alta.
 
 Încercăm să fim partenerii corecți în toate parteneriatele pe care le avem, iar aici Comisia Europeană însăși a fost reprezentată.
-[JURNALIST] Și dacă mi permiteți o singură precizare.
+
+Nu e timpul trecut.
+
+Nu e timpul trecut.
 
 Da, se mai întâmplă.
 
@@ -81,18 +86,17 @@ Da.
 toate toate eforturile pe toate palierele pe care le am făcut în această relație, cum am spus mai devreme, ambasada, miniștrii discuțiile tehnice care au loc colaborările pe chiar anterioare pe diferite paliere.
 
 Toate lucrurile astea completează un tablou al unei relații care este extrem de matură între cu interese reciproce, bineînțeles, între România și Statele Unite.
-[JURNALIST] Lucian Mândruță, Dig FM și Digi24.
 
 Nu, așa cum am răspuns am vorbit un minut cu domnul Witkov, am vorbit cu domnul Kuchner, am vorbit cu Mark Rubio, am vorbit cu multă lume că în jurul acestui eveniment au fost momente în care ăsta a fost settingul, dar chestiunile serioase se fac la nivel diplomatic.
 
 Deci asta a fost numai o chestiune de politețe.
 
 Da,
-[JURNALIST] am înțeles.
+
+în la această Deci în acest moment, dincolo de personalul ambasadei pe care î vedeți în acest chiar acest moment sunt cel puțin cinci sau șase oficiali români care discută cu oficialii americani pe diferite paliere și săptămâna viitoare vor fi alții.
 
 Săptămâna viitoare vor fi alții.
 
 Deci ăsta este modul în care discutăm lucrurile.
 
 Bineînțeles că prezența președintelui a fost un gestolic pentru această relație, dar nu în interacțiunea președintelui se reglează lucrurile astea tehnice.
-[JURNALIST] Mulțumesc.

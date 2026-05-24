@@ -58,6 +58,11 @@ def get_stopwords() -> frozenset[str]:
         "așa", "aşa", "făra", "fără", "într", "într-", "din", "dintr",
         # Speaker frills
         "așadar", "așa", "deci",
+        # Speech fillers / hesitations / vocal pauses (artifacts YouTube auto-captions)
+        "ă", "ăă", "ăăă", "ăăăă",
+        "aa", "aaa", "aaaa",
+        "îh", "îhî", "mhm", "hm", "hmm",
+        "muzică", "aplauze",  # sound effect markers from YT captions
     }
     # Normalize all to ș/ț form
     all_sw = {_normalize_diacritics(w.lower()) for w in (base | extras)}

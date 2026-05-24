@@ -28,21 +28,9 @@ Da.
 Da.
 
 Cred că dacă vreți o analogie cu pizza noi am de ani de zile noi plătim o pizza medie și mâncăm o pizza mare.
-Cam asta este analogia și bineînțeles că diferența asta trebuie să fie plătită de cineva.
 
 Nu.
 
 Chestiunea este că un lucru bun care s a întâmplat în ultimii ani este creșterea încasărilor raportat la ca procent din produsul intern brut.
-Da, deci suntem undeva la 30%, am plecat de pe la 26%.
-Și pe măsură ce o să pe măsură ce o să consolidăm ANAF ul, pe măsură ce reducem din evaziunea fiscală procentul ăsta o să crească.
-Problema a fost că cheltuielile statului au crescut mult mai mult față de cât își permitea România, chiar dacă, evident, e o nevoie de dezvoltare, e nevoie să construim autostrăzi, cheltuielile statului au crescut mult prea mult față de de procentul din PIB și acuma trebuie să ajustăm.
 
 Asta este o decizie a comisiei, cred că imediat de de anul viitor.
-Problema nu este asta.
-Problema este că ăă deci ăă sunt două chestiuni diferite.
-Pe de o parte Comisia Europeană spune mergeți în 3% deficit, mai puțin de 3% deficit și vă exceptăm din cheltuielile militare din acest deficit.
-Asta este o chestiune.
-Pe de altă parte, în plan practic, acel deficit tu trebuie să l plătești de undeva din împrumuturi.
-Da.
-Deci el chiar dacă în discuțiile cu Comisia Europeană sumele alea nu sunt nu intră în ținta de 3%, ele totuși trebuie să fie plătite din împrumuturi și asta este chestiunea.
-No.

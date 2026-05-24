@@ -1,6 +1,6 @@
 # Pasul 1 — Statistici de bază (scris)
 
-**Documente**: 724 | **Cuvinte raw**: 61,137 | **Lemmas clean**: 35,060
+**Documente**: 724 | **Cuvinte raw**: 61,137 | **Lemmas clean**: 35,055
 
 
 ## Sumar per perioadă
@@ -8,9 +8,9 @@
 | period                                |   docs |   words |   lemmas |   unique_lemmas |
 |:--------------------------------------|-------:|--------:|---------:|----------------:|
 | 2024Q4-2025Q1 candidatură-precampanie |     30 |    1707 |     1031 |             902 |
-| 2025Q2 campanie + investitură         |    406 |   22807 |    13147 |           11496 |
-| 2025Q3 deficit + reforma economică    |     54 |    5285 |     2951 |            2564 |
-| 2025Q4 stabilizare + diplomație       |     79 |   10897 |     6326 |            5207 |
+| 2025Q2 campanie + investitură         |    406 |   22807 |    13144 |           11493 |
+| 2025Q3 deficit + reforma economică    |     54 |    5285 |     2950 |            2563 |
+| 2025Q4 stabilizare + diplomație       |     79 |   10897 |     6325 |            5206 |
 | 2025Q4-2026Q1 reformă judiciară       |     72 |   11178 |     6308 |            5186 |
 | 2026Q2 cotitură UE + criză guvern     |     83 |    9263 |     5297 |            4475 |
 
@@ -206,6 +206,6 @@
 
 - **Projection**: `scris` (sursă: `data/3_nd_scris/`)
 - **Tokenizare + lemmatizare**: spaCy `ro_core_news_sm`, formă canonică.
-- **Stopwords**: `stopwordsiso` RO (438 cuvinte) + cardinali.
+- **Stopwords**: `stopwordsiso` RO (452 cuvinte) + cardinali.
 - **Numerele și punctuația** eliminate; diacriticele normalizate.
 - **Per-doc PNG-uri NU se generează** la corpus mare — folosește `stats.csv` + `results/02_tfidf_<projection>/tfidf_top_per_doc.md` pentru inspecție per doc.

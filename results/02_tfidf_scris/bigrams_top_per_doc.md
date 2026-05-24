@@ -6449,14 +6449,14 @@
 |:---------------------|------------:|
 | orhei vechi          |           1 |
 | vechi răsuna         |           1 |
-| răsuna muzică        |           1 |
-| muzică folk          |           1 |
+| răsuna folk          |           1 |
 | folk festival        |           1 |
 | festival lupilor     |           1 |
 | lupilor weekend      |           1 |
 | weekend moldovenilor |           1 |
 | moldovenilor primire |           1 |
 | primire călduros     |           1 |
+| călduros nicusordan  |           1 |
 
 ## 2025-08-12 — facebook-post
 

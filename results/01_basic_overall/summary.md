@@ -1,95 +1,95 @@
 # Pasul 1 — Statistici de bază (overall)
 
-**Documente**: 1055 | **Cuvinte raw**: 263,568 | **Lemmas clean**: 124,673
+**Documente**: 1062 | **Cuvinte raw**: 272,429 | **Lemmas clean**: 127,447
 
 
 ## Sumar per perioadă
 
 | period                                |   docs |   words |   lemmas |   unique_lemmas |
 |:--------------------------------------|-------:|--------:|---------:|----------------:|
-| 2024Q4-2025Q1 candidatură-precampanie |     49 |   19404 |     8380 |            4410 |
-| 2025Q2 campanie + investitură         |    467 |   51079 |    25789 |           18673 |
-| 2025Q3 deficit + reforma economică    |     96 |   43006 |    19553 |           10243 |
-| 2025Q4 stabilizare + diplomație       |    136 |   44418 |    21016 |           12544 |
-| 2025Q4-2026Q1 reformă judiciară       |    157 |   60070 |    28222 |           16055 |
-| 2026Q2 cotitură UE + criză guvern     |    150 |   45591 |    21713 |           13393 |
+| 2024Q4-2025Q1 candidatură-precampanie |     55 |   21087 |     9120 |            4909 |
+| 2025Q2 campanie + investitură         |    468 |   51205 |    25731 |           18669 |
+| 2025Q3 deficit + reforma economică    |     96 |   48045 |    21345 |           10779 |
+| 2025Q4 stabilizare + diplomație       |    136 |   43495 |    20352 |           12329 |
+| 2025Q4-2026Q1 reformă judiciară       |    157 |   63006 |    29303 |           16684 |
+| 2026Q2 cotitură UE + criză guvern     |    150 |   45591 |    21596 |           13360 |
 
 ## Top 30 cuvinte — corpus integral
 
 | cuvânt     |   frecvență |
 |:-----------|------------:|
-| vrea       |        2339 |
-| sine       |        2114 |
-| românia    |        1799 |
-| spune      |        1423 |
-| trebui     |        1228 |
-| putea      |        1153 |
-| moment     |         966 |
-| om         |         928 |
-| ăă         |         915 |
-| stat       |         853 |
-| an         |         839 |
-| discuție   |         800 |
-| exista     |         776 |
-| parte      |         749 |
-| lucru      |         736 |
-| european   |         728 |
-| român      |         679 |
-| vedea      |         633 |
-| țară       |         631 |
-| important  |         615 |
-| crede      |         607 |
-| bun        |         565 |
-| public     |         511 |
-| chestiune  |         473 |
-| ști        |         472 |
-| președinte |         440 |
-| partid     |         437 |
-| problemă   |         413 |
-| veni       |         396 |
-| față       |         395 |
+| vrea       |        2396 |
+| sine       |        2179 |
+| românia    |        1832 |
+| spune      |        1482 |
+| trebui     |        1252 |
+| putea      |        1197 |
+| moment     |        1002 |
+| om         |         965 |
+| stat       |         885 |
+| an         |         865 |
+| exista     |         820 |
+| discuție   |         808 |
+| parte      |         786 |
+| lucru      |         759 |
+| european   |         743 |
+| român      |         688 |
+| vedea      |         661 |
+| crede      |         645 |
+| important  |         643 |
+| țară       |         633 |
+| bun        |         582 |
+| public     |         522 |
+| ști        |         506 |
+| chestiune  |         497 |
+| președinte |         451 |
+| partid     |         443 |
+| problemă   |         426 |
+| adică      |         414 |
+| veni       |         412 |
+| față       |         399 |
 
 ## Top 20 cuvinte per perioadă
 
-### 2024Q4-2025Q1 candidatură-precampanie (49 docs)
+### 2024Q4-2025Q1 candidatură-precampanie (55 docs)
 
 | cuvânt     |   frecvență |
 |:-----------|------------:|
-| vrea       |         178 |
-| sine       |         159 |
-| spune      |         127 |
-| om         |         126 |
-| trebui     |         114 |
-| românia    |         113 |
-| putea      |         101 |
-| crede      |          90 |
-| alegere    |          89 |
-| moment     |          88 |
-| partid     |          71 |
-| an         |          68 |
+| vrea       |         190 |
+| sine       |         168 |
+| om         |         138 |
+| spune      |         133 |
+| trebui     |         127 |
+| românia    |         121 |
+| putea      |         106 |
+| alegere    |         101 |
+| crede      |         101 |
+| moment     |          94 |
+| partid     |          79 |
+| an         |          74 |
+| exista     |          74 |
+| vedea      |          74 |
+| parte      |          70 |
+| lucru      |          67 |
 | președinte |          63 |
-| vedea      |          62 |
-| exista     |          61 |
-| parte      |          60 |
-| bun        |          57 |
-| lucru      |          56 |
-| stat       |          54 |
-| instituție |          52 |
+| bun        |          62 |
+| stat       |          57 |
+| instituție |          54 |
 
-### 2025Q2 campanie + investitură (467 docs)
+### 2025Q2 campanie + investitură (468 docs)
 
 | cuvânt            |   frecvență |
 |:------------------|------------:|
-| românia           |         518 |
-| vrea              |         496 |
+| românia           |         519 |
+| vrea              |         499 |
 | sine              |         379 |
-| putea             |         248 |
+| putea             |         249 |
 | român             |         244 |
-| om                |         219 |
+| om                |         221 |
 | trebui            |         190 |
 | romaniaonesta     |         184 |
-| spune             |         154 |
-| stat              |         150 |
+| spune             |         156 |
+| stat              |         152 |
 | european          |         124 |
 | an                |         123 |
 | președinte        |         122 |
@@ -105,76 +105,76 @@
 
 | cuvânt    |   frecvență |
 |:----------|------------:|
-| vrea      |         377 |
-| sine      |         326 |
-| ăă        |         301 |
-| spune     |         284 |
-| trebui    |         277 |
-| românia   |         213 |
-| moment    |         203 |
-| putea     |         180 |
-| discuție  |         167 |
-| om        |         151 |
-| stat      |         144 |
-| an        |         136 |
-| parte     |         124 |
-| exista    |         122 |
-| crede     |         114 |
-| european  |         110 |
-| ști       |         107 |
-| lucru     |         104 |
-| vedea     |         102 |
-| chestiune |         100 |
+| vrea      |         412 |
+| sine      |         369 |
+| spune     |         324 |
+| trebui    |         302 |
+| moment    |         231 |
+| românia   |         228 |
+| putea     |         205 |
+| discuție  |         180 |
+| om        |         172 |
+| an        |         154 |
+| stat      |         153 |
+| exista    |         148 |
+| parte     |         145 |
+| crede     |         131 |
+| ști       |         125 |
+| vedea     |         118 |
+| lucru     |         116 |
+| chestiune |         113 |
+| european  |         109 |
+| important |         103 |
 
 ### 2025Q4 stabilizare + diplomație (136 docs)
 
 | cuvânt    |   frecvență |
 |:----------|------------:|
-| vrea      |         379 |
-| sine      |         334 |
-| românia   |         285 |
-| spune     |         255 |
-| ăă        |         225 |
-| trebui    |         215 |
-| putea     |         200 |
-| stat      |         185 |
-| om        |         168 |
-| moment    |         167 |
-| parte     |         162 |
-| lucru     |         162 |
-| an        |         153 |
-| vedea     |         138 |
-| exista    |         127 |
-| european  |         123 |
+| vrea      |         371 |
+| sine      |         319 |
+| românia   |         283 |
+| spune     |         246 |
+| trebui    |         194 |
+| putea     |         193 |
+| stat      |         184 |
+| om        |         166 |
+| moment    |         162 |
+| parte     |         160 |
+| lucru     |         155 |
+| an        |         150 |
+| vedea     |         130 |
+| exista    |         125 |
+| european  |         122 |
 | important |         110 |
-| discuție  |         102 |
-| țară      |         101 |
-| public    |         101 |
+| țară      |          99 |
+| public    |          99 |
+| discuție  |          91 |
+| crede     |          89 |
 
 ### 2025Q4-2026Q1 reformă judiciară (157 docs)
 
 | cuvânt    |   frecvență |
 |:----------|------------:|
-| sine      |         550 |
-| vrea      |         494 |
-| românia   |         329 |
-| spune     |         308 |
-| trebui    |         263 |
-| putea     |         252 |
-| an        |         238 |
-| exista    |         234 |
-| ăă        |         215 |
-| stat      |         210 |
-| moment    |         208 |
-| parte     |         203 |
-| discuție  |         197 |
-| european  |         190 |
-| lucru     |         180 |
-| țară      |         166 |
-| important |         154 |
-| public    |         153 |
-| om        |         151 |
-| bun       |         131 |
+| sine      |         578 |
+| vrea      |         509 |
+| românia   |         340 |
+| spune     |         328 |
+| putea     |         272 |
+| trebui    |         270 |
+| an        |         243 |
+| exista    |         240 |
+| stat      |         229 |
+| moment    |         215 |
+| parte     |         211 |
+| european  |         203 |
+| discuție  |         200 |
+| lucru     |         187 |
+| țară      |         168 |
+| important |         167 |
+| om        |         155 |
+| public    |         155 |
+| bun       |         134 |
+| vedea     |         132 |
 
 ### 2026Q2 cotitură UE + criză guvern (150 docs)
 
@@ -206,6 +206,6 @@
 
 - **Projection**: `overall` (sursă: `data/3_nd_overall/`)
 - **Tokenizare + lemmatizare**: spaCy `ro_core_news_sm`, formă canonică.
-- **Stopwords**: `stopwordsiso` RO (438 cuvinte) + cardinali.
+- **Stopwords**: `stopwordsiso` RO (452 cuvinte) + cardinali.
 - **Numerele și punctuația** eliminate; diacriticele normalizate.
 - **Per-doc PNG-uri NU se generează** la corpus mare — folosește `stats.csv` + `results/02_tfidf_<projection>/tfidf_top_per_doc.md` pentru inspecție per doc.

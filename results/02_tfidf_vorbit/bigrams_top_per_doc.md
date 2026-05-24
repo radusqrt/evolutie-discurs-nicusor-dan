@@ -139,6 +139,21 @@
 
 | bigramă                |   frecvență |
 |:-----------------------|------------:|
+| întrebare întrebare    |           1 |
+| întrebare bun          |           1 |
+| bun parte              |           1 |
+| parte privi            |           1 |
+| privi contestare       |           1 |
+| contestare apartenență |           1 |
+| apartenență românia    |           1 |
+| românia uniune         |           1 |
+| uniune european        |           1 |
+| european nato          |           1 |
+
+## 2024-12-16 — video-transcript
+
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
 | rol președinte         |           4 |
 | problemă românia       |           3 |
 | stat român             |           2 |
@@ -194,6 +209,21 @@
 | forma partid         |           2 |
 | parlament guvern     |           2 |
 | partid formare       |           2 |
+
+## 2024-12-23 — video-transcript
+
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| candidat comun      |           2 |
+| alegere bucurești   |           2 |
+| decizie lua         |           1 |
+| lua menține         |           1 |
+| menține menține     |           1 |
+| menține candidatură |           1 |
+| candidatură vedea   |           1 |
+| vedea asculta       |           1 |
+| asculta așteptând   |           1 |
+| așteptând intra     |           1 |
 
 ## 2024-12-25 — video-transcript
 
@@ -345,6 +375,36 @@
 | călin georgescu      |           4 |
 | rol președinte       |           4 |
 
+## 2025-02-08 — video-transcript
+
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| românia trece     |           2 |
+| trece printr      |           1 |
+| printr situație   |           1 |
+| situație complica |           1 |
+| complica criză    |           1 |
+| criză crede       |           1 |
+| crede lună        |           1 |
+| lună românia      |           1 |
+| românia aproape   |           1 |
+| aproape dezastru  |           1 |
+
+## 2025-02-16 — video-transcript
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| centru comercial     |           3 |
+| transport public     |           3 |
+| aștepta lansare      |           3 |
+| lansare program      |           2 |
+| program operațional  |           2 |
+| operațional regional |           2 |
+| regional bucurești   |           2 |
+| bucurești ilfov      |           2 |
+| linie tramvai        |           2 |
+| contract semnat      |           2 |
+
 ## 2025-02-24 — video-transcript
 
 | bigramă              |   frecvență |
@@ -360,6 +420,36 @@
 | bucurești condamna   |           1 |
 | condamna încă        |           1 |
 
+## 2025-02-26 — video-transcript
+
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| aștepta vedea      |           1 |
+| vedea plată        |           1 |
+| plată dovadă       |           1 |
+| dovadă plate       |           1 |
+| plate plăti        |           1 |
+| plăti companie     |           1 |
+| companie plăti     |           1 |
+| plăti mecanism     |           1 |
+| mecanism funcționa |           1 |
+| funcționa tiktok   |           1 |
+
+## 2025-02-27 — video-transcript
+
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| apărea indiciu   |           4 |
+| călin georgescu  |           4 |
+| anulare alegere  |           2 |
+| milion euro      |           2 |
+| georgescu vorbim |           2 |
+| chestiune serios |           2 |
+| trebui privi     |           1 |
+| privi precauție  |           1 |
+| precauție uita   |           1 |
+| uita fapt        |           1 |
+
 ## 2025-02-27 — video-transcript
 
 | bigramă              |   frecvență |
@@ -374,6 +464,21 @@
 | amplitudine trebui   |           1 |
 | trebui costa         |           1 |
 | costa milion         |           1 |
+
+## 2025-03-07 — video-transcript
+
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| curte constituțional |           2 |
+| fapt dovedi          |           1 |
+| dovedi contrariu     |           1 |
+| contrariu anunț      |           1 |
+| anunț decembrie      |           1 |
+| decembrie spune      |           1 |
+| spune vrea           |           1 |
+| vrea candida         |           1 |
+| candida vedea        |           1 |
+| vedea lucra          |           1 |
 
 ## 2025-03-07 — video-transcript
 
@@ -815,15 +920,15 @@
 | bigramă            |   frecvență |
 |:-------------------|------------:|
 | comunitate vrea    |           4 |
+| societate românesc |           4 |
 | nicuș nicuș        |           3 |
 | forță societate    |           3 |
-| societate românesc |           3 |
 | alegere comunitate |           2 |
 | românia comunitate |           2 |
-| societate aplauze  |           2 |
 | vreau mulțumi      |           2 |
 | nicușor nicușor    |           2 |
 | țară românia       |           2 |
+| alegere alegerile  |           1 |
 
 ## 2025-05-18 — video-transcript
 
@@ -847,13 +952,13 @@
 | construi românia  |           3 |
 | românia împreună  |           3 |
 | împreună român    |           3 |
-| victorie aplauze  |           2 |
 | român basarabia   |           2 |
-| aplauze ști       |           1 |
+| victorie ști      |           1 |
 | ști victorie      |           1 |
 | victorie campanie |           1 |
 | campanie crede    |           1 |
 | crede românia     |           1 |
+| românia putea     |           1 |
 
 ## 2025-05-18 — video-transcript
 
@@ -863,12 +968,12 @@
 | românia împreună  |           3 |
 | împreună român    |           3 |
 | crede românia     |           2 |
-| aplauze muzică    |           2 |
 | român diasporă    |           2 |
 | român basarabia   |           2 |
 | victorie ști      |           1 |
 | ști victorie      |           1 |
 | victorie campanie |           1 |
+| campanie crede    |           1 |
 
 ## 2025-05-18 — video-transcript
 
@@ -1154,7 +1259,6 @@
 
 | bigramă               |   frecvență |
 |:----------------------|------------:|
-| muzică fetiță         |           1 |
 | fetiță nicușor        |           1 |
 | nicușor dan           |           1 |
 | dan plictisi          |           1 |
@@ -1164,6 +1268,7 @@
 | învestitură declara   |           1 |
 | declara președinte    |           1 |
 | președinte adăuga     |           1 |
+| adăuga fapt           |           1 |
 
 ## 2025-05-28 — video-transcript
 
@@ -1347,18 +1452,18 @@
 
 ## 2025-06-04 — video-transcript
 
-| bigramă          |   frecvență |
-|:-----------------|------------:|
-| trebui plăti     |           3 |
-| măsură vrea      |           2 |
-| cheltuială stat  |           2 |
-| stat crește      |           2 |
-| crește față      |           2 |
-| comisie european |           2 |
-| plăti împrumut   |           2 |
-| cred vrea        |           1 |
-| vrea analogie    |           1 |
-| analogie pizza   |           1 |
+| bigramă         |   frecvență |
+|:----------------|------------:|
+| cred vrea       |           1 |
+| vrea analogie   |           1 |
+| analogie pizza  |           1 |
+| pizza plătim    |           1 |
+| plătim pizza    |           1 |
+| pizza mediu     |           1 |
+| mediu mânca     |           1 |
+| mânca pizza     |           1 |
+| pizza chestiune |           1 |
+| chestiune lucru |           1 |
 
 ## 2025-06-04 — video-transcript
 
@@ -1635,7 +1740,6 @@
 | bigramă           |   frecvență |
 |:------------------|------------:|
 | sine dori         |           2 |
-| muzică sine       |           1 |
 | dori rusia        |           1 |
 | rusia vecin       |           1 |
 | vecin spune       |           1 |
@@ -1644,6 +1748,7 @@
 | dan președinte    |           1 |
 | președinte anunța |           1 |
 | anunța țară       |           1 |
+| țară vrea         |           1 |
 
 ## 2025-07-15 — video-transcript
 
@@ -1769,16 +1874,16 @@
 
 | bigramă           |   frecvență |
 |:------------------|------------:|
-| sine vrea         |           3 |
-| moment sine       |           2 |
-| spațiu public     |           2 |
-| normă tranzitoriu |           2 |
-| sine părea        |           2 |
-| întrebare bun     |           2 |
-| cauză instituție  |           2 |
-| mental colectiv   |           2 |
-| lună pușcărie     |           2 |
-| vorbi general     |           2 |
+| cerere pensionară |           8 |
+| sine vrea         |           7 |
+| sine pensiona     |           7 |
+| spune devreme     |           7 |
+| stat român        |           7 |
+| sine întâmpla     |           6 |
+| rămâne sistem     |           5 |
+| vrea spune        |           5 |
+| spune oară        |           4 |
+| calitate act      |           4 |
 
 ## 2025-07-31 — video-transcript
 
@@ -2598,18 +2703,18 @@
 
 ## 2025-11-21 — video-transcript
 
-| bigramă         |   frecvență |
-|:----------------|------------:|
-| sine duce       |           6 |
-| sine întâmpla   |           5 |
-| spune spune     |           4 |
-| trebui sine     |           3 |
-| sine vrea       |           3 |
-| trebui reveni   |           3 |
-| reveni lege     |           3 |
-| lider coaliție  |           2 |
-| vedea legătură  |           2 |
-| instituție stat |           2 |
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| stat român        |           2 |
+| parte spune       |           2 |
+| spune sine        |           2 |
+| sine duce         |           2 |
+| sine întâmpla     |           2 |
+| urmări măsură     |           1 |
+| măsură întâlnire  |           1 |
+| întâlnire lider   |           1 |
+| lider coaliție    |           1 |
+| coaliție întâlnim |           1 |
 
 ## 2025-11-21 — video-transcript
 
@@ -2705,7 +2810,6 @@
 
 | bigramă             |   frecvență |
 |:--------------------|------------:|
-| muzică membru       |           1 |
 | membru uniune       |           1 |
 | uniune european     |           1 |
 | european poziție    |           1 |
@@ -2715,6 +2819,7 @@
 | aproximativ miliard |           1 |
 | miliard euro        |           1 |
 | euro oară           |           1 |
+| oară voce           |           1 |
 
 ## 2025-12-02 — video-transcript
 
@@ -2739,12 +2844,12 @@
 | stat român           |           4 |
 | față trăim           |           4 |
 | ultim lună           |           3 |
-| muzică muzică        |           2 |
 | trebui privi         |           2 |
 | privi echilibru      |           2 |
 | echilibru luciditate |           2 |
 | luciditate moment    |           2 |
 | moment capabil       |           2 |
+| capabil modula       |           2 |
 
 ## 2025-12-03 — video-transcript
 
@@ -2783,13 +2888,13 @@
 | putin declara        |           2 |
 | declara public       |           2 |
 | public intern        |           2 |
-| muzică nicușordan    |           1 |
 | nicușordan reacționa |           1 |
 | reacționa vladimir   |           1 |
 | vladimir putin       |           1 |
 | declara doamnelor    |           1 |
 | doamnelor domn       |           1 |
 | domn pregăti         |           1 |
+| pregăti război       |           1 |
 
 ## 2025-12-03 — video-transcript
 
@@ -2898,18 +3003,18 @@
 
 ## 2025-12-10 — video-transcript
 
-| bigramă            |   frecvență |
-|:-------------------|------------:|
-| publicitate online |           3 |
-| social medie       |           2 |
-| uniune european    |           2 |
-| mesagerie instant  |           2 |
-| sector publicitate |           2 |
-| funcționa gândește |           1 |
-| gândește instagram |           1 |
-| instagram trifecta |           1 |
-| trifecta triunghi  |           1 |
-| triunghi social    |           1 |
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| stat unit           |           9 |
+| uniune european     |           9 |
+| social medie        |           7 |
+| big tech            |           4 |
+| nivel global        |           3 |
+| sine putea          |           3 |
+| publicitate online  |           3 |
+| libertate exprimare |           3 |
+| ști funcționa       |           3 |
+| crede surpriză      |           2 |
 
 ## 2025-12-11 — video-transcript
 
@@ -3831,6 +3936,18 @@
 
 ## 2026-02-19 — video-transcript
 
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| stat unit          |           7 |
+| uniune european    |           3 |
+| partener strategic |           2 |
+| zonă lume          |           2 |
+| chestiune politețe |           2 |
+| românia stat       |           2 |
+| spune devreme      |           2 |
+| încă campanie      |           2 |
+| campanie electoral |           2 |
+| electoral alege    |           2 |
 
 ## 2026-02-19 — video-transcript
 

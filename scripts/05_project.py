@@ -44,21 +44,30 @@ def is_written(tip: str) -> bool:
 
 
 def project_nd_only(content: str) -> tuple[str, int, int]:
-    """Extract only [ND] segments. Returns (text, n_nd, n_other)."""
+    """Extract only [ND] segments. Returns (text, n_nd, n_other).
+
+    Splits on ANY newline (not just \n\n) so consecutive [ND] segments without
+    blank line between are handled correctly. Then groups consecutive ND chunks
+    into paragraphs in output."""
     has_tags = any(line.lstrip().startswith("[") and TAG_RE.match(line.lstrip())
                    for line in content.splitlines() if line.strip())
     if not has_tags:
         return content, 0, 0
-    paras = re.split(r"\n\n+", content)
+
+    # Split on single newlines to catch every tagged segment
+    segments = re.split(r"\n+", content)
     nd_paras = []
     n_nd = n_other = 0
-    for p in paras:
-        p_stripped = p.lstrip()
-        m = TAG_RE.match(p_stripped)
+    for seg in segments:
+        seg_stripped = seg.lstrip()
+        if not seg_stripped:
+            continue
+        m = TAG_RE.match(seg_stripped)
         if not m:
+            # Untagged line — could be continuation of previous; we skip to be safe
             continue
         if m.group(1) == "ND":
-            cleaned = TAG_RE.sub("", p_stripped).strip()
+            cleaned = TAG_RE.sub("", seg_stripped).strip()
             if cleaned:
                 nd_paras.append(cleaned)
                 n_nd += 1
