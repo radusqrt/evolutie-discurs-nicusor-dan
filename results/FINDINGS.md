@@ -179,6 +179,24 @@ Pe domenii de policy internă — **sănătate, educație, măsuri fiscale, dias
 - Promisiune (20 mai 2025): "*Imediat ce mă voi instala la Cotroceni, unul dintre viceprimari va deveni primar interimar al Capitalei.*"
 - Realitate post-investitură: ND a felicitat Ciprian Ciucu ca primar ales, fără numire de interimar. **Promisiune rupta în prima săptămână.**
 
+### 20. **BLIND SPOT METODOLOGIC: clasificator "ND-centric"**
+
+Fact-check independent (web search, mai 2026) pe 5 promisiuni București/local etichetate NO_MENTION/CONTRADICTED:
+
+| Promisiune | Classifier | Realitate verificată | Real verdict |
+|---|---|---|---|
+| Vigheciu (PSD) primar interimar | CONTRADICTED | Bujduveanu (PNL) instalat (ND însuși a propus PNL) | ⚠️ Persoana schimbată, spiritul respectat |
+| 250 tramvaie noi PMB | NO_MENTION | Documentație gata, fonduri 2025, 63 buc primă fază | 🔄 IN_PROGRESS (PMB) |
+| PUG dezbatere publică | NO_MENTION | 25 studii publicate, ~40 instituții avizare | 🔄 IN_PROGRESS (PMB) |
+| 50km reabilitare linii tramvai | NO_MENTION | **16/16 loturi atribuite, contracte semnate, ~475M€** | ✅ KEPT (PMB sub Bujduveanu/Ciucu) |
+| 5 șantiere consolidare clădiri | NO_MENTION | **AMCCRS are 8 șantiere active** (depășește promisiunea) | ✅ KEPT (PMB) |
+
+**Implicație critică**: classifier-ul măsoară *ce vorbește ND*, nu *ce se întâmplă în lume*. 2 din 5 promisiuni NO_MENTION sunt de fapt **KEPT în realitate** — doar că au fost executate sub succesorii săi (Bujduveanu, Ciucu) iar ND nu mai e narrator.
+
+**Reinterpretare finding #15 (București 4% KEPT, 67% NO_MENTION)**: NU înseamnă "promisiuni abandonate" — înseamnă "ND a încetat să fie *narator* al lor". Proiectele continuă sub PMB. Asta e diferență substanțială.
+
+Findings ne-PMB (policy internă 0% KEPT, diplomație 60% KEPT) NU sunt afectate de acest blind spot — pe acelea ND e *singurul actor relevant*.
+
 ### 19. **Calitate clasificator: validată prin audit dublu (32 sample-uri)**
 
 Audit-uri manuale cu seed-uri 42 + 1337 (16 sample-uri stratificat per status × 2):
