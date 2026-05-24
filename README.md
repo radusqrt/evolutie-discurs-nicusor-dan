@@ -142,6 +142,33 @@ Transcripturile YouTube auto-generate au două formate frecvente:
 
 **FB posts**: implicit monolog, fără diarizare.
 
+## Regenerare rezultate (wordcloud-uri per document)
+
+Repo-ul **NU urcă pe Git** wordcloud-urile și bar chart-urile per-document (sunt 2,200+ fișiere PNG ~ 510 MB, regenerabile). Sunt git-ignorate prin pattern-ul:
+
+```
+results/01_basic/wordcloud_2*.png
+results/01_basic/top20_2*.png
+```
+
+**Pe Git rămân** (lightweight, valoros):
+
+- `results/01_basic/summary.md` (top words per doc + corpus, tabelar)
+- `results/01_basic/stats.csv` (word counts + TTR per doc)
+- `results/01_basic/wordcloud_all.png` (wordcloud combinat pentru tot corpus-ul)
+- `results/01_basic/top20_all.png` (top 30 cuvinte din corpus-ul integral)
+- `results/02_tfidf/*` (TF-IDF complete + bigrame + perioade)
+- `results/SINTEZA.md` (narațiunea finală)
+
+**Pentru regenerare locală** (după ce clonezi repo-ul):
+
+```bash
+source .venv/bin/activate
+python scripts/01_basic_analysis.py
+```
+
+Asta produce **toate 2,200+ fișiere** PNG (~3-5 min CPU pentru 1,110 documente cu spaCy). Output în `results/01_basic/`.
+
 ## Cum se rulează
 
 ```bash

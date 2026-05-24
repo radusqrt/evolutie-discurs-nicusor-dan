@@ -25,3 +25,8 @@ Thumbs.db
 .env.local
 *.key
 data/.fb_state.json
+
+# Wordcloud + bar chart PNGs (regenerabile prin scripts/01_basic_analysis.py)
+# Păstrăm doar combinatele: wordcloud_all.png, top20_all.png + summary.md + stats.csv
+results/01_basic/wordcloud_2*.png
+results/01_basic/top20_2*.png
