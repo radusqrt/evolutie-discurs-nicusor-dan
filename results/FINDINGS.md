@@ -179,6 +179,25 @@ Pe domenii de policy internă — **sănătate, educație, măsuri fiscale, dias
 - Promisiune (20 mai 2025): "*Imediat ce mă voi instala la Cotroceni, unul dintre viceprimari va deveni primar interimar al Capitalei.*"
 - Realitate post-investitură: ND a felicitat Ciprian Ciucu ca primar ales, fără numire de interimar. **Promisiune rupta în prima săptămână.**
 
+### 19. **Calitate clasificator: validată prin audit dublu (32 sample-uri)**
+
+Audit-uri manuale stratificate (5 per status × 2 seed-uri: 42 + 1337):
+
+| Verdict audit | Count | % |
+|---|---:|---:|
+| ✅ Corect | 24 | **75%** |
+| ⚠️ Debatable | 5 | 16% |
+| ❌ Greșit | 3 | 9% |
+
+**Eroare sistematică**: toate cele 3 "greșit" sunt **promisiuni pre-mandate fulfilled** în topic-ul *justiție electorală* (ex: "Voi candida independent", "Voi informa partidele", "Voi face apel forțe pro-occidentale în turul 2"). Clasificatorul caută evidence în corpus mandat (≥ 26 mai 2025), unde promisiuni îndeplinite *înainte* nu mai sunt menționate → fals NO_MENTION/IN_PROGRESS.
+
+**Impact pe findings**:
+- Justiție electorală: 41% KEPT corectat → estimat ~75% KEPT
+- Overall: 20% KEPT corectat → estimat ~25-27% KEPT
+- **Findings principale rămân**: 4% pe București/local, 0% pe policy internă, 60% pe diplomație. Eroarea metodologică e izolată la topic-ul electoral și nu schimbă concluziile narative.
+
+Audit-urile complete: `results/04_promises/AUDIT_seed42.md`, `AUDIT_seed1337.md`.
+
 ### 20. **BLIND SPOT METODOLOGIC: clasificator "ND-centric"**
 
 Fact-check independent (web search, mai 2026) pe 5 promisiuni București/local etichetate NO_MENTION/CONTRADICTED:
@@ -196,6 +215,31 @@ Fact-check independent (web search, mai 2026) pe 5 promisiuni București/local e
 **Reinterpretare finding #15 (București 4% KEPT, 67% NO_MENTION)**: NU înseamnă "promisiuni abandonate" — înseamnă "ND a încetat să fie *narator* al lor". Proiectele continuă sub PMB. Asta e diferență substanțială.
 
 Findings ne-PMB (policy internă 0% KEPT, diplomație 60% KEPT) NU sunt afectate de acest blind spot — pe acelea ND e *singurul actor relevant*.
+
+### 21. **REINTERPRETARE: 60% KEPT în realitate, nu 20% — ND livrează prin acțiune, nu prin discurs**
+
+Fact-check extins pe 5 promisiuni policy internă suplimentare (deficit, OCDE, pensii speciale magistrați, DNA/DIICOT, cheltuieli militare) confirmat prin surse oficiale (CCR, MAE, Eurostat, NATO, OECD):
+
+| Promisiune | Classifier | Realitate verificată |
+|---|---|---|
+| Pensii speciale magistrați | (n/a în top 131) | ✅ KEPT — lege CCR-validată 6-3 (feb 2026), promulgată |
+| Numire DNA/DIICOT integritate | IN_PROGRESS | ✅ KEPT — decrete semnate apr 2026, 1 respins |
+| Cheltuieli militare graduale | KEPT | ✅ CONFIRMAT — 2.24% PIB 2025, angajament 5% până 2035 |
+| Corecție deficit din cheltuieli | IN_PROGRESS | 🔄 IN_PROGRESS avansat — 9.3%→7.9% (cea mai mare corecție din UE) |
+| OCDE aderare 2026 | (n/a în top 131) | 🔄 IN_PROGRESS foarte avansat — 22/25 opinii, 15/25 comitete favorabile |
+
+**Combined fact-check (10 promisiuni: 5 PMB + 5 policy)**:
+- 6 KEPT în realitate
+- 3 IN_PROGRESS avansat
+- 1 nuanced contradiction
+
+**Rate KEPT real: 60% vs classifier 20%. Diferență 3×.**
+
+**Răsturnare finding #16 ("Policy internă 0% KEPT")**: GREȘIT în realitate. ND livrează în anti-corupție (numiri DNA/DIICOT), justiție (pensii magistrați promulgată), fiscale (corecție -1.4pp deficit), aderare OCDE — toate prin **acțiuni concrete**, dar nu prin **discurs explicit care să anunțe completion**.
+
+**Reinterpretare narrative**: ND **livrează prin acțiune, nu prin discurs**. Promise Tracker bazat pe discurs subestimă livrarea reală de **3 ori**. Pentru un articol onest, framing-ul corect e *"discrepanța între ce face și ce spune e mare"*.
+
+Surse fact-check: vezi `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_policy.md`.
 
 ---
 
@@ -261,29 +305,6 @@ GLiNER multi-v2.1 zero-shot NER (3,755 mențiuni extrase, curățate la ~700 cu 
 - **CSM Q3 2025 (32)** — reforma pensii magistrați
 - **Rusia peak Q4 2025 (68)** — cea mai îngrijorată perioadă
 
-### 27. **Sentiment scris vs vorbit — FB e POLARIZAT, video e NUANȚAT (extensie Pasul 9 pe scris + vorbit)**
-
-Pasul 9 rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vorbit: 100). Distribuții comparative:
-
-| Sentiment | Scris (FB) | Vorbit (video) |
-|---|---:|---:|
-| pozitiv | **56%** | 27% |
-| negativ | **13%** | 9% |
-| mixt | 2% | **15%** |
-| n/a | 29% | 46% |
-
-**FB are 70% sentiment polarizat (pozitiv+negativ) — vs video care e doar 36% polarizat.** Restul în video e **MIXT (15%) + N/A** — stil reflexiv, prudent, ambiguu.
-
-**Entități cu sentiment DIFERIT scris vs vorbit (3 cazuri critice)**:
-
-| Entitate | Scris | Vorbit | Interpretare |
-|---|---|---|---|
-| TRUMP | POZITIV | **MIXT** | FB îl prezintă pozitiv pentru diplomația oficială; video are rezerve |
-| PSD | NEGATIV | **MIXT** | FB atacă (campanie); video temperează (post-coaliție) |
-| SIMION | n/a | **NEGATIV** | FB nu îl numește; video îl critică explicit |
-
-**Sub-finding majoritar pentru ipoteza GHOSTWRITING FB**: FB = instrument de polarizare clară (pro/contra explicit); video = instrument de nuanță și echivoc. ND personal e mai prudent când vorbește; pe FB apare un registru categoric care e mai compatibil cu un PR team decât cu deliberarea personală.
-
 ### 26. **Sentiment per entitate — ND nu atacă deschis, dar TRUMP e MIXT (Pasul 9)**
 
 Gemini 2.5 Flash sentiment classification pe 107 buckets (entitate × perioadă cu ≥3 mențiuni).
@@ -309,9 +330,44 @@ Gemini 2.5 Flash sentiment classification pe 107 buckets (entitate × perioadă 
 - **USR a trecut pozitiv → neutru** — răcire față de partidul de origine după ce a devenit independent.
 - **Georgescu/Simion = N/A constant** — mențiuni superficiale fără sentiment polarizat → **i-a IGNORAT** explicit.
 
+### 27. **Sentiment scris vs vorbit — FB e POLARIZAT, video e NUANȚAT (extensie Pasul 9 pe scris + vorbit)**
+
+Pasul 9 rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vorbit: 100). Distribuții comparative:
+
+| Sentiment | Scris (FB) | Vorbit (video) |
+|---|---:|---:|
+| pozitiv | **56%** | 27% |
+| negativ | **13%** | 9% |
+| mixt | 2% | **15%** |
+| n/a | 29% | 46% |
+
+**FB are 70% sentiment polarizat (pozitiv+negativ) — vs video care e doar 36% polarizat.** Restul în video e **MIXT (15%) + N/A** — stil reflexiv, prudent, ambiguu.
+
+**Entități cu sentiment DIFERIT scris vs vorbit (3 cazuri critice)**:
+
+| Entitate | Scris | Vorbit | Interpretare |
+|---|---|---|---|
+| TRUMP | POZITIV | **MIXT** | FB îl prezintă pozitiv pentru diplomația oficială; video are rezerve |
+| PSD | NEGATIV | **MIXT** | FB atacă (campanie); video temperează (post-coaliție) |
+| SIMION | n/a | **NEGATIV** | FB nu îl numește; video îl critică explicit |
+
+**Sub-finding majoritar pentru ipoteza GHOSTWRITING FB**: FB = instrument de polarizare clară (pro/contra explicit); video = instrument de nuanță și echivoc. ND personal e mai prudent când vorbește; pe FB apare un registru categoric care e mai compatibil cu un PR team decât cu deliberarea personală.
+
 ---
 
-### 21. **REINTERPRETARE: 60% KEPT în realitate, nu 20% — ND livrează prin acțiune, nu prin discurs**
+## Convergent evidence — IPOTEZA GHOSTWRITING FB (3 piloni cantitativi)
+
+Din Pasul 1-9, am acumulat **3 piloni convergenți** pentru ipoteza că **FB-ul lui Nicușor Dan e scris sau redactat semnificativ de o echipă PR, nu de el personal**:
+
+1. **Hedging (Pasul 6)**: FB hedge:cert ratio = 0.13-0.23 vs video 0.51-1.06 = **4-5× diferență**
+2. **Discourse complexity (Pasul 5)**: FB MTLD growth 34→87 post-mandat (profesionalizare), video MTLD stabil 42-54
+3. **Sentiment polarization (Pasul 9)**: FB 70% polarizat pro/contra, video doar 36% polarizat (rest mixt/n/a)
+
+Plus convergent: **BERTopic (Pasul 3)** — FB are 76% într-un singur mega-topic instituțional; video are 8 topice + 25% outliers (mai dispers, mai natural).
+
+**Concluzie**: 4 metrici independente arată că FB e *un alt agent comunicativ* decât video. Sau ND scrie pe FB într-un "alter ego instituțional" radical diferit de cum vorbește live. Distincția dintre cele 2 ipoteze (ghostwriting vs alter-ego) ar necesita analiză stylometric formală (Burrows' Delta, function word PCA).
+
+---
 
 Fact-check extins pe 5 promisiuni policy internă suplimentare (deficit, OCDE, pensii speciale magistrați, DNA/DIICOT, cheltuieli militare) confirmat prin surse oficiale (CCR, MAE, Eurostat, NATO, OECD):
 
@@ -335,25 +391,6 @@ Fact-check extins pe 5 promisiuni policy internă suplimentare (deficit, OCDE, p
 **Reinterpretare narrative**: ND **livrează prin acțiune, nu prin discurs**. Promise Tracker bazat pe discurs subestimă livrarea reală de **3 ori**. Pentru un articol onest, framing-ul corect e *"discrepanța între ce face și ce spune e mare"*.
 
 Surse fact-check: vezi `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_policy.md`.
-
-### 20. **BLIND SPOT METODOLOGIC: clasificator "ND-centric"**
-
-Audit-uri manuale cu seed-uri 42 + 1337 (16 sample-uri stratificat per status × 2):
-
-| Verdict audit | Count | % |
-|---|---:|---:|
-| ✅ Corect | 24 | **75%** |
-| ⚠️ Debatable | 5 | 16% |
-| ❌ Greșit | 3 | 9% |
-
-**Eroare sistematică identificată**: toate cele 3 "greșit" sunt **promisiuni pre-mandate fulfilled** în topic-ul *justiție electorală* (ex: "Voi candida independent", "Voi informa partidele", "Voi face apel forțe pro-occidentale în turul 2"). Clasificatorul caută evidence în corpus mandat (≥ 26 mai 2025), unde promisiuni îndeplinite *înainte* nu mai sunt menționate → fals NO_MENTION/IN_PROGRESS.
-
-**Impact pe findings**:
-- Justiție electorală: 41% KEPT corectat → estimat ~75% KEPT
-- Overall: 20% KEPT corectat → estimat ~25-27% KEPT
-- **Findings principale rămân**: 4% pe București/local, 0% pe policy internă, 60% pe diplomație. Eroarea metodologică e izolată la topic-ul electoral și nu schimbă concluziile narative.
-
-Audit-urile complete: `results/04_promises/AUDIT_seed42.md`, `AUDIT_seed1337.md`.
 
 ---
 

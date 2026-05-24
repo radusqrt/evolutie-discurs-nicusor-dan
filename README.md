@@ -7,7 +7,7 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 **Subiect și goal**: vezi [`BRIEF.md`](./BRIEF.md).
 
 **Rezultate**:
-- [`results/FINDINGS.md`](./results/FINDINGS.md) — **21 findings sintetizate** după Pasul 1+2+3+4 + audit + fact-check independent
+- [`results/FINDINGS.md`](./results/FINDINGS.md) — **27 findings sintetizate** după Pasul 1-10 + audit + fact-check independent
 - [`results/04_promises/SINTEZA.md`](./results/04_promises/SINTEZA.md) — Promise Tracker complet per topic
 - [`results/04_promises/FACT_CHECK_realworld.md`](./results/04_promises/FACT_CHECK_realworld.md) + [`FACT_CHECK_policy.md`](./results/04_promises/FACT_CHECK_policy.md) — fact-check web pe 10 promisiuni
 - [`results/SINTEZA.md`](./results/SINTEZA.md) — sinteza inițială (pre-branching scris/vorbit)
@@ -136,7 +136,7 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 
 **Reducerea principală vine din Facebook** (-330 dups): Apify a returnat unele posturi de mai multe ori pe re-runs + există posturi quasi-identice (mesaje scurte de mulțumiri reposatete). YouTube pierde doar 84 documente (re-uploads cross-channel ale aceluiași clip).
 
-## Pipeline (10 pași)
+## Pipeline (11 pași)
 
 | # | Pas | Status | Script / Acțiune | Output |
 |---|---|---|---|---|
@@ -149,7 +149,8 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 | 7 | **Analyze (basic + TF-IDF)** | ✅ **verified** | `scripts/01_basic_analysis.py` (stats + wordclouds + top-N) + `scripts/02_tfidf_temporal.py` (TF-IDF per perioadă) | `results/01_basic_*/`, `results/02_tfidf_*/` (× 3 proiecții) |
 | 8 | **BERTopic** | ✅ **complete** | `scripts/03_bertopic.py` rulat în [Colab T4](./notebooks/03_bertopic_colab.ipynb) cu `multilingual-e5-large` + UMAP + HDBSCAN + c-TF-IDF | `results/03_bertopic_{overall,scris,vorbit}/` (26+7+8 topice descoperite + heatmap-uri temporale) |
 | 9 | **Promise Tracker** | ✅ **complete + audited + fact-checked** | `scripts/04_promises_extract.py` + `04b_dedupe.py` + `04c_match_classify.py` + `04d_synth.py` + `04e_audit.py` (Gemini 2.5 Flash + embedding mpnet retrieval) | `results/04_promises/SINTEZA.md`, `promise_status.csv`, `AUDIT_*.md`, `FACT_CHECK_*.md` (131 promisiuni, 20% KEPT classifier / 60% KEPT realitate) |
-| 10 | **Interpret** | ✅ **complete** | manual + audit dublu + fact-check independent (web search) | `results/FINDINGS.md` (21 findings) |
+| 10 | **Advanced analyses (SotA)** | ✅ **complete × 3 proiecții** | `scripts/05_discourse_complexity.py` (spaCy parser) + `06_hedging.py` (lexicon RO custom) + `07_semantic_drift.py` (mpnet centroids) + `08_ner_entities.py` (GLiNER multi-v2.1 zero-shot) + `08b_ner_clean.py` + `09_sentiment_per_entity.py` (Gemini 2.5 Flash) | `results/05_complexity_*/`, `06_hedging_*/`, `07_semantic_drift_*/`, `08_ner_*/`, `09_sentiment_per_entity_*/` (× 3 proiecții) |
+| 11 | **Interpret** | ✅ **complete** | manual + audit dublu + fact-check independent (web search) | `results/FINDINGS.md` (27 findings) |
 
 **Status verification**:
 
@@ -176,7 +177,16 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
   - **Fact-check independent web** (mai 2026) pe **10 promisiuni**: 5 PMB + 5 policy internă. **Rate KEPT real = 60% vs classifier 20% — subestimare factor 3×**. Promisiuni cu KEPT real confirmat: pensii speciale magistrați (CCR 6-3 + promulgare), DNA/DIICOT numire (apr 2026), cheltuieli militare (2.24% PIB + angajament 5%), 50km reabilitare tramvai, 8 șantiere consolidare clădiri.
   - **Insight metodologic**: classifier-ul măsoară DISCURSUL, nu REALITATEA. Pentru proiectele delegate (PMB sub Bujduveanu/Ciucu) și acțiuni concrete (decrete, promulgări), ND livrează semnificativ mai mult decât anunță în discurs. **Framing-ul corect: "ND livrează prin acțiune, nu prin discurs"**.
 
-Pașii 1-9 sunt verificați. Pasul 10 (Interpret) e curent (vezi FINDINGS.md cu 21 findings).
+- **Pasul 10 (Advanced analyses)** — 5 analize SotA rulate pe toate 3 proiecții (overall/scris/vorbit) cu 15 output-uri totale:
+  - **Discourse complexity**: sentence length, dependency tree depth, MTLD, TTR. FB diversifică lexicon dramatic post-mandat (MTLD 34→87), video stabil 42-54.
+  - **Hedging epistemic markers**: lexicon custom 35+ hedge / 24 cert / 19 personal. FB ratio 0.13-0.23 (categoric), video 0.51-1.06 (deliberativ) — **4-5× diferență**.
+  - **Semantic drift**: centroid embedding per (topic × perioadă). Top drift overall: brand `nicusorpresedinte` 0.37, Georgescu frame 0.32, justiție/CSM 0.30.
+  - **NER cu GLiNER multi-v2.1 zero-shot**: ~3,755 mențiuni overall (curate ~700 după aliasing). Top entități: ROMÂNIA, UCRAINA, SUA, NATO, UE, R. MOLDOVA, RUSIA, CSM, POLONIA, OCDE, GEORGESCU.
+  - **Sentiment per entitate × perioadă** cu Gemini 2.5 Flash. FB e 70% polarizat (pro/contra), video doar 36% polarizat. TRUMP = MIXT (nu pozitiv) în video; doar 5 sentimente NEGATIVE explicite în overall.
+
+**Insight major Pasul 10**: 3 piloni convergenți pentru ipoteza GHOSTWRITING FB — (1) hedging 4-5× diferit, (2) MTLD growth dramatică doar pe FB, (3) sentiment 2× mai polarizat pe FB. Plus (4) BERTopic 76% într-un singur mega-topic FB. ND e *un alt agent comunicativ* pe FB față de video.
+
+Pașii 1-10 sunt verificați. Pasul 11 (Interpret) curent — vezi FINDINGS.md cu 27 findings.
 
 ## Surse de date
 
