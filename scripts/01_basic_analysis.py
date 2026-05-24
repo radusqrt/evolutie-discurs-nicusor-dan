@@ -1,16 +1,21 @@
-"""Step 1: Basic stats + word clouds + top-N words per speech.
+"""Step 1: Basic stats + combined wordclouds + per-period wordclouds.
 
-Outputs land in results/01_basic/:
-  - summary.md           — corpus overview + top-20 words per speech
-  - stats.csv            — per-speech stats
-  - wordcloud_<id>.png   — one wordcloud per speech
-  - wordcloud_all.png    — combined wordcloud across corpus
-  - top20_<id>.png       — bar chart top 20 words per speech
+Per-doc PNGs au fost scoase (4000+ fișiere inutile la corpus mare). Acum
+generăm doar:
+  - stats.csv            — per-doc stats (id, data, tip, word count, TTR)
+  - summary.md           — tabel + top 30 cuvinte per perioadă + corpus
+  - wordcloud_all.png    — corpus combinat
+  - top30_all.png        — bar chart top 30 corpus
+  - wordcloud_<period>.png — câte unul per perioadă (6 perioade)
+  - top20_<period>.png   — top 20 cuvinte per perioadă
+
+Outputs land in results/01_basic_<PROJECTION>/ (controled by PROJECTION env var
+in corpus.py).
 """
 from __future__ import annotations
 
-from collections import Counter
 import os
+from collections import Counter
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -23,6 +28,23 @@ OUT = Path(__file__).resolve().parent.parent / "results" / f"01_basic_{os.getenv
 OUT.mkdir(parents=True, exist_ok=True)
 
 
+def period_for(date_str: str) -> str:
+    y, m = int(date_str[:4]), int(date_str[5:7])
+    if y == 2024 or (y == 2025 and m <= 2):
+        return "2024Q4-2025Q1 candidatură-precampanie"
+    if y == 2025 and m <= 5:
+        return "2025Q2 campanie + investitură"
+    if y == 2025 and m <= 8:
+        return "2025Q3 deficit + reforma economică"
+    if y == 2025 and m <= 11:
+        return "2025Q4 stabilizare + diplomație"
+    if y == 2025 and m == 12 or (y == 2026 and m <= 2):
+        return "2025Q4-2026Q1 reformă judiciară"
+    if y == 2026 and m <= 5:
+        return "2026Q2 cotitură UE + criză guvern"
+    return "outside-scope"
+
+
 def per_speech_stats(s: Speech) -> dict:
     raw_tokens = tokenize(s.nd_only_text, lemmatize=False, remove_stopwords=False)
     clean_lemmas = tokenize(s.nd_only_text, lemmatize=True, remove_stopwords=True)
@@ -30,6 +52,7 @@ def per_speech_stats(s: Speech) -> dict:
         "id": s.id,
         "data": s.date,
         "tip": s.tip,
+        "period": period_for(s.date),
         "n_words_raw": len(raw_tokens),
         "n_lemmas_clean": len(clean_lemmas),
         "n_unique_lemmas": len(set(clean_lemmas)),
@@ -42,18 +65,18 @@ def top_n(tokens: list[str], n: int = 20) -> list[tuple[str, int]]:
     return Counter(tokens).most_common(n)
 
 
+def slugify(period: str) -> str:
+    """Make period name a safe filename."""
+    return period.replace(" ", "_").replace("+", "and").replace(",", "").lower()
+
+
 def make_wordcloud(tokens: list[str], outpath: Path, title: str) -> None:
     freq = Counter(tokens)
     if not freq:
         return
     wc = WordCloud(
-        width=1400,
-        height=800,
-        background_color="white",
-        colormap="viridis",
-        prefer_horizontal=0.9,
-        max_words=120,
-        random_state=42,
+        width=1400, height=800, background_color="white", colormap="viridis",
+        prefer_horizontal=0.9, max_words=120, random_state=42,
     ).generate_from_frequencies(freq)
     fig, ax = plt.subplots(figsize=(14, 8))
     ax.imshow(wc, interpolation="bilinear")
@@ -64,12 +87,12 @@ def make_wordcloud(tokens: list[str], outpath: Path, title: str) -> None:
     plt.close(fig)
 
 
-def make_bar_top20(top: list[tuple[str, int]], outpath: Path, title: str) -> None:
+def make_bar_top(top: list[tuple[str, int]], outpath: Path, title: str) -> None:
     if not top:
         return
     words = [w for w, _ in top][::-1]
     counts = [c for _, c in top][::-1]
-    fig, ax = plt.subplots(figsize=(9, 7))
+    fig, ax = plt.subplots(figsize=(9, max(7, len(words) * 0.3)))
     ax.barh(words, counts, color="#3a86ff")
     ax.set_title(title, fontsize=14, pad=10)
     ax.set_xlabel("frecvență")
@@ -81,78 +104,76 @@ def make_bar_top20(top: list[tuple[str, int]], outpath: Path, title: str) -> Non
 
 
 def main() -> None:
-    import argparse
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--only-verified", action="store_true",
-                    help="Run only on files with verificat=true (pure ND voice).")
-    args = ap.parse_args()
-
+    projection = os.getenv("PROJECTION", "overall")
     speeches = load_corpus()
-    if args.only_verified:
-        speeches = [s for s in speeches if s.verificat]
-        suffix = "_verified"
-    else:
-        suffix = ""
-    print(f"Loaded {len(speeches)} speeches{' (verified only)' if args.only_verified else ''}.\n")
-    global OUT
-    if args.only_verified:
-        OUT = OUT.parent / f"01_basic_verified"
-        OUT.mkdir(parents=True, exist_ok=True)
+    print(f"Loaded {len(speeches)} speeches (projection={projection}).\n")
 
     # Per-speech stats
     rows = [per_speech_stats(s) for s in speeches]
     df = pd.DataFrame(rows)
     df.to_csv(OUT / "stats.csv", index=False)
-    print(df.to_string(index=False))
 
-    # Per-speech top-20 + wordclouds
-    per_speech_top: dict[str, list[tuple[str, int]]] = {}
+    # Tokenize once per speech, group by period
+    period_tokens: dict[str, list[str]] = {}
     all_tokens: list[str] = []
     for s in speeches:
         tokens = tokenize(s.nd_only_text, lemmatize=True, remove_stopwords=True)
         all_tokens.extend(tokens)
-        top = top_n(tokens, 20)
-        per_speech_top[s.id] = top
-        title = f"{s.date} · {s.tip}"
-        make_wordcloud(tokens, OUT / f"wordcloud_{s.id}.png", title)
-        make_bar_top20(top, OUT / f"top20_{s.id}.png", f"Top 20 — {title}")
+        period_tokens.setdefault(period_for(s.date), []).extend(tokens)
 
-    # Combined wordcloud
-    make_wordcloud(all_tokens, OUT / "wordcloud_all.png", "Corpus integral — wordcloud combinat")
+    # Combined corpus wordcloud + top 30
+    make_wordcloud(all_tokens, OUT / "wordcloud_all.png",
+                   f"Corpus integral ({projection}) — wordcloud combinat")
     combined_top = top_n(all_tokens, 30)
-    make_bar_top20(combined_top, OUT / "top20_all.png", "Top 30 — corpus integral")
+    make_bar_top(combined_top, OUT / "top30_all.png",
+                 f"Top 30 — corpus integral ({projection})")
 
-    # Markdown summary
+    # Per-period wordcloud + top 20
+    period_tops: dict[str, list[tuple[str, int]]] = {}
+    for period, toks in sorted(period_tokens.items()):
+        slug = slugify(period)
+        make_wordcloud(toks, OUT / f"wordcloud_{slug}.png",
+                       f"{period} — wordcloud ({projection})")
+        top = top_n(toks, 20)
+        period_tops[period] = top
+        make_bar_top(top, OUT / f"top20_{slug}.png",
+                     f"Top 20 — {period} ({projection})")
+
+    # Summary markdown
     lines: list[str] = []
-    lines.append("# Pasul 1 — Statistici de bază + word clouds\n")
-    lines.append("## Sumar corpus\n")
-    lines.append(df.to_markdown(index=False))
-    lines.append("\n## Top 20 cuvinte per discurs\n")
-    for s in speeches:
-        lines.append(f"### {s.date} — {s.tip}\n")
-        top = per_speech_top[s.id]
-        tbl = pd.DataFrame(top, columns=["cuvânt", "frecvență"])
-        lines.append(tbl.to_markdown(index=False))
-        lines.append("")
+    lines.append(f"# Pasul 1 — Statistici de bază ({projection})\n")
+    lines.append(f"**Documente**: {len(speeches)} | **Cuvinte raw**: {df['n_words_raw'].sum():,} | "
+                 f"**Lemmas clean**: {df['n_lemmas_clean'].sum():,}\n")
+    lines.append("\n## Sumar per perioadă\n")
+    period_stats = df.groupby("period").agg(
+        docs=("id", "count"),
+        words=("n_words_raw", "sum"),
+        lemmas=("n_lemmas_clean", "sum"),
+        unique_lemmas=("n_unique_lemmas", "sum"),
+    )
+    lines.append(period_stats.to_markdown())
     lines.append("\n## Top 30 cuvinte — corpus integral\n")
     lines.append(pd.DataFrame(combined_top, columns=["cuvânt", "frecvență"]).to_markdown(index=False))
-    lines.append("\n## Stopwords folosite\n")
-    sw = get_stopwords()
-    lines.append(f"Listă **stopwordsiso RO** ({len(sw)} cuvinte) + domain extras (cardinali, "
-                 "câteva auxiliare nestockate).\n")
+    lines.append("\n## Top 20 cuvinte per perioadă\n")
+    for period, top in period_tops.items():
+        n_docs = (df["period"] == period).sum()
+        lines.append(f"### {period} ({n_docs} docs)\n")
+        lines.append(pd.DataFrame(top, columns=["cuvânt", "frecvență"]).to_markdown(index=False))
+        lines.append("")
     lines.append("\n## Note metodologice\n")
-    lines.append("- **Tokenizare + lemmatizare**: spaCy `ro_core_news_sm`. Token-ele sunt reduse la "
-                 "lemma (formă canonică): `românia/româniei/român/români` → `românia`/`român`, "
-                 "`anunț/anunțul` → `anunța`, `săptămânile` → `săptămână`.")
-    lines.append("- **Stopwords**: `stopwordsiso` (RO) + extensii pentru cardinali și conjuncții "
-                 "scurte.")
-    lines.append("- **Numerele și punctuația** sunt eliminate; diacriticele cedilă (ş, ţ) sunt "
-                 "normalizate la virgulă-below (ș, ț).")
-    lines.append("- **TTR** (type-token ratio) e biased de lungime — discursurile scurte au TTR "
-                 "mai mare. Util doar comparativ pe lungimi similare.")
+    lines.append(f"- **Projection**: `{projection}` (sursă: `data/3_nd_{projection}/`)")
+    lines.append("- **Tokenizare + lemmatizare**: spaCy `ro_core_news_sm`, formă canonică.")
+    lines.append(f"- **Stopwords**: `stopwordsiso` RO ({len(get_stopwords())} cuvinte) + cardinali.")
+    lines.append("- **Numerele și punctuația** eliminate; diacriticele normalizate.")
+    lines.append("- **Per-doc PNG-uri NU se generează** la corpus mare — folosește `stats.csv` + "
+                 "`results/02_tfidf_<projection>/tfidf_top_per_doc.md` pentru inspecție per doc.")
 
     (OUT / "summary.md").write_text("\n".join(lines))
-    print(f"\nOutputs in: {OUT}/")
+    print(f"Outputs in: {OUT}/")
+    print(f"  - stats.csv ({len(speeches)} rows)")
+    print(f"  - summary.md")
+    print(f"  - wordcloud_all.png + top30_all.png")
+    print(f"  - wordcloud_<period>.png + top20_<period>.png × {len(period_tokens)}")
 
 
 if __name__ == "__main__":

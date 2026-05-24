@@ -60,7 +60,7 @@ flowchart TB
 
     PROJECT --> ND_V["🎤 <b>data/3_nd_vorbit/</b><br/>331 docs · 10,568 ND segs<br/>──────<br/>DOAR transcripturi video + discursuri<br/>(rostit oral)"]
 
-    ND_OV --> AN["📊 ANALIZĂ<br/>(Pasul 1: wordclouds<br/>Pasul 2: TF-IDF + bigrame + temporal)<br/>──────<br/>PROJECTION=overall (default)<br/>PROJECTION=scris<br/>PROJECTION=vorbit<br/>──────<br/>Clean (lemmatize+stopwords) și alte<br/>projections custom = runtime în corpus.py"]
+    ND_OV --> AN["📊 ANALIZĂ<br/>(Pasul 1: stats + 14 PNG-uri per projection<br/>combinat + per-perioadă, NU per-doc)<br/>(Pasul 2: TF-IDF + bigrame + temporal)<br/>──────<br/>PROJECTION=overall (default)<br/>PROJECTION=scris<br/>PROJECTION=vorbit<br/>──────<br/>Clean (lemmatize+stopwords) și alte<br/>projections custom = runtime în corpus.py"]
     ND_S --> AN
     ND_V --> AN
 
@@ -224,32 +224,29 @@ Transcripturile YouTube auto-generate au două formate frecvente:
 
 **Heuristic-ul a fost abandonat** după ce un audit a relevat 11.5% error rate pe TV anchor narrative (persoana III "Președintele a spus că..." labeled fals ca ND). LLM-ul rezolvă această ambiguitate fundamentală.
 
-## Regenerare rezultate (wordcloud-uri per document)
+## Regenerare rezultate
 
-Repo-ul **NU urcă pe Git** wordcloud-urile și bar chart-urile per-document (sunt 2,200+ fișiere PNG ~ 510 MB, regenerabile). Sunt git-ignorate prin pattern-ul:
+**Pasul 1** (`01_basic_analysis.py`) a fost refactorizat — **NU mai generează PNG-uri per-document** (la corpus de 1000+ docs sunt 4,000+ fișiere inutile). Acum produce pentru fiecare projection:
 
-```
-results/01_basic/wordcloud_2*.png
-results/01_basic/top20_2*.png
-```
+- `stats.csv` — tabel per-doc (id, data, tip, word count, TTR)
+- `summary.md` — sumar text + top 30 cuvinte corpus + top 20 per perioadă
+- `wordcloud_all.png` + `top30_all.png` — corpus combinat
+- `wordcloud_<period>.png` + `top20_<period>.png` × 6 perioade
 
-**Pe Git rămân** (lightweight, valoros):
+= **~14 fișiere** per projection (în loc de 2,200+).
 
-- `results/01_basic/summary.md` (top words per doc + corpus, tabelar)
-- `results/01_basic/stats.csv` (word counts + TTR per doc)
-- `results/01_basic/wordcloud_all.png` (wordcloud combinat pentru tot corpus-ul)
-- `results/01_basic/top20_all.png` (top 30 cuvinte din corpus-ul integral)
-- `results/02_tfidf/*` (TF-IDF complete + bigrame + perioade)
-- `results/SINTEZA.md` (narațiunea finală)
+**Pentru inspecție per-doc**: folosește `results/02_tfidf_<projection>/tfidf_top_per_doc.md` care are top 15 lemme distinctive pentru fiecare doc, în format markdown.
 
-**Pentru regenerare locală** (după ce clonezi repo-ul):
+**Regenerare**:
 
 ```bash
 source .venv/bin/activate
-python scripts/01_basic_analysis.py
+PROJECTION=overall python scripts/01_basic_analysis.py
+PROJECTION=scris python scripts/01_basic_analysis.py
+PROJECTION=vorbit python scripts/01_basic_analysis.py
 ```
 
-Asta produce **toate 2,200+ fișiere** PNG (~3-5 min CPU pentru 1,110 documente cu spaCy). Output în `results/01_basic/`.
+Toate (3 projections × Pasul 1 + Pasul 2) ~2-4 min total.
 
 ## Cum se rulează
 
