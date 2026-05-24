@@ -68,6 +68,10 @@ Nu este *un* președinte — sunt 3-4 segmente narative distincte.
 
 3. **Open data release**: corpus + scripts pe GitHub ca infrastructură pentru jurnaliști.
 
+## Verificări de calitate (post-projection)
+
+- **Dedup secundar pe ND-only**: verificat cu `scripts/check_nd_dup.py` — doar **4 perechi** cu Jaccard ≥ 0.85 din 835 docs substantive (≥20 token-uri unice). Toate sunt aceeași declarație publicată în 2 zile consecutive (conferința 2025-07-30/31, declarația Ucraina 2026-01-06/07, vizita Polonia 2026-03-05/06). Impact negligibil (0.5%), **nu se aplică al doilea dedup**.
+
 ## Întrebări deschise (drive next steps)
 
 - Care e *agenda lui coerentă* peste timp (nu doar lemme distinctive)? → **BERTopic** (Pasul 3).
