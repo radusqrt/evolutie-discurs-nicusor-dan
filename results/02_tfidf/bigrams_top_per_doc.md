@@ -10259,18 +10259,6 @@
 
 ## 2024-12-16 — video-transcript
 
-| bigramă                 |   frecvență |
-|:------------------------|------------:|
-| seara rud               |           1 |
-| rud novacovici          |           1 |
-| novacovici jurnalista   |           1 |
-| jurnalista euronews     |           1 |
-| euronews românia        |           1 |
-| românia vedere          |           1 |
-| vedere declarație       |           1 |
-| declarație controversat |           1 |
-| controversat călin      |           1 |
-| călin georgescu         |           1 |
 
 ## 2024-12-16 — video-transcript
 
@@ -10289,18 +10277,6 @@
 
 ## 2024-12-16 — video-transcript
 
-| bigramă              |   frecvență |
-|:---------------------|------------:|
-| curte constituțional |           3 |
-| anulare alegere      |           2 |
-| instituție stat      |           2 |
-| seara punct          |           1 |
-| punct vedere         |           1 |
-| vedere instituțional |           1 |
-| instituțional trebui |           1 |
-| trebui trage         |           1 |
-| trage răspundere     |           1 |
-| răspundere anulare   |           1 |
 
 ## 2024-12-16 — video-transcript
 
@@ -10574,18 +10550,6 @@
 
 ## 2025-02-16 — video-transcript
 
-| bigramă              |   frecvență |
-|:---------------------|------------:|
-| linie tramvai        |           4 |
-| centru comercial     |           3 |
-| transport public     |           3 |
-| aștepta lansare      |           3 |
-| tramvai bucurești    |           2 |
-| modernizare linie    |           2 |
-| lansare program      |           2 |
-| program operațional  |           2 |
-| operațional regional |           2 |
-| regional bucurești   |           2 |
 
 ## 2025-02-24 — video-transcript
 
@@ -11099,18 +11063,18 @@
 
 ## 2025-05-15 — video-transcript
 
-| bigramă             |   frecvență |
-|:--------------------|------------:|
-| implica campanie    |           2 |
-| mirabela grădinaru  |           1 |
-| grădinaru parteneră |           1 |
-| parteneră soție     |           1 |
-| soție nicușordan    |           1 |
-| nicușordan seara    |           1 |
-| seara mulțumi       |           1 |
-| mulțumi seara       |           1 |
-| seara dumneavoastră |           1 |
-| dumneavoastră seara |           1 |
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| implica campanie       |           2 |
+| mirabela grădinaru     |           1 |
+| grădinaru parteneră    |           1 |
+| parteneră soție        |           1 |
+| soție nicușordan       |           1 |
+| nicușordan seara       |           1 |
+| seara dumneavoastră    |           1 |
+| dumneavoastră perioadă |           1 |
+| perioadă complicat     |           1 |
+| complicat implica      |           1 |
 
 ## 2025-05-15 — video-transcript
 
@@ -11236,16 +11200,16 @@
 
 | bigramă            |   frecvență |
 |:-------------------|------------:|
-| nicușor dan        |          45 |
-| nicușor nicușor    |          29 |
+| nicușor dan        |          53 |
+| nicușor nicușor    |          31 |
+| george simion      |          15 |
+| președinte românia |          13 |
 | românia românia    |          13 |
-| george simion      |           9 |
-| președinte românia |           9 |
+| popor român        |          10 |
 | klaus iohannis     |           9 |
+| domn simion        |           9 |
+| sine întâmpla      |           9 |
 | unitate unitate    |           9 |
-| europa europa      |           9 |
-| popor român        |           8 |
-| sine întâmpla      |           8 |
 
 ## 2025-05-19 — video-transcript
 
@@ -11399,18 +11363,18 @@
 
 ## 2025-05-22 — video-transcript
 
-| bigramă           |   frecvență |
-|:------------------|------------:|
-| mesaj felicitare  |           2 |
-| georgiei meloni   |           2 |
-| muzică milogule   |           1 |
-| milogule ajuta    |           1 |
-| ajuta milogul     |           1 |
-| milogul ajunsesem |           1 |
-| ajunsesem duce    |           1 |
-| duce controla     |           1 |
-| controla cabină   |           1 |
-| cabină vot        |           1 |
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| afacere român      |           3 |
+| mesaj felicitare   |           2 |
+| georgiei meloni    |           2 |
+| afacere românia    |           2 |
+| român diasporă     |           2 |
+| trebui uita        |           2 |
+| ban sine           |           2 |
+| lua calcul         |           2 |
+| proces recalculare |           2 |
+| sine prezenta      |           2 |
 
 ## 2025-05-22 — video-transcript
 
@@ -11521,16 +11485,16 @@
 
 | bigramă            |   frecvență |
 |:-------------------|------------:|
-| nicușor dan        |          56 |
-| moment față        |          24 |
-| președinte nicușor |          22 |
-| doamnelor domn     |          21 |
-| extrem important   |          16 |
-| sine vrea          |          14 |
-| vedea vrea         |          12 |
-| vrea ajunge        |          11 |
-| important vedea    |          11 |
-| președinte ales    |          10 |
+| nicușor dan        |         146 |
+| președinte nicușor |          54 |
+| palat cotroceni    |          48 |
+| doamnelor domn     |          47 |
+| președinte românia |          38 |
+| moment față        |          37 |
+| ilie bolojan       |          35 |
+| sine vrea          |          34 |
+| extrem important   |          33 |
+| palat parlament    |          28 |
 
 ## 2025-05-26 — video-transcript
 
@@ -11566,31 +11530,31 @@
 
 | bigramă              |   frecvență |
 |:---------------------|------------:|
-| șef stat             |          10 |
-| nicușor dan          |           8 |
-| curte constituțional |           7 |
-| președinte românia   |           7 |
-| președinte ales      |           6 |
-| depune jurământ      |           5 |
-| palat parlament      |           5 |
-| putea vedea          |           5 |
-| vedea imagine        |           5 |
-| depunere jurământ    |           5 |
+| nicușor dan          |          92 |
+| palat cotroceni      |          48 |
+| ilie bolojan         |          37 |
+| președinte românia   |          33 |
+| curte constituțional |          21 |
+| șef stat             |          19 |
+| sine vrea            |          19 |
+| președinte interimar |          18 |
+| palat parlament      |          17 |
+| președinte ales      |          16 |
 
 ## 2025-05-26 — video-transcript
 
-| bigramă            |   frecvență |
-|:-------------------|------------:|
-| sine întâmpla      |           2 |
-| vrea ieși          |           1 |
-| ieși iată          |           1 |
-| iată ieși          |           1 |
-| ieși nicușor       |           1 |
-| nicușor dan        |           1 |
-| dan plen           |           1 |
-| plen încercui      |           1 |
-| încercui jurnalist |           1 |
-| jurnalist asculta  |           1 |
+| bigramă                |   frecvență |
+|:-----------------------|------------:|
+| vrea discuta           |           4 |
+| majoritate parlamentar |           3 |
+| bun discuție           |           3 |
+| discuție tehnic        |           3 |
+| vrea vrea              |           3 |
+| partid politic         |           2 |
+| domn președinte        |           2 |
+| guvern sprijini        |           2 |
+| sprijini majoritate    |           2 |
+| sine întâmpla          |           2 |
 
 ## 2025-05-26 — video-transcript
 
@@ -11624,18 +11588,18 @@
 
 ## 2025-05-28 — video-transcript
 
-| bigramă          |   frecvență |
-|:-----------------|------------:|
-| sta discuție     |           1 |
-| discuție cotu    |           1 |
-| cotu discuție    |           1 |
-| discuție tehnic  |           1 |
-| tehnic găsi      |           1 |
-| găsi loc         |           1 |
-| loc putea        |           1 |
-| putea tăiem      |           1 |
-| tăiem cheltuială |           1 |
-| cheltuială stat  |           1 |
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| premier tehnocrat |           2 |
+| tehnocrat exista  |           2 |
+| exista variantă   |           2 |
+| sta discuție      |           1 |
+| discuție cotu     |           1 |
+| cotu discuție     |           1 |
+| discuție tehnic   |           1 |
+| tehnic găsi       |           1 |
+| găsi loc          |           1 |
+| loc putea         |           1 |
 
 ## 2025-05-29 — video-transcript
 
@@ -11714,33 +11678,33 @@
 
 ## 2025-06-02 — video-transcript
 
-| bigramă          |   frecvență |
-|:-----------------|------------:|
-| nicușor dan      |          14 |
-| intra guvernare  |           8 |
-| sine părea       |           6 |
-| domn profesor    |           5 |
-| domn bolojan     |           5 |
-| psd sine         |           5 |
-| guvern minoritar |           5 |
-| crede vrea       |           4 |
-| ilie bolojan     |           4 |
-| vrea intra       |           4 |
+| bigramă         |   frecvență |
+|:----------------|------------:|
+| george simion   |          33 |
+| nicușor dan     |          20 |
+| domn profesor   |          11 |
+| sine părea      |          11 |
+| sine duce       |           9 |
+| sine vrea       |           8 |
+| intra guvernare |           8 |
+| deficit bugetar |           8 |
+| sine întâmpla   |           8 |
+| domn simion     |           8 |
 
 ## 2025-06-02 — video-transcript
 
-| bigramă                     |   frecvență |
-|:----------------------------|------------:|
-| gata gata                   |           2 |
-| flanc estic                 |           2 |
-| război hibrid               |           2 |
-| cheltuială militar          |           2 |
-| militar produsinternbrut    |           2 |
-| produsinternbrut cheltuială |           2 |
-| gata începe                 |           1 |
-| începe spune                |           1 |
-| spune devreme               |           1 |
-| devreme bucurești           |           1 |
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| spune vrea        |           5 |
+| românia vrea      |           4 |
+| violență domestic |           4 |
+| flanc estic       |           3 |
+| sine vrea         |           3 |
+| românia polonia   |           3 |
+| voiam întreba     |           3 |
+| reducere deficit  |           3 |
+| vrea vrea         |           3 |
+| evaziune fiscal   |           3 |
 
 ## 2025-06-03 — video-transcript
 
@@ -11789,18 +11753,18 @@
 
 ## 2025-06-04 — video-transcript
 
-| bigramă             |   frecvență |
-|:--------------------|------------:|
-| grup lucru          |           3 |
-| formare guvern      |           2 |
-| reprezentant partid |           2 |
-| săptămână trecut    |           2 |
-| trecut lucra        |           2 |
-| program guvernare   |           2 |
-| prim schiță         |           2 |
-| începe discuție     |           2 |
-| discuta nume        |           2 |
-| politic vrea        |           2 |
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| serviciu informație  |          12 |
+| curte constituțional |          10 |
+| evaziune fiscal      |           9 |
+| sine putea           |           9 |
+| comisie european     |           8 |
+| stat român           |           7 |
+| vrea întreba         |           6 |
+| stat unit            |           6 |
+| serviciu secret      |           5 |
+| moment față          |           5 |
 
 ## 2025-06-04 — video-transcript
 
@@ -11819,23 +11783,33 @@
 
 ## 2025-06-04 — video-transcript
 
-| bigramă            |   frecvență |
-|:-------------------|------------:|
-| octavian vasilescu |           1 |
-| vasilescu euronews |           1 |
-| euronews românia   |           1 |
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| măsură vrea         |           3 |
+| trebui plăti        |           3 |
+| cheltuială stat     |           2 |
+| stat crește         |           2 |
+| crește față         |           2 |
+| comisie european    |           2 |
+| plăti împrumut      |           2 |
+| vedea minister      |           1 |
+| minister finanțelor |           1 |
+| finanțelor arăta    |           1 |
 
 ## 2025-06-04 — video-transcript
 
-| bigramă            |   frecvență |
-|:-------------------|------------:|
-| președinte nicușor |           1 |
-| nicușor dan        |           1 |
-| dan vorbi          |           1 |
-| vorbi măsură       |           1 |
-| măsură analogie    |           1 |
-| analogie pizza     |           1 |
-| pizza interesant   |           1 |
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| măsură vrea          |           3 |
+| președinte nicușor   |           2 |
+| nicușor dan          |           2 |
+| analogie pizza       |           2 |
+| impozit profit       |           2 |
+| creștere tva         |           2 |
+| sal rom              |           2 |
+| eliminare facilitate |           2 |
+| dan vorbi            |           1 |
+| vorbi măsură         |           1 |
 
 ## 2025-06-04 — video-transcript
 
@@ -11869,6 +11843,18 @@
 
 ## 2025-06-05 — video-transcript
 
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| termen lung        |           3 |
+| lanț agroalimentar |           3 |
+| gestiune risc      |           3 |
+| program național   |           3 |
+| program formare    |           3 |
+| salut tip          |           3 |
+| club fermierilor   |           2 |
+| fermierilor român  |           2 |
+| masă rotund        |           2 |
+| sector privat      |           2 |
 
 ## 2025-06-09 — video-transcript
 
@@ -11934,16 +11920,16 @@
 
 | bigramă           |   frecvență |
 |:------------------|------------:|
+| impozit progresiv |          19 |
 | cass pensie       |          11 |
+| cotă unic         |          11 |
+| punct vedere      |          11 |
+| domn budăi        |          10 |
 | putea spune       |           9 |
 | pensie ron        |           8 |
-| domn budăi        |           7 |
-| cotă unic         |           6 |
-| impozit progresiv |           6 |
-| domn mihaiu       |           5 |
-| domn muraru       |           5 |
-| uniune european   |           5 |
-| tranzacție bancar |           5 |
+| domn muraru       |           7 |
+| uniune european   |           7 |
+| linie roșu        |           6 |
 
 ## 2025-06-11 — video-transcript
 
@@ -12010,15 +11996,15 @@
 | bigramă            |   frecvență |
 |:-------------------|------------:|
 | program guvernare  |           3 |
-| republică moldova  |           3 |
 | trebui explica     |           3 |
 | miliard euro       |           2 |
 | comisie european   |           2 |
 | împrumut ieftin    |           2 |
 | asuma măsură       |           2 |
-| domn președinte    |           2 |
 | spune devreme      |           2 |
 | republicii moldova |           2 |
+| românia putea      |           2 |
+| loc muncă          |           2 |
 
 ## 2025-06-26 — video-transcript
 
@@ -12037,18 +12023,18 @@
 
 ## 2025-07-14 — video-transcript
 
-| bigramă              |   frecvență |
-|:---------------------|------------:|
-| domn președinte      |           7 |
-| milion ron           |           6 |
-| stat român           |           6 |
-| vrea rămâne          |           5 |
-| alegere local        |           5 |
-| conferință presă     |           4 |
-| spune oară           |           4 |
-| decât salariu        |           4 |
-| extrem extrem        |           4 |
-| alegere prezidențial |           4 |
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| stat român                 |          13 |
+| curte constituțional       |          10 |
+| milion ron                 |           9 |
+| spune devreme              |           8 |
+| administrație prezidențial |           7 |
+| conferință presă           |           6 |
+| comisie european           |           6 |
+| putea spune                |           6 |
+| pachet măsură              |           6 |
+| milion euro                |           6 |
 
 ## 2025-07-14 — video-transcript
 
@@ -12249,31 +12235,31 @@
 
 | bigramă           |   frecvență |
 |:------------------|------------:|
+| stat român        |           8 |
 | cerere pensionară |           7 |
 | certificat ornis  |           7 |
-| domn președinte   |           7 |
-| stat român        |           6 |
+| spune devreme     |           6 |
+| ilie bolojan      |           6 |
 | ședință csm       |           5 |
 | sine pensiona     |           5 |
 | sine putea        |           5 |
+| dragoș anastasiu  |           5 |
 | calitate act      |           4 |
-| act justiție      |           4 |
-| alege rămâne      |           4 |
 
 ## 2025-07-30 — video-transcript
 
-| bigramă           |   frecvență |
-|:------------------|------------:|
-| domn președinte   |          16 |
-| cerere pensionară |           9 |
-| sine vrea         |           9 |
-| spune devreme     |           9 |
-| vrea întreba      |           9 |
-| sine pensiona     |           7 |
-| sine întâmpla     |           7 |
-| certificat ornis  |           7 |
-| stat român        |           7 |
-| ședință csm       |           6 |
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| cerere pensionară          |           9 |
+| sine vrea                  |           9 |
+| spune devreme              |           9 |
+| stat român                 |           9 |
+| sine pensiona              |           7 |
+| sine întâmpla              |           7 |
+| certificat ornis           |           7 |
+| spune vrea                 |           6 |
+| dragoș anastasiu           |           6 |
+| administrație prezidențial |           6 |
 
 ## 2025-07-30 — video-transcript
 
@@ -12292,18 +12278,18 @@
 
 ## 2025-07-31 — video-transcript
 
-| bigramă           |   frecvență |
-|:------------------|------------:|
-| domn președinte   |          16 |
-| sine vrea         |           9 |
-| spune devreme     |           9 |
-| vrea întreba      |           9 |
-| cerere pensionară |           8 |
-| sine pensiona     |           7 |
-| sine întâmpla     |           7 |
-| certificat ornis  |           7 |
-| stat român        |           7 |
-| ședință csm       |           6 |
+| bigramă                    |   frecvență |
+|:---------------------------|------------:|
+| sine vrea                  |           9 |
+| spune devreme              |           9 |
+| stat român                 |           9 |
+| cerere pensionară          |           8 |
+| sine pensiona              |           7 |
+| sine întâmpla              |           7 |
+| certificat ornis           |           7 |
+| spune vrea                 |           6 |
+| administrație prezidențial |           6 |
+| domn anastasiu             |           6 |
 
 ## 2025-07-31 — video-transcript
 
@@ -12397,18 +12383,18 @@
 
 ## 2025-09-02 — video-transcript
 
-| bigramă         |   frecvență |
-|:----------------|------------:|
-| ști ști         |           5 |
-| thank you       |           3 |
-| domn președinte |           3 |
-| port constanța  |           3 |
-| program safe    |           3 |
-| termen lung     |           3 |
-| miliard euro    |           3 |
-| european vrea   |           3 |
-| sine lua        |           2 |
-| trebui auzi     |           2 |
+| bigramă        |   frecvență |
+|:---------------|------------:|
+| ști ști        |           5 |
+| thank you      |           3 |
+| port constanța |           3 |
+| program safe   |           3 |
+| termen lung    |           3 |
+| miliard euro   |           3 |
+| european vrea  |           3 |
+| sine lua       |           2 |
+| trebui auzi    |           2 |
+| porni porni    |           2 |
 
 ## 2025-09-03 — video-transcript
 
@@ -12472,6 +12458,18 @@
 
 ## 2025-09-10 — video-transcript
 
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| vrea mulțumi       |           2 |
+| exista motiv       |           2 |
+| anumit lucru       |           2 |
+| rând aduce         |           1 |
+| aduce aminte       |           1 |
+| aminte ultim       |           1 |
+| ultim interacțiune |           1 |
+| interacțiune cred  |           1 |
+| cred primar        |           1 |
+| primar destul      |           1 |
 
 ## 2025-09-10 — video-transcript
 
@@ -12655,33 +12653,33 @@
 
 ## 2025-09-25 — video-transcript
 
-| bigramă             |   frecvență |
-|:--------------------|------------:|
-| președinte românia  |           6 |
-| putea spune         |           6 |
-| domn președinte     |           5 |
-| sine vrea           |           4 |
-| vrea ști            |           4 |
-| parchet general     |           4 |
-| intra război        |           4 |
-| vrea vrea           |           4 |
-| securitate național |           4 |
-| partid coaliție     |           4 |
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| călin georgescu      |           8 |
+| președinte românia   |           6 |
+| putea spune          |           6 |
+| curte constituțional |           6 |
+| vrea ști             |           5 |
+| domn președinte      |           5 |
+| stat român           |           5 |
+| vrea vrea            |           5 |
+| securitate național  |           5 |
+| sine vrea            |           4 |
 
 ## 2025-09-25 — video-transcript
 
-| bigramă             |   frecvență |
-|:--------------------|------------:|
-| domn președinte     |           9 |
-| putea spune         |           8 |
-| vrea ști            |           6 |
-| călin georgescu     |           6 |
-| președinte românia  |           5 |
-| sine vrea           |           4 |
-| parchet general     |           4 |
-| intra război        |           4 |
-| securitate național |           4 |
-| partid coaliție     |           4 |
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| călin georgescu      |          13 |
+| putea spune          |          11 |
+| președinte românia   |           9 |
+| curte constituțional |           9 |
+| domn președinte      |           8 |
+| sine vrea            |           6 |
+| vrea ști             |           6 |
+| securitate național  |           6 |
+| ilie bolojan         |           6 |
+| prim ministru        |           6 |
 
 ## 2025-09-26 — video-transcript
 
@@ -12852,16 +12850,16 @@
 
 | bigramă              |   frecvență |
 |:---------------------|------------:|
+| plan acțiune         |           4 |
+| sine vrea            |           4 |
 | stat membră          |           3 |
 | sine discuta         |           3 |
 | important românia    |           2 |
-| plan acțiune         |           2 |
 | ucraina discuție     |           2 |
 | sine putea           |           2 |
 | putea folosi         |           2 |
 | membră discuție      |           2 |
 | competitivitate sine |           2 |
-| moldova uniune       |           2 |
 
 ## 2025-10-23 — video-transcript
 
@@ -12913,15 +12911,15 @@
 | bigramă           |   frecvență |
 |:------------------|------------:|
 | vrea merge        |           8 |
-| domn președinte   |           5 |
 | stat unit         |           4 |
-| președinte vrea   |           4 |
 | merge vrea        |           4 |
 | usr bucurești     |           3 |
+| președinte vrea   |           3 |
 | primărie capitală |           2 |
 | invitație usr     |           2 |
-| președinte domn   |           2 |
 | punct vedere      |           2 |
+| trupe american    |           2 |
+| merge casă        |           2 |
 
 ## 2025-11-06 — video-transcript
 
@@ -12987,8 +12985,8 @@
 
 | bigramă            |   frecvență |
 |:-------------------|------------:|
-| domn general       |           5 |
 | acțiune militar    |           5 |
+| domn general       |           4 |
 | stare stare        |           4 |
 | spațiu aerian      |           3 |
 | cauză condiție     |           3 |
@@ -13032,31 +13030,31 @@
 
 | bigramă             |   frecvență |
 |:--------------------|------------:|
-| stat român          |           9 |
-| sine vrea           |           8 |
-| sine întâmpla       |           7 |
-| domn președinte     |           7 |
-| strategie național  |           4 |
-| național apărare    |           4 |
-| zonă economic       |           4 |
-| chestiune ține      |           4 |
-| fenomen corupție    |           4 |
-| serviciu informație |           4 |
+| stat român          |          13 |
+| sine vrea           |          11 |
+| strategie național  |           9 |
+| național apărare    |           9 |
+| sine întâmpla       |           9 |
+| sistem justiție     |           8 |
+| fenomen corupție    |           6 |
+| serviciu informație |           6 |
+| putea spune         |           6 |
+| sine părea          |           6 |
 
 ## 2025-11-12 — video-transcript
 
-| bigramă            |   frecvență |
-|:-------------------|------------:|
-| sine vrea          |           9 |
-| salariu minim      |           5 |
-| strategie național |           5 |
-| stat român         |           5 |
-| sine întâmpla      |           5 |
-| domn președinte    |           5 |
-| serviciu secret    |           5 |
-| bun găsit          |           4 |
-| sine pune          |           4 |
-| energie electric   |           4 |
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| sine vrea           |          10 |
+| strategie național  |          10 |
+| național apărare    |          10 |
+| stat român          |           7 |
+| sine întâmpla       |           7 |
+| salariu minim       |           6 |
+| fenomen corupție    |           6 |
+| serviciu informație |           6 |
+| sine putea          |           6 |
+| serviciu secret     |           6 |
 
 ## 2025-11-12 — video-transcript
 
@@ -13083,10 +13081,10 @@
 | rusia dori           |           2 |
 | dori pace            |           2 |
 | decât august         |           2 |
-| octavian vasilescu   |           1 |
-| vasilescu euronews   |           1 |
-| euronews românia     |           1 |
-| românia domn         |           1 |
+| bun întâi            |           1 |
+| întâi răspuns        |           1 |
+| răspuns întrebare    |           1 |
+| întrebare rând       |           1 |
 
 ## 2025-11-12 — video-transcript
 
@@ -13140,13 +13138,13 @@
 | sine întâmpla        |           8 |
 | sine duce            |           6 |
 | sine vrea            |           4 |
-| domn președinte      |           4 |
 | spune spune          |           4 |
 | trebui sine          |           4 |
 | lege salarizare      |           4 |
 | stat român           |           3 |
 | curte constituțional |           3 |
 | vrea discuta         |           3 |
+| vrea loc             |           3 |
 
 ## 2025-11-21 — video-transcript
 
@@ -13232,11 +13230,11 @@
 | armată românia     |           4 |
 | paradă militar     |           3 |
 | militar național   |           3 |
-| doamnelor domn     |           3 |
 | câmp luptă         |           3 |
 | începe defilare    |           3 |
 | război mondial     |           3 |
 | președinte românia |           2 |
+| șef stat           |           2 |
 
 ## 2025-12-01 — video-transcript
 
@@ -13302,16 +13300,16 @@
 
 | bigramă          |   frecvență |
 |:-----------------|------------:|
-| domn președinte  |           6 |
+| domn președinte  |           5 |
 | moment față      |           4 |
 | spațiu public    |           4 |
-| președinte spune |           3 |
 | cătălin drulă    |           3 |
 | pericol sine     |           3 |
 | sine întâmpla    |           3 |
 | domn moșteanu    |           3 |
 | ministru apărare |           3 |
 | sine cere        |           2 |
+| ultim săptămână  |           2 |
 
 ## 2025-12-03 — video-transcript
 
@@ -13480,18 +13478,18 @@
 
 ## 2025-12-10 — video-transcript
 
-| bigramă         |   frecvență |
-|:----------------|------------:|
-| uniune european |          52 |
-| stat unit       |          47 |
-| donald trump    |          16 |
-| federație rus   |          12 |
-| sine întâmpla   |          12 |
-| social medie    |          10 |
-| nicușor dan     |           9 |
-| vrea vrea       |           9 |
-| moment față     |           9 |
-| sine putea      |           9 |
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| uniune european     |          55 |
+| stat unit           |          49 |
+| donald trump        |          16 |
+| social medie        |          14 |
+| sine întâmpla       |          13 |
+| federație rus       |          12 |
+| libertate exprimare |          12 |
+| moment față         |          10 |
+| nicușor dan         |           9 |
+| vrea vrea           |           9 |
 
 ## 2025-12-11 — video-transcript
 
@@ -13587,16 +13585,16 @@
 
 | bigramă          |   frecvență |
 |:-----------------|------------:|
+| flanc estic      |           4 |
+| program european |           4 |
 | război ucraina   |           3 |
 | sistem justiție  |           3 |
-| ministru mediu   |           3 |
 | vrea continua    |           2 |
 | continua nivel   |           2 |
+| bun rând         |           2 |
+| zonă militar     |           2 |
 | sine vrea        |           2 |
 | vrea încheia     |           2 |
-| încheia pace     |           2 |
-| amenințare rusia |           2 |
-| rusia rămâne     |           2 |
 
 ## 2025-12-16 — video-transcript
 
@@ -13630,18 +13628,18 @@
 
 ## 2025-12-17 — video-transcript
 
-| bigramă           |   frecvență |
-|:------------------|------------:|
-| reformă însemna   |           3 |
-| vrea transpune    |           3 |
-| sine vrea         |           3 |
-| vrea întreba      |           3 |
-| situație justiție |           3 |
-| domn președinte   |           2 |
-| impozit local     |           2 |
-| vrea cere         |           2 |
-| cere lider        |           2 |
-| lider coaliție    |           2 |
+| bigramă               |   frecvență |
+|:----------------------|------------:|
+| reformă însemna       |           3 |
+| vrea transpune        |           3 |
+| impozit local         |           2 |
+| vrea cere             |           2 |
+| cere lider            |           2 |
+| lider coaliție        |           2 |
+| coaliție grăbi        |           2 |
+| grăbi discuție        |           2 |
+| reformă administrație |           2 |
+| niciun impozit        |           2 |
 
 ## 2025-12-17 — video-transcript
 
@@ -13660,18 +13658,18 @@
 
 ## 2025-12-17 — video-transcript
 
-| bigramă          |   frecvență |
-|:-----------------|------------:|
-| sine vrea        |           4 |
-| sistem justiție  |           3 |
-| lucru trebui     |           3 |
-| salariu minim    |           3 |
-| magistrat spune  |           2 |
-| spune spune      |           2 |
-| spune problemă   |           2 |
-| chestiune serios |           2 |
-| vrea exprima     |           2 |
-| exprima public   |           2 |
+| bigramă            |   frecvență |
+|:-------------------|------------:|
+| sistem justiție    |           3 |
+| lucru trebui       |           3 |
+| salariu minim      |           3 |
+| magistrat spune    |           2 |
+| spune spune        |           2 |
+| spune problemă     |           2 |
+| chestiune serios   |           2 |
+| vrea exprima       |           2 |
+| exprima public     |           2 |
+| problemă inspecție |           2 |
 
 ## 2025-12-18 — video-transcript
 
@@ -13725,28 +13723,28 @@
 | centru dreaptă       |           3 |
 | interior partid      |           3 |
 | spațiu public        |           2 |
-| domn președinte      |           2 |
 | domn miruță          |           2 |
 | fapt corupție        |           2 |
 | problemă fundamental |           2 |
 | pol politic          |           2 |
 | politic centru       |           2 |
 | ilie bolojan         |           2 |
+| sine vrea            |           2 |
 
 ## 2025-12-18 — video-transcript
 
-| bigramă              |   frecvență |
-|:---------------------|------------:|
-| vrea discuta         |           3 |
-| spațiu public        |           3 |
-| balcanii vest        |           2 |
-| membru consiliu      |           2 |
-| public problemă      |           2 |
-| problemă sistem      |           2 |
-| public spune         |           2 |
-| domn miruță          |           2 |
-| problemă fundamental |           2 |
-| curs întreg          |           1 |
+| bigramă          |   frecvență |
+|:-----------------|------------:|
+| spațiu public    |           3 |
+| domn miruță      |           3 |
+| fapt corupție    |           3 |
+| balcanii vest    |           2 |
+| membru consiliu  |           2 |
+| ucraina discuție |           2 |
+| public problemă  |           2 |
+| problemă sistem  |           2 |
+| public spune     |           2 |
+| activ rusesc     |           2 |
 
 ## 2025-12-19 — video-transcript
 
@@ -13789,9 +13787,9 @@
 | sine întâlni        |           3 |
 | fapt problemă       |           3 |
 | înalt curte         |           3 |
-| domn țăranu         |           2 |
 | parte nicușor       |           2 |
 | situație grav       |           2 |
+| crede vrea          |           2 |
 
 ## 2025-12-21 — video-transcript
 
@@ -13872,16 +13870,16 @@
 
 | bigramă            |   frecvență |
 |:-------------------|------------:|
-| punct vedere       |          30 |
-| sine putea         |          22 |
+| punct vedere       |          31 |
+| sine putea         |          24 |
 | înalt curte        |          21 |
-| domn președinte    |          20 |
-| sine întâmpla      |          18 |
+| sine întâmpla      |          19 |
+| minister public    |          19 |
+| secție procuror    |          18 |
 | curte apel         |          18 |
-| minister public    |          16 |
-| sistem judiciar    |          14 |
-| inspecție judiciar |          14 |
-| secție procuror    |          14 |
+| sistem judiciar    |          17 |
+| domn președinte    |          16 |
+| inspecție judiciar |          15 |
 
 ## 2025-12-22 — video-transcript
 
@@ -13962,16 +13960,16 @@
 
 | bigramă             |   frecvență |
 |:--------------------|------------:|
-| stat unit           |           5 |
-| garanție securitate |           4 |
-| coaliție voință     |           3 |
+| garanție securitate |           9 |
+| sine părea          |           7 |
+| sine vrea           |           7 |
+| stat unit           |           6 |
+| coaliție voință     |           4 |
+| ajuta ucraina       |           3 |
 | același lucru       |           3 |
+| românia vrea        |           3 |
+| bun rând            |           3 |
 | mecanism răspuns    |           3 |
-| stat participa      |           2 |
-| participa coaliție  |           2 |
-| șef stat            |           2 |
-| stat major          |           2 |
-| unit parte          |           2 |
 
 ## 2026-01-06 — video-transcript
 
@@ -14007,16 +14005,16 @@
 
 | bigramă             |   frecvență |
 |:--------------------|------------:|
-| garanție securitate |           6 |
-| sine părea          |           5 |
+| garanție securitate |           9 |
+| sine părea          |           7 |
+| sine vrea           |           7 |
+| stat unit           |           6 |
+| coaliție voință     |           5 |
 | taxă local          |           4 |
 | plăti taxă          |           4 |
-| seara domn          |           3 |
 | conferință presă    |           3 |
-| coaliție voință     |           3 |
+| președinte românia  |           3 |
 | nicușor dan         |           3 |
-| șef stat            |           3 |
-| același lucru       |           3 |
 
 ## 2026-01-07 — video-transcript
 
@@ -14131,12 +14129,12 @@
 | europa românia        |           2 |
 | poziție românia       |           2 |
 | românia parte         |           2 |
-| pregăti lua           |           2 |
-| scenari unire         |           2 |
 | important dialog      |           2 |
 | public important      |           2 |
 | consiliu european     |           1 |
 | european informal     |           1 |
+| informal obiect       |           1 |
+| obiect relație        |           1 |
 
 ## 2026-01-23 — video-transcript
 
@@ -14292,16 +14290,16 @@
 
 | bigramă            |   frecvență |
 |:-------------------|------------:|
-| ilie bolojan       |           7 |
-| stat unit          |           7 |
-| uniune european    |           6 |
-| prim ministru      |           5 |
-| sine întâmpla      |           5 |
-| președinte românia |           4 |
-| partid social      |           4 |
-| domn președinte    |           3 |
-| lua decizie        |           3 |
-| social democrat    |           3 |
+| stat unit          |          12 |
+| uniune european    |          11 |
+| ilie bolojan       |           8 |
+| sine întâmpla      |           8 |
+| lua decizie        |           6 |
+| punct vedere       |           6 |
+| impozit local      |           6 |
+| impozit venit      |           6 |
+| primărie capitală  |           6 |
+| președinte românia |           5 |
 
 ## 2026-01-30 — video-transcript
 
@@ -14395,18 +14393,18 @@
 
 ## 2026-02-12 — video-transcript
 
-| bigramă           |   frecvență |
-|:------------------|------------:|
-| stat unit         |           4 |
-| preț energie      |           4 |
-| sine vrea         |           4 |
-| țară european     |           3 |
-| piață unic        |           3 |
-| domn președinte   |           3 |
-| europa viteză     |           3 |
-| parte american    |           3 |
-| consiliu european |           2 |
-| componentă intern |           2 |
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| stat unit            |           4 |
+| preț energie         |           4 |
+| sine vrea            |           4 |
+| țară european        |           3 |
+| piață unic           |           3 |
+| parte american       |           3 |
+| componentă intern    |           2 |
+| diferit reglementare |           2 |
+| companie stat        |           2 |
+| cercetare dezvoltare |           2 |
 
 ## 2026-02-12 — video-transcript
 
@@ -14414,14 +14412,14 @@
 |:-------------------|------------:|
 | piață unic         |           6 |
 | stat unit          |           6 |
-| preț energie       |           5 |
-| uniune european    |           5 |
-| energie electric   |           4 |
+| uniune european    |           6 |
+| preț energie       |           4 |
 | comisie angaja     |           3 |
 | angaja veni        |           3 |
 | lea regim          |           3 |
 | parte simplificare |           3 |
 | constitui companie |           3 |
+| sine întâmpla      |           3 |
 
 ## 2026-02-12 — video-transcript
 
@@ -14440,18 +14438,18 @@
 
 ## 2026-02-12 — video-transcript
 
-| bigramă          |   frecvență |
-|:-----------------|------------:|
-| stat unit        |           9 |
-| sine întâmpla    |           7 |
-| uniune european  |           7 |
-| piață unic       |           6 |
-| spațiu public    |           6 |
-| sine părea       |           6 |
-| preț energie     |           5 |
-| moment față      |           5 |
-| energie electric |           4 |
-| unit america     |           4 |
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| stat unit            |           9 |
+| uniune european      |           8 |
+| sine întâmpla        |           7 |
+| piață unic           |           6 |
+| spațiu public        |           6 |
+| sine părea           |           6 |
+| moment față          |           5 |
+| preț energie         |           4 |
+| unit america         |           4 |
+| curte constituțional |           4 |
 
 ## 2026-02-12 — video-transcript
 
@@ -14488,30 +14486,30 @@
 | bigramă           |   frecvență |
 |:------------------|------------:|
 | posibil întâlnire |           3 |
-| partener american |           2 |
 | președinte donald |           2 |
 | donald trump      |           2 |
 | putea statut      |           2 |
 | exista discuție   |           2 |
 | discuție minut    |           2 |
-| seara vasile      |           1 |
-| vasile marcu      |           1 |
-| marcu antena      |           1 |
+| discuție partener |           1 |
+| partener american |           1 |
+| american subiect  |           1 |
+| subiect exista    |           1 |
 
 ## 2026-02-13 — video-transcript
 
 | bigramă              |   frecvență |
 |:---------------------|------------:|
 | stat unit            |           9 |
+| uniune european      |           7 |
 | sine întâmpla        |           6 |
 | piață unic           |           6 |
-| uniune european      |           6 |
 | spațiu public        |           6 |
 | sine părea           |           6 |
-| energie electric     |           4 |
 | unit america         |           4 |
 | moment față          |           4 |
 | curte constituțional |           3 |
+| putea spune          |           3 |
 
 ## 2026-02-13 — video-transcript
 
@@ -14577,31 +14575,31 @@
 
 | bigramă            |   frecvență |
 |:-------------------|------------:|
-| stat unit          |           8 |
+| stat unit          |           7 |
 | uniune european    |           3 |
 | partener strategic |           2 |
 | zonă lume          |           2 |
 | chestiune politețe |           2 |
 | românia stat       |           2 |
-| spațiu public      |           2 |
 | spune devreme      |           2 |
 | încă campanie      |           2 |
 | campanie electoral |           2 |
+| electoral alege    |           2 |
 
 ## 2026-02-19 — video-transcript
 
-| bigramă            |   frecvență |
-|:-------------------|------------:|
-| punct vedere       |           7 |
-| putea spune        |           7 |
-| moment față        |           6 |
-| domn președinte    |           4 |
-| stat unit          |           4 |
-| președinte trump   |           4 |
-| american românia   |           3 |
-| trebui urma        |           3 |
-| relație bilateral  |           3 |
-| președinte mulțumi |           2 |
+| bigramă             |   frecvență |
+|:--------------------|------------:|
+| putea spune         |          11 |
+| stat unit           |           8 |
+| moment față         |           8 |
+| punct vedere        |           7 |
+| președinte trump    |           6 |
+| popor român         |           4 |
+| bancă mondial       |           4 |
+| investiție american |           3 |
+| american românia    |           3 |
+| trebui urma         |           3 |
 
 ## 2026-02-19 — video-transcript
 
@@ -14655,13 +14653,13 @@
 | stat unit                 |           9 |
 | donald trump              |           6 |
 | partener european         |           3 |
-| domn președinte           |           2 |
 | board peace               |           2 |
 | sine duce                 |           2 |
 | unit europa               |           2 |
 | parteneriat transatlantic |           2 |
 | discuta tangențial        |           2 |
 | conveni partener          |           2 |
+| sine întâmpla             |           2 |
 
 ## 2026-02-24 — video-transcript
 
@@ -14725,33 +14723,33 @@
 
 ## 2026-03-05 — video-transcript
 
-| bigramă         |   frecvență |
-|:----------------|------------:|
-| românia vorbi   |           3 |
-| comun vorbi     |           2 |
-| forum afacere   |           2 |
-| țară dezvoltat  |           2 |
-| țară putea      |           1 |
-| putea profi     |           1 |
-| profi fapt      |           1 |
-| fapt domeniu    |           1 |
-| domeniu viziune |           1 |
-| viziune comun   |           1 |
+| bigramă        |   frecvență |
+|:---------------|------------:|
+| românia vorbi  |           3 |
+| comun vorbi    |           2 |
+| forum afacere  |           2 |
+| țară dezvoltat |           2 |
+| invita țară    |           2 |
+| țară nordic    |           2 |
+| țară putea     |           1 |
+| putea profi    |           1 |
+| profi fapt     |           1 |
+| fapt domeniu   |           1 |
 
 ## 2026-03-05 — video-transcript
 
 | bigramă               |   frecvență |
 |:----------------------|------------:|
-| domn președinte       |          16 |
+| domn președinte       |          11 |
 | uniune european       |           6 |
 | orientul mijlociu     |           4 |
 | spune domn            |           3 |
 | cadru uniune          |           3 |
 | privi situație        |           3 |
-| întrebare domn        |           3 |
-| primire călduros      |           2 |
 | românia polonia       |           2 |
 | parteneriat strategic |           2 |
+| viziune comun         |           2 |
+| polonia discuta       |           2 |
 
 ## 2026-03-05 — video-transcript
 
@@ -14817,6 +14815,9 @@
 
 | bigramă                 |   frecvență |
 |:------------------------|------------:|
+| dezbatere legitim       |           2 |
+| sine vrea               |           2 |
+| vrea închide            |           2 |
 | bineînțeles ban         |           1 |
 | ban categorie           |           1 |
 | categorie dumneavoastră |           1 |
@@ -14824,9 +14825,6 @@
 | menționa domn           |           1 |
 | domn nazare             |           1 |
 | nazare deosebire        |           1 |
-| deosebire lună          |           1 |
-| lună iunie              |           1 |
-| iunie trece             |           1 |
 
 ## 2026-03-05 — video-transcript
 
@@ -14862,16 +14860,16 @@
 
 | bigramă            |   frecvență |
 |:-------------------|------------:|
-| domn președinte    |           5 |
+| răspunde întrebare |           4 |
+| putea spune        |           4 |
 | uniune european    |           3 |
 | românia vorbi      |           3 |
+| sine pune          |           3 |
 | spațiu public      |           3 |
 | vorbi lucru        |           3 |
-| răspunde întrebare |           3 |
-| parte partid       |           3 |
-| partid social      |           3 |
-| social democrat    |           3 |
-| analiză amplu      |           3 |
+| sine întâmpla      |           3 |
+| românia vrea       |           3 |
+| vrea buget         |           3 |
 
 ## 2026-03-05 — video-transcript
 
@@ -14907,16 +14905,16 @@
 
 | bigramă            |   frecvență |
 |:-------------------|------------:|
-| domn președinte    |           5 |
+| răspunde întrebare |           4 |
+| putea spune        |           4 |
 | uniune european    |           3 |
 | românia vorbi      |           3 |
+| sine pune          |           3 |
 | spațiu public      |           3 |
 | vorbi lucru        |           3 |
-| răspunde întrebare |           3 |
-| parte partid       |           3 |
-| partid social      |           3 |
-| social democrat    |           3 |
-| analiză amplu      |           3 |
+| sine întâmpla      |           3 |
+| românia vrea       |           3 |
+| vrea buget         |           3 |
 
 ## 2026-03-06 — video-transcript
 
@@ -14983,8 +14981,6 @@
 | bigramă               |   frecvență |
 |:----------------------|------------:|
 | parteneriat strategic |           3 |
-| românia semna         |           2 |
-| domn președinte       |           2 |
 | sine asuma            |           2 |
 | sprijin românia       |           2 |
 | document semnat       |           2 |
@@ -14992,6 +14988,8 @@
 | uniune european       |           2 |
 | proiect comun         |           2 |
 | minoritate românesc   |           2 |
+| președinte românia    |           1 |
+| românia nicușor       |           1 |
 
 ## 2026-03-13 — video-transcript
 
@@ -15070,6 +15068,18 @@
 
 ## 2026-03-26 — video-transcript
 
+| bigramă              |   frecvență |
+|:---------------------|------------:|
+| reveni normal        |           2 |
+| vedea dumneavoastră  |           1 |
+| dumneavoastră putea  |           1 |
+| putea ajuta          |           1 |
+| ajuta consumator     |           1 |
+| consumator ordonanță |           1 |
+| ordonanță putea      |           1 |
+| putea ajunge         |           1 |
+| ajunge viitor        |           1 |
+| viitor raționalizare |           1 |
 
 ## 2026-03-26 — video-transcript
 
@@ -15128,8 +15138,8 @@
 | pregăti guvern     |           2 |
 | lua măsură         |           2 |
 | coaliție spune     |           2 |
+| sine întâmpla      |           2 |
 | dumneavoastră vrea |           2 |
-| scădere sine       |           2 |
 
 ## 2026-03-31 — video-transcript
 
@@ -15180,16 +15190,16 @@
 
 | bigramă              |   frecvență |
 |:---------------------|------------:|
-| domn președinte      |          16 |
+| putea spune          |           6 |
 | sine întâmpla        |           6 |
-| putea spune          |           5 |
+| domn ministru        |           6 |
+| domn președinte      |           5 |
 | bancă mondial        |           5 |
-| domn ministru        |           5 |
 | fond european        |           5 |
 | vrea spune           |           4 |
 | război informațional |           4 |
 | spațiu public        |           4 |
-| domn miniștru        |           3 |
+| putea trata          |           3 |
 
 ## 2026-04-07 — video-transcript
 
@@ -15210,15 +15220,15 @@
 
 | bigramă             |   frecvență |
 |:--------------------|------------:|
-| domn președinte     |           8 |
 | spațiu public       |           4 |
 | putea spune         |           4 |
 | sine întâmpla       |           3 |
+| sine vrea           |           3 |
 | ilie bolojan        |           2 |
+| crede trebui        |           2 |
 | criză combustibil   |           2 |
 | vorbi raționalizare |           2 |
 | lua calcul          |           2 |
-| sine vrea           |           2 |
 | exista scenarii     |           2 |
 
 ## 2026-04-07 — video-transcript
@@ -15256,15 +15266,15 @@
 | bigramă                |   frecvență |
 |:-----------------------|------------:|
 | procuror șef           |          19 |
+| spațiu public          |          16 |
+| procuror general       |          12 |
+| parchet general        |           9 |
 | funcție procuror       |           8 |
-| procuror general       |           8 |
+| ministru justiție      |           8 |
+| sine vrea              |           8 |
 | trimite judecată       |           8 |
-| spațiu public          |           7 |
 | șef adjunct            |           7 |
-| parchet general        |           6 |
-| ministru justiție      |           6 |
-| președinte românia     |           5 |
-| activitate parchetelor |           5 |
+| activitate parchetelor |           7 |
 
 ## 2026-04-08 — video-transcript
 
@@ -15301,15 +15311,15 @@
 | bigramă            |   frecvență |
 |:-------------------|------------:|
 | echipă campanie    |           5 |
-| vrea vrea          |           3 |
+| vrea vrea          |           4 |
 | domn voineac       |           3 |
+| secție procuror    |           2 |
+| dumneavoastră vrea |           2 |
+| trebui sine        |           2 |
+| partid social      |           2 |
+| social democrat    |           2 |
+| crede răspunde     |           2 |
 | alegere bun        |           2 |
-| greși penaliza     |           2 |
-| vorbea celebru     |           2 |
-| celebru procuror   |           2 |
-| procuror italian   |           2 |
-| luptă anticorupție |           2 |
-| lider politic      |           2 |
 
 ## 2026-04-08 — video-transcript
 
@@ -15330,16 +15340,16 @@
 
 | bigramă          |   frecvență |
 |:-----------------|------------:|
-| procuror șef     |          10 |
+| spațiu public    |          14 |
+| procuror șef     |          11 |
+| procuror general |           9 |
 | trimite judecată |           8 |
-| spațiu public    |           6 |
-| procuror general |           5 |
-| doamnă procuror  |           5 |
-| sine întâmpla    |           5 |
-| domn președinte  |           5 |
-| dna iași         |           4 |
-| partid social    |           4 |
-| social democrat  |           4 |
+| parchet general  |           6 |
+| doamnă procuror  |           6 |
+| sine întâmpla    |           6 |
+| echipă campanie  |           6 |
+| sine vrea        |           5 |
+| partid social    |           5 |
 
 ## 2026-04-17 — video-transcript
 
@@ -15378,13 +15388,13 @@
 | național liberal |          23 |
 | partid național  |          22 |
 | ilie bolojan     |          16 |
-| sine întâmpla    |          12 |
+| sine întâmpla    |          13 |
 | criză politic    |           8 |
 | domn grindeanu   |           8 |
 | psd vrea         |           7 |
 | sine putea       |           7 |
+| sine vrea        |           6 |
 | genera criză     |           6 |
-| nicușor dan      |           6 |
 
 ## 2026-04-20 — video-transcript
 
@@ -15418,18 +15428,18 @@
 
 ## 2026-04-20 — video-transcript
 
-| bigramă            |   frecvență |
-|:-------------------|------------:|
-| exista consens     |           5 |
-| domn președinte    |           4 |
-| ilie bolojan       |           4 |
-| spune lucru        |           3 |
-| vrea intra         |           3 |
-| sine vrea          |           3 |
-| criză politic      |           3 |
-| spațiu public      |           3 |
-| același coerență   |           3 |
-| educație financiar |           2 |
+| bigramă         |   frecvență |
+|:----------------|------------:|
+| criză politic   |           7 |
+| ilie bolojan    |           6 |
+| exista consens  |           5 |
+| spațiu public   |           5 |
+| sine vrea       |           4 |
+| spune lucru     |           3 |
+| lucru important |           3 |
+| vrea intra      |           3 |
+| sine putea      |           3 |
+| intra scenarie  |           3 |
 
 ## 2026-04-22 — video-transcript
 
@@ -15480,12 +15490,12 @@
 
 | bigramă          |   frecvență |
 |:-----------------|------------:|
+| guvern minoritar |           5 |
 | sine întâmpla    |           4 |
-| guvern minoritar |           4 |
 | țară spune       |           3 |
-| vrea întreba     |           3 |
 | termen mediu     |           3 |
 | spune vrea       |           3 |
+| vrea întreba     |           3 |
 | vrea situație    |           3 |
 | mesaj dori       |           2 |
 | dori buget       |           2 |
@@ -15557,29 +15567,29 @@
 |:----------------|------------:|
 | uniune european |           8 |
 | moțiune cenzură |           7 |
-| sine vrea       |           5 |
-| stat unit       |           4 |
+| sine vrea       |           6 |
 | țară european   |           3 |
 | sine întâmpla   |           3 |
 | vrea continua   |           3 |
-| domn președinte |           3 |
 | proces aderare  |           3 |
+| stat unit       |           3 |
 | cenzură vrea    |           3 |
+| vrea trece      |           3 |
 
 ## 2026-05-04 — video-transcript
 
-| bigramă                 |   frecvență |
-|:------------------------|------------:|
-| moțiune cenzură         |           2 |
-| domn președinte         |           1 |
-| președinte matematician |           1 |
-| matematician bază       |           1 |
-| bază informație         |           1 |
-| informație șansă        |           1 |
-| șansă moțiune           |           1 |
-| cenzură trece           |           1 |
-| trece evident           |           1 |
-| evident opinie          |           1 |
+| bigramă           |   frecvență |
+|:------------------|------------:|
+| moțiune cenzură   |           2 |
+| informație șansă  |           1 |
+| șansă moțiune     |           1 |
+| cenzură trece     |           1 |
+| trece evident     |           1 |
+| evident opinie    |           1 |
+| opinie vrea       |           1 |
+| vrea speculație   |           1 |
+| speculație moment |           1 |
+| moment aștepta    |           1 |
 
 ## 2026-05-05 — video-transcript
 
@@ -15705,16 +15715,16 @@
 
 | bigramă             |   frecvență |
 |:--------------------|------------:|
+| spune dumneavoastră |           3 |
 | europa europa       |           2 |
 | acționa ideologic   |           2 |
+| putea exemplu       |           2 |
 | vrea spune          |           2 |
 | europa organism     |           2 |
 | organism viu        |           2 |
 | societate românesc  |           2 |
-| spune dumneavoastră |           2 |
 | consiliu european   |           2 |
-| ungureanu hotne     |           1 |
-| hotne domn          |           1 |
+| lega discurs        |           2 |
 
 ## 2026-05-12 — video-transcript
 
@@ -15825,16 +15835,16 @@
 
 | bigramă                |   frecvență |
 |:-----------------------|------------:|
-| majoritate parlamentar |           8 |
-| domn președinte        |           7 |
+| majoritate parlamentar |           9 |
+| vrea spune             |           4 |
 | trebui uita            |           4 |
 | întrebare fundamental  |           4 |
 | parlamentar susține    |           4 |
 | susține guvern         |           4 |
+| premier bolojan        |           4 |
+| vrea exista            |           3 |
 | vorbi guvern           |           3 |
-| vrea spune             |           3 |
-| răspuns general        |           3 |
-| fundamental majoritate |           3 |
+| sine vrea              |           3 |
 
 ## 2026-05-20 — video-transcript
 

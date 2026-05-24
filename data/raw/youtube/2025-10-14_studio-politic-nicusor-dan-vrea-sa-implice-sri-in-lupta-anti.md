@@ -1,11 +1,8 @@
 ---
 data: 2025-10-14
-metoda: heuristic diarization (format=markers, 53 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=3fQln2luteI
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1760444951
 sursa_video_id: 3fQln2luteI
 sursa_vizionari: 2851
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] [Muzică] Bună ziua, doamnelor și domnilor.
+[Muzică] Bună ziua, doamnelor și domnilor.
 
 Sunt Andreea Bratu.
 
@@ -56,21 +53,21 @@ Alături de mine, domnul Ciprian Văcaru, secretar de stat din partea PSD în Mi
 
 Vă mulțumesc foarte mult.
 
-[ND] Mulțumesc de invitație.
+Mulțumesc de invitație.
 
 Bună ziua.
 
 Domnul Mircea Fechet, reprezentant PNL și fost ministru al mediului, vă mulțumesc de asemenea.
 
-[ND] Și domnul Radu Mihaiu, deputat USR, fost primar al sectorului 2.
+Și domnul Radu Mihaiu, deputat USR, fost primar al sectorului 2.
 
 Vă mulțumesc.
 
-[ND] Sărut mâna.
+Sărut mâna.
 
 Mulțumesc pentru invitație.
 
-[ND] Începem cu acest prim subiect, o anchetă care a zguduit opinia publică pentru că se vorbește foarte mult zilele acestea despre austeritate, despre măsuri, despre românii care trebuie să înțeleagă, să pună umărul la economia statului pentru a nu avea repercusiuni mai mari.
+Începem cu acest prim subiect, o anchetă care a zguduit opinia publică pentru că se vorbește foarte mult zilele acestea despre austeritate, despre măsuri, despre românii care trebuie să înțeleagă, să pună umărul la economia statului pentru a nu avea repercusiuni mai mari.
 
 Și iată ce se întâmplă la Compania Națională de Investiții ne ajută cu toate detaliile despre acest parfum în valoare de 66000 € pe mai mulți ani.
 
@@ -120,7 +117,7 @@ Am acum am auzit pentru prima oară media, dar în schimb ceea ce știu venind d
 
 Nu știu să mai avem alte contracte colective de muncă făcute pe indicatori de performanță.
 
-[ND] Indicator de performanță și aș puncta și longevitatea conducerii în această funcție.
+Indicator de performanță și aș puncta și longevitatea conducerii în această funcție.
 
 Nu, nu vreau să nu vreau să intru de Nu, nu vorbesc de persoane, eu vorbesc în sine de contractul instituției.
 
@@ -140,19 +137,19 @@ V am pus această întrebare în ideea în care, sigur se va face o anchetă, sp
 
 Credeți că și clasa politică, cei care susțin persoane în fruntea unor companii ar trebui să facă o verificare și poate să ia anumite decizii?
 
-[ND] Și sunt fer convins că astfel de lucruri se întâmplă.
+Și sunt fer convins că astfel de lucruri se întâmplă.
 
 Să știți că am mai văzut anchete, cel puțin în ultimele săptămâni apărute în presă, după care ați văzut foarte bine na și mă rog și vorbim și de unele anchete penale, cele de la DNA, cum a fost cu ANPC ul, dar au mai fost și la alte instituții care au intrat astfel de discuții au intrat în coaliție pe partea politică pentru a se vedea ce se întâmplă în instituția respectivă.
 
-[ND] Domnule Fechet, opinia PNL.
+Domnule Fechet, opinia PNL.
 
 Eu cred că mai ales atunci când românii trec printr o perioadă extrem de grea, este aproape imposibil de explicat faptul că o instituție publică din România achiziționează parfumuri sau astfel de bunuri sau servicii.
 
 Mai cred că dincolo de legalitatea acestei proceduri și n am niciun motiv să consider că procedura a fost una încheiată în mod ilegal, însă eu cred că astfel de lucruri trebuie să ne dea de gândit. nu susțin opinia potrivit căreia ar trebui noi în Parlament să i spunem unui director de instituție să nu dea banii pe parfumuri sau să nu dea banii pe alte tipuri de achiziții și cred că fiecare în baza fișei postului trebuie să și facă datoria cu un buget cât mai bine drămit și opinia mea personală și sunt convins Că și opinia Partidului Național Liberal este că niciun primar, niciun ministru, niciun director de instituție, niciun demnitar, președinte sau ce o mai fi el n ar trebui să cheltuie banii cetățenilor pentru că discutăm despre bani publici pe parfumuri sau pe alte lucruri asemănătoare.
 
-[ND] Domnule Mihai,
+Domnule Mihai,
 
-[ND] eu nu cred că noi putem reglementa bunul simț prin lege.
+eu nu cred că noi putem reglementa bunul simț prin lege.
 
 Adică nu putem să dăm lege pentru a spune: "Domnule, trebuie să fii cu bun simț.
 
@@ -190,9 +187,9 @@ De ce trebuie să avem conducători și directori 12500?
 
 Nu știu, o să ne spună domnul secretar de stat cât e salariul lui, că este ceva mai mic decât al lui ministru.
 
-[ND] 9700
+9700
 
-[ND] 9700 RON.
+9700 RON.
 
 Este un secretar de stat, un ministru are 12000 RON 500 sau ceva de genul acesta.
 
@@ -206,11 +203,11 @@ Nu e vorba de responsabilitate că și un ministru are responsabilitate.
 
 Nu e vorba de competență că teoretic și pe miniștrii vrem să i avem competență.
 
-[ND] Dar despre ce este vorba?
+Dar despre ce este vorba?
 
-[ND] Este vorba despre o nedreptate și despre o inechitate.
+Este vorba despre o nedreptate și despre o inechitate.
 
-[ND] Dar eu vreau să vă dau un alt exemplu în legătură cu CNul.
+Dar eu vreau să vă dau un alt exemplu în legătură cu CNul.
 
 Când eram ministrul mediului m am trezit cu o campanie grosolană de manipulare în mediul online.
 
@@ -222,19 +219,19 @@ Bineînțeles că împreună cu ministrul Burduja am formulat o plângere penal�
 
 Însă ceea ce vreau să spun revenind la CNI este că m am mirat foarte tare să aflu că același jurnalist influencer, putem să l numim cum vrem, avea servicii de foto video, prestări servicii foto video fix cu această companie națională de investiții și în timp ce îi manipula pe români și î dezinforma și în timp ce eu făceam plângeri penale pe la parchet, acest individ facturat CNI ului, statului român servicii și încasat bani de la
 
-[ND] Aveți dovezi, da, pe aceste acuzații în cazul în care vor fi solicitate?
+Aveți dovezi, da, pe aceste acuzații în cazul în care vor fi solicitate?
 
-[ND] Bineînțeles că am dovezi că le am pus în plângerea penală.
+Bineînțeles că am dovezi că le am pus în plângerea penală.
 
 Nu mă joc cu cu astfel de lucruri și n am făcut decât o singură plângere penală la viața mea, cea la care mă refer, considerat la vremea respectivă îndreptățit s o fac.
 
 Domnule Mihaiu a spusn este normal, trebuie o anumită reglementare, dar spuneați de asemenea citesc nu putem reglementa bunul simț acest caz concret, pentru că
 
-[ND] întotdeauna nu mă refer doar la dumneavoastră, dar în general politicienii sunt foarte buni la teorie.
+întotdeauna nu mă refer doar la dumneavoastră, dar în general politicienii sunt foarte buni la teorie.
 
 Voiam să vă întreb în practică pentru că vă deranjează un astfel de exemplu și nu sunteți de acord cu el, USR va ridica această problemă la nivelul coaliției? pentru că altfel, știți, totul rămâne doar la nivel de discurs.
 
-[ND] Doamnă, mie mi se pare complicat.
+Doamnă, mie mi se pare complicat.
 
 Nu cred că există vreo reglementare legală care să fi fost încălcată.
 
@@ -242,21 +239,21 @@ Nu cred că există vreo reglementare legală care să fi fost încălcată.
 
 Drept urmare, cred că trebuie să avem o reglementare mai clară pentru indicatori de performanță.
 
-[ND] Aș acești indicatori de performanță dacă se pot modifica, dar nu cred că se pot modifica peste noapte.
+Aș acești indicatori de performanță dacă se pot modifica, dar nu cred că se pot modifica peste noapte.
 
 Ăă și da, vom avea o discuție despre acești indicatori de performanță, despre faptul că, nu știu, s au mai construit ăă terenuri în pantă, s au mai făcut niște investiții care poate nu chiar erau necesare și așa mai departe.
 
 N aș spune că CNI ul este exemplul cel mai bun pentru cum au mers lucrurile, apropo de contracte colective de muncă și indicatori de performanță, că îmi cer scuze, dar n au funcționat chiar toate lucrurile perfect și ar mai fi niște lucruri de corectat, aș zice.
 
-[ND] Mergem mai departe acum pentru că am văzut în Parlamentul României, doamnelor și domnilor, un festival de ironie, aluzii și glume cu subînțeles, chiar de la Tribuna Camerei Superioare a Parlamentului.
+Mergem mai departe acum pentru că am văzut în Parlamentul României, doamnelor și domnilor, un festival de ironie, aluzii și glume cu subînțeles, chiar de la Tribuna Camerei Superioare a Parlamentului.
 
 Moțiunea de cenzură inițiată de AUR împotriva ministrului economiei, Radu Miruță, s a transformat într un spectacol de stand up comedy cu personaje politice.
 
-[ND] Extremiștii care și au lumină de la Gorgescu îl acuză pe ministrul Miruță că nu știe economie.
+Extremiștii care și au lumină de la Gorgescu îl acuză pe ministrul Miruță că nu știe economie.
 
 Asta în timp ce ei au ca reper industria calului.
 
-[ND] Ce avem noi aici?
+Ce avem noi aici?
 
 Ce avem noi aici?
 
@@ -264,9 +261,9 @@ Ce avem noi aici?
 
 Este ca și cum ne am fi urcat într un Ferrari, domnule ministru, și dumneavoastră ați pus o frână de tractor.
 
-[ND] Toată ziua Tik Tok, Tiktok, Nino, Nino trotinete.
+Toată ziua Tik Tok, Tiktok, Nino, Nino trotinete.
 
-[ND] Îi rog pe colegii de la AUR, înainte să continue să se uite pe internet la bancurile cu purcelușul isteric și să se liniștească un pic, pentru că aici facem lucruri serioase. acești oameni care n au realizat nici a zecea parte în viață din cât a realizat Adrian Năstase, să vă fie rușine, Adrian Năstase este considerat și de dușmanii săi cel mai bun premier al României.
+Îi rog pe colegii de la AUR, înainte să continue să se uite pe internet la bancurile cu purcelușul isteric și să se liniștească un pic, pentru că aici facem lucruri serioase. acești oameni care n au realizat nici a zecea parte în viață din cât a realizat Adrian Năstase, să vă fie rușine, Adrian Năstase este considerat și de dușmanii săi cel mai bun premier al României.
 
 Pe lângă toate celelalte ironii pe care le ați văzut puțin mai devreme, desigur că am fi vrut să dezbatem și această afirmație făcută de liderul AUR, Petrișor Peiu, senator de asemenea, desemnat în mai multe rânduri, premier, variantă de premier din partea AUR, a spus să citez încă o dată, Adrian Năstase este considerat, citez, și de dușmani, cel mai bun premier.
 
@@ -284,7 +281,7 @@ Au fost și ironii și despre acestea aș dori să puntați, dar iată, după at
 
 Domnule Văcaru,
 
-[ND] da, acuma, referitor la mesajul transmis către Adrian Năstase, în perioada Adrian Năstase, economia țării a funcționat, a mers, că au fost și lucruri mai puțin bune făcute, este adevărat, dar s a întâmplat în fiecare guvernare față de ceea ce se întâmplă acuma.
+da, acuma, referitor la mesajul transmis către Adrian Năstase, în perioada Adrian Năstase, economia țării a funcționat, a mers, că au fost și lucruri mai puțin bune făcute, este adevărat, dar s a întâmplat în fiecare guvernare față de ceea ce se întâmplă acuma.
 
 Bineînțeles, avem și alte elemente legate de criză și așa mai departe, ceea ce se întâmplă și la nivel european, dar față de ceea ce se întâmplă acuma și despre actualele reforme, putem spune că în acele momente economia țării a mers mai bine.
 
@@ -306,23 +303,23 @@ Pentru că dacă nu avem acele scurte filmulețe pe TikTok sau pe alte rețele d
 
 Deci, nu mă aștept să ne întâlnim și să putem să dialogăm, să ne confruntăm în idei.
 
-[ND] Două întrebări.
+Două întrebări.
 
 Prima dintre ele, împărtășiți aceleași aprecieri cu liderii aur din Parlament cu privire la Adrian Năstase.
 
 Adică sunteți de acord cu ei la acest capitol?
 
-[ND] Bun.
+Bun.
 
 Nu împărtășesc nimic cu Partidul AUR, dar nu pot să ne că Adrian Năstase a avut o guvernare solidă.
 
 Și în opinia dumneavoastră, credeți că are legătură acest discurs despre Adrian Năstase de la Tribuna Senatului cu vizita pe care fostul premier a făcut o la Beijing, acolo unde au fost prezenți și alți dictatori, unii dintre ei?
 
-[ND] Ă Nu cred.
+Ă Nu cred.
 
 Nu, nu cred că da, dacă nu mă înșel, domnul Peia pe în acea perioadă cred că era implicat undeva în lucrul sau mă rog, funcționarul public sau lucrat ceva aproape de Adrian State și probabil din acel motiv a și invocat numele numele lui.
 
-[ND] Domnule Fechet, opinia dumneavoastră.
+Domnule Fechet, opinia dumneavoastră.
 
 Eu îi datorez ceva domnului Adrian Năstase datorită lui sau din cauza lui putem spune.
 
@@ -334,15 +331,15 @@ Din acest motiv, eu n am nimic de apreciat în legătură cu acel mandat de prim
 
 Bineînțeles,
 
-[ND] să nu uităm totuși cine a introdus România în NATO și în Uniunea Europeană, adică ce guvernare a fost și cine a făcut toate demersurile pentru ca România să fie partea acestor două mari organize internaționale.
+să nu uităm totuși cine a introdus România în NATO și în Uniunea Europeană, adică ce guvernare a fost și cine a făcut toate demersurile pentru ca România să fie partea acestor două mari organize internaționale.
 
-[ND] Cine a făcut Cine a făcut demersurile?
+Cine a făcut Cine a făcut demersurile?
 
 Demersurile s au făcut și în 2005 și în 2006 s au făcut că am intrat în 2007, nu intram în 2007 dacă toate demersurile erau făcute încă spun eu.
 
 Haideți să nu dăm mai multă mai mult credit decât este necesar este adevărul.
 
-[ND] Da, mă rog, eu doar sunt amuzat de toate aceste discuții și de proaspăta simpatie pe care AUR o are față de PSD.
+Da, mă rog, eu doar sunt amuzat de toate aceste discuții și de proaspăta simpatie pe care AUR o are față de PSD.
 
 Văd că e o simpatie care este împărtășită pentru că și PSD am văzut că și schimbă statutul acuma să fie mai aproape de aur la valori tradiționale.
 
@@ -366,7 +363,7 @@ De parcă USR a fost vinovat de toateele de până acum.
 
 Dar mergem mai departe.
 
-[ND] Când spuneți unul dintre cei mai buni miniștri ai economiei, cu cine îl comparați mai exact pe domnul Miruță?
+Când spuneți unul dintre cei mai buni miniștri ai economiei, cu cine îl comparați mai exact pe domnul Miruță?
 
 Pentru că acest portofoliu a fost anterior și la PSD și la PNL.
 
@@ -376,13 +373,13 @@ Nu este un mandat care încă să și fi atins întregul potențial și o să ve
 
 Dacă doriți un drept la replică pe afirmația cu simpatia reciprocă pentru AUR,
 
-[ND] nu, n avem o simpatie reciprocă cu aur și cred că a fost foarte des vehiculată în spațiul public declarația președintelui interimar actual al Partidului Social Democrat în care am spus că niciodată nu ne vom apropia de aur și nu vom guverna cu ei.
+nu, n avem o simpatie reciprocă cu aur și cred că a fost foarte des vehiculată în spațiul public declarația președintelui interimar actual al Partidului Social Democrat în care am spus că niciodată nu ne vom apropia de aur și nu vom guverna cu ei.
 
 Acum, în schimb, dacă, nu știu, la diverse proiecte legislative pe care parlamentarii PSD le au introdus în Parlamentul României, sunt oameni care votează, da, deci nu și au inițiat semnătura, dar care votează cu acele proiecte legislative.
 
 Cumva nu cred că putem noi să obligăm pe cineva să voteze da sau nu la astfel de idee.
 
-[ND] Aici o să vă mai dau eu un exemplu.
+Aici o să vă mai dau eu un exemplu.
 
 La Bacău, spre exemplu, având candidat comun la primărie, am avut un protocol cu PSD ul prin care am decis că după câștigarea alegerilor sau după alegerile locale vom avea un vicepreședinte al Consiliului Județean de la PSD și un vicepreședinte de la PNL și vom avea o guvernare locală comună.
 
@@ -428,7 +425,7 @@ Pentru că într adevăr ceea ce în anii 2000 când am introdus și am făcut a
 
 Adică spunețu s a schimbat PSD, s a schimbat ceea ce înseamnă termenul progresist.
 
-[ND] Spunem că în momentul de față ceea ce înseamnă sau ceea ce vedem la nivel european și ne uităm la ultima temă legată de alegerea sexului copilului de la o vârstă fragedă în care să decidă ce ce anume vrea să fie.
+Spunem că în momentul de față ceea ce înseamnă sau ceea ce vedem la nivel european și ne uităm la ultima temă legată de alegerea sexului copilului de la o vârstă fragedă în care să decidă ce ce anume vrea să fie.
 
 Da.
 
@@ -448,17 +445,17 @@ Acum, Sorin Grindeanu, cel puțin în acest moment, nu pare să aibă contracand
 
 Vom vedea dacă va avea sau nu un contracandidat pentru că deschid este deschis concursul, să zic așa, de dosare până până pe data de 20.
 
-[ND] Poftim.
+Poftim.
 
 Momentan a fost un posibil contracandidat care a anunțat, dar este este încă deschis acest concurs, dar vă dați seama că venim cu o nouă conducere și acuma trebuia să venim cu un astfel de suflu sau cu o astfel de o manifestare a ideologiei pe care Partidul Social Democrat o susține și faptul că vom avea multe fețe noi, să știți, față de ceea ce am văzut în ultima vreme, va conta foarte mult pentru a impulsiona și votant antul PSD pentru a ne uita și a recupera dintre aceia acei membri ai Partidului Social Democrat care în mod foarte sigur la ultimele alegeri au decis să nu voteze și aice nu cred că au plecat într o parte sau alta ci pur și simplu au fost între acei nehotărâți care au ales să nu voteze.
 
 Este important de a vedea că se pot reîntoarce la Partidul Social Democrat, la valorile noastre legate de familie, legate de tradiție și de a ceea ce înseamnă valoarea naționalistă și tradițională.
 
-[ND] Scurtă pauză.
+Scurtă pauză.
 
 Revenim. [Muzică]
 
-[ND] Președintele Nicușor Dan anunță că strategia națională de apărare a țării este aproape gata și va fi prezentată curând în CSAT.
+Președintele Nicușor Dan anunță că strategia națională de apărare a țării este aproape gata și va fi prezentată curând în CSAT.
 
 Șeful statului i a spus mai devreme la știrile PRO TV că documentul va cuprinde două schimbări majore pentru România, războiul hibrid și corupția. [Muzică] schimbări majore.
 
@@ -484,7 +481,7 @@ Din punctul meu de vedere, da, corupția este una din cele mai mari probleme pe 
 
 Repet, acest lucru s a văzut inclusiv la alegeri.
 
-[ND] Domnule Fecheet, sunteți de acord cu președintele Nicușordan?
+Domnule Fecheet, sunteți de acord cu președintele Nicușordan?
 
 Sunt de acord cu aprecierea legată de corupție pentru că într adevăr și eu resimt acest lucru, fie că ne uităm la televizor, fie că ne uităm la niște indicatori care au legătură cu numărul de dosare instrumentate, cu numărul de dosare soluționate, trimise în judecată și așa mai departe.
 
@@ -492,11 +489,11 @@ Sunt de acord cu aprecierea legată de corupție pentru că într adevăr și eu
 
 Cetățenii au de suferit pentru că nu se duc la bună îndeplinire investițiile în fiecare comunitate și așa mai departe, dar mai cred în același timp că atunci când implici servicii secrete în activitatea procurorilor sau în activitatea parchetelor, cred că atunci poate n ar strica să mai punem la pachet o temă despre care la fel am discutat mult și am făcut puțin, respectiv controlul civil asupra asupra serviciilor secrete din România, nu doar asupra SRI ului, care sunt convins că reprezintă o preocupare la fel de mare pentru președinte.
 
-[ND] Adică, în opinia dumneavoastră ar trebui să crească acest control civil.
+Adică, în opinia dumneavoastră ar trebui să crească acest control civil.
 
-[ND] Trebuie să existe în primul rând și asta înseamnă automat că o să și crească.
+Trebuie să existe în primul rând și asta înseamnă automat că o să și crească.
 
-[ND] Cum vede PSD afirmația lui Nicușordan?
+Cum vede PSD afirmația lui Nicușordan?
 
 Sunt un om tânăr în politică și pentru mine corupția este un lucru pe care nu aș vrea să l mai văd în viitorul apropiat și îndepărtat în ce în societatea din România.
 
@@ -510,9 +507,9 @@ Da, îmi doresc să nu mai existe corupție în România.
 
 Îmi doresc să se găsească mecanismele prin care instituțiile statului și aici nu mă refer doar la SRI, ci instituțiile statului să găsească mediul propice prin care să colaboreze astfel încât să nu mai avem parte de acest fenomen.
 
-[ND] Dar
+Dar
 
-[ND] dar aice și aice mă întorc și nu știu că nu sunt de profesie, nu știu, jurist sau mă rog, nu lucrez în partea asta.
+dar aice și aice mă întorc și nu știu că nu sunt de profesie, nu știu, jurist sau mă rog, nu lucrez în partea asta.
 
 Îmi doresc să nu ne întoarcem la acel joc al unor persoane, la acel show cu cum le zice, cu acel show care ieșeam și vă vedeam zăbrele la televizor.
 
@@ -548,7 +545,7 @@ Vă spuneam că aceste scandaluri țin pe loc reformele pentru că ar trebui de 
 
 Rămâne varianta premierului de a tăia doar din posturi. 13000 de posturi sau varianta Partidului Social Democrat de a lăsa la mâna primarilor și șefilor de consilii județene dacă taie de la posturi sau de la salarii.
 
-[ND] Mulțumesc foarte mult, Elena Crângașu, pentru toate aceste informații.
+Mulțumesc foarte mult, Elena Crângașu, pentru toate aceste informații.
 
 Domnule Fechet, înțelegem că primarii deja au transmis, că sunt nemulțumiți, citesc, se simt amenințați. dumneavoastră veniți din filiala Bacău, ne ați dat câteva exemple înainte.
 
@@ -562,25 +559,25 @@ N a amenințat nimeni pe nimeni.
 
 Chiar am urmărit cu atenție declarațiile primului ministru și eu unul nu pot spune că mi s a părut că a lăsat vreo vreo urmă de amenințare în acele declarații.
 
-[ND] Susțineți această variantă la care a spus Ilie Bolojean că va apela. va face publică lista celor care au astfel de datorii.
+Susțineți această variantă la care a spus Ilie Bolojean că va apela. va face publică lista celor care au astfel de datorii.
 
-[ND] Eu cred că în primul rând angajații trebuie să știe în ce măsură propriul angajator le plătește sau nu contribuțiile sociale și în cazul în care astfel de situații există, dar nu doar pentru primării.
+Eu cred că în primul rând angajații trebuie să știe în ce măsură propriul angajator le plătește sau nu contribuțiile sociale și în cazul în care astfel de situații există, dar nu doar pentru primării.
 
 Același lucru trebuie să fie valabil și pentru companiile naționale și pentru orice alți angajatori unde legislația referitoare la datele cu caracter personal ne permite.
 
 Eu nu văd un secret în a știu vreo problemă în a publica o listă cu acei angajatori care nu respectă legea.
 
-[ND] Dacă mi permiteți, că vreau să vreau să aduc o mică clarificare,
+Dacă mi permiteți, că vreau să vreau să aduc o mică clarificare,
 
-[ND] vă rog, 20 de secunde.
+vă rog, 20 de secunde.
 
-[ND] Ă acești bani nu sunt ai angajatorului, sunt ai angajatului.
+Ă acești bani nu sunt ai angajatorului, sunt ai angajatului.
 
 Angajatorul îi reține temporar pentru a i plăti mai departe, dar sunt ai angajatului.
 
 Cine î păstrează fără drept comite furt.
 
-[ND] Vă mulțumesc. și aș fi dorit să aflu dacă în PSD sunt primar derajați, dar am ajuns la finalul discuției.
+Vă mulțumesc. și aș fi dorit să aflu dacă în PSD sunt primar derajați, dar am ajuns la finalul discuției.
 
 Vom relua.
 

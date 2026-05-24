@@ -1,11 +1,8 @@
 ---
 data: 2025-11-11
-metoda: heuristic diarization (format=markers, 13 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=mK76TQ3JSZM
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1762852313
 sursa_video_id: mK76TQ3JSZM
 sursa_vizionari: 7362
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Acum reacția de ultimă oră a președintelui în criza din justiție dintre un membru al guvernului și magistrați.
+Acum reacția de ultimă oră a președintelui în criza din justiție dintre un membru al guvernului și magistrați.
 
 Președintele tocmai a catalogat declarația Oanei Gheorghiu, drept una nefericită, iar reacția CSM, una mult exagerată.
 
@@ -54,7 +51,7 @@ V am citat aceste expresii.
 
 Haideți să vedem ce a spus.
 
-[ND] Ei au fost prinși într un caritas care nu [muzică] putea să dureze la nesfârșit.
+Ei au fost prinși într un caritas care nu [muzică] putea să dureze la nesfârșit.
 
 România nu își permite să mai plătească acești bani.
 
@@ -64,7 +61,7 @@ Nu avem cum.
 
 Dacă banii ăia trebuie să se ducă la ei pentru că își dau sentințe, îi iau de undeva și i pot lua de la gura unui copil care se culcă flămând, de la bugetul unui spital care [muzică] n are medicamente.
 
-[ND] Reacția CSM a venit la câteva ore doar.
+Reacția CSM a venit la câteva ore doar.
 
 Mai întâi prin judecătorul Alin Ene, care a acuzat o pe Ioana Gheorgheu de manipulare ieftină și incitare la ură de clasă.
 
@@ -106,13 +103,13 @@ Orice om politic are dreptul la opinie, indiferent că este la putere sau în op
 
 Acum haideți să vedem ce a declarat inițial Sorin Grindeanu despre ce spunea Ana Gheorghiu.
 
-[ND] Sper să se iese dintr o zonă de populism grețos.
+Sper să se iese dintr o zonă de populism grețos.
 
 Lucrurile acestea nu mai țin de politică și de a marca anumite teritori pentru că nu mai suntem în zona de ONG uri.
 
 Dacă vrei să nu ai o lege, atunci asta e abordarea.
 
-[ND] Iar pe lângă scandalul pensiilor magistraților, o lovitură directă la adresa Oanei Gheorghiu vine chiar din partea partenerei sale din ONG ul dăruiește viață.
+Iar pe lângă scandalul pensiilor magistraților, o lovitură directă la adresa Oanei Gheorghiu vine chiar din partea partenerei sale din ONG ul dăruiește viață.
 
 Vicepremiera este acuzată de incompatibilitate.
 
@@ -154,7 +151,7 @@ Aflăm chiar acum de la Ema Stoica.
 
 Bună dimineața, Ema. [muzică]
 
-[ND] Bine te am găsit, Anca.
+Bine te am găsit, Anca.
 
 Bun găsit tuturor.
 
@@ -190,9 +187,9 @@ Sergiu Mișcoiu, analist politic în direct cu noi.
 
 Bună dimineața, domnule Mișcoiu.
 
-[ND] Bună dimineața.
+Bună dimineața.
 
-[ND] Sunt două părți ale acestei probleme, dacă pot să le numesc așa, sau ale scandalului, ale crizei, oricum o numim, partea cu reforma pensiilor speciale, cu tăierea efectivă care nu iese.
+Sunt două părți ale acestei probleme, dacă pot să le numesc așa, sau ale scandalului, ale crizei, oricum o numim, partea cu reforma pensiilor speciale, cu tăierea efectivă care nu iese.
 
 Și acum extinderea aceasta spre scandalul cu vicepremierul Oana Gheorghiu, pentru că vedem aici s au inflamat foarte mult spiritele.
 
@@ -212,7 +209,7 @@ Această încercare de intimidare, cum o numiți, poate duce oare la vreo demisi
 
 Mă refer, desigur, la Oana Gheorghiu.
 
-[ND] Cred că este inutil să avem așa ceva.
+Cred că este inutil să avem așa ceva.
 
 Până la urmă, de ce a fost adusă doamna Gheorghiu în guvern?
 
@@ -220,9 +217,9 @@ Nu a fost adusă ca să facă diverse lucrări de tip legislativ.
 
 Nu cred că a fost adusă pentru aspecte tehnice procedurale, ci a fost adusă tocmai pentru a duce mai departe un mesaj din partea ăă românilor, din partea celor care nu au avut până acum acces la decizie și care sunt profund nemulțumiți de tot ceea ce se întâmplă, inclusiv profund nemulțumiți de ceea ce se întâmplă noua coaliție după lecțiile neînvățate din 2024. ar fi o eroare strategică majoră să fie împinsă în afara guvernului și ar fi o nouă demonstrație a faptului că sistemul se reproduce un sistem toxic care pare să fie perenizat cu relații cel puțin insidioase între o parte a sistemului de justiție și ăă ă o parte a clasei politice care îl apără, îl protejează o pare că o mână o spală pe cealaltă și asta ne mulțumește profund pături large ale populației.
 
-[ND] Putem, domnule Mișcăiu, să spunem că atacul acesta către Oana Gheorghiu este o supărare până la urmă din cauză că se taie pensiile?
+Putem, domnule Mișcăiu, să spunem că atacul acesta către Oana Gheorghiu este o supărare până la urmă din cauză că se taie pensiile?
 
-[ND] Este un act de rezistență colectivă a unei bresle și este natural ca multe bresle să încerce să reziste împotriva modului în care sunt tratate de către guvern.
+Este un act de rezistență colectivă a unei bresle și este natural ca multe bresle să încerce să reziste împotriva modului în care sunt tratate de către guvern.
 
 Dar aici avem un caz special.
 
@@ -236,7 +233,7 @@ Ori vedem o preocupare care este una strict materială și sigur că această pr
 
 Își permite o asemenea persoană să facă asemenea declarații legate de actul de justiție. a vexat decidenții din justiția românească și din păcate din nou suntem în situația în care actul de justiție în sine pare că contează foarte puțin, calitatea justiției pare că contează prea puțin, responsivitatea și responsabilitatea tagmei magistraților față de restul populației pare să fie nulă și mai mult ne luăm de singurii oameni care au încercat prin intermediul acțiunilor lor să apere un punct de vedere cât se poate de legitim în societate, așa cum ne arată toate cercetările și discuțiile care au avut loc în ultimii ani.
 
-[ND] Apropo de ce spuneți, mă interesează pe final așa scurt, oare avizul acela al CSM pe noua lege vine sau nu vine într un timp foarte scurt?
+Apropo de ce spuneți, mă interesează pe final așa scurt, oare avizul acela al CSM pe noua lege vine sau nu vine într un timp foarte scurt?
 
 Pentru că acum ați văzut termenul e extrem de scurt până la care o să pierdem niște bani dacă nu facem reformă.
 
@@ -244,4 +241,4 @@ Intuiția mea este că aceasta a fost intenția de a tergiversa pe cât se poate
 
 Dar ă ar trebui să existe o conștientizare în interiorul CSM că această stare de izolare față de restul societății va crește mult nemulțumirea tuturor față de sistemul de justiție și va da apă la moară exact inamicilor statului de drept pe care ar trebui să îl apere magistrații și anume extremiștii care vor o tabulă rasa, vor un sistem din nou în care controlul statului asupra societății să fie unul exemplar.
 
-[ND] Serg Mișcău, mulțumesc tare mult pentru analiză.
+Serg Mișcău, mulțumesc tare mult pentru analiză.

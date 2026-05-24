@@ -1,11 +1,8 @@
 ---
 data: 2025-07-25
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=ZfqZY6d3r0Q
 sursa_aprecieri: 53
 sursa_canal: Antena 3 CNN
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1753471592
 sursa_video_id: ZfqZY6d3r0Q
 sursa_vizionari: 5366
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] anunță reluarea protestelor.
+anunță reluarea protestelor.
 
 Aflați la Palatul Cotroceni au cerut președintelui Nicușordan să nu promulge noile măsuri de austeritate care, spun ei, vor distruge învățământul.
 
@@ -35,7 +32,7 @@ De asemenea, spun că ar putea boicota începutul noului an școlar în septembr
 
 Haideți să ascultăm câteva declarații.
 
-[ND] Este momentul ca domnul Nicușor Dan să și îndeplinească un rol fundamental menționat în constituția României, acela de mediator.
+Este momentul ca domnul Nicușor Dan să și îndeplinească un rol fundamental menționat în constituția României, acela de mediator.
 
 Se prefigurează un conflict de mari dimensiuni.
 
@@ -45,7 +42,7 @@ Noi chiar de plângem că n avem personal resursă umană puțină și atunci ce
 
 Îi dăm afară pe colegi.
 
-[ND] De fapt, este o diminuare mascată a salariilor prin ce? ă sarcini în plus, ore în plus prestate.
+De fapt, este o diminuare mascată a salariilor prin ce? ă sarcini în plus, ore în plus prestate.
 
 Avem un o rată a analfabetismului funcțional foarte mare și în loc să diminuăm această rată a analfabetismului funcțional, noi facem altceva decât să aducem alte alte condiții de mărire aceaste acestei rate.
 

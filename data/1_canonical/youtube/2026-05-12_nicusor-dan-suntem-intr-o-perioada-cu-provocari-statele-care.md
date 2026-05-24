@@ -1,11 +1,8 @@
 ---
 data: 2026-05-12
-metoda: heuristic diarization (format=markers, 4 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=JkXWsHomcY4
 sursa_aprecieri: 5
 sursa_canal: Euronews Romania
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1778568935
 sursa_video_id: JkXWsHomcY4
 sursa_vizionari: 701
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Ă zilele acestea la București este în desfășurare summitul B9 în pregătirea acestui summit.
+Ă zilele acestea la București este în desfășurare summitul B9 în pregătirea acestui summit.
 
 Haideți să l ascultăm acum pe președintele României, Nicușordan.
 
@@ -71,7 +68,7 @@ Deci ăă ăsta este ăă și cred că una din unul din avantajele competitive a
 
 Nimic nu s a schimbat aici.
 
-[ND] Mulțumim frumos.
+Mulțumim frumos.
 
 Ați spus și în discurs că rolul Mării Negre este unul foarte important. și devine tot mai important pentru climatul general geopolitic, nu doar pentru regiune, adică la nivel global.
 
@@ -81,7 +78,7 @@ Faptul că summitul NATO va avea loc în Turcia, un alt stat important river la 
 
 Voiam să vă întreb dacă ne puteți spune ce le veți spune mâine omologilor dumneavoastră, secretarului general la NATO, astfel încât focusul alianței nord atlantice să rămână în continuare pe Marea Neagră.
 
-[ND] Da, în primul rând că el există, după cum știți, în iunie va fi va avea o o întâlnire la nivelul Consiliului Nordatlantic dedicată Mării Negre.
+Da, în primul rând că el există, după cum știți, în iunie va fi va avea o o întâlnire la nivelul Consiliului Nordatlantic dedicată Mării Negre.
 
 După cum știți, România vrea să găzduiască un hub de securitate la Marea Neagră și am făcut ceva progrese în direcția asta.
 
@@ -93,7 +90,7 @@ Deci Marea Neagră e ceva ce ne preocupă și din fericire Marea Neagră preocup
 
 Deci vom continua în direcția asta.
 
-[ND] Mulțumim.
+Mulțumim.
 
 Ați spus de eforturile și cooperarea comună cu Bulgaria și cu Turcia pe zona de de minare.
 

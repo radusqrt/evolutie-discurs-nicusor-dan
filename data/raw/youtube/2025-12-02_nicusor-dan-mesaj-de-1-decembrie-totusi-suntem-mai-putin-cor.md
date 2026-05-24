@@ -1,11 +1,8 @@
 ---
 data: 2025-12-02
-metoda: heuristic diarization (format=markers, 76 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=i2hAu9k9Y5I
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1764666214
 sursa_video_id: i2hAu9k9Y5I
 sursa_vizionari: 1328
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Seara!
+Seara!
 
 Bine v am regăsit la Ediție specială.
 
@@ -63,15 +60,15 @@ Președintele României va ține și un discurs.
 
 Așadar, în foarte scurt timp.
 
-[ND] Bună ziua.
+Bună ziua.
 
-[ND] Înainte.
+Înainte.
 
 Mărș! [muzică] Ziua României pentru mine semnifică marea unire. când România s a unit cu [muzică] [muzică] [muzică]
 
-[ND] [muzică] [muzică] [muzică]
+[muzică] [muzică] [muzică]
 
-[ND] Dragi români din România și de pretutindeni, celebrăm azi Unirea de la 1918. un moment istoric al României, moment în care un vis de generații s a împlinit și asta înseamnă pe de o parte că nu venim de nicăieri, da, că a existat o societate și o clasă politică capabilă să și coalizeze energiile pentru un ideal.
+Dragi români din România și de pretutindeni, celebrăm azi Unirea de la 1918. un moment istoric al României, moment în care un vis de generații s a împlinit și asta înseamnă pe de o parte că nu venim de nicăieri, da, că a existat o societate și o clasă politică capabilă să și coalizeze energiile pentru un ideal.
 
 Și asta înseamnă că memoria acestor oameni ne obligă și pe noi să încercăm să fim la înălțimea a ceea ce ei au făcut.
 
@@ -129,9 +126,9 @@ La mulți ani, România!
 
 La mulți ani, români!
 
-[ND] [aplauze]
+[aplauze]
 
-[ND] Discurs al președintelui României la recepția de Ziua Națională în care președintele a vorbit [muzică] despre realități diferite care există în România.
+Discurs al președintelui României la recepția de Ziua Națională în care președintele a vorbit [muzică] despre realități diferite care există în România.
 
 O țară coruptă, spune președintele, mai puțin coruptă față de acum 10 ani, dar cel puțin o țară în care nu a mai văzut, spune el, corupție la nivel înalt în ultimul [muzică] an.
 
@@ -159,77 +156,77 @@ La Alba Iulia erau susținătorii lui Călin Georgescu și ai lui George Simion 
 
 De altfel, premierul Bolojan a fost singurul din tabăra puterii care a participat la evenimentul organizat la Alba Iulia.
 
-[ND] Decernat.
+Decernat.
 
 Vă mulțumesc.
 
 La mulți ani, România.
 
-[ND] Mulțumesc pentru participare.
+Mulțumesc pentru participare.
 
-[ND] Toate cele bune.
+Toate cele bune.
 
 Vă salut.
 
-[ND] La mulți ani,
+La mulți ani,
 
-[ND] domneos.
+domneos.
 
 Mulțumesc și dumneavoastră pentru etapa a doua.
 
 Doamne ajută.
 
-[ND] Felicităriț cu besta.
+Felicităriț cu besta.
 
 Mulțumim fros.
 
 Am înă.
 
-[ND] Salut.
+Salut.
 
 Vă felicit.
 
-[ND] La mulți ani.
+La mulți ani.
 
-[ND] La mulți ani.
+La mulți ani.
 
-[ND] Numai o secundă că v am agățat.
+Numai o secundă că v am agățat.
 
-[ND] Hai Radu stânga.
+Hai Radu stânga.
 
 Salutați.
 
-[ND] Ce numai?
+Ce numai?
 
-[ND] Vă salut.
+Vă salut.
 
 Toate cele bune pentru români de la Alba Iulia.
 
-[ND] La mulți ani, România.
+La mulți ani, România.
 
 La mulți ani!
 
-[ND] La mulți ani!
+La mulți ani!
 
 Multă sănătate!
-
-[ND] La mulți ani, multă sănătate!
-
-Multă sănătate!
-
-[ND] Vă salut!
 
 La mulți ani, multă sănătate!
 
-[ND] Mulțumesc!
+Multă sănătate!
+
+Vă salut!
+
+La mulți ani, multă sănătate!
+
+Mulțumesc!
 
 La București, la Parada Militară, au fost peste 100000 de oameni adunați de o parte și de alta a bulevardului Chiselev, pe unde au defilat 3000 de militari din România și din străinătate și peste 200 de mijloace de tehnică militară.
 
 Au fost trase salve de tun, iar imaginile surprinse în mulțime sunt absolut impresionante.
 
-[ND] [muzică] [muzică] [muzică]
+[muzică] [muzică] [muzică]
 
-[ND] La Timișoara, ceremoniile de 1 decembrie se încheie cu retragerea cu torțe.
+La Timișoara, ceremoniile de 1 decembrie se încheie cu retragerea cu torțe.
 
 O să vedeți ceva asemănător și la București.
 
@@ -239,7 +236,7 @@ Este un maraton prin toate punctele chei ale orașului.
 
 Este alături de ei și ne explică ce se întâmplă acolo Mihai Vălușescu. [muzică]
 
-[ND] Bun găsit tuturor.
+Bun găsit tuturor.
 
 În acest moment militarii au ajuns în Piața Unirii din Timișoara unde are loc o ceremonie, o ceremonie specială și în următoarele momente va fi trasă și o salvă de tun.
 
@@ -271,7 +268,7 @@ Un călător a intrat în stop cardiorespirator și a decedat la spital.
 
 Din Spania, unde s a stabilit de mai mulți ani, fotbalistul Gică Craioveanu sărbătorește tradițional ziua de 1 decembrie și a transmis și un mesaj pentru toți românii.
 
-[ND] La mulți ani tuturor românilor.
+La mulți ani tuturor românilor.
 
 La mulți ani, România!
 
@@ -285,9 +282,9 @@ La mulți ani, România!
 
 La mulți ani, Digi! 24!
 
-[ND] La mulți ani, România!
+La mulți ani, România!
 
-[ND] Compania Data Bricks, care are printre fondatori doi români, crește rapid.
+Compania Data Bricks, care are printre fondatori doi români, crește rapid.
 
 Startup ul de inteligență artificială vrea să atragă finanțare suplimentară.
 
@@ -297,9 +294,9 @@ Ligia este alături de noi și ne dă câteva amănunte.
 
 Bine ai venit, Ligia.
 
-[ND] Bine te am găsit.
+Bine te am găsit.
 
-[ND] Poveste de succes absolut impresionantă. absolut impresionantă și tocmai au devenit și mai bogați cei doi pentru că această companie vrea să tragă o nouă rundă de finanțare de 134 de miliarde de $ari va ajunge valoarea companiei după ce în urmă cu trei luni era la 100 de miliarde deci o creștere fulminantă.
+Poveste de succes absolut impresionantă. absolut impresionantă și tocmai au devenit și mai bogați cei doi pentru că această companie vrea să tragă o nouă rundă de finanțare de 134 de miliarde de $ari va ajunge valoarea companiei după ce în urmă cu trei luni era la 100 de miliarde deci o creștere fulminantă.
 
 O poveste foarte frumoasă care a început în [muzică] 2013.
 
@@ -307,15 +304,15 @@ Cei doi fondatori sunt români, au făcut studiile aici.
 
 Compania oferă aplicații cu inteligență artificială, deci tehnologie nouă.
 
-[ND] [muzică]
+[muzică]
 
-[ND] Iată că se poate și pe Ply românesc de 1 decembrie.
+Iată că se poate și pe Ply românesc de 1 decembrie.
 
 Este un exemplu foarte, foarte frumos și ne uităm la toată povestea la Business Club.
 
-[ND] Te așteptăm cu mare interes. [muzică]
+Te așteptăm cu mare interes. [muzică]
 
-[ND] Bun găsit din nou la ediție specială de 1 decembrie.
+Bun găsit din nou la ediție specială de 1 decembrie.
 
 Un mesaj tranșant al președintelui României de 1 decembrie. [muzică] Avem o țară coruptă.
 
@@ -331,17 +328,17 @@ Sunt imagini în direct acum.
 
 Aici lateral
 
-[ND] [muzică] [muzică] [muzică] [muzică]
+[muzică] [muzică] [muzică] [muzică]
 
-[ND] lateral. în laterală după tine.
+lateral. în laterală după tine.
 
-[ND] [muzică] [muzică] [muzică] [muzică]
+[muzică] [muzică] [muzică] [muzică]
 
-[ND] હ
+હ
 
-[ND] [muzică] [muzică] [muzică] [muzică] [muzică] [muzică]
+[muzică] [muzică] [muzică] [muzică] [muzică] [muzică]
 
-[ND] Militarii Brigăzii 30 Gardă Mihai Viteazu.
+Militarii Brigăzii 30 Gardă Mihai Viteazu.
 
 Ceremonia retragerii cu torțe.
 
@@ -349,7 +346,7 @@ Găsiți mai multe informații și imagini, nu uitați și pe pagina noastră de
 
 Vă invit acum să reascultăm o parte din discursul ținut de președintele României la recepția de Ziua Națională de la Palatul Cotroceni,
 
-[ND] unde suntem azi, cred că trebuie să privim cu echilibru și luciditate momentul la care suntem, tocmai pentru a fi capabili să Ne modulăm și așteptările și speranțele.
+unde suntem azi, cred că trebuie să privim cu echilibru și luciditate momentul la care suntem, tocmai pentru a fi capabili să Ne modulăm și așteptările și speranțele.
 
 Trăim mai prost decât anul trecut, dar trăim mult mai bine decât acum 20 de ani și trăim mai bine decât mulți din oamenii din țări vecine nouă.
 
@@ -385,9 +382,9 @@ Dan Cărbunaru și Dan Șvarț.
 
 Bună seara.
 
-[ND] Bună seara.
+Bună seara.
 
-[ND] Domnule Cărbunaru, înainte să discutăm despre mesajul președintelui, ce aveți pe dumneavoastră?
+Domnule Cărbunaru, înainte să discutăm despre mesajul președintelui, ce aveți pe dumneavoastră?
 
 Este o cămașă care are mai bine de 100 de ani, care provine din sudul țării, din zona Teleormanului, de acolo, de acolo unde s a născut și mama soției mele, care acum se îngrijește foarte mult de recondiționarea portului popular, nu doar din sudul țării, ci și din multe alte zone.
 
@@ -397,7 +394,7 @@ Un mesaj de voce ceva mai scăzută și mai mult calm a venit și de la președi
 
 Un întreg discurs construit pe Dar suntem aici, dar o țară coruptă, spune președintele, care și a început discursul Trăim mai prost ca anul trecut, dar mai bine decât acum 20 de ani.
 
-[ND] Am un prieten în Ardeal care spune că ne e bine și așa rău.
+Am un prieten în Ardeal care spune că ne e bine și așa rău.
 
 Și pornind de la această glumă amară, trebuie să recunoaștem pe deoparte că România, așa cum o știm noi, cel puțin România modernă, n a mai avut 35 de ani consecutiv de pace și putem considera prosperitate și sărăcia din anii '90, pentru că a fost un trend ascendent.
 
@@ -425,13 +422,13 @@ Deci, ca să nu ne întristăm și să fim foarte aplicați, de pe 2 decembrie, 
 
 Spre exemplu,
 
-[ND] era nevoie de o astfel de punere în perspectivă, domnule Schwarz, și era nevoie să vină de la Palatul Cotroceni.
+era nevoie de o astfel de punere în perspectivă, domnule Schwarz, și era nevoie să vină de la Palatul Cotroceni.
 
-[ND] Din punctul meu de vedere, ceea ce am auzit este cel puțin ciudat.
+Din punctul meu de vedere, ceea ce am auzit este cel puțin ciudat.
 
-[ND] În ce sens?
+În ce sens?
 
-[ND] Ăă dacă ar fi fost un comentariu citit undeva pe TikTok, aș fi zis: E ok. pe TikTok fiecare poate să spună ce vrea.
+Ăă dacă ar fi fost un comentariu citit undeva pe TikTok, aș fi zis: E ok. pe TikTok fiecare poate să spună ce vrea.
 
 A venit însă un discurs din partea președintelui României.
 
@@ -497,9 +494,9 @@ M aș bucura să aud un discurs care î spune astăzi este mai bine decât ieri,
 
 Dar nu că e trăim mai rău decât trăiam
 
-[ND] anul trecut.
+anul trecut.
 
-[ND] Ieri.
+Ieri.
 
 Anul trecut.
 
@@ -531,13 +528,13 @@ Lipsește celebrul Să ți fie rușine Dinu Patriciu.
 
 Să ți fie rușine PSD din mandatele trecute.
 
-[ND] Era momentul acum de identificat un un vinovat.
+Era momentul acum de identificat un un vinovat.
 
-[ND] De când a preluat poziția domnul Nicușor Dan mi se pare că a avut o abordare instituțională mai degrabă defensivă. nu pasivă, defensivă și pentru că liniile de apărare ale statului român în fața avalanșei de dezinformări, mistificări lozinși patriotarde care au venit și au erodat bucată cu bucată încrederea pe care cetățenii români o aveau sau ne doream să o aibă în instituțiile care îi reprezintă. și pe măsură ce această delegitimare a relevanței pe care factorul politic ar trebui să l joace în funcționarea unei țări, spunea domnul Schwarț mai devreme că economia României totuși n a mers atât de rău și asta e o realitate.
+De când a preluat poziția domnul Nicușor Dan mi se pare că a avut o abordare instituțională mai degrabă defensivă. nu pasivă, defensivă și pentru că liniile de apărare ale statului român în fața avalanșei de dezinformări, mistificări lozinși patriotarde care au venit și au erodat bucată cu bucată încrederea pe care cetățenii români o aveau sau ne doream să o aibă în instituțiile care îi reprezintă. și pe măsură ce această delegitimare a relevanței pe care factorul politic ar trebui să l joace în funcționarea unei țări, spunea domnul Schwarț mai devreme că economia României totuși n a mers atât de rău și asta e o realitate.
 
 N aș spune că este
 
-[ND] că este meritul statului român.
+că este meritul statului român.
 
 Este meritul antreprenorilor români care și au pus la bătaie bruma de capital pe care și l au putut construi cei mai mulți dintre ei cu bună credință, plătind taxe și impozite din ce în ce mai mari în ultimii ani și într adevăr acum 20 de ani poate taxele erau mai mici în România și trăim totuși mai bine acum plătim taxe ceva mai mari.
 
@@ -611,7 +608,7 @@ Noi cei care plătim taxe și impozite în România, cei care le percep în nume
 
 Ei bine, acei oameni ar trebui să înțeleagă mesajul președintelui și având în vedere că este un guvern girat cumva de președintele României, eu am încredere că după acest mesaj nici domnul Bolojan și nici miniștrii din de linie nu vor mai putea face abstracție de această realitate pe care noi de astăzi știm că o știm.
 
-[ND] Interesant că menționați ce face guvernul.
+Interesant că menționați ce face guvernul.
 
 Ne vom întoarce în câteva momente și vă arătăm cum a fost primit premierul Bolojan la Alba Iulia, unde a ajuns după ce a participat și la parada de la Arcul de Triumf.
 
@@ -629,15 +626,15 @@ Vă mulțumesc.
 
 La mulți ani, România.
 
-[ND] Mulțumesc pentru participare.
+Mulțumesc pentru participare.
 
-[ND] Toate cele bune.
+Toate cele bune.
 
 Vă salut.
 
-[ND] La mulți ani,
+La mulți ani,
 
-[ND] domn Oros.
+domn Oros.
 
 Mulțumesc și dumneavoastră pentru etapa a doua.
 
@@ -649,25 +646,25 @@ Mulțumim frumos.
 
 Am.
 
-[ND] Salut.
+Salut.
 
 Vă felicit.
 
-[ND] La mulți ani!
+La mulți ani!
 
-[ND] La mulți ani.
+La mulți ani.
 
-[ND] Numai o secundă că v am agățat.
+Numai o secundă că v am agățat.
 
 Hai, Radu!
 
 Stânga, salutați.
 
-[ND] Vă salut toate cele bune pentru români de la Alba Iulia.
+Vă salut toate cele bune pentru români de la Alba Iulia.
 
-[ND] La mulți ani, România!
+La mulți ani, România!
 
-[ND] La mulți ani, multă sănătate.
+La mulți ani, multă sănătate.
 
 La mulți ani.
 
@@ -675,11 +672,11 @@ Multă sănătate!
 
 Multă sănătate!
 
-[ND] Vă salut!
+Vă salut!
 
 La mulți ani, multă sănătate!
 
-[ND] Mulțumesc!
+Mulțumesc!
 
 Au fost 100000 de oameni care au participat la defilarea de Ziua națională doar la București.
 
@@ -709,7 +706,7 @@ Datele au fost culese în perioada 20 26 iunie 2025 prin interviuri telefonice p
 
 Vă surprind aceste date, domnule Jarț?
 
-[ND] Este exact ceea ce spuneam mai devreme.
+Este exact ceea ce spuneam mai devreme.
 
 România nu poate să fie o țară coruptă, având un popor care o iubește, o respectă și care este mândru de ea.
 
@@ -821,7 +818,7 @@ Ne uitam la datele sondajului scop, la dragostea de țară.
 
 În ultimul an, după ce au fost anulate alegerile de anul trecut, s a vorbit foarte mult despre confiscarea anumitor valori, despre confiscarea dragostei de țară, despre mândria de a fi român, despre cât de importantă este România pentru tine.
 
-[ND] Păi, poate că adevărul e pe la mijloc. ca să revin la cheia președintelui, cât este confiscare de către unii și cât este abandonare de către ceilalți?
+Păi, poate că adevărul e pe la mijloc. ca să revin la cheia președintelui, cât este confiscare de către unii și cât este abandonare de către ceilalți?
 
 Odată în discursul public, unde discursurile de carton și de rumeguș luaseră locul majorității formelor de conținut, inclusiv emoțional, pe care de obicei momentele festive, dar și alte momente importante din istoria contemporană a țării noastre le ar fi presupus din partea liderilor. iar dintr o altă perspectivă la modul în care s au administrat treburile publice, pentru că și ăă această confiscare a unui anumit tip de discurs s a produs în într o oglindă, o oglindă în care, spre exemplu, Partidul Stat, să i spunem acum PSD ăă a lansat această formulă suveranistă cu cămașa albă în Piața Victoriei și cu inclusiv în perioada perada în care dețineam pentru prima dată președinția rotativă a Uniunii Europene și în care românii erau încurajați să se simtă patrioți, dar perioadă în care treburile țării poate că nu erau atât de bine administrate, nu ca cum ar fi excepțional de bine administrate.
 
@@ -855,15 +852,15 @@ Vă invităm la o ediție specială cu Claudiu Cândaru în doar câteva momente
 
 Înainte [muzică] de asta însă, vă invit să vedeți o mărturie a unei românce din Zanzibar.
 
-[ND] [muzică]
+[muzică]
 
-[ND] Dovada că România este în continuare surprinzătoare și în continuare într un fel în care politicienii români nu reușesc să o vadă.
+Dovada că România este în continuare surprinzătoare și în continuare într un fel în care politicienii români nu reușesc să o vadă.
 
-[ND] Nu portie, nu am drapel și cu siguranță nu arăta româncă.
+Nu portie, nu am drapel și cu siguranță nu arăta româncă.
 
 Însă România o recunosc în cele mai mici lucruri.
 
-[ND] În reflexe, să scoți o pungă din altă pungă și încă una.
+În reflexe, să scoți o pungă din altă pungă și încă una.
 
 Să mărci semințe cu o tehnică pe [muzică] care n ai învățat o nicăieri.
 

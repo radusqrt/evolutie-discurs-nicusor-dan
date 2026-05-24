@@ -1,11 +1,8 @@
 ---
 data: 2026-05-08
-metoda: heuristic diarization (format=markers, 31 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=kzP776pYdC0
 sursa_aprecieri: 44
 sursa_canal: Antena 3 CNN
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1778260669
 sursa_video_id: kzP776pYdC0
 sursa_vizionari: 4470
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] pentru că avem culise de la discuția președintelui Nicușord cu Ilie Bolojan.
+pentru că avem culise de la discuția președintelui Nicușord cu Ilie Bolojan.
 
 În momentul de față oferta PNL USR pentru Nicușordan este un guvern minoritar PNL USR UDMR cu surpriză.
 
@@ -73,13 +70,13 @@ Deci, domnule Matei spune așa: Dacă PSD e de acord, noi n avem nicio problemă
 
 Pentru ce am mai făcut vot în partid și moțiune de centră?
 
-[ND] Totuși întrebăm asta nu ne iese nimic.
+Totuși întrebăm asta nu ne iese nimic.
 
 Dacă tot noi acumul n a făcut asta că păi UDMR ul n a făcut e o declarație a colegului nostru de la UDMR și o respect, e corectă.
 
 Deci, dar din punct de vedere al Partidului Social Democrat e un sens să vină o chiar și o minoritate cu un același premier care să solicite sprijin în Parlament din partea Partidului
 
-[ND] Social propuna PSD ului că acum avem propunerea PNL ului.
+Social propuna PSD ului că acum avem propunerea PNL ului.
 
 Acum am aflat și de la dumneavoastră că nu știam.
 
@@ -89,23 +86,23 @@ Deci, ok, știm ce propun ei.
 
 PSD ul ce propune în oglindă cu PNL ul sau putem și noi judeca ca cetățeni să cântărim.
 
-[ND] Păi, în acest moment se degajează soluții.
+Păi, în acest moment se degajează soluții.
 
 Dacă ne uităm pe care varianta PSD ului,
 
-[ND] vă spun eu, e un guvern minoritar, PSD, UDMR, minorități naționale, votat de PNL care să rămână în
+vă spun eu, e un guvern minoritar, PSD, UDMR, minorități naționale, votat de PNL care să rămână în
 
-[ND] cea ce PNL a zis că ar vota parcă se degajează o soluție de
+cea ce PNL a zis că ar vota parcă se degajează o soluție de
 
-[ND] Deci PSD cu DMR și
+Deci PSD cu DMR și
 
-[ND] e posibilă și o astfel de soluție, de ce nu? e ca forțele politice proș ce avem
+e posibilă și o astfel de soluție, de ce nu? e ca forțele politice proș ce avem
 
-[ND] nu am idee și pot să fac astfel de speculații dacă nu te așezi la masă
+nu am idee și pot să fac astfel de speculații dacă nu te așezi la masă
 
-[ND] de ce doar domnul Grindeanu că eu am informații că ar mai ex din artizanii moțiunii adică așa ar fi normal în care stabilești o astfel de posibilă coaliție cred că normal este să te așezi la masă iar de la posibila coaliție să iasă și numele de premier eu așa cred că e corectă nu mai înțeleg care e rostul președinților în politica din România altădată președintele partidului aspira normal, corect, logic, conform anualului să fie și premier, președinte, bine, care s dem în momentul în care ai o coaliție n ai un președinte, ai trei președinți, nu
+de ce doar domnul Grindeanu că eu am informații că ar mai ex din artizanii moțiunii adică așa ar fi normal în care stabilești o astfel de posibilă coaliție cred că normal este să te așezi la masă iar de la posibila coaliție să iasă și numele de premier eu așa cred că e corectă nu mai înțeleg care e rostul președinților în politica din România altădată președintele partidului aspira normal, corect, logic, conform anualului să fie și premier, președinte, bine, care s dem în momentul în care ai o coaliție n ai un președinte, ai trei președinți, nu
 
-[ND] așa să hotărați cu DMR ul premierul PSD ului sau ce vre să spun pot fi toate scenarile.
+așa să hotărați cu DMR ul premierul PSD ului sau ce vre să spun pot fi toate scenarile.
 
 Domnul Matei, ați ați intrat cu toate strategiile astea să l schimbați pe Bolojan de astăamnă, le tot învârtiți și le tot suciți, ați intrat în zid încât apar și Da soluții ridicole.
 
@@ -113,7 +110,7 @@ Cum ar fi să se facă o coaliție de asta minoritară, PSD, UDMR, minorități,
 
 Și eu dacă aș fi parlamentar aș vota o aș aș da votul pentru asta, să înceapă să lucreze, că dacă au dat jos guvernul să pună mâna ei să guverneze și să mărească pensii, salarii, tot ce au promis ei.
 
-[ND] Eu știu că e frica cea mai mare în PSD e să nu vină ei la guvernare acuma.
+Eu știu că e frica cea mai mare în PSD e să nu vină ei la guvernare acuma.
 
 Păi că o să înjure lumea, că o să vadă că n au de unde pensii, salarii și nu, dar ridicolul total e o secundă.
 
@@ -127,7 +124,7 @@ Atunci chiar chiar suntem încascadorii râsului.
 
 Dar nu exclud nicio posibilitate, zic doar cât, în ce situație ridicole au ajuns cu
 
-[ND] chestiile astea.
+chestiile astea.
 
 Când când când îl aveau pe Bolojan acum două trei luni, maxim pierduse susținere.
 
@@ -135,23 +132,23 @@ Nu mai zic de puciștii din PNL. spuneau ăștia la televizor Chelemen Hunor că
 
 Fritz, care acum e fratele mai mic al lui Bolojan spuneabă nu se mai poate.
 
-[ND] Nu l au schimbat atunci, îl schimbă acuma și în așa fel îl schimbă încât tot valul #rezis, care nu e mic, e tot, nu e prea puțin, tot valul antipdist din România care e mare.
+Nu l au schimbat atunci, îl schimbă acuma și în așa fel îl schimbă încât tot valul #rezis, care nu e mic, e tot, nu e prea puțin, tot valul antipdist din România care e mare.
 
-[ND] Da, nu e doar cu hashtag.
+Da, nu e doar cu hashtag.
 
 Nu e doar cu hashtag.
 
 Tot valul ăsta s a adunat la susținerea lui Bolojan și au ajuns să l la Rogobete să i salveze.
 
-[ND] Dar vă dați seama că Grindeanul în momentul ăla e terminat politic dacă premierul nu e el și e altcineva de situații în care președintele PSD era domnul Dragnea și domnul premier era domnul Grindeanu.
+Dar vă dați seama că Grindeanul în momentul ăla e terminat politic dacă premierul nu e el și e altcineva de situații în care președintele PSD era domnul Dragnea și domnul premier era domnul Grindeanu.
 
-[ND] Se polarizează interiorul partid.
+Se polarizează interiorul partid.
 
 Păi, stați un pic că banii s la premier, nu sunt la Grindeanu.
 
 Se polarizează inevitabil situația
 
-[ND] și doi la un moment dat dacă premierul nu i marioneta, că așa a fost la Grindeanu jos că n a vrut să fie marioneta mastermindului din PSD, că iarăși vor da guvernul jos.
+și doi la un moment dat dacă premierul nu i marioneta, că așa a fost la Grindeanu jos că n a vrut să fie marioneta mastermindului din PSD, că iarăși vor da guvernul jos.
 
 Pe o astfel de ostilizare a partidelor e foarte greu să spui va fi Grindeanu sau va fi Rogobete sau va fi oricine.
 
@@ -195,15 +192,15 @@ Se vede în presă, se vede pe telefon, se vede peste tot.
 
 Asta i nebunia la care am
 
-[ND] Dar vreau să vă întreb așa, domnule Ciuvică, credeți că domnul Nicușor Dan l ar mai nominaliza pe domnul Bolojan premier?
+Dar vreau să vă întreb așa, domnule Ciuvică, credeți că domnul Nicușor Dan l ar mai nominaliza pe domnul Bolojan premier?
 
 Haideți, domnule,
 
-[ND] în mod normal, nu să n ajungem iară la discuția cu cu constituționalitatea.
+în mod normal, nu să n ajungem iară la discuția cu cu constituționalitatea.
 
 Să n ajungem la aia cu constituționalitatea că că dacă face majoritate poate asta este singura variantă poate să nominalizeze teoretic să și facă majoritate majoritate practic nuan Băsescu vrut pe Nicușor Dan a avut la dispoziție două luni să l salveze pe Bolojan dacă și face majoritate domnul Ponta dar nu și face boloan în momentul ăsta majoritate Nu i vorba de majoritate, e vorba de soluția de redipas care
 
-[ND] soluția e cu majoritate în Parlament.
+soluția e cu majoritate în Parlament.
 
 Majoritate în Parlament decât ce PSD ul are majoritate are nevoie de votul PNL dacă votează cu există deja o majoritate de facto PSD AUR.
 
@@ -213,13 +210,13 @@ Nu mai există acea majoritate de care vorbiți dumneavoastră premier dorește 
 
 Repet, la ce radicalizare s și cât se dușmănesc întâlni cu ceilalți
 
-[ND] cu ce a zis iarăși Kel Chelemenhunor, am zis o și eu că e ceva se vede cu ochiul liber.
+cu ce a zis iarăși Kel Chelemenhunor, am zis o și eu că e ceva se vede cu ochiul liber.
 
 Nu trebuie mari investigații politice pentru asta. să găsească Nicușor Dan în înțelepciunea lui, nu știu de ce n a găsit până acuma, nu știu dacă o să găsească el acuma într o săptămână, un cetățean
 
-[ND] așa
+așa
 
-[ND] care să fie cumva din afara partidelor și asta și care să fie foarte important în societate.
+care să fie cumva din afara partidelor și asta și care să fie foarte important în societate.
 
 Repet, modelul pe care l a găsit Emil Constantinescu 99 cu Muguriărescu, care tot așa a condus un an de zile, a fost și o guvernare foarte bună albinte. modelul ăla grup PNȚ ul a condus păi problema PNȚ ului.
 
@@ -227,13 +224,13 @@ A condus o coaliție care s a dus în cap la alegeri, dar țara a fost guvernat�
 
 Puțin
 
-[ND] asta bănuiesc și eu și din ce spune Chelemenhunor că e cumva ideea lui Nicușor Dan, dar o văd din ce în ce mai greu de pusă în PR.
+asta bănuiesc și eu și din ce spune Chelemenhunor că e cumva ideea lui Nicușor Dan, dar o văd din ce în ce mai greu de pusă în PR.
 
-[ND] Deci pot să vă spun că domnul Nicușor Dan e din e informațiile mele, el n are nicio soluție pentru a reface această coaliție.
+Deci pot să vă spun că domnul Nicușor Dan e din e informațiile mele, el n are nicio soluție pentru a reface această coaliție.
 
 Ă
 
-[ND] așa este că n ai niciun plan.
+așa este că n ai niciun plan.
 
 Eu îmi aduc aminte chiar înainte de 20 aprilie, cu mult înainte, toți invitații pe care îi găseam la emisiuni veneau la mine la emisiune și întrebam care este planul după 20 aprilie.
 
@@ -241,11 +238,11 @@ După ce a trecut 20 aprilie am întrebat care este planul după moțiune.
 
 Nimeni n a știut să răspundă.
 
-[ND] Păi n aveau
+Păi n aveau
 
-[ND] că nu exista.
+că nu exista.
 
-[ND] Bine, era un plan, dar n a ieșit.
+Bine, era un plan, dar n a ieșit.
 
 Planul era cu trădarea PNL ului.
 
@@ -253,7 +250,7 @@ Planul era cu trădarea PNL ului.
 
 S a văzut în 24 noiembrie 2024.
 
-[ND] Clar.
+Clar.
 
 Da.
 

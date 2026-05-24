@@ -16,11 +16,15 @@ import stopwordsiso
 import spacy
 
 ROOT = Path(__file__).resolve().parent.parent
-# Canonical (deduplicated) corpus is the source of truth for analysis.
-# Falls back to raw if 1_canonical doesn't exist yet.
-RAW_DIR = ROOT / "data" / "1_canonical"
-if not RAW_DIR.exists():
-    RAW_DIR = ROOT / "data" / "raw"
+# Pipeline stages, in order of preference:
+#   data/3_nd_only/    — ND-voice projection (default; faster, pre-projected)
+#   data/2_diarized/   — diarized output (runtime projection applied via strip_speaker_tags_to_nd)
+#   data/1_canonical/  — deduplicated raw (no diarization yet)
+#   data/raw/          — original collection (no dedup, no diarization)
+for candidate in ("3_nd_only", "2_diarized", "1_canonical", "raw"):
+    RAW_DIR = ROOT / "data" / candidate
+    if RAW_DIR.exists():
+        break
 
 
 @dataclass
@@ -86,16 +90,19 @@ def strip_speaker_tags_to_nd(raw_text: str) -> str:
     return "\n".join(lines)
 
 
-def load_corpus() -> list[Speech]:
-    """Load all .md files from data/raw/**, parse YAML frontmatter.
+def load_corpus(skip_empty: bool = True) -> list[Speech]:
+    """Load all .md files from the active corpus stage, parse YAML frontmatter.
 
-    Skips data/raw/excluded/ (off-scope content, e.g. mayoral pre-candidacy).
+    Skips data/*/excluded/ (off-scope content) and (by default) files with empty
+    content (e.g. pure anchor news clips with 0 ND segments after projection).
     """
     speeches: list[Speech] = []
     for path in sorted(RAW_DIR.rglob("*.md")):
         if "/excluded/" in str(path):
             continue
         post = frontmatter.load(path)
+        if skip_empty and not post.content.strip():
+            continue
         raw_text = post.content.strip()
         speeches.append(
             Speech(

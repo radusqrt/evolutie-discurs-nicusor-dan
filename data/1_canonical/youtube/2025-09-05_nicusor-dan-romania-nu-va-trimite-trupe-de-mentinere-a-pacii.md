@@ -1,11 +1,8 @@
 ---
 data: 2025-09-05
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=FUaiJ4u0tcc
 sursa_aprecieri: 7
 sursa_canal: Euronews Romania
@@ -22,15 +19,15 @@ sursa_upload_timestamp: 1757057593
 sursa_video_id: FUaiJ4u0tcc
 sursa_vizionari: 567
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] România nu va trimite trupe de menținere a păcii în Ucraina.
+România nu va trimite trupe de menținere a păcii în Ucraina.
 
 Înunțul a fost făcut de președintele Nicușordan la câteva ore după ce a participat prin videoconferință la întâlnirea liderilor europeni cu Volodimir Zelenschi.
 
-[ND] A fost o decizie pe care au luat o.
+A fost o decizie pe care au luat o.
 
 Nu eram președinte încă, dar a fost o consultare cu partidele și multe din țările care sunt aici în proximitatea Rusiei au aceeași decizie pe care o avem și noi de a nu trimite oameni în Ucraina după o eventuală pace sau o un eventual o eventuală încetare a focului.
 

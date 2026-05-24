@@ -1,11 +1,8 @@
 ---
 data: 2025-07-14
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=TOZdmvtyR_g
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -18,11 +15,11 @@ sursa_upload_timestamp: 1752485324
 sursa_video_id: TOZdmvtyR_g
 sursa_vizionari: 7034
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] La jumătatea anului vorbim deja de 30 de cazuri cel puțin știute de femicid.
+La jumătatea anului vorbim deja de 30 de cazuri cel puțin știute de femicid.
 
 De asemenea, vorbim de peste 50% din numărul femeilor care au fost supuse fie la violență fizică, fie psihică.
 
@@ -36,8 +33,8 @@ Putem să vorbim de ă ă procesul legislativ, de cât de ă cât de bune sau re
 
 Vă mărturisesc că nu am ajuns la momentul la care să facem o analiză temeinică a activității parchetului, dar sunt în momentul în care o vom face, acest fenomen o să fie dintre cele la care ne vom uita cu atenție.
 
-[ND] Dar considerați că este o problemă gravă în țara noastră?
+Dar considerați că este o problemă gravă în țara noastră?
 
-[ND] Da.
+Da.
 
 Da, este o problemă gravă. este o problemă de mentalitate, da, condiția femeii și este o problemă de slăbiciune a statului român față acestui fenomen. .

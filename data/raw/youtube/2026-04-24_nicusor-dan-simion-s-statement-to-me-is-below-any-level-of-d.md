@@ -1,11 +1,8 @@
 ---
 data: 2026-04-24
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=LkH3yittpEc
 sursa_aprecieri: 252
 sursa_canal: Antena 3 CNN
@@ -20,15 +17,15 @@ sursa_upload_timestamp: 1777041546
 sursa_video_id: LkH3yittpEc
 sursa_vizionari: 23997
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] George Simion, fostul dumneavoastră adversar din campania prezidențială, a declarat la adresa dumneavoastră, o să citez, avem un individus la Cotroceni paraplegic, care nu vrea să dialogheze cu Partidul Laur.
+George Simion, fostul dumneavoastră adversar din campania prezidențială, a declarat la adresa dumneavoastră, o să citez, avem un individus la Cotroceni paraplegic, care nu vrea să dialogheze cu Partidul Laur.
 
 În ce notă vedeți toate aceste declarații?
 
-[ND] Bun, declarația ultima pe care o faceți e sub orice nivel de dialog.
+Bun, declarația ultima pe care o faceți e sub orice nivel de dialog.
 
 Adică noi, politicienii, reprezentăm în urma votului niște categorii de oameni.
 

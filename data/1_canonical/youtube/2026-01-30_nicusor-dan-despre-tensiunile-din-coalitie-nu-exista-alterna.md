@@ -1,11 +1,8 @@
 ---
 data: 2026-01-30
-metoda: heuristic diarization (format=markers, 57 ND segments, 48 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=fYcrwa1SqfE
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,21 +21,21 @@ sursa_upload_timestamp: 1769763906
 sursa_video_id: fYcrwa1SqfE
 sursa_vizionari: 43305
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] V am promis președintele României, Nicușord Dan, în studioul Digi24.
+V am promis președintele României, Nicușord Dan, în studioul Digi24.
 
 Bună seara, domnule președinte.
 
-[ND] Bună seara.
+Bună seara.
 
 Mulțumesc de invitație.
 
-[ND] Ați declarat de curând coaliția stă ceva mai rău decât stătea acum șase 7 luni.
+Ați declarat de curând coaliția stă ceva mai rău decât stătea acum șase 7 luni.
 
-[ND] În percepție.
+În percepție.
 
 În percepție cel puțin.
 
@@ -66,7 +63,7 @@ Oameni care de a lungul timpului au să și plătească poliția unul altuia. vo
 
 Dincolo de asta, eu văd că această coaliție funcționează cu opinteli, deciziile durează până se iau decizii, dar dincolo de asta
 
-[ND] există și niște restanțe despre care vă voi provoca ceva mai târziu.
+există și niște restanțe despre care vă voi provoca ceva mai târziu.
 
 Aș vrea să știu dacă dumneavoastră știți că este un subiect în coaliție, plecarea lui Ilie Bolojan, dorința Partidului Social Democrat.
 
@@ -84,13 +81,13 @@ Mai departe de atât, nu știu unde putem să mergem.
 
 Credeți că se poate guverna în 2026 fără Ilie Bolojan?
 
-[ND] În momentul acesta nu există o altă alternativă.
+În momentul acesta nu există o altă alternativă.
 
 Da, PNL ul are un președinte, președintele ocupă poziția de prim ministru.
 
 Ăsta e contextul în care sunt.
 
-[ND] Cât de inspirată credeți că a fost declarația domnului Bolojan la RFI în legătură cu guvern minoritar?
+Cât de inspirată credeți că a fost declarația domnului Bolojan la RFI în legătură cu guvern minoritar?
 
 Posibilitatea unui guvern minoritar?
 
@@ -106,7 +103,7 @@ Da, bineînțeles, e puțin probabil în momentul ăsta.
 
 În momentul acesta există un angajament pe care niciun de care niciunul din cele patru partide plus minoritățile naționale nu s au dezis de a face parte din guvernare.
 
-[ND] La un moment dat, dacă problema asta și criza asta se adâncește, dumneavoastră veți fi chemat să mediați și s o rezolvați.
+La un moment dat, dacă problema asta și criza asta se adâncește, dumneavoastră veți fi chemat să mediați și s o rezolvați.
 
 Acum credeți că e momentul, suntem departe de momentul medierii.
 
@@ -116,21 +113,21 @@ Am discutat săptămâna asta am discutat cu fiecare dintre cei trei lideri și 
 
 I ați chemat pe câte unul la
 
-[ND] pe câte unul ca să văd la început de an cu toate subiectele ca să vedem cum cum începe anul
+pe câte unul ca să văd la început de an cu toate subiectele ca să vedem cum cum începe anul
 
-[ND] și nu există în ceea ce privește politice publice.
+și nu există în ceea ce privește politice publice.
 
 Bineînțeles că există puncte de vedere diferite, dar nu există lucruri care să ne îngrijoreze.
 
 Vă dacă v ar întreba așa ca între cunoscuți, Ilie Bolojan, ce ar trebui să schimbe în stil, în acțiune, în șefia lui de la Palatul Victoria, ce i ați zice să schimbe?
 
-[ND] N o să n o să vă răspund la întrebarea asta.
+N o să n o să vă răspund la întrebarea asta.
 
 Bineînțeles că avem tipul acesta.
 
 Multe discuții de tipul ăsta sunt în spatele ușilor închise, dar eu din din poziția mea de mediator nu vreau să intru în discuția asta.
 
-[JURNALIST] Tot domnul Bolojan spune un lucru pe care mulți îl observă și anume că PSD blochează reformele.
+Tot domnul Bolojan spune un lucru pe care mulți îl observă și anume că PSD blochează reformele.
 
 Sunteți de acord cu el?
 
@@ -148,13 +145,13 @@ Ce e important este că ei împreună reușesc să atingă niște obiective de e
 
 Așa e în politică când ă cum să zic, partidele care compun coaliția sunt au opțiuni diferite pe multe teme.
 
-[ND] Când v am întrebat adineaur dacă aveți vreun reproș sau vreun sfat pentru Ilie Bolojan, nu ați răspuns din eleganța relației cu Ilie Bolojan, dar ați credeți că Ilie Bolojan ar putea face lucrurile să meargă mai bine în relația cu PSD în mod special?
+Când v am întrebat adineaur dacă aveți vreun reproș sau vreun sfat pentru Ilie Bolojan, nu ați răspuns din eleganța relației cu Ilie Bolojan, dar ați credeți că Ilie Bolojan ar putea face lucrurile să meargă mai bine în relația cu PSD în mod special?
 
 Ca fiecare dintre noi, tot timpul e loc de mai bine, dar s o lăsăm în zona asta filozofică.
 
 Tocmai că nu vreau să interferez în relațiile dintre partidele din coaliție.
 
-[JURNALIST] Vorbim despre posibilitatea guvernului minoritar, o posibilitate teoretică, spuneți dumneavoastră.
+Vorbim despre posibilitatea guvernului minoritar, o posibilitate teoretică, spuneți dumneavoastră.
 
 Premierul a spus că a stat de vorbă cu agenția FIC, cu reprezentanții agenției FIC și a constatat un lucru pe care mulți îl știu că printre obiectivele lucrurile pe care le urmăresc agențiile de rating este și stabilitatea politică și că există o preocupare în legătură cu stabilitatea politică din România.
 
@@ -174,7 +171,7 @@ De deficit lumea este mai mult decât mulțumită față de locul de unde am ple
 
 În schimb, există această percepție că e mai multă probabilitatea de instabilitate politică e mai mare decât acum șase 7 luni și asta e prima întrebare pe care o primim.
 
-[ND] Da.
+Da.
 
 Când partenerii dumneavoastră de discuție interni, externi vă întreabă: Băi, ce se întâmplă în țara aia voastră?
 
@@ -190,7 +187,7 @@ Aici e nevoie de simțul formulei.
 
 Ce se întâmplă?
 
-[JURNALIST] Exact.
+Exact.
 
 Exact ce vă spun și dumneavoastră.
 
@@ -200,11 +197,11 @@ Eu le spun cu sinceritate, uitați, sunt niște partide care au un istoric, da, 
 
 Ăsta este răspunsul pe care vi l am dat și dumneavoastră, le dau și lor.
 
-[ND] Cum sesizați starea de spirit a românilor?
+Cum sesizați starea de spirit a românilor?
 
 În primul rând în legătură cu coaliția
 
-[JURNALIST] aici ă bineînțeles lucrul cel mai important este că a scăzut puterea de cumpărare.
+aici ă bineînțeles lucrul cel mai important este că a scăzut puterea de cumpărare.
 
 Da.
 
@@ -222,13 +219,13 @@ Am citit recent un sondaj legat de legat de nivelul taxelor pe proprietate în R
 
 Mulți români, dacă nu mai mă înșel, între 60 70% spuneau că sunt mai mari și în realitate ele sunt chiar sensibil mai mici,
 
-[ND] nu raportate la venit.
+nu raportate la venit.
 
 Nu, întrebarea era
 
-[JURNALIST] referitoare la nivelul valoare absolută.
+referitoare la nivelul valoare absolută.
 
-[ND] Da, la valoarea absolută.
+Da, la valoarea absolută.
 
 Ăă, deci există ăă o stare de tensiune în societate, există multe nemulțumiri care s au s au acumulat și atunci cumva pe anumite aspecte, cum este asta, funcționarea coaliției, cred că imaginea nu este perfectă.
 
@@ -246,7 +243,7 @@ Apropo de starea de spirit.
 
 Cine și ce trebuie să facă aici?
 
-[JURNALIST] Bun.
+Bun.
 
 Nu am fost în multe chestiuni, nu am fost, n am avut aceeași opinie cu guvernul. însă ăă acolo unde suntem aliniați este pe faptul că și măsurile din iulie august anul trecut și măsurile care au fost luate atunci și au intrat în vigoare în ieunțate și s a spus de atunci că n o să mai fie altele.
 
@@ -262,23 +259,23 @@ Deci nu există risc de creștere de taxe în viitor apropiat.
 
 Asta este asigurarea pe care le o dă românilor președintele republicii
 
-[ND] în în urma discuțiilor pe care le am avut cu fiecare din membrii partidelor.
+în în urma discuțiilor pe care le am avut cu fiecare din membrii partidelor.
 
-[JURNALIST] Credeți că au exagerat cu cu majorarea impozitelor pe proprietate, impozitelor locale?
+Credeți că au exagerat cu cu majorarea impozitelor pe proprietate, impozitelor locale?
 
-[ND] Cu impozitele locale e o discuție.
+Cu impozitele locale e o discuție.
 
 Tot timpul este o bineînțeles că într o lume perfectă n ar trebui să existe nici impozite, nici taxe, dar nu suntem într o lume perfectă.
 
 E o discuție filozofică dacă să taxezi proprietatea sau să taxezi munca sau să taxezi capitalul.
 
-[JURNALIST] Deci noi le taxăm pe toate.
+Deci noi le taxăm pe toate.
 
-[ND] Ă toată lumea le taxează pe toate.
+Ă toată lumea le taxează pe toate.
 
 Contează proporția cu care Da.
 
-[JURNALIST] Ăă din nou e un lucru bun.
+Ăă din nou e un lucru bun.
 
 Bineînțeles că oamenii nu văd asta în buzunarul lor în momentul ăsta.
 
@@ -300,15 +297,15 @@ Asta din nou este o invită.
 
 Asta înseamnă un certificat pentru faptul că economia României este competitivă și o nouă invitație pentru companii străine care să vină în România.
 
-[ND] Întrebarea pe care o au oamenii următoarea: ce crede președintele României despre impozitele locale, impozitele pe proprietate, casă, mașină și teren?
+Întrebarea pe care o au oamenii următoarea: ce crede președintele României despre impozitele locale, impozitele pe proprietate, casă, mașină și teren?
 
 Cu cât au fost ele majorate la începutul anului? dacă este exagerat sau majorarea asta chiar era necesară.
 
-[JURNALIST] A fost o analiză, bineînțeles că toate lucrurile astea sunt decize la nivel de guvern parlament.
+A fost o analiză, bineînțeles că toate lucrurile astea sunt decize la nivel de guvern parlament.
 
 A fost o analiză pe deficit
 
-[ND] și cum facem ca din anumite taxe să reducem acest deficit.
+și cum facem ca din anumite taxe să reducem acest deficit.
 
 Și o parte importantă din deficit s a redus prin TVA.
 
@@ -316,15 +313,15 @@ Cunoașteți opinia mea.
 
 O altă parte s a redus prin majorare de taxe pe proprietate sau locale, cum le spuneți dumneavoastră.
 
-[JURNALIST] Credeți că primarii sunt îndreptățiți să se teamă? că banii, o mare parte din banii ăștia se vor duce la bugetul național.
+Credeți că primarii sunt îndreptățiți să se teamă? că banii, o mare parte din banii ăștia se vor duce la bugetul național.
 
 Știți discuția, știți șantierul de la guvern, este vorba despre impozitele locale și impozitul pe venit.
 
 Vota de TVA.
 
-[ND] Cunosc, cunosc foarte bine din calitate de fost primar al
+Cunosc, cunosc foarte bine din calitate de fost primar al
 
-[JURNALIST] Sunt îndreptăți să se teamă că Ilie Bolojan le ia banii?
+Sunt îndreptăți să se teamă că Ilie Bolojan le ia banii?
 
 Eu cred că în momentul, bineînțeles, ești primar, tot timpul ai făcut, ai promis niște lucruri în campanie, vrei să faci ceea ce crezi tu că e bine pentru comunitatea ta.
 
@@ -344,7 +341,7 @@ Cum vă simțiți, domnule președinte, că în comunitatea asta a noastră mare
 
 Cum vă simțiți?
 
-[ND] Bineînțeles că este ceva absolut absolut regretabil.
+Bineînțeles că este ceva absolut absolut regretabil.
 
 Acuma însă ă dacă punem în context vedem că România nu e singulară.
 
@@ -404,15 +401,15 @@ Deci statul român face niște niște progrese în a proteja provizoriu victima 
 
 Dar și aici e mult de optimizat.
 
-[JURNALIST] Oamenii, frustrarea oamenilor este în creștere. și în legătură cu prețul energiei, că e vorba despre gaz, electricitate, că e vorba despre carburanți.
+Oamenii, frustrarea oamenilor este în creștere. și în legătură cu prețul energiei, că e vorba despre gaz, electricitate, că e vorba despre carburanți.
 
-[ND] Lucrul pe care oamenii nu l înțeleg și nu prea se oferă nimeni să le explice este de ce țara asta are resurse, extrage și produce carburanți, gaz, electricitate și totuși la noi e mai scumpă decât în alte țări din Uniunea Europeană unde nu sunt resurse ca în România.
+Lucrul pe care oamenii nu l înțeleg și nu prea se oferă nimeni să le explice este de ce țara asta are resurse, extrage și produce carburanți, gaz, electricitate și totuși la noi e mai scumpă decât în alte țări din Uniunea Europeană unde nu sunt resurse ca în România.
 
 Este justificat, e justificată diferența, este justificată frustrarea oamenilor?
 
 Cred că sunteți de acord că e justificată.
 
-[JURNALIST] Bun, sunt două sunt două părți în chestiunea asta.
+Bun, sunt două sunt două părți în chestiunea asta.
 
 Prima este că chiar dacă o țară are resurse există o piață liberă, da, în care la prețul cu care compania producătoare vinde, tot cam aia e.
 
@@ -422,13 +419,13 @@ Asta e prima jumătate din problemă.
 
 Și a doua jumătate din problemă este nivelul de taxare, pentru că de fapt aici este,
 
-[ND] acolo se umflă prețul. cât sunt taxele, cât sunt accizele.
+acolo se umflă prețul. cât sunt taxele, cât sunt accizele.
 
 Și aici din nou ne întoarcem la cum echilibrăm cum echilibrăm un buget național care are nevoie de bani și în învățământ, care are nevoie de bani în sănătate.
 
 Ăă, ne întoarcem la problema eficienței companiilor de stat, la o eficiență economică în ansamblu și aici este foarte foarte mult de lucru.
 
-[JURNALIST] De o lună nu avem ministru al educației.
+De o lună nu avem ministru al educației.
 
 E bine?
 
@@ -436,17 +433,17 @@ Nu e bine.
 
 Evident că nu e bine și e un act, ca s o fim foarte direcți, e un act de curaj pentru cineva care să fie ministru al sănătății azi,
 
-[ND] al educației,
+al educației,
 
-[JURNALIST] al îmi cer scuze,
+al îmi cer scuze,
 
-[ND] discutăm și despre sănătate.
+discutăm și despre sănătate.
 
 Și la sănătate sunt niște probleme mai puțin acute pentru că am avut un fenomen de migrație al medicilor asistentelor și acolo s au mărit salariile la un anumit moment, ceea ce a fost o mișcare bună care a stabilizat.
 
-[JURNALIST] Dar de ce ar fi un gest de curaj?
+Dar de ce ar fi un gest de curaj?
 
-[ND] Pentru că este un sistem subfinanțat de ani de zile, sistemul de educație.
+Pentru că este un sistem subfinanțat de ani de zile, sistemul de educație.
 
 Nu există o motivație proporțională pentru ca oamenii să intre în sistemul de educație care să fie proporțională cu responsabilitățile și cu alte opțiuni pe care ei le găsesc pe piața muncii.
 
@@ -454,13 +451,13 @@ Nu există o motivație proporțională pentru ca oamenii să intre în sistemul
 
 Sunt multe probleme care vin din vechime suprapunerea dintre programele școlare și ceea ce cere viața reală, piața muncii.
 
-[JURNALIST] Abandonăm.
+Abandonăm.
 
-[ND] Nu, bineînțeles.
+Nu, bineînțeles.
 
 Am spus că e un gest de curaj și aștept să vină o acea persoană care să aibă și anvergura profesională și curajul să ia problema.
 
-[JURNALIST] Credeți că Daniel David a greșit?
+Credeți că Daniel David a greșit?
 
 Putem să analizăm diverse măsuri.
 
@@ -470,11 +467,11 @@ O să și avem întâlniri cu sindicatele, cu cifrele pe masă.
 
 Tot timpul când iei decizii în regim de urgență faci și greșeli.
 
-[ND] Deci au Nu excludeți varianta să fi fost greșeli.
+Deci au Nu excludeți varianta să fi fost greșeli.
 
-[JURNALIST] Da.
+Da.
 
-[ND] Le puteți le puteți arăta, le puteți indica.
+Le puteți le puteți arăta, le puteți indica.
 
 Nu aș vrea să facem discuția asta acum, mai ales că vreau să am opinia tuturor oamenilor din sistem.
 
@@ -488,7 +485,7 @@ Când am fost cu acest risc acum șapte luni, s au luat niște măsuri într un 
 
 La educație a fost termenul cel mai scurt pentru că urma să înceapă școala și măsurile s au luat într o lună, o lună și jumătate și bineînțeles că atunci când lucrezi în regim de viteză faci și greșei.
 
-[JURNALIST] Știți care e întrebarea pe care și o pun în primul rând profesorii? părinții, copiii mai puțini.
+Știți care e întrebarea pe care și o pun în primul rând profesorii? părinții, copiii mai puțini.
 
 De ce prin studenții însă sunt printre cei care își pun această întrebare?
 
@@ -498,7 +495,7 @@ De ce le a cășunat pe educație?
 
 Pentru că senzația a fost că a fost prima și că durerea a fost cea mai mare.
 
-[ND] Da.
+Da.
 
 Da.
 
@@ -510,23 +507,23 @@ Pe dacă ați pomenit, eu am pomenit din greșeală sănătatea.
 
 Aici există și aici ăă reduceri sau optimizări de cheltuieli care însă se fac într un interval mai lung de timp.
 
-[JURNALIST] Domnule președinte, ne ați spus adineauri că există rezultate economice, bugetare, fiscale pentru 2025 bune peste așteptări.
+Domnule președinte, ne ați spus adineauri că există rezultate economice, bugetare, fiscale pentru 2025 bune peste așteptări.
 
 Da, adică macro suntem bine, dar la nivelul omului evident că e
 
-[ND] ce au făcut efortul, cei care au făcut sacrificiul simt.
+ce au făcut efortul, cei care au făcut sacrificiul simt.
 
 Da.
 
-[JURNALIST] Bun.
+Bun.
 
 Întrebarea este asta înseamnă că metoda boloană a dat rezultate
 
-[ND] din nou macro.
+din nou macro.
 
 Da,
 
-[JURNALIST] macro.
+macro.
 
 Păi, am înțeles.
 
@@ -536,15 +533,15 @@ Pentru el ăsta a fost obiectivul.
 
 Pentru România altul era obiectivul.
 
-[ND] Nu, nu.
+Nu, nu.
 
 Așa cum am spus acum două minute, noi eram într un risc mare de a intra într un cerc vicios din care cum am mai trăit de două trei ori în după revoluție, în loc să avem prim ministru, am fi avut un fond monetar internațional care ar fi luat deciziile care ar fi fost mult mai dureroase decât cele care au fost
 
-[JURNALIST] mult mai bruște, mult mai abrupte.
+mult mai bruște, mult mai abrupte.
 
 Totul ar fi fost mult mai urât.
 
-[ND] Exact.
+Exact.
 
 Da.
 
@@ -554,7 +551,7 @@ Bineînțeles că există și uneori mai există interese colaterale, însă tot
 
 Bazinul de susținător al Partidului Social Democrat ă este format din oameni care mare majoritate care au nevoie de o anumită protecție care evident că a fost diminuată.
 
-[JURNALIST] Vă întreb altfel, acum că avem cifrele, înseamnă că ce s a întâmplat în 2025 ar fi putut să fie un pic sau mai mult mai puțin dureros tocmai pentru că acum cifrele sunt peste așteptări.
+Vă întreb altfel, acum că avem cifrele, înseamnă că ce s a întâmplat în 2025 ar fi putut să fie un pic sau mai mult mai puțin dureros tocmai pentru că acum cifrele sunt peste așteptări.
 
 Da, evident.
 
@@ -568,7 +565,7 @@ Ați spus că nu veți semna un buget pentru 2026 dacă nu este pusă în aplica
 
 Spuneți ne ce așteptări aveți, ce ar trebui să se regăsească în legea bugetului sau ce legi adiacente ar trebui să existe pentru ca dumneavoastră să considerați că referendumul bucureștenilor a fost pus în aplicare.
 
-[ND] E un bun.
+E un bun.
 
 În primul rând că după cum vă aduceți aminte, au fost trei întrebări la acel referendum, două propuse de mine, una de ă Partidul Social de Consilierii din București ai PSD.
 
@@ -578,15 +575,15 @@ O să avem un cod urbanistic februarie, martie, estimarea mea, în Parlament și
 
 În ceea ce privește întrebarea pe care mi o puneți legat de bani,
 
-[JURNALIST] hmî
+hmî
 
-[ND] ă eu mă aștept în legea bugetului național este un articol, așa cum există un articol pentru județe versus orașe și comune.
+ă eu mă aștept în legea bugetului național este un articol, așa cum există un articol pentru județe versus orașe și comune.
 
 Există un articol legat la București și eu mă aștept să spună din impozitul pe venit colectat de la bucureșteni, un anume procent se duce la primăria municipiului București, urmând ca Primăria Municipiului București, prin Consiliul General să decidă împărțirea acestor bani între cele șapte primării din București.
 
-[JURNALIST] Deci, nu e cale de întoarcere. din impozitele colectate de primăriile de sector, o parte trebuie să meargă la București, la capitală.
+Deci, nu e cale de întoarcere. din impozitele colectate de primăriile de sector, o parte trebuie să meargă la București, la capitală.
 
-[ND] Nu e cale de întoarcere.
+Nu e cale de întoarcere.
 
 Nu sunt două lucruri.
 
@@ -596,31 +593,31 @@ Când vorbim de impozite pe venit, ele sunt colectate de stat, de la companii.
 
 Când vorbim de taxe și impozite locale, ele sunt colectate de primăriile de sector.
 
-[JURNALIST] Eu vorbesc, legea bugetului se referă numai la acestea care sunt impozitul pe venit și care sunt cam 70 80% din suma totală.
+Eu vorbesc, legea bugetului se referă numai la acestea care sunt impozitul pe venit și care sunt cam 70 80% din suma totală.
 
 Ăă celelalte sunt reglementate în Codul Fiscal și aici este o discuție mai amplă aici la legea bugetului, la împărțirea impozitului pe venit.
 
 E un simplu articol din legea bugetului național.
 
-[JURNALIST] Domnule președinte, luăm o scurtă pauză și ne întoarcem cu un subiect de mare interes și pentru care ați setat niște așteptări așa în timp.
+Domnule președinte, luăm o scurtă pauză și ne întoarcem cu un subiect de mare interes și pentru care ați setat niște așteptări așa în timp.
 
 Este vorba despre șefia serviciilor secrete.
 
 Suntem curioși cum merge
 
-[ND] acest proiect.
+acest proiect.
 
 Eu n am setat nimic, dar colegii dumneavoastră, în mod repetat au
 
-[JURNALIST] Pun întrebări, dar ați spus ceva și mi s a părut foarte interesant și am nevoie de câteva detalii. dumneavoastră, domnule președinte, ați spus că există, găsesc imediat declarația, numele care au fost vehiculate în presă nu au nicio legătură nici cu realitatea, nici cu ce am eu în cap.
+Pun întrebări, dar ați spus ceva și mi s a părut foarte interesant și am nevoie de câteva detalii. dumneavoastră, domnule președinte, ați spus că există, găsesc imediat declarația, numele care au fost vehiculate în presă nu au nicio legătură nici cu realitatea, nici cu ce am eu în cap.
 
-[ND] Da.
+Da.
 
 Luăm pauză.
 
 Acum
 
-[JURNALIST] nu luăm pauză.
+nu luăm pauză.
 
 Colegii mi au spus că nu luăm pauză.
 
@@ -628,7 +625,7 @@ Am ajuns la întrebarea care interesează pe toată lumea.
 
 Vă rog.
 
-[ND] Da, bineînțeles că ăă există în orice ă sistem democratic un mecanism de echilibru al puterilor.
+Da, bineînțeles că ăă există în orice ă sistem democratic un mecanism de echilibru al puterilor.
 
 În cazul nostru, președintele propune Parlamentul decide. pentru fiecare din aceste servicii ăă am avut o listă lungă, o listă scurtă și niște discuții și eu sper ca foarte curând să terminăm aceste discuții.
 
@@ -644,11 +641,11 @@ Eu am reținut o definiție pe care dumneavoastră ați dat o.
 
 Ați vrea ca serviciile să fie conduse de niște oameni care au avut performanțe.
 
-[JURNALIST] Da.
+Da.
 
-[ND] Asta presupune că ei pot să fie de la partide sau din afara lor.
+Asta presupune că ei pot să fie de la partide sau din afara lor.
 
-[JURNALIST] Da.
+Da.
 
 Eu cred că e cel mai bine este să fie din ă din afara partidelor.
 
@@ -658,13 +655,13 @@ Da, pentru că sunt niște zone sensibile, deci oameni echilibrați cu o maturit
 
 O să vedem ce o să iasă din discuția asta.
 
-[ND] Traian Băsescu, fostul președinte al României, spune că partidele depășesc orice limită a bunului simț.
+Traian Băsescu, fostul președinte al României, spune că partidele depășesc orice limită a bunului simț.
 
 El se referă la negocierea pe care o purtați și informațiile mai ales la informațiile vehiculate în spațiul public și spune că este un atribut al președintelui să numească șefii serviciilor de informații și că partidele n ar trebui să aibă atâtea pretenții.
 
 Ce credeți despre această declarație?
 
-[JURNALIST] Da.
+Da.
 
 Sunt de acord cu ea.
 
@@ -674,23 +671,23 @@ Da.
 
 În mod oficial niciunul din partide nu a
 
-[ND] emis nicio pretenție.
+emis nicio pretenție.
 
-[JURNALIST] Nu a emis nicio pretenție.
+Nu a emis nicio pretenție.
 
-[ND] Dar neoficial dumneavoastră vreun partid v a cerut ceva? mi a cerut neoficial în discuții nu nume, ci criterii.
+Dar neoficial dumneavoastră vreun partid v a cerut ceva? mi a cerut neoficial în discuții nu nume, ci criterii.
 
 Asta este discuția pe care am avut o și pe care mult timp s a întrerupt, în special din vina mea, pentru că au fost tot timpul alte lucruri de făcut.
 
 Da, dar acuma e momentul s o închidem.
 
-[JURNALIST] Cele trei întâlniri de săptămâna asta au avut pe agendă și acest subiect
+Cele trei întâlniri de săptămâna asta au avut pe agendă și acest subiect
 
-[ND] în parțial.
+în parțial.
 
 Da,
 
-[JURNALIST] parțial.
+parțial.
 
 Ce credeți despre ce se întâmplă la Primăria Capitalei?
 
@@ -728,19 +725,19 @@ Apoi, așa, ca ultim comentariu, e un e o situație dificilă pentru primarul ge
 
 Eu în mandatul 2020 2024 am avut patru partide și a fost așa și așa.
 
-[ND] Cum vedeți șansele să și pună în practică niște proiecte?
+Cum vedeți șansele să și pună în practică niște proiecte?
 
 Sunteți optimist sau nu?
 
 În legătură cu ce ar putea să facă, cu ce vrea să facă Ciprianci Ciucu?
 
-[JURNALIST] Din ce l am văzut la Primăria Sectorului 6 a reușit să și găsească o majoritate în consiliul local.
+Din ce l am văzut la Primăria Sectorului 6 a reușit să și găsească o majoritate în consiliul local.
 
 E nevoie de, cum să spun, de flexibilitate pentru a găsi majoritatea în Consiliul General.
 
 Acum,
 
-[JURNALIST] domnule președinte, s a dus și Consiliul European special.
+domnule președinte, s a dus și Consiliul European special.
 
 Ce facem cu Bard of Peace?
 
@@ -756,7 +753,7 @@ Deci cumva este un instrument pe care Statele Unite îl propun pentru punerea î
 
 Ă este un proces care, în opinia mea, va dura săptămâni sau chiar luni.
 
-[ND] Cu alte cuvinte, dacă americanii modifică textul, sunteți tentați să intrăm?
+Cu alte cuvinte, dacă americanii modifică textul, sunteți tentați să intrăm?
 
 Suntem onorați Statele Unite sunt partenerul nostru strategic și evident că ne dorim să facem parte din dintr un organism care să stabilizeze regiunea Orientului Mijlociu sau măcar o parte din ea.
 
@@ -764,7 +761,7 @@ Pe de altă parte nu ne dorim ca semnând un astfel de acord să încălcăm alt
 
 De asta e nevoie de procesul ăsta de reflecție și când el este făcut bilateral cu 40 50 de state simultan, vă dați seama că negocierile sunt complicate.
 
-[JURNALIST] Sunt sigur că știți declarația ministrului finanțelor din Germania care sună în felul următor.
+Sunt sigur că știți declarația ministrului finanțelor din Germania care sună în felul următor.
 
 A venit momentul pentru Europa cu două viteze.
 
@@ -774,7 +771,7 @@ Este vorba despre Germania, Franța, Italia, Spania, Polonia și țările de Jos
 
 Cum vi se pare această propunere?
 
-[ND] Bun.
+Bun.
 
 În primul rând am citit cu mare atenție declarația. ăă nu este nu este așa cum ați spus o dumneavoastră, deci nu există vreo posibilitate sau cel puțin în orizontul imediat de timp în care arhitectura europeană să se schimbe.
 
@@ -796,13 +793,13 @@ De exemplu, noi suntem într un grup care se își propune să își armonizeze 
 
 Noi dorim să suntem într un grup de țări care dorim să încetinim acest proces
 
-[JURNALIST] și ne vom întâlni în 12 februarie înainte de Consiliul European încercând să ne armonizăm pozițiile astfel încât să avem o poziție comună de negociere în actele care privesc emisiile de carbon.
+și ne vom întâlni în 12 februarie înainte de Consiliul European încercând să ne armonizăm pozițiile astfel încât să avem o poziție comună de negociere în actele care privesc emisiile de carbon.
 
 Există un grup pe migrație, există multe astfel de formate care sunt absolut democratice și care în care țări încearcă să și să și armonizeze punctele de vedere.
 
 Deci, nu trebuie să fim îngrijorați.
 
-[ND] O metodă de a lua decizii mai repede și să evite mai mult vetoul câte unei țări în Uniunea Europeană trebuie să existe?
+O metodă de a lua decizii mai repede și să evite mai mult vetoul câte unei țări în Uniunea Europeană trebuie să existe?
 
 Ar pune lucrurile într o dinamică diferită.
 
@@ -814,7 +811,7 @@ Da.
 
 Deci este o chestiune graduală și o dezbatere în curs.
 
-[JURNALIST] Spuneți ne România ce fel de putere e?
+Spuneți ne România ce fel de putere e?
 
 Mijlocie mică.
 
@@ -828,11 +825,11 @@ Ce pot face puterile mijlocii când un hegemon, cum sunt Statele Unite, te trate
 
 Primul lucru, România ce fel de putere e, mijlocie sau mică?
 
-[ND] Este o putere mijlocie.
+Este o putere mijlocie.
 
 M
 
-[JURNALIST] Este o putere mijlocie.
+Este o putere mijlocie.
 
 Ne simțim amenințați de discursul violent al lui Donald Trump?
 
@@ -844,7 +841,7 @@ Au fost niște șocuri.
 
 Au fost niște șocuri în în ultimul an,
 
-[ND] au fost niște tensiuni, însă ele nu au rupt această relație și ceea ce noi încercăm să facem în dezbaterile europene, de exemplu, în pe diferite formate este să ăă să descurajăm escaladarea tensiunilor între între aceste opțiuni pentru moment suntem suntem bine și sunt optimist pentru pentru viitor pentru că relația asta a fost clădită în mult timp.
+au fost niște tensiuni, însă ele nu au rupt această relație și ceea ce noi încercăm să facem în dezbaterile europene, de exemplu, în pe diferite formate este să ăă să descurajăm escaladarea tensiunilor între între aceste opțiuni pentru moment suntem suntem bine și sunt optimist pentru pentru viitor pentru că relația asta a fost clădită în mult timp.
 
 Există relații comerciale, există transfer de tehnologie, adică e greu să fie ruptă cu adevărat această relație.
 
@@ -854,13 +851,13 @@ Marc Rute, secretarul general NATO, spune că cei care își închipuie că Uniu
 
 Sunteți de acord?
 
-[JURNALIST] În mare parte?
+În mare parte?
 
 Da.
 
 Ceea ce se întâmplă însă și e un lucru bun,
 
-[ND] România vrea o armată europeană.
+România vrea o armată europeană.
 
 Până ajungem acolo, noi trebuie să compensăm deficitul de securitate.
 
@@ -870,11 +867,11 @@ Adică unde Donald Trump are dreptate este că ăă decenii la rând Europa s a 
 
 Numai că ăsta este un proces de ani de zile, timp în care, așa cum spune Marc Rute, colaborarea cu Statele Unite rămâne esențială.
 
-[JURNALIST] Mergeți în Statele Unite în martie foarte probabil în în cursul acestui an, că este martie, că este aprilie, că este iunie, o să mai vedem asta.
+Mergeți în Statele Unite în martie foarte probabil în în cursul acestui an, că este martie, că este aprilie, că este iunie, o să mai vedem asta.
 
-[ND] Deci, foarte probabil în cursul acestui an să existe o vizită la Washington.
+Deci, foarte probabil în cursul acestui an să existe o vizită la Washington.
 
-[JURNALIST] Da, există invitația.
+Da, există invitația.
 
 Numai că eu vreau să tratăm această invitație în modul cel mai serios.
 
@@ -896,9 +893,9 @@ Deja în aceste ște opt luni am avut niște mici alegeri de făcut și din fel 
 
 Ăă
 
-[ND] dați ne un exemplu,
+dați ne un exemplu,
 
-[JURNALIST] nu știu chiar acest board of peace, da? viteza cu care să răspundem la această invitație este un exemplu chestiunea tarifelor din vară cum să Deci sunt mici alegeri de făcut dar în linii mari eu exclud acest scenariu de rupere transatlantică nu nu cred că el se va întâmpla.
+nu știu chiar acest board of peace, da? viteza cu care să răspundem la această invitație este un exemplu chestiunea tarifelor din vară cum să Deci sunt mici alegeri de făcut dar în linii mari eu exclud acest scenariu de rupere transatlantică nu nu cred că el se va întâmpla.
 
 Și a doua întrebare este din nou una de percepție.
 
@@ -936,7 +933,7 @@ Deci ă în opinia mea, ceea ce noi trebuie să facem pe politică externă, cel
 
 Nu suntem încă aici, dar pe partea de a pune bazele, în opinia mea, am făcut un lucru bun.
 
-[ND] Președintele României, Nicușor Dan, în studioul Digi24.
+Președintele României, Nicușor Dan, în studioul Digi24.
 
 Vă mulțumesc, domnule președinte.
 

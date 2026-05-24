@@ -1,11 +1,8 @@
 ---
 data: 2025-07-25
-metoda: heuristic diarization (format=markers, 4 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=-si9JjtNX6U
 sursa_aprecieri: 1088
 sursa_canal: Euronews Romania
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1753457992
 sursa_video_id: -si9JjtNX6U
 sursa_vizionari: 72566
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Ora 17:00.
+Ora 17:00.
 
 Sunteți la Euronews acum și în direct cu Viena, Austria.
 
@@ -58,9 +55,9 @@ Octav, bun găsit.
 
 Ce urmează de acum?
 
-[ND] Hai, trebuie să intrăm.
+Hai, trebuie să intrăm.
 
-[ND] Bun găsit.
+Bun găsit.
 
 Mai urmează o fotografie de grup a președintelui Nicușordan, împreună cu șeful de stat al Austriei și alături de prima doamnă și de soția omologului său austriac, după care vor avea discuții private cei doi șefi de stat, iar mai apoi o conferință de presă comună.
 
@@ -82,7 +79,7 @@ Discuțiile de aici de la Salzburg se concentrează foarte mult pe componenta ec
 
 Dacă ar fi să facem un calcul, din anii '90 și până acum firmele din Austria au investit în țara noastră se estimează peste 12 miliarde de euro.
 
-[ND] Mulțumesc, Octav, pentru toate informațiile.
+Mulțumesc, Octav, pentru toate informațiile.
 
 Ultimele cadre cu președintele României și omologul său austriac, Alexander Van Derer Bellen.
 

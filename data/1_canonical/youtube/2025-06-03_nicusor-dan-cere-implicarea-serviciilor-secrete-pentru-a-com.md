@@ -1,11 +1,8 @@
 ---
 data: 2025-06-03
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=fNLt-43Ps_o
 sursa_aprecieri: 1069
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1748968626
 sursa_video_id: fNLt-43Ps_o
 sursa_vizionari: 77391
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Am avut chiar aseară o discuție cu domnul prim ministru interimar, domnul Predoiu, Șică dacă trebuie în strategia națională de Apărare să aducem o modificare astfel încât să concentrăm mai multe forțe ale statului pe combaterea acestui fenomen.
+Am avut chiar aseară o discuție cu domnul prim ministru interimar, domnul Predoiu, Șică dacă trebuie în strategia națională de Apărare să aducem o modificare astfel încât să concentrăm mai multe forțe ale statului pe combaterea acestui fenomen.
 
 Înseamnă că serviciile de informații de la SRI la serviciile de informații externe, toate structurile statului specializate în procesarea datelor și culegerea de informații să se implice în acest proces de a vedea unde se pierd banii din economie, unde este această mare evaziune.
 

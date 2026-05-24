@@ -1,11 +1,8 @@
 ---
 data: 2025-08-24
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=heoBrUq_ynk
 sursa_aprecieri: 18
 sursa_canal: B1
@@ -19,15 +16,15 @@ sursa_upload_timestamp: 1756051356
 sursa_video_id: heoBrUq_ynk
 sursa_vizionari: 550
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Mesaj de ultimă oră al președintelui României.
+Mesaj de ultimă oră al președintelui României.
 
 Cu ocazia Zilei Independenței Ucrainei, Nicușordan a transmis un mesaj de sprijin în fața războiului desfășurat de armata lui Putiniat.
 
-[ND] On Ukraine's independence day, extend to the people of Ukraine the warm congratulations and my wishes for peace and security.
+On Ukraine's independence day, extend to the people of Ukraine the warm congratulations and my wishes for peace and security.
 
 In face of the ongoing Russian aggression against your country, I would like to reafirm Romania's support to Ukraine's legitimate struggle for selfdefense.
 
@@ -35,7 +32,7 @@ We will also assist Ukraine's reconstruction efforts and towards European integr
 
 We admire the courage and resilience demonstrated by both Ukrainian's earned force and civilian population in defending your nation independence, sovereinity and territorial integrity. resolve serve as powerful example for the fight for freedom and democracy against an autocratic enemy on special dayan string hopeuture
 
-[ND] Ucraina celebrează azi ziua independenței zi ce marchează declarația de independență față de Uniunea Sovietică din 1991 între timp Rusia susține că a fost nevoită să intervină pentru a stinge un incendiu la o centrală nucleară din regiunea Cursk, după ce a doborât o dronă ucraineană.
+Ucraina celebrează azi ziua independenței zi ce marchează declarația de independență față de Uniunea Sovietică din 1991 între timp Rusia susține că a fost nevoită să intervină pentru a stinge un incendiu la o centrală nucleară din regiunea Cursk, după ce a doborât o dronă ucraineană.
 
 Iar liderul de la Kie, Volodimir Zelenschi, estimează că mult așteptatele garanții de securitate vor fi anunțate pe parcursul zilelor următoare.
 

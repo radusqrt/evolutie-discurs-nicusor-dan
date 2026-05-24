@@ -1,11 +1,8 @@
 ---
 data: 2025-08-29
-metoda: heuristic diarization (format=markers, 99 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=1r2kWt9UYAA
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1756454941
 sursa_video_id: 1r2kWt9UYAA
 sursa_vizionari: 1435
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Bună seara și bine v am regăsit la Ediție specială.
+Bună seara și bine v am regăsit la Ediție specială.
 
 Sunt Roxana Lăzărescu și timp de două ore vă invit să intrăm în detaliile subiectelor momentului cu informații verificate și analize pertinente.
 
@@ -88,7 +85,7 @@ Avem și primele declarații făcute de agent.
 
 Vă avertizez, sunt imagini care vă pot afecta emoțional. [Muzică]
 
-[ND] Videoclipul postat de polițistul Marian Godină îl arată pe agresorul de 20 de ani cum îl lovește în față pe lucrătorul asiatic.
+Videoclipul postat de polițistul Marian Godină îl arată pe agresorul de 20 de ani cum îl lovește în față pe lucrătorul asiatic.
 
 Un polițist aflat în apropiere a văzut agresiunea și l a imobilizat pe atacator.
 
@@ -96,25 +93,25 @@ Ulterior, agresorul a fost dus la secție și reținut și apoi arestat pentru 3
 
 Agentul de poliție care a intervenit se afla în timpul liber.
 
-[ND] După terminarea programului de lucru, în timp ce mă deplasam spre casă, am observat un cetățean care era agresat frizii de către alta, motiv pentru care m am apropiat de aceștia, somându l pe agresor.
+După terminarea programului de lucru, în timp ce mă deplasam spre casă, am observat un cetățean care era agresat frizii de către alta, motiv pentru care m am apropiat de aceștia, somându l pe agresor.
 
 Acesta auzindu mă a început să fugă spre cealaltă parte a Colentinei, unde a fost imobilizat.
 
-[ND] Ce v a zis?
+Ce v a zis?
 
 Ce spunea agresorul?
 
-[ND] A zis doar că îi pare rău.
+A zis doar că îi pare rău.
 
 Nu se aștepta să fie văzut de către cineva.
 
-[ND] Erați în timpul liber.
+Erați în timpul liber.
 
 Ați mai făcut astfel de de gesturi?
 
 V ați mai făcut meseria și să zicem?
 
-[ND] Ne puteți spune când și ce s a întâmplat?
+Ne puteți spune când și ce s a întâmplat?
 
 S a mai întâmplat cred că acum doi ani, tot la fel când mă când veneam la secția de poliție să intru la muncă.
 
@@ -122,7 +119,7 @@ Un cetățean alerga, era alergat de către colegii mei, fugea de ei.
 
 S a nimerit să fiu acolo.
 
-[ND] Videoclipul cu atacul rasist a fost distribuit în online de zeci de mii de oameni.
+Videoclipul cu atacul rasist a fost distribuit în online de zeci de mii de oameni.
 
 Reacția principală a fost cea de revoltă și compasiune față de victimă.
 
@@ -160,17 +157,17 @@ Guvernul își propune prin acest pachet să mai reducă din deficit.
 
 Urmează ca mâine aceste pachete să fie aprobate de guvern, iar apoi luni cel mai probabil executivul condus de Ilie Bolojan să și angajeze răspunderea într o ședință cel puțin neobișnuită, pentru că iată vom avea șase pachete fiscale.
 
-[ND] Premierul Ilie Bolojan spune că pachetul al doilea de măsuri ar avea șanse mari să treacă de Curtea Constituțională.
+Premierul Ilie Bolojan spune că pachetul al doilea de măsuri ar avea șanse mari să treacă de Curtea Constituțională.
 
 Totuși, ia în calcul și scenariul pesimist ca acest pachet să nu treacă de controlul constituțional.
 
 În acest caz, guvernul nu ar mai avea legitimitate, a declarat premierul la Antena 3 CNN.
 
-[ND] Eu sper că respectând toate deciziile curții și respectând legislația, argumentând cât mai bine acest pachet are șanse mari să treacă de Curtea Constituțională.
+Eu sper că respectând toate deciziile curții și respectând legislația, argumentând cât mai bine acest pachet are șanse mari să treacă de Curtea Constituțională.
 
 Vă dați seama că în al doilea lucru, dacă un astfel de pachet va cădea la Curtea Constituțională, e greu de presupus că acest guvern va mai avea legitimitatea să vină să rezolve alte nedreptăți, alte acumulări care sunt adunate
 
-[ND] până ajunge la Curtea Constituțională.
+până ajunge la Curtea Constituțională.
 
 Pachetul trebuie să treacă însă de coaliția de guvernare, unde sunt în continuare tensiuni.
 
@@ -180,19 +177,19 @@ El e nemulțumit că miniștrii USR, de exemplu, își fac selfie uri în ședin
 
 Așa vede Sorin Grindeanu activitatea acestora de
 
-[ND] la USR mai devreme când ei erau în opoziție.
+la USR mai devreme când ei erau în opoziție.
 
 Vă e greu cu ei la guvernare?
 
 Nu, nu, mie nu deloc.
 
-[ND] V ați obișnuit unii cu alții?
+V ați obișnuit unii cu alții?
 
 Că na, nu era Știți cu ce mi este greu cu stilul online de a guverna.
 
-[ND] Cum e stilul online?
+Cum e stilul online?
 
-[ND] Păi, nu l vedeți când îți faci selfie din ședința de guvern?
+Păi, nu l vedeți când îți faci selfie din ședința de guvern?
 
 Nu vă supărați pe mine.
 
@@ -242,29 +239,29 @@ Trezit cu totul.
 
 Noi n am mai investit, deci n am mai primit fonduri pentru a investi în cabana noastră din anul, dacă nu mi aduc aminte, 2000.
 
-[ND] Din 2000.
+Din 2000.
 
 Deci
 
-[ND] Deci vă dați seama că de 20 și ceva de ani noi n am investit, am păstrat o așa cum nu știu dacă dumneavoastră ați fost acolo.
+Deci vă dați seama că de 20 și ceva de ani noi n am investit, am păstrat o așa cum nu știu dacă dumneavoastră ați fost acolo.
 
-[ND] La câțiva metri de pensiune în pădure găsim o mică groapă de gunoi improvizată.
+La câțiva metri de pensiune în pădure găsim o mică groapă de gunoi improvizată.
 
 Apoi avem o surpriză și mai mare.
 
 Un depozit de deșeuri provenită din construcții.
 
-[ND] Sunt și foarte multe bucăți de fier beton provenite de la construcții.
+Sunt și foarte multe bucăți de fier beton provenite de la construcții.
 
 Astea nu au ce căuta în pădure, niciunele.
 
 Nici betoanele, nici fiarele, nimic.
 
-[ND] Acolo s a construit, s a refăcut un puț.
+Acolo s a construit, s a refăcut un puț.
 
-[ND] Da.
+Da.
 
-[ND] Și a fost o clădire construită, a trebuit s o dezafectăm și acuma să ridicăm acelea.
+Și a fost o clădire construită, a trebuit s o dezafectăm și acuma să ridicăm acelea.
 
 Deci asta e chestia de curând.
 
@@ -312,7 +309,7 @@ Președintele Parlamentului European Roberta Mețola și președintele Comisiei 
 
 Rusia a anunțat că nu va accepta prezența trupelor NATO pe teritoriul ucrainean ca garanție de securitate.
 
-[ND] Germania a inaugurat ieri cea mai mare fabrică de muniție din Europa.
+Germania a inaugurat ieri cea mai mare fabrică de muniție din Europa.
 
 România va construi în colaborare cu Germania cea mai modernă fabrică de pulberi pentru muniție din lume în județul Brașov.
 
@@ -358,25 +355,25 @@ Asta pentru că va crește numărul maximum de elevi care pot învăța într o 
 
 Cu aprobarea Inspectoratului Școlar se poate ajunge până la clase cu 28 de elevi în învățământul primar, 32 de elevi în învățământul gimnazial și 34 de elevi în învățământul liceal.
 
-[ND] Reprezentanții elevilor spun că aceste schimbări vor bulversa sistemul de învățământ.
+Reprezentanții elevilor spun că aceste schimbări vor bulversa sistemul de învățământ.
 
-[ND] Din perspectiva noastră, măsura privind creșterea numărului de elevi este una total inadecvată.
+Din perspectiva noastră, măsura privind creșterea numărului de elevi este una total inadecvată.
 
 Este evident că implică și dificultăți legate de gestionarea clasei, menținerea disciplinei, precum și de adaptarea metodelor de predare la nevoile și nivelul fiecărui elev.
 
-[ND] Dar părinții sunt împărțiți.
+Dar părinții sunt împărțiți.
 
 Unii sunt de acord cu elevii, alții spun că nu contează numărul, ci calitatea profesorului.
 
-[ND] Nu e un lucru bun.
+Nu e un lucru bun.
 
 Ar trebui o echilibrare între numărul de copii și calitatea sistemului de învățământ.
 
-[ND] Îmi aduc aminte, în vremea mea eram 42 în clasă și toți am ieșit destul de învățați de acolo.
+Îmi aduc aminte, în vremea mea eram 42 în clasă și toți am ieșit destul de învățați de acolo.
 
 Trebuie să crească nivelul profesorilor, capacitatea profesorilor de a ști să predea.
 
-[ND] În momentul în care ai o clasă supraaglomerată, nu mai ai timp efectiv ca profesor să te apleci pentru fiecare elev în parte. patru elevi, opt elevi nu sunt numai niște elevi trecuți în într un catalog și atât.
+În momentul în care ai o clasă supraaglomerată, nu mai ai timp efectiv ca profesor să te apleci pentru fiecare elev în parte. patru elevi, opt elevi nu sunt numai niște elevi trecuți în într un catalog și atât.
 
 Acum câțiva ani am avut o clasă de elevi formată dintr un efectiv de 16 elevi.
 
@@ -386,13 +383,13 @@ Era o diferență de acer la pământ când lucram cu clasa aceea de 16 elevi ș
 
 Știam un elev se simțea bine sau avea diferite, nu știu, probleme
 
-[ND] la liceele și școlile de top.
+la liceele și școlile de top.
 
 Cerile de transferuri sunt cu zecile pe cele câteva locuri.
 
-[ND] Ne punem întrebarea dacă nu cumva efectivele maxime, așa cum sunt actualmente reglementate și care vor permite fără doar și poate o mobilitate a elevilor cu care în principiu sunt de acord, dar în condițiile în care criteriul performanței este unul respectat. că mesajul pe care î vom transmite în comunitate trebuie să fie unul legat nu de strict de un număr de elevi într o clasă, ci de elevi care au un anumit nivel de pregătire.
+Ne punem întrebarea dacă nu cumva efectivele maxime, așa cum sunt actualmente reglementate și care vor permite fără doar și poate o mobilitate a elevilor cu care în principiu sunt de acord, dar în condițiile în care criteriul performanței este unul respectat. că mesajul pe care î vom transmite în comunitate trebuie să fie unul legat nu de strict de un număr de elevi într o clasă, ci de elevi care au un anumit nivel de pregătire.
 
-[ND] Liceele sunt asaltate la acest moment de cereri de transfer.
+Liceele sunt asaltate la acest moment de cereri de transfer.
 
 Discutam cu colegi directori și spuneau că au 60 80 90 de cereri de transfer pentru 5 6 10 locuri pe care ei le au la acest moment libere.
 
@@ -402,7 +399,7 @@ Cel mai mare aflux de cerere de transfer la acest moment este la nivelul clasei 
 
 Înainte de modificarea legii, clasele nu ar fi trebuit să depășească 28 de elevi.
 
-[ND] Un obicei preferat de foarte multe femei este toxic, spun cei de la protecția consumatorilor.
+Un obicei preferat de foarte multe femei este toxic, spun cei de la protecția consumatorilor.
 
 Ojele semipermanente și gelurile UV, care conțin o substanță numită TPO, vor fi interzise din această toamnă în toată Uniunea Europeană din cauza riscurilor pentru sănătate.
 
@@ -414,51 +411,51 @@ Iar pe rețelele de socializare corg imagini cu produse aruncate.
 
 Eu vi le arunc, iar începând cu 5 a faceți și voi.
 
-[ND] TPO este o substanță care ajută la uscarea ojei semipermanente și a gelurilor sub lumina UV sau LED.
+TPO este o substanță care ajută la uscarea ojei semipermanente și a gelurilor sub lumina UV sau LED.
 
 Până pe 1 septembrie, toate aceste produse trebuie retrase de pe piață, ceea ce creează un haos în industrie.
 
-[ND] Sturile sunt foarte mari și atunce facem treptat tranziția către ojele noi care nu conțin această substanță toxică și din păcate este o tranziție de durată.
+Sturile sunt foarte mari și atunce facem treptat tranziția către ojele noi care nu conțin această substanță toxică și din păcate este o tranziție de durată.
 
 Noi ne am fi dorit o tranziție un pic mai prelungită, dar nu se poate.
 
 Și atunci, da, aruncăm cred că jumătate din marfa noastră de la unghii și atunci trebuie obligatoriu înlocuită.
 
-[ND] Ingredientul a fost clasificat recent ca substanță periculoasă pentru reproducere și devine periculos când e utilizat în mod repetat și în concentrații mari.
+Ingredientul a fost clasificat recent ca substanță periculoasă pentru reproducere și devine periculos când e utilizat în mod repetat și în concentrații mari.
 
 Asta înseamnă că ea în sine nu este toxică, nu induce mutații sau nu este cancerienă.
 
 În schimb, dacă este aplicată la persoanele de vârstă fertilă, ar putea să le afecteze reproducerea.
 
-[ND] Manichiuristele nu mai pot folosi produsele, chiar dacă ele au fost cumpărate înainte de 1 septembrie și încă nu au expirat.
+Manichiuristele nu mai pot folosi produsele, chiar dacă ele au fost cumpărate înainte de 1 septembrie și încă nu au expirat.
 
 Pentru profesioniștii din domeniul cosmetic, cum sunt saloanele de manichiură, indicațiile de la protecția consumatorilor sunt clare.
 
 Produsele care conțin TPO nu mai pot fi vândute, distribuite și utilizate de la 1 septembrie.
 
-[ND] Trendul unghiilor cu gel și ojă semipermanentă e foarte popular în rândul femeilor.
+Trendul unghiilor cu gel și ojă semipermanentă e foarte popular în rândul femeilor.
 
-[ND] Nici nu am alergii sau mereu m am dus la saloane la care se sterilizează.
+Nici nu am alergii sau mereu m am dus la saloane la care se sterilizează.
 
 Deci nu am avut, să zic, gândul de a păți ceva.
 
-[ND] De cât timp îți faci unghiile cu ojă semi sau cu gel?
+De cât timp îți faci unghiile cu ojă semi sau cu gel?
 
 Cred că doi ani.
 
 Nu m am gândit la asta și nu cred că m ar afecta.
 
-[ND] Cât plătești lunar pentru manichiură?
+Cât plătești lunar pentru manichiură?
 
-[ND] Între 150 și 200 RON.
+Între 150 și 200 RON.
 
 Mai mult, expunerea mâinilor la lumina UV poate afecta pielea, iar dermatologii recomandă ca înainte de aceste proceduri să se aplice o cremă cu protecție solară mare.
 
-[ND] Cazurile de mașini furate în vacanță a ajuns o problemă serioasă într o destinație preferată de turiștii români, Grecia.
+Cazurile de mașini furate în vacanță a ajuns o problemă serioasă într o destinație preferată de turiștii români, Grecia.
 
 O femeie a cerut ajutor pe grupurile de Facebook după ce a rămas fără mașină în Halkidiki.
 
-[ND] Furtul s a întâmplat în timp ce turiștii dormeau.
+Furtul s a întâmplat în timp ce turiștii dormeau.
 
 Hoțul a intrat pe geamul de la bucătărie și a furat cheia.
 
@@ -498,7 +495,7 @@ Infractorii ar fi folosit un dispozitiv nou care poate deschide orice mașină m
 
 Datorită GPS ului, automobilul furat a fost localizat în scurt timp, iar hoțul, un tânăr din Bulgaria, a fost prins.
 
-[ND] O femeie din Iași a fost jefuită și i s a întâmplat în timp ce se afla în operație la un spital din Iași.
+O femeie din Iași a fost jefuită și i s a întâmplat în timp ce se afla în operație la un spital din Iași.
 
 Hoțul s a dat drept fiul ei, a intrat în salon, i a furat geanta și a fugit.
 
@@ -522,13 +519,13 @@ Femeia avea în geantă un portofel cu 3500 RON, acte, carduri, dar și un lanț
 
 Rudele au descoperit furtul și au alertat polițiștii.
 
-[ND] În cauză a fost încit dosar penal sub aspectul săvârșirii infracțiunii de furt.
+În cauză a fost încit dosar penal sub aspectul săvârșirii infracțiunii de furt.
 
 Cercetările sunt continuate pentru stabilirea situației.
 
 De fapt,
 
-[ND] după incident, mai mulți pacienți și rudele lor au cerut măsuri sporite de securitate în spital.
+după incident, mai mulți pacienți și rudele lor au cerut măsuri sporite de securitate în spital.
 
 A fost tot un de ăsta care să jăcănească, să jefuiască ceva și i a fost mai ușor la în spital.
 
@@ -540,15 +537,15 @@ Oricine.
 
 Am adus la cutare sau am o pacientă, dar nu întrebat la cine, la ce salon, la cum o cheamă. și persoane care mai intră și nu sunt de civilizate.
 
-[ND] Totuși, e un spital care are multe camere din supraveghiere, care vede să vede pe cameră cine i a furat.
+Totuși, e un spital care are multe camere din supraveghiere, care vede să vede pe cameră cine i a furat.
 
-[ND] În cazul spitalului există un contract cu firma de pază făcut în condițiile legii care este respectat.
+În cazul spitalului există un contract cu firma de pază făcut în condițiile legii care este respectat.
 
 Există și camere video de supraveghere, dar în afara spațiilor medicale, respectând intimitatea pacienților și confidențialitatea actului medical.
 
-[ND] Hoțul este în continuare căutat de polițiști. [Muzică]
+Hoțul este în continuare căutat de polițiști. [Muzică]
 
-[ND] O informație de ultimă oră.
+O informație de ultimă oră.
 
 Acum au apărut imaginile atacului rusesc din Delta Dunării.
 
@@ -558,7 +555,7 @@ Detaliile vin de la colegul nostru Andrei Negusiu.
 
 Te ascultăm, Andrei.
 
-[ND] Bun găsit, Roxana.
+Bun găsit, Roxana.
 
 Da, sunt publicate aceste imagini de către Ministerul Rus al apărării și vedem momentul în care nava de recunoaștere ucraineană care naviga pe unul din brațele Dunării este lovită de o dronă, o dronă maritimă, navală, este o premieră în atacurile rusești.
 
@@ -584,7 +581,7 @@ Era vorba de un de o navă care draga minele.
 
 De altfel și nava avariată sau scufundată acum este o navă de recunoaștere pe care ucrainenii o foloseau inclusiv în Marea Neagră ca să supravegheze acțiunile rușilor.
 
-[ND] Mulțumesc, Andrei Negusiu.
+Mulțumesc, Andrei Negusiu.
 
 Nu uitați, informații mai multe găsiți și pe pagina noastră de internet la dig24.ro.
 
@@ -620,7 +617,7 @@ Chiar dacă nu a primit întreaga sumă, compania precizează că a făcut deja 
 
 Însă mai există datorii pe care nu le poate achita.
 
-[ND] Vești proaste pentru șofer.
+Vești proaste pentru șofer.
 
 De la 1 septembrie se scumpește rovinieta.
 
@@ -628,7 +625,7 @@ Pentru unele perioade costul taxei de drum aproape că se va dubla și cine înc
 
 Cât vor costa rovinieta, dar și sancțiunile pentru lipsa acesteia știe Andreea Crăciunescu.
 
-[ND] Bun găsit tuturor.
+Bun găsit tuturor.
 
 Vorbim despre prețul rovinietei pentru autoturisme, pentru că în acest moment vorbim despre scumpiri doar pentru această categorie și ne raportăm la prețul în euro.
 
@@ -650,7 +647,7 @@ Se va majora și amenda pentru cei care nu au această roinietă.
 
 Este important de menționat că rovinetele cumpărate înaintea datei de 1 septembrie rămân valabile pe întreaga perioadă pentru care au fost emise și ne uităm în continuare că putem achiziționa rovinietele online prin SMS sau de la punctele de vânzare autorizate.
 
-[ND] Iar scumpirile nu se opresc aici.
+Iar scumpirile nu se opresc aici.
 
 Urmează impozitul pe proprietate.
 
@@ -664,7 +661,7 @@ Măsura ar trebui să ajute autoritățile locale să și crească veniturile, m
 
 Detaliile vin de la Bogdan Băcilă.
 
-[ND] Bun găsit.
+Bun găsit.
 
 Impozitele pentru proprietăți și mașini.
 
@@ -680,11 +677,11 @@ Aceste măsuri sunt necesare pentru că autoritățile locale au investiții în
 
 România are în plus cei mai mulți proprietari de locuințe din Uniunea Europeană, iar acești bani în plus ar urma să rămână în bugetele locale greu lovite de măsurile de austeritate anunțate de guvern.
 
-[ND] Statistica arată că unul din 10 europeni nu și permitea anul trecut să mănânce o masă sănătoasă și nutritivă, iar România este în top trei.
+Statistica arată că unul din 10 europeni nu și permitea anul trecut să mănânce o masă sănătoasă și nutritivă, iar România este în top trei.
 
 Ce țări mai sunt în acest clasament știe Amalia Dobre.
 
-[ND] Bun găsit.
+Bun găsit.
 
 Aproape 9% din populația Uniunii Europene nu și permitea anul trecut să mănânce o masă sănătoasă, care să cuprindă carne, pește sau alimente nutritive o dată la două zile.
 
@@ -698,7 +695,7 @@ Dacă ne uităm în rândul persoanelor expuse la risc de sărăcie, vedem că p
 
 În acest clasament, în România, datele arată că aproape 30% dintre românii expuși la riscul de sărăcie nu își permit să aibă o alimentație bogată cu carne, pește și alimente nutritive o dată la două zile.
 
-[ND] Madridul dă o lovitură serioasă pieței apartamentelor de închiriat pentru turiști.
+Madridul dă o lovitură serioasă pieței apartamentelor de închiriat pentru turiști.
 
 Aceștia nu se vor mai putea caza în clădirile rezidențiale din centru.
 
@@ -706,7 +703,7 @@ Un pas făcut pentru a domoli turismul de masă și pentru a rezolva criza locui
 
 Ne explică situația de acolo corespondentul nostru în Spania, Alin Petrică.
 
-[ND] Încă din iulie, în Spania există un registru online în care toți proprietarii de apartamente pentru turiști sunt obligați să și le reînscrie și să dovedească toate normele legale pe care le îndeplinesc.
+Încă din iulie, în Spania există un registru online în care toți proprietarii de apartamente pentru turiști sunt obligați să și le reînscrie și să dovedească toate normele legale pe care le îndeplinesc.
 
 Există o situație extraordinară, excepțională în Madrid, acolo unde dintre cele 18000 de apartamente despre care se știe că sunt pe această piață, doar 1200 au îndeplinit aceste norme legale.
 
@@ -722,7 +719,7 @@ Evident, Primăria din Madrid încearcă și ea ca și alte primării să rezolv
 
 Este un al doilea exemplu în Spania pentru că acum un an și Barcelona a luat aceeași măsură.
 
-[ND] Continuăm ediția specială.
+Continuăm ediția specială.
 
 Scandalul provocat de atacul rasist din capitală a ajuns la Palatul Cotroceni.
 
@@ -754,7 +751,7 @@ Andrei Caramitru, bună seara și Dan Cărbunaru.
 
 Bună seara, domnule Cărbunaru.
 
-[ND] Vă invit să vedem împreună cum funcționează în acest moment o parte a statului. o gaură în bugetul deja celebrei regii Rom Silva.
+Vă invit să vedem împreună cum funcționează în acest moment o parte a statului. o gaură în bugetul deja celebrei regii Rom Silva.
 
 Aceasta deține în toată țara 143 de cabane și pensiuni care înregistrează în fiecare an pierderi de milioane de RON.
 
@@ -778,21 +775,21 @@ Am vrut astfel să aflăm câte dintre acestea înregistrează pierderi financia
 
 Răspunsul conducerii regiei, semnat de directorul general adjunct Eleor Olavi Nițescu, a fost că datele solicitate nu sunt publice.
 
-[ND] Nu cred că ar trebui să fie secrete.
+Nu cred că ar trebui să fie secrete.
 
 Rom Silva este una dintre instituțiile cu care va trebui să avem o discuție despre cât ce transparență, ce transparentizăm din informațiile pe care oricum oamenii vin și le cer.
 
-[ND] În urma refuzului Rom Silva am solicitat un răspuns direct de la Ministerul Mediului.
+În urma refuzului Rom Silva am solicitat un răspuns direct de la Ministerul Mediului.
 
 Așa am aflat că mai toate cabanele și pensiunile înregistrează pierderi financiare.
 
-[ND] Trendul văd că este același pe toți anii.
+Trendul văd că este același pe toți anii.
 
 Din 2021 până în ziua de astăzi nu a avut nu au fost pe plus.
 
 Văd că sunt toate cu niște multe milioane în pierderi.
 
-[ND] Astfel, anul trecut pierderile s au ridicat la peste 5,7 milioane RON, în 2023 4,1 milioane RON, în 2022 4,6 milioane RON, iar în 2021 3,1 milioane RON.
+Astfel, anul trecut pierderile s au ridicat la peste 5,7 milioane RON, în 2023 4,1 milioane RON, în 2022 4,6 milioane RON, iar în 2021 3,1 milioane RON.
 
 Și anul 2025 a început tot pe pierdere.
 
@@ -824,7 +821,7 @@ N au mai fost solicitări din partea nimănui, cheltuieli înregistrat, vă daț
 
 În Teleorman, pe drumul care leagă Bucureștiul de Alexandria, găsim pensiunea Dârvași.
 
-[ND] Prima dată când ajunge turistul la pensiunea Dărvași ia contact cu realitatea românească, adică cu un coș de gunoi.
+Prima dată când ajunge turistul la pensiunea Dărvași ia contact cu realitatea românească, adică cu un coș de gunoi.
 
 Apoi găsește această baracă, construcție, ce o fi ea de când o fi aici.
 
@@ -838,7 +835,7 @@ Nu mai are geam, dar este încuiată.
 
 Foarte multă mizerie pe jos.
 
-[ND] Și aici te întâmpină o poartă scoasă din balamale.
+Și aici te întâmpină o poartă scoasă din balamale.
 
 S a rupt, a căzut și au sprijinit o și ei de gard.
 
@@ -856,27 +853,27 @@ Prezit cu totul.
 
 Noi n am mai investit, deci n am mai primit fonduri pentru a investi în cabana noastră din anul, dacă nu mi aduc aminte, 2000.
 
-[ND] Din 2000.
+Din 2000.
 
 Deci
 
-[ND] deci vă dați seama că de 20 și ceva de ani noi n am investit, am păstrat o așa cum nu știu dacă dumneavoastră ați fost acolo.
+deci vă dați seama că de 20 și ceva de ani noi n am investit, am păstrat o așa cum nu știu dacă dumneavoastră ați fost acolo.
 
-[ND] La câțiva metri de pensiune în pădure găsim o mică groapă de gunoi improvizată.
+La câțiva metri de pensiune în pădure găsim o mică groapă de gunoi improvizată.
 
 Apoi avem o surpriză și mai mare.
 
 Un depozit de deșeuri provenită din construcții.
 
-[ND] Sunt și foarte multe bucăți de fier beton provenite de la construcții.
+Sunt și foarte multe bucăți de fier beton provenite de la construcții.
 
 Astea nu au ce căuta în pădure, niciunele.
 
 Nici betoanele, nici fiarele, nimic.
 
-[ND] Acolo s a construit, s a refăcut un puț
+Acolo s a construit, s a refăcut un puț
 
-[ND] și a fost o clădire construită.
+și a fost o clădire construită.
 
 A trebuit s o dezafectăm și acuma să ridicăm acelea deșeuri.
 
@@ -912,37 +909,37 @@ Turiști în mod special pentru sudiți nu avem.
 
 Nu avem doar vânători.
 
-[ND] Direcția Silvică Ialomița mai are o pensiune în stațiunea Amara.
+Direcția Silvică Ialomița mai are o pensiune în stațiunea Amara.
 
 Directoarea economică ne spune că aici situația e diferită și au mai multe solicitări de cazare.
 
 Investiții însă nu s au mai făcut de 30 de ani.
 
-[ND] Deci de 29 de ani.
+Deci de 29 de ani.
 
-[ND] În afară de lenjerii și de
+În afară de lenjerii și de
 
-[ND] mobila e de atunci.
+mobila e de atunci.
 
-[ND] De atunci mobila mochetele tot. și pereții.
+De atunci mobila mochetele tot. și pereții.
 
-[ND] Dovada vechimii.
+Dovada vechimii.
 
-[ND] Cine mai are perdele din acestea?
+Cine mai are perdele din acestea?
 
 De 30 de ani sunt aceste perdeli.
 
 Da. și datorită întreținerii sunt impecabile.
 
-[ND] Ministra Mediului spune că după reorganizarea Rom Silva, noua conducere trebuie să vină cu un plan concret de eficientizare a activității de turism, astfel încât să fie stopate pierderile.
+Ministra Mediului spune că după reorganizarea Rom Silva, noua conducere trebuie să vină cu un plan concret de eficientizare a activității de turism, astfel încât să fie stopate pierderile.
 
-[ND] Activitățile acelea secundare nu poate să fie de fapt niște căpușe pe activitatea principală și pe banii principali care trebuie să fie duși către păduri.
+Activitățile acelea secundare nu poate să fie de fapt niște căpușe pe activitatea principală și pe banii principali care trebuie să fie duși către păduri.
 
 Adică vrei să faci turism, este perfect în regulă să faci turism, Rom Silva, dar trebuie să fie eficient economic.
 
 Nu poți să iei bani de la păduri, să l duci să faci turism, că activitatea ta principală nu este turismul.
 
-[ND] Cu siguranță nu toate cabanele și pensiunile Rom Silva se află în situația celor pe care le ați văzut în acest reportaj.
+Cu siguranță nu toate cabanele și pensiunile Rom Silva se află în situația celor pe care le ați văzut în acest reportaj.
 
 Unele aflate în zone turistice, probabil înregistrează și profit.
 
@@ -1080,7 +1077,7 @@ Domnia sa, oricât de priceput este, are o coaliție.
 
 Acționarii acestei întreprinderi guvernamentale au și ei opinii diferite și de aici complicațiile pe care noi deja le cunoaștem.
 
-[ND] Din punct de vedere al formei în care a fost prezentat acest pachet de reform au fost prezentate aceste pachete că iată s au făcut dintr o dată foarte mult mai multe Adriana Săfoiu.
+Din punct de vedere al formei în care a fost prezentat acest pachet de reform au fost prezentate aceste pachete că iată s au făcut dintr o dată foarte mult mai multe Adriana Săfoiu.
 
 Ce imagine creează a unui cabinet care a vrut să facă ceva și a dat seama că sunt tot felul de obstacole?
 
@@ -1094,7 +1091,7 @@ Nu i așa?
 
 Sistemul care a mai înfrânt, de altfel cabinete și președinți în România de a lungul vremii?
 
-[ND] Ă da, tind să cred că cel mai realist a fost cetățeanul.
+Ă da, tind să cred că cel mai realist a fost cetățeanul.
 
 Sigur că în momentul în care a venit domnul Bolojan și ne a spus la început fără prea multă empatie, da, ne a spus: "E rău, vor veni lucruri grave, grele și așa mai departe." După aceea a început să amelioreze cumva tonul, zicând: "Nu mi face plăcere să iau toate aceste măsuri, dar trebuie să le luăm pentru că suntem într o situație critică, dramatică." S a început cu pachetul unu.
 
@@ -1144,7 +1141,7 @@ Cum nu se poate atunci când vine vorba de bugetari luate măsuri șoc, dar atun
 
 Cine rezistă bine, cine nu, nu.
 
-[ND] Aminteați de personalitățile cu legitimitate, cu greutate care ar putea să explice ce se întâmplă.
+Aminteați de personalitățile cu legitimitate, cu greutate care ar putea să explice ce se întâmplă.
 
 Un episod interesant săptămâna aceasta. președintele Nicușordan, care a mers la Palatul Victoria înainte de o ședință de coaliție.
 
@@ -1174,23 +1171,23 @@ Ulterior, agresorul a fost dus la secție și reținut și apoi arestat pentru 3
 
 Agentul de poliție care a intervenit se afla în timpul liber.
 
-[ND] După terminarea programului de lucru, în timp ce mă deplasam spre casă, am observat un cetățean care era agresat prizii de către alta, motiv pentru care m am apropiat de aceștia, somându l pe agresor.
+După terminarea programului de lucru, în timp ce mă deplasam spre casă, am observat un cetățean care era agresat prizii de către alta, motiv pentru care m am apropiat de aceștia, somându l pe agresor.
 
 Acesta auzindu mă, a început să fugă spre cealaltă parte a Colentinei, unde a fost imobilizat.
 
-[ND] Ce v a zis?
+Ce v a zis?
 
 Ce spunea agresorul?
 
-[ND] A zis doar că îi pare rău.
+A zis doar că îi pare rău.
 
 Nu se aștepta să fie văzut de către cineva.
 
-[ND] Erați în timpul liber.
+Erați în timpul liber.
 
 Ați mai făcut astfel de de gesturi, v ați mai făcut meseria și să zicem?
 
-[ND] Ne puteți spune când și ce s a întâmplat?
+Ne puteți spune când și ce s a întâmplat?
 
 S a mai întâmplat cred că acum doi ani, tot la fel când mă când veneam la secția de poliție să intru la muncă.
 
@@ -1198,7 +1195,7 @@ Un cetățean alerga, era alergat de către colegii mei, fugea de ei.
 
 S a nimerit să fiu acolo.
 
-[ND] Videoclipul cu atacul rasist a fost distribuit în online de zeci de mii de oameni.
+Videoclipul cu atacul rasist a fost distribuit în online de zeci de mii de oameni.
 
 Reacția principală a fost cea de revoltă și compasiune față de victimă.
 
@@ -1206,7 +1203,7 @@ Atacul rasist este cu atât mai controversat cu cât vine în contextul scandalu
 
 Politicianul a postat azi un nou mesaj pe Facebook în care a acuzat jurnaliștii că încearcă să facă legătura între mesajele lui și un incident punctual.
 
-[ND] Un caz Dan Cărbănaru care a provocat foarte multă emoție.
+Un caz Dan Cărbănaru care a provocat foarte multă emoție.
 
 Rețelele de socializare sunt pline din momentul în care a ajuns în atenția publică acest caz.
 
@@ -1214,7 +1211,7 @@ Mulți laudă reacția polițistului.
 
 Pare așa o surpriză foarte mare că sunt polițiști care reacționează ca polițiștii în București.
 
-[ND] Ă ca să încep de la polițist l am ascultat vorbind parcă ar fi completat un proces verbal.
+Ă ca să încep de la polițist l am ascultat vorbind parcă ar fi completat un proces verbal.
 
 Dincolo de limbajul folosit, mi a plăcut foarte mult că a comparat cele două situații, l au întrebat colegii din teren dacă a mai avut astfel de situații și a spus: „Da, am mai avut o situație acum doi ani, un alt cetățean și când a vorbit despre ce s a întâmplat zilele trecute pe străzile din capitală cu cetățeanul din Bangladesh, s a referit ca la un cetățean.
 
@@ -1314,7 +1311,7 @@ Dar românii noștri care se duceau acum câțiva ani când am intrat noi în Un
 
 Nu?
 
-[ND] Despre reacții propun să discutăm doar câteva momente Andrei Caramitru.
+Despre reacții propun să discutăm doar câteva momente Andrei Caramitru.
 
 Ne întoarcem însă trebuie să luăm o scurtă pauză.
 
@@ -1324,7 +1321,7 @@ Ne uitam la acest caz Andrei Caramitru.
 
 E cum am ajuns aici.
 
-[ND] Noi am pornit dintr un punct că era bun.
+Noi am pornit dintr un punct că era bun.
 
 Adică dacă ne uităm, cred că era până acum România una din cele mai tolerante și deschise țări pe care le știu eu în Europa.
 
@@ -1342,7 +1339,7 @@ Da?
 
 Deci asta face parte din natura noastră care e natură bună
 
-[ND] a românului pentru care eu, de exemplu, sunt foarte mândru.
+a românului pentru care eu, de exemplu, sunt foarte mândru.
 
 Ce se întâmplă acuma este că niște oameni cu niște frustrări ale lor, unele din ele motivate, au fost pur și simplu isterizați de o un grupuscul de oameni cu tot o altă agendă care vor să facă destabilizare, destabilizarea societății.
 

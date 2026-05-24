@@ -1,11 +1,8 @@
 ---
 data: 2026-03-05
-metoda: heuristic diarization (format=intros, 1 ND segments, 2 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=StcgnETFTKA
 sursa_aprecieri: 102
 sursa_canal: Antena 3 CNN
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1772742260
 sursa_video_id: StcgnETFTKA
 sursa_vizionari: 6160
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] și țări care pot să profite din faptul că au pe foarte multe domenii o viziune comună, inclusiv în interiorul Uniunii, pe ceea ce înseamnă competitivitate, în raportarea la strategiile verzi ale Uniunii pe zona de securitate.
+și țări care pot să profite din faptul că au pe foarte multe domenii o viziune comună, inclusiv în interiorul Uniunii, pe ceea ce înseamnă competitivitate, în raportarea la strategiile verzi ale Uniunii pe zona de securitate.
 
 Deja există o colaborare între armatele noastre.
 
@@ -69,11 +66,11 @@ Una din componentele acestea în parteneriat, inclusiv cu Ministerul Sănătăț
 
 Vă rog.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Robert Lupițu, Calea Europeană.
 
-[JURNALIST] Domnule președinte, ați menționat și dumneavoastră, o temă importantă a acestei vizite în Polonia a fost revitalizarea formatului București 9, cofondat de România și Polonia în perspectiva summitului pe care îl veți găzdui în luna mai la București.
+Domnule președinte, ați menționat și dumneavoastră, o temă importantă a acestei vizite în Polonia a fost revitalizarea formatului București 9, cofondat de România și Polonia în perspectiva summitului pe care îl veți găzdui în luna mai la București.
 
 Astăzi, președintele Poloniei a vorbit despre extinderea formatului la B11 B12, iar dumneavoastră ați menționat că vor fi invitate țările nordice.
 

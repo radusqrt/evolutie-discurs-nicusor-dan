@@ -1,11 +1,8 @@
 ---
 data: 2026-02-12
-metoda: heuristic diarization (format=markers, 15 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=x-L7eK4GkIg
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -23,19 +20,19 @@ sursa_upload_timestamp: 1770890810
 sursa_video_id: x-L7eK4GkIg
 sursa_vizionari: 1546
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] pe președintele României, Nicușordan.
+pe președintele României, Nicușordan.
 
-[ND] Bună dimineața.
+Bună dimineața.
 
 Bună dimineața.
 
 Un Consiliu european pe competitivitate
 
-[ND] care are mai multe primul rând e o componentă internă, o componentă externă.
+care are mai multe primul rând e o componentă internă, o componentă externă.
 
 Componenta internă foarte important de reglementare.
 
@@ -55,7 +52,7 @@ Foarte important pentru noi și pentru multă lume prețul energiei care face, c
 
 Cam astea sunt punctele importante și decizia sau dorința tuturor ca procesul ăsta de simplificare să meargă cât mai repede cu putința.
 
-[ND] Lucian Pârvoiu, Televiziunea Română.
+Lucian Pârvoiu, Televiziunea Română.
 
 Domnule președinte, cu ce idei veniți dumneavoastră?
 
@@ -63,7 +60,7 @@ Ce pune România pe masă la acest Consiliu European, care se dorește a fi și 
 
 Vă mulțumesc.
 
-[ND] Bun.
+Bun.
 
 Nu trebuie să ne sperie asta. ăă Europa cu mai multe viteze sau cel puțin așa cum este ideea la momentul ăsta este pur și simplu reuniuni de de țări cum a fost reuniunea dinainte de de acum o oră în care țări care au anumită idee se coordonează pentru a pune împreună o idee pe masa consiliului.
 
@@ -79,7 +76,7 @@ Vă aduc aminte că în urmă cu câteva luni am reușit după o lungă negocier
 
 Și a doua chestiune, foarte important, în momentul în care vom avea banii pe competitivitate în interiorul bugetului multianual 2028 2034, împărțirea acestor bani să fie făcută și pe criterii geografice, astfel încât să să nu adâncim decalajul între țările mai dezvoltate și mai puțin dezvoltate.
 
-[ND] Camelia Donțu, știrile Pro TV.
+Camelia Donțu, știrile Pro TV.
 
 Îmi puteți spune, vă rog, e un follow up, îmi puteți spune, vă rog, la ce vă referiți când spuneți aceste această poziție geografică?
 
@@ -101,7 +98,7 @@ E foarte bine ca în bugetul multianual, așa cum este proiectul acum, să exist
 
 Domnule președinte, va fi astăzi Republica Moldova pe agenda discuțiilor și dacă vorbim despre acest single market și piață unică și ce demersul România poate să ia ca să ajute Republica Moldova să să se integreze pe această piață unică înainte de integrarea Republicii Moldova?
 
-[ND] Nu.
+Nu.
 
 Azi o să fie probabil în martie o să fie discuția asta.
 
@@ -113,7 +110,7 @@ Practic, dacă acest concept discutat intens încă din 2017 în mandatul lui Ju
 
 Deși spuneați că e un principiu pe care dumneavoastră îl vedeți greu de implementat?
 
-[ND] Nu, nu, nu.
+Nu, nu, nu.
 
 Atenție, nu există nu există vreo intenție la nivel de reglementare în interiorul Uniunii pentru regimuri diferite între țări.
 
@@ -127,9 +124,9 @@ Suntem încă în discuții cu partea americană ă pentru și obiectul discuți
 
 Adică care este formatul discuției și eventualii observatori care este rolul lor în această ședință și în funcție de răspunsul părții americane decidem dacă să mergem sau să nu mergem.
 
-[ND] Când veți anunța Când veți anunța care este decizia? vor termina aceste discuții probabil săptămâna asta.
+Când veți anunța Când veți anunța care este decizia? vor termina aceste discuții probabil săptămâna asta.
 
-[ND] Dacă țările care participă doar ca observatori vor avea un rol mai degrabă secund, România înclină să nu meargă la acest consiliu pentru pace?
+Dacă țările care participă doar ca observatori vor avea un rol mai degrabă secund, România înclină să nu meargă la acest consiliu pentru pace?
 
 Depinde, depinde pentru că, după cum știți, situația din Gaza e importantă pentru Europa.
 
@@ -137,17 +134,17 @@ România are tradițional niște relații și cu și cu Israelul și cu și cu �
 
 Deci e important pentru noi să fim acolo, dar depinde în ce condiții.
 
-[ND] Poziționarea celorlalți parteneri europeni în această chestiune?
+Poziționarea celorlalți parteneri europeni în această chestiune?
 
-[ND] Bineînțeles că stăm de vorbă, dar răspunsul de România.
+Bineînțeles că stăm de vorbă, dar răspunsul de România.
 
-[ND] Problema legată de suprapunerea cartei ONU cu acest consiliu este în analiză în România în acest moment.
+Problema legată de suprapunerea cartei ONU cu acest consiliu este în analiză în România în acest moment.
 
 Ăsta este motivul pentru care până când discuții care estimez că vor fi complicate vor avea loc, noi nu putem să fim altceva decât observator.
 
-[ND] Avem un termen de timp în care vom da un răspuns.
+Avem un termen de timp în care vom da un răspuns.
 
-[ND] Totul e într o dinamică pentru că și partea americană reconsideră în urmă de față de răspunsurile pe care le au primit.
+Totul e într o dinamică pentru că și partea americană reconsideră în urmă de față de răspunsurile pe care le au primit.
 
 Deci, probabil că săptămâna asta o să luăm decizia.
 

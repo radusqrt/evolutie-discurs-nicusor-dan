@@ -1,11 +1,8 @@
 ---
 data: 2025-04-11
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=IvYbJ4R7iYc
 sursa_aprecieri: 77
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1744367509
 sursa_video_id: IvYbJ4R7iYc
 sursa_vizionari: 13615
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Iar Elena Lasconconi a arătat în direct mesajul pe care Nicușor Dan l a trimis anul trecut pentru a i cere să meargă la o întâlnire cu Adrian Zucherman și Nicolae Ciucă pentru a se retrage din cursa pentru alegerile prezidențiale.
+Iar Elena Lasconconi a arătat în direct mesajul pe care Nicușor Dan l a trimis anul trecut pentru a i cere să meargă la o întâlnire cu Adrian Zucherman și Nicolae Ciucă pentru a se retrage din cursa pentru alegerile prezidențiale.
 
 În urmă cu două zile însă, Nicușor Dan declara chiar aici la dezbaterea Antena 3 CNN că nu i a cerut Elenei Lasconi să se retragă din competiția prezidențială și a negat vehement că i a trimis vreun mesaj din partea lui Nicolae Ciucă.
 

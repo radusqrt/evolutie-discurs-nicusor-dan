@@ -1,11 +1,8 @@
 ---
 data: 2026-03-05
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=HyRZ-XlVlho
 sursa_aprecieri: 5
 sursa_canal: Antena 3 CNN
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1772742282
 sursa_video_id: HyRZ-XlVlho
 sursa_vizionari: 1009
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Euronews România.
+Euronews România.
 
 După ultimele evenimente din Orientul Mijlociu a început brusc o scumpirea a carburanților în România.
 
@@ -51,4 +48,4 @@ Numai că lucrul ăsta nu s a întâmplat niciodată și nici nu e fizic posibil
 
 Se sancționează peste o lună, se sancționează peste două, dar e foarte bine că președintele a ieșit, președintele Consiliului Concurenței a ieșit și a avertizat că se uită la exact la acest fenomen pentru că bineînțeles că el are efect în lanț pe toată economia și pe nivelul de trai al oamenilor.
 
-[ND] Dar dacă situația dacă prețurile vor continua să crească foarte mult, ați putea cere guvernului să vină cu o schemă de sprijin pentru populație, măcar pe o perioadă limitată? când vom fi acolo, desigur, se putem să avem tipul acesta de discuții, cum cum s a mai întâmplat.
+Dar dacă situația dacă prețurile vor continua să crească foarte mult, ați putea cere guvernului să vină cu o schemă de sprijin pentru populație, măcar pe o perioadă limitată? când vom fi acolo, desigur, se putem să avem tipul acesta de discuții, cum cum s a mai întâmplat.

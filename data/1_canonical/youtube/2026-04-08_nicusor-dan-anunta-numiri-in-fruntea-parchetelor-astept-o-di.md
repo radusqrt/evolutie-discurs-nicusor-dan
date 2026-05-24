@@ -1,11 +1,8 @@
 ---
 data: 2026-04-08
-metoda: heuristic diarization (format=markers, 48 ND segments, 45 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=YNT80T0U9QE
 sursa_aprecieri: 15
 sursa_canal: Euronews Romania
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1775670034
 sursa_video_id: YNT80T0U9QE
 sursa_vizionari: 1290
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Bună seara!
+Bună seara!
 
 Bine v am găsit!
 
@@ -64,7 +61,7 @@ Așadar, nu putem să i punem în cârca președintelui această întârziere.
 
 Dar
 
-[ND] a fost asumată în declarație, a spus că vrea o analiză.
+a fost asumată în declarație, a spus că vrea o analiză.
 
 Așa este.
 
@@ -74,13 +71,13 @@ Procedura a început la timp, dar se pare că CSM a avut mai mult timp nu neapă
 
 De fapt, i a expirat mandatul pe 31 martie.
 
-[ND] Da.
+Da.
 
 Comentăm după.
 
 Îl urmărim pe președintele Nicușordan.
 
-[ND] Suntem gata?
+Suntem gata?
 
 Așa.
 
@@ -266,7 +263,7 @@ Chiar dacă nu știi să citești decât câte rechizitorii a făcut cineva în 
 
 Dacă ai bună credință, aștept întrebările dumneavoastră.
 
-[JURNALIST] Bună ziua.
+Bună ziua.
 
 Gabriel Negreanu, Media Fac și gândul.
 
@@ -294,13 +291,13 @@ La a doua întrebare, după cum știți, procesul de condamnare, adică ca să a
 
 Deci în momentul acesta, pentru ce a făcut cineva timp de patru ani, trebuie să așteptăm încă unu doi ani ca să vedem dacă a avut sau n a avut dreptate procurorul.
 
-[ND] Bună seara, Andreea Dumitrescu, Digi24.
+Bună seara, Andreea Dumitrescu, Digi24.
 
 Spuneați la începutul mandatului dumneavoastră și nu numai, cred că și înainte de a ajunge la Cotroceni, că nu sunteți mulțumit de activitatea DNA și a Parchetului General.
 
 Astăzi pe foștii șefi DNA și Parchetul General îi numiți ca adjuncți, deși părea că nu sunteți mulțumit de activitatea acestora, cumva i ați reevaluat sau ca adjuncți ar fi mai potriviți decât cașeni?
 
-[JURNALIST] Deloc, deloc, deloc.
+Deloc, deloc, deloc.
 
 Deci ce le am reproșat și domnilor și domnului Voineac și domnului Florența a au fost în esență două lucruri.
 
@@ -324,9 +321,9 @@ Pe de altă parte, dacă putem să avem nuanțe, sunt oameni care cumva au struc
 
 Și cred că această expertiză poate să fie utilă din poziția de adjunct, fără să fie persoana care să ia decizii.
 
-[ND] Și dacă permiteți doar o completare la tot ce ne ați prezentat mai devreme, spuneați printre primele lucruri pe care le ați spus că nu sunt propunerile PSD, dar o consultare cu liderii partidelor coaliției cu privire la aceste numiri a existat?
+Și dacă permiteți doar o completare la tot ce ne ați prezentat mai devreme, spuneați printre primele lucruri pe care le ați spus că nu sunt propunerile PSD, dar o consultare cu liderii partidelor coaliției cu privire la aceste numiri a existat?
 
-[JURNALIST] Nu, nu.
+Nu, nu.
 
 Eu am un atribut constituțional să mă pronunț pe chestiunile astea.
 
@@ -346,7 +343,7 @@ Bună seara, Eugen Dinu de la Știri pe surse.
 
 Domnule președinte, având în vedere că avem noi șefi de parchete acum, o să aflăm vreodată ce s a întâmplat la revoluție și la mineriadă?
 
-[ND] Bun.
+Bun.
 
 E o întrebare foarte bună.
 
@@ -358,13 +355,13 @@ Da, asta este ceea ce lipsește.
 
 Dar ce s a întâmplat la mai ales la mineriale, în opinia mea e foarte clar ca fenomen social.
 
-[JURNALIST] Și atunci de ce nu avem o soluție finală în acest caz?
+Și atunci de ce nu avem o soluție finală în acest caz?
 
-[ND] E o chestiune de management.
+E o chestiune de management.
 
-[JURNALIST] Este un eșec al justiției.
+Este un eșec al justiției.
 
-[ND] Fără discuție.
+Fără discuție.
 
 Da.
 
@@ -374,15 +371,15 @@ Ok.
 
 Dacă la 20 aprilie PSD va decide să i retragă sprijinul politic guvernului bolojan ați fi dispusă de semnați un alt premier liberal?
 
-[JURNALIST] Bun.
+Bun.
 
 Sunt așa cum am spus zilele trecute, sunt foarte, foarte multe scenarii și n aș vrea să evident că sunt discuții informale pe toate aceste scenarii posibile, dar nu cred că e util să facem în spațiul public analiza tuturor scenariilor.
 
-[ND] Bună seara, Teodora Drăgoi, TVR. blocajul pe secția specială de anchetare a magistraților.
+Bună seara, Teodora Drăgoi, TVR. blocajul pe secția specială de anchetare a magistraților.
 
 Cum vedeți dumneavoastră reformarea acestui subiect?
 
-[JURNALIST] Bun, ce s a întâmplat?
+Bun, ce s a întâmplat?
 
 Este în structura par bun, în primul rând că există o soluție legislativă care spune că e de competența Parchetului General și nu a DNA ului.
 
@@ -394,7 +391,7 @@ Aici și asta am spus mai devreme, aici era momentul ca procurorul general să v
 
 Dacă aveți ceva cu procurorul ăsta sau ăsta sau ăsta sau ăsta din cei vreo cred că au fost vreo 25 30 care au fost propuși de a lungul timpului, trebuie ca CSM să spună care i problema cu procurorii ăștia, astfel încât schema să fie în sfârșit completă.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
 Bună seara, domnule președinte.
 
@@ -406,7 +403,7 @@ Asta în urmă cu trei luni.
 
 Mai sunteți de aceeași părere după ce ați semnat astăzi decretele și dacă mai continuați cu acea acțiune de consultare a magistraților pe care o anunțați tot în luna ianuarie?
 
-[JURNALIST] Da.
+Da.
 
 Da.
 
@@ -424,7 +421,7 @@ Dar am zis că nu e nevoie să mai pun și o criză peste [sforăit] cele care s
 
 În ceea ce privește referendumul, da, am zis că l facem, îl facem că adică consultarea.
 
-[ND] Și o scurtă completare dacă după decretele pe care le ați semnat astăzi mai așteptați ca Partidul Social Democrat să și retragă miniștrii din guvern.
+Și o scurtă completare dacă după decretele pe care le ați semnat astăzi mai așteptați ca Partidul Social Democrat să și retragă miniștrii din guvern.
 
 Nu văd vreo legătură între una și alta.
 
@@ -438,7 +435,7 @@ Asta este partea de parchet și sper ca momentul ăsta să dinamizeze activitate
 
 Dincolo e o chestiune politică.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Marius Gârlașiu, Observator Antena 1.
 
@@ -450,9 +447,9 @@ Eu cred că în momentul în care românii au ales un președinte s au așteptat
 
 Bineînțeles că respect opinia CSM ului, dar am acest mandat de la români și am acționat așa cum am crezut eu de cuviință mai bine și evident că sunt cred profund în faptul că decizia mea este corectă.
 
-[ND] [sforăit]
+[sforăit]
 
-[JURNALIST] Aș mai face o nuanță aici.
+Aș mai face o nuanță aici.
 
 Există, dacă vă întreb pe dumneavoastră, care i cel mai bun jurnalist din România?
 
@@ -478,9 +475,9 @@ Cum răspundeți acestor acuzați?
 
 Eu cred că am răspuns în
 
-[ND] Aveți garanția că aceste numiri nu se află sub influența Partidului Social Democrat?
+Aveți garanția că aceste numiri nu se află sub influența Partidului Social Democrat?
 
-[JURNALIST] Eu am garanția că această alegere este bună față de momentul pe care î trăim și am încrederea că vom vom trăi acea rupere de ritm de care spuneam că e nevoie.
+Eu am garanția că această alegere este bună față de momentul pe care î trăim și am încrederea că vom vom trăi acea rupere de ritm de care spuneam că e nevoie.
 
 Da, vă întreb și eu ceva.
 
@@ -492,7 +489,7 @@ Adică pe ăia care spuneau acum un an sau doi că eu sunt marioneta lui Matei P
 
 Și pentru că tot vorbeați despre celebrul procuror italian Giovanni Falcone, dacă dacă î permiteți,
 
-[ND] vorbeați despre celebrul procuror italian și despre faptul că ar trebui revigurată lupta anticorupție în România. acum câtva timp, fostul procuror șef al DNA, Crin Bologa, în acest palat a purtat o discuție cu președintele Klaus Iohannis, care i a spus că politicienii, liderii politici au nevoie de liniște.
+vorbeați despre celebrul procuror italian și despre faptul că ar trebui revigurată lupta anticorupție în România. acum câtva timp, fostul procuror șef al DNA, Crin Bologa, în acest palat a purtat o discuție cu președintele Klaus Iohannis, care i a spus că politicienii, liderii politici au nevoie de liniște.
 
 Considerați că cu aceste numiri pe care le ați făcut în această seară politicienii din România vor avea liniște sau că lupta anticorupție va atinge în sfârșit, potrivit așteptărilor românilor și liderii politici de rang înalt?
 
@@ -500,7 +497,7 @@ Eu cred că avem premise pentru ca să ne uităm cu adevărat la un fenomen soci
 
 Pe care adică n o să avem probabil rezultate în trei luni, dar eu cred că șase luni, un an o să vedem o îmbunătățire a activității parchetelor.
 
-[JURNALIST] Bună seara, Avram G4 Media.
+Bună seara, Avram G4 Media.
 
 Două întrebări scurte, domnule președinte, dacă ne puteți explica în câteva cuvinte, nu e foarte elaborat.
 
@@ -510,7 +507,7 @@ De ce ați decis totuși să i numiți pe domnii Voineac și Florența în pofid
 
 Mulțumesc.
 
-[ND] Da.
+Da.
 
 Ăă, am răspuns la prima întrebare.
 
@@ -524,17 +521,17 @@ Consider că din poziția de adjunct, așa cum repet ce am spus, pot să ajute.
 
 Dacă n au fost alți candidați care să dovedească că sunt mai buni să fie procurori generali adjuncți ai României.
 
-[JURNALIST] Asta e valabil pentru ministrul justiției, că la dumneavoastră ați avut o câte o singură numire,
+Asta e valabil pentru ministrul justiției, că la dumneavoastră ați avut o câte o singură numire,
 
-[ND] nu legătură faptul că a fost singur pe post cu prerogativele dumneavoastră.
+nu legătură faptul că a fost singur pe post cu prerogativele dumneavoastră.
 
-[JURNALIST] Așa.
+Așa.
 
 Și a doua întrebare era legată
 
-[ND] De câte ori domnul Voineag a venit la dumneavoastră să vă convingă cu ceea ce se spune?
+De câte ori domnul Voineag a venit la dumneavoastră să vă convingă cu ceea ce se spune?
 
-[JURNALIST] Nu, n a vorbit.
+Nu, n a vorbit.
 
 Nu a venit niciodată să mă convingă de ceva.
 
@@ -542,11 +539,11 @@ A venit cred că de două ori în mandatul ăsta de președinte pe chestiuni ă 
 
 Mulțumesc. [voce dreasă]
 
-[ND] Bună seara, Octavian Vasilescu, Euronews, România.
+Bună seara, Octavian Vasilescu, Euronews, România.
 
 Domnule președinte, legat de funcționarea instituțiilor europene, ce efect va avea pentru România o nouă victorie a lui Victor Orban în alegerile de duminică, în cazul în care vom avea acest scenariu și implicit pentru modul în care funcționează Uniunea Europeană, ținând cont că și dumneavoastră, de exemplu, ați criticat acel blocaj pentru împrumutul acordat Ucrainei?
 
-[JURNALIST] Da. și l critic în continuare, adică faptul că ce poate să creadă cetățeanul european în momentul în care 27 de lideri europeni se întâlnesc în decembrie și spun vom acorda un împrumut de 90 de miliarde Ucrainei și trei luni mai târziu ei vin și spunne pare rău, nu putem să trimitem banii pentru că se opune Ungaria.
+Da. și l critic în continuare, adică faptul că ce poate să creadă cetățeanul european în momentul în care 27 de lideri europeni se întâlnesc în decembrie și spun vom acorda un împrumut de 90 de miliarde Ucrainei și trei luni mai târziu ei vin și spunne pare rău, nu putem să trimitem banii pentru că se opune Ungaria.
 
 E asta e inadmisibil.
 
@@ -560,9 +557,9 @@ Mai mai sunt câteva zile și o să vedem cum ne comportăm în continuare.
 
 Adică e o problemă când cineva abuzează de mecanismul de un ăă ă unanimitate.
 
-[ND] Și credeți că se poate discuta de o schimbare a mecanismului în perioada următoare?
+Și credeți că se poate discuta de o schimbare a mecanismului în perioada următoare?
 
-[JURNALIST] Ă discuția a pornit deja.
+Ă discuția a pornit deja.
 
 Da.
 
@@ -570,7 +567,7 @@ Da.
 
 Nu există propuneri tehnice pe masă, dar discuția a pornit deja tocmai de la neajunsurile pe care le am observat acum cu Ungaria.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Loredana Diacu, Epoc România.
 
@@ -578,13 +575,13 @@ Domnule președinte, așa cum remarca unul dintre colegii mei, comentariile unor
 
 Ă le ați spus
 
-[ND] poate că au și argumente.
+poate că au și argumente.
 
-[JURNALIST] Le ați spus celor care au ieșit la Palatul Cotroceni să protesteze că așteptați rezultate în circa șase luni de zile.
+Le ați spus celor care au ieșit la Palatul Cotroceni să protesteze că așteptați rezultate în circa șase luni de zile.
 
 Dacă în șase luni de zile cei numiți de dumneavoastră nu vor performa, ce veți face? veți cere ministrului justiției să demareze procedura lor de revocare sau ce veți face dacă nu se vor ridica la înălțimea așteptărilor dumneavoastră și a oamenilor în primul rând?
 
-[ND] Da, eu sunt convins că e o alegere bună.
+Da, eu sunt convins că e o alegere bună.
 
 Mai departe, oamenii ăștia un nu le am cerut vreunuia să vină cu o demisie în alb sau cu ceva.
 
@@ -608,7 +605,7 @@ Vedem acuma cazul Pfizer, de exemplu, și sunt acuzații cum că miniștrii, un 
 
 Dacă se va dovedi că contractul putea fi renegociat și penalitățile puteau fi mai mici, veți cere premierului Bolojan sau guvernului să se întoarcă împotriva celui responsabil, să facă plângere pentru abuz în serviciu și să se recupereze banii de la politicianul respectiv, pentru că nu prea am văzut miniștrii plătind niciodată din buzunarul lor pagubele suportate de cetățeni până la urmă.
 
-[JURNALIST] Da.
+Da.
 
 Da.
 
@@ -618,9 +615,9 @@ Da.
 
 Așa cum, în fine, dacă Curtea de Conturi ă când eram primar observa că din cauza unui director s au pierdut niște bani, eu ca primar trebuia să mă îndrept împotriva lui.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[JURNALIST] Bună seara, Elena Crăgașu, cotidianul.
+Bună seara, Elena Crăgașu, cotidianul.
 
 La începutul acestei declarații ați spus, după acest moment, așteptarea pe care o am de la parchete este o dinamizare a parchetelor pentru a răspunde așteptărilor românilor.
 
@@ -646,7 +643,7 @@ Aceste persoane, Andrei Bicuț, Mihai Cojocaru, ați avut o colaborare cu ei, da
 
 Cum vedeți dumneavoastră faptul că niște persoane care au lucrat în campania dumneavoastră sunt imagini alături de echipa de campanie au ajuns să realizeze acele să ajute la realizarea acelor fotografii trucate.
 
-[ND] Bun, în primul rând că ați oscilat la început, ați ați spus că ați vorbit de echipa mea de campanie.
+Bun, în primul rând că ați oscilat la început, ați ați spus că ați vorbit de echipa mea de campanie.
 
 Aceste două persoane n au fost niciodată în echipa de campanie.
 
@@ -660,15 +657,15 @@ Mai departe ăă ei au ăă dacă ce spun procurorii este adevărat, mi se pare 
 
 V am întrebat și dacă ați discutat de în aceste zile cu Ana Maria Geană, consiliera dumneavoastră, apare în aceste informații care au ajuns în presă și dacă
 
-[JURNALIST] total lipsite de obiect.
+total lipsite de obiect.
 
 Așa cum am spus, dacă a existat o interacțiune, a existat între echipa de campanie și firmele pe care le am contractat, nicidecum cu subcontractori.
 
-[ND] Dar credeți că
+Dar credeți că
 
-[JURNALIST] Bineînțeles că dacă ai un sub dacă cineva te filmează șase ore îi întrebi ce mai faci, nu știu ce, dar nimic mai mult de atât.
+Bineînțeles că dacă ai un sub dacă cineva te filmează șase ore îi întrebi ce mai faci, nu știu ce, dar nimic mai mult de atât.
 
-[ND] Cum credeți că au ajuns aceste persoane care au filmat în fotografii în realizarea fotografiilor respective?
+Cum credeți că au ajuns aceste persoane care au filmat în fotografii în realizarea fotografiilor respective?
 
 Considerați că a fost vorba putea fi vorba de un sabotaj din partea contracandidaților sau din partea oamenilor din echipă?
 
@@ -682,7 +679,7 @@ Da.
 
 Sunt niște oameni care erau pe piață și știau să filmeze și au fost folosiți de noi cum au fost folosiți de alții.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Oana Bâlă, Radio România, actualități.
 
@@ -692,7 +689,7 @@ Pe ce domenii mai exact ar trebui să se concentreze acum marile parchete?
 
 Care sunt urgențele?
 
-[ND] Așa cum am spus noi toți suntem în slujba oamenilor.
+Așa cum am spus noi toți suntem în slujba oamenilor.
 
 Da.
 
@@ -708,11 +705,11 @@ Trebuie să ne uităm și la indicatori pentru că ce s a întâmplat DICOT vorb
 
 Tocmai de aia ăă e nevoie de o privire către problema mare în ansamb.
 
-[JURNALIST] Și pentru că suntem la capitolul numiri, am aș vrea să vă mai întreb când veți numi conducerea serviciilor de informații
+Și pentru că suntem la capitolul numiri, am aș vrea să vă mai întreb când veți numi conducerea serviciilor de informații
 
-[ND] la momentul potrivit.
+la momentul potrivit.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Mădălin Puiu, România TV.
 
@@ -730,9 +727,9 @@ Dincolo de asta, pe chestiunea cu vaccinurile, aștept ca actele oficiale semnat
 
 Mi se pare că în momentul ăsta nu există în spațiul public conturat foarte clar calendarul evenimentelor.
 
-[ND] I așerut premierului acest lucru.
+I așerut premierului acest lucru.
 
-[JURNALIST] Ă știu că mai multă lume i l a cerut.
+Ă știu că mai multă lume i l a cerut.
 
 Susțin și eu demersul ăsta.
 
@@ -750,7 +747,7 @@ După care foarte foarte important ă sfârșitul lunii august termenul limită 
 
 Deci avem nevoie de o dincolo de lupte politice care sunt inerente, avem nevoie de o colaborare astfel a instituțiilor astfel încât să luăm cât mai mulți din banii care pe care putem să i luăm pe PNRR.
 
-[ND] Bună seara, Iasmin Ardelean, știrile Canal D.
+Bună seara, Iasmin Ardelean, știrile Canal D.
 
 Pentru că v a întrebat mai devreme colega mea despre dosarul de la DICOT care vizează fotografiile trucate, dacă într adevăr s ar face un film despre dumneavoastră, ați dori să fiți un personaj pozitiv sau negativ și de ce?
 
@@ -760,13 +757,13 @@ Mi se pare mai interesant.
 
 Eu am candidat pentru mai multe funcții publice, încercând să cu maximă seriozitate încercând să rezolvăm problemele oamenilor și aici trebuie să fii evident personaj pozitiv.
 
-[JURNALIST] Bună seara, Cosmina Balin, Realitatea Plus.
+Bună seara, Cosmina Balin, Realitatea Plus.
 
 Domnule președinte, o întrebare referitoare la contextul conflictului din Orientul Mijlociiu.
 
 Ați mai avut discuții cu membrii coaliției Uniunii Europene și Japonia privind strâmtoarea Ormuz și misiunile ce urmează să fie efectuate în acea zonă?
 
-[ND] Pentru un moment discuțiile sunt la nivel de miniștri.
+Pentru un moment discuțiile sunt la nivel de miniștri.
 
 A fost o discuție a miniștrilor apărării, a fost o discuție a miniștrilor de externe și în baza discuției mșul apărării sunt echipe tehnice care colaborează.
 
@@ -774,15 +771,15 @@ A fost o discuție a miniștrilor apărării, a fost o discuție a miniștrilor 
 
 Pentru moment nu s a pus în discuție o discuție a liderilor.
 
-[JURNALIST] Adică nu s a luat nicio decizie până în acest punct.
+Adică nu s a luat nicio decizie până în acest punct.
 
 Asta ne spuneți.
 
-[ND] Nu există voința care a fost exprimată de toate aceste țări, inclusiv România.
+Nu există voința care a fost exprimată de toate aceste țări, inclusiv România.
 
 Voința asta a fost materializată de prezența ministrui de ministrui apărării, ministrui de externe și a colectivelor tehnice pe apărare la a crea niște scenarii de acțiune, că asta este.
 
-[JURNALIST] Mulțumesc.
+Mulțumesc.
 
 Bună seara, Rebeca Popescu.
 
@@ -800,17 +797,17 @@ Eu am altă evaluare.
 
 Cred foarte tare în evaluarea pe care am făcut o eu însumi și în fine cu colegii mei.
 
-[ND] În mai 2025 spuneați că vă citez acum o să mergeți des la ședințele CSM.
+În mai 2025 spuneați că vă citez acum o să mergeți des la ședințele CSM.
 
 Aveți de gând de acum încolo să participați poate la una dintre ședințe?
 
-[JURNALIST] Da.
+Da.
 
 Da.
 
 Voi merge des de la un moment dat încolo.
 
-[ND] Și când va veni acest moment? când când pe multe din nou, aici e o chestiune sistemică ă și serioasă pentru că sunt multe afirmații în spațiul public care nu sunt dovedite, adică lipsesc cel mai confortabil pentru un decident politic, cum e președintele României, ar fi să aibă trei patru corpuri profesionale și fiecare să vină cu un document care să sintetizeze niște probleme și el să ia decizia în baza unei informații care este cât de cât uniformă între acest între acești actori sociali și diferă doar chestiunea de ă opțiune, de decizie.
+Și când va veni acest moment? când când pe multe din nou, aici e o chestiune sistemică ă și serioasă pentru că sunt multe afirmații în spațiul public care nu sunt dovedite, adică lipsesc cel mai confortabil pentru un decident politic, cum e președintele României, ar fi să aibă trei patru corpuri profesionale și fiecare să vină cu un document care să sintetizeze niște probleme și el să ia decizia în baza unei informații care este cât de cât uniformă între acest între acești actori sociali și diferă doar chestiunea de ă opțiune, de decizie.
 
 Din păcate, din păcate și asta i general pentru multe domenii din activitatea noastră socială, informațiile lipsesc, opiniile sunt multe, dar informațiile de bază lipsesc.
 
@@ -820,33 +817,33 @@ Nu e suficient să dea trei telefoane să primească trei rapoarte că ele nu ex
 
 Asta este de fapt dificultatea.
 
-[JURNALIST] Bună seara, Marcobade explicativ.com.
+Bună seara, Marcobade explicativ.com.
 
 Domnule președinte, a existat o condiționare directă sau indirectă din partea Partidului Social Democrat privind menținerea coaliției de guvernare și susținerea cabinetului bolojan în schimbul validării de către dumneavoastră a la vârful parchetelor a acestor numiri?
 
-[ND] Nicidecum.
+Nicidecum.
 
 Nu.
 
-[JURNALIST] N ați purtat negocieri în acest sens?
+N ați purtat negocieri în acest sens?
 
 Nu, nici cum.
 
 Și așa cum am spus eu pregătindu mă pentru momentul ăsta am avut multe discuții cu mulți oameni dar am lăsat tot procesul de candidaturi comisie CSM înapoi, comisie așa am lăsat să se desfășoare fără vreo influență din partea mea.
 
-[ND] Astăzi e 8 aprilie 2026.
+Astăzi e 8 aprilie 2026.
 
 Sunt 1110 zile în cap de când SRI nu mai are un director civil.
 
 Din punctul de vedere al președintelui României, care sunt costurile lipsei de prelungire de conducere civilă a serviciilor, având în vedere că de patru ani avem și rapoartele secretizate în Parlament privind activitatea Serviciului Român de Informații.
 
-[JURNALIST] Haide pe ultima parte a întrebării ă cred că ar trebui să ne uităm cu atenție.
+Haide pe ultima parte a întrebării ă cred că ar trebui să ne uităm cu atenție.
 
 Din ce știu eu, ele au fost trimise, numai n au fost dezbătute, dar nu sunt sigur, dar asta este.
 
-[ND] Sunt secretizate.
+Sunt secretizate.
 
-[JURNALIST] Bun, dar ele pot să fie dezbătute totuși, chiar secretizate fiind.
+Bun, dar ele pot să fie dezbătute totuși, chiar secretizate fiind.
 
 Da.
 
@@ -866,13 +863,13 @@ Există anumite voci în spațiul public care spun că odată cu numirile pe car
 
 Ne puteți da un orizont de timp totuși când veți veni cu aceste numiri?
 
-[ND] Relativ curând, cred.
+Relativ curând, cred.
 
 Și o foarte scurtă întrebare.
 
 Îl mai susțineți pe premierul Bolojean în funcție?
 
-[JURNALIST] Dincolo de asta, dincolo de ce aș spune eu și tocmai că [sforăit] constituția îmi dă un rol de mediator pentru ce se întâmplă acum și ce eventual se va întâmpla mai încolo.
+Dincolo de asta, dincolo de ce aș spune eu și tocmai că [sforăit] constituția îmi dă un rol de mediator pentru ce se întâmplă acum și ce eventual se va întâmpla mai încolo.
 
 Dincolo de asta, susținerea unui prim ministru, conform constituției, trebuie să vină din Parlament.
 
@@ -886,7 +883,7 @@ Lor ce le transmiteți?
 
 Ce mesaj aveți pentru ei? aștept argumentele pentru care îmi transmit asta și așa cum am răspuns tuturor argumentelor pe care le am găsit în spațiul public, dacă găsesc altele o să le răspund și altora și sper să avem o dezbatere rațională pe argumente pe ce e de făcut cu societatea noastră.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
 Și o a doua întrebare foarte scurtă ați spus la începutul conferinței că nu i apără nimeni public pe pe procurori.
 
@@ -900,7 +897,7 @@ Dacă nu e vinovat, iată, el n a n a greșit cu nimic.
 
 Numai că dacă [sforăit] procurorul șef de structură nu face lucrul ăsta, evident că începe să crească o întreagă narațiune pe care nimeni n o controlează.
 
-[JURNALIST] Bună seara, Oana Ghiță Agerpress.
+Bună seara, Oana Ghiță Agerpress.
 
 În timpul acestei conferințe ați spus în mod repetat că dacă un procuror vrea să obțină o funcție de conducere trebuie să și depună dosarul.
 
@@ -908,15 +905,15 @@ Ca atare, dumneavoastră ați avut anul trecut, la finalul anului trecut consult
 
 Știți de ce dintre aceste zeci de procurori nemulțumiți de sistem acești oameni nu și au depus?
 
-[ND] Ba unii și au depus.
+Ba unii și au depus.
 
-[JURNALIST] Unii și au depus.
+Unii și au depus.
 
 Dar de ce nu atât de mulți sau ce le ați transmite?
 
 Aveți o idee de ce nu de ce nu au fost mai multe depuneri de dosare?
 
-[ND] Nu știu.
+Nu știu.
 
 Ce Ce pot să spun este că dintre cei cu care m am întâlnit în că au fost două contexte, 1 decembrie judecători și procurori nemulțumiți de sistemul de justiție în ansamblul și după aceea începând cu ianuarie discuții despre cine ar fi potrivit să fie să aibă funcțiile astea de conducere.
 
@@ -926,7 +923,7 @@ Da.
 
 Mulțumesc.
 
-[JURNALIST] Ultimele întrebări.
+Ultimele întrebări.
 
 Bună seara.
 
@@ -938,7 +935,7 @@ Eu vă întreb, de exemplu, în cazul dumneavoastră, legat de pozele, legat de 
 
 De exemplu, în cazul ăsta considerați că parchetele, ținând cont de procese, de exemplu, în cazul dumneavoastră că ați fost nevoit să explicați anumite lucruri, considerați că într o urmărire penală, într un dosar de urmărire penală, ar trebui să existe în continuare scurgeri legate de dosarul respectiv care vin de la parchete, de la procurori?
 
-[ND] Nu, aici aveți de toate, fără discuție. n ar trebui să existe.
+Nu, aici aveți de toate, fără discuție. n ar trebui să existe.
 
 Bineînțeles că ele sunt de interes public, dar ele ar trebui să ăă apară în momentul în care dosarul este finalizat.
 
@@ -946,15 +943,15 @@ Adică e foarte bine că procurorii au ajuns la aceste nume, oameni care au film
 
 Trebuie să verifice acum cine i a plătit și în momentul ăla rechizitoriul să l citim cu toții.
 
-[JURNALIST] Deci să nu ne mai așteptăm sau cel puțin e mesajul dumneavoastră.
+Deci să nu ne mai așteptăm sau cel puțin e mesajul dumneavoastră.
 
 Da,
 
-[ND] la scurgeri încă o dată din partea parchetelor legate de dosare în lucru.
+la scurgeri încă o dată din partea parchetelor legate de dosare în lucru.
 
-[JURNALIST] Da.
+Da.
 
-[ND] Bun.
+Bun.
 
 În același timp, ținând cont că e sunt ultima persoană, poate mă ajutați puțin să înțeleg mai multe lucruri.
 
@@ -962,7 +959,7 @@ Totuși, mulțumesc.
 
 Ă Tot în conferința dumneavoastră ați argumentat, ați dat un exemplu de activitate bună a unei doamne în zona Iașului.
 
-[JURNALIST] Da.
+Da.
 
 Bun.
 
@@ -970,7 +967,7 @@ Dar totuși, nu considerați că este riscant să argumentați numirea unei doam
 
 Nu considerați că poate ceilalți procurori vor se vor gândi că este un mesaj din partea dumneavoastră în așa fel încât ca în perioada următoare alți nu știu președinți de consilii județene, primari vor fi ținte.
 
-[ND] Așa cum am spus pentru români o preocupare extrem extrem de importantă este corupția.
+Așa cum am spus pentru români o preocupare extrem extrem de importantă este corupția.
 
 Nu există corupție fără decident politic.
 
@@ -982,11 +979,11 @@ Deci nu poți să studiezi corupția într un mediu așa.
 
 Bineînțeles că există corupție și la vamă și la autoritatea sanitar veterinară, dar m am referit la putere de decizie mare.
 
-[JURNALIST] Binomul SRI DNA va mai fi
+Binomul SRI DNA va mai fi
 
-[ND] ca și protocol?
+ca și protocol?
 
-[JURNALIST] Foarte Nu, nu e o întrebare foarte bună.
+Foarte Nu, nu e o întrebare foarte bună.
 
 E o întrebare foarte bună cea pe care o puneți.
 
@@ -1000,11 +997,11 @@ Acești ofițeri analizează cu mijloace specifice zone de corupție și transmi
 
 Ăă trebuie să vorbim și de ăsta e un lucru care cred că i clar pentru toată lumea unde se oprește activitatea ofițerului de informații și trebuie pe de altă parte ca să avem o anumită calitate a sesizării de pe corupție pentru care nu știu dacă o avem în momentul ăsta.
 
-[ND] Mulțumesc foarte mult.
+Mulțumesc foarte mult.
 
 Mulțumim,
 
-[JURNALIST] gata.
+gata.
 
 Mulțumesc.
 
@@ -1012,7 +1009,7 @@ Mai am eu 10 întrebări.
 
 Da.
 
-[ND] Nicușor Dan a acceptat șapte dintre cele opt propuneri pentru șefia marilor parchete.
+Nicușor Dan a acceptat șapte dintre cele opt propuneri pentru șefia marilor parchete.
 
 Președintele a vorbit și despre prioritățile pe care ar trebui să le aibă cei care activează în sistemul judiciar.
 

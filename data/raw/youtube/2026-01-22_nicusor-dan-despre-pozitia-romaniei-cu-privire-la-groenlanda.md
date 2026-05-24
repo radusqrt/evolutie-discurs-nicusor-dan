@@ -1,11 +1,8 @@
 ---
 data: 2026-01-22
-metoda: heuristic diarization (format=markers, 5 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=kSat9gUrGOg
 sursa_aprecieri: 60
 sursa_canal: Euronews Romania
@@ -23,17 +20,17 @@ sursa_upload_timestamp: 1769107119
 sursa_video_id: kSat9gUrGOg
 sursa_vizionari: 2944
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] E un Consiliu european informal care are ca obiect relația transatlantică
+E un Consiliu european informal care are ca obiect relația transatlantică
 
-[ND] și asta are mai multe componente cum intuiți Groenlanda, tarife, Ucraina foarte important. posibil să discutăm și de Mercosul și mesajul meu general este că avem nevoie de această relație transatlantică Europa și România și că e foarte bine că
+și asta are mai multe componente cum intuiți Groenlanda, tarife, Ucraina foarte important. posibil să discutăm și de Mercosul și mesajul meu general este că avem nevoie de această relație transatlantică Europa și România și că e foarte bine că
 
-[ND] așa cum cumva anticipam în urma dialogului o oarecare escaladare care se produsese s a diminuat și am revenit în parametrii normali Ce înseamnă poziția românia
+așa cum cumva anticipam în urma dialogului o oarecare escaladare care se produsese s a diminuat și am revenit în parametrii normali Ce înseamnă poziția românia
 
-[ND] poziția României este că pe de o parte evident suveranitatea este ceva important care ține de dreptul internațional și pe de altă parte orice chestiuni care țin de apărare, care sunt legitime trebuie purtate, mai ales în contextul în care sunt e vorba de două țări NATO trebuie purtate prin dialog.
+poziția României este că pe de o parte evident suveranitatea este ceva important care ține de dreptul internațional și pe de altă parte orice chestiuni care țin de apărare, care sunt legitime trebuie purtate, mai ales în contextul în care sunt e vorba de două țări NATO trebuie purtate prin dialog.
 
 Domnule președinte, România este pregătită să ia în scenariul Unirii.
 
@@ -57,7 +54,7 @@ Cam asta în România la acest moment declarațiile pe care le a România europe
 
 Ce poate să facă Europa mai mult și România în acest
 
-[ND] Da, important este important este dialogul.
+Da, important este important este dialogul.
 
 Bineînțeles că dumneavoastră în media sunteți foarte importanți și declarațiile publice sunt de asemenea importante pentru opinia publică.
 

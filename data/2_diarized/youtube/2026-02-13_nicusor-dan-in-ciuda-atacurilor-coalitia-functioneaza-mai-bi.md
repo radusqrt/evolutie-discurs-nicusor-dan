@@ -1,0 +1,44 @@
+---
+data: 2026-02-13
+metoda: LLM diarize (gemini-2.5-flash)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
+sursa: https://www.youtube.com/watch?v=QxFK_pBFAl4
+sursa_aprecieri: 3
+sursa_canal: Antena 3 CNN
+sursa_canal_filter: Antena 3 CNN (search ND)
+sursa_descriere: 'Președintele Nicușor Dan a declarat joi despre coaliția de guvernare
+  că funcţionează, dincolo de "atacurile continue între părţi" şi dincolo de percepţia
+  că ar fi "în mare suferinţă".   Citeşte mai multe ştiri şi află cele mai noi informaţii
+  pe site-ul www.antena3.ro  #antena3 #antena3cnn #stiri #coalitie #nicusordan  Abonaţi-vă
+  la canalul de YouTube Antena 3 CNN pentru a afla rapid cele mai importante ştiri
+  în format video. Știri Antena 3, prima opțiune pentru știri online în timp real
+  din Roma'
+sursa_durata_secunde: 106
+sursa_titlu: 'Nicușor Dan: În ciuda atacurilor, coaliția funcționează mai bine decât
+  pare'
+sursa_upload_timestamp: 1770965332
+sursa_video_id: QxFK_pBFAl4
+sursa_vizionari: 364
+tip: video-transcript
+verificat: true
+vorbitor: nicusor_dan
+---
+
+[ANCHOR] Coția de guvernare funcționează foarte bine în pofida atacurilor de ambele de ambele părți, spune președintele Nicușord.
+
+[ANCHOR] El a precizat că se întâlnește foarte des cu liderii coaliției în mod individual și că se va întâlni cu aceștia și în grup atunci când va fi nevoie.
+
+[ANCHOR] Nicușordan a mai precizat că se va implica mai mult în medierea discuțiilor din coaliție în momentul în care vor începe discuțiile despre bugetul pe 2026.
+
+[ND] În viață mi ar plăcea ca multe lucruri să fie altfel decât sunt, dar în linii mari, dincolo de atacurile continue între părți și percepția că subliniez percepția că această coaliție este în mare suferință, eu cred că în realitate, în modul în care ei funcționează, în modul în care ajung să ă aibă o aceeași opinie pe acte normative pe care și le asumă această coaliție funcționează mai bine decât percepția.
+
+[ND] În momentul ăsta foarte des mă întâlnesc cu liderii coaliției în mod individual și când o să fie nevoie mă voi întâlni și în grup.
+
+[JURNALIST] Ce alte probleme aveți de nu mai sunteți implicat în situația din coaliția de guvernare și cât de mult vă deranjează ceea ce se întâmplă în momentul de față în coaliție?
+
+[ND] Este o diferență între ce era atunci și ce era acum.
+
+[JURNALIST] Pentru că atunci ce este acum?
+
+[ND] Pentru că vă aduc aminte că atunci în acea lună de zile până la formarea guvernului am avut câteva zeci de întâlniri cu diferite structuri din statul român pe legată de buget și deficit. .

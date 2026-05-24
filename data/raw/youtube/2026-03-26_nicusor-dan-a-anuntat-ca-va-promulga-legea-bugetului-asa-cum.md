@@ -1,11 +1,8 @@
 ---
 data: 2026-03-26
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=nm-I8Q8hFiY
 sursa_aprecieri: 13
 sursa_canal: B1
@@ -24,13 +21,13 @@ sursa_upload_timestamp: 1774549119
 sursa_video_id: nm-I8Q8hFiY
 sursa_vizionari: 1864
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Veți promulga legea bugetului așa cum a fost ea aprobată?
+Veți promulga legea bugetului așa cum a fost ea aprobată?
 
-[ND] Da, da, sigur.
+Da, da, sigur.
 
 Da, e o formalitate în momentul ăsta.
 
@@ -40,7 +37,7 @@ Noi știm că Curtea a respins, dar înainte să ca ea să vină cu tot textul m
 
 În secunda care va veni o s o semnez.
 
-[ND] Ok.
+Ok.
 
 Mulțumesc.
 

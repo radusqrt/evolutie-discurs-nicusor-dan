@@ -1,11 +1,8 @@
 ---
 data: 2025-09-30
-metoda: heuristic diarization (format=markers, 4 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=tFp-0zRQzIc
 sursa_aprecieri: 439
 sursa_canal: Euronews Romania
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1759260418
 sursa_video_id: tFp-0zRQzIc
 sursa_vizionari: 35820
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Reascultam o declarație a Maiei Sandu imediat după alegeri în care făcea referire la faptul că integrarea Republicii Moldova ar putea să fie făcută în doi pași, fără Transnistria și cu Transnistria. dumneavoastră cum vedeți acești pași?
+Reascultam o declarație a Maiei Sandu imediat după alegeri în care făcea referire la faptul că integrarea Republicii Moldova ar putea să fie făcută în doi pași, fără Transnistria și cu Transnistria. dumneavoastră cum vedeți acești pași?
 
 Eu cred că poate fi făcută cu tot cu Transnistria, așa la momentul acesta cu statutul de așa cum Găgăuzi are un statut auto de relativă autonomie.
 
@@ -40,17 +37,17 @@ Așa poate să aibă și transmisia regimul acesta.
 
 Și atunci granița Uniunii Europene unde ar fi
 
-[ND] granița Uniunii Europene?
+granița Uniunii Europene?
 
 Ar fi cu tot cu aceste două regiuni autonome.
 
-[ND] Și intră la pachet această aderare.
+Și intră la pachet această aderare.
 
 Cum se discută acum?
 
 Cu Ucraina sau fără?
 
-[ND] În momentul acesta cele două state au un calendar comun de negociere.
+În momentul acesta cele două state au un calendar comun de negociere.
 
 Există această dificultate cu Ungaria care se opune aderării Ucrainei.
 

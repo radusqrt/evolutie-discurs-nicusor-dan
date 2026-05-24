@@ -1,11 +1,8 @@
 ---
 data: 2026-01-07
-metoda: heuristic diarization (format=markers, 10 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=dh6kT6MkzrI
 sursa_aprecieri: 166
 sursa_canal: Antena 3 CNN
@@ -19,11 +16,11 @@ sursa_upload_timestamp: 1767785449
 sursa_video_id: dh6kT6MkzrI
 sursa_vizionari: 14695
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Bun.
+Bun.
 
 Aseară am decis să nu mai plecăm pentru că am fi ajuns la 3:4 noaptea și n ar fi fost bine.
 
@@ -35,15 +32,15 @@ Anzi, trebuie să fie curățată pista.
 
 Așteptăm până se curăț.
 
-[ND] Ați băut un ceai cald?
+Ați băut un ceai cald?
 
 Cum v ați
 
-[ND] Un ceai cald?
+Un ceai cald?
 
 Da.
 
-[ND] Ați mai fost vreodată blocat în Franța, ținând cont că ați fost aici la studii?
+Ați mai fost vreodată blocat în Franța, ținând cont că ați fost aici la studii?
 
 Vi s a mai întâmplat?
 
@@ -57,24 +54,24 @@ La un moment dat trebuie să avem un avion prezidențial și nu numai pentru pre
 
 Pentru că una că avionul ăsta face mult mai mult decât un avion normal
 
-[ND] și doi că nu avem comunicații înăuntru.
+și doi că nu avem comunicații înăuntru.
 
 Suntem în momentul când în momentul când suntem înăuntru suntem izolați.
 
 Nu se pune problema în 2026.
 
-[ND] Acasă ați fostată blocat într un tren în zăpadă.
+Acasă ați fostată blocat într un tren în zăpadă.
 
 În tinerețe,
 
-[ND] nu, nu, nu, nu.
+nu, nu, nu, nu.
 
 Dar început la des cu trenul.
 
-[ND] Altfel cum vedeți zăpada?
+Altfel cum vedeți zăpada?
 
-[ND] Inclusiv cu nașul.
+Inclusiv cu nașul.
 
-[ND] Vă zăpada vă bucură altfel zăpada cum vă bucură zăpadă în Paris?
+Vă zăpada vă bucură altfel zăpada cum vă bucură zăpadă în Paris?
 
 Eu după copăgăraș unde am copilărit și în perioada în care eu am copilărit erau zăpeți mari și era un deal acolo unde ne dădeam cu sania și odată a fost un viscol și a făcut o zăpadă așa de mare că era mai înaltă decât noi și noi ne bucuram, făceam tuneluri. .

@@ -1,11 +1,8 @@
 ---
 data: 2026-01-20
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=c4dFItyFfz4
 sursa_aprecieri: 57
 sursa_canal: Antena 3 CNN
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1768919824
 sursa_video_id: c4dFItyFfz4
 sursa_vizionari: 4511
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Treen la această oră, președintele Nicușor Dan este așteptat să decidă dacă se răzgândește și merge joi la Davos, unde, atenție, a fost invitat chiar de Donald Trump.
+Treen la această oră, președintele Nicușor Dan este așteptat să decidă dacă se răzgândește și merge joi la Davos, unde, atenție, a fost invitat chiar de Donald Trump.
 
 Liderul de la Casa Albă invită șefii de State să semneze joi dimineață în Elveția cartea Consiliului de Pace prin care Trump își propune, potrivit Financial Times, să înlocuiască Organizația Națiunilor Unite.
 
@@ -36,7 +33,7 @@ Mergem la Vasile Marcu, cel care are toate informațiile.
 
 Înțeleg, Vasile, că este așteptată astăzi opoziția președintelui Nicușor Dan un răspuns dacă merge la această ceremonie pentru consiliul de pace al lui Donald Trump. [Muzică]
 
-[ND] Astăzi ar urma să vină anunțul.
+Astăzi ar urma să vină anunțul.
 
 Ceea ce știm în momentul de față este că au avut loc consultări între președinte și consilierii săi, inclusiv cu ministerul afacerilor externe, pe această situație, pe această invitație venită din partea președintelui Statelor Unite, astfel încât Nicușor Dan, președintele României, să vină cu un răspuns adecvat.
 

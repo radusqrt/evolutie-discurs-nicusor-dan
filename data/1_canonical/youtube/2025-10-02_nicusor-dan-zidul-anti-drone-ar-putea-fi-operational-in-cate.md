@@ -1,11 +1,8 @@
 ---
 data: 2025-10-02
-metoda: heuristic diarization (format=markers, 4 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=uaG-CEczQZA
 sursa_aprecieri: 13
 sursa_canal: Euronews Romania
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1759405433
 sursa_video_id: uaG-CEczQZA
 sursa_vizionari: 1009
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Președintele Nicușordan participă la această oră la reuniunea comunității politice europene.
+Președintele Nicușordan participă la această oră la reuniunea comunității politice europene.
 
 Se întâmplă la Copenhaga.
 
@@ -36,7 +33,7 @@ Discuțiile se concentrează și astăzi pe securitatea Europei și războiul hi
 
 Colegul meu Octav Vasilescu este în Danemarca și ne dă mai multe detalii. [Muzică]
 
-[ND] Bun găsit.
+Bun găsit.
 
 Încearcă liderii europeni să ajungă la un consens astfel încât pe flancul estic al Uniunii Europene și al NATO să vedem un zid antidronă care să pornească de la Marea Baltică și să meargă până la Marea Neagră, astfel încât toate dronele venite dinspre Rusia să fie detectate.
 
@@ -58,9 +55,9 @@ Spune președintele Nicușor Dan că sunt păreri împărțite în privința zid
 
 Când ne amintim zilele trecute a fost închis spațiul aerian și nu au mai plecat zboruri de pe aeroportul din Copenhaga după ce mai multe drone au pătruns ilegal în spațiul aerian al Danemarcii.
 
-[ND] Privită această parte cu cu zidul antidronă de către statele membre pentru că au fost discuții că nu toate statele membre ar fi de acord pentru un zid atit dronă pe flancul estic.
+Privită această parte cu cu zidul antidronă de către statele membre pentru că au fost discuții că nu toate statele membre ar fi de acord pentru un zid atit dronă pe flancul estic.
 
-[ND] Da.
+Da.
 
 Există nuanțe în discuție, există nuanțe, dar deja nu mai este o chestiune de vecinătate cu Rusia pentru că ați văzut evenimente care s au întâmplat la aeroporturi care nu sunt care nu am nu am văzut drone care au parcurs de la din Rusia sau din Belarus până la respectivul aeroport.
 

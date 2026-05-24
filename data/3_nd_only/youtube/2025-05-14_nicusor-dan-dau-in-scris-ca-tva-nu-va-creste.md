@@ -1,0 +1,36 @@
+---
+data: 2025-05-14
+metoda: LLM diarize (gemini-2.5-flash) + ND-only projection
+nota: 'Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/. | PROJECT: 5 ND segments
+  kept, 9 other dropped'
+sursa: https://www.youtube.com/watch?v=crohFUCmAxY
+sursa_aprecieri: 17
+sursa_canal: Euronews Romania
+sursa_canal_filter: Euronews Romania (search ND)
+sursa_descriere: 'Nicușor Dan spune că România nu va fi în situația de a majora TVA
+  peste 19%, cât este acum. Prezent la o dezbaterere televizată, candidatul independent
+  la președinție a explicat că soluția pentru a crește veniturile la bugetul de stat
+  este reducerea evaziunii fiscale. George Simion promite și el că taxele importante
+  nu vor crește. Candidatul AUR propune în schimb lărgirea bazei de impozitare.   Pentru
+  cele mai recente știri:  https://euronews.ro/  Abonați-vă la canalul nostru de Youtube:
+  https:/'
+sursa_durata_secunde: 121
+sursa_titlu: 'Nicușor Dan: Dau în scris că TVA nu va crește'
+sursa_upload_timestamp: 1747205141
+sursa_video_id: crohFUCmAxY
+sursa_vizionari: 2851
+tip: video-transcript
+verificat: true
+vorbitor: nicusor_dan
+---
+
+Nu vom fi în situația asta. nu vom fi, adică așa cum v am spus, economia, zona privată a economiei este mult mai solidă decât în 2008 2009 și dacă vom pune ordine în modul în care statul cheltuiește, în modul în care statul încasează, pentru că vă dau un calcul scurt.
+
+Noi avem un TVA de 19%, da, încasăm 70% din 19%.
+
+Satul român trebuie să fie suficient de ferm pentru a ăă pentru a încasa taxele care i se cuvin la cuantumul care sunt azi și în felul ăsta putem să redresăm.
+
+Da, dau înscris.
+
+Da.

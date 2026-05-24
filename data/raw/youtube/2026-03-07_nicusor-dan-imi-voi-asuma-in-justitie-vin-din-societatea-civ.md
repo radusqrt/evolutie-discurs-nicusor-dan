@@ -1,11 +1,8 @@
 ---
 data: 2026-03-07
-metoda: heuristic diarization (format=markers, 7 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=ybk-9k9_AHo
 sursa_aprecieri: 26
 sursa_canal: Euronews Romania
@@ -21,36 +18,36 @@ sursa_upload_timestamp: 1772889755
 sursa_video_id: ybk-9k9_AHo
 sursa_vizionari: 2414
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Numirile pe care le voi semna mi le voi asuma.
+Numirile pe care le voi semna mi le voi asuma.
 
 Este mesajul transmis de președintele Nicușor Dan protestatarilor adunați seara trecută în fața Palatului Cotroceni, nemulțumiți de viitoarele numiri din justiție.
 
 Șeful statului spune că rezultatele acestor decizii vor fi vizibile abia în șase luni.
 
-[ND] Numirile pe care le voi semna mi le voi asuma.
+Numirile pe care le voi semna mi le voi asuma.
 
 Da?
 
-[ND] Adică
+Adică
 
-[ND] procurorii care vor fi semnați de mine vor avea girul meu.
+procurorii care vor fi semnați de mine vor avea girul meu.
 
 Da.
 
 Și vă rog să mă credeți că am cam de
 
-[ND] Vă luați în serios acest lucru
+Vă luați în serios acest lucru
 
-[ND] că am cam de 100 de ori mai multe informații despre sistemul de parchete din România decât aveți dumneavoastră. veți vedea rezultatele [muzică] acestor numiri probabil în șase luni de la momentul în care ei vor fi numiți.
+că am cam de 100 de ori mai multe informații despre sistemul de parchete din România decât aveți dumneavoastră. veți vedea rezultatele [muzică] acestor numiri probabil în șase luni de la momentul în care ei vor fi numiți.
 
 Da, pentru că oamenii ăștia trebuie să cunoască, să vină să cunoască [muzică] instituția și să lucreze cu oamenii pe care îi găsesc acolo.
 
 De asemenea, ce pot să vă [muzică] spun este că periodic mă voi întâlni cu ei, cu șefii acestor instituții.
 
-[ND] Eu vin din societatea civilă, am stat 20 de ani acolo.
+Eu vin din societatea civilă, am stat 20 de ani acolo.
 
 Credeți că deodată m am cotit așa ca să stau în puf sau ce credeți că mi s a întâmplat?

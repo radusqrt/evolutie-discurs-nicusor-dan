@@ -1,11 +1,8 @@
 ---
 data: 2025-12-10
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=43ynBL5kO7w
 sursa_aprecieri: 1
 sursa_canal: B1
@@ -21,17 +18,17 @@ sursa_upload_timestamp: 1765352099
 sursa_video_id: 43ynBL5kO7w
 sursa_vizionari: 252
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Nicușordan consideră că majoritatea votanților aur nu sunt extremiști, ci din contră, președintele spune însă că cetățenii sunt nemulțumiți de actuala clasă politică și se refugiază spre partidele care promit lucruri frumoase la suprafață doar pe hârtie.
+Nicușordan consideră că majoritatea votanților aur nu sunt extremiști, ci din contră, președintele spune însă că cetățenii sunt nemulțumiți de actuala clasă politică și se refugiază spre partidele care promit lucruri frumoase la suprafață doar pe hârtie.
 
-[ND] Spuneți că alegătorii AUR nu sunt nici extremiști, nici proși.
+Spuneți că alegătorii AUR nu sunt nici extremiști, nici proși.
 
 Ne puteți schița atunci portretul alegătorului aurist?
 
-[ND] Da.
+Da.
 
 N am Am spus că nu sunt toți.
 

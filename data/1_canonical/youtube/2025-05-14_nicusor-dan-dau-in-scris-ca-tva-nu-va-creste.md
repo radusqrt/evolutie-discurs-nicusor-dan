@@ -1,11 +1,8 @@
 ---
 data: 2025-05-14
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=crohFUCmAxY
 sursa_aprecieri: 17
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1747205141
 sursa_video_id: crohFUCmAxY
 sursa_vizionari: 2851
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Să ne uităm acum și la planurile în zona economică a celor doi candidați.
+Să ne uităm acum și la planurile în zona economică a celor doi candidați.
 
 Nicușor Dan spune că România nu va fi în situația de a majora TVA peste 19% cât este cota unică în prezent.
 

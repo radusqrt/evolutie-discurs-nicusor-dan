@@ -1,11 +1,8 @@
 ---
 data: 2025-07-30
-metoda: heuristic diarization (format=markers, 47 ND segments, 3 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=EJSRCXL7sZM
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -21,13 +18,13 @@ sursa_upload_timestamp: 1753878435
 sursa_video_id: EJSRCXL7sZM
 sursa_vizionari: 9107
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Hați să îl ascultăm.
+Hați să îl ascultăm.
 
-[ND] Mesaje legate de justiție și de pensionarea magistraților.
+Mesaje legate de justiție și de pensionarea magistraților.
 
 În primul rând, am spus asta de mai multe ori.
 
@@ -153,7 +150,7 @@ Deci în în zilele imediat următoare vor avea loc discuții cu toți reprezent
 
 Să începem cu întrebările pe justiție și după aceea vă stau la dispoziție cu alte întrebări.
 
-[ND] Bună ziua, Xenia Croitoru, Antena 3.
+Bună ziua, Xenia Croitoru, Antena 3.
 
 Ar putea fi această întrebare, primă întrebare legată cumva de domeniul justiției.
 
@@ -169,9 +166,9 @@ Ați știut despre situația domniei sale legat de acel dosar pe care l a avut �
 
 Nu am avut această informație
 
-[ND] și nu ați simțit să aveți această informație în contextul în care domnul Dragoș Anastasiu a avut acces la un certificat ornis, inclusiv când a fost, bănuiesc, și la administrația prezidențială, dar desigur și la guvern.
+și nu ați simțit să aveți această informație în contextul în care domnul Dragoș Anastasiu a avut acces la un certificat ornis, inclusiv când a fost, bănuiesc, și la administrația prezidențială, dar desigur și la guvern.
 
-[ND] Da, da.
+Da, da.
 
 Deci, ca să lămurim chestiunea asta cu certificatul Ornis domnia sa, după cum știți, a fost consilier onorific pentru domnul Bolojan. cât a fost președinte interimar în această perioadă a obținut certificatul Ornis și certificatul Ornis a continuat să funcționeze până în momentul prin care prin demisie a plecat de la președenție la guvern.
 
@@ -187,15 +184,15 @@ A prim certificat ornis automat ce a obținut o funcție atât la nivel preziden
 
 Ar trebui modificată cumva legislația?
 
-[ND] Crost nu cred că a fost Cred că a fost o verificare înainte să se dea
+Crost nu cred că a fost Cred că a fost o verificare înainte să se dea
 
-[ND] într un răspuns oficial din partea celor de la Ornis se arată faptul că sunt excepții pentru cei care fac parte din executiv, astfel că acele verificări nu sunt atât de amănunțite ca de exemplu pentru cei care fac parte din corpul diplomatic.
+într un răspuns oficial din partea celor de la Ornis se arată faptul că sunt excepții pentru cei care fac parte din executiv, astfel că acele verificări nu sunt atât de amănunțite ca de exemplu pentru cei care fac parte din corpul diplomatic.
 
 Dar a fost o verificare.
 
-[ND] Dumneavoastră ar trebui să mi spuneți că a fost cumva aici în zona dumneavoastră de activitate.
+Dumneavoastră ar trebui să mi spuneți că a fost cumva aici în zona dumneavoastră de activitate.
 
-[ND] Informația mea este că a existat un certificat, dar ce a făcut exact Ornis n am n am aprofundat.
+Informația mea este că a existat un certificat, dar ce a făcut exact Ornis n am n am aprofundat.
 
 În același context, domnul Marian Neacșu, care a avut un dosar la un moment dat, în 2016, a avut un o situație și a angajat fiica la cabinetul său parlamentar, este în executiv.
 
@@ -205,17 +202,17 @@ După același model pe care l a urmat domnul Anastasiu, ar trebui să plece din
 
 Ăă ăsta este ăsta este răspunsul meu și mai departe de atât este o coaliție în care fiecare dintre partide decide pentru pozițiile pe care și le a negociat. tre nu să plece.
 
-[ND] În opinia mea, avem o coaliție în care fiecare partid își decide persoanele pe care le nomilizează acolo.
+În opinia mea, avem o coaliție în care fiecare partid își decide persoanele pe care le nomilizează acolo.
 
-[ND] Și dacă mai îmi permiteți o o lămurire, șefii serviciilor când vor fi numiți?
+Și dacă mai îmi permiteți o o lămurire, șefii serviciilor când vor fi numiți?
 
 SRI.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[ND] După o discuție cu partidele în următoarele săptămâni.
+După o discuție cu partidele în următoarele săptămâni.
 
-[ND] Bună ziua, Cornel Chitucea, B1 TV.
+Bună ziua, Cornel Chitucea, B1 TV.
 
 Făcând referire la ce a spus mai devreme, e legal ca președintele să sune magistrații?
 
@@ -229,7 +226,7 @@ Pe chestiuni din astea în care un magistrat se întreabă dacă se pensioneze s
 
 Eu cred că da.
 
-[ND] Bun.
+Bun.
 
 Din direcția Palatului Victoria a venit astăzi o informație.
 
@@ -241,15 +238,15 @@ Deci, stați că nu înțeleg.
 
 Știu că a fost o ședință de coaliție în această dimineață. în ședința de coaliție urmează urma să se agreeze cu privire la momentul pachetului doi.
 
-[ND] Nu, cam asta este din informațiile pe surse.
+Nu, cam asta este din informațiile pe surse.
 
-[ND] Bun, dacă știți dumneavoastră asta, înseamnă că pachetul doi o să fie la sfârșit de august cu aplicabilitate de la 1 septembrie, dar dacă vă întrebați de TVA, TVA a fost pachetul unu, nu?
+Bun, dacă știți dumneavoastră asta, înseamnă că pachetul doi o să fie la sfârșit de august cu aplicabilitate de la 1 septembrie, dar dacă vă întrebați de TVA, TVA a fost pachetul unu, nu?
 
 Și ultima întrebare.
 
 Veți merge în zonele afectate de inundații, respectiv în Suceava?
 
-[ND] În momentul acesta sunt în contact cu autoritățile.
+În momentul acesta sunt în contact cu autoritățile.
 
 Am vorbit cu doamna ministru a mediului, se va duce mâine în măsura în care va fi necesar.
 
@@ -257,7 +254,7 @@ Da.
 
 Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Marius Gârlașiu, Observator Antena 1.
 
@@ -295,11 +292,11 @@ Să ajungem la o soluție agreată, astfel încât 10 ani de acum încolo orice 
 
 Dacă începem de acum să ne înjurăm unii pe alții, nu cred că ajungem prea departe și putem să ne uităm în trecut și să vedem toate încercările de a corecta această situație.
 
-[JURNALIST] Domnule președinte, ce le spuneți românilor care văd că pensia medie a magistraților este de 25000 RON lunar, 5000 € din care partea contributivă este doar 3200 RON?
+Domnule președinte, ce le spuneți românilor care văd că pensia medie a magistraților este de 25000 RON lunar, 5000 € din care partea contributivă este doar 3200 RON?
 
 Diferența se plătește lunar din taxele și impozitele românilor.
 
-[ND] Bun, aici sunt mai multe lucruri de spus.
+Bun, aici sunt mai multe lucruri de spus.
 
 În primul rând să ne uităm la salarii, la indemnizația magistraților, care sunt cât? 4000 de oameni, 4000 5000 de oameni în România azi.
 
@@ -315,15 +312,15 @@ Mai departe, dacă salariul trebuie să fie 3000 € 5000 € 6000 € asta e o 
 
 Da. faptul că și asta este una din discuțiile care urmează în zilele următoare, dacă ea trebuie să fie 70% 80% din salariu, tocmai pentru a încuraja oamenii ca atunci când sunt la apogeul capacităților profesionale să rămână în sistem.
 
-[ND] Dacă mi permiteți, vă rog, o ultimă întrebare.
+Dacă mi permiteți, vă rog, o ultimă întrebare.
 
 V ați întâlnit astăzi cu fostul ministru al transporturilor, deputatul USR Cătălin Drulă.
 
 Dânsul spune că ați discutat despre continuarea proiectelor pentru București.
 
-[ND] Putem înțelege de aici că v ați ales urmașul la Primăria Capitalei și cum vedeți ideea unui candidat comun al dreptei pentru primăria capitalei?
+Putem înțelege de aici că v ați ales urmașul la Primăria Capitalei și cum vedeți ideea unui candidat comun al dreptei pentru primăria capitalei?
 
-[ND] Bun, am discutat cu domnul Drulă foarte multe lucruri legate de special de transportul din București.
+Bun, am discutat cu domnul Drulă foarte multe lucruri legate de special de transportul din București.
 
 Știți că este pasionat de chestiunea asta.
 
@@ -335,19 +332,19 @@ Cineva care are o expertiză pe transporturi e bine venit în această competiț
 
 Atât.
 
-[ND] Dar îndeplinește domnul Drulă profilul unui primar al capitalei.
+Dar îndeplinește domnul Drulă profilul unui primar al capitalei.
 
 Ați fost primar al capitalei.
 
 Vedeți că domnul Drulă ar avea profilul de edil al capitalei?
 
-[ND] Sigur.
+Sigur.
 
 Da.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[ND] Bună ziua, Oana Ghiță Agerpress. în continuarea întrebărilor colegului meu legate de magistrați.
+Bună ziua, Oana Ghiță Agerpress. în continuarea întrebărilor colegului meu legate de magistrați.
 
 Repet întrebarea lui dacă aveți intenția de a merge la o ședință a CSM și dacă având în vedere aceste cuvinte grele care au fost puse din partea CSM privind pachetul care î îi privește pe magistrați.
 
@@ -355,7 +352,7 @@ Dacă dumneavoastră credeți că în acest moment există o cale de dialog și 
 
 Despre asta ați vorbit, de debandada din sistem, dacă puteți clarifica înainte,
 
-[ND] debandadă în ceea ce privește cerere de pensionare.
+debandadă în ceea ce privește cerere de pensionare.
 
 Adică nu e admisibil ca această instituție de elită, sistemul judecătoresc din România, să nu existe o minimă predictibilitate în privința datelor de pensionare, compunerea completurilor și totul să funcționeze de o manieră informală.
 
@@ -367,15 +364,15 @@ Cred că suntem toți oameni responsabili.
 
 Vedem mulți dintre noi vedem, din păcate scăderea calității actului de justiție în ultimii patru cinci ani, tocmai din cauză că nu a existat acest dialog și în opinia mea societatea ne obligă să avem dialog pe subiectul ăsta.
 
-[ND] Și ați sugerat că ați dori să participați la o ședință CSM?
+Și ați sugerat că ați dori să participați la o ședință CSM?
 
-[ND] Desigur.
+Desigur.
 
 Da.
 
 O să particip de a lungul mandatului la multe ședințe CSM cu subiecte pe care le voi pregăti foarte bine.
 
-[ND] Bună ziua, Mădălin Puiu, România TV.
+Bună ziua, Mădălin Puiu, România TV.
 
 În urmă cu o lună, guvernul Ilie Bolojan a a plafonat sporul de condiții vătămătoare.
 
@@ -385,7 +382,7 @@ Care este imaginea care este dată în societate în contextul în care vedem to
 
 Sunt nemulțumiți de pensiile speciale, însă vedem că își majorează indemnizațiile doar pe hârtie de la o lună la alta.
 
-[ND] Da, este un dialog necesar.
+Da, este un dialog necesar.
 
 Este un dialog necesar pe care urmează să l avem.
 
@@ -417,7 +414,7 @@ Da, e de lucru.
 
 Mulțumesc.
 
-[ND] Bună ziua, Ioana Câmpean, C4 Media.
+Bună ziua, Ioana Câmpean, C4 Media.
 
 Ăă, domnule președinte, ministrul justiției mai poate rămâne în funcție după ce la câteva ore după ce premierul Ilie Bolojan a prezentat proiectul cu principale direcții pe care le vizează pentru reforma pensiilor magistraților.
 
@@ -435,9 +432,9 @@ Repet, repet ce am spus mai devreme.
 
 V aș întreba dacă dumneavoastră ați dat vreodată șpagă de supraviețuire ca domnul Anastasiu sau pentru a scăpa de șicanele poliției ca domnul Bolojan sau desigur orice alt tip de șpagă inocentă și eventual prescriscrisă.
 
-[ND] Nu mi aduc aminte.
+Nu mi aduc aminte.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
 Maria Moi Euronews România.
 
@@ -463,9 +460,9 @@ Ce poate România să facă este să, fără evident să interfereze cu procesul
 
 Evident că suntem mai bine decât Republica Moldova și la solicitarea ăă omologilor putem să i putem să i ajutăm.
 
-[ND] Ați avut o astfel de discuție, dacă mi permiteți, cu doamna Maia Sandu, despre aceste aspecte?
+Ați avut o astfel de discuție, dacă mi permiteți, cu doamna Maia Sandu, despre aceste aspecte?
 
-[ND] Când am fost la Chișinău am discutat inclusiv despre asta.
+Când am fost la Chișinău am discutat inclusiv despre asta.
 
 Da.
 
@@ -475,7 +472,7 @@ Dincolo de legalitate, pentru că înțelegem că a fost reabilitat, moralitatea
 
 Mulțumesc.
 
-[ND] Da, așa cum am spus, am introdus această nuanță.
+Da, așa cum am spus, am introdus această nuanță.
 
 A fost un moment în care mulți demnitari din statul român au mulți, nu știu, câteva zeci care au avut același tip de problemă.
 
@@ -487,7 +484,7 @@ Trebuie să faci o optimizare între integritate și competență.
 
 Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Alexandru Alexandrescu de la Realitatea.
 
@@ -497,7 +494,7 @@ Voiam să vă întreb în contextul ăsta, domnule președinte, dacă dumneavoas
 
 Dacă sau dacă și dumneavoastră considerați la fel ca domnul Ilie Bolojan că nu este o problemă această asociere?
 
-[ND] Da.
+Da.
 
 Nu știu dacă am avut cea mai precisă formulare când am spus asta.
 
@@ -505,9 +502,9 @@ M am Ar fi fost mai precis să spun persoane care pot să afecteze securitatea n
 
 Domnul Nichiu Ghiar e o persoană controversată, știm cu toții din așa, dar
 
-[ND] dintr un grup de interese.
+dintr un grup de interese.
 
-[ND] Da.
+Da.
 
 Ăă, dar așa la prima vedere, fără să am fără să i fi văzut ăă să fi văzut informări la cu privire la domnia sa, nu știu să aibă vreo ăă cum să zic, vreo suspiciune de a afecta interesele de securitate ale României.
 
@@ -525,7 +522,7 @@ Dacă mi permiteți foarte scurt, cum ați catalogat reacția autorităților du
 
 Abia, dacă nu mă înșel, marți a mers șeful DSU acolo și acum ne spuneți că merge și un ministru.
 
-[ND] Da.
+Da.
 
 Păi, pe două componente.
 
@@ -543,7 +540,7 @@ Puteam să ne așteptăm că se vor mai întâmpla.
 
 Acolo este suferința noastră.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
 Bună ziua, domnule președinte.
 
@@ -575,7 +572,7 @@ A mai avut și cazul Bulai, nu este doar cazul Pieleanu.
 
 Dacă credeți că SNSP a tratat corect situația și implicit comunicarea pe această temă și aș vrea să vă întreb într o cheie mai largă dacă credeți că este nevoie de o răgândire a cadrului legal care să protejeze mai eficient studenții de hărțuiri.
 
-[ND] Da.
+Da.
 
 Ă bun.
 
@@ -615,13 +612,13 @@ Dar tăcerea care vine din partea SNSPA, ce mesaj credeți că le transmite pe d
 
 Nu, eu în fine nu am nu am urmărit bineînțeles am văzut materialul nu am urmărit reacția SNSPA ului ca
 
-[ND] e niciuna
+e niciuna
 
-[ND] de în spațiul public.
+de în spațiul public.
 
 Ce cred eu că trebuie să se întâmple este ca o comisie de anchetă să fie constituită și la sfârșitul investigațiilor să ni se dea o în fine un rezultat al acestei investigații.
 
-[ND] Și a doua întrebare, vă rog.
+Și a doua întrebare, vă rog.
 
 Prima a fost cu mai multe ramificații, dar a fost prima.
 
@@ -641,7 +638,7 @@ Deci sondajul respectiv arată o creștere cu 10% din 2014 până în prezent.
 
 Vă mulțumesc.
 
-[ND] Da, da.
+Da, da.
 
 Întrebarea este, bineînțeles, că vorbesc din nou general.
 

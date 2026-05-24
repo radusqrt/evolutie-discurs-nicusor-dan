@@ -1,11 +1,8 @@
 ---
 data: 2025-12-01
-metoda: heuristic diarization (format=markers, 13 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=9FZ47vaWg3E
 sursa_aprecieri: 78
 sursa_canal: B1
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1764587188
 sursa_video_id: 9FZ47vaWg3E
 sursa_vizionari: 5361
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] în zona Alcului.
+în zona Alcului.
 
 Atenție, în aceste momente ajunge președintele României, Nicușor Dan în piața alcului. pentru onor înainte prezentați domnule președinte Detașamentele participante la parada militară națională organizată cu ocazia zilei naționale a României sunt pregătite pentru începerea activității.
 
@@ -41,7 +38,7 @@ Primiți mărețe umbre, Mihai, Ștefan româna națiune, ai voștri străpți, 
 
 Ori moarte strigă toți, ori moarte strigăto cu crucea în frunte, căci oasea e creștină de ai libertate și scopul ei preasf și scopul ul ei preasfânt mai lupă cu glorie plină decât să fim gl iarăși în vechiul nostru pământ în vechiul nostru pământim mă Lă cu glorie de plină decât să clar iarăși în vecul nostru pă în vecchiul nostru fă
 
-[ND] În următoarele momente Excelența domnul Nicușor Dan președintele României va depune oană de flori în memoria eroilor căzuți câmpurile de luptă pentru o reîntregire a neamului românesc.
+În următoarele momente Excelența domnul Nicușor Dan președintele României va depune oană de flori în memoria eroilor căzuți câmpurile de luptă pentru o reîntregire a neamului românesc.
 
 Doamnelor și domnilor, memoria memoria eroilor căzuți pe câmpurile de luptă.
 
@@ -61,7 +58,7 @@ Bună dimineața telespectatorilor dumneavoastră, tuturor românilor și camara
 
 La mulți ani tuturor românilor.
 
-[ND] La mulți ani și dumneavoastră.
+La mulți ani și dumneavoastră.
 
 O zi foarte importantă.
 
@@ -89,7 +86,7 @@ Sunt nu mai puțin de 70 de programe de înzestrare care sunt la dispoziția arm
 
 Ce vedem acum pe imagini, domnule locotenent colonel?
 
-[ND] Da, vedem muzicele reprezentative ale Garnizoanei București reunite pentru a participa la parada militară națională.
+Da, vedem muzicele reprezentative ale Garnizoanei București reunite pentru a participa la parada militară națională.
 
 Ca în fiecare an, așa cum ne am obișnuit, acest eveniment este unul foarte semnificativ, emoționant pentru toți militarii și pentru cei din sistemul național de apărare și ordine publică.
 
@@ -101,7 +98,7 @@ Totodată vedem și detașamentul gărzii de onoare al gărzii 30 gardă care du
 
 În următoarele momente va începe defilarea.
 
-[ND] Se constituie dispozitivul pentru defilare chiar în aceste momente, ca să înțeleagă cei care ne urmăresc până începe defilarea propriu zisă. puțin despre apărarea, despre apărarea României spuneam, n avem un ministru cu forțe depline.
+Se constituie dispozitivul pentru defilare chiar în aceste momente, ca să înțeleagă cei care ne urmăresc până începe defilarea propriu zisă. puțin despre apărarea, despre apărarea României spuneam, n avem un ministru cu forțe depline.
 
 Trecem printr o înzestrare cum n a mai trecut niciodată, peste 70 de programe de înzestrare pentru armata României.
 
@@ -109,9 +106,9 @@ Se vorbește de bugete uriașe, inclusiv despre un mai mare procent alocat din P
 
 Într adevăr este un moment foarte complicat pentru
 
-[ND] armata României.
+armata României.
 
-[ND] Așa cum ați spus și dumneavoastră, sunt mai bine de sunt 70 de programe de înzestrare.
+Așa cum ați spus și dumneavoastră, sunt mai bine de sunt 70 de programe de înzestrare.
 
 Exact 27 sunt deja în desfășurare la acest moment.
 
@@ -123,7 +120,7 @@ Așadar, s a pornit în defilare.
 
 Ne întoarcem la bugetul pentru apărare. 3,5% se cere chiar de peste ocean din Statele Unite se cere chiar mai mult, spunea Donald Trump că trebuie să investim mult mai mult în apă.
 
-[ND] Într adevăr, există o nevoie de înzestrare și anume cu tehnică și echipament modern interoperabil cu aliații și cu partenerii noștri.
+Într adevăr, există o nevoie de înzestrare și anume cu tehnică și echipament modern interoperabil cu aliații și cu partenerii noștri.
 
 Așa cum am precizat anterior, deja 27 de programe de înzestrare sunt în derulare la acest moment.
 
@@ -135,13 +132,13 @@ Avem în atenție un program foarte important pentru forțele terestre, mașina 
 
 Este un program vital pentru toate structurile de infanterie.
 
-[ND] Mai vreau să ne spuneți și ce văd acum românii pe ecran și telespectatorii noștri.
+Mai vreau să ne spuneți și ce văd acum românii pe ecran și telespectatorii noștri.
 
 Avem detașamente ale militarilor răniți în teatrele de operații.
 
-[ND] 3300 de militari au căzut la datorie, înțelegem, în primul război mondial.
+3300 de militari au căzut la datorie, înțelegem, în primul război mondial.
 
-[ND] 3300 în primul război mondial.
+3300 în primul război mondial.
 
 În al doilea război mondial mai bine de 900000 de militari au fost au căzut pe câmpul de luptă răniți sau declarați dispăruți, dintre care vreo 600 prin în lagăre.
 
@@ -149,7 +146,7 @@ Avem detașamente ale militarilor răniți în teatrele de operații.
 
 Dacă
 
-[ND] este un moment onorant pentru noi să i mai avem încă în viață pe unii dintre veteranii de război care au contribuit la flurirea neamului românesc.
+este un moment onorant pentru noi să i mai avem încă în viață pe unii dintre veteranii de război care au contribuit la flurirea neamului românesc.
 
 Ăă, pentru noi, militarii, ăă ziua de astăzi este importantă ca să cinstim în primul rând memoria înaintașilor, a celor care au contribuit și s au jertfit pentru realizarea idealului național de de veacuri încă de la 1600.
 
@@ -163,7 +160,7 @@ Ce avem acum în acest moment în imagini?
 
 Cred că avem defilarea pe jos, nu?
 
-[ND] Avem avem detașamente ale forțelor pentru operații speciale militari din cadrul Brigăzii pentru Operații Speciale sunt printre cei mai bine pregătiți militari ai noștri.
+Avem avem detașamente ale forțelor pentru operații speciale militari din cadrul Brigăzii pentru Operații Speciale sunt printre cei mai bine pregătiți militari ai noștri.
 
 Pot să acționeze în toate mediile mediile de operații.
 

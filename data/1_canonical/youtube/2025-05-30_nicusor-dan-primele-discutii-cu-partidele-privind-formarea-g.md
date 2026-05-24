@@ -1,11 +1,8 @@
 ---
 data: 2025-05-30
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=3cWqERO6tSs
 sursa_aprecieri: 16
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1748592970
 sursa_video_id: 3cWqERO6tSs
 sursa_vizionari: 1552
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] La ora 11:00 este programată o nouă discuție între președintele Nicușor Dan și șefii partidelor pro occidentale care și au exprimat dorința de a face parte din noul guvern.
+La ora 11:00 este programată o nouă discuție între președintele Nicușor Dan și șefii partidelor pro occidentale care și au exprimat dorința de a face parte din noul guvern.
 
 O nouă discuț o rundă de discuții, așadar pe teme economice pentru a reduce cheltuielile statului, având în vedere că trebuie să ne încadrăm într o țintă de deficit de 7% din PIB.
 

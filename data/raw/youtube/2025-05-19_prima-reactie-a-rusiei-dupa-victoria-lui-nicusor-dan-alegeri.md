@@ -1,11 +1,8 @@
 ---
 data: 2025-05-19
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=aPEZBN2202Q
 sursa_aprecieri: 67
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1747683140
 sursa_video_id: aPEZBN2202Q
 sursa_vizionari: 4465
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Domnule Jurcan, s a scandat aseară pe bulevardul Elisabeta Rusia nu e uita, România nu e a ta în acea mare de stegulețe ale Uniunii Europene și ale României.
+Domnule Jurcan, s a scandat aseară pe bulevardul Elisabeta Rusia nu e uita, România nu e a ta în acea mare de stegulețe ale Uniunii Europene și ale României.
 
 Mă întorc un pic la timingul pe care l am l am prezentat puțin mai devreme pentru că cel puțin pentru mine ca jurnalist arată că niște oameni în aceste cancelarii așteptau urmărind informațiile care vin din România să vadă cum se poziționează această țară din marginea Uniunii Europene, vecinătate cu Rusia, războiul din Ucraina și dacă mai rămâne în picioare această țară.
 

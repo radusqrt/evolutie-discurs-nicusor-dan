@@ -1,11 +1,8 @@
 ---
 data: 2026-05-05
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=shf9-ifKvME
 sursa_aprecieri: 462
 sursa_canal: Euronews Romania
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1777997484
 sursa_video_id: shf9-ifKvME
 sursa_vizionari: 55432
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Guvernul a fost demis azi de Parlament.
+Guvernul a fost demis azi de Parlament.
 
 Nu e un moment fericit în nicio democrație.
 

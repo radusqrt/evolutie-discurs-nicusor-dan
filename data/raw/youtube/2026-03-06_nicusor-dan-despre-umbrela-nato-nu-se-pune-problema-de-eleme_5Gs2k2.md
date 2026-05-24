@@ -1,11 +1,8 @@
 ---
 data: 2026-03-06
-metoda: heuristic diarization (format=markers, 10 ND segments, 9 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=5Gs2k2F7Ru0
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1772788368
 sursa_video_id: 5Gs2k2F7Ru0
 sursa_vizionari: 608
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] cu primul ministru și cu șefii celor două camere ale Parlamentului.
+cu primul ministru și cu șefii celor două camere ale Parlamentului.
 
 Discuții comune cu fiecare dintre ei pe patru teme importante: securitate, economie, relații externe și Uniunea Europeană.
 
@@ -94,7 +91,7 @@ Sunt discuții în curs.
 
 Nu vreau să n ar fi profesionist să vorbesc în avans de niște discuții care nu au un rezultat predictibil în momentul de față, ci doar o intenție reciprocă de ambele părți.
 
-[ND] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Mădălin Puiu, România TV.
 
@@ -138,13 +135,13 @@ Avem soldați francezi în România, suntem recunoscători pentru asta.
 
 E o relație care se dezvoltă în contextul acesta de securitate complicat și în momentul în care vor exista elemente excepționale care depășesc sfera militarurilor militară, o să fie comunicate public.
 
-[JURNALIST] Mulțumesc.
+Mulțumesc.
 
-[ND] Bună seara, Ramona Avramescu, Televiziunea Română.
+Bună seara, Ramona Avramescu, Televiziunea Română.
 
 Domnule președinte, în țară coaliția nu a aprobat încă bugetul, iar PSD îl acuză pe premier chiar de un blocaj, lăsând de înțeles că ar putea inclusiv să nu voteze bugetul în Parlament. în evaluarea dumneavoastră cât de mare este riscul ca bugetul să fie blocat și să se ajungă poate chiar la căderea actualului guvern și în situația economică actuală considerați că pachetul social propus de PSD este sustenabil?
 
-[JURNALIST] Bun.
+Bun.
 
 Sunt niște chestiuni care sunt de natură executiv parlamentară, însă după ce am discutat cu reprezentanții fiecăruia din partidele din coaliție, o spun cu toată responsabilitatea, România va avea un buget în luna martie a acestui an.
 
@@ -156,13 +153,13 @@ Oamenii ăștia spun lucruri unii despre alții.
 
 Dar pe chestiunea bugetului, o spun cu responsabilitate, România va avea buget.
 
-[ND] Ați primit o garanție din partea partidelor sau?
+Ați primit o garanție din partea partidelor sau?
 
-[JURNALIST] Da.
+Da.
 
 Vorbind cu fiecare dintre ei, pot să vă spun cu siguranță că vom avea buget.
 
-[ND] Bună seara, Alina Stănuța, Radio România. dumneavoastră sunteți îngrijorat de faptul că întârzie acest proiect de buget și de faptul că împiedică funcționarea unor anumite instituții ale statului?
+Bună seara, Alina Stănuța, Radio România. dumneavoastră sunteți îngrijorat de faptul că întârzie acest proiect de buget și de faptul că împiedică funcționarea unor anumite instituții ale statului?
 
 Evident că ar fi fost bine să avem buget în noiembrie sau decembrie.
 
@@ -172,7 +169,7 @@ M am consultat cu liderii fiecăruia dintre partide și pot să vă spun ce v am
 
 Mulțumesc.
 
-[JURNALIST] Bună seara, Emastoica Digi24.
+Bună seara, Emastoica Digi24.
 
 Aș vrea să ne uităm puțin mai atent la o propunere venită din partea Partidului Social Democrat, pentru că discuția în momentul de față este dacă există bani pentru one off uri pentru pensionari, adică niște sume date o dată sau de două ori pentru pensionari, care să fie aceștia.
 
@@ -188,7 +185,7 @@ Da, domnul Nazare a fost la mine, dar spre deosebire de luna iunie a anului trec
 
 Nu e spațiu pentru diferite tipuri de cheltuieli, dar
 
-[ND] e o e o dezbatere.
+e o e o dezbatere.
 
 Da.
 
@@ -204,7 +201,7 @@ Sunt partide care au publicuri care doresc altceva fiecare, dar această dezbate
 
 Dar ar fi un motiv acesta pentru a ieși de la guvernare al unui partid dacă nu s ar îndeplini cerințele venite în privința bugetului
 
-[JURNALIST] în condiții normale, în pace, în într o țară cu ă stabilitate fiscală, bineînțeles că bugetul este o lege foarte importantă și dacă tu ca partid din Reprezentând în mod legitim o categorie de oameni, consider că nu satisface viziunea ta politică.
+în condiții normale, în pace, în într o țară cu ă stabilitate fiscală, bineînțeles că bugetul este o lege foarte importantă și dacă tu ca partid din Reprezentând în mod legitim o categorie de oameni, consider că nu satisface viziunea ta politică.
 
 E un motiv, dar nu suntem acolo.
 
@@ -212,7 +209,7 @@ Da, suntem într un context dificil cu un război la graniță.
 
 Nu suntem acolo.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Vasile Marco Anteana 3 CNN.
 
@@ -226,7 +223,7 @@ Cum vedeți?
 
 O să vă Nu vreau să evit să vă răspund la întrebarea asta, dar nu am toate datele și nu vreau să să pară că acuz pe cineva sau pe altcineva fără să am toate datele.
 
-[ND] Așa.
+Așa.
 
 Revenind la politica internă, cum vedeți demersul început sau anunțat de Partidul Social Democrat, de Sulin Grindeanu, de a începe o consultare internă care îl vizează direct pe premierul Ilie Bolojan de a fi schimbat premierul și nu neapărat ieșire din coaliție?
 
@@ -244,7 +241,7 @@ E mult mai bine ca tipul ăsta de decizii să fie luat fără o mare expunere pu
 
 Da, dacă am putea cu mai puține turbulențe mediatice ar fi mai bine.
 
-[JURNALIST] Bună seara, Octavian Vasilescu, Euronews, România.
+Bună seara, Octavian Vasilescu, Euronews, România.
 
 După ultimele evenimente din Orientul Mijlociu a început brusc o scumpire a carburanților în România.
 
@@ -270,13 +267,13 @@ Numai că lucrul ăsta nu s a întâmplat niciodată și nici nu e fizic posibil
 
 Se sancționează peste o lună, se sancționează peste două, dar e foarte bine că președintele a ieșit, președintele Consiliului Concurenței a ieșit și a avertizat că se uită la exact la acest fenomen pentru că bineînțeles că el are efect în lanț pe toată economia și pe nivelul de trai al oamenilor.
 
-[ND] Dar dacă situația dacă prețurile vor continua să crească foarte mult, ați putea cere guvernului să vină cu o schemă de sprijin pentru populație, măcar pe o perioadă limitată?
+Dar dacă situația dacă prețurile vor continua să crească foarte mult, ați putea cere guvernului să vină cu o schemă de sprijin pentru populație, măcar pe o perioadă limitată?
 
 Când vom fi acolo, desigur, se putem să avem tipul acesta de discuții, cum cum s a mai întâmplat.
 
 Da.
 
-[JURNALIST] Bună seara, Oana Ghițager Prez.
+Bună seara, Oana Ghițager Prez.
 
 Recent s au făcut propuneri pentru șefia marilor parchete din România și este așteptat avizul CSM.
 
@@ -284,16 +281,16 @@ Recent s au făcut propuneri pentru șefia marilor parchete din România și est
 
 Mulțumesc.
 
-[ND] Da, nu numai că voi face această analiză, am făcut deja o analiză foarte amplă, pregătindu mă pentru acest moment.
+Da, nu numai că voi face această analiză, am făcut deja o analiză foarte amplă, pregătindu mă pentru acest moment.
 
 Adică m am văzut cu zeci de procurori pe pe o perioadă de zeci de ore în care am încercat să înțeleg ăă ce părere au unii despre alții, cine sunt vârfurile manageriale în această profesie pentru ca în momentul în care procedura desfășurată de Ministerul Justiției ajunge la mine să ia o decizie informată și față de această analiză amplă pe care am făcut o această analiz ca să o spun și mai direct această analiză amplă pe care am făcut o diferă foarte mult de ce se speculează în social media adică sunt complet în dez de acord cu ce se spune pe rețele despre ăă oamenii care au fost fie au participat la concurs, fie au fost selectați, dar nu vreau să mă antepronunț în momentul ăsta.
 
-[JURNALIST] Și dacă mai permiteți o scurtă completare, revenind la cazul Ministerului Afacerilor Externe, ca părinte, cum ați văzut acțiunea pe care sau felul în care a reacționat ministerul ministra de externe?
+Și dacă mai permiteți o scurtă completare, revenind la cazul Ministerului Afacerilor Externe, ca părinte, cum ați văzut acțiunea pe care sau felul în care a reacționat ministerul ministra de externe?
 
 Bun.
 
 Haideți să lămurim cine a făcut, cine a sunat, n a sunat, cine a luat decizia, s a dat, s a Adică, bineînțeles că e un caz emoțional, da, când vorbim de un copil, dar haideți să ți lămurim cu totul
 
-[ND] situația de fapt ca să, în fine, să ne îndreptăm dacă a greșit cineva exact pe persoana vinovată.
+situația de fapt ca să, în fine, să ne îndreptăm dacă a greșit cineva exact pe persoana vinovată.
 
 S

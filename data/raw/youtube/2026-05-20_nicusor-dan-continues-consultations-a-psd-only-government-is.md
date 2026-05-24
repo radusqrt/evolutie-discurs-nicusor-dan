@@ -1,11 +1,8 @@
 ---
 data: 2026-05-20
-metoda: heuristic diarization (format=markers, 4 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=TWMxVIbZ6ac
 sursa_aprecieri: 10
 sursa_canal: Antena 3 CNN
@@ -23,19 +20,19 @@ sursa_upload_timestamp: 1779257256
 sursa_video_id: TWMxVIbZ6ac
 sursa_vizionari: 1781
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Între timp, criza politică se prelungește.
+Între timp, criza politică se prelungește.
 
 PNL și PSD se atacă de la distanță, iar varianta unui guvern monocolor PSD prinde tot mai mult contur.
 
-[ND] Președintele Nicușordan va continua consultările cu parlamentarii neafiliați pentru a testa sprijinul politic pentru social democrați.
+Președintele Nicușordan va continua consultările cu parlamentarii neafiliați pentru a testa sprijinul politic pentru social democrați.
 
-[ND] Deși șeful statului și ar dori un premier independent sau tehnocrat, partidele au refuzat și au cerut ferm o asumare [muzică] politică.
+Deși șeful statului și ar dori un premier independent sau tehnocrat, partidele au refuzat și au cerut ferm o asumare [muzică] politică.
 
-[ND] Colegul nostru Vasile Marcu ne spune mai multe.
+Colegul nostru Vasile Marcu ne spune mai multe.
 
 Îl ascultăm.
 

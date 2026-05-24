@@ -1,11 +1,8 @@
 ---
 data: 2025-09-02
-metoda: heuristic diarization (format=markers, 49 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=M1JXc-wGEGw
 sursa_aprecieri: 11
 sursa_canal: Privesc.Eu România
@@ -19,33 +16,33 @@ sursa_upload_timestamp: 1756783038
 sursa_video_id: M1JXc-wGEGw
 sursa_vizionari: 223
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Auzi, hai să așteap
+Auzi, hai să așteap
 
-[ND] mă mută pe stampul.
+mă mută pe stampul.
 
 Nu merge?
 
-[ND] Nu, nu te mă stai acolo.
+Nu, nu te mă stai acolo.
 
 Vrei tu așa poate să treacă, să zicem canalul unu pe română și canalul doi pe
 
-[ND] Păi trebuie să le trecem și lor acolo.
+Păi trebuie să le trecem și lor acolo.
 
-[ND] Nu, acolo.
+Nu, acolo.
 
 Eu am distribuția asta ca să pot să le dau.
 
-[ND] Crezi că ți e greu?
+Crezi că ți e greu?
 
 Că asta e sistemul aicea.
 
-[ND] Așa.
+Așa.
 
-[ND] Pe canalul unu.
+Pe canalul unu.
 
 Uite aice.
 
@@ -55,43 +52,43 @@ Așa.
 
 Când v traduci în română.
 
-[ND] Așa.
+Așa.
 
 În română.
 
 Unu.
 
-[ND] Când?
+Când?
 
 Da.
 
 Când vrei să traduci în engleză
 
-[ND] mut.
+mut.
 
 Să dau mai sus cu unul.
 
-[ND] Nu merge doiul.
+Nu merge doiul.
 
-[ND] Păi și cum trece?
+Păi și cum trece?
 
 Că nu mai are microfon.
 
-[ND] Da, George, sunt la traducere.
+Da, George, sunt la traducere.
 
 Da, da, da.
 
-[ND] Nu poate să
+Nu poate să
 
-[ND] Atunce știi ce faci?
+Atunce știi ce faci?
 
 Știi ce faci?
 
-[ND] Așa
+Așa
 
-[ND] vorbești tradu și de aia și de aia pe același și eu iau de acolo să le spun la presă fiecare să și ia ce are nevoie.
+vorbești tradu și de aia și de aia pe același și eu iau de acolo să le spun la presă fiecare să și ia ce are nevoie.
 
-[ND] Dar ideea este că trebuie să mă audă ursula.
+Dar ideea este că trebuie să mă audă ursula.
 
 Deci când vorbește când vorbește președintele trebuie să mă audă ea și asta e important.
 
@@ -99,53 +96,53 @@ Asta pe urechi și te aude.
 
 În momentul în care vorbește ea i atac.
 
-[ND] Eu când o traduc pe ea nu e atât de important că asta e pentru ei să și ia după aceea.
+Eu când o traduc pe ea nu e atât de important că asta e pentru ei să și ia după aceea.
 
-[ND] Da, da, da.
+Da, da, da.
 
 Știu, știu, știu.
 
-[ND] Da, tocmai de asta zic.
+Da, tocmai de asta zic.
 
-[ND] E destul de complicată să schimbați
+E destul de complicată să schimbați
 
-[ND] așa.
+așa.
 
 Deci lăsăm același canal și eu vorbesc pe amândouă normal și dumneavoastră.
 
 Da, eu am iau acolo și o să aveți dumneavoastră aici.
 
-[ND] Da.
+Da.
 
-[ND] Deci n are treabă cu butonul acela, doar vorbiți legat direct la emiț bateria
+Deci n are treabă cu butonul acela, doar vorbiți legat direct la emiț bateria
 
-[ND] și n o să dureze atât de mult că se grăbesc.
+și n o să dureze atât de mult că se grăbesc.
 
 Ia [Muzică] trebuie să l pornesc de aici.
 
-[ND] Nu, că e pornit.
+Nu, că e pornit.
 
-[ND] E pornit.
+E pornit.
 
 A, ok.
 
 N avem treabă că e doar
 
-[ND] perfect.
+perfect.
 
 Și volumul pot să l reglez undeva în cască.
 
-[ND] Deci rămâne așa.
+Deci rămâne așa.
 
-[ND] Așa.
+Așa.
 
-[ND] Acolo e volum pentru căști, dar e la maxim.
+Acolo e volum pentru căști, dar e la maxim.
 
-[ND] Ok.
+Ok.
 
 Ca să știu eu.
 
-[ND] Dar n are casă.
+Dar n are casă.
 
 Și nu știu.
 
@@ -155,9 +152,9 @@ Mai sta aude de afară.
 
 Oricum am o cască și
 
-[ND] nu v aș închide ușa.
+nu v aș închide ușa.
 
-[ND] Nu, nu închideți, nu închideți că mă sufoc.
+Nu, nu închideți, nu închideți că mă sufoc.
 
 E foarte cald.
 
@@ -167,19 +164,19 @@ Sigur ce trebuie să fac?
 
 Să vorbesc.
 
-[ND] Eu am înțeles că i porniți totul.
+Eu am înțeles că i porniți totul.
 
 Sigur că da. 1 2 3 4 5 6 7 comunică
 
-[ND] Stimată doamnă președinte a Comisiei Europene, domnule comisar, doamnă, domnule ministru,
+Stimată doamnă președinte a Comisiei Europene, domnule comisar, doamnă, domnule ministru,
 
-[ND] doamnelor și domnilor, e ok așa?
+doamnelor și domnilor, e ok așa?
 
 O, mă bucur.
 
 Vian mă mai chinui.
 
-[ND] Și eu.
+Și eu.
 
 Doamne ajută.
 
@@ -195,9 +192,9 @@ Moderatorul e eliminat.
 
 Acum am aflat și eu.
 
-[ND] Adică n o să mai
+Adică n o să mai
 
-[ND] închid.
+închid.
 
 Thank you very much.
 
@@ -225,7 +222,7 @@ Ne bucurăm că Uniunea Europeană a adoptat la propunerea României o strategie
 
 Constanța
 
-[ND] am vorbit puțin și de reconstrucția Ucrainei și România [Muzică] poate să prin poziția sa geografică poate să contribuie la acest proces.
+am vorbit puțin și de reconstrucția Ucrainei și România [Muzică] poate să prin poziția sa geografică poate să contribuie la acest proces.
 
 Portul Constanța, care este cel mai mare port la Marea Neagră și Dunărea care îl conectează cu vestul Europei și oferă o modalitate ieftină de transport care va fi foarte utilă în momentul reconstrucției.
 
@@ -233,7 +230,7 @@ Mulțumesc încă o dată pentru vizită și mulțumesc pentru tot ajutorul pe c
 
 Mulțumesc foarte mult, domnule președinte, domnule, vă mulțumesc foarte mult pentru venirea pălduroasă aici în România
 
-[ND] și vă mulțumesc sincer pentru vizita impresionantă la portul militar din Constanța și baza aeriană Mihael Coglniceanu. să să menținem Europa sigură pe cale aeriană și maritimă la Marea Neagră și mai mult ca oricând, România este un avantaj pentru securitatea europeană și un partener cheie pe flancă NATO.
+și vă mulțumesc sincer pentru vizita impresionantă la portul militar din Constanța și baza aeriană Mihael Coglniceanu. să să menținem Europa sigură pe cale aeriană și maritimă la Marea Neagră și mai mult ca oricând, România este un avantaj pentru securitatea europeană și un partener cheie pe flancă NATO.
 
 Dragă Nicușor, este plăcere să mă aflu în România pentru prima dată de la inaugurarea tău.
 
@@ -293,7 +290,7 @@ România are tot toate cele necesare pentru a și pune economia pe traiectoria c
 
 Vă mulțumes întrebări.
 
-[ND] 2 meram president.
+2 meram president.
 
 Thank you.
 
@@ -321,11 +318,11 @@ Sunt locuri de muncă pentru europeni.
 
 Prin urmare, investiția în baza industrială de apărare este foarte importantă.
 
-[ND] A
+A
 
-[ND] a existat un val de sancțiuni împotriva mașinăriei de război rusească. 18 pachete de sancțiuni au fost efecte cu impact real sau Rusia reușește să le evite prin comportament economic, prin parteneriate economice cu entități economice chiar locale.
+a existat un val de sancțiuni împotriva mașinăriei de război rusească. 18 pachete de sancțiuni au fost efecte cu impact real sau Rusia reușește să le evite prin comportament economic, prin parteneriate economice cu entități economice chiar locale.
 
-[ND] Analiza noastră economică este foarte clară.
+Analiza noastră economică este foarte clară.
 
 Sancțiunile afectează în mod sever economia.
 

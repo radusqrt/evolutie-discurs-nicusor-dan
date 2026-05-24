@@ -1,11 +1,8 @@
 ---
 data: 2026-05-12
-metoda: heuristic diarization (format=markers, 5 ND segments, 3 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=OirD5bEJMpA
 sursa_aprecieri: 5
 sursa_canal: B1
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1778576065
 sursa_video_id: OirD5bEJMpA
 sursa_vizionari: 286
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Ungureanu Hotne: Domnule președinte, ați spus mai devreme că România își continuă direcția pro europeană.
+Ungureanu Hotne: Domnule președinte, ați spus mai devreme că România își continuă direcția pro europeană.
 
 Dumneavoastră ați ales însă să criticați Europa de Ziua Europei.
 
@@ -33,7 +30,7 @@ Dumneavoastră ați ales însă să criticați Europa de Ziua Europei.
 
 Vă rugăm, nu ne puteți da câteva exemple unde considerați dumneavoastră că Uniunea Europeană a acționat ideologic?
 
-[ND] Da.
+Da.
 
 Înainte de asta, pentru că mi ați pus întrebarea am spus asta și în sală.
 
@@ -79,21 +76,21 @@ Bun.
 
 Acum, ca să vă răspund la punctual la întrebare, eu cred că abordarea pe mediu a fost mai mult ideologică decât pragmatică.
 
-[JURNALIST] Vă referiți la energia nucleară?
+Vă referiți la energia nucleară?
 
-[ND] Nu, mă refer la, de exemplu, la politicii din nou.
+Nu, mă refer la, de exemplu, la politicii din nou.
 
 Asta nu e ceva nou ce spun acum. la politica cu privire la gaze cu efect de seră a fost mult prea agresivă și asta am spus o și în interiorul Uniunii acel mecanism ITS pe care după negocieri faza a doua a mecanismului ETS am reușit s o amânăm cu un an și am spus o am spus o și dumneavoastră.
 
-[JURNALIST] E o dezbatere de care avem nevoie așa cum spuneți și dumneavoastră.
+E o dezbatere de care avem nevoie așa cum spuneți și dumneavoastră.
 
 Insist cu o ultimă întrebare.
 
 Ne mai puteți da un exemplu de acțiune ideologică criticabilă?
 
-[ND] Putem să rămânem aici la chestiunea de mediu.
+Putem să rămânem aici la chestiunea de mediu.
 
-[JURNALIST] Mulțumim.
+Mulțumim.
 
 Ziua.
 
@@ -109,7 +106,7 @@ Ce le puteți răspunde oamenilor? acestora.
 
 Mulțumesc.
 
-[ND] Ce v am spus deja, ce v am spus deja, România are o are de mult timp o politică externă în care vorbește de Europa, de Statele Unite și de NATO și fiecare din aceste pe fiecare din aceste paliere România este consecventă.
+Ce v am spus deja, ce v am spus deja, România are o are de mult timp o politică externă în care vorbește de Europa, de Statele Unite și de NATO și fiecare din aceste pe fiecare din aceste paliere România este consecventă.
 
 Iar legat de ăă discursul de la 9 mai, de discursul din 9 mai, ăă n a fost nimic nou pe care eu să l fi spus sau care pe care liderii europeni să l fi spus deja.
 

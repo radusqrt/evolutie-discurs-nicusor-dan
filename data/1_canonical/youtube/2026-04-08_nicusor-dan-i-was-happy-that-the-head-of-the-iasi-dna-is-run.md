@@ -1,11 +1,8 @@
 ---
 data: 2026-04-08
-metoda: heuristic diarization (format=markers, 2 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=GUsQASSmJvA
 sursa_aprecieri: 13
 sursa_canal: Antena 3 CNN
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1775669206
 sursa_video_id: GUsQASSmJvA
 sursa_vizionari: 2179
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Am așteptarea de la cei trei procurori șefi numiți azi în primul rând să comunice cu procurorii din subordine și în al doilea rând să comunice în spațiul public ceea ce din păcate predecesorilor n au făcut toate deficiențele cu care munca de procuror activitatea parchetelor deficiențe pe care le întâmpină procurorii în activitatea lorislativ, colaborare cu poliția, lipsă de echipamente, unde e cazul, dacă vorbim în mod special de Parchetul General, blocajul pe secția specială de anchetare a magistraților și am un mesaj pentru corpul procurorilor pentru că este să fii procuror în meserie de vocație.
+Am așteptarea de la cei trei procurori șefi numiți azi în primul rând să comunice cu procurorii din subordine și în al doilea rând să comunice în spațiul public ceea ce din păcate predecesorilor n au făcut toate deficiențele cu care munca de procuror activitatea parchetelor deficiențe pe care le întâmpină procurorii în activitatea lorislativ, colaborare cu poliția, lipsă de echipamente, unde e cazul, dacă vorbim în mod special de Parchetul General, blocajul pe secția specială de anchetare a magistraților și am un mesaj pentru corpul procurorilor pentru că este să fii procuror în meserie de vocație.
 
 Da, vrei să te faci procuror pentru că vrei să te elimini infracționalitatea, vrei să te lupți cu infracționalitatea care afectează viața semenilor tăi.
 
@@ -125,9 +122,9 @@ Am citit că are 1 milion de euro în cont.
 
 Nu i 1 milion, sunt 10000 de €.
 
-[JURNALIST] [sforăit]
+[sforăit]
 
-[ND] Am citit că a ascuns probe în dosarul episcopului de la Huș și că nu a sesizat parchetul pentru agresiuni sexuale asupra minorilor. nu a ascuns probe ci le a trimis la judecător, cum trimite orice procuror cercetarea sa penală când trimite un caz în judecată și nu a sesizat parchetul pentru că n au fost agresiuni și nu au fost minori în probele care au ajuns la domnia sa.
+Am citit că a ascuns probe în dosarul episcopului de la Huș și că nu a sesizat parchetul pentru agresiuni sexuale asupra minorilor. nu a ascuns probe ci le a trimis la judecător, cum trimite orice procuror cercetarea sa penală când trimite un caz în judecată și nu a sesizat parchetul pentru că n au fost agresiuni și nu au fost minori în probele care au ajuns la domnia sa.
 
 E vreau să mă opresc aici și să fac o scurtă discuție despre cine apără reputația unui procuror.
 

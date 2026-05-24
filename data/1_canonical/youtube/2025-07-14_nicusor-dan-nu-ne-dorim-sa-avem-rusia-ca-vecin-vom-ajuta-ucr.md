@@ -1,11 +1,8 @@
 ---
 data: 2025-07-14
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=O00D3CuQoms
 sursa_aprecieri: 5
 sursa_canal: Antena 3 CNN
@@ -20,15 +17,15 @@ sursa_upload_timestamp: 1752496881
 sursa_video_id: O00D3CuQoms
 sursa_vizionari: 1073
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] [Muzică] Nimeni nu și dorește să aibă Rusia ca vecină, spune Nicușor Dan.
+[Muzică] Nimeni nu și dorește să aibă Rusia ca vecină, spune Nicușor Dan.
 
 Președintele a anunțat că țara noastră va continua să ajute Ucraina în războiul împotriva Rusiei.
 
-[ND] România sprijină inclusiv ă cu echipament Ucraina, știți bine, parte din informația cea care este care este publică și așa cum am spus de mai multe ori o face pentru că este în propriul interes de securitate.
+România sprijină inclusiv ă cu echipament Ucraina, știți bine, parte din informația cea care este care este publică și așa cum am spus de mai multe ori o face pentru că este în propriul interes de securitate.
 
 Da.
 

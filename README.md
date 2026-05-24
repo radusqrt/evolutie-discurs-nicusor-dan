@@ -52,7 +52,11 @@ flowchart TB
 
     DIARIZE --> DIA["🏷️ <b>data/2_diarized/</b><br/>1,110 docs etichetate<br/>──────<br/>725 monolog implicit (FB + ND-only)<br/>337 LLM-diarize (multi-voce)<br/>41 heuristic v3 (declarații scurte)<br/>2 manual Claude (joint + intros tricky)<br/>5 pass-through (manual curated etc.)"]
 
-    DIA --> AN["📊 ANALIZĂ<br/>(Pasul 1: wordclouds<br/>Pasul 2: TF-IDF + bigrame + temporal)"]
+    DIA --> PROJECT["🎯 <b>PROJECT</b><br/>scripts/05_project_nd_only.py<br/>──────<br/>Materializează default ND-only:<br/>păstrează doar liniile [ND]<br/>(alte projections: runtime în analyze)"]
+
+    PROJECT --> ND["🎙️ <b>data/3_nd_only/</b><br/>1,055 docs (55 empty drop)<br/>──────<br/>729 monolog (copy as-is)<br/>326 projected (10,568 ND segs păstrate, 16,515 dropped)<br/>55 fișiere goale (pure anchor news clips fără voce ND)"]
+
+    ND --> AN["📊 ANALIZĂ<br/>(Pasul 1: wordclouds<br/>Pasul 2: TF-IDF + bigrame + temporal)<br/>──────<br/>Clean (lemmatize+stopwords) și<br/>alte projections custom = runtime"]
 
     style SRC fill:#e1f5ff,stroke:#0288d1
     style YT fill:#fff,stroke:#0288d1
@@ -63,6 +67,8 @@ flowchart TB
     style CAN fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
     style DIARIZE fill:#fff8e1,stroke:#f9a825,stroke-width:3px
     style DIA fill:#e0f2f1,stroke:#00695c,stroke-width:3px
+    style PROJECT fill:#fff8e1,stroke:#f9a825,stroke-width:3px
+    style ND fill:#e0f2f1,stroke:#00695c,stroke-width:3px
     style AN fill:#fce4ec,stroke:#c2185b
     style REP fill:#fafafa,stroke:#9e9e9e,stroke-dasharray: 5 5
 ```

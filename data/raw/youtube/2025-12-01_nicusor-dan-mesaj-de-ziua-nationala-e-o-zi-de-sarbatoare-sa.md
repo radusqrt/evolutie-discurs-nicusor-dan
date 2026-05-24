@@ -1,11 +1,8 @@
 ---
 data: 2025-12-01
-metoda: heuristic diarization (format=markers, 7 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=l4UwzUbV-OU
 sursa_aprecieri: 29
 sursa_canal: Euronews Romania
@@ -23,17 +20,17 @@ sursa_upload_timestamp: 1764592264
 sursa_video_id: l4UwzUbV-OU
 sursa_vizionari: 1806
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Cât de important este pentru țara noastră că șeful american a trimis acest semnal?
+Cât de important este pentru țara noastră că șeful american a trimis acest semnal?
 
-[ND] Bun, așa cum am spus de mai multe ori, relația cu Statele Unite este o relație trainică, consolidată pe multe paliere și e un gest firesc.
+Bun, așa cum am spus de mai multe ori, relația cu Statele Unite este o relație trainică, consolidată pe multe paliere și e un gest firesc.
 
-[JURNALIST] Domnule președinte, este faptul că ziua națională ne a prins fără un ministru al apărării într un context destul de tensionat cu război la graniță.
+Domnule președinte, este faptul că ziua națională ne a prins fără un ministru al apărării într un context destul de tensionat cu război la graniță.
 
-[ND] Cum să nu?
+Cum să nu?
 
 Domnul Miruță este ministru interimarți de haideți să nu stricăm sărbătoarea națională.
 
@@ -41,15 +38,15 @@ Domnule președinte, ați făcut fotografii peste o oră.
 
 Ce v au spus?
 
-[ND] Ă cei mai mulți mi au urat la mulți ani.
+Ă cei mai mulți mi au urat la mulți ani.
 
 Unii mi au transmis să am grijă de țara asta și în special de copiii.
 
 Asta e important.
 
-[ND] Veți avea un cuvânt de spus în ceea ce privește desemnarea viitorului ministru al apărării?
+Veți avea un cuvânt de spus în ceea ce privește desemnarea viitorului ministru al apărării?
 
-[ND] Nu.
+Nu.
 
 Haideți, e o zi de sărbătoare, să nu facem politică.
 
@@ -57,7 +54,7 @@ La mulți ani! președinte Iohannis a fost invitat la recepția de seară toți 
 
 Da.
 
-[ND] Domnul a fost prezent la paradă jos.
+Domnul a fost prezent la paradă jos.
 
 Vă pup.
 

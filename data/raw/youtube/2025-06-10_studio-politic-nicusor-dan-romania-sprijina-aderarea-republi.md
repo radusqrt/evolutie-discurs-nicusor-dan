@@ -1,11 +1,8 @@
 ---
 data: 2025-06-10
-metoda: heuristic diarization (format=intros, 1 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=kAXb95ER9PU
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1749562167
 sursa_video_id: kAXb95ER9PU
 sursa_vizionari: 5607
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] [Muzică] Bună ziua, doamnelor și domnilor.
+[Muzică] Bună ziua, doamnelor și domnilor.
 
 Sunt Andreea Bratu.
 
@@ -538,7 +535,7 @@ Invit la microfon colegii de la Jurnal TV.
 
 Bună ziua, Călin Jucovski, Jurnal TV.
 
-[JURNALIST] Domnule președinte Nicușor Dan, la vestirea din 26 mai ați spus că vămile și Autoritatea Națională pentru Cetățenie sunt unele dintre prioritățile dumneavoastră pentru relația cu Republica Moldova.
+Domnule președinte Nicușor Dan, la vestirea din 26 mai ați spus că vămile și Autoritatea Națională pentru Cetățenie sunt unele dintre prioritățile dumneavoastră pentru relația cu Republica Moldova.
 
 Am vrea să deschideți niște paranteze și să ne spuneți mai exact care sunt angajamentele dumneavoastră în acest sens și ce mai concret ați urmat să întreprindeți pentru a reduce cozile la vamă și pentru debirocratizarea obținerii cetățeniei române.
 

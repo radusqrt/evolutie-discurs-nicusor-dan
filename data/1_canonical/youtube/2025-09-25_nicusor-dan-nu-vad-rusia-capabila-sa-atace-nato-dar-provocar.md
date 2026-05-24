@@ -1,11 +1,8 @@
 ---
 data: 2025-09-25
-metoda: heuristic diarization (format=markers, 4 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=d201qmU93KI
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -18,19 +15,19 @@ sursa_upload_timestamp: 1758827313
 sursa_video_id: d201qmU93KI
 sursa_vizionari: 53294
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] La momentul ăsta nu văd Rusia capabilă să atace NATO,
+La momentul ăsta nu văd Rusia capabilă să atace NATO,
 
-[ND] dar provocările vor continua.
+dar provocările vor continua.
 
-[ND] Dar provocările le le vor continua, așteptarea mea, tocmai pentru a încercarea lor de a destabiliza o încredere.
+Dar provocările le le vor continua, așteptarea mea, tocmai pentru a încercarea lor de a destabiliza o încredere.
 
 Prima întrebare este dacă sunteți de acord că distrugând drone, avioane rusești care intră în spațiul aerian NATO, ne aflăm la limita conflictului.
 
-[ND] Sigur că în momentul în care tu trimiți drone sau chiar cum a fost la Estonia, avioane pe o un teritoriu străin, evident că riști un incident care să care poate să degenereze.
+Sigur că în momentul în care tu trimiți drone sau chiar cum a fost la Estonia, avioane pe o un teritoriu străin, evident că riști un incident care să care poate să degenereze.
 
 Cum apreciați riscul ca aceste situații să escaladeze într un conflict militar direct?
 

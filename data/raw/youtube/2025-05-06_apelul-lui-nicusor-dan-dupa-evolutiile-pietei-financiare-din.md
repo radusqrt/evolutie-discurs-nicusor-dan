@@ -1,11 +1,8 @@
 ---
 data: 2025-05-06
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=uXSZSY9hGEM
 sursa_aprecieri: 6
 sursa_canal: B1
@@ -19,11 +16,11 @@ sursa_upload_timestamp: 1746547026
 sursa_video_id: uXSZSY9hGEM
 sursa_vizionari: 354
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Față de evoluțiile pieței financiare de ieri și de azi, vreau să trimit, transmit un mesaj de calm și de optimism, pentru că România are o economie privată competitivă.
+Față de evoluțiile pieței financiare de ieri și de azi, vreau să trimit, transmit un mesaj de calm și de optimism, pentru că România are o economie privată competitivă.
 
 Vă aduc aminte că România a dublat produsul intern în ultimii 10 ani pentru că Banca Națională are o rezervă valutară de 60 de miliarde de euro care poate să resoarbă orice fel de atac asupra leului.
 

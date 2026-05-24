@@ -1,11 +1,8 @@
 ---
 data: 2025-09-03
-metoda: heuristic diarization (format=markers, 4 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=Bg0eEhLIyXw
 sursa_aprecieri: 10
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1756907460
 sursa_video_id: Bg0eEhLIyXw
 sursa_vizionari: 878
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Mulțumesc.
+Mulțumesc.
 
 Coaliția de guvernare funcționează bine, spune Nicuan, după negocierile care au avut locier la Palatul Cotroceni cu cei patru lideri de partide.
 
@@ -32,11 +29,11 @@ Președintele a precizat însă și faptul că actuala coaliție va merge mai de
 
 Haideți să l ascultăm pe Nicușor,
 
-[ND] ținând cont că sunt patru partide și plus un grup parlamentar, eu cred că coaliția asta funcționează bine în momentul ăsta.
+ținând cont că sunt patru partide și plus un grup parlamentar, eu cred că coaliția asta funcționează bine în momentul ăsta.
 
 Spus domnul Ilie Bolojan dacă a luat în serios acea opțiune de a da demisia din guvernul României.
 
-[ND] Sunt lucruri pe care le am discutat acolo.
+Sunt lucruri pe care le am discutat acolo.
 
 Ce pot eu să vă spun în momentul ăsta este că coaliția funcționează și merge înainte.
 
@@ -44,4 +41,4 @@ Coaliția funcționează și merge înainte.
 
 Va rezista
 
-[ND] până când?
+până când?

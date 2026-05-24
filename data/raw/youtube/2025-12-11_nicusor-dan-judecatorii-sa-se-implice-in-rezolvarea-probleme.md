@@ -1,11 +1,8 @@
 ---
 data: 2025-12-11
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=owH09JMuwaI
 sursa_aprecieri: 163
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1765452658
 sursa_video_id: owH09JMuwaI
 sursa_vizionari: 38429
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Și ce a spus președintele Nicușor Dan, după ce a anunțat că a văzut tot materialul de presă și spune așa: "Dar soluția la problemele ridicate este tot în interiorul sistemului de justiție.
+Și ce a spus președintele Nicușor Dan, după ce a anunțat că a văzut tot materialul de presă și spune așa: "Dar soluția la problemele ridicate este tot în interiorul sistemului de justiție.
 
 Cazurile prezentate trebuie investigate și investigată mai ales recurența acestor cazuri, iar persoanele vinovate trebuie pedepsite tot de sistemul de justiție și pe bază de probe.
 

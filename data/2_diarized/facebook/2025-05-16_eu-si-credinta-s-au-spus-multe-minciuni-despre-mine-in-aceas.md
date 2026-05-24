@@ -1,0 +1,21 @@
+---
+data: 2025-05-16
+metoda: monolog implicit (tip=facebook-post)
+nota: Postare Facebook publică, text plain (fără imagini sau reacții individuale).
+sursa: https://www.facebook.com/NicusorDan.ro/videos/1031576001909463/
+sursa_aprecieri: 82483
+sursa_canal: Facebook (NicusorDan.ro)
+sursa_comentarii: 4987
+sursa_distribuiri: 13605
+sursa_post_id: '1226684755474603'
+sursa_titlu: ✅Eu și credința  S-au spus multe minciuni despre mine în această campanie.
+  Credi
+tip: facebook-post
+verificat: true
+vorbitor: nicusor_dan
+---
+
+✅Eu și credința 
+S-au spus multe minciuni despre mine în această campanie. Credința a devenit, din păcate, un instrument politic. Lumea pare să fi uitat că ea nu se strigă și nu se arată cu degetul.
+
+#NicusorDan #alegeriromania #respect #campanie #religie #fyp

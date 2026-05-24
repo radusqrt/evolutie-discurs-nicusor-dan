@@ -1,11 +1,8 @@
 ---
 data: 2026-02-19
-metoda: heuristic diarization (format=markers, 14 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=nkaJ4pR9Jk8
 sursa_aprecieri: 277
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1771528233
 sursa_video_id: nkaJ4pR9Jk8
 sursa_vizionari: 16413
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] România a ajutat deja în plan umanitar și s a angajat s o facă mai mult.
+România a ajutat deja în plan umanitar și s a angajat s o facă mai mult.
 
 Am, așa cum am spus, noi deja am împreună cu Uniunea Europeană, cu Israel și cu ăă Organizația Internaționale a Sănătății, am scos copii din Gaza, bolnavi sau răniți, pe care i am tratat fie în spitale din România, fie au fost transferați mai departe în spitale europene.
 
@@ -49,7 +46,7 @@ Iar ca rezultat general al întâlnirii mi se pare remarcabil că multe state î
 
 Deci suntem în situația unei, să i spunem așa, democrației, unei diplomații economice în care state contribuie pentru stabilizarea unei părți de lume destul de apropiată geografic de România și asta nu poate decât să ne bucure.
 
-[ND] Bună sea, domnule președinte.
+Bună sea, domnule președinte.
 
 Robert Lupițu, Calea Europeană.
 
@@ -57,7 +54,7 @@ La finalul participării la Consiliul pentru Pace ați avut o întâlnire în fo
 
 Dacă ne puteți spune ce ați discutat și ce urmează pentru parteneriatul cu SUA.
 
-[ND] Bun.
+Bun.
 
 În tipul acesta de reuniuni sunt mai mult chestiuni de politețe între diverși participanți.
 
@@ -91,7 +88,7 @@ Da, faptul că n am mers anul ăsta nici la Davos, nici la München nu înseamn�
 
 De ce am venit aici? și am venit pentru că este o cum am spus mai devreme este o inițiativă a partenerului nostru strategic și este o chestiune de securitate în condițiile în care în lumea actuală toate lucrurile sunt legate între ele. participăm la coaliția de voință, de exemplu, pentru că ne interesează securitatea Europei și e important să fim acolo unde se iau decizii.
 
-[ND] Bună ziua, Mădălin Puiu, România TV.
+Bună ziua, Mădălin Puiu, România TV.
 
 În urma acestei decizii a dumneavoastră de a veni aici în Statele Unite ale Americii, în spațiul public, foarte mulți oameni v au criticat, au spus că nu trebuia să faceți această mișcare.
 
@@ -99,7 +96,7 @@ De ce ați venit până la urmă și cum le răspundeți?
 
 Până
 
-[ND] vă am explicat de ce am venit.
+vă am explicat de ce am venit.
 
 Pentru politica noastră externă e important să fim parteneri în diferite formate și mai ales dacă vorbim strict de securitate să consolidăm, să aprofundăm parteneriatul cu Statele Unite.
 
@@ -115,17 +112,17 @@ Da, avem și într o parte și în alta.
 
 Încercăm să fim partenerii corecți în toate parteneriatele pe care le avem, iar aici Comisia Europeană însăși a fost reprezentată.
 
-[ND] Și dacă mi permiteți o singură precizare.
+Și dacă mi permiteți o singură precizare.
 
 Astăzi președintele Trump v a greșit titulatura, v a spus premierul României, Nicușor Dan.
 
 Era până lă.
 
-[ND] Nu e timpul trecut.
+Nu e timpul trecut.
 
-[ND] Cum comentați acest
+Cum comentați acest
 
-[ND] Nu e timpul trecut.
+Nu e timpul trecut.
 
 Se mai întâmplă.
 
@@ -133,7 +130,7 @@ Da.
 
 Mulțumesc.
 
-[ND] Camelia Urechea, Antena 3, CNN.
+Camelia Urechea, Antena 3, CNN.
 
 Voiam să vă întreb, în februarie 2025, JD V a criticat România.
 
@@ -143,13 +140,13 @@ Cum credeți de ce s a schimbat această atitudine din partea României vizavi d
 
 Ce Ce a dus la această schimbare? toate toate eforturile pe toate palierele pe care le am făcut în această relație, cum am spus mai devreme, ambasada, miniștrii, discuțiile tehnice care au loc colaborările pe chiar anterioare pe diferite paliere, toate lucrurile astea completează un tablou al unei relații care este extrem de matură între cu interese reciproce, bineînțeles, între România și Statele Unite.
 
-[ND] Lucian Mândruță, Dig FM și Digi24.
+Lucian Mândruță, Dig FM și Digi24.
 
 În primul rând, cu ce alți lideri din administrația americană v ați întâlnit astăzi și cu cine ați convenit eventual întâlniri bilaterale pe lângă Donald Trump?
 
 Și doi, dacă chestiunea vizelor a fost în vreun fel sau ar putea fi într un fel abordată.
 
-[ND] Nu, așa cum am răspuns, am vorbit un minut cu domnul Witkov, am vorbit cu domnul Kuchner, am vorbit cu Mark Rubio, am vorbit cu multă lume, că în jurul acestui eveniment au fost momente în care ăsta a fost settingul, dar chestiunile serioase se fac la nivel diplomatic.
+Nu, așa cum am răspuns, am vorbit un minut cu domnul Witkov, am vorbit cu domnul Kuchner, am vorbit cu Mark Rubio, am vorbit cu multă lume, că în jurul acestui eveniment au fost momente în care ăsta a fost settingul, dar chestiunile serioase se fac la nivel diplomatic.
 
 Deci asta a fost numai o chestiune de politețe.
 
@@ -159,7 +156,7 @@ Iertați mă de întrerupere.
 
 Există posibile discuții mai departe care au fost convenite aici
 
-[ND] în la această Deci în acest moment, dincolo de personalul ambasadei pe care î vedeți în acest chiar acest moment sunt cel puțin cinci sau șase oficiali români care discută cu oficialii americani pe diferite paliere. și săptămâna viitoare vor fi alții.
+în la această Deci în acest moment, dincolo de personalul ambasadei pe care î vedeți în acest chiar acest moment sunt cel puțin cinci sau șase oficiali români care discută cu oficialii americani pe diferite paliere. și săptămâna viitoare vor fi alții.
 
 Săptămâna viitoare vor fi alții.
 
@@ -167,6 +164,6 @@ Deci ăsta este modul în care discutăm lucrurile.
 
 Bineînțeles că prezența președintelui a fost un gestolic pentru această relație, dar nu în interacțiunea președintelui se reglează lucrurile astea tehnice.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
 B

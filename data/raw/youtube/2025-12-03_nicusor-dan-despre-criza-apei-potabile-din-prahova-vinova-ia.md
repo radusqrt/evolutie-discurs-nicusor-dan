@@ -1,11 +1,8 @@
 ---
 data: 2025-12-03
-metoda: heuristic diarization (format=markers, 28 ND segments, 3 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=NVopAQuZclo
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,19 +21,19 @@ sursa_upload_timestamp: 1764763959
 sursa_video_id: NVopAQuZclo
 sursa_vizionari: 3090
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Exemplu,
+Exemplu,
 
-[ND] ați discutat cu premierul despre situația?
+ați discutat cu premierul despre situația?
 
-[ND] Am discutat mai des cu ministrul energiei pentru că el este în pe partea de energie în momentul de față lucrurile sunt acoperite.
+Am discutat mai des cu ministrul energiei pentru că el este în pe partea de energie în momentul de față lucrurile sunt acoperite.
 
 Ce înțel era oprite centrala de la
 
-[ND] Nu, dar Transelectrica suplinește.
+Nu, dar Transelectrica suplinește.
 
 Deci s a organizat din importuri și din ceea ce producem.
 
@@ -46,9 +43,9 @@ Din informațiile pe care le le aveți în momentul de față, considerați că 
 
 Au început deja colegii de coaliție să și ceară unul altuia demisia mediului pentru criza apei din Prahova?
 
-[ND] Se cere deja demisia ministrului mediului contradictor cine se face vinovat această criză din
+Se cere deja demisia ministrului mediului contradictor cine se face vinovat această criză din
 
-[ND] Da, da, da, da.
+Da, da, da, da.
 
 În primul rând că să nu uităm că suntem în ultima săptămână de campanie electorală, deci să citim aceste declarații în această cheie.
 
@@ -58,31 +55,31 @@ Au început deja colegii de coaliție să și ceară unul altuia demisia mediulu
 
 În opinia mea, vinovăția este la apele Române.
 
-[ND] Apropo de campanie, domnul președinte, spuneți mi cum v a păcălit domnul Cătălin Drulă să apăreți în acel clip electoral ca să și încălcați pentru a doua oră constituția.
+Apropo de campanie, domnul președinte, spuneți mi cum v a păcălit domnul Cătălin Drulă să apăreți în acel clip electoral ca să și încălcați pentru a doua oră constituția.
 
 Susținând un candidat la primărie.
 
-[ND] Bun. dumneavoastră faceți niște afirmații.
+Bun. dumneavoastră faceți niște afirmații.
 
 Dacă aveți întrebări vă răspund cu plăcereșmanul bucureștenilor, așa cum susține Sorin Brindeanu.
 
 N am înțeles
 
-[ND] dacă domnul Cătălin Drulă este dușmanul bucureștenilor, așa cum susține domnul,
+dacă domnul Cătălin Drulă este dușmanul bucureștenilor, așa cum susține domnul,
 
-[ND] așa cum v am spus, suntem în ultima săptămână de campanie și în această săptămână se fac declarații politice.
+așa cum v am spus, suntem în ultima săptămână de campanie și în această săptămână se fac declarații politice.
 
 Ce calitate a fost invitat române sau doamna ministru?
 
 Cine să răspundă dacă spuneați că
 
-[ND] ce măsuri ar trebui luate la apele române?
+ce măsuri ar trebui luate la apele române?
 
 Înțeleg înțeleg că este un control pentru care vom avea o primă evaluare vineri în care se vor va fi stabilită situația de fapt și în urma acestei în urma acestei evaluări o să tragem cu toții niște concluzii.
 
-[ND] Foarte clar cum s a ajuns într o asemenea situație ca 100000 de oameni să nu aibă apă după ce ați discutat și cu ș
+Foarte clar cum s a ajuns într o asemenea situație ca 100000 de oameni să nu aibă apă după ce ați discutat și cu ș
 
-[ND] este Eu spun asta de multă vreme.
+este Eu spun asta de multă vreme.
 
 Da.
 
@@ -100,9 +97,9 @@ Trebuie evitate astfel de situații.
 
 Cum vedeți o comunicare mai bună între instituții astfel încât să nu se mai ajungă în astfel de situații?
 
-[ND] Trebuie ca în orice în orice astfel de documentație să fie prevăzute toate scenariile, mai ales când vorbim de apă pentru oameni.
+Trebuie ca în orice în orice astfel de documentație să fie prevăzute toate scenariile, mai ales când vorbim de apă pentru oameni.
 
-[ND] E vorba de incompetență.
+E vorba de incompetență.
 
 Am văzut că sunt amante prin conducerea acelor instituții puse pe criterii politice.
 
@@ -110,17 +107,17 @@ Este ăă eu am spus de mai multe ori despre calitatea oamenilor care lucrează 
 
 Ăă și este va fi un lung proces până când o să ajungem să avem în instituțiile statului angajări pe și mai ales la poziții de conducere, că aici este cea
 
-[JURNALIST] Domnule președinte, domnule președinte, în timp în timp între timp ministrul Între timp ministrul apărării a demisionat.
+Domnule președinte, domnule președinte, în timp în timp între timp ministrul Între timp ministrul apărării a demisionat.
 
 Aș vrea să vă întreb dacă dumneavoastră i ați cerut acest lucru în urma scandalului sau a fost doar o decizie pe care a luat o pe cont propriu și de asemenea dacă discutați cu USR pentru numirea unui nou ministru.
 
-[ND] Da, pentru moment decizia este la USR conform protocolului de coaliție.
+Da, pentru moment decizia este la USR conform protocolului de coaliție.
 
 În momentul ei m au consultat cu privire la numirile de miniștri înainte și mă aștept s o facă și acum ați ați vorbit cu domnul Moșteanu înainte să ia acea decizie și ce i ați transmis?
 
 Am văvit cu domnul Moșteanu și i am spus că decizia este la domnia sa o secundă, stați o secundă. să nu existe nimic.
 
-[ND] Da. și ca observație generală, ca observație generală, intensitatea cu care în spațiul public se blamează diferite fapte nu este niciodată proporțională cu faptele.
+Da. și ca observație generală, ca observație generală, intensitatea cu care în spațiul public se blamează diferite fapte nu este niciodată proporțională cu faptele.
 
 Ful că nu există ministru la apărare.
 
@@ -136,15 +133,15 @@ Durează 10 zile, 15 zile, vine un alt ministru și preia.
 
 Credeți că
 
-[JURNALIST] Domnule președinte, există o analiză Bloomberg care arată că în cazul unei invazi a Federației Ruse, România ar trebui să reziste singură câteva săptămâni.
+Domnule președinte, există o analiză Bloomberg care arată că în cazul unei invazi a Federației Ruse, România ar trebui să reziste singură câteva săptămâni.
 
 Aș vrea să vă întreb dacă există astfel de scenarii la nivelul CSAT și dacă România este pregătită pentru astfel de situații.
 
-[ND] Evident că există. chiar în legea apărării sunt este prevăzută obligativitatea ca Ministerul Apărării, statul Major să vină cu toate scenariile posibile și ele vin și sunt aprobate în CSAT.
+Evident că există. chiar în legea apărării sunt este prevăzută obligativitatea ca Ministerul Apărării, statul Major să vină cu toate scenariile posibile și ele vin și sunt aprobate în CSAT.
 
 Deci noi avem toate scenariile la zi, iar aceste scenarii sunt coordonate cu NATO tot timpul.
 
-[ND] Spuneați la recepție, domnule președinte, că România este o țară coruptă.
+Spuneați la recepție, domnule președinte, că România este o țară coruptă.
 
 Aș vrea să vă întreb cum vedeți în acest context dezvăluirile care au apărut recent despre familia lui Daniel Băluță.
 
@@ -188,7 +185,7 @@ Ne putem aștepta la surprize din partea liberalilor sau al social democraților
 
 Sunt destul de multe nemulțumiri.
 
-[ND] Bun.
+Bun.
 
 Tot ce am văzut, bineînțeles, din nou suntem în politică.
 
@@ -200,17 +197,17 @@ E o normalitate.
 
 Dincolo de asta dincolo de asta, din ce am văzut eu ca fapte această coaliție a funcționat până acum.
 
-[JURNALIST] Domnule președinte, voiam să vă întreb dacă v ați dat acordul pentru a se pentru dacă vă dacă v ați dat acordul pentru a se filma acel videoclip.
+Domnule președinte, voiam să vă întreb dacă v ați dat acordul pentru a se pentru dacă vă dacă v ați dat acordul pentru a se filma acel videoclip.
 
 Ștampanie sau a fost filmat cum spuneați ca poza respectivă a fost folosită doar că era în spațiul public
 
-[ND] ați fost informat că va fi filmat acest
+ați fost informat că va fi filmat acest
 
-[ND] în ziua de 1 decembrie am fost am stat vreo trei ore în
+în ziua de 1 decembrie am fost am stat vreo trei ore în
 
-[ND] la poze
+la poze
 
-[ND] pe bulevard acolo cu oamenii.
+pe bulevard acolo cu oamenii.
 
 După aceea am stat vreo trei ore la recepție.
 
@@ -218,17 +215,17 @@ Fiecare din momentele astea oricine a avut un telefon a putut să facă orice cu
 
 Dar pare mai degrabă pare mai degrabă mai degrabă regizat acel moment electorală dacă știați acest moment candidații de dar sunt din ziua respectivă sunt sute de materiale care circulă pe internet că este filmat știați că este filmat special pentru așa ceva sau pur și simplu a fost filmat
 
-[ND] ca un moment de întâlnit?
+ca un moment de întâlnit?
 
-[ND] Am fost la o recepție și mi am asumat faptul că sunt în spațiul public. mai invitat și alți candidați la primărie în afară de Cătălin Drulă.
+Am fost la o recepție și mi am asumat faptul că sunt în spațiul public. mai invitat și alți candidați la primărie în afară de Cătălin Drulă.
 
-[ND] A fost o ăă listă, în fine, au fost mai multe liste care s au combinat într o listă.
+A fost o ăă listă, în fine, au fost mai multe liste care s au combinat într o listă.
 
 În ceea ce privește oficialitățile au fost niște criterii obiective.
 
 Domnul Drule e vicepreședinte al Camerei
 
-[ND] declarații ale președintelui Nicușor Dan.
+declarații ale președintelui Nicușor Dan.
 
 Cu mai multe detalii de la fix Andreea Bratu când începe studiul politic.
 

@@ -1,11 +1,8 @@
 ---
 data: 2025-12-15
-metoda: heuristic diarization (format=markers, 46 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=1y6rekenv7I
 sursa_aprecieri: 99
 sursa_canal: B1
@@ -21,15 +18,15 @@ sursa_upload_timestamp: 1765818861
 sursa_video_id: 1y6rekenv7I
 sursa_vizionari: 2660
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Nu rămâne așa.
+Nu rămâne așa.
 
 Nu, nu va rămâne așa.
 
-[ND] Și pe domnul președinte al României, Nicușord.
+Și pe domnul președinte al României, Nicușord.
 
 Acuma, eu m am obișnuit cu această decizie a dânsului de a participa la tot felul de emisiuni.
 
@@ -41,35 +38,35 @@ Zic mamă, la canal D, dar de acolo mai au și alte emisiuni să nu se ducă.
 
 Nu știu, mai e Wau Beast, nu știu, nu se ducă, [râsete] nu mi dau seama până unde poate merge cu această gardă.
 
-[ND] Păi eu când râdeam că se duce la taraf la Ed nu așa, domnule, domnule, nu știu,
+Păi eu când râdeam că se duce la taraf la Ed nu așa, domnule, domnule, nu știu,
 
-[ND] domnule, astea sunt ironi.
+domnule, astea sunt ironi.
 
 S a dus la Canal D la Denis Rify.
 
-[ND] Da. și la Denis Rifai.
+Da. și la Denis Rifai.
 
 Bă, să știi că eu vreau să vă invit să urmăriți această Durează două ore, dar mie mi se pare așa am stat așa un pic și l am urmărit.
 
 Mie mi se pare că e clarificator.
 
-[ND] Guvernarea roșie. [râsete]
+Guvernarea roșie. [râsete]
 
-[ND] Hai, mă, ce i asta?
+Hai, mă, ce i asta?
 
-[ND] Cât de bun a fost asta.
+Cât de bun a fost asta.
 
 Da,
 
-[ND] băi Răzvan, uitați ce se întâmplă.
+băi Răzvan, uitați ce se întâmplă.
 
-[ND] Eu cred că domnul președinte aice a
+Eu cred că domnul președinte aice a
 
-[ND] povestit foarte bine situația.
+povestit foarte bine situația.
 
 E un bu
 
-[ND] Bă, da, dar m a pierdut pe ăla.
+Bă, da, dar m a pierdut pe ăla.
 
 Nu, nu, pe mine m a ținut acolo.
 
@@ -81,51 +78,51 @@ Mie la mine, uite, eu am fac ca Denis fa i am mai dat timp, [râsete] vă mai da
 
 I am mai dat timp domnului președinte pentru că pare că, domnule, începe cât de cât să miște.
 
-[ND] Bă, dar asta e recentă emisiunea asta?
+Bă, dar asta e recentă emisiunea asta?
 
-[ND] Decentă,
+Decentă,
 
-[ND] nu recentă.
+nu recentă.
 
 Nu, nu întrebări absolut.
 
 E recentă.
 
-[ND] Este.
+Este.
 
 Da, e de e Dar cred că a fost înregistrată totuși.
 
 Când a fost înregistrată? are o întrebare.
 
-[ND] Probabil când
+Probabil când
 
-[ND] dar înainte de record
+dar înainte de record
 
-[ND] când n a fost liber Nicolae Guțu, dar vreau să i știu pe Nicolae.
+când n a fost liber Nicolae Guțu, dar vreau să i știu pe Nicolae.
 
-[ND] Ce?
+Ce?
 
-[ND] Nicolae Guțo a fost invitat înainte de Nicușor.
+Nicolae Guțo a fost invitat înainte de Nicușor.
 
 Nu,
 
-[ND] nu cred.
+nu cred.
 
-[ND] Ba da.
+Ba da.
 
-[ND] Da, da.
+Da, da.
 
-[ND] Deci a e întreguță și
+Deci a e întreguță și
 
-[ND] făcut o Am făcut o ușoară documentare ca să înțeleg cam cât de cam în ce sub sol se poate duce președintele Nicușor.
+făcut o Am făcut o ușoară documentare ca să înțeleg cam cât de cam în ce sub sol se poate duce președintele Nicușor.
 
 Dan
 
-[ND] domnule, iartă mă.
+domnule, iartă mă.
 
 Domnule, nu pot să te Deci, invitatul precedent a fost Nicolae
 
-[ND] Guță.
+Guță.
 
 Da, domnule, da, Nicolae Guță, că asta i situația.
 
@@ -133,7 +130,7 @@ Asta i România.
 
 Bă, trebuie să înțeleg.
 
-[ND] Păi, crezi că mai venea, mă, Nicolae Guță, dacă știa că urmează Nicușor?
+Păi, crezi că mai venea, mă, Nicolae Guță, dacă știa că urmează Nicușor?
 
 Dar asta încerc să spun.
 
@@ -141,19 +138,19 @@ Tu lî îmbârligi pe Nicolae Guță, vine îți povestește cu tatuajul ăla lu
 
 Așa și după aia află că i a venit Nicușordan după el.
 
-[ND] Păi ce facem?
+Păi ce facem?
 
-[ND] Păi, Nicolae Guțău ar fi normal acum să solicite ștergerea emisiunii.
+Păi, Nicolae Guțău ar fi normal acum să solicite ștergerea emisiunii.
 
-[ND] Deci de la Nicolae la Nicușor? de la Nicolae.
+Deci de la Nicolae la Nicușor? de la Nicolae.
 
-[ND] Asta vrei să spui? [râsete]
+Asta vrei să spui? [râsete]
 
-[ND] Păi nu știu, mi se pare așa.
+Păi nu știu, mi se pare așa.
 
 Deci aia e emisiune cu Florin Salam, cu Vali Vijelie, cu Nicolae Guță și după aia și Nicușor Dan.
 
-[ND] Și dumneavoastră și oamenii care vă urmăresc într un număr foarte mare.
+Și dumneavoastră și oamenii care vă urmăresc într un număr foarte mare.
 
 Vreau să înțelegeți cu toți vreau să înțelegeți cu toții că asta i țara pe care o locuiți și Nicușor Dan s a uitat la țara asta și a zisbă asta e țara pe care o locuim sau pe care o conduc.
 
@@ -169,15 +166,15 @@ Trebuie să recunoașteți.
 
 Ăștia sunteți nu vă mai Voi românii ăștia sunteți.
 
-[ND] Cum e, mă?
+Cum e, mă?
 
 Dar hai să Uite cum ar fi să l sună pe unul și să zicem facem și noi mâine un telefon.
 
 Da, sigur că Dar pe ăla că pe ăla 18 și un sfert că înainte îl avem pe Zi mi ceva,
 
-[ND] dominiști ce să ce exemplu să mai dai deam domnița PSD ului românesc doamna care dansa pe manele în la un târg auto, ea în București în capitală.
+dominiști ce să ce exemplu să mai dai deam domnița PSD ului românesc doamna care dansa pe manele în la un târg auto, ea în București în capitală.
 
-[ND] Mai există, mă, Fernando de la Carasebeș.
+Mai există, mă, Fernando de la Carasebeș.
 
 Cu mine ați terminat o și a luat și cu mine ați terminat o.
 
@@ -197,21 +194,21 @@ Bă, trebuie să fii în ce situație trebuie să fii?
 
 Adică stau și mă gândesc îl portretizez în mintea mea pe om ce caracteristici ar trebui să aibă un om care să producă o asemenea situație ridicol în
 
-[ND] Auz Nicușor crezi că vine și dacă merge într o emisiune invitat și i spun„Da, n o să fiți doar dumneavoastră, vă dați seama, putem să stăm o oră doar cu dumneavoastră, putem mai vine cineva?
+Auz Nicușor crezi că vine și dacă merge într o emisiune invitat și i spun„Da, n o să fiți doar dumneavoastră, vă dați seama, putem să stăm o oră doar cu dumneavoastră, putem mai vine cineva?
 
 Da, sigur mai aduce și să l aduci așa și să fie Nicușordan, Fernando de la Caran,
 
-[ND] da
+da
 
-[ND] și Roxy Manelista.
+și Roxy Manelista.
 
-[ND] Bă, eu nu sunt Nicușordan. și să i pui așa la masă și să vă rog Nu, domnul Nicușor, vă rog acum domnul Fernando de la Carasebe, vă ascult, știi?
+Bă, eu nu sunt Nicușordan. și să i pui așa la masă și să vă rog Nu, domnul Nicușor, vă rog acum domnul Fernando de la Carasebe, vă ascult, știi?
 
 Și te duci, mă, al doilea invitat după Nicolae Guță, mă,
 
-[ND] înainte să facem această.
+înainte să facem această.
 
-[ND] Bă, dar cine e, dar care crezi în e?
+Bă, dar cine e, dar care crezi în e?
 
 Diana Iancu, doamna consilier prezidențial, Diana Iancu, doamna Geană, doamna Miu, cine crezi tu că îl îl îl toacă mărunt să l nenorocească pe omul ăsta de bun simț?
 
@@ -221,9 +218,9 @@ Am Sunt prea bătrân ca să mă prefac.
 
 Ăă, eu îl respect mult pe Nicușordan și au o părere foarte bună despre el și cred, așa cum am crezut și înainte de rezultatul alegerilor, că are potențialul de a deveni cel mai tare președinte pe care țara asta l a avut
 
-[ND] și l are în continuare
+și l are în continuare
 
-[ND] și are în cred în continuare treaba asta.
+și are în cred în continuare treaba asta.
 
 Dar ideea e că la nivelul său de inteligență, că e cel mai mare creier din politica românească, nu de azi, din '90 încoace, că nu știu, Brătianul ăștia nu i am prins.
 

@@ -1,11 +1,8 @@
 ---
 data: 2025-05-26
-metoda: heuristic diarization (format=intros, 1 ND segments, 5 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=ctM2TjADjvo
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1748255088
 sursa_video_id: ctM2TjADjvo
 sursa_vizionari: 21023
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] că va ieși.
+că va ieși.
 
 Iată, a ieșit Nicușor Dan din plen.
 
@@ -50,7 +47,7 @@ Deci ăsta este asta este o urgență și eu cred sper să rezolvăm chestiunea 
 
 După care, odată ce rezolvăm problema deficitului, e nevoie de, așa cum am spus de mai multe ori, e nevoie de specialiști care să fie în implicați în definirea de strategii sectoriale pentru români.
 
-[JURNALIST] Domnule președinte, a spus însociar ca să intre în acest guvern pentru că au dat semnale că nu doresc să intre în guvern și mai degrabă vor fi în opoziție.
+Domnule președinte, a spus însociar ca să intre în acest guvern pentru că au dat semnale că nu doresc să intre în guvern și mai degrabă vor fi în opoziție.
 
 Cum reușiți să i convingeți?
 
@@ -58,7 +55,7 @@ Așa cum am spus, este în interesul național al României ca în acest moment 
 
 Și eu cred că în fața interesului național un partid nu poate să să spună nu.
 
-[JURNALIST] Domnule președinte, ar trebui să reflectăm la legea Curții Constituționale.
+Domnule președinte, ar trebui să reflectăm la legea Curții Constituționale.
 
 La ce vă refereați?
 
@@ -130,7 +127,7 @@ Problema este de credibilitatea noastră pe piețele financiare și pe în zona 
 
 Problema este rata mare a dobânzii pe care noi o plătim în momentul ăsta și ceea ce noi trebuie să facem să dăm o un plan, cum am spus 2025 2026 care să dea o predictibilită să din care să rezulte și reducerea deficitului și să dea și un plan de stabilitate cheltui de 30 de miliarde de RON în timpul rămas până la finalul anului.
 
-[JURNALIST] Domnule președinte, vorbeați despre tăieri de cheltuieli de 6 miliarde de euro, ar însemna 5 miliarde pe lună până la final de ani.
+Domnule președinte, vorbeați despre tăieri de cheltuieli de 6 miliarde de euro, ar însemna 5 miliarde pe lună până la final de ani.
 
 Da.
 
@@ -148,7 +145,7 @@ Politica externă a României a fost a avut o direcție bună, dar o intensitate
 
 Deci trebuie să păstrăm direcția și să creștem intensitatea.
 
-[JURNALIST] Domnule președinte, două partide au protestat astăzi în plen în timp ce președintele Curții Constituționale citea acea hotărâre de validare, unul dintre partide nici nu a participat la plenul de astăzi.
+Domnule președinte, două partide au protestat astăzi în plen în timp ce președintele Curții Constituționale citea acea hotărâre de validare, unul dintre partide nici nu a participat la plenul de astăzi.
 
 Cum vedeți acest protest al opoziției față de alegerea dumneavoastră?
 
@@ -192,7 +189,7 @@ Nu vreau, nu vreau să nu vreau să, nu vreau să discutăm asta.
 
 Însă dacă noi tot promitem de trei ani Comisiei Europene, eu cred că avem un răgaz de câteva săptămâni acum, având având în vedere această schimbare de direcție pentru a corecta lucrurile.
 
-[JURNALIST] Domnule președinte, este exclus ca scenariu un premier din partea PSD, Sorin Grindean, Olguța Vasilescu.
+Domnule președinte, este exclus ca scenariu un premier din partea PSD, Sorin Grindean, Olguța Vasilescu.
 
 Excludeți varianta unui premier PSD?
 

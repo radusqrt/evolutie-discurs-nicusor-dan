@@ -1,11 +1,8 @@
 ---
 data: 2025-12-17
-metoda: heuristic diarization (format=markers, 9 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=djrIYP0_xzM
 sursa_aprecieri: 79
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1765978359
 sursa_video_id: djrIYP0_xzM
 sursa_vizionari: 5946
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Considerați că se impun demiteri sau demisii după caz?
+Considerați că se impun demiteri sau demisii după caz?
 
 Numele care au fost menționate cel mai des sunt Cătălin Predoiu, Radu Marinescu, Lia Savonea sau domnul Voineag.
 
@@ -35,7 +32,7 @@ Cum vedeți dumneavoastră această situație?
 
 Cine este responsabil?
 
-[ND] Bun, în primul rând că e o chestiune importantă.
+Bun, în primul rând că e o chestiune importantă.
 
 Da.
 
@@ -65,15 +62,15 @@ Mai departe o să vedem vinovății dacă sunt, dacă sunt, mă voi exprima publ
 
 E o chestiune de societate și de respectivele instituții.
 
-[ND] Și vă rog o completare aseară le a spus oamenilor care erau aici în fața ambasadei.
+Și vă rog o completare aseară le a spus oamenilor care erau aici în fața ambasadei.
 
 Se vor întâmpla niște lucruri în justiție.
 
 Fără discuție.
 
-[ND] La ce vă referiți?
+La ce vă referiți?
 
-[ND] Fără discuție.
+Fără discuție.
 
 Exact cum v am spus.
 
@@ -81,11 +78,11 @@ Va fi o analiză temeinică și ăă din această analiză temeinică vor rezult
 
 Da, numai că, cum am spus în opinia mea, problemele cele mai mari sunt la Inspecția Judiciară și la modul de promovare, dar lucrurile astea trebuie dovedite.
 
-[ND] Bună ziua, Mădălin Puiu, România TV.
+Bună ziua, Mădălin Puiu, România TV.
 
 O nouă tensiune în momentul de față în coaliție pe majorarea salariului minim și de asemenea și legat de majorarea locațiilor de la 1 ianuarie 2026. dumneavoastră considerați că ar trebui majorat salariul minim și de asemenea și alocațiile în acest context cu ordonanța trenuleț.
 
-[ND] Da, da.
+Da, da.
 
 Eu sunt rolul președintelui este de mediator, deci n o să mă pronunț pe chestiunile astea.
 
@@ -99,13 +96,13 @@ Deci e o chestiune economică în care, evident, în funcție de orientarea ideo
 
 E o discuție pe care o va tranșa coaliția.
 
-[ND] Bună ziua, Ramona Avramescu, Televiziunea Română.
+Bună ziua, Ramona Avramescu, Televiziunea Română.
 
 Domnule președinte, în privința tensiunilor din coaliție, premierul a declarat recent, chiar azi cred într un interviu, că e nevoie de o resetare în coaliție, altfel lucrurile vor se vor deteriora și nu vor mai funcționa. împărtășiți această opinie și în ce ar putea consta o resetare a coaliției de guvernare și în acest context legat de subiectul cu justiția sunt multe voci doamna judecător Moroșanu, de exemplu spunea că dacă nu se schimbă ceva în privința legilor justiției acum nu se va mai schimba niciodată.
 
 Credeți că e rezonabil la o discuție, o rediscutare a legilor justiției, având în vedere cum funcționează coaliția în acest moment?
 
-[ND] Da, eu cred că atunci când societatea conștientizează o problemă, ea trebuie rezolvată de societate prin organele ei reprezentative care sunt guvernul și parlamentul și de oarecare măsură președinția.
+Da, eu cred că atunci când societatea conștientizează o problemă, ea trebuie rezolvată de societate prin organele ei reprezentative care sunt guvernul și parlamentul și de oarecare măsură președinția.
 
 Fără discuție.
 

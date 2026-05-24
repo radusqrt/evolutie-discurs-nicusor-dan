@@ -1,0 +1,46 @@
+---
+data: 2026-01-24
+metoda: diarize.py v3 (format=intros, 10 ND segs, 0 JURNALIST segs)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
+sursa: https://www.youtube.com/watch?v=H0fT0TQjYPE
+sursa_aprecieri: 1338
+sursa_canal: Euronews Romania
+sursa_canal_filter: Euronews Romania (search ND)
+sursa_descriere: Nicușor Dan a susținut un discurs în fața cetățenilor prezenți la
+  ceremoniile oficiale organizate de Ziua Unirii Principatelor, în Focșani, însă a
+  fost huiduit de o parte a celor aflați în piață.  „La mulți ani, dragi focșăneni
+  care huiduiți autoritățile publice. Este un drept pe care l-ați câștigat, un drept
+  pentru care niște oameni au murit, pentru ca orice cetățean din această țară să
+  aibă dreptul să huiduie o autoritate publică”, a spus acesta printre huidieli și
+  fluierături.  În ciuda reacț
+sursa_durata_secunde: 74
+sursa_titlu: 'Nicușor Dan: „La mulți ani, dragi focșăneni care huiduiți autoritățile
+  publice”'
+sursa_upload_timestamp: 1769256955
+sursa_video_id: H0fT0TQjYPE
+sursa_vizionari: 129382
+tip: video-transcript
+verificat: true
+vorbitor: nicusor_dan
+---
+
+[ND] La mulți ani, dragi focșeni, care huiduiți autoritățile publice.
+
+[ND] Este un drept pe care l ați câștigat.
+
+[ND] Este un drept pentru care niște oameni au murit pentru ca orice cetățean din țara asta să aibă dreptul să huiduie o autoritate publică.
+
+[ND] Însă însă acest drept vine și cu o responsabilitate și responsabilitatea este uitați vă la cine sunt oamenii în care vă puneți speranțele.
+
+[ND] Nu gândiți numai pasul unu, gândiți și pasul doi.
+
+[ND] Aveți o responsabilitate pentru voi.
+
+[ND] Aveți o responsabilitate pentru copiii voștri.
+
+[ND] Aveți o responsabilitate pentru România întreagă.
+
+[ND] La mulți ani, Focșani!
+
+[ND] La mulți ani, România! [aplauze]

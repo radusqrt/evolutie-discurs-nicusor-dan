@@ -1,11 +1,8 @@
 ---
 data: 2025-05-15
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=3iA8Qsl68JM
 sursa_aprecieri: 13
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1747310521
 sursa_video_id: 3iA8Qsl68JM
 sursa_vizionari: 620
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Educația copiilor e o problemă de securitate națională, spune Nicușor Dan la o dezbatere televizată la care a participat aseară.
+Educația copiilor e o problemă de securitate națională, spune Nicușor Dan la o dezbatere televizată la care a participat aseară.
 
 El a subliniat că pentru a reduce decalajul educațional dintre copii, din mediul rural și cei din mediul urban, este esențială atât creșterea salariilor din sistemul de învățământ, cât și adaptarea programei școlare la realitățile și cerințele actuale.
 

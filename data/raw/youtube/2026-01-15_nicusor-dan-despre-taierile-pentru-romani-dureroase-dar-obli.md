@@ -1,11 +1,8 @@
 ---
 data: 2026-01-15
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=avpcLRmtU-E
 sursa_aprecieri: 30
 sursa_canal: Antena 3 CNN
@@ -23,15 +20,15 @@ sursa_upload_timestamp: 1768488788
 sursa_video_id: avpcLRmtU-E
 sursa_vizionari: 1198
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] a luat măsuri dureroase de austeritate, dar acestea au fost absolut necesare.
+a luat măsuri dureroase de austeritate, dar acestea au fost absolut necesare.
 
 Declarația aparține președintelui Nicușor Dan, cel care anunță că este metoda prin care a scăzut deficitul bugetar.
 
-[ND] Imperativele anului 2025, în special după ultimul rând de alegeri, au fost asigurarea unei stabilități politice și guvernamentale și nevoia urgentă de redresare financiară.
+Imperativele anului 2025, în special după ultimul rând de alegeri, au fost asigurarea unei stabilități politice și guvernamentale și nevoia urgentă de redresare financiară.
 
 Au fost niște măsuri dureroase care au fost obligatoriu a fi luate într un termen extrem de scurt, iar aceste măsuri la nivel macroeconomic au dat rezultatele așteptate.
 

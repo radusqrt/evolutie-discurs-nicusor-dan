@@ -1,11 +1,8 @@
 ---
 data: 2026-03-05
-metoda: heuristic diarization (format=markers, 9 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=E4yycA0V7TE
 sursa_aprecieri: 112
 sursa_canal: B1
@@ -19,11 +16,11 @@ sursa_upload_timestamp: 1772717307
 sursa_video_id: E4yycA0V7TE
 sursa_vizionari: 4575
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Vreau să vă mulțumesc pentru primirea călduroasă pe care ne ați făcut o și pentru simbolistica acestor steaguri românești în palatul și în jurul palatului prezidențial.
+Vreau să vă mulțumesc pentru primirea călduroasă pe care ne ați făcut o și pentru simbolistica acestor steaguri românești în palatul și în jurul palatului prezidențial.
 
 România și Polonia au o lungă relație de prietenie care, așa cum a spus domnul președinte, a fost concretizată în acel parteneriat strategic din 2009.
 
@@ -71,7 +68,7 @@ Din nou, aici viziunea noastră este comună și am discutat puțin și de probl
 
 Mulțumesc încă o dată, domnule președinte, pentru primirea călduroasă și vă așteptăm la București.
 
-[ND] Bardzo dziękuję, panie prezydencie. teras państwa este timpul pentru dumneavoastră pentru adresate domnii președințul Miha Radkovski din Bună ziua, bine ați venit.
+Bardzo dziękuję, panie prezydencie. teras państwa este timpul pentru dumneavoastră pentru adresate domnii președințul Miha Radkovski din Bună ziua, bine ați venit.
 
 Am o întrebare.
 
@@ -115,9 +112,9 @@ Când mă uit la domnul Kovalski sunt sigur că avem informații complete la ce 
 
 Mulțumesc mult
 
-[ND] foarte mult.
+foarte mult.
 
-[ND] Da.
+Da.
 
 Ăă legat de situația din Orientul Mijlociu, ăă nu am convocat Consiliul Suprem de Apărare a țării și ă nu l vom convoca cât lucrurile nu ă prezintă un pericol imediat direct pentru România.
 
@@ -139,11 +136,11 @@ Da, nu e vorba de iranieni, e vorba de un regim care a sponsorizat terorismul î
 
 Ăsta este comentariul pe care î fac.
 
-[ND] Bardzo dę prezidente pune întrebare pe domnul Vasilescu Euron România.
+Bardzo dę prezidente pune întrebare pe domnul Vasilescu Euron România.
 
 Vasilesc
 
-[ND] bardzo.
+bardzo.
 
 Bună ziua.
 
@@ -193,7 +190,7 @@ Proszę bardzo.
 
 La doua întrebare am răspuns deja.
 
-[ND] A mai apărut a doua întrebare, mă refer la prima întrebare.
+A mai apărut a doua întrebare, mă refer la prima întrebare.
 
 Nu știu ce reprezentanți ai coaliției care este la putere s au exprimat așa în mod prea e elegant.
 
@@ -227,7 +224,7 @@ Am perioada constituțională pentru semnare sau nesemnare este dreptul care a f
 
 Deci vorbim de un angajament al tuturor sau câtorva generații ale polonezilor, mai ales că avem alternativă cu care este domnul Robert Lupițu Naboga conferența Prava prezident.
 
-[ND] Bună ziua Gindobri.
+Bună ziua Gindobri.
 
 Ăă, o întrebare comună pentru domnii președinți Dan și Navrovi.
 
@@ -247,7 +244,7 @@ Bardzo dziękuję panie prezydencie.
 
 Czy pan się również odniesie?
 
-[ND] Mulțumesc domnul președinte.
+Mulțumesc domnul președinte.
 
 Primele analize și primele discuții în momentul în care se întâmplă ceea ce s a întâmplat în Iran țineau de prezența contingentului polonez în Orientul Mijlociu.
 

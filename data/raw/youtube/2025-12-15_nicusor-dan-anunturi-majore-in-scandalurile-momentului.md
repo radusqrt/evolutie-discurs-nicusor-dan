@@ -1,11 +1,8 @@
 ---
 data: 2025-12-15
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=wwx5kl2uscc
 sursa_aprecieri: 14
 sursa_canal: Antena 3 CNN
@@ -20,15 +17,15 @@ sursa_upload_timestamp: 1765816795
 sursa_video_id: wwx5kl2uscc
 sursa_vizionari: 1403
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Mergem chiar acum în Helsingi, unde președintele Nicușor Dan face declarații.
+Mergem chiar acum în Helsingi, unde președintele Nicușor Dan face declarații.
 
 Haideți să l ascultăm.
 
-[ND] Diaspora românească e o carte de vizită pentru noi.
+Diaspora românească e o carte de vizită pentru noi.
 
 Sunteți oameni care v ați integrat în societățile în care trăiți.
 

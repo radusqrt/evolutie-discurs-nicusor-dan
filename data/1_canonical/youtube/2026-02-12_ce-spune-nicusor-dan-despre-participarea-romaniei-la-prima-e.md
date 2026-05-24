@@ -1,11 +1,8 @@
 ---
 data: 2026-02-12
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=9eSGMbXVwuA
 sursa_aprecieri: 108
 sursa_canal: Euronews Romania
@@ -23,15 +20,15 @@ sursa_upload_timestamp: 1770899044
 sursa_video_id: 9eSGMbXVwuA
 sursa_vizionari: 12769
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Suntem încă în discuții cu partea americană pentru și obiectul discuției este care poate să fie statutul unei țări care în momentul ăsta cum e România nu poate să fie decât observator.
+Suntem încă în discuții cu partea americană pentru și obiectul discuției este care poate să fie statutul unei țări care în momentul ăsta cum e România nu poate să fie decât observator.
 
 Adică care este formatul discuției și eventualii observatori care este rolul lor în această ședință și în funcție de răspunsul părții americane decidem dacă să mergem sau să nu mergem.
 
-[ND] Când veți anunța Când veți anunța care este decizia? se vor termina aceste discuții, probabil săptămâna asta.
+Când veți anunța Când veți anunța care este decizia? se vor termina aceste discuții, probabil săptămâna asta.
 
 Situația din Gaza e importantă pentru Europa.
 

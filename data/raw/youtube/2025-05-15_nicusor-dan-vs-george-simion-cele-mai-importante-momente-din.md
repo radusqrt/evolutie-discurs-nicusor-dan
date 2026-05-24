@@ -1,11 +1,8 @@
 ---
 data: 2025-05-15
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=zXqTlmKdelQ
 sursa_aprecieri: 6407
 sursa_canal: Nicusor Dan
@@ -18,11 +15,11 @@ sursa_upload_timestamp: 1747292347
 sursa_video_id: zXqTlmKdelQ
 sursa_vizionari: 657542
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Dacă ați fi antisistem, cum pretindeți domnul Simion, nu l ați fi pus pe lista de Parlament pe domnul George Becali, care a furat niște terenuri de la statul român.
+Dacă ați fi antisistem, cum pretindeți domnul Simion, nu l ați fi pus pe lista de Parlament pe domnul George Becali, care a furat niște terenuri de la statul român.
 
 Nu l ați fi pus pe lista parlamentară pe domnul Chelaru, care e aici, condamnat pentru că a furat niște apartamente de la statul român.
 

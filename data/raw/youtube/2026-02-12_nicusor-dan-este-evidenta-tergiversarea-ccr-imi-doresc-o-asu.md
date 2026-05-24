@@ -1,11 +1,8 @@
 ---
 data: 2026-02-12
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=F5PLm_6Bsco
 sursa_aprecieri: null
 sursa_canal: Antena 3 CNN
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1770923255
 sursa_video_id: F5PLm_6Bsco
 sursa_vizionari: 851
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Ieri a avut loc o ședință a Curții Constituționale în care am văzut, putem spune, o schimbare a majorității.
+Ieri a avut loc o ședință a Curții Constituționale în care am văzut, putem spune, o schimbare a majorității.
 
 Dacă până acum o parte dintre judecătorii curții voiau să se pronunțe pe pensiile speciale ale magistraților, de data aceasta majoritatea au decis pentru săptămâna viitoare să mute această decizie, mai mult să trimită sau să discute trimiterea la CJUE a acestor pensii speciale ale magistraților, această reformă.
 

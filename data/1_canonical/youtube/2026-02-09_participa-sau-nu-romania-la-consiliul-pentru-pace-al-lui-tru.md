@@ -1,11 +1,8 @@
 ---
 data: 2026-02-09
-metoda: heuristic diarization (format=markers, 91 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=WUoE5nU66kY
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1770627734
 sursa_video_id: WUoE5nU66kY
 sursa_vizionari: 15466
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] România nu a decis încă dacă va participa la Consiliul pentru pace care va avea loc pe 19 februarie la Washington.
+România nu a decis încă dacă va participa la Consiliul pentru pace care va avea loc pe 19 februarie la Washington.
 
 Președintele Nicușor Dan a primit invitația și a anunțat că hotărârea finală va fi luată în urma discuțiilor cu partenerii americani.
 
@@ -39,7 +36,7 @@ China și Rusia au fost de asemenea invitate.
 
 Beijingul nu a dat un răspuns în timp ce Moscova s a arătat deschisă idei.
 
-[ND] Prima reuniune a Consiliului pentru Pace va avea loc pe 19 februarie la Washington.
+Prima reuniune a Consiliului pentru Pace va avea loc pe 19 februarie la Washington.
 
 Administrația Trump a trimis peste 50 de invitații țărilor din întreaga lume.
 
@@ -47,7 +44,7 @@ Până acum ar fi acceptat propunerea 24 de state din Uniunea Europeană, doar U
 
 România decide în aceste zile dacă va participa sau nu.
 
-[ND] Este o invitație care ne onorează. modul în care acordul sau carta inițială a aceste acestui organism ăă a fost redactat, a ridicat niște probleme și României și altor state și acum am intrat într un cu toții într un proces și bilateral și cumva consultativ unii cu alții într un proces de negociere.
+Este o invitație care ne onorează. modul în care acordul sau carta inițială a aceste acestui organism ăă a fost redactat, a ridicat niște probleme și României și altor state și acum am intrat într un cu toții într un proces și bilateral și cumva consultativ unii cu alții într un proces de negociere.
 
 În schimb, Sorin Grindeanu e categoric.
 
@@ -67,7 +64,7 @@ O sumă importantă, spune ministrul finanțelor.
 
 De altfel, Alexandru Nazare e de părere că decizia trebuie luată în Consiliul Suprem de Apărare a țării.
 
-[ND] În continuare, alături de noi, domnii Adrian Cioroianu, Ion Me Ioniță și Andrei Țăranu.
+În continuare, alături de noi, domnii Adrian Cioroianu, Ion Me Ioniță și Andrei Țăranu.
 
 Domnule ministru Cioreanu, zice clar Sorin Grideanu, ce mai stăm?
 
@@ -87,17 +84,17 @@ Dar evident că o luăm de la președintele Americii.
 
 Și în al treilea rând, dați mi voie să vă întreb totuși ce consiliu al păcii este o inițiativă americană pentru că America este partenerul nostru strategic sau este o inițiativă a unui președinte al Statelor Unite care am înțeles că va fi ă conducătorul acestei instituții Forever
 
-[ND] Forever până când nu va mai putea, după care își va desemna el succesorul Forever Young. [râsete]
+Forever până când nu va mai putea, după care își va desemna el succesorul Forever Young. [râsete]
 
-[ND] Nu, iertați mă.
+Nu, iertați mă.
 
 Sigur că ca să nu mai spun tot ce știm despre acest consiliu pentru pace este că se ocupă de Gaza.
 
 Evident că
 
-[ND] că se ocupa de Gaza.
+că se ocupa de Gaza.
 
-[ND] Nu numai numai nu numai numai de mult mai multe.
+Nu numai numai nu numai numai de mult mai multe.
 
 Haideți să s o luăm așa.
 
@@ -149,13 +146,13 @@ Adică ce înseamnă povestea asta cu nu e nici ONU, nu e nici guvernul american
 
 Unde ați văzut că este o inițiativă venită din partea Statelor Unite, din partea președintelui Statelor Unite?
 
-[ND] Bun.
+Bun.
 
 Și putem să facem distincția asta că nu e ca și cum persoana privată Donald Trump face un consiliu pentru pace.
 
 Consiliu pentru pace în care sunt invitați Vladimir Putin, domnul Lukaenko și alții
 
-[ND] și Sij Ping a fost invitat, nu s a dus.
+și Sij Ping a fost invitat, nu s a dus.
 
 Păi, Siin Ping are, cum să spun, înțelepciunea asiatică de a spune mai vorbim peste 50 de ani.
 
@@ -169,9 +166,9 @@ Pentru că nu avem o clară analiză.
 
 Poate oare, în fine, CSAT ul român și ne va lămuri, dar
 
-[ND] are domnul Grindeanu?
+are domnul Grindeanu?
 
-[ND] Da, domnul Grindeanu, bineînțeles.
+Da, domnul Grindeanu, bineînțeles.
 
 Domnul Grindeanu s a comportat ca un provincial.
 
@@ -181,9 +178,9 @@ Asta este provincialism și un soi de complex al omului care nu e chemat și el 
 
 Hai pe bune
 
-[ND] au luat o toții.
+au luat o toții.
 
-[ND] Toți au luat o și o plimbă din gură în gură tot felul de habarnic.
+Toți au luat o și o plimbă din gură în gură tot felul de habarnic.
 
 Asta este dihotomia.
 
@@ -211,9 +208,9 @@ Asta e o o dovadă de infantilism politic, ceva de speriat și e grav că sunt o
 
 Așa încât eu dacă nu cunosc masa aia la care sunt invitat și dați mi voie să cred că n o cunoaște Nicușor Dan, masa la care suntem invitați,
 
-[ND] omul a spus s o cinstit
+omul a spus s o cinstit
 
-[ND] că nu știm despre ce e vorba.
+că nu știm despre ce e vorba.
 
 Dacă nu cunoști masa la care ești invitat, poți să spui: Fraților, mulțumesc, nu știu, când voi știi despre la ce mă inviți, vin fără teama că ești în meniu, că asta e legea junglei și nu despre asta vorbim acuma. spune așa Ion Meiță, președintele.
 
@@ -255,19 +252,19 @@ Nu vreau să fiu în pielea nu a președintelui, nici a consilierilor de politic
 
 Dar dacă libertatea de expriminare înseamnă să pui clipuri cu oameni în chip de maimuțe, cum a fost cazul fostului președinte Obama și al soției sale în clipul postat de Donald Trump pe rețeaua propri și de Casa Albă
 
-[ND] și șters după 12 ore,
+și șters după 12 ore,
 
-[ND] timp în care purtătoarea de cuvânt a spus că este o falsă indignare.
+timp în care purtătoarea de cuvânt a spus că este o falsă indignare.
 
 Cei care protestează împotriva acestui lucru sunt o falși indignați. că ce că era un meme, un desen animal.
 
 Asta a fost poziția oficială.
 
-[ND] Aia a fost
+Aia a fost
 
-[ND] când se știa despre ce e vorba și se știau toate secundele.
+când se știa despre ce e vorba și se știau toate secundele.
 
-[ND] Rasism înfiorător și condamnat.
+Rasism înfiorător și condamnat.
 
 Dacă asta înseamnă libertatea de exprimare care este cenzurată în Uniunea Europeană, să mă scuzați, adică noi în Uniunea Europeană nu punem asemenea, nu facem oamenii maimuțe.
 
@@ -279,7 +276,7 @@ Pe de altă parte sunt parteneri, asigură securitatea.
 
 Nu poți să te îndepărtezi să ajungi să ai o relație foarte proastă.
 
-[ND] Avem următoarea secvență de timp.
+Avem următoarea secvență de timp.
 
 Pe 19 februarie se întrnește acest consiliu.
 
@@ -309,7 +306,7 @@ Cine se ducă acolo?
 
 Se duce domnul Victor Orban înainte de alegeri când are o problemă foarte serioasă
 
-[ND] și cei din Bulgaria care se află la a opta încercare de alegeri în patru ani.
+și cei din Bulgaria care se află la a opta încercare de alegeri în patru ani.
 
 Deci haideți să i spunem cei care au cele mai mari probleme electorale.
 
@@ -321,17 +318,17 @@ România însă ar putea acum să găsească o modalitate diplomatică.
 
 Pentru că aici e o mare problemă.
 
-[ND] Domnule, stați puțin.
+Domnule, stați puțin.
 
 Cădem de acord că vorbim cu un om tranzacționist.
 
 Da.
 
-[ND] Da.
+Da.
 
-[ND] Da.
+Da.
 
-[ND] Bun.
+Bun.
 
 Și unui om tranzacționist nu poți să l întrebi ă partenerul meu bun, eu ce câștig din povestea asta? vin alături de tine să facem pace în lume.
 
@@ -369,17 +366,17 @@ Deci iertați mă cu un om tranzacționist, un om deschis la minte.
 
 Îmi permiți accesul în programul Visa Waver?
 
-[ND] Păi, vorbeam de Visa Waver că e e cu duși și întors.
+Păi, vorbeam de Visa Waver că e e cu duși și întors.
 
 Unul ne o dă, alți unul ne o ia și tot așa ne mai lăsați puțin la Mhen cu rapoartele voastre.
 
-[ND] Dar aice un singur lucru trebuie spus.
+Dar aice un singur lucru trebuie spus.
 
 Totuși, suntem la șase luni de la sau șapte luni de la alegerile prezidențiale și România nu are un ambasador la nici raport oficial.
 
 El are ăla vechi,
 
-[ND] nu, nu.
+nu, nu.
 
 Care și a dat demisia, e demisionar.
 
@@ -391,13 +388,13 @@ Așa știu că și a dat demis.
 
 Nu,
 
-[ND] nu și a dat demisia.
+nu și a dat demisia.
 
 Domnul Moraru e în continuar.
 
 El poate fi retras doar la momentul în care se comunică de către.
 
-[ND] Apropo, apropo de vizaver, știți deja scandalul.
+Apropo, apropo de vizaver, știți deja scandalul.
 
 Sunt acuzații grave la adresa lui George Simion, omul de afaceri Dragoș Sprânceană, cunoscut drept emisarul lui Ciolac în Statele Unite, îl acuză pe liderul aur ca militat, ca România să nu fie reintrodusă în programul Visa Waver.
 
@@ -437,9 +434,9 @@ Una peste alta, avem însă ca mărturie acea declarație făcută de George Sim
 
 Avertismentul dat de Statele Unite ai României a fost un avertisment
 
-[ND] corect. pentru care îi mulțumim ameriții.
+corect. pentru care îi mulțumim ameriții.
 
-[ND] Da, e adevărat.
+Da, e adevărat.
 
 Cred că mai curând acel avertisment, în măsura în care a fost un avertisment ținea de lupta internă dintre administrația Trump și administrația Biden.
 
@@ -459,7 +456,7 @@ Uite, ar fi un câștig dacă domnul Simion negociază viza Waver.
 
 Eu personal cred că și domnul Simion și domnul Grindeanu sunt fix din același aluat.
 
-[ND] Așa e.
+Așa e.
 
 Pentru că domnul Simion ar face orice și ar da orice să apară în niște poze cu niște oficiali americani, eventual cu Trump, dar n a ajuns acolo.
 
@@ -467,13 +464,13 @@ Asta apropo de puterea lui de pătrundere.
 
 După cum, iertați mă, dar și domnul Grindeanu îl vedeam prin niște poze cețoase cum la primul mandat al lui Trump, vă aduceți aminte că la masă
 
-[ND] la masă s a dus cu domnul
+la masă s a dus cu domnul
 
-[ND] Bine că nu i a dat cineva domnul Dragnea.
+Bine că nu i a dat cineva domnul Dragnea.
 
-[ND] Cu domnul Dragnea erau în picioare acolo parcă erau copiii puși la colțul clasei pe vremuri.
+Cu domnul Dragnea erau în picioare acolo parcă erau copiii puși la colțul clasei pe vremuri.
 
-[ND] Da.
+Da.
 
 Să i spunătă bună șefule.
 
@@ -485,13 +482,13 @@ Erau în picioare rebeli și temători și cineva cred că intervenise probabil 
 
 Nu zic că a fost plătiți, nu zic că a dat sute de mii de $i pentru aia.
 
-[ND] 500.
+500.
 
-[ND] Nu știu.
+Nu știu.
 
-[ND] Ba nu, atâta e prețul.
+Ba nu, atâta e prețul.
 
-[ND] Bun.
+Bun.
 
 Ok.
 
@@ -501,15 +498,15 @@ Nu că ar vorbi de rău România și ar vorbi de rău soția, mama, neamul.
 
 Sunteți dur aici.
 
-[ND] Păi sunt dur.
+Păi sunt dur.
 
 Păi sunt dur când îl văd că mulțumește că s a ridicat viza waivă României acum.
 
 Pe bune, cum poți să fii om politic român și să mulțumești că, bă, bine ați făcut că ne ați luat vizele,
 
-[ND] că i ați pedepsit pe români.
+că i ați pedepsit pe români.
 
-[ND] Bine ați făcut că i ați pedepsit pe români.
+Bine ați făcut că i ați pedepsit pe români.
 
 Păi cine mergea?
 
@@ -521,9 +518,9 @@ Dar mergea poate un amărât de român care voia la studii, voia să viziteze sa
 
 La asta să se gândească domnul Simion
 
-[ND] sau avea o problemă medicală sau
+sau avea o problemă medicală sau
 
-[ND] sau o problemă medicală.
+sau o problemă medicală.
 
 Deci despre asta e vorba.
 
@@ -541,9 +538,9 @@ Hai urcăm în avion imediat.
 
 Dânsul cu avioanele se știe că are o relație privilegiată cu avioanele private și ar fi capabil să ia un avion privat dacă l ar invita cineva la Washington.
 
-[ND] Moca.
+Moca.
 
-[ND] Da.
+Da.
 
 Deci nu, iertați mă ce spune că a fost băut sau n a fost băut.
 
@@ -551,9 +548,9 @@ Astea sunt detalii.
 
 Habar n am.
 
-[ND] Și nici măcar nu contează în toată povestea asta.
+Și nici măcar nu contează în toată povestea asta.
 
-[ND] Aice cred că într adevăr declarația este foarte clară a lui președintele lui Aur.
+Aice cred că într adevăr declarația este foarte clară a lui președintele lui Aur.
 
 Ce mulțumim pentru că ce?
 
@@ -583,7 +580,7 @@ Am văzut mulțumit.
 
 Vă pupăm, americani, că ne ați luat viza.
 
-[ND] Nu.
+Nu.
 
 Și nu doar că n am văzut asta, dar am văzut același tip de reacție și după apariția acelui raport preliminar cu privire la alegerile din România.
 
@@ -617,9 +614,9 @@ Ale vor fi peste doi ani și ceva.
 
 Deci până atunci vom vedea că
 
-[ND] partidul partidul
+partidul partidul
 
-[ND] partidul.
+partidul.
 
 Ori în condițiile astea cred că trebuie să ne gândim totuși ca la un partid care din nefericire poate să reprezinte România în afară.
 
@@ -627,9 +624,9 @@ El poate să fie primit de anumiți oficiali din Statele Unite sau din Uniunea E
 
 Nu, din nefericire, asta este formula și nu avem cum să nu acceptăm oficial așa ceva.
 
-[ND] Și mai tai și torturi.
+Și mai tai și torturi.
 
-[ND] Și mai taie și torturi cu Groenlanda și face ce poate să știe el să facă.
+Și mai taie și torturi cu Groenlanda și face ce poate să știe el să facă.
 
 Scurtă pauză de publicitate și revenim.
 
@@ -649,7 +646,7 @@ Pe de altă parte, scandalul face o nouă victimă.
 
 Marea Britanie, șeful de cabinet al premierului și a dat demisia pentru că acum doi ani l a sfătuit să l numească ambasador la Washington pe un fost ministru care avea legături cu Epstein.
 
-[ND] Cina despre care vorbesc jurnaliștii de la Mail on Sunday a avut loc în 2010 când regina Elisabeta a doua era plecată la castelul Balmoral din Scoția.
+Cina despre care vorbesc jurnaliștii de la Mail on Sunday a avut loc în 2010 când regina Elisabeta a doua era plecată la castelul Balmoral din Scoția.
 
 Inițial ar fi trebuit să participe trei fete, dar Jeffrey Epstein i a propus lui Andrew o schimbare de plan.
 
@@ -671,9 +668,9 @@ De altfel, România este menționată de peste 800 de ori în corespondența pri
 
 Dovezile adunate de FBI arată clar că îi plăceau fetele din această zonă și numărul potențialelor victime ar putea ajunge la sute.
 
-[ND] De ce zâmbiți, domnule ministru?
+De ce zâmbiți, domnule ministru?
 
-[ND] Nu mă mă gândeam că nu n o să ajungeți tocmai la mine.
+Nu mă mă gândeam că nu n o să ajungeți tocmai la mine.
 
 Ce să comentăm?
 
@@ -689,43 +686,43 @@ De ce nu alegea totuși din America?
 
 De ce i plăceau fetele din Europa?
 
-[ND] Spuneți că de 800 de ori apare cuvântul România.
+Spuneți că de 800 de ori apare cuvântul România.
 
 Oare cuvântul România sau e vorba de niște românce?
 
 Dacă fata n a spus, n a fost ar fi spus, ar fi făcut scandal dacă se întâmpla ceva grav.
 
-[ND] Nu, să știți că nu toate victimele lui au făcut scandal.
+Nu, să știți că nu toate victimele lui au făcut scandal.
 
 Dar asta doamnișoara asta avea 20 de ani.
 
-[ND] Acuma ce să i facem la 20 de ani?
+Acuma ce să i facem la 20 de ani?
 
 Nu e vorba
 
-[ND] A luat avionul cu forța.
+A luat avionul cu forța.
 
-[ND] E vorba de felul în care
+E vorba de felul în care
 
-[ND] aice problema e nu ca să termin, ca să termin, că dacă e ceva de comentat, e faptul că a plecat regina de acasă,
+aice problema e nu ca să termin, ca să termin, că dacă e ceva de comentat, e faptul că a plecat regina de acasă,
 
-[ND] a plecat la bal moral și în lipsa reginei fiul ei, fiul ei a făcut un chef.
+a plecat la bal moral și în lipsa reginei fiul ei, fiul ei a făcut un chef.
 
-[ND] Cum făceam și eu, cum făceam eu la 14 ani când plecau părinții, știi?
+Cum făceam și eu, cum făceam eu la 14 ani când plecau părinții, știi?
 
-[ND] La 14 ani mai merge, dar în fine.
+La 14 ani mai merge, dar în fine.
 
-[ND] E vorba de putere, e vorba de simboluri, e vorba de forță. întâmplă cu nu e niciun fel de situație foarte grav pentru că Epstin într adevăr a abuzat fete de lângă reședința lui din Florida din Palm Beach și pentru că a abuzat fete americane care aveau 14 15 ani
+E vorba de putere, e vorba de simboluri, e vorba de forță. întâmplă cu nu e niciun fel de situație foarte grav pentru că Epstin într adevăr a abuzat fete de lângă reședința lui din Florida din Palm Beach și pentru că a abuzat fete americane care aveau 14 15 ani
 
-[ND] s au dus la s au dus la poliție și poliția a făcut prima descindere în casă lui și de acolo i s a tras și a fost arestat pentru solicitarea de prostituție din partea unor minori și de aia a fost arestat în 2008.
+s au dus la s au dus la poliție și poliția a făcut prima descindere în casă lui și de acolo i s a tras și a fost arestat pentru solicitarea de prostituție din partea unor minori și de aia a fost arestat în 2008.
 
-[ND] S a înregistrat ca sex offender, după care a continuat vincut.
+S a înregistrat ca sex offender, după care a continuat vincut.
 
 A fost și condamnat și a recunoscut vinovăția.
 
 A fost condamnat la
 
-[ND] și a continuat bine mersi.
+și a continuat bine mersi.
 
 Un an și opt luni închisoare, a făcut mult mai puțin.
 
@@ -733,17 +730,17 @@ Ziua pleca acasă să muncească, dar de acolo i s a tras și cred că s a gând
 
 Nu mai iau din America că e pericol. intru în relație cu rețelele de trafic de carne vie din estul Europei, Rusia în special și zona asta pentru că este mai puțin controlată și sunt și multe autorități corupte și de acolo își furniza aceste fete ăă pentru a evita să mai fie pus în situația de a vedea poliția la ușa lui
 
-[ND] pentru că aceste fete n aveau puterea nici să reclame. erau neajutorate, ajungeau în America sau Marea Britanie sau pe insula lui privată.
+pentru că aceste fete n aveau puterea nici să reclame. erau neajutorate, ajungeau în America sau Marea Britanie sau pe insula lui privată.
 
 La cine se ducea o fată chiar de 20 de ani?
 
 La cine se ducea să i spună că marele miliardar a abuzat de ea?
 
-[ND] Sau
+Sau
 
-[ND] haideți să fim serioși, palatul reginei Marii Britan sau că un prinț a făcut asta.
+haideți să fim serioși, palatul reginei Marii Britan sau că un prinț a făcut asta.
 
-[ND] Dar mai e ceva aice, un aspect și cred că este extrem de periculos la ce am asistat pentru că ce se întâmplă cu aceste victime?
+Dar mai e ceva aice, un aspect și cred că este extrem de periculos la ce am asistat pentru că ce se întâmplă cu aceste victime?
 
 Multe au ieșit la iveală. au recunoscut, pentru că e o tramă pentru fiecare să vină să rememoreze prin ce au trecut la 15 sau la 16 sau la 13 ani.
 
@@ -757,7 +754,7 @@ Cine vine să spună în fața lumii?
 
 Știți, am fost abuzat când eram minor.
 
-[ND] S a întâmplat asta cu efecte devastatoare.
+S a întâmplat asta cu efecte devastatoare.
 
 În cazul Virgiliei Giufre este cea care l a reclamat pe prințul Andru.
 
@@ -775,7 +772,7 @@ Destin rețeaua asta mi se pare imposibil de gestionat.
 
 Era mult, mult prea vastă și prea puternică.
 
-[ND] Era vastă și cred că în bună măsură era controlată prin șantaj.
+Era vastă și cred că în bună măsură era controlată prin șantaj.
 
 Adică șantajul sexual este, cum știți, sau compromatul este unul dintre șantajurile cele mai puternice și probabil că în felul ăsta Epstein își controla nu doar victimele, ci construia victime într un larg spațiu politic.
 
@@ -805,7 +802,7 @@ Deci gândiți vă cât de largă este această rețea care era la nivelul celor
 
 Că să fim serioși, nu prea cred că i chema pe cineva de pe aici să afle ce dorim noi.
 
-[ND] Domnule, eu mie cu Bill Gates, sincer, mie mi ar fi convenit să discut.
+Domnule, eu mie cu Bill Gates, sincer, mie mi ar fi convenit să discut.
 
 Serios vorbesc.
 
@@ -817,13 +814,13 @@ Capcană de miere cu Bill Gates.
 
 Eu aș fi stat oricând la masă, că e totuși unul dintre oamenii care au clădit ceva în în lumea asta
 
-[ND] și au schimbat lumea.
+și au schimbat lumea.
 
 Evident,
 
-[ND] permiteți mi să cred că nu era posibilă desfășurarea asta fără ca niște servicii secrete din lumea asta să n aibă habar.
+permiteți mi să cred că nu era posibilă desfășurarea asta fără ca niște servicii secrete din lumea asta să n aibă habar.
 
-[ND] Da.
+Da.
 
 Adică în palatul reginei intră o româncă de 20 de ani, pur și simplu o aduce un traficant sexual.
 
@@ -843,21 +840,21 @@ Nu ce a făcut el, pe cine controla el, că el șantaja probabil, dar cine l con
 
 Și ai uitat unul cel mai important.
 
-[ND] Păi ăla ăla ăla ăla se presupune că era
+Păi ăla ăla ăla ăla se presupune că era
 
-[ND] organizatorul.
+organizatorul.
 
-[ND] Da.
+Da.
 
 Ăilalți habar n aveau și
 
-[ND] ăilalți erau subsidiari.
+ăilalți erau subsidiari.
 
-[ND] Păi
+Păi
 
-[ND] nu, dar
+nu, dar
 
-[ND] asta sună Deci e conspirația perfectă.
+asta sună Deci e conspirația perfectă.
 
 Conspirația perfectă.
 
@@ -867,7 +864,7 @@ Păi, nu, dar sigur că erau și oameni care cădeau în capcanele astea, alții
 
 Era într o poză aice un mare guru politic cu Epstein, un foarte apropiat al lui Epstin, Steve Bannon. cel care a organizat la un moment dat mișcarea extremiștilor, partidelor de extrema ultra extremă dreaptă, neonaziste, multe dintre ele, pentru răsturnarea Uniunii Europene și el a pus în aplicare acest proiect politic de crearea unei internaționale, să spunem, a ultra radicalilor naționale de
 
-[ND] a fost și consilier al lui Donald Trost și a fost consilierul lui Donald Trci, unul dintre arhitec și constructor ideologic al maga și constructor al maga.
+a fost și consilier al lui Donald Trost și a fost consilierul lui Donald Trci, unul dintre arhitec și constructor ideologic al maga și constructor al maga.
 
 Iar Steve Benon, îl vedeți în poze, este și autorul acelui celebru astăzi descoperit în aceste documente în care îl întreabă pe Extin față în față: "Ești diavolul în persoană?" să l vedeți că este era în biroul lui, are nenumărate fotografii și îi cere bani lui Epstin sunt documentele în care îi cere bani pentru a finanța această internațională a extremiștilor ultra de dreaptă.
 

@@ -1,11 +1,8 @@
 ---
 data: 2026-04-20
-metoda: heuristic diarization (format=markers, 56 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=7cmkxUMXuWg
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,23 +21,23 @@ sursa_upload_timestamp: 1776686566
 sursa_video_id: 7cmkxUMXuWg
 sursa_vizionari: 13780
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Acesta este subiectul despre care vorbim astăzi și desigur și în zilele următoare în funcție de ce se va întâmpla.
+Acesta este subiectul despre care vorbim astăzi și desigur și în zilele următoare în funcție de ce se va întâmpla.
 
 Alături de mine la ora aceasta în platou Ciprian Ciucu, primarul capitalei.
 
 Bună ziua și vă mulțumesc pentru prezența dumneavoastră, domnule Ciu.
 
-[ND] Bună ziua.
+Bună ziua.
 
 Presupun că m ați invitat în special să discutăm în calitate de prim vicepreședinte al PNL.
 
 Nu primul
 
-[ND] Sigur, desigur.
+Sigur, desigur.
 
 Din din această perspectivă și tocmai de aia vreau să vă întreb.
 
@@ -54,7 +51,7 @@ Ce se întâmplă cu PNL în acest caz?
 
 PNL acceptă varianta Sorin Grindeanu premier.
 
-[ND] Este o criză politică care vine nicăieri.
+Este o criză politică care vine nicăieri.
 
 O criză politică care a fost generată artificial de către PSD, de către cei din conducerea centrală a PSD.
 
@@ -98,7 +95,7 @@ Ei au generat criza politică.
 
 Ei sunt direct.
 
-[ND] Nu faceți guvern cu PSD.
+Nu faceți guvern cu PSD.
 
 Ce formulă de guvernare credeți că ar putea să urmeze după momentul acesta?
 
@@ -106,7 +103,7 @@ Pentru că scenariul e clar deja.
 
 Cred că cei din PSD ne au lămurit.
 
-[ND] Refuz refuz să intru în jocul PSD.
+Refuz refuz să intru în jocul PSD.
 
 Ei au întrebați i pe ei pentru că nu Partidul Național Liberal a generat această criză.
 
@@ -118,7 +115,7 @@ Asta îi deranjează pe aici ce se întâmplă cu companiile, ce se întâmplă 
 
 Asta i deranjează de fapt.
 
-[ND] Deci cum spunea Ilie Boloan a deranjat motiv pentru care ar vrea unii să l dea la o parte.
+Deci cum spunea Ilie Boloan a deranjat motiv pentru care ar vrea unii să l dea la o parte.
 
 Dar totuși scenariul rămâne.
 
@@ -140,7 +137,7 @@ Bun, pleacă PSD ul.
 
 Ce face PNL ul?
 
-[ND] Partid Liberal are două opțiuni în momentul de față.
+Partid Liberal are două opțiuni în momentul de față.
 
 Ăă, evident, pentru că noi îi voi noi î vom cere lui Ilie Bolojan să nu se lase umilit pentru că va umili inclusiv Partidul Național Liberal să și dea demisia pentru că încă o dată nu PSD decide pe cine reprezintă cine reprezintă Partidul Național Liberal.
 
@@ -180,7 +177,7 @@ Acest partid va ajunge sub 10% în ritmul acesta, pentru că românii văd, rom�
 
 Ei văd și atunci îi vor îi vor penaliza.
 
-[ND] Spuneți că sunt două variante.
+Spuneți că sunt două variante.
 
 Guvern minoritar să mergeți mai departe cu Ilie Băljan sau să mergeți în opoziție.
 
@@ -228,7 +225,7 @@ Noi nu știm ce s a discutat în ședințele coaliției.
 
 Teoretic
 
-[ND] am participat la cele mai multe dintre aceste ședințe.
+am participat la cele mai multe dintre aceste ședințe.
 
 Totul ok la ședințe.
 
@@ -268,11 +265,11 @@ Nu Partidul Național Liberal, ei au generat o, ei trebuie s o rezolve.
 
 Dacă nu mai vor să stea la guvernare, ok, asta este, mergem mai departe cu un guvern minoritar sau mergem mai departe cu PNL în în opoziție, pentru că Parțan Liberal nu și va trăda o dată președintele și doi, Partidul Național Liberal nu și va trăda electoratul.
 
-[ND] Deci acea moțiune de cenzură anunțată de PSD probabil pentru săptămâna viitoare, ei zic așa: "Fie că depune AUR moțiune de cenzură, noi votăm.
+Deci acea moțiune de cenzură anunțată de PSD probabil pentru săptămâna viitoare, ei zic așa: "Fie că depune AUR moțiune de cenzură, noi votăm.
 
 Fie că o depunem noi, desigur, o votăm și poate cu ajutorul AUR, atunci pică guvernul." Deci putem ajunge la scenariul acesta pentru că altfel PNL nu cedează.
 
-[ND] Da, vom ajunge într un scenariu probibil să ajungem în acest scenariu în care v am spus economia o va lua cu adevărat razna.
+Da, vom ajunge într un scenariu probibil să ajungem în acest scenariu în care v am spus economia o va lua cu adevărat razna.
 
 De abia am reușit cumva să echilibrăm prin aceste jumătăți de reformă pentru că n au fost întregi pentru că PSD s a opus.
 
@@ -282,13 +279,13 @@ Asta vor face și oamenii vor penaliza la vot.
 
 Deja PSD este istoric.
 
-[ND] Ați discutat cu Ilie Bolojan.
+Ați discutat cu Ilie Bolojan.
 
 Poate ce i a transmis președintele Nicușordan, că știm că a avut întâlniri pe lângă Sorin Grindeanu, în discuță săptămânal, poate chiar mai des cu premierul sau ce compromis ar fi el dispus să facă acum?
 
 Pentru că public nu face niciunul, dar mă gândesc că în negocieri sau în discuțiile cu dumneavoastră zice: "Domnule, hai poate mergem până acolo."
 
-[ND] Noi liderii din jurul domniei sale i am cerut să nu facă acest lucru.
+Noi liderii din jurul domniei sale i am cerut să nu facă acest lucru.
 
 Nu are de ce să se umilească pentru că a fost corect.
 
@@ -300,19 +297,19 @@ De ce?
 
 Nu are niciun motiv să o facă el criza, ei să o rezolve.
 
-[ND] Dar cred că ăsta a fost principiul, domnule C.
+Dar cred că ăsta a fost principiul, domnule C.
 
-[ND] În ceea ce privește ce m ați întrebat, că nu v am răspuns la întrebare
+În ceea ce privește ce m ați întrebat, că nu v am răspuns la întrebare
 
-[ND] ă [sforăit] dacă președ cum s a ce mi a spus că a discutat cu președintele, mi a spus că a fost
+ă [sforăit] dacă președ cum s a ce mi a spus că a discutat cu președintele, mi a spus că a fost
 
-[ND] ambivalent, că nu a luat o decizie, că se gândește.
+ambivalent, că nu a luat o decizie, că se gândește.
 
-[ND] Deci nu știe nici președintele de partea cui merge mai departe.
+Deci nu știe nici președintele de partea cui merge mai departe.
 
 Așa mi a spus domnul Boloan că i ar fi spus domnul președinte Nicușordan, ceea ce se vede și este consecvent cu ceea ce lucrare public domnul președinte Nicușordan.
 
-[ND] Ce credeți că s a schimbat, domnule Ciucu?
+Ce credeți că s a schimbat, domnule Ciucu?
 
 De ce vă întreb asta?
 
@@ -324,7 +321,7 @@ Cred că admitem cu toții asta și se și vede că s a ajuns așa la o limită.
 
 Ce să se fi întâmplat între timp?
 
-[JURNALIST] Domnul președinte Nicușor Dan s a folosit foarte mult în campanie de numele domnului Bolojan.
+Domnul președinte Nicușor Dan s a folosit foarte mult în campanie de numele domnului Bolojan.
 
 Ne aducem aminte foarte foarte bine și foarte mulți l au votat inclusind inclusiv sperând că îl va susține pe domnul Bolojan în poziția de premier.
 
@@ -346,7 +343,7 @@ Din punctul meu de vedere era nevoie de mai multă fermitate din partea președi
 
 Ei sunt singurii care s au împușcat în picior, dar pentru că sistemul politic este dependent de intrările din sistemul politic pe care î dau partidele, dacă intrările sunt de proastă calitate, inclusiv sistemul politic per ansamblu este de și guvernarea este de proastă calitate.
 
-[ND] Se vorbește acum de scenariul unor anticipate.
+Se vorbește acum de scenariul unor anticipate.
 
 Posibil e sunt câteva idei răzlețe.
 
@@ -360,11 +357,11 @@ Deci este Nu o văd să se întâmple și ca să se întâmple acest lucru ar tr
 
 Din cât văd eu în momentul de față, din păcate domnul Micușor Dan, prin semnalele pe care le dă nu va face acest lucru și probabil că va juca mai departe cu domnul Grindeanu.
 
-[ND] Cu domnul Grindeanu premier.
+Cu domnul Grindeanu premier.
 
-[ND] Cu domnul Grindeanu Grindeanu și simplu cred că se cred că din păcate în acest moment președintele României se coordonează mai mult cu PSD decât cu Partidul Național Liberal sau cu ne a salvați România.
+Cu domnul Grindeanu Grindeanu și simplu cred că se cred că din păcate în acest moment președintele României se coordonează mai mult cu PSD decât cu Partidul Național Liberal sau cu ne a salvați România.
 
-[ND] Deci asta se vede dinspre PNL, să zic. despre mine cel puțin.
+Deci asta se vede dinspre PNL, să zic. despre mine cel puțin.
 
 Adică eu asta văd din păcate.
 
@@ -398,9 +395,9 @@ Noi nu mai vrem, am fost în filmul ăsta, am fost de două ori brelocul PSD.
 
 Nu mai vrem,
 
-[ND] nu mai vrem să fim în acest film,
+nu mai vrem să fim în acest film,
 
-[ND] ca să fie foarte clar.
+ca să fie foarte clar.
 
 Deci, Partidul Social Democrat este un partid antireformist, un partid cu foarte mari probleme de integritate, probleme de corupție.
 
@@ -410,7 +407,7 @@ Este un partid fără multă experiență la guvernare.
 
 România are nevoie de un Partid Național Liberal Democratic care să și ia propriile lui decizii.
 
-[ND] Ce credeți că mai vrea PSD ul acum, domnule Ciucu?
+Ce credeți că mai vrea PSD ul acum, domnule Ciucu?
 
 Pare că negocieri sau și ar mai dori ceva?
 
@@ -418,35 +415,35 @@ Dincolo de ce spuneați dumneavoastră?
 
 Poate că sunt deranjați de anumite de listarea companiilor sau desființarea unor companii, de tot ce s a întâmplat în ultima perioadă, toate lucrurile pe care le a doar ceva normal și foarte benefic pentru că
 
-[ND] da, vedeți că nu e primit deloc bine din parte.
+da, vedeți că nu e primit deloc bine din parte.
 
 Păi, nu pentru că s au obișnuit să le căpușeze
 
-[ND] social democraților.
+social democraților.
 
 Ce credeți că și mai doresc acum?
 
-[ND] Nu știu și nu mă interesează.
+Nu știu și nu mă interesează.
 
 Probabil să nu pice mai mult în sondaj decât au picat, să nu ajungă irelevanți.
 
 Adevărul este
 
-[ND] să fie doar calcul politic.
+să fie doar calcul politic.
 
 Așa.
 
 Păi,
 
-[ND] asta este pentru Uniunea Europeană și în partea asta de lume, partide clasice
+asta este pentru Uniunea Europeană și în partea asta de lume, partide clasice
 
-[ND] de după 1989 au început să ia la vale.
+de după 1989 au început să ia la vale.
 
 Unii n au mai prins Parlamentul, cum e cazul Ungariei, altele nu au mai au ajuns în Parlament cu 5 sau sub 10%.
 
 Este fix direcția în care se duce PSD în viteză și asta din cauza deciziilor proaste pentru România pe care le iau.
 
-[ND] Vorbeați de o majoritate, să spunem așa, din PNL care merge acum sau care a regăsit cumva partidul largă. trădători vă așteptați să existe în perioada aceasta pentru că sigur și PSD cred că s a gândit că poate sunt un aștept.
+Vorbeați de o majoritate, să spunem așa, din PNL care merge acum sau care a regăsit cumva partidul largă. trădători vă așteptați să existe în perioada aceasta pentru că sigur și PSD cred că s a gândit că poate sunt un aștept.
 
 Nu mă aștept să fie trădători sau deți dumneavoastră întotdeauna când pleci în opoziție în astfel de situații nu pleci întreg.
 
@@ -458,11 +455,11 @@ Partidul Național Liberal are nevoie de o reformă internă semnificativă, are
 
 Partidul Național în Liberal în opoziție înseamnă un poate e un scenariu, un guvern PSD aur
 
-[ND] pentru doi ani de zile.
+pentru doi ani de zile.
 
 Să sperăm că nu vor face țara țândări.
 
-[ND] Credeți că va fi convins Nicușor Dan chiar astăzi?
+Credeți că va fi convins Nicușor Dan chiar astăzi?
 
 Spunea că el nu e de acord să numească un premier PSD care să fie susținut fie din umbră, fie oficial de cei din AUR?
 
@@ -476,7 +473,7 @@ Poate președintele era bine ca să se consulte mai des și cu Ilie Boloan și c
 
 Dar dacă dacă dacă stătea de vorbă și cu mine și cu alți lideri PNL i am fi spus foarte clar:
 
-[ND] "Nu te duci pe acest drum.
+"Nu te duci pe acest drum.
 
 Este o aventură politică și poți să fii responsabil împreună cu cei care au generat, adică în special cu PSD.
 
@@ -490,17 +487,17 @@ Nu s a Nu s a putut.
 
 Am discutat la un moment dat chestiuni care țin de bugetul Bucureștiului și de urbanism, dar atât.
 
-[ND] Deci s ar produs o ruptură, să spunem așa, între liderii PNL și președinte.
+Deci s ar produs o ruptură, să spunem așa, între liderii PNL și președinte.
 
 Eu vă zic că nu știu dacă s a produs o ruptură pentru că președintele partidului sau premierul Ilie Bolojan permanent a încercat să l consulte pe președintele României.
 
 Dar ceea ce am zis este nu că s a produs o ruptură, ci am zis că mai degrabă cred că s a consultat și a făcut diferite scenarii poate cu domnul Grindeanu și mai puțin cu noi.
 
-[ND] De ce e responsabil și Nicuordan de ce se întâmplă acum?
+De ce e responsabil și Nicuordan de ce se întâmplă acum?
 
-[ND] Este responsabil PSD moment
+Este responsabil PSD moment
 
-[ND] în acest moment este responsabil PSD.
+în acest moment este responsabil PSD.
 
 Vreau ca să fie foarte clar vina plasată.
 
@@ -514,11 +511,11 @@ Că mai spunea cineva acest lucru.
 
 Se cheamă PSD.
 
-[ND] Poate să facă PSD ul acesta ceva ca să ne întoarcem de unde am plecat?
+Poate să facă PSD ul acesta ceva ca să ne întoarcem de unde am plecat?
 
 Adică să nu se rupă până la urmă guvernul acum câteva ore până
 
-[ND] voteze să voteze diseară continuarea coaliției în forma actuală.
+voteze să voteze diseară continuarea coaliției în forma actuală.
 
 Există un protocol.
 
@@ -544,7 +541,7 @@ Renegocierea aceasta a protocolului despre care vorbiți dumneavoastră poate s�
 
 Adică să se devanseze termenul acela de martie 2027.
 
-[ND] Orice se poate negocia.
+Orice se poate negocia.
 
 Normal ar fi poate și pe USR să aibă pretenții la un premier.
 
@@ -560,7 +557,7 @@ De ce să nu avem o coaliție în care domnul Grindeanu nu mai face ceea ce face
 
 De ce să nu avem și o astfel de negociere?
 
-[ND] Poate să vină PNL ul cu replica asta.
+Poate să vină PNL ul cu replica asta.
 
 Ar fi cam în oglindă, să spunem, cu ceea ce faceți PD.
 
@@ -580,21 +577,21 @@ Orice ai face, vei fi luat la mișto, persiflat, contestat și vor fi proteste �
 
 Degeaba bravează ghirlindan.
 
-[ND] Deci, cumva problema este de oameni din partea PSD Ilie Bolojan, din partea
+Deci, cumva problema este de oameni din partea PSD Ilie Bolojan, din partea
 
-[ND] Problema este de principii.
+Problema este de principii.
 
 Noi ne am respectat protocolul, ei nu l au respectat.
 
-[ND] De principii, nu de oameni.
+De principii, nu de oameni.
 
-[ND] Și încălcarea aceasta a protocolului nu ar însemna și denunțarea lui și automat ruperea coaliției?
+Și încălcarea aceasta a protocolului nu ar însemna și denunțarea lui și automat ruperea coaliției?
 
 Poate să însemne și o negociere, așa cum am spus mai devreme.
 
-[ND] Deci, pur și simplu ați văzut că nu funcționează așa și poate că ar fi,
+Deci, pur și simplu ați văzut că nu funcționează așa și poate că ar fi,
 
-[ND] nu e târziu să spuneți că vă puteți așeza la masă.
+nu e târziu să spuneți că vă puteți așeza la masă.
 
 Nu știu, tot pun aceste ore în față în discuția noastră pentru că mi se pare că e o chestiune deci am în urmă cu o săptămână nu discutam acerb despre acest subiect.
 
@@ -616,7 +613,7 @@ Nu i a interesat.
 
 Tu ce ai interesat a fost să ducă România în această situație.
 
-[ND] Ilie Bolojan știa că ne îndreptăm spre asta.
+Ilie Bolojan știa că ne îndreptăm spre asta.
 
 Adică aștepta, era conștiențele două săptămâni cu toții am fost conștienți, inclusiv Ilie Bolojan că mergem aici, dar am discutat ce putem face, unde putem să dăm de domnul Grindeanu?
 
@@ -648,7 +645,7 @@ Peste doi ani va fi invers.
 
 PSD va fi sub PNL.
 
-[ND] Da.
+Da.
 
 Partea cea mai proastă, să zic așa, din tot calculul acesta este că românii vor plăti și de această dată pentru că indiferent, vedeți, orgolii politice, rupe, de ce să stau cu PSD, de ce să stau cu Pal este vorba ce se întâmplă cu această țară, iar Ilie Bolojan a dat dovadă de responsabilitate.
 
@@ -662,11 +659,11 @@ Nu am făcut nimic. că am luat acele decizii care au echilibrat țara.
 
 Adică în loc de un mulțumesc și o sângere de mână, ce avem?
 
-[ND] Nu, doar mă gândeam că certurile politice, știți?
+Nu, doar mă gândeam că certurile politice, știți?
 
 Na,
 
-[ND] nu sunt certuri politice inițiate către Partidul Național Liberal, către USR.
+nu sunt certuri politice inițiate către Partidul Național Liberal, către USR.
 
 S au certat între ei USR cu PSD.
 
@@ -676,7 +673,7 @@ Eu supărat de modul în care comunica PSD îți mai spunea lui Ilie Bolojan: "N
 
 Întotdeauna a zis: „Domnule, hai să să i tratăm cu mânuși, hai să îi lăsăm să și facă numărul, vor să și mențină electoratul." El a fost foarte diferent cu privire la PSD și cu privire la Grindeanu până acum două zile când am văzut că nu mai este cazul să fii deent cu niște oameni care până la urmă au trădat acest protocol.
 
-[ND] Domnule Ciprianciucu, vă mulțumesc tare mult pentru această discuție.
+Domnule Ciprianciucu, vă mulțumesc tare mult pentru această discuție.
 
 Ce se va întâmpla, desigur că vom vedea diseară, cum zice președintele, și o resetare probabil că de mâine, niște consultări la Palatul Cotroceni.
 

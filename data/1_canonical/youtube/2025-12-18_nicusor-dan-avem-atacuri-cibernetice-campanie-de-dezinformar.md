@@ -1,11 +1,8 @@
 ---
 data: 2025-12-18
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=QKJdSp3Z6j0
 sursa_aprecieri: 177
 sursa_canal: Kanal D Romania
@@ -23,15 +20,15 @@ sursa_upload_timestamp: 1766086206
 sursa_video_id: QKJdSp3Z6j0
 sursa_vizionari: 9511
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Urmează întrebarea roșie.
+Urmează întrebarea roșie.
 
 Cât de important este să dovediți interferența rusă în alegeri?
 
-[ND] Da, foarte important, pentru că este ăă este vorba de încrederea oamenilor în stat.
+Da, foarte important, pentru că este ăă este vorba de încrederea oamenilor în stat.
 
 Da.
 
@@ -53,4 +50,4 @@ Adică noi avem atacuri cibernetice, avem campanie de dezinformare, am avut și 
 
 Ceea ce care este sarcina noastră este nu numai să ieșim cu un raport, ci să ieșim cu un raport care să convingă oamenii că într adevăr asta s a întâmplat.
 
-[ND] Bine, mulțumesc. .
+Bine, mulțumesc. .

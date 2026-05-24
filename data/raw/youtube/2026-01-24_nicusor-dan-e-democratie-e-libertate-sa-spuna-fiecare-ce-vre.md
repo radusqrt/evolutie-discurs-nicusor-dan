@@ -1,11 +1,8 @@
 ---
 data: 2026-01-24
-metoda: heuristic diarization (format=markers, 32 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=-G0gGibucDo
 sursa_aprecieri: 30
 sursa_canal: Antena 3 CNN
@@ -24,15 +21,15 @@ sursa_upload_timestamp: 1769274155
 sursa_video_id: -G0gGibucDo
 sursa_vizionari: 2378
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Și avem declarații de ultimă oră, Nicușor Dan.
+Și avem declarații de ultimă oră, Nicușor Dan.
 
 Acum
 
-[ND] ieșeni care s au bucurat de sărbătoarea asta și ăsta e lucrul care contează.
+ieșeni care s au bucurat de sărbătoarea asta și ăsta e lucrul care contează.
 
 Eu cred că așa cum am spus, chiar dacă nu trăim niște vremuri ușoare, da, dar sunt niște momente în care dacă putem trebuie să ne bucurăm.
 
@@ -44,7 +41,7 @@ Uitându ne puțin la ce s a întâmplat zilele acestea și pe scena politică, 
 
 Cum comentați acest lucru?
 
-[ND] Bun.
+Bun.
 
 În primul rând Mercosur e ceva extrem de benefic pentru România.
 
@@ -82,11 +79,11 @@ A fost o ăă coaliție condusă de Franța pe subiectul ăsta în interiorul de
 
 Am fost de acord, am susținut Franța în această dezbatere și în urma acestei dezbateri din interiorul Uniunii din ultimele luni au fost obținute de către în cadrul acestei negocieri au fost obținute beneficii suplimentare pentru agricultorii europeni și inclusiv pentru agricultorii români.
 
-[ND] Pe lângă Mercosur, domnule președinte, am văzut atacuri mai dure ale social democraților la adresa premierului Ilie Bolojan. veți avea discuții cu liderii coaliției săptămâna care urmează și dacă totuși ar putea fi schimbat premierul
+Pe lângă Mercosur, domnule președinte, am văzut atacuri mai dure ale social democraților la adresa premierului Ilie Bolojan. veți avea discuții cu liderii coaliției săptămâna care urmează și dacă totuși ar putea fi schimbat premierul
 
-[ND] și cum catalogați aceste date?
+și cum catalogați aceste date?
 
-[ND] Bun, sunt mai multe lucruri.
+Bun, sunt mai multe lucruri.
 
 Ă e democrație, e libertate ca fiecare să spună ce vrea de pe scena politică.
 
@@ -108,7 +105,7 @@ E democrat.
 
 Asta a fost prima parte a întrebării.
 
-[ND] A doua parte a întrebării mă întrebați dacă în legătură cu primul ministru există o coaliție de patru partide.
+A doua parte a întrebării mă întrebați dacă în legătură cu primul ministru există o coaliție de patru partide.
 
 Coaliția asta are un acord.
 
@@ -140,11 +137,11 @@ Deci de asta încercăm să folosim timpul ăsta ca să construim substanță as
 
 Ăsta este în opinia mea jobul meu.
 
-[ND] În perioada următoare ar trebui făcute pe anul 2026 nu este gata nici acum.
+În perioada următoare ar trebui făcute pe anul 2026 nu este gata nici acum.
 
-[ND] Asta nu e bine.
+Asta nu e bine.
 
-[ND] Rămâne în picioare propunerea dumneavoastră ca să fie transpus referendumul în bugetul pe anul 2026?
+Rămâne în picioare propunerea dumneavoastră ca să fie transpus referendumul în bugetul pe anul 2026?
 
 Eu cred că un principiu al democrației este că cetățenii au dreptate, nu?
 
@@ -160,21 +157,21 @@ Cred că trebuie să fim serioși.
 
 Ați fi dispus să cedați șefia Serviciului Român de Informații către PSD pentru că s a vehiculat această variantă că și ar dori
 
-[ND] ă Tot ce vreau să spun e că toate numele pe care le am văzut toți în presă nu au vreo legătură cu realitatea sau cu creierul meu.
+ă Tot ce vreau să spun e că toate numele pe care le am văzut toți în presă nu au vreo legătură cu realitatea sau cu creierul meu.
 
 Ce nume ce nume ar putea să aibă legătură cu realitatea?
 
-[ND] O să vedeți după ce discuțiile se vor termina.
+O să vedeți după ce discuțiile se vor termina.
 
-[ND] Dar vor fi oameni din zona politică sau nu?
+Dar vor fi oameni din zona politică sau nu?
 
-[ND] E posibil.
+E posibil.
 
-[ND] Legat de Consiliul pentru pace, avem un orizont de timp până la care am putea lua o decizie cu privire la aderare
+Legat de Consiliul pentru pace, avem un orizont de timp până la care am putea lua o decizie cu privire la aderare
 
-[ND] sau dacă ați luat deja decizia?
+sau dacă ați luat deja decizia?
 
-[ND] Nu.
+Nu.
 
 Deci pentru un moment decizia nu e luată.
 
@@ -194,13 +191,13 @@ Cam cât?
 
 Șase luni ar fi un orizont din timp
 
-[ND] și e o chestiune de multe luni care nu depinde pentru că e o negociere între mulți parteneri care fie pentru care fiecare de exemplu ăă la ă Consiliul European au fost țări care au spus că nu numai că propunerea inițială este în contradicție cu tratate internaționale, pentru unele chiar cu constituția lor și atunci este un proces de armonizare a condițiilor pe fie pe care fiecare dintre 50 60 de parteneri le pune.
+și e o chestiune de multe luni care nu depinde pentru că e o negociere între mulți parteneri care fie pentru care fiecare de exemplu ăă la ă Consiliul European au fost țări care au spus că nu numai că propunerea inițială este în contradicție cu tratate internaționale, pentru unele chiar cu constituția lor și atunci este un proces de armonizare a condițiilor pe fie pe care fiecare dintre 50 60 de parteneri le pune.
 
 Deci e complex.
 
-[ND] Dacă în urma România a fost exclusă de pe lista statelor acceptate ca dublă cetățenie de Ucraina, cum comentați?
+Dacă în urma România a fost exclusă de pe lista statelor acceptate ca dublă cetățenie de Ucraina, cum comentați?
 
-[ND] Nu.
+Nu.
 
 Haideți s o punem în context această informație.
 
@@ -218,15 +215,15 @@ Deci n a fost o intenție de a exclude România, n a fost o intenție de a se ra
 
 A fost o intenție de a rezolva problema cetățenilor ucrainieni care în urma războiului au fost nevoiți să emigrese.
 
-[ND] Problema liceilor care nu mai au predare în limba română.
+Problema liceilor care nu mai au predare în limba română.
 
-[ND] Pe problema liceor în schimb asta este o chestiune foarte serioasă.
+Pe problema liceor în schimb asta este o chestiune foarte serioasă.
 
 Ea va intra în aplicare așa cum este legea acum în 2027 și până atunci trebuie să rezolvăm.
 
 Da, deci asta e asta e o chestiune care ne privește și pe care n o s o băgăm sub n o s o băgăm sub preș în relația cu Ucraina.
 
-[ND] Revenind puțin la categorii sociale de la profesori la mame care au indemnizația mai mică, persoane cu dizabilități.
+Revenind puțin la categorii sociale de la profesori la mame care au indemnizația mai mică, persoane cu dizabilități.
 
 Ce mesaj aveți pentru ei?
 
@@ -236,7 +233,7 @@ Ca să vă fac un rezumat, au spus e greu, din ce în ce mai greu, dar să și �
 
 Deci, ce le spuneți celor care poartă?
 
-[ND] Da.
+Da.
 
 O să vă O să fiu foarte ăă direct cu dumneavoastră.
 
@@ -246,9 +243,9 @@ Da. pe multiple paliere și tocmai pentru că puterea este împărțită în mod
 
 Ăă reducerea sau chiar asanarea acestui fenomen e un proces de durată pentru că există complicități între oameni, instituții care s au s au dezvoltat ani de zile
 
-[ND] și partide.
+și partide.
 
-[ND] Și partide, bineînțeles, oameni din partid.
+Și partide, bineînțeles, oameni din partid.
 
 Revenim puțin la situația din coaliția de guvernare.
 
@@ -260,29 +257,29 @@ Ați accepta un astfel de guvern?
 
 În orice caz, n aș accepta să vorbesc de ipoteze.
 
-[ND] Eu mă refer la o situație, de fapt, am spus de foarte multe ori și am spus o cu maximă seriozitate.
+Eu mă refer la o situație, de fapt, am spus de foarte multe ori și am spus o cu maximă seriozitate.
 
 E foarte bine că aceste patru partide pus plus minoritățile naționale au acceptat să fie la guvernare într un moment în care pentru fiecare dintre ele ar fi fost mai simplu să fie opoziție și ăă acolo unde suntem azi în relația dintre aceste partide este că ele doresc să continue.
 
-[ND] Cu acel referendum pe pe justiție ați găsit soluția pentru chestionarea magistraților?
+Cu acel referendum pe pe justiție ați găsit soluția pentru chestionarea magistraților?
 
-[ND] Am început.
+Am început.
 
 Am început și suntem în analiza unui sistem informatic care să fie cât mai cum să spun eu, în care anonimitatea celor care participă la sondaj să fie la ăă acest aceast referendum, consultare, cum vreți să spuneți să fie cât mai bine protejată.
 
 În momentul în care o să avem soluția informatică, vă anunțăm.
 
-[ND] Ce terminal ați vrut să dați prin vizita de astăzi de la Iași?
+Ce terminal ați vrut să dați prin vizita de astăzi de la Iași?
 
 Pentru că în ultimii ani n au prea venit politicieni de la centru și de ce credeți că dumneavoastră și ministrul apărării sunteți singurii politicieni de la vârful țării care au acceptat invitațiile?
 
-[ND] Eu am fost invitat, am venit. este o sărbătoare importantă și așa cum am spus și când de la microfon și dumneavoastră mai devreme cred că e importantă în momentele de îndoială pe care noi ca societate le avem acum să ne aducem aminte de acele momente istorice demne din istoria noastră și să le onorăm.
+Eu am fost invitat, am venit. este o sărbătoare importantă și așa cum am spus și când de la microfon și dumneavoastră mai devreme cred că e importantă în momentele de îndoială pe care noi ca societate le avem acum să ne aducem aminte de acele momente istorice demne din istoria noastră și să le onorăm.
 
-[JURNALIST] Domnul președinte, am stat de vorbă cu mulți bădeni care au început să plângă că nu au bani să și plăgească taxele, impozitele și că toate s au scumpit.
+Domnul președinte, am stat de vorbă cu mulți bădeni care au început să plângă că nu au bani să și plăgească taxele, impozitele și că toate s au scumpit.
 
 Ce aveți să le spuneți acestor variant?
 
-[ND] Da, nu e greu, nu e nu e ușor, să știți.
+Da, nu e greu, nu e nu e ușor, să știți.
 
 Nu e ușor și trebuie să înțelegem cu toții chestiunea asta.
 

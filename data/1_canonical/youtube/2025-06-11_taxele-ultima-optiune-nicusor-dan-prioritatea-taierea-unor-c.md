@@ -1,11 +1,8 @@
 ---
 data: 2025-06-11
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=HxVa-FWlWy4
 sursa_aprecieri: 511
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1749627666
 sursa_video_id: HxVa-FWlWy4
 sursa_vizionari: 25176
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Nu e un blocaj, e o discuție tehnică cu efecte, evident, care continuă.
+Nu e un blocaj, e o discuție tehnică cu efecte, evident, care continuă.
 
 Am spus că este o posibilitate de semnarea primului ministru în această săptămână, o posibilitate care rămâne, dar e o posibilitate, nu o promisiune.
 

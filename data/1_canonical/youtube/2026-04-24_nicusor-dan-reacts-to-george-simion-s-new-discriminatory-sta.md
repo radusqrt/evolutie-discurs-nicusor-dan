@@ -1,11 +1,8 @@
 ---
 data: 2026-04-24
-metoda: heuristic diarization (format=markers, 25 ND segments, 2 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=O8LrvjIpDXc
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1777041784
 sursa_video_id: O8LrvjIpDXc
 sursa_vizionari: 9156
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Bineînțeles, ca de obicei, state care vor să cheltuiască mai mult, altele care vor mai puțin.
+Bineînțeles, ca de obicei, state care vor să cheltuiască mai mult, altele care vor mai puțin.
 
 Pentru România mesajele noastre au fost: Ne dorim un buget ambițios, mare, astfel încât toate chestiunile care preocupă Europa să se întâmple: securitate, competitivitate, să nu uităm de agricultură și de coeziune și să nu uităm de flancul estic.
 
@@ -50,9 +47,9 @@ Deci [sforăit] pentru prima oară este o să spunem o inversare în ceea ce pri
 
 Am vorbit și de necesitățile pe care [sforăit] Ucraina le are, dar a fost exprimat un consens de a susține în continuare această cauză și a fost o discuție foarte nuanțată care ne interesează din perspectiva faptului că intrarea Ucrainei în Uniune este conexată cumva cu intrarea Moldovei despre despre cum să privim cu toții procesul de aderare și cu în special despre Ucraina s a vorbit, dar discuția este generală și despre Balcanii de Vest.
 
-[ND] [sforăit]
+[sforăit]
 
-[ND] Iar azi a fost o cină de lucru cu mai mulți șefi de stat din zona Golfului.
+Iar azi a fost o cină de lucru cu mai mulți șefi de stat din zona Golfului.
 
 Despre ce este de făcut pentru a stabiliza regiunea.
 
@@ -62,7 +59,7 @@ Pe scurt, asta a fost consiliul.
 
 Sunt sigur că aveți întrebări.
 
-[ND] Bună ziua.
+Bună ziua.
 
 Bună ziua, domnule președinte.
 
@@ -74,7 +71,7 @@ Dacă în cazul Ucrainei premierul Croației a spus că nu putem vorbi de o ader
 
 Aș vrea să vă întreb dacă Republica Moldova fiind o țară mică ar putea avea parte de acest proces de aderare mai accelerat și dacă România poate ajuta într un fel.
 
-[ND] Aici este o discuție, trebuie s o ascundem.
+Aici este o discuție, trebuie s o ascundem.
 
 Este o discuție despre așa numita cuplare de cuplare între cele două țări.
 
@@ -88,23 +85,23 @@ Discuția continuă în parametrii ăștia nu s au înregistrat.
 
 Singura singurul lucru nou față de ce știam până acum este poziția Ungariei, care după cum știți, a deblocat și pachetul de sancțiuni și împrumută.
 
-[ND] Și dacă mai permiteți o o întrebare apropo de poziția Ungariei care s a schimbat, cum comentați dumneavoastră afirmația premierului polonez Donald Trus, care a spus că e prima dată când nu mai sunt ruși în sală?
+Și dacă mai permiteți o o întrebare apropo de poziția Ungariei care s a schimbat, cum comentați dumneavoastră afirmația premierului polonez Donald Trus, care a spus că e prima dată când nu mai sunt ruși în sală?
 
 N am auzit declarația asta, dar în fine.
 
 E [sforăit] o persoană cu simțul umului.
 
-[ND] Bună ziua, Fan Vasilescu Roms România.
+Bună ziua, Fan Vasilescu Roms România.
 
 Legat de criza carburanților, după întâlnirile de pe aceste zile, ați primit noi date sau noi actualizări legat de aprovizionarea cu chirosena țărilor europene și dacă există într adevăr un risc să vedem mai multe zboruri anulate în această vară pornind de la această criză sau toate discuțiile de până acum au fost cumva exagerate?
 
 Există probleme pe termen scurt și există o perspectivă îngrijorătoare pe termen mediu și în discuția care s a purtat, care a fost aseară legată de situația din Orientul Mijlociu, s a discutat și de energie, dar s a discutat mai mult mult de problema imediată și în perspectivă pentru că sunt semnalele acestea îngrijorătoare care vin de la Agenția Internațională pentru Energie și de la alți specialiști a rămas că o să avem o discuție viitoare urmând evident să vedem toate evenimentele pe termenul mediu
 
-[ND] și avem și în România un risc să vedem anulri zboruri în perioada următoare.
+și avem și în România un risc să vedem anulri zboruri în perioada următoare.
 
 Ați primit informări în acest
 
-[ND] După cum știți, am avut am avut o întâlnire, cred că sunt două sau trei săptămâni de atunci și cu primul ministru și cu ministrul transporturilor și cu ministrul energiei și cu niște companii mari care operează pe piața din România.
+După cum știți, am avut am avut o întâlnire, cred că sunt două sau trei săptămâni de atunci și cu primul ministru și cu ministrul transporturilor și cu ministrul energiei și cu niște companii mari care operează pe piața din România.
 
 Nu există risc pe termen scurt, adică de ordinul trei, patru luni de acum încolo nu suntem afectați de ceva.
 
@@ -116,7 +113,7 @@ George Simion, fostul dumneavoastră adversar din campania prezidențială, a de
 
 În ce notă vedeți toate aceste declarații?
 
-[ND] Bun, declarația ultima pe care o faceți e sub orice nivel de dialog.
+Bun, declarația ultima pe care o faceți e sub orice nivel de dialog.
 
 Adică noi, politicienii, [sforăit] reprezentăm în urma votului niște categorii de oameni.
 
@@ -128,7 +125,7 @@ Noi trebuie să ne întoarcem la argumente.
 
 Asta e.
 
-[ND] Bună ziua, Lorenț Ungureanu Hornț.
+Bună ziua, Lorenț Ungureanu Hornț.
 
 Domnule președinte, vreau să vă întrebări despre criza de acasă pentru că toată lumea așteaptă o soluție cât mai rapidă la la această criză și la prima vedere nu sunt foarte multe variante.
 
@@ -148,17 +145,17 @@ Există însă persoane care așteaptă de la dumneavoastră mai multă fermitat
 
 Lor ce le răspundeți?
 
-[ND] Pot să le răspund cu fermitate că sunt mediator.
+Pot să le răspund cu fermitate că sunt mediator.
 
 Altceva nu pot să le spun.
 
-[ND] Primă întrebare, dacă mi permiteți, pentru că domnul Ilie Bolojan ne a întrebat ce mesaj are pentru dumneavoastră.
+Primă întrebare, dacă mi permiteți, pentru că domnul Ilie Bolojan ne a întrebat ce mesaj are pentru dumneavoastră.
 
 A spus drum bun la întoarcerea către țară.
 
 Ăă, dumneavoastră aveți un mesaj pentru domnia sa și, mă rog, vreau să vă întreb dacă în această perioadă considerați că relațiile cu domnia sa au devenit mai bune sau mai rele?
 
-[ND] Nu, [sforăit] niciodată personal, adică tot timpul personal au fost cordiale.
+Nu, [sforăit] niciodată personal, adică tot timpul personal au fost cordiale.
 
 Da, aici vorbim de o chestiune instituțională.
 
@@ -172,13 +169,13 @@ Ce mesaj primiți dumneavoastră prin faptul că PSD a plecat de la guvernare do
 
 A rămas av
 
-[ND] Da, nu [sforăit] vreau să comentez prea mult.
+Da, nu [sforăit] vreau să comentez prea mult.
 
 Îmi chipui că e un gest politic, nu?
 
 Adică cu care urmează un alt gest politic, acela de al retragerii încrederii în primul ministru.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Ana din România actualități.
 
@@ -190,11 +187,11 @@ Bun.
 
 Din nou, pentru că sunt, bineînțeles că am o opinie, dar pentru că vreau să mi păstrez cu fermitate postura de mediatoră, n o să vă spun decât că îmi cereți să compar două scenarii și nu pot să fac asta. sau cel puțin în momentul ăsta, în momentul în care vom avea o stabilitate și ne vom pune o problemă peste un an de zile, atunci o să pot să mi dau o părere ca să nu influențez discuțiile între actori.
 
-[ND] Și despre ce a spus premierul că guvernul va lucra mai ieftin cu mai puțin?
+Și despre ce a spus premierul că guvernul va lucra mai ieftin cu mai puțin?
 
 La fel este, mă pune să compar între două scenarii administrative
 
-[ND] și aș vrea să vă întreb, după reuniunea care s a încheiat astăzi, ați observat că ar exista o îngrijorare la nivel european privind evoluțiile politice din România și credeți că este posibil ca actuala criză politică din țară să ridice semne de întrebare pentru investitori și să crească și mai mult costurile de împrumut ale dumneavoastră?
+și aș vrea să vă întreb, după reuniunea care s a încheiat astăzi, ați observat că ar exista o îngrijorare la nivel european privind evoluțiile politice din România și credeți că este posibil ca actuala criză politică din țară să ridice semne de întrebare pentru investitori și să crească și mai mult costurile de împrumut ale dumneavoastră?
 
 Nu, să știți că ăă am avut ă în fine, cum se întâmplă pe culoare, așa, stai de vorbă cu multă lume.
 
@@ -206,13 +203,13 @@ Nimeni n a fost în vreun fel de panică.
 
 Și mesajul meu cel mai important a fost că continuăm direcția procidentală și nu ne atingem de sau nu aceste tensiuni nu afectează discuțiile pe SAV și pe PNRR care vizează uniunea.
 
-[JURNALIST] Bună ziua, domnule președinte Vasile Malcontenat XN.
+Bună ziua, domnule președinte Vasile Malcontenat XN.
 
 V ați trimis premierul aseară demisiile miniștrilor social democrați și propunerile de înlocuire de interimat.
 
 V ați decis, le semnați astăzi, mâine, deci din această privință?
 
-[ND] Da.
+Da.
 
 Aceste ăă propuneri au venit după ce eu am vorbit cu dumneavoastră aseară.
 
@@ -222,11 +219,11 @@ Aceste ăă propuneri au venit după ce eu am vorbit cu dumneavoastră aseară.
 
 Peste zi, colegii mei s au uitat pe ele, au întocmit proiectele de decrete de revocare, respectiv numire și acum în drum spre avion o să mă uit și eu pe ce au lucrat, adică să fac o mică verificare și dacă totul e în regulă le voi semna
 
-[ND] acum înainte de a ajunge în țară.
+acum înainte de a ajunge în țară.
 
-[ND] Da.
+Da.
 
-[ND] Și ce ați vrut să spuneți aseară că săptămâna viitoare voi avea o opțiune la care voi participa?
+Și ce ați vrut să spuneți aseară că săptămâna viitoare voi avea o opțiune la care voi participa?
 
 E vorba despre noi constructori discuții cu liderii coaliției la Cotrăceni.
 
@@ -238,7 +235,7 @@ Despre asta e vorba.
 
 Vă așteptați ca la sfârșitul anului să fie inflație mare și noi taxe pentru români
 
-[ND] pentru moment și asta e o bilă albă că această criză a apărut după votul pe buget. că putea apărea înainte și toată discuția pe buget să fie foarte populistă și să ne scoată din parcursul nostru fiscal pe care ni l am asumat în relația cu comisia.
+pentru moment și asta e o bilă albă că această criză a apărut după votul pe buget. că putea apărea înainte și toată discuția pe buget să fie foarte populistă și să ne scoată din parcursul nostru fiscal pe care ni l am asumat în relația cu comisia.
 
 Deci pentru 2026 noi avem un buget și nimeni nu a avem un buget care a fost votat acum câteva săptămâni și nimeni nu a spus că vrea să schimbe această traiectorie pe 2026 și sunt optimist că cu colaborare cât se poate n o să fim în situația la sfârșitul lui 2026 să mergem în direcția de taxe.
 
@@ -246,17 +243,17 @@ Deci pentru 2026 noi avem un buget și nimeni nu a avem un buget care a fost vot
 
 Spuneați dumneavoastră că nu veți desemna un premier din partea unei coaliții, eventuale coaliții PSD aur, dar din partea unei eventuale coaliții PNL au sau un PNL susținut din Parlament de AUR?
 
-[ND] Nu cred că răspunsul e același.
+Nu cred că răspunsul e același.
 
 Da, răspunsul e același.
 
 Da, totodată cred că e extrem de puțin probabil ca această solicitare să ajungă la mine.
 
-[ND] Da, dar PNL deja a început negocieri cu o parte dintre parlamentarii opoziției, inclusiv cu cei de la OR.
+Da, dar PNL deja a început negocieri cu o parte dintre parlamentarii opoziției, inclusiv cu cei de la OR.
 
 Cum vedeți atunci aceste discuții pentru susținerea unui guvern minoritar cu parlamentari AUR și opoziție?
 
-[ND] Bun.
+Bun.
 
 Bun. în această aur este are multe defecte, dar este totuși un partid.
 

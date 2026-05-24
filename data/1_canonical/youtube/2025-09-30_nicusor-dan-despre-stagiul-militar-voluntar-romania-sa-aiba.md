@@ -1,11 +1,8 @@
 ---
 data: 2025-09-30
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=dzLzj4C-LHE
 sursa_aprecieri: 21
 sursa_canal: Euronews Romania
@@ -22,19 +19,19 @@ sursa_upload_timestamp: 1759245509
 sursa_video_id: dzLzj4C-LHE
 sursa_vizionari: 1930
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Ce ne puteți spune despre legea pregătirii populației pentru război?
+Ce ne puteți spune despre legea pregătirii populației pentru război?
 
 Înțelegem că este un proiect avizat deja de către CSAT și dacă există sau nu un termen pentru Parlament, pentru o un accent, pentru un acord sau un dezacord, de ce nu?
 
 Și bineînțeles, dacă ne puteți oferi în același timp și mai multe detalii despre această lege, ce semnifică, ce introduce, ce reintroduce.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[ND] Da, da, da, da.
+Da, da, da, da.
 
 Ăă lucrul cel mai important, bine, sunt multe corelări pentru că legea asta se referă la tot spectrul pregătirii populației.
 

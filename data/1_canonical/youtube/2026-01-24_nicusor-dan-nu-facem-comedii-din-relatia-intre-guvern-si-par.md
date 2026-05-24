@@ -1,11 +1,8 @@
 ---
 data: 2026-01-24
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=gPMWGYJDiJE
 sursa_aprecieri: 8
 sursa_canal: Antena 3 CNN
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1769266349
 sursa_video_id: gPMWGYJDiJE
 sursa_vizionari: 1043
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Nicușordan susține că nu va numi un nou premier și aduce în discuție acordul dintre cele patru partide aflate în coaliție.
+Nicușordan susține că nu va numi un nou premier și aduce în discuție acordul dintre cele patru partide aflate în coaliție.
 
 Astfel, șeful statului a reamintit faptul că în protocolul stabilit este menționat faptul că PNL are funcția de premier până în primăvară anului 2027.
 
@@ -37,13 +34,13 @@ Altfel, guvernul nu se duce în fața Parlamentului.
 
 Nu facem comedii din relația între guvern și Parlament. dumneavoastră îl mai susțineți pe premierul Ilie Bolojan.
 
-[ND] În momentul acesta există o coaliție de guvernare formată din patru partide.
+În momentul acesta există o coaliție de guvernare formată din patru partide.
 
 În mod democratic, ele au ales un guvern.
 
 Gu susțineți pe premierul Bănu
 
-[ND] în acest moment este o coaliție care susține un guvern.
+în acest moment este o coaliție care susține un guvern.
 
 Eu lucrez cu aceasta autoritate a statului.
 

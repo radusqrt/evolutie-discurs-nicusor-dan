@@ -1,11 +1,8 @@
 ---
 data: 2025-11-26
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=IQ8cashLPB8
 sursa_aprecieri: 26
 sursa_canal: B1
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1764162904
 sursa_video_id: IQ8cashLPB8
 sursa_vizionari: 1030
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] În ceea ce privește riscurile și vulnerabilitățile interne, aș insista pe capacitatea redusă a administrației publice pe multiple planuri și o să dezvolt când o să vorbesc de soluții. corupție, de asemenea, evaziunea fiscală de mare amploare, calitatea educației, gândirea critică și abandonul școlar din această sferă, declinul demografic și fragmentarea politicilor statului în zona de tehnologie.
+În ceea ce privește riscurile și vulnerabilitățile interne, aș insista pe capacitatea redusă a administrației publice pe multiple planuri și o să dezvolt când o să vorbesc de soluții. corupție, de asemenea, evaziunea fiscală de mare amploare, calitatea educației, gândirea critică și abandonul școlar din această sferă, declinul demografic și fragmentarea politicilor statului în zona de tehnologie.
 
 Avem de asemenea un nivel relativ scăzut în zona de cercetare, dezvoltare, inovare.
 
@@ -78,11 +75,11 @@ Vom sprijini în continuare Ucraina.
 
 Vom susține de asemenea
 
-[ND] securitatea în zona Balcanilor de Vest și vom susține integrarea în Uniunii Europene a vecinilor noștri.
+securitatea în zona Balcanilor de Vest și vom susține integrarea în Uniunii Europene a vecinilor noștri.
 
 Este o condiție a stabilității noastre viitoare.
 
-[ND] Vă rog să faceți liniște.
+Vă rog să faceți liniște.
 
 Marea Neagră.
 

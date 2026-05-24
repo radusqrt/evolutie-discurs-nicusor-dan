@@ -1,11 +1,8 @@
 ---
 data: 2025-06-04
-metoda: heuristic diarization (format=intros, 1 ND segments, 22 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=_nW6-67gVfM
 sursa_aprecieri: 208
 sursa_canal: Privesc.Eu România
@@ -19,11 +16,11 @@ sursa_upload_timestamp: 1749025529
 sursa_video_id: _nW6-67gVfM
 sursa_vizionari: 6542
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Bună dimineața.
+Bună dimineața.
 
 Putem începe?
 
@@ -87,7 +84,7 @@ Vă mențineți acea declarație referitoare la TVA că nu va crește?
 
 Bună ziua, Octavian Vasilescu, Euronews, România.
 
-[JURNALIST] Domnule președinte, anul trecut ați folosit o pizza pentru a le explica bucureștenilor felie cu felie cum se împart banii din bugetul local.
+Domnule președinte, anul trecut ați folosit o pizza pentru a le explica bucureștenilor felie cu felie cum se împart banii din bugetul local.
 
 Acum, după ce ați văzut datele de la Ministerul Finanțelor, cum arată acea pizza și pe unde merg cele mai mari felii și ce tăieri credeți că s ar putea face astfel încât oamenii să nu fie afectați direct de măsurile pe care le va lua noul guvern?
 
@@ -131,7 +128,7 @@ Deci el, chiar dacă în discuțiile cu Comisia Europeană sumele alea nu sunt n
 
 Da.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Marius Gârlașiu, Observator Antena 1.
 
@@ -145,7 +142,7 @@ Aseară a apărut un plan discutat în grupul de lucru cu propunerile partidelor
 
 De ce trebuie să plătească românii ceea ce au produs partidele care vin acum la guvernare?
 
-[JURNALIST] Domnule președinte, da, mai multe întrebări pe care mi le ați pus.
+Domnule președinte, da, mai multe întrebări pe care mi le ați pus.
 
 În primul rând ăsta este configurația Parlamentului.
 
@@ -225,7 +222,7 @@ Nu, din câte îmi aduc aminte, nu stăpânesc foarte bine domeniul, dar din câ
 
 Și cum veți face asta?
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Vasile Marcu, Antena 3.
 
@@ -279,7 +276,7 @@ Eu cred că amenințarea rusă este pentru întreaga Europă și atunci e foarte
 
 Bună ziua, Mădălin Puiu, România TV.
 
-[JURNALIST] Domnule președinte, vedem că România are unele dintre cele mai mici pensii din Uniunea Europeană.
+Domnule președinte, vedem că România are unele dintre cele mai mici pensii din Uniunea Europeană.
 
 Cu toate acestea, liderii politici, l am auzit pe Ilie Bolojan, pe ministrul de finanțe, Tanțoș Barna, care spuneau că o variantă luată în calcul în momentul de față este aceea prin care pensionarii cu pensii mai mari să plătească contribuția la sănătate.
 
@@ -317,11 +314,11 @@ Bineînțeles că ăă este în sarcina viitorului guvern să înceapă să fac�
 
 Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Loredana Diacu, Epoc România.
 
-[JURNALIST] Domnule președinte, ați vorbit foarte des atât în campania electorală cât și în calitate de șef al statului, inclusiv la summitul de la Vilnius, pe care l ați menționat despre războiul hibrid.
+Domnule președinte, ați vorbit foarte des atât în campania electorală cât și în calitate de șef al statului, inclusiv la summitul de la Vilnius, pe care l ați menționat despre războiul hibrid.
 
 Ăă spuneați la Vilnius, ca să vă citez, multe dintre țările NATO, nu doar cele din flancul estic, simt ce înseamnă războiul hibrid și evident că și noi și românii au simțit într adevăr din plin în ultima perioadă ce înseamnă războiul hibrid.
 
@@ -355,7 +352,7 @@ Se declară dumnealui convins că Rusia cooerează inclusiv cu politicienii rom�
 
 Convingerea mea personală este că el trebuie să o facă la fel ca în orice altă țară în care există operațiuni hibride.
 
-[JURNALIST] Domnule președinte, suntem în război hibrid nu de câteva luni, ci de niște ani, iar în ultimele luni, exact cum ați remarcat și dumneavoastră, s a întețit.
+Domnule președinte, suntem în război hibrid nu de câteva luni, ci de niște ani, iar în ultimele luni, exact cum ați remarcat și dumneavoastră, s a întețit.
 
 N am văzut niciun politician român, niciun dosar de politician pentru un politician român în alt funcționare al statului sau angajat în instituții de forță, gen servicii, armată, MAI, acuzat de trădare.
 
@@ -371,7 +368,7 @@ Deci ă bineînțeles că ne vom uita la lucrurile astea.
 
 Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Alexandra Alexandrescu de la Realitatea.
 
@@ -401,7 +398,7 @@ Da, e o întrebare foarte pertinentă, așa cum am spus, trebuie să ne asigură
 
 Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte Tudor Curtifan, Defense România Decus.
+Bună ziua, domnule președinte Tudor Curtifan, Defense România Decus.
 
 Voiam să vă întreb în legătură cu relația cu Statele Unite.
 
@@ -425,7 +422,7 @@ Nu a fost o astfel de discuție la Vilnius.
 
 La Odessa o să pregătim din punct de vedere tehnic cu reprezentanții Ucrainei o astfel de discuție.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Marcobadeexlicativ.com.
 
@@ -487,7 +484,7 @@ Asta trebuie să spunem și să repetăm de de câte ori e cazul.
 
 Bună ziua, Laurențiu Ungureanu Hot News.
 
-[JURNALIST] Domnule președinte, vă rugăm să spuneți publicului dacă atunci când ați venit la Cotroceni l ați întâlnit pe generalul Lucian Pahonțu, șeful serviciului de protecție și pază.
+Domnule președinte, vă rugăm să spuneți publicului dacă atunci când ați venit la Cotroceni l ați întâlnit pe generalul Lucian Pahonțu, șeful serviciului de protecție și pază.
 
 Desigur.
 
@@ -575,7 +572,7 @@ Am o listă de nume și voi decide până la moment.
 
 Bună ziua, Ramona Avramescu, Televiziunea Română.
 
-[JURNALIST] Domnule președinte, în discuțiile despre tăierea cheltuielilor publice, un parlamentar USR, fost ministru, domnul Claudiu Năsui, a identificat drept o gaură pentru bugetul public institutele de cercetare.
+Domnule președinte, în discuțiile despre tăierea cheltuielilor publice, un parlamentar USR, fost ministru, domnul Claudiu Năsui, a identificat drept o gaură pentru bugetul public institutele de cercetare.
 
 A făcut o un inventar.
 
@@ -619,7 +616,7 @@ Mulțumesc.
 
 Bună ziua, Iasmina Ardelen, știrile Canal D.
 
-[JURNALIST] Domnule președinte, cât de îndepărtată sau cât de apropiată e reorganizarea administrativ teritorială a României, care știm că ar aduce economii substanțiale la buget?
+Domnule președinte, cât de îndepărtată sau cât de apropiată e reorganizarea administrativ teritorială a României, care știm că ar aduce economii substanțiale la buget?
 
 Sunt mai multe paliere de discuții aici.
 
@@ -669,7 +666,7 @@ Câți oameni să fie câți oameni să fie angajați acolo.
 
 Altfel, din punctul de vedere al greutății politice, al unui eventual ministru al sportului față de directorul agenție, nu cred că e relevant.
 
-[JURNALIST] Bună ziua, domnule președinte Anca Grădinaru, Europa Liberă.
+Bună ziua, domnule președinte Anca Grădinaru, Europa Liberă.
 
 În această după amiază, Comisia Europeană urmează să anunțe care sunt deciziile privind finanțarea României în continuare.
 
@@ -733,11 +730,11 @@ Problema în continuare este că acele cheltuieli vor fi vor intra într un defi
 
 Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Robert Lupițu, Calea Europeană.
 
-[JURNALIST] Domnule președinte, la summitul de luni B9 de la Vilnius ați afirmat, printre altele, că există o îngrijorare privind securitatea pe termen lung în regiunea Mării Negre, inclusiv în Republica Moldova.
+Domnule președinte, la summitul de luni B9 de la Vilnius ați afirmat, printre altele, că există o îngrijorare privind securitatea pe termen lung în regiunea Mării Negre, inclusiv în Republica Moldova.
 
 Recent, Comisia Europeană a prezentat prima sa abordare strategică cu privire la regiunea Mării Negre, un document pentru care Bucureștiul a insistat foarte mulți ani.
 
@@ -811,7 +808,7 @@ E nevoie de un angajament și acest angajament o să vină cu măsuri normative 
 
 Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Robert Barbu, Metropola TV. privind situația militară actuală, de când ați devenit președinte, ați avut discuții pentru a reintroduce armata obligatorie și care sunt șansele în mandatul dumneavoastră să se întâmple acest lucru?
 
@@ -839,7 +836,7 @@ Mulțumesc frumos.
 
 Bună ziua.
 
-[JURNALIST] Domnule președinte Ioana Câmpean, G4 Media, ați spus în discursul de investitură că doriți un proces de reflecție în privința rolului Curții Constituționale.
+Domnule președinte Ioana Câmpean, G4 Media, ați spus în discursul de investitură că doriți un proces de reflecție în privința rolului Curții Constituționale.
 
 Ă voiam să vă întreb dacă vreți să demarați o dezbatere publică în privința rolului și atribuțiilor Curții Constituționale și din punctul dumneavoastră de vedere care ar fi deficiențele în prezent și ce modificări ar trebui aduse legii Curții Constituționale?
 
@@ -891,7 +888,7 @@ Mulțumesc.
 
 Bună ziuan, Sebastian Zacman, Prima TV și agențiws.ro.
 
-[JURNALIST] Domnule președinte, în campanie ați dat însris că nu va crește TVA, însă astăzi n ați mai fost la fel de categoric.
+Domnule președinte, în campanie ați dat însris că nu va crește TVA, însă astăzi n ați mai fost la fel de categoric.
 
 Așadar, dacă viitoarea coaliție de guvernare vine cu această propunere, creșterea TVA la 20 la 21%, ce veți face?
 
@@ -959,7 +956,7 @@ Mulțumesc.
 
 Bună ziua, Robert Hoară Pro TV.
 
-[JURNALIST] Domnule președinte, având în vedere aceste diferențe majore dintre partidele politice și aici mă refer la partea de măsuri fiscale, ce garanție aveți că o viitoare coaliție PSD, PNL, USR DMR nu se va destrăma în următoarele șase luni din cauza unei simple neînțelegeri?
+Domnule președinte, având în vedere aceste diferențe majore dintre partidele politice și aici mă refer la partea de măsuri fiscale, ce garanție aveți că o viitoare coaliție PSD, PNL, USR DMR nu se va destrăma în următoarele șase luni din cauza unei simple neînțelegeri?
 
 Nu există o astfel de garanție.
 
@@ -971,7 +968,7 @@ Mulțumesc.
 
 Bună ziua, Florin Pușcaștiripsurse.ro.
 
-[JURNALIST] Domnule președinte, pentru că sunt ultimul și în această conferință vi s au pus întrebări care exced cu mult competențele președintelui previu de constituție, la fel ca în dezbaterile din campania electorală.
+Domnule președinte, pentru că sunt ultimul și în această conferință vi s au pus întrebări care exced cu mult competențele președintelui previu de constituție, la fel ca în dezbaterile din campania electorală.
 
 Aș dori să vă întreb doar dacă vedeți necesar în următorii 10 ani, să spunem, o reformă constituțională care să prevadă o modificare a atribuțiilor președintelui, cel puțin în următorii câțiva ani, nu?
 

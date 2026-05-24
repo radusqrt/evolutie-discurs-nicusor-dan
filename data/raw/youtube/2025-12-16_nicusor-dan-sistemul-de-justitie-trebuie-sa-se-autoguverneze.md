@@ -1,11 +1,8 @@
 ---
 data: 2025-12-16
-metoda: heuristic diarization (format=markers, 5 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=HGgB3NHs5fQ
 sursa_aprecieri: 79
 sursa_canal: Euronews Romania
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1765907461
 sursa_video_id: HGgB3NHs5fQ
 sursa_vizionari: 3507
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Și ăă bineînțeles, pentru că a fost această discuție la Berlin ă alaltă ieri și ieri ă am avut o informare despre cum merg și o informare și o discuție despre cum să ne coordonăm cu acest proces în evoluție pe războiul din Ucraina.
+Și ăă bineînțeles, pentru că a fost această discuție la Berlin ă alaltă ieri și ieri ă am avut o informare despre cum merg și o informare și o discuție despre cum să ne coordonăm cu acest proces în evoluție pe războiul din Ucraina.
 
 Astea au fost subiectele importante și au mai fost câteva mai mici întrebări.
 
@@ -47,7 +44,7 @@ Toată chestiunea este de cât de bine vor fi reprezentate interesele României 
 
 Sunt foarte, foarte optimist că în acest format o să reușim să fructificăm oportunitățile care vin din programele europene.
 
-[ND] Bună ziua, Oana Bâlă, Radio România, Actualități.
+Bună ziua, Oana Bâlă, Radio România, Actualități.
 
 Secretarul general al NATO, Marc Rute, a afirmat recent într un discurs că Rusia ar putea folosi forța militară împotriva alianței în următorii cinci ani și a îndemnat țările aliate să și intensifice eforturile de apărare și să se înarmeze.
 
@@ -57,7 +54,7 @@ Cum privește România ca țară membră a NATO acest avertisment venit din part
 
 Care este poziția României vizavi de această inițiativă?
 
-[ND] Da.
+Da.
 
 În primul rând este o necesitate.
 
@@ -81,7 +78,7 @@ Vă mai păstrați opinia ca toate aceste probleme trebuie rezolvate strict din 
 
 Vă mulțumesc.
 
-[ND] Da.
+Da.
 
 Păi, după cum știți, am anunțat pentru luni o discuție cu magistrații, cu reprezentanți ai magistraților care doresc să sesizeze probleme în sistemul de justiție.
 
@@ -103,7 +100,7 @@ Domnule președinte, PSD a votat ieri moțiunea simplă inițiată de AUR împot
 
 Este acesta un semnal că lucrurile în coaliție nu mai funcționează cum trebuie și cum va merge în continuare coaliția fără o demisie din partea ministrului mediului?
 
-[ND] O o o o ă Nu văd legătura.
+O o o o ă Nu văd legătura.
 
 Bun.
 

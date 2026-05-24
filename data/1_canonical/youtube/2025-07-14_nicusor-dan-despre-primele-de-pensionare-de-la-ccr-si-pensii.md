@@ -1,11 +1,8 @@
 ---
 data: 2025-07-14
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=znZm7TeOOHs
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -18,11 +15,11 @@ sursa_upload_timestamp: 1752495764
 sursa_video_id: znZm7TeOOHs
 sursa_vizionari: 51374
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] O chestiune importantă pentru că vom vorbi în setul al doilea de măsuri de pensiile speciale ale magistraților.
+O chestiune importantă pentru că vom vorbi în setul al doilea de măsuri de pensiile speciale ale magistraților.
 
 A fost o greșeală uriașă a politicului în momentul în care ăă pensia a ajuns să fie mai mare decât salarii.
 

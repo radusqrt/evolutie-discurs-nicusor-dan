@@ -1,11 +1,8 @@
 ---
 data: 2025-12-16
-metoda: heuristic diarization (format=markers, 4 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=a1tXYYBmw48
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1765880512
 sursa_video_id: a1tXYYBmw48
 sursa_vizionari: 2423
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Acum mergem la Haga, unde președintele ucrainean Volodimir Zelenschi, îl vedeți în imagini, susține un discurs în Parlamentul olandez.
+Acum mergem la Haga, unde președintele ucrainean Volodimir Zelenschi, îl vedeți în imagini, susține un discurs în Parlamentul olandez.
 
 Mai târziu, liderul de la Kiev va participa la o conferință la nivel înalt de lansare a unei comisii internaționale dedicate compensațiilor pentru Ucraina.
 
@@ -40,15 +37,15 @@ Nicușor Dan este pesimist cu privire la intențiile Rusiei de a face pace cu Uc
 
 Președintele a mai subliniat că este important ca Ucraina să fie sprijinită în negocierile din această perioadă, dar și să primească ajutor pentru a rezista pe linia frontului.
 
-[ND] Ce este important pentru noi este să oferim Ucrainei posibilitățile pentru a avea pentru a avea un spate în negocierile pe care le desfășoară.
+Ce este important pentru noi este să oferim Ucrainei posibilitățile pentru a avea pentru a avea un spate în negocierile pe care le desfășoară.
 
 Eu personal sunt destul de pesimist cu privire la intenția Rusiei de a de a avea o pace în perioada imediat următoare.
 
 Ce e important pentru noi acum este pe de o parte să sprijinim Ucraina pentru ca să păstreze linia frontului
 
-[ND] și în tot acest timp ani care urmează să ne înarmăm astfel încât să descurajăm orice potențială agresiune viitoare.
+și în tot acest timp ani care urmează să ne înarmăm astfel încât să descurajăm orice potențială agresiune viitoare.
 
-[ND] Haideți să vedem acum practic ce se întâmplă în aceste negocieri despre care discutăm.
+Haideți să vedem acum practic ce se întâmplă în aceste negocieri despre care discutăm.
 
 Ar fi progrese importante înregistrate în aceste negocieri de pace.
 

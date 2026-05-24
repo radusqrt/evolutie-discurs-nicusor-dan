@@ -1,11 +1,8 @@
 ---
 data: 2026-04-17
-metoda: heuristic diarization (format=markers, 10 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=q_4BHbK2INo
 sursa_aprecieri: 30
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1776410388
 sursa_video_id: q_4BHbK2INo
 sursa_vizionari: 2556
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Călin Georgescu a fost susținut în alegerile prezidențiale de o infrastructură creată de Federația Rusă.
+Călin Georgescu a fost susținut în alegerile prezidențiale de o infrastructură creată de Federația Rusă.
 
 Sunt cuvintele președintelui Nicușor Dan.
 
@@ -39,28 +36,28 @@ Fără discuție, Călin Georgescu a fost susținut de o infrastructură creată
 
 Dar
 
-[ND] aveți dovezi acum?
+aveți dovezi acum?
 
 Ați ați văzut dovezile cu ochii dumneavoastră?
 
-[ND] Sigur că da. 90% din lucrurile pe care le știu pe alegeri sunt lucruri care pot să fie făcute publice și pe care le vom face publice într o într un mod sistematic.
+Sigur că da. 90% din lucrurile pe care le știu pe alegeri sunt lucruri care pot să fie făcute publice și pe care le vom face publice într o într un mod sistematic.
 
-[ND] Și altceva nou pe acest
+Și altceva nou pe acest
 
-[ND] și o să fie nici cine niște lucruri noi.
+și o să fie nici cine niște lucruri noi.
 
 Da.
 
-[ND] Când ieșiți cu acest raport?
+Când ieșiți cu acest raport?
 
-[ND] Nu vreau să dau un termen acum.
+Nu vreau să dau un termen acum.
 
-[ND] Până la finalul verii, până la finalul anului,
+Până la finalul verii, până la finalul anului,
 
-[ND] anul acesta categoric.
+anul acesta categoric.
 
 Da,
 
-[ND] categoric.
+categoric.
 
 Mhm.

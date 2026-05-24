@@ -1,11 +1,8 @@
 ---
 data: 2026-01-24
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=m_9l7KDQDNg
 sursa_aprecieri: 627
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1769262173
 sursa_video_id: m_9l7KDQDNg
 sursa_vizionari: 24985
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] În primul rând, aveți respectul meu pentru că e un gest democratic care îl faceți.
+În primul rând, aveți respectul meu pentru că e un gest democratic care îl faceți.
 
 În al doilea rând, aveți simpatia mea, pentru că și eu am uuit de mai multe ori politicieni.
 

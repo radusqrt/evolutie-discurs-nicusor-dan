@@ -1,11 +1,8 @@
 ---
 data: 2026-04-29
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=-odzyBHbVFA
 sursa_aprecieri: 64
 sursa_canal: Antena 3 CNN
@@ -17,11 +14,11 @@ sursa_upload_timestamp: 1777457987
 sursa_video_id: -odzyBHbVFA
 sursa_vizionari: 10470
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] mâniei.
+mâniei.
 
 Da.
 
@@ -35,7 +32,7 @@ Suspendarea este un mecanism foarte serios. în care parlamentul și apoi cetă�
 
 Nu suntem deloc acolo.
 
-[ND] Păi, tocmai în acest context, dacă PSD și cu AUR dau jos guvernul și decid să continue pentru formarea unei alianțe, veți refuza să desemnați un premier din partea unei astfel de alianțe și atunci ați ați ați fi în situația asta constituțională?
+Păi, tocmai în acest context, dacă PSD și cu AUR dau jos guvernul și decid să continue pentru formarea unei alianțe, veți refuza să desemnați un premier din partea unei astfel de alianțe și atunci ați ați ați fi în situația asta constituțională?
 
 În primul rând că scenariul teoretic de care vorbiți este extrem de puțin probabil.
 

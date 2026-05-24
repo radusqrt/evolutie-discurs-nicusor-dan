@@ -1,11 +1,8 @@
 ---
 data: 2026-03-05
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=r6-lT9fqvBU
 sursa_aprecieri: 2
 sursa_canal: B1
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1772741197
 sursa_video_id: r6-lT9fqvBU
 sursa_vizionari: 225
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Recent s au făcut propuneri pentru șefia marilor parchete din România și este așteptat avizul CSM.
+Recent s au făcut propuneri pentru șefia marilor parchete din România și este așteptat avizul CSM.
 
 Întrebarea este, chiar dacă ar fi un aviz pozitiv, chiar dacă ar fi un aviz negativ din partea CSM, dumneavoastră veți face o analiză personală a acestor acestor numiri, mai ales în contextul în care în societatea civilă există plângeri și reacții privind anumite numiri.
 

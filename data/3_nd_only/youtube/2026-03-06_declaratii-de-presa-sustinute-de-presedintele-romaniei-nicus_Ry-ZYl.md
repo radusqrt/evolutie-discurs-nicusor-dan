@@ -1,0 +1,200 @@
+---
+data: 2026-03-06
+metoda: LLM diarize (gemini-2.5-flash) + ND-only projection
+nota: 'Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/. | PROJECT: 90 ND segments
+  kept, 47 other dropped'
+sursa: https://www.youtube.com/watch?v=Ry-ZYln5a5I
+sursa_aprecieri: 17
+sursa_canal: Privesc.Eu România
+sursa_canal_filter: Privesc.Eu (search ND)
+sursa_descriere: Declarații de presă susținute de Președintele României, Nicușor Dan
+sursa_durata_secunde: 1441
+sursa_titlu: Declarații de presă susținute de Președintele României, Nicușor Dan
+sursa_upload_timestamp: 1772782373
+sursa_video_id: Ry-ZYln5a5I
+sursa_vizionari: 1078
+tip: video-transcript
+verificat: true
+vorbitor: nicusor_dan
+---
+
+Bună seara.
+
+Vizită oficială în Polonia, în cursul căreia ne am întâlnit cu președintele, cu primul ministru și cu șefii celor două camere ale Parlamentului.
+
+Discuții comune cu fiecare dintre ei pe patru teme importante: securitate, economie, relații externe și Uniunea Europeană.
+
+Încep prin a spune că România și Polonia au în acest moment o caracteristic similare.
+
+Sunt țări mari pe frontiera de est implicate în NATO, țări care au profitat, care s au dezvoltat în urma aderării la Uniunea Europeană. țări care încurajează parteneriatul transatlantic, inclusiv în interiorul Uniunii și țări care pot să profite din faptul că au pe foarte multe domenii o viziune comună, inclusiv în interiorul Uniunii, pe ceea ce înseamnă competitivitate, în raportarea la ăă strategiile verzi ale Uniunii.
+
+Pe zona de securitate deja există o colaborare între armatele noastre.
+
+Noi suntem prezenți în Polonia, trupe poloneze sunt prezente în în România.
+
+Am vorbit de achiziții comune, am vorbit de a fructifica împreună programul Safe.
+
+Polonia este prima țară ca volum.
+
+România este a doua.
+
+Am vorbit, cum am zis, de producții comune.
+
+Am vorbit de Forumul B9, care va avea loc în București.
+
+După cum știți, este o inițiativă a României și a Poloniei, începută acum aproximativ 10 ani.
+
+Și am vorbit de colaboră.
+
+Ne interesează foarte mult, după cum știți, Marea Neagră, așa cum Polonia este interesată de marea baltică și am vorbit de un schimb de experiențe pe cum să facem acel hub de securitate la Marea Neagră, care este important pentru România.
+
+Pe zona economică, Polonia a reconfirmat sprijinul pentru aderarea României la OCD.
+
+Am vorbit de cum să dezvoltăm investițiile de oportunități comune de investiții.
+
+Am uitat să menționez că în urmă cu două ore am participat și la un forum de afaceri româno polonez cu peste 100 de companii poloneze interesate de dezvoltarea relațiilor cu România.
+
+Am vorbit de ședința viitoare comună a celor două guverne, ocazie cu care să facem și un mare forum de afaceri.
+
+Pe partea de politică externă am vorbit foarte mult de Moldova și de Ucraina și de procesul de aderare al fiecăreia, iar de Ucraina, evident, de sprijinul pe războiul care este în desfășurare. iar pe partea de Uniune Europeană, politice europene de interesul nostru pentru viitorul cadru financiar multianual, lucru pe care l am spus de mai multe ori, Europa trebuie să devină competitivă, dar acest și e foarte bine că Europa își propune să pună mulți bani pe inovare și pe concursuri care se ducă în zona de cercetare, inovare.
+
+Numai că asta nu trebuie să adâncească decalajul între țări mai dezvoltate și mai puțin dezvoltate și trebuie să găsim niște criterii astfel încât bani pentru cercetare, dezvoltare să ducă și către țări mai puțin dezvoltate.
+
+Cam atât din perspectiva mea.
+
+După cum știți, prima doamnă are un proiect România în lumină cu mai multe componente sociale.
+
+Una din componentele acestea în parteneriat, inclusiv cu Ministerul Sănătății din România, este atacarea problemei adicțiilor, în special la copii și tineri și a s a întâlnit cu Centrul Național Polonez pentru Prevenirea Adicțiilor și cu o fundație care se ocupă de același lucru pentru copii.
+
+În rezumat, Polonia și România acționând împreună au multe oportunități pe toate planurile: Securitate, economic, politic și tipul acesta de întâlniri oferă o deschidere pentru alinieri viitoare cu benefici beneficii pentru ambele țări.
+
+Vă rog.
+
+Da, după cum știți și la Vilnius în urmă cu un an au fost invitate țările nordice.
+
+Finlanda a fost acolo, Suedia a fost, Norvegia a fost, Danemarca a fost Acum se pune în discuție ca parte dintre aceste țări să devină chiar membre ale acestui format.
+
+Sunt discuții în curs.
+
+Nu vreau să n ar fi profesionist să vorbesc în avans de niște discuții care nu au un rezultat predictibil în momentul de față, ci doar o intenție reciprocă de ambele părți.
+
+Bun, pe cazul individual, nu vreau să spun prea multe.
+
+M am informat și eu în aceste minute cât am putut împreună cu consilierii ca să vedem opiniile, dar încă nu s a cristalizat scenariul, cine ce a făcut și nu vreau să vorbesc înainte ca lucrurile să fie bine stabilite în ceea ce privește situația de fapt.
+
+Ă pe chestiunea generală.
+
+Am avut chiar ieri o discuție cu doamna ministru împreună cu reprezentanți ai mai multor instituții despre ă situația românilor care sunt în diferite țări ale golfului.
+
+Doamna ministru și împreună cu echipa dânsei a venit cu ăă date precise despre câți români au contactat serviciile consulare și serviciile ministerului din fiecare din aceste țări. despre criterii, despre calendarul zborurilor pe care ei urmează să le facă pentru cei mai vulnerabili, persoane în vârstă, bolnavi, ă copii.
+
+Deci în o bineînțeles că tot timpul când organizezi o chestiune din asta pe care ă n ai mai organizat o se întâmplă sincope.
+
+Sună mai multă lume pe aceleași un două persoane care au alt rit de lucru în mod normal, dar una peste alta statul român controlează această situație în momentul ăsta.
+
+Da, o să răspund înainte la altă întrebare ca să circumscriem chestiunea asta.
+
+Deci, așa cum am spus și la amiază când am discutat, încă din momentul în care România a intrat în NATO este protejată de umbrela nucleară NATO asigurată de Statele Unite și foarte important pentru că am văzut această întrebare în spațiul public, a fi protejată de umbrela nucleară NATO nu presupune prezent ența unor elemente de natură nucleară pe teritoriul României, ca să fie foarte clar, și în viitorul mediu se pune problema ca componente nucleare să fie găzduite de teritoriul nostru.
+
+Ca să răspund unei întrebări care s a pus în spațiul public.
+
+În ceea ce privește discuția cu Franța, nu pot să vă spun mai mult decât că este o relație care vine de demult.
+
+Avem soldați francezi în România, suntem recunoscători pentru asta.
+
+E o relație care se dezvoltă în contextul acesta de securitate complicat și în momentul în care vor exista elemente excepționale care depășesc sfera militarurilor militară, o să fie comunicate public.
+
+Mulțumesc.
+
+Bun.
+
+Sunt niște chestiuni care sunt de natură executiv parlamentară, însă după ce am discutat cu reprezentanții fiecăruia din partidele din coaliție, o spun cu toată responsabilitatea, România va avea un buget în luna martie a acestui an.
+
+Deci, bineînțeles, avem o coaliție, în coaliție sunt niște partide.
+
+Partidele astea au niște oameni.
+
+Oamenii ăștia spun lucruri unii despre alții.
+
+Dar pe chestiunea bugetului, o spun cu responsabilitate, România va avea buget.
+
+Da.
+
+Vorbind cu fiecare dintre ei, pot să vă spun cu siguranță că vom avea buget.
+
+Evident că ar fi fost bine să avem buget în noiembrie sau decembrie. însă pentru că și de asta am subliniat în răspunsul pentru colega dumneavoastră, pentru că există această îngrijorare și nu numai în România și pentru că e o problemă importantă.
+
+M am consultat cu liderii fiecăruia dintre partide și pot să vă spun ce v am spus.
+
+Mulțumesc.
+
+Bineînțeles că ar fi bine să avem bani pentru toate categoriile pe care dumneavoastră le menționați.
+
+Da, domnul Nazar a fost la mine, dar spre deosebire de luna iunie a anului trecut în care cunoșteam fiecare virgulă din bugetul național pentru că am încercat să înțeleg, acum nu pot să cunosc decât cifrele mari și nu pot să vă răspund la întrebarea e spațiu?
+
+Nu e spațiu pentru diferite tipuri de cheltuieli, dar ar fi
+
+e o e o dezbatere.
+
+Da.
+
+Și din nou e o dezbatere legitimă.
+
+Ea putea să aibă loc acum trei luni.
+
+E adevărat.
+
+E o dezbatere legitimă.
+
+Sunt partide care au publicuri care doresc altceva fiecare, dar această dezbatere se va închide cum se va închide.
+
+în condiții normale, în pace, în într o țară cu stabilitate fiscală, bineînțeles că bugetul este o lege foarte importantă și dacă tu ca partid din Nou, reprezentând în mod legitim o categorie de oameni, consider că nu satisface viziunea ta politică.
+
+E un motiv, dar nu suntem acolo.
+
+Da, suntem într un context dificil cu un război la graniță.
+
+Nu suntem acolo.
+
+O să vă Nu vreau să evit să vă răspund la întrebarea asta, dar nu am toate datele și nu vreau să să pară că acuz pe cineva sau pe altcineva fără să am toate datele.
+
+Așa.
+
+Haideți să închidem mai întâi discuția cu bugetul și așa cum am spus de două ori mai devreme această discuție va fi închisă și după aceea evident că mai bine sunt decizii, sunt cum să spun contradicții uneori la nivel personal între oameni care trebuie să ia decizii din partea a partidelor din coaliție.
+
+E mult mai bine ca tipul ăsta de decizii să fie luat fără o mare expunere publică, tocmai pentru ca să nu îngrijoreze și societatea și piețele financiare de care asta e situația, depinde.
+
+Ăsta este răspunsul meu. mai departe, democratic, fiecare partid față de ă chestiuni esențiale din activitatea sa politică, e liber să o facă.
+
+Da, dacă am putea cu mai puține turbulențe mediatice, ar fi mai bine.
+
+Pot să spun deocamdată suntem la o săptămână de când a început această situație nouă.
+
+Pot să spun cu titlul general, așa grosieră din prețul benzinei pe care un om îl plătește la pompă.
+
+Jumătate este prețul brut al petrolului rafinat și jumătate sunt taxele și accizele statului.
+
+Ce pot să spun cu certitudine este că nu se pune problema ca pe această componentă de taxe și accize ale statului să se intervină în plus.
+
+Din păcate, nici în minus nu avem posibilitatea s o facem.
+
+Iar pe partea cealaltă, Consiliul Concurenței s a întâmplat în istoria lui să sancționeze și foarte sever practici anticoncurențiale.
+
+Numai că lucrul ăsta nu s a întâmplat niciodată și nici nu e fizic posibil să se întâmple în secunda în care evenimentul se întâmplă.
+
+Se sancționează peste o lună, se sancționează peste două, dar e foarte bine că președintele a ieșit, președintele Consiliului Concurenței a ieșit și a avertizat că se uită la exact la acest fenomen pentru că bineînțeles că el are efect în lanț pe toată economia și pe nivelul de trai al oamenilor.
+
+Când vom fi acolo, desigur, se putem să avem tipul acesta de discuții, cum cum s a mai întâmplat.
+
+Dar nu numai că voi face această analiză, am făcut deja o analiză foarte amplă, pregătindu mă pentru acest moment.
+
+Adică m am văzut cu zeci de procurori pe pe o perioadă de zeci de ore în care am încercat să înțeleg ă ce părere au unii despre alții, cine sunt vârfurile manageriale în această profesie pentru ca în momentul în care procedura desfășurată de Ministerul Justiției ajunge la mine să iau o decizie informată și față de această analiză amplă pe care am făcut o această analiz ca să o spun și mai direct această analiză amplă pe care am făcut o diferă foarte mult de ce se speculează în social media adică sunt complet în deza de acord cu ce se spune pe rețele despre ăă oamenii care au fost fie au participat la concurs, fie au fost selectați, dar nu vreau să mă antepronunț în momentul ăsta.
+
+Bun.
+
+Haideți să lămurim cine a făcut, cine a sunat, n a sunat, cine a luat decizia, s a dat, s a Adică, bineînțeles că e un caz emoțional, da, când vorbim de un copil, dar haideți să ți lămurim cu totul
+
+situația de fapt ca să în fine, să ne îndreptăm dacă a greșit cineva exact pe persoana vinovată.
+
+Bine, mulțumesc.

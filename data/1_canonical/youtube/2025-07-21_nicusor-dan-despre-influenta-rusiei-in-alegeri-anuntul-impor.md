@@ -1,11 +1,8 @@
 ---
 data: 2025-07-21
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=HS7XGSagBV0
 sursa_aprecieri: 9
 sursa_canal: B1
@@ -19,11 +16,11 @@ sursa_upload_timestamp: 1753117306
 sursa_video_id: HS7XGSagBV0
 sursa_vizionari: 450
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Doamnelor și domnilor, întrerupem conferința pentru o informație de ultim moment de la președintele României, Nicușor Dan, cel care vorbește despre interferențele Federației Ruse în România și în alegerile din România.
+Doamnelor și domnilor, întrerupem conferința pentru o informație de ultim moment de la președintele României, Nicușor Dan, cel care vorbește despre interferențele Federației Ruse în România și în alegerile din România.
 
 Îi îndemn pe cei care încă se îndoiesc de interferențele Rusiei în alegerile din noiembrie 2024 din România să citească comunicatele de mai jos.
 
@@ -47,7 +44,7 @@ Scuze.
 
 Un raport care să vorbească despre anularea alegerilor, domnule ministru.
 
-[ND] Ă da, mai ales că această clarificare a culiselor din alegerile trecute a fost o promisiune de campanie a președintelui în fața electoratului care i a acordat votul.
+Ă da, mai ales că această clarificare a culiselor din alegerile trecute a fost o promisiune de campanie a președintelui în fața electoratului care i a acordat votul.
 
 Este important nu pentru că ar veni pe fond cu ceva nou, ci pentru că dă comunității de intelligence din România cu toate huburile ei, îi dă o indicație foarte clară.
 
@@ -71,7 +68,7 @@ Nu cred că ajunge.
 
 Deci pe de o parte le spune: "Nu v ați făcut treaba în 2024".
 
-[ND] Hm.
+Hm.
 
 Pe de altă parte, le spune întreaga comunitate euroatlantică e cu ochii pe acțiunea GRU de destabilizare, diviziune a unității euroatlantice etca și în final le spune că dacă și britanicii au nevoie de timp pentru a scoate la lumină aceste rețele rusești, cu atât mai mult noi.
 

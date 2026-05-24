@@ -1,11 +1,8 @@
 ---
 data: 2026-01-30
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=eXmpJSoxDO0
 sursa_aprecieri: 3
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1769755559
 sursa_video_id: eXmpJSoxDO0
 sursa_vizionari: 186
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Președintele Nicușor Dan a declarat într un interviu pentru Digi 24 că a discutat pe rând cu liderii partidelor din coaliție, Ilie Bolojan, Sorin Grindeanu și Dominic Friț și că nu există motive de îngrijorare cu privire la soarta coaliției.
+Președintele Nicușor Dan a declarat într un interviu pentru Digi 24 că a discutat pe rând cu liderii partidelor din coaliție, Ilie Bolojan, Sorin Grindeanu și Dominic Friț și că nu există motive de îngrijorare cu privire la soarta coaliției.
 
 Șeful statului a mai punctat că varianta unui guvern minoritar, menționată recent de premier este puțin probabilă și că Ilie Bolojan a vorbit la nivel teoretic.
 

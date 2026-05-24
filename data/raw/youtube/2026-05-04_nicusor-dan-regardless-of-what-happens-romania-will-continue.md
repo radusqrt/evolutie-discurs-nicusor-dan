@@ -1,11 +1,8 @@
 ---
 data: 2026-05-04
-metoda: heuristic diarization (format=markers, 25 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=twE7MZWnVbI
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1777903762
 sursa_video_id: twE7MZWnVbI
 sursa_vizionari: 4749
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] șase luni între țările europene din Uniunea Europeană și celelalte țări europene, cum ar fi Turcia, Moldova, Serbia, Armenia, unde suntem azi, este o încercare a Uniunii Europene de a controla geopolitic spațiul de lângă ea și de a stabili cooperări.
+șase luni între țările europene din Uniunea Europeană și celelalte țări europene, cum ar fi Turcia, Moldova, Serbia, Armenia, unde suntem azi, este o încercare a Uniunii Europene de a controla geopolitic spațiul de lângă ea și de a stabili cooperări.
 
 Au fost mai multe reuniuni multilaterale la care am participat.
 
@@ -73,7 +70,7 @@ Cum va fi sprijinită concret în continuare Republica Moldova atât de către R
 
 Mă refer aici la cele din domeniul energiei și al infrastructurii.
 
-[ND] Da, Moldova, după cum știți, are pe de o parte proiecte bilaterale cu România cum sunt cele pe energie.
+Da, Moldova, după cum știți, are pe de o parte proiecte bilaterale cu România cum sunt cele pe energie.
 
 Pe de altă parte are proiecte cu Uniunea Europeană.
 
@@ -99,13 +96,13 @@ Susținem pe deplin integrarea Moldovei și chestiunile cu care de comunitate î
 
 Pe ale noastre le am rezolvat și a existat disponibilitate pentru asta.
 
-[ND] Bună ziua, Octavian Vasilescu, Euronews, România.
+Bună ziua, Octavian Vasilescu, Euronews, România.
 
 Domnule președinte, cât de mult vă îngrijorează anunțul făcut de Statele Unite legat de retragerea celor 5000 de militari din Germania?
 
 Președintele Donald Trump spune că vor fi mai mult de 5000 ce vor fi retrași în perioada următoare și de asemenea dacă acest subiect va intra și pe ordinea de zi a summitului B9 de la București.
 
-[ND] Evident că Bun, în primul rând că tema summitului B9 este relația transatlantică.
+Evident că Bun, în primul rând că tema summitului B9 este relația transatlantică.
 
 Da.
 
@@ -123,11 +120,11 @@ Ce este îmbucurător este că Europa a înțeles mesajul ăsta, a început să 
 
 Deci bineînțeles că sunt trăim momente complicate, sunt tensiuni, emoții, impulsuri, dar în linii mari eu sunt foarte optimist că Europa va pe măsură ce Statele Unite se vor dezangaja parțial din Europa, Europa singură va reuși să compenseze
 
-[ND] și pe plan intern, în luna martie, după ce ați
+și pe plan intern, în luna martie, după ce ați
 
-[ND] În orice caz, scuzați mă, în orice caz niciun fel de pericol pentru viitorul imediat de 1 2 3 ani de acum.
+În orice caz, scuzați mă, în orice caz niciun fel de pericol pentru viitorul imediat de 1 2 3 ani de acum.
 
-[ND] Pe plan intern, în luna martie ați avut o întâlnire cu vicepremierul Oana Gheorghiu, după care ați declarat reforma companiilor de stat nu mai poate fi amânată.
+Pe plan intern, în luna martie ați avut o întâlnire cu vicepremierul Oana Gheorghiu, după care ați declarat reforma companiilor de stat nu mai poate fi amânată.
 
 Ați văzut acel proiect pilot promovat de actualul vicepremier în continuare.
 
@@ -135,7 +132,7 @@ Au apărut noi tensiuni pe scena politică legat de ce s ar întâmpla cu aceste
 
 Cum vedeți dumneavoastră acest demers și dacă sunteți de părere că în cazul în care vom avea un guvern următor după moțiunea de cenzură, dacă această reformă va fi dusă în continuare la capăt dacă aveți garanții în acest sens din partea partidelor.
 
-[ND] Bun, fără îndoială că și nu spun ceva nou, toți românii știu asta.
+Bun, fără îndoială că și nu spun ceva nou, toți românii știu asta.
 
 Sunt probleme mari de management la companiile de stat.
 
@@ -147,7 +144,7 @@ Da.
 
 Ce pot eu să spun este că cu tact și cu negociere între părți, chestiunea asta trebuie să meargă înainte pentru că nu putem altfel.
 
-[ND] Bună ziua, Mădălin Puiu, România TV.
+Bună ziua, Mădălin Puiu, România TV.
 
 Domnule președinte, sunteți matematician la bază.
 
@@ -155,13 +152,13 @@ Din informațiile pe care le aveți, cât de multe șanse are moțiunea de cenzu
 
 Este peste 50% sau sub 50%? [sforăit]
 
-[ND] Am evident opinia mea pe asta, dar nu vreau să fac speculații în momentul ăsta.
+Am evident opinia mea pe asta, dar nu vreau să fac speculații în momentul ăsta.
 
-[ND] Vă așteptați ca AUR să trădeze totuși și să nu voteze această moțiune de cenzură?
+Vă așteptați ca AUR să trădeze totuși și să nu voteze această moțiune de cenzură?
 
 Adică, am putea vedea o răsturnare de situație?
 
-[ND] Din nou, nu vreau să fac predicții.
+Din nou, nu vreau să fac predicții.
 
 Totuși, puțin puțin credibil că asta se poate întâmpla.
 
@@ -169,17 +166,17 @@ Da.
 
 Deci considerați că totuși ar putea să treacă acest
 
-[ND] Nu am doar pe chestiunea asta de aur.
+Nu am doar pe chestiunea asta de aur.
 
 Am am întrezin să fac o predicție, dar din moment ce au anunțat.
 
-[ND] Totuși sunt 254 de semnături.
+Totuși sunt 254 de semnături.
 
 Credeți că ar putea să mai schimbe ceva?
 
-[ND] V am răspuns.
+V am răspuns.
 
-[ND] Și mai am o singură întrebare legată de un premier tehnocrat.
+Și mai am o singură întrebare legată de un premier tehnocrat.
 
 Excludeți în momentul de față o astfel de variantă dacă totuși moțiunea de cenzură va trece.
 
@@ -193,7 +190,7 @@ Există alte dezvoltări.
 
 Bineînțeles că avem analizele făcute, dar deocamdată haideți să așteptăm ziua de mâine.
 
-[ND] Dar la ce ar trebui să ne așteptăm?
+Dar la ce ar trebui să ne așteptăm?
 
 Pentru că pe de o parte dacă moțiunea de cenzură va trece, avem un PNL și USR care au luat două decizii de a nu mai face coaliție cu PSD, iar PSD care susține refacerea coaliției.
 
@@ -203,11 +200,11 @@ Da.
 
 Oricare din situații, oricare din în oricare din situații ăă discuțiile politice vor fi dificile, dar există o responsabilitate și a mea ca președinte și a partidelor de a duce România în direcția corectă și de asta chiar dificile e va fi nevoie să ducem discuțiile înainte cu gândul la interesul pe comun pe care î avem. cu toții,
 
-[ND] dar ne putem confrunta cu o criză politică pe termen lung sau pe termen mai lung. o situație de, să i spunem de incertitudine cu privire la direcția pe care de conformația politică a guvernului și a majorității din spate.
+dar ne putem confrunta cu o criză politică pe termen lung sau pe termen mai lung. o situație de, să i spunem de incertitudine cu privire la direcția pe care de conformația politică a guvernului și a majorității din spate.
 
 Această incertitudine va fi de o săptămână, două, dar repet, ea nu trebuie să ne îngrijoreze pentru că există angajament și pe obiectivele importante și pe Direcția Pro occidentală.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Vasile Marcu, Antena 3 CNN.
 
@@ -223,7 +220,7 @@ Cum?
 
 Cu un aur alături de PSD.
 
-[ND] Bun.
+Bun.
 
 Eu m am ferit să folosesc cuvântul extremist încă din campania electorală.
 
@@ -237,9 +234,9 @@ Cuvântul extremist m am ferit să l folosesc.
 
 Cred în continuare că există o diferență între forțe pro occidentale și forțe antioccidentale în România, între care și aur.
 
-[ND] Aurul îl treceți în categoria partidelor antioccidentale.
+Aurul îl treceți în categoria partidelor antioccidentale.
 
-[ND] Da, am văzut ultima ultima manifestare am văzut o la solicitarea Statelor Unite pentru folosirea bazelor românești.
+Da, am văzut ultima ultima manifestare am văzut o la solicitarea Statelor Unite pentru folosirea bazelor românești.
 
 Da.
 
@@ -249,11 +246,11 @@ Vedeți posibilă o variantă de premier, de uniune națională, așa cum își 
 
 Georgescu,
 
-[ND] scenariu, Acest scenariu este exclus.
+scenariu, Acest scenariu este exclus.
 
 E el e bun de titlu, de ziar, dar e exclus în practică.
 
-[ND] Deci nu acceptați sub nicio formă o propunere astfel de propunere.
+Deci nu acceptați sub nicio formă o propunere astfel de propunere.
 
 Ă voiam să vă întreb și de situația cursului Euroleu.
 
@@ -265,7 +262,7 @@ Drept dovadă și cursul Leu Euro nici Banca Națională nu l mai poate ține at
 
 Vedeți o creștere în continuare a diferenței între RON și euro a parității.
 
-[ND] Bun.
+Bun.
 
 Ă din nou invit la calm.
 
@@ -279,7 +276,7 @@ Ce ce pot să transmit și românilor și ă să i spunem pieței financiare est
 
 Aș vrea să vă mai întreb cât de repede veți organiza consultările dacă trece moțiunea și dacă vă gândiți la o soluție rapidă, adică la o nominalizare imediată a viitorului premier tot în această situație.
 
-[ND] Bun, cum am spus, sunt scenarii.
+Bun, cum am spus, sunt scenarii.
 
 Deocamdată această moțiune se va discuta, se va, pardon, se va discuta și vota mâine.
 

@@ -1,0 +1,22 @@
+---
+data: 2025-06-25
+metoda: monolog implicit (tip=facebook-post)
+nota: Postare Facebook publică, text plain (fără imagini sau reacții individuale).
+sursa: https://www.facebook.com/NicusorDan.ro/posts/pfbid037MNVpPBBPGsYrGA9rEfyyjRTLwFmZX1ESrki7Ex3ezfLzKDrUBZ2NJY2ftmurmRPl
+sursa_aprecieri: 10000
+sursa_canal: Facebook (NicusorDan.ro)
+sursa_comentarii: 4065
+sursa_distribuiri: 1180
+sursa_post_id: '1256169982526080'
+sursa_titlu: "\U0001F1F7\U0001F1F4 \U0001F1EC\U0001F1E7 A fost o reală onoare să mă
+  întâlnesc cu Prim-ministrul Regatului Unit, Ke"
+tip: facebook-post
+verificat: true
+vorbitor: nicusor_dan
+---
+
+🇷🇴 🇬🇧 A fost o reală onoare să mă întâlnesc cu Prim-ministrul Regatului Unit, Keir Starmer, în marja Summitului #NATO de la Haga. 
+
+🇷🇴 🇬🇧 Am reconfirmat relația bilaterală solidă dintre România și Regatul Unit, în calitate de parteneri strategici și aliați în cadrul NATO.
+
+🇷🇴 🇬🇧 Am discutat despre consolidarea cooperării în domeniul securității și apărării, precum și despre coordonarea strânsă privind contracararea amenințărilor hibride și cibernetice, cu un accent deosebit asupra regiunii Mării Negre.

@@ -1,11 +1,8 @@
 ---
 data: 2025-09-25
-metoda: heuristic diarization (format=markers, 81 ND segments, 32 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=tIc_rQuoZMg
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -22,17 +19,17 @@ sursa_upload_timestamp: 1758826823
 sursa_video_id: tIc_rQuoZMg
 sursa_vizionari: 22493
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] [Muzică] Președintele Nicușor Dan, președintele României, în studioul Digi24.
+[Muzică] Președintele Nicușor Dan, președintele României, în studioul Digi24.
 
 Bună seara, domnule președinte.
 
-[ND] Bună seara.
+Bună seara.
 
-[ND] Rusia continuă să provoace.
+Rusia continuă să provoace.
 
 Provoacă țările de pe flancul estic.
 
@@ -68,15 +65,15 @@ Că până la urmă e chestiunea noastră internă.
 
 Cam cam astea în cheie asta le văd. nicidecum că sau cel puțin la momentul ăsta nu văd Rusia capabilă să atace NATO,
 
-[ND] dar provocările vor continua.
+dar provocările vor continua.
 
-[ND] Ă Dar provocările le le vor continua, așteptarea mea, tocmai pentru a încercarea lor de a destabiliza o încredere care, evident că în multe societăți, cum e și societatea românească, sunt multe neajunsuri.
+Ă Dar provocările le le vor continua, așteptarea mea, tocmai pentru a încercarea lor de a destabiliza o încredere care, evident că în multe societăți, cum e și societatea românească, sunt multe neajunsuri.
 
 Da.
 
 Dar asta nu înseamnă că trebuie să abandonăm modelul democratic.
 
-[ND] Vom vorbi mai mult despre alegerile noastre anulate, despre faptul că acum deja avem mai multe dovezi decât aveam acum două săptămâni, de exemplu.
+Vom vorbi mai mult despre alegerile noastre anulate, despre faptul că acum deja avem mai multe dovezi decât aveam acum două săptămâni, de exemplu.
 
 Despre ce înseamnă aceste dovezi pentru dumneavoastră, dacă să așteptăm și altele.
 
@@ -110,7 +107,7 @@ Câteva zile mai târziu, minii de apărare din țările NATO au făcut un plan 
 
 Deci suntem într o situație în care noi trebuie să descurajăm și asta facem foarte bine noi împreună. să spun.
 
-[ND] Mai există un motiv pentru care oamenii vor să știe dacă va fi război și acela este ploaia cu minciuni.
+Mai există un motiv pentru care oamenii vor să știe dacă va fi război și acela este ploaia cu minciuni.
 
 Pentru că în ampla operațiune descrisă de Parchetul General, operațiune care l a ajutat pe candidatul Călin Georgescu, s a vorbit non stop despre faptul că vom intra în război.
 
@@ -124,7 +121,7 @@ Mai devreme sau mai târziu vom intra în război alături de Ucraina împotriva
 
 Ce facem?
 
-[ND] Bun, aici trebuie să spunem foarte foarte direct că sau ca să spun așa, există două direcții de acțiune în zona online.
+Bun, aici trebuie să spunem foarte foarte direct că sau ca să spun așa, există două direcții de acțiune în zona online.
 
 Una este pe așa numita securitate cibernetică.
 
@@ -142,9 +139,9 @@ Aici aș spune că suntem tehnologic cu un pas în spatele Rusiei și trebuie s�
 
 Nu sunt
 
-[ND] Dar facem ceva
+Dar facem ceva
 
-[ND] facem ceva.
+facem ceva.
 
 Facem ceva, învățăm, colaborăm, dar încă nu suntem.
 
@@ -152,7 +149,7 @@ Adică e suficient ca un site fals să să stea și să fie văzut de 200000 de 
 
 Deci aici mai avem de învățat.
 
-[ND] Deci noi ne pregătim pentru provocări.
+Deci noi ne pregătim pentru provocări.
 
 Spuneți.
 
@@ -162,7 +159,7 @@ Spuneți.
 
 Telespectatorii noștri sunt la curent.
 
-[ND] Întrebarea pe care și o pun mulți pentru că în urma incidentelor, în urma provocărilor, inevitabil s a făcut comparația cu Polonia.
+Întrebarea pe care și o pun mulți pentru că în urma incidentelor, în urma provocărilor, inevitabil s a făcut comparația cu Polonia.
 
 Întrebarea pe care și o pun mulți este unu: De ce Polonia a acționat prin decizia de a le distruge și noi doar am însoțit timp de 50 de minute? o dronă care ne a vizitat țara.
 
@@ -174,13 +171,13 @@ Vin și alte câteva.
 
 De ce noi am acționat diferit?
 
-[ND] Hm.
+Hm.
 
 Bun.
 
 În primul rând doar 30 de secunde ca să repetăm precizările de azi.
 
-[ND] Sunt patru tipuri, da?
+Sunt patru tipuri, da?
 
 Sunt drone, sunt rachete și alte lucruri similare, sunt avioane cu pilot militare, avioane cu pilot civile.
 
@@ -194,41 +191,41 @@ Da. nu mai aveau nevoie să sune la ministru, la președinte sau la șeful milit
 
 Pe scurt, asta a fost.
 
-[ND] De ce polonezii au făcut diferit?
+De ce polonezii au făcut diferit?
 
-[ND] Polonezii au făcut diferit în patru din 20.
+Polonezii au făcut diferit în patru din 20.
 
-[ND] În patru din 20 le au nimerit, dar de tras au tras.
+În patru din 20 le au nimerit, dar de tras au tras.
 
-[ND] Au tras, au rezultatul a fost 4 din 20.
+Au tras, au rezultatul a fost 4 din 20.
 
 Da.
 
 Noi n am tras pentru că, repet, a fost o decizie de oportunitate.
 
-[ND] Din declarațiile făcute de oficialii polonezi.
+Din declarațiile făcute de oficialii polonezi.
 
 Înțelegeți că atitudinea lor se schimbă de acum înainte, că vor trage în absolut orice le intră în spațiul aerian.
 
-[ND] Ă și noi am fi tras dacă condițiile ar fi fost întrunite.
+Ă și noi am fi tras dacă condițiile ar fi fost întrunite.
 
 Deci nu e nu i o nu i o nu i o diferență de abordare între Polonia și România.
 
-[ND] Acum, după ce avem și precizia,
+Acum, după ce avem și precizia,
 
-[ND] nu era nevoie, nu, nu.
+nu era nevoie, nu, nu.
 
 Chiar la momentul acela a fost înțelegem ceva ce nu ne puteți spune, ceva ce au analizat.
 
 Au analizat, a fost a fost o chestiune de conjunctură și decizia lor a fost să nu tragă în momentul ăla.
 
-[ND] Cu alte cuvinte, Rusia primește un semnal din partea României.
+Cu alte cuvinte, Rusia primește un semnal din partea României.
 
 Dacă mâine, poimâine, răspoimâine trimit ceva deasupra României, România ce va face?
 
 Bineînțeles că dacă e vorba de drone și dacă, repet, nu pui în pericol populația civilă care i dedesubt și așa, dacă condițiile sunt întrunite răspunsul va fi foarte ferm și nu din partea României, din partea tuturor țărilor din flancul este.
 
-[ND] Ne ați adus aminte că partidele suveraniste au votat împotriva acestei legi necesare?
+Ne ați adus aminte că partidele suveraniste au votat împotriva acestei legi necesare?
 
 Ce înseamnă asta pentru dumneavoastră?
 
@@ -238,11 +235,11 @@ Nu pot, nu sunt în măsură eu să spun asta, dar că direcția lor de acțiune
 
 Asta e clar.
 
-[ND] Direcția lor de acțiune este aliniată cu Moscova.
+Direcția lor de acțiune este aliniată cu Moscova.
 
 Intenționat?
 
-[ND] Da, asta am spus.
+Da, asta am spus.
 
 Voit sau nevoit?
 
@@ -254,9 +251,9 @@ Am informații parțiale în momentul în care în momentul în care inclusiv da
 
 Dar evident că este una din preocupările pe care le am.
 
-[ND] Dacă se va confirma cât de grav e
+Dacă se va confirma cât de grav e
 
-[ND] ă Deci dacă se va confirma că în România există forțe politice care se aliniază cu Moscova, intenționat, Moscova, Rusia fiind dinamicul nostru, da, Rusia este primul nostru inamic.
+ă Deci dacă se va confirma că în România există forțe politice care se aliniază cu Moscova, intenționat, Moscova, Rusia fiind dinamicul nostru, da, Rusia este primul nostru inamic.
 
 Dacă noi vom constata cu dovezi, președintele României va constata că avem forțe politice în România care se aliniază cu intenție cu Moscova.
 
@@ -264,57 +261,57 @@ Ce înseamnă asta?
 
 Asta înseamnă foarte grav și asta ăsta e un lucru foarte grav și poate să ducă la consecințe juridice.
 
-[ND] Este o vulnerabilitate a României.
+Este o vulnerabilitate a României.
 
 România este ăă ăă noi până acum am vorbit de ăă agresiunea rusă, dar trebuie s o spunem foarte fer România știe să se apere și progresează și pe de altă parte are niște parteneri foarte puternici cu care avem relații foarte bune.
 
 Deci oamenii trebuie să fie foarte liniștiți că România este în momentul acesta din perspectiva securității într o poziție foarte bună.
 
-[ND] Apropo de Rusia, inamicul nostru numărul unu.
+Apropo de Rusia, inamicul nostru numărul unu.
 
 Înțeleg că se pregătește o modificare, updatare a strategiei noastre de securitate națională.
 
-[ND] Sigur, este o obligație legală pe care orice președinte o are la s o facă, s o propună Parlamentului în șase luni de la investire. mai avem două luni se lucrează la ea, adică este o consultare cu toate instituțiile astfel încât documentul să fie unul care să țină cont de provocările actuale față de acum patru ani.
+Sigur, este o obligație legală pe care orice președinte o are la s o facă, s o propună Parlamentului în șase luni de la investire. mai avem două luni se lucrează la ea, adică este o consultare cu toate instituțiile astfel încât documentul să fie unul care să țină cont de provocările actuale față de acum patru ani.
 
 Lumea, contextul s a schimbat foarte mult și atunci suntem obligați să venim cu ceva care să fie și calitativ și cantitativ în acord cu ce se întâmplă în lume.
 
 Cu cine lucrați pentru strategia de apărare națională?
 
-[ND] Păi, există un mic departament de securitate națională în administrația prezidențială.
+Păi, există un mic departament de securitate națională în administrația prezidențială.
 
-[ND] Aveți un consilier pentru securitate națională
+Aveți un consilier pentru securitate națională
 
-[ND] în momentul acesta este domnul Cristian Diaconescu și a a are o corespondență și un dialog cu toate instituțiile care țin de securitate națională.
+în momentul acesta este domnul Cristian Diaconescu și a a are o corespondență și un dialog cu toate instituțiile care țin de securitate națională.
 
 Deci foarte curând toate ideile lor vor fi cuprinse într un document.
 
 O să fie o dezbatere internă și după aceea o dezbatere în societate.
 
-[ND] Vom găsi acolo lucruri care se leagă de noile provocări, dar Rusia rămâne inamicul nostru, nu?
+Vom găsi acolo lucruri care se leagă de noile provocări, dar Rusia rămâne inamicul nostru, nu?
 
-[ND] Fără inamicul nostru și inamicul Europei.
+Fără inamicul nostru și inamicul Europei.
 
 Da,
 
-[ND] al Europei, al NATO este primul nostru inamic.
+al Europei, al NATO este primul nostru inamic.
 
-[ND] Categoric,
+Categoric,
 
-[ND] domnule președinte.
+domnule președinte.
 
 Gabriel Zbârcea pentru SRI și Marius Lazurcă pentru SIE sunt numele care au fost vehiculate public.
 
 Când veți face aceste nominalizări?
 
-[ND] Ă la momentul oportun. pentru că este un dialog care este între președinte și partidele din coaliție, între partidele din coaliție între ele și la momentul în care această discuție nu se va suprapune cu alte discuții care sunt la fel de importante pentru stabilitatea noastră, o vom avea și o vom vom tranșa.
+Ă la momentul oportun. pentru că este un dialog care este între președinte și partidele din coaliție, între partidele din coaliție între ele și la momentul în care această discuție nu se va suprapune cu alte discuții care sunt la fel de importante pentru stabilitatea noastră, o vom avea și o vom vom tranșa.
 
 Înțelegem că acestea vor fi propunerile
 
-[ND] Înțelegeți doar că în momentul potrivit discuția va avea loc între mine și partide.
+Înțelegeți doar că în momentul potrivit discuția va avea loc între mine și partide.
 
 Mai de mai mult de atât nu pot să spun.
 
-[ND] Cum vă explicați interesul pentru acest subiect?
+Cum vă explicați interesul pentru acest subiect?
 
 Toată lumea vrea să știe pe cine pune președintele Nicușor Dan la SRI și la Sie.
 
@@ -328,19 +325,19 @@ Da, pentru că sunt chestiuni de securitate foarte serioase de care serviciul ă
 
 Pe de altă parte, să prevenim ca excesele pe care le am văzut de a lungul timpului, interferențele cu diferite fenomene sociale cu care nu trebuia să interfere să dispară și un director civil ar trebui să fie garanția pentru lucrul ăsta.
 
-[ND] Colega mea Andreea Dumitrescu, o întrebare pentru dumneavoastră, domnule președinte.
+Colega mea Andreea Dumitrescu, o întrebare pentru dumneavoastră, domnule președinte.
 
 Andreea,
 
-[ND] bună seara, domnule președinte.
+bună seara, domnule președinte.
 
 Aș vrea, pentru că tot vorbeați de partidele din coaliție, să vă întreb întâi, așa foarte scurt, Ilie Bolojan sau Sorin Grindeanu?
 
-[ND] Ce?
+Ce?
 
-[ND] Așa, după primele luni de colaborare cu amândoi.
+Așa, după primele luni de colaborare cu amândoi.
 
-[ND] Da.
+Da.
 
 Am spus de mai multe ori lucrul ăsta.
 
@@ -348,7 +345,7 @@ Trebuie să bineînțeles că suntem oameni.
 
 Oamenii se uită la alți oameni, îi apreciază, dar
 
-[ND] ă dar suntem în ăă suntem aici într un cadru instituțional, adică oamenii pe care i ați pomenit conducele mai mari două partide din această coaliție.
+ă dar suntem în ăă suntem aici într un cadru instituțional, adică oamenii pe care i ați pomenit conducele mai mari două partide din această coaliție.
 
 Unul dintre ei este prim ministru.
 
@@ -358,27 +355,27 @@ Președintele e om, dar în chestiunea asta e o instituție care, în fine, are 
 
 Adică ăă cel mai simplu pentru fiecare dintre ei ar fi fost să fie în opoziție, să critice guvernarea, să câștige puncte electorale.
 
-[ND] Bun, acuma să vă întreb și ceva concret.
+Bun, acuma să vă întreb și ceva concret.
 
 În perioada asta vedem că este în șah coaliția în privința tăierilor din administrația publică locală. dacă vor fi până la urmă sau nu disponibilizări.
 
 V aș întreba pe dumneavoastră între cele două variante pe care sunt convinsă că le știți de la liderii celor două partide pe care ați merge dumneavoastră.
 
-[ND] Da.
+Da.
 
 Înainte O să vă răspund și la întrebarea asta că nu vreau să evit.
 
 Însă înainte de bineînțeles tot general uman este când este un mic o mică divergență de opinie e mai interesant decât când lumea e aliniată și toată lumea are aceeași opinie.
 
-[JURNALIST] E interesant și ce o să se întâmple până la urmă.
+E interesant și ce o să se întâmple până la urmă.
 
-[ND] Exact.
+Exact.
 
 Da, dar ce pot eu să spun este că sunt foarte, foarte multe decizii care s au luat în consens de partidele astea și repet multe dintre ele nefiind foarte profitabile electoral pentru partidele respective.
 
 Deci,
 
-[JURNALIST] dar acum batem pasul pe loc.
+dar acum batem pasul pe loc.
 
 N aș zice, n aș zice, am avut un pachet de cinci măsuri.
 
@@ -408,9 +405,9 @@ Dar pe scurt, pe scurt, da, este un surplus de oameni în administrația public�
 
 Surplusul ăsta de oameni trebuie trebuie rezolvat.
 
-[ND] Vă mulțumesc.
+Vă mulțumesc.
 
-[JURNALIST] Mulțumim.
+Mulțumim.
 
 Andreea Dumitrescu, s a întâmplat ceva zilele astea, domnule președinte, și diferă rezultatul față de celelalte încercări ale dumneavoastră. de a sta de vorbă cu liderii coaliției.
 
@@ -428,19 +425,19 @@ Cum ați obținut acest rezultat?
 
 Nu, să știți că multe din ăă în secretariatul prin care trec un televizor tot timpul deschis, fără sonor și văd foarte des știrile care ă circulă acolo și în caz,
 
-[ND] care i cuvântul pe care î vedeți cel mai des? dezastru, criză, toate lucrurile astea și multe din lucrurile astea sunt ca om care a fost acolo când discuțiile au a avut loc. toate lucrurile astea care multe din lucrurile care ajung sunt și lucruri care ajung pe surse și sunt adevărate, dar sunt și lucruri care ajung pe surse și sunt neadevărate.
+care i cuvântul pe care î vedeți cel mai des? dezastru, criză, toate lucrurile astea și multe din lucrurile astea sunt ca om care a fost acolo când discuțiile au a avut loc. toate lucrurile astea care multe din lucrurile care ajung sunt și lucruri care ajung pe surse și sunt adevărate, dar sunt și lucruri care ajung pe surse și sunt neadevărate.
 
 Și așa cum am spus mai devreme, e general uman să ți se pară că să vorbești de lucrurile negative, cele pozitive sunt de multe ori plictisitoare.
 
 Deci pe scurt evident că există tensiuni, dar în spațiul public pare că aceste tensiuni sunt mult mai mari decât cele care există de fapt.
 
-[JURNALIST] Și totuși s a întâmplat ceva.
+Și totuși s a întâmplat ceva.
 
 Pare că au făcut toți un duș rece. au au îngropat securea războiului cel puțin pentru o vreme.
 
 Nu știm pentru câtă vreme.
 
-[ND] Să știți că am fost la mai multe astfel de discuții și în primul rând că toți oamenii care sunt acolo la masă sunt extrem de rezonabili.
+Să știți că am fost la mai multe astfel de discuții și în primul rând că toți oamenii care sunt acolo la masă sunt extrem de rezonabili.
 
 Da.
 
@@ -450,7 +447,7 @@ Deci și ă fiecare dintre ei este de bună credință, numai că e dificil pent
 
 Una peste alta, această coaliție merge înainte.
 
-[JURNALIST] Dacă n ar fi fost congres la PSD, credeți că altfel ar fi stat lucrurile?
+Dacă n ar fi fost congres la PSD, credeți că altfel ar fi stat lucrurile?
 
 Există un efect al Congresului PSD în coaliție?
 
@@ -484,17 +481,17 @@ Considerăm că este cel mai informat român, cel mai informat cetățean al ace
 
 Ar fi trebuit să știe: Îi faceți vreo vină lui Klaus Iohannis pentru ce s a întâmplat?
 
-[ND] Evident că toată lumea a greșit și
+Evident că toată lumea a greșit și
 
-[JURNALIST] la moment inclusiv Klaus Iohannis.
+la moment inclusiv Klaus Iohannis.
 
 Însă însă ăă ceea ce vreau să apreciez că la acel moment de 6 decembrie, da, când Curtea Constituțională a luat decizia și președintele și instituțiile care au fost în CSAT și ulterior Curtea Constituțională au avut curajul să ia o decizie decizie extrem extrem de să i spunem neobișnuit.
 
 Ăla a fost un moment deci a fost un moment de slăbiciune și de eroare pentru
 
-[ND] un moment prelungit de slăbiciune.
+un moment prelungit de slăbiciune.
 
-[JURNALIST] Exact.
+Exact.
 
 Dar care s a sfârșit cu o decizie foarte foarte curajoasă pe care trebuie să salutăm.
 
@@ -514,11 +511,11 @@ Acum, ca să ne întoarcem la ce s a întâmplat în noiembrie, există trei luc
 
 Unul este acest proces de dezinformare sistematică în care parchetul dovedește că au fost elemente plătite de Rusia.
 
-[ND] Da, legătura cu Rusia este făcută.
+Da, legătura cu Rusia este făcută.
 
 Așa e.
 
-[JURNALIST] Perfect.
+Perfect.
 
 Al doilea este partea de finanțare efectivă, unde avem pentru moment 1 milion de euro.
 
@@ -532,9 +529,9 @@ Deci ă eu vă mărturisesc că la momentul acela când am când am auzit inform
 
 Ce ar putea să facă 10 oameni cu câteva cuțite și trei grenade sau cât cât le au găsit lor
 
-[ND] într o manifestație publică în care cetățenii ar fi ieșit în piață pentru că erau nemulțumiți și brusc oamenii lui Potra spune Parchetul General ar fi aruncat grenadele și ar fi provocat
+într o manifestație publică în care cetățenii ar fi ieșit în piață pentru că erau nemulțumiți și brusc oamenii lui Potra spune Parchetul General ar fi aruncat grenadele și ar fi provocat
 
-[JURNALIST] Exact, dar nu erau de fapt nu erau cinci șase, erau vreo 70 și erau oameni care cumva se instruiseră fără să facă o chestiune din asta pe pe într o adunare publică și să forțeze, de exemplu, intrarea într o instituție publică.
+Exact, dar nu erau de fapt nu erau cinci șase, erau vreo 70 și erau oameni care cumva se instruiseră fără să facă o chestiune din asta pe pe într o adunare publică și să forțeze, de exemplu, intrarea într o instituție publică.
 
 Ă Deci sunt trei lucruri distincte din care pentru mine cel mai important este acesta conexiunea cu acțiunea de dezinfoc.
 
@@ -544,11 +541,11 @@ Toți susținătorii lui Călin Georgescu, oameni de bună credință ă susțin
 
 Acum, în sfârșit, avem o o dovadă și vor fi multe altele că au fost
 
-[ND] vor fi multe altele.
+vor fi multe altele.
 
 La ce vă așteptați? sau ce știți, cine cine ne va mai oferi acest lucru?
 
-[JURNALIST] Toate lucrurile astea, deci toate O să vă dau un exemplu pentru că noi suntem în România și pe bună dreptate nu prea avem încredere în instituțiile statului român.
+Toate lucrurile astea, deci toate O să vă dau un exemplu pentru că noi suntem în România și pe bună dreptate nu prea avem încredere în instituțiile statului român.
 
 Da, eu vă dau exemplul unui raport al serviciilor secrete ale Marii Britanii din care a fost, dacă nu mă înșel, publicat în iulie anul acesta, în orice caz, vara asta și în care spune că au identificat trei sau patru, e public, da? în care spune că au identificat trei sau patru grupuri de acțiune ruse care au făcut niște fie acțiuni de de [Muzică] atac cibernetic pe niște structuri, fie acțiuni de dezinformare în anii 2014 2017 2022 și raportul serviciilor britanice ce a venit în 2025 pentru că tipul acesta de a dovedi un tip de atac terorist, chiar dacă el este în zona informatică se numește o activitate contrainformativă și asta poate să ia niște ani.
 
@@ -556,7 +553,7 @@ Da?
 
 Deci noi pe măsură ce ă vom avansa cu niște cercetări care sunt acum în curs, vom dovedi multe lucruri, dar asta s ar putea să mai dureze.
 
-[ND] Aici telespectatorii noștri au nevoie de câteva răspunsuri, să le zicem tehnice.
+Aici telespectatorii noștri au nevoie de câteva răspunsuri, să le zicem tehnice.
 
 Unu, președintele României consideră că este suficient ce oferă acest rechizitoriu al Parchetului General despre anularea alegerilor sau cereți mai mult, mai multe anchete, mai multe rapoarte, mai multe informații?
 
@@ -566,15 +563,15 @@ Unu, președintele României consideră că este suficient ce oferă acest rechi
 
 Păi, veți cere desecretizarea informațiilor din CSAT ul din 6 decembrie?
 
-[JURNALIST] La momentul potrivit, însă nu este elementul esențial.
+La momentul potrivit, însă nu este elementul esențial.
 
 Elementul esențial este să descriem și cred că în momentul ăsta suntem undeva la 30% din a descrie ce s a întâmplat în noiembrie 2024.
 
 O treime.
 
-[ND] Da. dumneavoastră aveți și restul sau doar știți aveți doar imagine?
+Da. dumneavoastră aveți și restul sau doar știți aveți doar imagine?
 
-[JURNALIST] Intuiția?
+Intuiția?
 
 Am intuiția.
 
@@ -582,15 +579,15 @@ Mai am niște elemente pe care care încă n au fost făcute publice, dar am o i
 
 Sunt fapte care au fost 2016 care au fost dezvăluite nouă ani mai târziu.
 
-[ND] La momentul oportun peste cinci ani, peste 10.
+La momentul oportun peste cinci ani, peste 10.
 
-[JURNALIST] Nu, nu, nu, nu, nu.
+Nu, nu, nu, nu, nu.
 
 Să zicem în câteva luni o să avem probe suplimentare.
 
-[ND] În câteva luni probe suplimentare, dar desecretizarea din 6 decembrie, CST din 6 decembrie ați spus la momentul oportun.
+În câteva luni probe suplimentare, dar desecretizarea din 6 decembrie, CST din 6 decembrie ați spus la momentul oportun.
 
-[JURNALIST] La momentul oportun când Deci este ce s a discutat în în 6 decembrie este un element dintr o imagine de ansamblu cei și nu este cel mai relevant.
+La momentul oportun când Deci este ce s a discutat în în 6 decembrie este un element dintr o imagine de ansamblu cei și nu este cel mai relevant.
 
 Da, atunci s a vorbit, de exemplu, de ăă ăă influență al unui actor statal.
 
@@ -612,53 +609,53 @@ Adică această rețea care a fost concepută pentru a l susține pe Călin Geor
 
 Ce știți?
 
-[ND] Prefer să știu niște lucruri, dar prefer să nu dau răspunsul în momentul acesta.
+Prefer să știu niște lucruri, dar prefer să nu dau răspunsul în momentul acesta.
 
-[JURNALIST] Pentru că nu aveți dovezile sau pentru că e atât de grav încât
+Pentru că nu aveți dovezile sau pentru că e atât de grav încât
 
-[ND] Nu, nu, nu, nu sunt.
+Nu, nu, nu, nu sunt.
 
 Deci ce pot să spun în momentul ăsta este că ăă Călin Georgescu n a fost așa un cum să zic un călăreț singuratic care ă a avut așa o viziune care și care această viziune a convins dou 3 milioane de oameni și a avut în spate o rețea din care au făcut parte niște români cu bani
 
-[JURNALIST] și ne spuneți că nu în mod întâmplător a fost ales el.
+și ne spuneți că nu în mod întâmplător a fost ales el.
 
-[ND] Ăă
+Ăă
 
-[JURNALIST] conexiunile existau.
+conexiunile existau.
 
-[ND] El a fost ă el este cineva care are ă cum să spun această vocație de salvator de multă vreme.
+El a fost ă el este cineva care are ă cum să spun această vocație de salvator de multă vreme.
 
 Da.
 
 Și la un moment dat în spatele lui s au aliniat niște niște oameni.
 
-[JURNALIST] Când spuneți oameni cu mulți bani, e vorba despre privați, nu din instituții.
+Când spuneți oameni cu mulți bani, e vorba despre privați, nu din instituții.
 
-[ND] Da.
+Da.
 
 Da.
 
 Când spun
 
-[JURNALIST] niște privați potenți financiari din România,
+niște privați potenți financiari din România,
 
-[ND] niște oameni cu bani din România.
+niște oameni cu bani din România.
 
 Da.
 
-[JURNALIST] Și probabil că ei au fost legați de un proiect care are aceeași sursă despre care vorbim aici.
+Și probabil că ei au fost legați de un proiect care are aceeași sursă despre care vorbim aici.
 
 Da.
 
 Sursa fiind Moscova.
 
-[ND] Exact.
+Exact.
 
-[JURNALIST] E foarte grav.
+E foarte grav.
 
 Aproape că te sperii.
 
-[ND] F Nu, nu.
+F Nu, nu.
 
 Faptul că alegerile din România puteau să fie influențate de Rusia e deja foarte grav.
 
@@ -666,7 +663,7 @@ Da.
 
 Și asta e dovedit.
 
-[JURNALIST] Haideți să vorbim puțin și despre efectele acestei întâmplări.
+Haideți să vorbim puțin și despre efectele acestei întâmplări.
 
 E ceva ce nu s a mai văzut.
 
@@ -692,7 +689,7 @@ Ce faceți și ce le cereți românilor să facă pentru a vă ajuta?
 
 Ce faceți ca să aduceți împreună aceste două Românii?
 
-[ND] O întrebare foarte bună.
+O întrebare foarte bună.
 
 În primul rând îi încurajez pe oameni să se asculte unii pe alții.
 
@@ -724,9 +721,9 @@ Adică după ani de zile în care oamenii au văzut corupție și ei au văzut c
 
 Da, este e obligatoriu să faci.
 
-[JURNALIST] Sunteți pentru interzicerea TikTok?
+Sunteți pentru interzicerea TikTok?
 
-[ND] Mai degrabă nu.
+Mai degrabă nu.
 
 În momentul e o discuție pentru asupra vârstei.
 
@@ -742,11 +739,11 @@ Aici e o dezbatere pe care societatea trebuie s o aibă.
 
 Dincolo de asta, așa cum v am spus acum o jumătate de oră, în momentul de față reacția statului la procesul de dezinformare nu este nu este optimă și aici trebuie să lucă. nu este optimă.
 
-[JURNALIST] Dar există,
+Dar există,
 
-[ND] există, da, adică există instituții care dau jos în momentul acesta ăă informații, pagini care sunt vădit, vădit mincinoase, numai că nu o fac suficient de repede și în mod sistematic
+există, da, adică există instituții care dau jos în momentul acesta ăă informații, pagini care sunt vădit, vădit mincinoase, numai că nu o fac suficient de repede și în mod sistematic
 
-[JURNALIST] și răul este făcut deja.
+și răul este făcut deja.
 
 Apropo de limitarea vârstei, Franța, președintele Franței, propune 15 ani.
 
@@ -760,15 +757,15 @@ Ne a spus adineaur că poate ar fi o idee în România.
 
 Credeți că e oportun să avem această dezbatere și să și
 
-[ND] Trebuie să avem categoric trebuie să avem dezbaterea asta în societate.
+Trebuie să avem categoric trebuie să avem dezbaterea asta în societate.
 
 Sunt oameni psihologi, psihologi pe vârste mici care evident că știu mai bine decât mine unde sunt limitele.
 
-[JURNALIST] Domnule președinte, Claudiu Pândaru are o întrebare pentru dumneavoastră.
+Domnule președinte, Claudiu Pândaru are o întrebare pentru dumneavoastră.
 
 Claudiu, te rog.
 
-[JURNALIST] Domnule președinte, cu permisiunea ta, Cosmin, două curiozități.
+Domnule președinte, cu permisiunea ta, Cosmin, două curiozități.
 
 Una legată mai degrabă de politica internă și cealaltă de politica externă.
 
@@ -796,21 +793,21 @@ Numai că tot timpul, cum am spus, un calcul de oportunitate.
 
 Dacă
 
-[ND] și de ce nu ați considerat oportun să mergeți dumneavoastră așa cum a considerat președinții altor țări?
+și de ce nu ați considerat oportun să mergeți dumneavoastră așa cum a considerat președinții altor țări?
 
-[JURNALIST] Președinții altor țări sunt în funcție de unii de trei ani, unii de cinci ani.
+Președinții altor țări sunt în funcție de unii de trei ani, unii de cinci ani.
 
 Ă unii au probleme mai mici de deficit decât are România. să mergi cinci șase zile la să lipsești din țară sau să fii prezenți în țară.
 
 Am considerat că e mai util să fiu prezent în țară în perioada asta.
 
-[ND] Deci ăsta a fost calculul de oportunitate pe care l ați făcut.
+Deci ăsta a fost calculul de oportunitate pe care l ați făcut.
 
 Ați crezut, ați considerat că este mai important să fiți în țară decât la adunarea generală a ONU.
 
-[JURNALIST] Exact.
+Exact.
 
-[ND] Și în cele cinci zile în țară ați făcut ce? ca să ne dăm seama, desigur, dacă ne permiteți ce era atât de important în țară.
+Și în cele cinci zile în țară ați făcut ce? ca să ne dăm seama, desigur, dacă ne permiteți ce era atât de important în țară.
 
 Bun.
 
@@ -824,17 +821,17 @@ M am uitat pe niște legi care trebuie promulgate sau trimise.
 
 Adică e o activitate de președință.
 
-[JURNALIST] Chestiuni mai importante decât adunarea generală ONU.
+Chestiuni mai importante decât adunarea generală ONU.
 
-[ND] Ăă unele dintre ele.
+Ăă unele dintre ele.
 
 Da.
 
-[JURNALIST] Bun.
+Bun.
 
 Și a doua întrebare și curiozitate este următoarea: Dacă pachetele de reformă sau austeritate, cum preferați să le numiți, ale guvernului, vor fi declarate integral sau parțial, neconstituționale, considerați că premierul Ilie Bolojan ar trebui să demisioneze?
 
-[ND] Deloc.
+Deloc.
 
 Deloc.
 
@@ -866,10 +863,10 @@ Se mai întâmplă.
 
 Nu e nu e absolut nimic.
 
-[JURNALIST] Mulțumesc.
+Mulțumesc.
 
 Mulțumesc pentru răspuns.
 
-[ND] Mulțumim, Claudiu Pândaru.
+Mulțumim, Claudiu Pândaru.
 
 Ne întoarcem la dialogul cu președintele României, Nicușor Dan, în studioul Digi24, după o scurtă pauză când vom vorbi despre nemulțumirile președintelui României față de Parchetul General și DNA. .

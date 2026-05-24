@@ -1,11 +1,8 @@
 ---
 data: 2025-12-12
-metoda: heuristic diarization (format=markers, 52 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=Ah12LJ2mnrM
 sursa_aprecieri: 175
 sursa_canal: Antena 3 CNN
@@ -20,17 +17,17 @@ sursa_upload_timestamp: 1765547601
 sursa_video_id: Ah12LJ2mnrM
 sursa_vizionari: 13746
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Premierul Ilie Boloan vorbește despre răspunderea tuturor miniștrilor ai justiției.
+Premierul Ilie Boloan vorbește despre răspunderea tuturor miniștrilor ai justiției.
 
 Ați fost și dumneavoastră ministru al justiției.
 
 Considerați că aveți vreo răspundere pentru aceste probleme semnalate în ultimele zile în justiție?
 
-[ND] Da.
+Da.
 
 Bună ziua.
 
@@ -42,21 +39,21 @@ Sigur că orice ministru răspunde în măsura în care n a reușit să finalize
 
 Răspunzând punctual, nu cred că am vreo răspundere pentru modul în care am gestionat activitatea Ministerului Justiției.
 
-[ND] Cum vi se pare ideea asta a premierului Ilie Bolojan, domnule ministru, să facă acest grup de lucru după documentarul recorder?
+Cum vi se pare ideea asta a premierului Ilie Bolojan, domnule ministru, să facă acest grup de lucru după documentarul recorder?
 
 Chiar cred că la dumneavoastră în emisiune am spus că urmarea acestei animozități care a fost create, probabil se va face un grup de lucru care
 
-[ND] care să facă parte cine?
+care să facă parte cine?
 
 Că asta e foarte important și nu ne a spus premierul Bolojan.
 
-[ND] Păi, dânșii vor decide.
+Păi, dânșii vor decide.
 
 Eu vă spuneam doar așa, să facă parte oameni care știu carte, care cunosc mecanismele statului de drept și care sunt de bună credință.
 
-[ND] Domnul Zeidler dorește să vă adreseze o întrebare, vă rog.
+Domnul Zeidler dorește să vă adreseze o întrebare, vă rog.
 
-[ND] A, nu, nu doresc să adresez nicio întrebare.
+A, nu, nu doresc să adresez nicio întrebare.
 
 Constat doar că pe vremuri câte un magistrat corupt mai era tras la răspundere.
 
@@ -70,29 +67,29 @@ Atâta doar că în cetățenii României avem acest sentiment foarte răspândi
 
 Haide să vă și răspundă.
 
-[ND] Pot să vă răspund.
+Pot să vă răspund.
 
 Tijul n a fost opera Ministerului Justiției, nici a guvernului.
 
 Tijul a fost creat prin inițiativă parlamentară a acelei comisii speciale și aprobat prin legea 107 din 2018 și vă rog să verificați înainte de a face afirmații fără acoperire.
 
-[ND] Bun.
+Bun.
 
-[ND] Dar e un lucru bun.
+Dar e un lucru bun.
 
 Nu
 
-[ND] n am spus eu că e un lucru bun.
+n am spus eu că e un lucru bun.
 
 Am spus
 
-[ND] e despre asta vorbim. despre cum arată justiția din România.
+e despre asta vorbim. despre cum arată justiția din România.
 
-[ND] Dar stați un pic, domnule Zaid.
+Dar stați un pic, domnule Zaid.
 
 Dumneavoastră considerați că inclusiv magistrații trebuie să răspundă, adică trebuie să fie cercetați dacă sunt se fac abuzuri, pentru că noi am tot discutat și despre legea răspunderii magistrativ și
 
-[ND] categoric da.
+categoric da.
 
 Categoric da.
 
@@ -102,7 +99,7 @@ Aveți un discurs în momente care, să zicem nu se aplica și încut.
 
 Ne amintim pe vremea lui Stați puțin.
 
-[ND] Pe vremea lui Koove și de exemplu când erau protocoalele nu mai ziceați aceste lucruri când era decaparea, când se mutau tot la fel judecători din complet în alt.
+Pe vremea lui Koove și de exemplu când erau protocoalele nu mai ziceați aceste lucruri când era decaparea, când se mutau tot la fel judecători din complet în alt.
 
 Ba pardon.
 
@@ -122,19 +119,19 @@ Nu mai răspunde aproape nimeni pentru nim e foarte clar.
 
 Spuneți că Sijiu practic a distrus sistemul de tragere la răspunderea magistraților sau care era teza?
 
-[ND] Câte condamnări
+Câte condamnări
 
-[ND] ați avut ministrul a justiției?
+ați avut ministrul a justiției?
 
 Adică dacă e vorba doar de SIJ, atunci înțeleg întrebarea adresată domnului Tudorel Toader, colegului meu avocat,
 
-[ND] dar nu dar a și înțelege o la nivel de ministru.
+dar nu dar a și înțelege o la nivel de ministru.
 
 Adică asta vreau să decelați un pic.
 
 Siju a desființat răspunderea magistraților sau asta vreți să spuneți cu
 
-[ND] Asta este una dintre problemele din sistemul judecătores.
+Asta este una dintre problemele din sistemul judecătores.
 
 Cealaltă este că se concentrează puterea în mâna unor foarte puțini magistrați.
 
@@ -146,9 +143,9 @@ Cei mai mulți dintre reprezentanții din CSM sunt al sunt mai multe probleme di
 
 Iată în ce situație.
 
-[ND] Și vă contrazic, apropo de excluderi s au făcut excluderi în perioada trecută, chiar și anul ăsta știu eu cel puțin vreo patru, cinci.
+Și vă contrazic, apropo de excluderi s au făcut excluderi în perioada trecută, chiar și anul ăsta știu eu cel puțin vreo patru, cinci.
 
-[ND] În ultimii cinci ani, câți condamnați penal au fost în cadrul magistrațiilor? 10 ani de când cu siju nu a mai fost condamnat nimeni.
+În ultimii cinci ani, câți condamnați penal au fost în cadrul magistrațiilor? 10 ani de când cu siju nu a mai fost condamnat nimeni.
 
 S a curățit dintr o dată.
 
@@ -170,11 +167,11 @@ Partidul Social Democrat cum vede ceea ce a prezentat Recorder în acest documen
 
 Aproximativ 10%
 
-[ND] număr imens.
+număr imens.
 
-[ND] Vă rugăm, domnule Tomas,
+Vă rugăm, domnule Tomas,
 
-[ND] eu vorbesc ca cetățean membru PSD.
+eu vorbesc ca cetățean membru PSD.
 
 Nu pot să mă pun în eu știu să să înlocuiesc conducerea PSD ului, că nu e problema asta. ăă sunt și eu revoltat, cum este marea majoritate, dacă nu chiar 99% sau 90% din populația României vizavi de ce se întâmplă în justiție în acest moment.
 
@@ -190,7 +187,7 @@ Iar acum când avem și dovezi date de recorder că magistrații fac tâmpenii �
 
 La fel și cei de la Înalta Curte de Casație și Justiție, un alt membru al CSM cei de la Curtea de Apel spuneau că nu e nicidecum nu este un documentar, ci este un film artistic.
 
-[ND] Exagerat.
+Exagerat.
 
 Bun.
 
@@ -198,7 +195,7 @@ Dar vorbesc de 500 de judecători.
 
 A început de la câțiva 500 de judecători care iată au ieșit la lumină și spun că e o problemă gravă în sistemul de justiție din România.
 
-[ND] Dar înțelegeți Bun.
+Dar înțelegeți Bun.
 
 Dar înțelegeți de ce de trei zile de când discutăm doar despre acest subiect Partidul Social Democrat nu a avut dar chiar nu a avut nicio poziție?
 
@@ -206,23 +203,23 @@ Păi, întrebați l pe domnul Grindeanu.
 
 Eu cu membrii de partid PSD cu care vorbesc, toți spun ceea ce simt și eu și ceea ce v am spus și dumneavoastrăile alea cum doamna Savonea
 
-[ND] știți că s au făcut discuțiile domnul Da.
+știți că s au făcut discuțiile domnul Da.
 
 Da.
 
 Adică având în vedere relația domnului Grindeanu, a vorbit și după acest documentar cu
 
-[ND] pic unde o fi domnul Grindeanu, domnule Toma, că nu de când a izbucnit acest scandal nu l am văzut.
+pic unde o fi domnul Grindeanu, domnule Toma, că nu de când a izbucnit acest scandal nu l am văzut.
 
 Vreau să vă informez că nu mi a dat raportul unde este acum în momentul ăsta.
 
 Dar dumneavoastră conducere, dar o postare pe Facebook puteai să faci cum a făcut o în multe alte rânduri, să vedem și noi exact de ce parte se situează Partidul Social Democrat.
 
-[ND] Problemă foarte gravă și partidul pierde prin această tăcere.
+Problemă foarte gravă și partidul pierde prin această tăcere.
 
-[ND] Cât la sută credeți?
+Cât la sută credeți?
 
-[ND] Tăcerea înseamnă multe cuvinte.
+Tăcerea înseamnă multe cuvinte.
 
 Cât stă în picioare din ceea ce prezintă documentarul Recorder?
 
@@ -230,7 +227,7 @@ Ce nu poate fi contestat?
 
 Din ce v ați făcut dumneavoastră o impresie, cât poate fi vorba și despre o răfuială și în găștile din justiție?
 
-[ND] Nu cred în acest lucru.
+Nu cred în acest lucru.
 
 Pentru mine, acest episod, acest film artistic sau documentar, pe mine m a convins că este o problemă foarte gravă în justiția română.
 
@@ -264,7 +261,7 @@ Avem o problemă și la nivel internațional.
 
 Păi cum se mai uită partenerii noștri că sunt strategici, că sunt economici, că sunt de orice altă natură, că noi avem o justiție care teoretic, așa cum ni se spune, judecătorul dintr un complet de judecată, dacă e incomod este schimbat.
 
-[ND] Cu culis, că noi vorbeam am avut și un președinte care vorbea de cum sunt schimbați judecătorii în dosare.
+Cu culis, că noi vorbeam am avut și un președinte care vorbea de cum sunt schimbați judecătorii în dosare.
 
 Pleacă mustață, vine Bogdan și așa mai departe.
 
@@ -272,15 +269,15 @@ Doamna Vacariu organiza.
 
 Haideți un pic că e diferit situația acut o confirmare de la cel mai înalt nivel președintelui României
 
-[ND] și ulterior confirmată de către Înalta Curte foarte târziu.
+și ulterior confirmată de către Înalta Curte foarte târziu.
 
 Ce se întâmplă să sesizezi CSAT ul în calitate de
 
-[ND] pentru că judecătorul Beșu ar fi lucrat la 2 a fost sesizat CSAT de către Curtea de credeți mă că sunt și alții care au fost suspectați că aveau legături cu serviciile secrete și nu s a sesizat CS.
+pentru că judecătorul Beșu ar fi lucrat la 2 a fost sesizat CSAT de către Curtea de credeți mă că sunt și alții care au fost suspectați că aveau legături cu serviciile secrete și nu s a sesizat CS.
 
 Avem astăzi 500 de judecători care susțin ce zice acel judecător care a fost sau n a fost
 
-[ND] și în contextul dat nu înțeleg sesizarea CSAT ului.
+și în contextul dat nu înțeleg sesizarea CSAT ului.
 
 Avem 500 de oameni care lucrează în momentul de față în sistemul de justiție.
 
@@ -296,33 +293,33 @@ Acuma mă întreb oare inspecția judiciară este sesizată să verifice liberta
 
 Nu știu,
 
-[ND] domnule Sidler, oamenii pe și pe rețele sociale își mai pun și problema timpului sau momentului în care a apărut acest documentar Recorder, fix în ziua în care judecătorii CCR trebuiau să dea o decizie în ceea ce privește tăierea pensiilor speciale.
+domnule Sidler, oamenii pe și pe rețele sociale își mai pun și problema timpului sau momentului în care a apărut acest documentar Recorder, fix în ziua în care judecătorii CCR trebuiau să dea o decizie în ceea ce privește tăierea pensiilor speciale.
 
 Cu o zi înainte a fost anunțată și s a difuzat și a început să să fie din ce în ce mai populară și are cred că peste 3 milioane de vizualizări în aceste momente.
 
 Ă, există un moment ales pentru asta sau e o coincidență?
 
-[ND] Eu cred că dat fiind că discutăm de câteva luni de zile în spațiul public despre se fac chiar ani dacă stau să mă gândesc despre pensiile magistraților, asta nu înseamnă că între timp trebuie să punem deoparte orice alt subiect legat de de justiție.
+Eu cred că dat fiind că discutăm de câteva luni de zile în spațiul public despre se fac chiar ani dacă stau să mă gândesc despre pensiile magistraților, asta nu înseamnă că între timp trebuie să punem deoparte orice alt subiect legat de de justiție.
 
 Iar în momentul în care sunt sute număr în creștere de magistrați care spunnu e în regulă ceva în sistemul din din România întrebarea ce va face președintele Nicușor Dan, domnule, pe care îl cunoașteți foarte bine, Nicușor Dan.
 
-[ND] Exact ceea ce ați și a anunțat. îi cheamă la Cotroceni pe 22 decembrie.
+Exact ceea ce ați și a anunțat. îi cheamă la Cotroceni pe 22 decembrie.
 
 Spunea că nu poate mai devreme că are o deplasări externă
 
-[ND] și că până atunci așteaptă
+și că până atunci așteaptă
 
-[ND] și că până atunci așteaptă materiale atât asumat cât și anonim din partea magistraților.
+și că până atunci așteaptă materiale atât asumat cât și anonim din partea magistraților.
 
 Bun, după care va fi următorul pas?
 
-[ND] Eu mă aștept la o dezbatere lungă și publică despre putregaiul din sistem. spun putregai și spun din mai multe fațete ale sistemului pentru că pe zi ce trece vedem altă lucuri.
+Eu mă aștept la o dezbatere lungă și publică despre putregaiul din sistem. spun putregai și spun din mai multe fațete ale sistemului pentru că pe zi ce trece vedem altă lucuri.
 
-[ND] Dar mai concret așa cam ce ați face dumneavoastră?
+Dar mai concret așa cam ce ați face dumneavoastră?
 
 V aș întreba ca care i soluția că asta cu putregaiul care i soluția?
 
-[ND] În primul rând să pui mizeria pe masă.
+În primul rând să pui mizeria pe masă.
 
 Asta e prima soluție.
 
@@ -330,7 +327,7 @@ A doua chestiune cred că e nevoie de schimbarea unor legi.
 
 Unu, ca majoritatea magistraților să aleagă majoritatea membor
 
-[ND] legile justiției deja de foarte mult.
+legile justiției deja de foarte mult.
 
 Așa.
 
@@ -338,11 +335,11 @@ Așa.
 
 S a ieșit în stradă, da, ne aducem aminte
 
-[ND] și constatăm că încă nu funcționează.
+și constatăm că încă nu funcționează.
 
 Deci trebuie să l mai modificăm cu ministru Ionic.
 
-[ND] Este obligatoriu să tragem concluziile înainte să le avem.
+Este obligatoriu să tragem concluziile înainte să le avem.
 
 Adică, nu știu, cel puțin asta e perspectiva mea.
 
@@ -366,7 +363,7 @@ Deci toți acești magistrați care uitați au susținut un punct de vedere fire
 
 Dar da, trebuie să fie o discuție și trebuie să vezi exact amploarea problemi după discuție modificări legislative dacă se impun.
 
-[ND] În 2018 Curtea Constituțională s a pronunțat cu privire la ceea ce înseamnă prescripția și că trebuie modificat articolul 155.
+În 2018 Curtea Constituțională s a pronunțat cu privire la ceea ce înseamnă prescripția și că trebuie modificat articolul 155.
 
 St, stați, stați, stați, stați.
 
@@ -396,9 +393,9 @@ Uitați, acesta este un prim pas.
 
 Premierul nu poate
 
-[ND] n a fost la nicio ședință președintele României.
+n a fost la nicio ședință președintele României.
 
-[ND] Poate că o va face în perioada imediat următoare.
+Poate că o va face în perioada imediat următoare.
 
 Firește că în schimb acum având această situație care uitați cu bune cu rele a explodat în nas și trebuie să recunoaștem acest lucru.
 
@@ -442,11 +439,11 @@ Da.
 
 Lumea este revoltată de modificat legea privind prescripția, domnule Zaidră, nu dumneavoastră în Parlamentul României.
 
-[ND] Ba da, doar că nu așa cum aș fi vrut eu.
+Ba da, doar că nu așa cum aș fi vrut eu.
 
 Deci eu pot să vin să spun, eu cred că trebuie modificată în continuare lea pentru a fost majoritatea care a votat
 
-[ND] PSD, PNL, evident, știți foarte bine că asta a fost, dar dar, dar, dar constatăm astăzi numai o secundă, numai o secundă, numai o secundă, domn o secă, numai o secundă.
+PSD, PNL, evident, știți foarte bine că asta a fost, dar dar, dar, dar constatăm astăzi numai o secundă, numai o secundă, numai o secundă, domn o secă, numai o secundă.
 
 Da, doar că se putea modifica în direcția asta sau în direcția cealaltă.
 

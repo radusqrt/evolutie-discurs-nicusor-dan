@@ -1,11 +1,8 @@
 ---
 data: 2025-12-15
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=J49CMzAm5u0
 sursa_aprecieri: 16
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1765797416
 sursa_video_id: J49CMzAm5u0
 sursa_vizionari: 1971
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Continuăm cu un mesaj de ultimă oră al președintelui despre problemele din justiție.
+Continuăm cu un mesaj de ultimă oră al președintelui despre problemele din justiție.
 
 Nicușor Dan spune că ia cu el la Helsinki îngrijorările despre funcționarea sistemului și că statul de drept nu este negociabil pentru că țara noastră are nevoie de instituții corecte, credibile și funcționale în interior.
 
@@ -38,7 +35,7 @@ Te ascultăm, Vasile.
 
 Bună ziua.
 
-[ND] Bun găsit.
+Bun găsit.
 
 Practic, președintele Nicușord în această perioadă consultă toate toate mail urile și solicitările pe care le a primit din partea magistraților pentru că a cerut încă de la sfârșitul săptămânii trecute să îi trimită magistrații să i trimită toate problemele pe care le au, să i trimită prin mail sau însris la administrația prezidențială, iar până săptămâna viitoare, până pe 22 decembrie, va avea timp să le citească ceea ce și spunea că face în această această perioadă ea cu el la Helsinki unde participă la un summit al țărilor din estul Europei din Planul estic al NATO.
 

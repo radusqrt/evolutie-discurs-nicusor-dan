@@ -1,11 +1,8 @@
 ---
 data: 2025-05-26
-metoda: heuristic diarization (format=intros, 1 ND segments, 10 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=irur7nbghQk
 sursa_aprecieri: 1317
 sursa_canal: Antena 3 CNN
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1748260104
 sursa_video_id: irur7nbghQk
 sursa_vizionari: 78011
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Important în momentul de față este ce va face Nicușor Dan.
+Important în momentul de față este ce va face Nicușor Dan.
 
 Președintele Nicușor Dan a arătat de la momentul la care a câștigat aceste alegeri că este extrem de implicat.
 
@@ -1566,7 +1563,7 @@ Să vedem dacă declară ceva.
 
 Toți moment.
 
-[JURNALIST] Domnule președinte, președintele Constantinescu a marcat România într un sens pozitiv. în 1996 câștiga promițând schimbarea și schimbarea a venit prin demersurile pe care le a făcut.
+Domnule președinte, președintele Constantinescu a marcat România într un sens pozitiv. în 1996 câștiga promițând schimbarea și schimbarea a venit prin demersurile pe care le a făcut.
 
 Dacă astăzi suntem în Uniunea Europeană, dacă astăzi suntem în NATO, i se datorează foarte mult fostului președinte Emil Constantinescu.
 
@@ -1866,7 +1863,7 @@ Depunerea jurământului constituțional de către președintele ales al Români
 
 Doamnelor și domnilor deputați și senatori, stimați invitați, în conformitate cu prevedere articolului 11 și 37 din legea numărul 47/ 1992 privind organizarea și funcționarea Curții Constituționale ale articolului 72 din Regulamentul Activităților Comune ale Camerei Deputaților și Senatului, dau cuvântul domnului Marian Inache, președintele Curții Constituționale, pentru a prezenta hotărârea privind validarea rezultatului alegerilor pentru funcția de președinte al României.
 
-[JURNALIST] Domnule președinte, aveți cuvântul.
+Domnule președinte, aveți cuvântul.
 
 Mulțumesc.
 
@@ -1882,9 +1879,9 @@ Comunicarea către Parlament a unui exemplar al hotărârii în vederea depuneri
 
 Hotărârea este definitivă și general obligatorie.
 
-[JURNALIST] Domnule președinte Nicușor Danheldan, vă dorim mult succes în îndeplinirea mandatului dumneavoastră, fiind încredințați că în virtutea funcției de mediere veți reuși să fiți președintele tuturor românilor, atât al celor care v au votat, cât și a celor care nu v au votat, că veți garanta respectarea diferenței și în special a diferențelor de convingeri și de opinie, asigurând pluralismul social și politic al societății românești, statul de drept și identitatea națională a României în plan intern și în relațiile externe, în cadrul prerogativelor constituționale, să vegheați la respectarea Constituției, la separația și echilibrul puterilor în stat, la realizarea păcii și bunăstării sociale, a unității, a coeziunii și a solidarității poporului român, unicul fundament real al suveranității și democrației constituționale.
+Domnule președinte Nicușor Danheldan, vă dorim mult succes în îndeplinirea mandatului dumneavoastră, fiind încredințați că în virtutea funcției de mediere veți reuși să fiți președintele tuturor românilor, atât al celor care v au votat, cât și a celor care nu v au votat, că veți garanta respectarea diferenței și în special a diferențelor de convingeri și de opinie, asigurând pluralismul social și politic al societății românești, statul de drept și identitatea națională a României în plan intern și în relațiile externe, în cadrul prerogativelor constituționale, să vegheați la respectarea Constituției, la separația și echilibrul puterilor în stat, la realizarea păcii și bunăstării sociale, a unității, a coeziunii și a solidarității poporului român, unicul fundament real al suveranității și democrației constituționale.
 
-[JURNALIST] Domnule președinte, mai presus de toate, să garantați independența justiției instanțelor judecătorești și a justiției constituționale, să îmbinați meritocrația cu democrația pragmatică și funcțională, precum și cu protecția drepturilor și libertăților omului.
+Domnule președinte, mai presus de toate, să garantați independența justiției instanțelor judecătorești și a justiției constituționale, să îmbinați meritocrația cu democrația pragmatică și funcțională, precum și cu protecția drepturilor și libertăților omului.
 
 În încheiere, exprimând spiritul constituției noastre, credem că democrația există acolo unde cei care iubesc libertatea ca necesitate înțeleasă îi domină pe cei care iubesc puterea.
 
@@ -1952,7 +1949,7 @@ Amin.
 
 Mulțumesc.
 
-[JURNALIST] Stimate domnule președinte Nicușordan, vă invit la tribuna Parlamentului pentru a adresa mesajul dumneavoastră la începutul mandatului.
+Stimate domnule președinte Nicușordan, vă invit la tribuna Parlamentului pentru a adresa mesajul dumneavoastră la începutul mandatului.
 
 Doamnelor și domnilor, stimați invitați și mai ales dragi români.
 
@@ -2290,7 +2287,7 @@ Deci ăsta este asta este o urgență și eu cred sper să rezolvăm chestiunea 
 
 După care, odată ce rezolvăm problema deficitului, e nevoie de, așa cum am spus de mai multe ori, e nevoie de specialiști care să fie în implicatoriiale pentru români.
 
-[JURNALIST] Domnule președinte, am spus înăuntru că am tre să intre în acest guvern pentru că au dat semnale că nu doresc să intre în guvern și mai degrabă vor fi în opoziție.
+Domnule președinte, am spus înăuntru că am tre să intre în acest guvern pentru că au dat semnale că nu doresc să intre în guvern și mai degrabă vor fi în opoziție.
 
 Cum reușiți să i convingeți?
 
@@ -2378,7 +2375,7 @@ Problema este rata mare a dobânzii pe care noi o plătim în momentul ăsta și
 
 Tăi cheltuieli de 30 de miliarde RON în timpul rămas până la finalul anului.
 
-[JURNALIST] Domnul președinte, vorbeați despre tăieri de cheltuieli de 6 miliarde de euro.
+Domnul președinte, vorbeați despre tăieri de cheltuieli de 6 miliarde de euro.
 
 Ar însemna 5 miliarde pe lună până la final de ani.
 
@@ -2396,7 +2393,7 @@ Dumneavoastră de vedere, politica externă trebuie rezultă a României a fost 
 
 Deci trebuie să păstrăm direcția și să creștem intensitatea.
 
-[JURNALIST] Domnule președinte, două partide au protestat astăzi în plen în timp ce președintele Curții Constituționale cita acea hotărâre de validare, unul dintre partide nici nu a participat la plenul de astăzi.
+Domnule președinte, două partide au protestat astăzi în plen în timp ce președintele Curții Constituționale cita acea hotărâre de validare, unul dintre partide nici nu a participat la plenul de astăzi.
 
 Cum vedeți acest protest al opoziției față de alegerea dumneavoastră?
 
@@ -2430,7 +2427,7 @@ Nu vreau, nu vreau să, nu vreau să, nu vreau să discutăm asta.
 
 Însă, dacă noi tot promitem de trei ani Comisiei Europene, eu cred că avem un răgaz de câteva săptămâni acum, având având în vedere această schimbare de direcție pentru a corecta lucrurile.
 
-[JURNALIST] Domnule președinte, este exclus ca scenariu un premier din partea PSD, Sorin Grindean, Olguța Vasilescu.
+Domnule președinte, este exclus ca scenariu un premier din partea PSD, Sorin Grindean, Olguța Vasilescu.
 
 Excludeți varianta unui premier PSD?
 
@@ -2500,7 +2497,7 @@ N am discutat.
 
 Am spus într un context care a fost interpreta.
 
-[JURNALIST] Domnule președinte, spuneți ne vă rog, noile taxe vor fi introduse în când anume?
+Domnule președinte, spuneți ne vă rog, noile taxe vor fi introduse în când anume?
 
 Se respectă codul fiscal care nu am vorbit de taxe.
 

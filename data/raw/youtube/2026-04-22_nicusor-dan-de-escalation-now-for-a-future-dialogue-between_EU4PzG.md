@@ -1,11 +1,8 @@
 ---
 data: 2026-04-22
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=EU4PzGmw5mg
 sursa_aprecieri: 12
 sursa_canal: Antena 3 CNN
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1776883150
 sursa_video_id: EU4PzGmw5mg
 sursa_vizionari: 1776
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Am avut toată ziua de azi consultări cu partidele prooccidentale din actuala coaliție.
+Am avut toată ziua de azi consultări cu partidele prooccidentale din actuala coaliție.
 
 Vreau să precizez că au fost consultări informale pentru că la acest moment politic constituția nu dă președintelui vreo atribuție, vreun act pe care să l facă.
 

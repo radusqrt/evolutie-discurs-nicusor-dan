@@ -1,11 +1,8 @@
 ---
 data: 2026-05-15
-metoda: heuristic diarization (format=markers, 33 ND segments, 21 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=maw3znCCfes
 sursa_aprecieri: 113
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1778841183
 sursa_video_id: maw3znCCfes
 sursa_vizionari: 5599
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] global.
+global.
 
 Există o creștere de necesar de echipament militar.
 
@@ -39,7 +36,7 @@ Vreau să mulțumesc organizatorilor că pun în contact industria noastră de a
 
 Sunt sigur că aveți întrebări pe domeniul militar.
 
-[ND] Nu.
+Nu.
 
 Bună ziua, Xenia Croitorul, Antena 3, CNN.
 
@@ -59,7 +56,7 @@ Nu va exista un anunț luni seara sau marți dimineața.
 
 Ați renunțat la ideea de premier tehnocrat pentru că toate formațiunile sau aproape toate care vor veni luni la consultări resping cumva această idee?
 
-[ND] Bun.
+Bun.
 
 Lucrul cel mai important și solicitarea mea pentru partidele, pentru toate partidele care vin la consultări este primul lucru pe care o să l întreb, care va fi majoritatea.
 
@@ -67,9 +64,9 @@ Deci, fie că vorbim de guvern complet, fie că vorbim de guvern minoritar, fie 
 
 Asta este întrebarea esențială și de acolo o să începem discuția.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[ND] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Iulia Roșu de la SNOP.
 
@@ -89,11 +86,11 @@ Răspunsul meu este că România face foarte mult pe zona umanitară.
 
 Chiar azi este o discuție despre continuarea evacuării de copii bolnavi și tratarea lor în România sau în spitale europene.
 
-[ND] Și cu privire la părerea dumneavoastră despre exporturile pe care le militare pe care România le continuă în Israel,
+Și cu privire la părerea dumneavoastră despre exporturile pe care le militare pe care România le continuă în Israel,
 
-[ND] tot timpul când când ai un contract în desfășurare acest orice contract are o obligație bilaterală. când sau dacă vom ajunge să fim în altă configurație, evident că și partea contractuală se va schimba.
+tot timpul când când ai un contract în desfășurare acest orice contract are o obligație bilaterală. când sau dacă vom ajunge să fim în altă configurație, evident că și partea contractuală se va schimba.
 
-[ND] Bună ziua, domnule președinte Mădălin Puiu, România TV.
+Bună ziua, domnule președinte Mădălin Puiu, România TV.
 
 Vreau să vă întreb despre scandalul care a izbucnit în zilele acestea.
 
@@ -101,7 +98,7 @@ Oana Gheorghiu, vicepremiera interimară a României, este acuzată de trafic de
 
 În primul rând, v aș întreba dacă totuși considerați că ar trebui să fie retrasă din funcție, pentru că de asemenea vorbim despre un vicepremier care a fost demis prin moțiune de cenzură și dacă vi se pare corectă atitudinea pe care a avut o.
 
-[ND] Bun, nu sunt eu organul competent să fac încadrări juridice.
+Bun, nu sunt eu organul competent să fac încadrări juridice.
 
 Ce pot să fac și mai ales nu vreau să mă refer la un caz particular.
 
@@ -115,13 +112,13 @@ Da.
 
 Considerați că ar trebui să se retragă pentru că sunt niște acuzații durere care sunt aduse și din partea PSD, nu doar din partea fostului șef al ADR.
 
-[ND] Da, aveți răspunsul meu.
+Da, aveți răspunsul meu.
 
 E o încadrare juridică pe care nu vreau să mă pronunț.
 
 Mulțumesc.
 
-[ND] Bună ziua, Rebeca Popescu, Hot News.
+Bună ziua, Rebeca Popescu, Hot News.
 
 Aș vrea să vă întreb, pentru că ați spus că nu vreți să faceți experimente când vine vorba de nominalizarea noului premier, dacă credeți că o renominalizare a lui Ilie Bolojan ar fi un experiment?
 
@@ -133,7 +130,7 @@ Da.
 
 Ăsta e răspunsul general pe care pot să l dau.
 
-[ND] Sorin Grindeanu a spus că ar fi de acord cu refacerea coaliției cu PNL, dar fără USR. dumneavoastră cum vedeți?
+Sorin Grindeanu a spus că ar fi de acord cu refacerea coaliției cu PNL, dar fără USR. dumneavoastră cum vedeți?
 
 E posibilă refacerea fără USR?
 
@@ -149,13 +146,13 @@ Dat fiind că ultima ordonanță de urgență dată de guvernul Ilie Bolojan, ca
 
 Există riscul să se blocheze programul safe în aceste condiții?
 
-[ND] Nu există riscul acesta.
+Nu există riscul acesta.
 
 Chiar ieri am avut o și cumva pe măsură ce ne apropiem de 31 mai, discuțiile pe safe sunt tot mai dese.
 
 Există un backup în Parlament, deci există o posibilitate de a interveni legislativ în Parlament în timp optim, astfel încât termenul de 31 mai să nu fie afectat.
 
-[ND] Deci există un plan B, înțeleg.
+Deci există un plan B, înțeleg.
 
 Și în aceste condiții v aș mai întreba în ce stadiu se află acele planuri anunțate de dumneavoastră de organizarea unei structuri la administrația prezidențială care să combată sau să încerce să reducă din războiul hibrid.
 
@@ -165,7 +162,7 @@ Am anunțat acum pentru moment, după cum știți, au fost trei deplasări exter
 
 Imediat ce ieșim din asta, e important să ne concentrăm și pe ambele și pe situația curentă și pe raportul pe noiembrie 2024.
 
-[ND] Anularea alegerilor.
+Anularea alegerilor.
 
 Adică, Vă mulțumesc frumos.
 
@@ -181,7 +178,7 @@ Pentru că dacă nu există o majoritate parlamentară care susține un nou guve
 
 Deci întrebarea fundamentală este care este majoritatea parlamentară care susține guvernul.
 
-[ND] Bună ziua, Marcobadexativ.com.
+Bună ziua, Marcobadexativ.com.
 
 Domnule președinte, pe scena politică conflictul e următorul.
 
@@ -203,7 +200,7 @@ Da.
 
 Întrebarea fundamentală acum este care este viitorul și repet care i majoritatea care va susține un guvern
 
-[JURNALIST] și o completare la conferința de preslțiile de prese de după moțiune.
+și o completare la conferința de preslțiile de prese de după moțiune.
 
 Ați omis să ați fost criticat că ați omis să i mulțumiți premierului Bolojan pentru activitate.
 
@@ -211,13 +208,13 @@ A fost o simplă omisiune sau cumva nu sunteți mulțumit de activitatea premier
 
 Îi mulțumesc domnului Bolojan pentru activitate, dar dumnealui este încă în funcție.
 
-[ND] Acuma e interimar.
+Acuma e interimar.
 
 Mulțumesc.
 
-[JURNALIST] Da.
+Da.
 
-[ND] Bună ziua, Ias Ardelean, știrile Canal 2.
+Bună ziua, Ias Ardelean, știrile Canal 2.
 
 Day.
 
@@ -227,7 +224,7 @@ Ce v a spus?
 
 Cum s a simțit?
 
-[JURNALIST] Foarte bine.
+Foarte bine.
 
 Știam dinainte ce se va întâmpla pentru că orice are patru, șase sau opt roți e potrivit pentru vârsta lui și pentru un băiețel.
 
@@ -235,7 +232,7 @@ Da.
 
 Deci a fost foarte bucuros să vadă toate mașinăriile și sunt niște întrebări pe care le am amânat pentru acasă.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Luiza Dobrescu de la Gândul.
 
@@ -251,29 +248,29 @@ Am avut întrebarea asta.
 
 Da, da, da, da.
 
-[ND] Și acum pe care l ați aruncat?
+Și acum pe care l ați aruncat?
 
-[JURNALIST] Nu, vă dați seama că nu pot să răspundă.
+Nu, vă dați seama că nu pot să răspundă.
 
-[ND] Dar de ce?
+Dar de ce?
 
-[JURNALIST] Nu pot să răspund la această întrebare?
+Nu pot să răspund la această întrebare?
 
 Ce vreau eu să spun este că, așa cum am spus deja,
 
-[ND] trebuie să ne uităm la viitor și trebuie să ne uităm cu responsabilitate la viitor pentru că România are nevoie de stabilitate, iar această stabilitate necesită o coerență parlamentară.
+trebuie să ne uităm la viitor și trebuie să ne uităm cu responsabilitate la viitor pentru că România are nevoie de stabilitate, iar această stabilitate necesită o coerență parlamentară.
 
 Deci ceea ce eu vreau să evit, ceea ce justific, ceea ce și justifică faptul că am tăcut de multe ori când mi s a cerut opinia pe diferite subiecte este că cu toate diferențele între partidele pro occidentale, ele trebuie să dea o majoritate pro occidentală.
 
 Asta este, în opinia mea, responsabilitatea pe care o au în momentul ăsta și asta este obiectul discuțiilor de luni și probabil care vor urma zilele următoare.
 
-[JURNALIST] Bună ziua, Oana Ghiță Agerpress.
+Bună ziua, Oana Ghiță Agerpress.
 
 Acum două zile președintele Zelenschi a spus că un acord România Ucraina prin privind contracararea dronelor va fi semnat în scurt timp.
 
 Ce înseamnă acest în scurt timp și include și fabricarea de drone? în colaborare cu Ucraina, despre care se vorbește de mai mult timp.
 
-[ND] Deci sunt cumva două chestiuni care se suprapun, dar nu sunt identice.
+Deci sunt cumva două chestiuni care se suprapun, dar nu sunt identice.
 
 Prima este includerea în programul safe a unei componente de producție de drone în România.
 
@@ -285,7 +282,7 @@ Pe de altă parte este un cadru general discuția abia a început pentru fenomen
 
 Și aici este un proces tehnic în curs pe care aș zice că într o într un orizont de una, două, trei luni o să l finalizăm. și acest parteneriat, deci care a care a început la nivel strategic în martie când a fost președintele și care va fi concretizat tehnic cum am zis în una, două, trei luni va permite o colaborare mult mai flexibilă pe tot spectrul dronelor.
 
-[JURNALIST] Domnule președinte, bună ziua, Silviu Jugaru, Euronews.
+Domnule președinte, bună ziua, Silviu Jugaru, Euronews.
 
 V aș întreba în ce cheie să vedem dorința domnului Kelemen Hunor de a reduce TVA ul în următorul guvern, dacă este posibil și dacă România își permite întoarcerea la Vechea Cotă TVA.
 
@@ -297,15 +294,15 @@ Deci 2026 aceasta este perspectiva fiscală.
 
 În al doilea rând, așa cum am spus, îmi doresc și în discuțiile pe care le am avut deja cu partidele s a confirmat această idee ca bugetul 2027 să fie cel puțin propus de guvern Parlamentului, dacă nu și adoptat în toamna acestui an, astfel încât să proiectăm să proiectăm stabilitate financiară în momentul în care în momentul în care o să discutăm bugetul 2027, bineînțeles că orice idee este bine venită, dar nu vreau să dau speranțe false sau
 
-[ND] să să creez așteptări care posibil să nu se realizeze.
+să să creez așteptări care posibil să nu se realizeze.
 
-[JURNALIST] Bună ziua, Cosmina Balin, Realitatea Plus.
+Bună ziua, Cosmina Balin, Realitatea Plus.
 
 Domnule președinte, luați în calcul ca AUR să facă parte din executiv pentru a nu avea un guvern minoritar?
 
 Nu.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Robert Hoară Pro TV.
 
@@ -313,7 +310,7 @@ Robert Hoară Pro TV.
 
 Care va fi varianta de compromis?
 
-[ND] Întrebare foarte bună.
+Întrebare foarte bună.
 
 Așa cum am spus, chestiunea fundamentală este majoritatea parlamentară și pentru majoritatea parlamentară fiecare dintre partide are niște condiții întrepte cumva.
 
@@ -321,9 +318,9 @@ E o întrebare tehnică cu multe răspunsuri tehnice în care cu multe scenarii 
 
 Rămân la afirmația generală care să fie majoritatea.
 
-[JURNALIST] Mulțumesc.
+Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Bianca Iacob, Observator Antena 1.
 
@@ -331,17 +328,17 @@ Bianca Iacob, Observator Antena 1.
 
 Dacă PSD strânge această majoritate parlamentară și vine cu propunerea ca Sorin Grindeanu să fie premier, îl veți desemna?
 
-[ND] E o ipoteză.
+E o ipoteză.
 
 Da, e o ipoteză care în momentul ăsta nu prea se nu pare probabilă.
 
 Majoritate parlamentară e o ipoteză, evident.
 
-[JURNALIST] Deci rămâne la nivel de ipoteză în acest moment ca celelalte scenarii pe care le aveți pe masă, dar dacă se va concretiza?
+Deci rămâne la nivel de ipoteză în acest moment ca celelalte scenarii pe care le aveți pe masă, dar dacă se va concretiza?
 
-[ND] E o ipoteză.
+E o ipoteză.
 
-[JURNALIST] Bun.
+Bun.
 
 Și îmi permit să vă mai întreb despre legea salarizării unitare, un subiect foarte important discutat inclusiv ieri la guvern.
 
@@ -353,7 +350,7 @@ Va exista acord politic pentru a nu pierde acești bani din PNR?
 
 Și desigur ce v a informat domnul consilier Burnete care a participat la acea întâlnire de la Parlament
 
-[ND] că a durat patru ore și că va fi greu ă bun este stricta noastră responsabilitate da în măsura în care putem media o discuție o facem.
+că a durat patru ore și că va fi greu ă bun este stricta noastră responsabilitate da în măsura în care putem media o discuție o facem.
 
 Prima parte a discuției este care să fie anvelopa, pentru că e în corelație cu legea bugetului și a doua discuție dată fiind anvelopa acum și tot timpul discuția asta este foarte sensibilă.
 
@@ -365,9 +362,9 @@ Asta e situația.
 
 Sunt moderat optimist că o s o scoatem la capăt.
 
-[JURNALIST] Mulțumesc.
+Mulțumesc.
 
-[ND] Bună ziua.
+Bună ziua.
 
 Teodora Drăgoi, TVR.
 
@@ -377,19 +374,19 @@ Vedem că partidele parlamentare nu prea se îndreaptă într acolo.
 
 Drept urmare, ne spuneți că vă doriți refacerea coaliției de guvernare care a rezistat până acum câteva săptămâni.
 
-[JURNALIST] Când spunem coaliție de guvernare, spunem acel protocol cu acea reprezentare proporțională în guvern cu un acord pe prefecți, secretari de stat și așa mai departe.
+Când spunem coaliție de guvernare, spunem acel protocol cu acea reprezentare proporțională în guvern cu un acord pe prefecți, secretari de stat și așa mai departe.
 
 Nu spun, nu spun că o să ajungem acolo.
 
 Ce spun eu este că este cumva responsabilitatea noastră ca la sfârșitul procesului, indiferent dacă va fi tehnocrat minoritar, majoritar, să acest guvern să fie susținut de pe niște chestiuni de politică publică pe care să le agreem să fie susținut de o majoritate pentru că altfel intrăm în foarte repede într un conflict și n are n are rost
 
-[ND] și să înțelegem că cine nu va fi flexibil de fapt dă dovadă de iresponsabilitate.
+și să înțelegem că cine nu va fi flexibil de fapt dă dovadă de iresponsabilitate.
 
-[JURNALIST] Am spus că este responsabilitatea noastră să găsim o soluție.
+Am spus că este responsabilitatea noastră să găsim o soluție.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Miriam Țepești la Gen Știri.
 
@@ -399,7 +396,7 @@ Dar în ultimii ani numărul licențelor date de ANCEX a crescut, deși alte sta
 
 România de ce continuă s o facă?
 
-[ND] Bun.
+Bun.
 
 Nu am informația completă.
 
@@ -407,9 +404,9 @@ Nu știu care sunt momentele la care aceste contracte au fost semnate sau moment
 
 Nu voi reveni cu răspunsul.
 
-[JURNALIST] Mulțumesc.
+Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Alexandra Matei B1 TV.
 
@@ -417,7 +414,7 @@ Suntem în recesiune, suntem campioni la inflație.
 
 Întrebarea este când ne putem aștepta să scadă inflația și dacă măsurile de austeritate au contribuit în mod semnificativ la situația în care ne regăsim.
 
-[ND] Bun, ce pot eu să spun este că o țintă pe care noi toți și guvernul am avut o la început scăderea deficitului a fost atinsă.
+Bun, ce pot eu să spun este că o țintă pe care noi toți și guvernul am avut o la început scăderea deficitului a fost atinsă.
 
 Da. prin niște măsuri politico fiscale, că se putea face altfel, că în fine calculele economice puteau fi altele.
 
@@ -431,8 +428,8 @@ A existat un deficit care a fost foarte mare și care a fost care a trebuit core
 
 Repet, nu mă pronunț despre cum și cum despre variante posibile alternative, pentru că din nou e ceva în trecut, dar perspectivele economice pentru pentru România sunt bune.
 
-[JURNALIST] Vă mulțumesc.
+Vă mulțumesc.
 
 Mulțumim.
 
-[ND] Mulțumesc. .
+Mulțumesc. .

@@ -1,11 +1,8 @@
 ---
 data: 2025-12-21
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=BBQUVOkO7NQ
 sursa_aprecieri: 311
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1766321496
 sursa_video_id: BBQUVOkO7NQ
 sursa_vizionari: 24346
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Situația în care suntem este gravă, da, prin faptul că există această suspiciune cu privire la integritatea din sistemul judiciar și față de această situație pe care o apreciez ca fiind gravă, voi iniția în ianuarie, imediat după sărbători un referendum în cadrul corpului magistraților cu o singură întrebare.
+Situația în care suntem este gravă, da, prin faptul că există această suspiciune cu privire la integritatea din sistemul judiciar și față de această situație pe care o apreciez ca fiind gravă, voi iniția în ianuarie, imediat după sărbători un referendum în cadrul corpului magistraților cu o singură întrebare.
 
 Consiliul Superior al Magistraturii acționează în interes public sau acționează în interesul unui grup din interiorul sistemului judiciar.
 

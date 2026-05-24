@@ -1,11 +1,8 @@
 ---
 data: 2025-12-10
-metoda: heuristic diarization (format=markers, 173 ND segments, 25 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=R0e0Nbn2MIY
 sursa_aprecieri: 27
 sursa_canal: Euronews Romania
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1765351008
 sursa_video_id: R0e0Nbn2MIY
 sursa_vizionari: 710
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] [muzică] [muzică] Bună seara!
+[muzică] [muzică] Bună seara!
 
 Bine v am găsit în România lui Vitalie. [muzică] În această seară l am auzit de la Paris pe Nicușor Dan comentând strategia [muzică] de securitate a președintelui american Donald Trump.
 
@@ -82,19 +79,19 @@ Alături de mine în studioul Euronews România, doamna Elison Matler, jurnalist
 
 Bună seara.
 
-[ND] Bună seara.
+Bună seara.
 
-[ND] De asemenea, aș vrea să îl salut și pe domnul Dorin Popescu, expert în geopolitică, analist, fost diplomat în spațiul ex Sovietic.
+De asemenea, aș vrea să îl salut și pe domnul Dorin Popescu, expert în geopolitică, analist, fost diplomat în spațiul ex Sovietic.
 
 Bună seara.
 
-[ND] Bună seara.
+Bună seara.
 
 Vă mulțumesc foarte mult pentru invitație.
 
-[ND] Încep cu dumneavoastră, doamna Matler.
+Încep cu dumneavoastră, doamna Matler.
 
-[ND] Am citit cu toții această strategie.
+Am citit cu toții această strategie.
 
 Ea în continuare există pe site ul Casei Albe.
 
@@ -112,7 +109,7 @@ La ce ideologii se referă?
 
 În Europa fiecare țară, națiune are dreptul la propriul lui destin. propriul lui destin, vorbim și de Union Europeană, dar spre exemplu România a neulat alegerilor pentru că a considerat că a fost interferență străină rusă
 
-[ND] și pentru a proteja democrația.
+și pentru a proteja democrația.
 
 Asta nu i a convenit Statelor Unite.
 
@@ -130,11 +127,11 @@ Adică este o unitate între națiile Uniunii Europene, dar în același timp fi
 
 Adică avem un Orban, avem un Macron, avem un Merț.
 
-[ND] Deviza Uniunii Europene, unitate prin diversitate.
+Deviza Uniunii Europene, unitate prin diversitate.
 
 Știm asta?
 
-[ND] Da, exact.
+Da, exact.
 
 Avem o diversitate.
 
@@ -142,7 +139,7 @@ Fiecare țară e respectat pentru propriile lui cutume, pentru propriul lui iden
 
 În același timp avem niște reguli comune care ne interes ne face mai tar, mai prosper și dacă vreți mai democratici.
 
-[ND] Da.
+Da.
 
 Mulțumesc mult.
 
@@ -192,7 +189,7 @@ Pe aceste interese, norme, principii și valori se bazează o relație foarte pu
 
 O relație care va supraviețui discursului temporal cu privire la ciziunea ideologică.
 
-[ND] Este interesant că dumneavoastră credeți că este un discurs temporal și mă întorc în studio la doamna Elison Matler.
+Este interesant că dumneavoastră credeți că este un discurs temporal și mă întorc în studio la doamna Elison Matler.
 
 Ă a avut astăzi un interviu președintele Trump în care a zis din nou că Europa se prăbușește.
 
@@ -232,17 +229,17 @@ El și atunci este mult mai ușor să băgăm într un bloc și să i subminăm.
 
 El vrea Europa să fie un fel de cățel la câlcâi Hill, adică Europa să fi ținut la loc, dar în același timp, cum am spus, are o istorie Donald Trump, părinții lui vin din origin de Europe.
 
-[ND] Da, da, dar nu înțeleg.
+Da, da, dar nu înțeleg.
 
 Europa este nu este nici federală cum este Statele Unite sau cum este și Rusia pentru că Rusia e un stat federal chiar dacă nu este neapărat dar în Constituția sa scrie Federația Rusă Statele Unite iarăși e un conglomerat de stat și Europa acum ce ar putea să fie Europa în sine și mai e o problemă când zicem Europa ne referim la Uniunea Europeană plus Marea Britanie nu că asta se întâmplă
 
-[ND] și alte țări elveți care E mică, dar țări, Balcani de de Vest, avem alte țări.
+și alte țări elveți care E mică, dar țări, Balcani de de Vest, avem alte țări.
 
-[ND] Dar când zicem Europa, ne referim, că iarăși în strategie spune spun Statele Unite că este vorba de Uniunea Europeană și acțiunile Uniunii Europe e Europene care dăunează Europei.
+Dar când zicem Europa, ne referim, că iarăși în strategie spune spun Statele Unite că este vorba de Uniunea Europeană și acțiunile Uniunii Europe e Europene care dăunează Europei.
 
 Adică Uniunea Europeană este dușmanul
 
-[ND] Da.
+Da.
 
 Pentru asta este nu doar a lui Donald Trump.
 
@@ -250,27 +247,27 @@ Toate mișcările populiste spun același lucru.
 
 Orban, așa numiți suverniști aici în Anglia, oameni de extreme dreaptă, de reform ei sunt contre Europe, nu însă
 
-[ND] contra Uniunii Europene în special,
+contra Uniunii Europene în special,
 
-[ND] pardon, da, contra Uniunii Europene.
+pardon, da, contra Uniunii Europene.
 
 Deși ă populiștii au ieșit din UE, adică nu mai e o problemă, dar toți sunt obsedați.
 
 Asta e din cauza
 
-[ND] Da, sunt obsedați.
+Da, sunt obsedați.
 
 Văd eu pe rețele sociale despre contă este același
 
-[ND] discurs același Deci toți sunt nu to fiecare țară e foarte diferit nu există o idee Uniunii Europeană este cum am spus unitate prin diversitate. de fapt face parte din războiul hibrid al Rusiei care este cont Uniunii Europeană este contră valor liberal democracy, adică democratice e contră această diversiune Sorry diversitate, excuse me, e complet altceva.
+discurs același Deci toți sunt nu to fiecare țară e foarte diferit nu există o idee Uniunii Europeană este cum am spus unitate prin diversitate. de fapt face parte din războiul hibrid al Rusiei care este cont Uniunii Europeană este contră valor liberal democracy, adică democratice e contră această diversiune Sorry diversitate, excuse me, e complet altceva.
 
 E contra aceste diversitate dar este parte din războiul hibrid care i a preluat magă lui Trump.
 
 Nu știu dacă a preluat special sau a fost idiot sub util.
 
-[ND] Dar e Dar dar e o confruntare între Uniunea Europeană și Statele Unite?
+Dar e Dar dar e o confruntare între Uniunea Europeană și Statele Unite?
 
-[ND] Nu e Nu este, dar e o realinare.
+Nu e Nu este, dar e o realinare.
 
 Adică trebuie să fim realiști.
 
@@ -314,7 +311,7 @@ Ei vor soluție simple și Europa e un concept un pic mai dificil, un pic mai nu
 
 Dacă simplificăm
 
-[ND] Da, domnule Popescu, același lucru.
+Da, domnule Popescu, același lucru.
 
 Există o confruntare între Uniunea Europeană cumva și Statele Unite?
 
@@ -322,7 +319,7 @@ De ce există această râcă pentru a prelua termenul doamnei Matler?
 
 Ăă, de ce există această problemă între și de ce vede Donald Trump prin strategia sa militară Uniunea Europeană ca dușman al Europei?
 
-[ND] Parțial există aceastțiune această rațiune a competiției, dacă vreți, între Statele Unite și Uniunea Europeană.
+Parțial există aceastțiune această rațiune a competiției, dacă vreți, între Statele Unite și Uniunea Europeană.
 
 De ce?
 
@@ -362,7 +359,7 @@ Primul lucru, Uniunea Europeană nu poate fi puternică fără Statele Unite sub
 
 Dincolo de aceste clivaje, dincolo de de aceste de aceste orgolii și dincolo de de elementele obiective care generează competiția între între cele între Statele Unite și Uniunea Europeană, pe termen mediu și lung, niciuna dintre ele nu poate obține o recalibrare a pozițiilor strategice la nivel global fără cealaltă.
 
-[ND] Foarte interesant.
+Foarte interesant.
 
 Ceea ce spuneți dumneavoastră înseamnă că Uniunea Europeană trebuie să fie tot mai unită. să fie împreună, cum ar veni.
 
@@ -400,17 +397,17 @@ Trăiască prietenia între România și Franța.
 
 Trăiască prietenia dintre România și Franța.
 
-[ND] Aviant.
+Aviant.
 
-[ND] Aviant.
+Aviant.
 
-[ND] Da.
+Da.
 
 Emanuel Macron a vorbit în la un moment dat în limba română, dar la Chișinău.
 
-[ND] Eram să spun că știe de la Maia Sandu.
+Eram să spun că știe de la Maia Sandu.
 
-[ND] Exact.
+Exact.
 
 Da.
 
@@ -428,7 +425,7 @@ Asta a spus Emanuel Macron.
 
 Pentru Europa noastră ce vor să transmită cei doi?
 
-[ND] Ăă vor să transmită prietenie, bune relație, solidaritate și scut reciproc.
+Ăă vor să transmită prietenie, bune relație, solidaritate și scut reciproc.
 
 Să nu uităm că Franța joacă un rol extrem de important în apărare România, în NATO duce, adică probabil vom merge acolo mai încolo, dar este o relație, adică arată și famili familiaritate între Franță și română.
 
@@ -436,7 +433,7 @@ Doi frați.
 
 Așa arată.
 
-[ND] Să nu uităm România datorează foarte mult Franței, îi datorează lui Bertlot.
+Să nu uităm România datorează foarte mult Franței, îi datorează lui Bertlot.
 
 Pentru că în istorie ne uităm, statul modern român s a format ca idee și și ca ajutor din partea Franței.
 
@@ -446,13 +443,13 @@ Asta a fost evocat în Albă Iulie pe ziua națională a României ăă ăă tra
 
 România, evident, are o relație strategică SUA, are relații foarte bune și cu Marea Britane, de unde sunt eu și cu alte țări și cu German evident comercial, dar tradițional reație cea mai puternică a României cu o țară din vestul Europă sau din Europă este cu Franța și limbă și cultură și istorie și acum NATO, u Franța a sprijinit foarte mult pe România să intre în UE e e relație cea mai importantă pentru România în străinăate.
 
-[ND] Da.
+Da.
 
 Dumneavoastră sunteți și cetățean britanic.
 
-[ND] Da.
+Da.
 
-[ND] Și cu siguranță vă uitați cu multă atenție ce se întâmplă în Marea Britanie.
+Și cu siguranță vă uitați cu multă atenție ce se întâmplă în Marea Britanie.
 
 L am văzut desigur pe Nicușordan în Franța la cel mai apropiat prieten al României.
 
@@ -460,7 +457,7 @@ Dar ce rol joacă Marea Britanie în acest context?
 
 Și ca o altă întrebare, România este pusă cumva în situația de a alege Uniunea Europeană sau Statele Unite?
 
-[ND] Nu.
+Nu.
 
 România în primul rând și care am vorbit despre asta ieri în într un post de Radio britanic, România este diplomație română este foarte inteligentă.
 
@@ -468,13 +465,13 @@ România știe foarte bine și joace ambiguiitate.
 
 Să nu uităm înainte de '89 România era singura țară să aibă ambasadă Israel și Palestina.
 
-[ND] Și Palestina.
+Și Palestina.
 
 România este are o este foarte bine a juca nuanțe.
 
 România știe foarte bine să și apere interese cu aliați străini strategici care sunt Statele Unite și evident Europa.
 
-[ND] Păi, dar dar când va exista acest clivaj că sper să nu ajungem aici, dar cumva acolo mergem că vedem discursul pare că se tot radicalizează.
+Păi, dar dar când va exista acest clivaj că sper să nu ajungem aici, dar cumva acolo mergem că vedem discursul pare că se tot radicalizează.
 
 Acum avem și un document care vorbește despre asta.
 
@@ -482,7 +479,7 @@ Va fi pusă România în situația în care va trebui să aleagă parteneriatul 
 
 Nu,
 
-[ND] nu sunt vorbe.
+nu sunt vorbe.
 
 Fiecare țară are interese.
 
@@ -494,7 +491,7 @@ Nu s a întâmplat nimic.
 
 Adică am văzut întâlnire la NATO între Donald Trump și Nicușordan și a fost cât se poate de călduros și normal și diplomatic și cordial.
 
-[ND] Deci nu sunt unul e vorbe și alte sunt fapte.
+Deci nu sunt unul e vorbe și alte sunt fapte.
 
 Adică să nu uităm, avem un hotel Trump, nu o să avem un hotel Trump în București.
 
@@ -508,11 +505,11 @@ Dar trebuie și pentru tabără de acasă în magă să facă o diferențiere c�
 
 Adică am înțeles paralel acum un cățeluș care trebuie să stea la picior și este reușește să transforme Europa într un c e preinteligentă
 
-[ND] prema evident vor să fie o să fie tensiunial dar România pentru România aici este un partener mai slab adică o Stat Unite mai mare dar ăă Europa a făcut foarte adică o să să caute să aibă relație n o să zică a nu ne vrem noi nici noi nu te vrem n o să f fie așa Observăm acest discurs.
+prema evident vor să fie o să fie tensiunial dar România pentru România aici este un partener mai slab adică o Stat Unite mai mare dar ăă Europa a făcut foarte adică o să să caute să aibă relație n o să zică a nu ne vrem noi nici noi nu te vrem n o să f fie așa Observăm acest discurs.
 
 Adică n a fost n a fost în oglindă.
 
-[ND] Sunt foarte sunt adulții din cameră, cum ar veni Europ.
+Sunt foarte sunt adulții din cameră, cum ar veni Europ.
 
 Da.
 
@@ -550,13 +547,13 @@ Dar de unde vine acest premium Nobel?
 
 Din Europă.
 
-[ND] A, din Europa?
+A, din Europa?
 
 Da, da.
 
-[ND] Deci are,
+Deci are,
 
-[ND] domnule Domnule Popescu, ă Nu putem să nu observăm în strategie.
+domnule Domnule Popescu, ă Nu putem să nu observăm în strategie.
 
 Cu siguranță ați citit o, cu siguranță ați văzut acolo, se pomenește despre faptul că uite ce bine că în Europa există totuși partide patriotice.
 
@@ -570,9 +567,9 @@ Dar eu aș lega acest aspect din strategia americană cu ceea ce a spus astăzi 
 
 Votanții, unii, a zis astăzi, în această seară, unii nu sunt extremiști și nici rusofili, toți nu sunt.
 
-[ND] Mhm.
+Mhm.
 
-[ND] Expresia clară a unei politici de echilibru pe care președintele României încearcă să o să o articuleze și să o implementeze atât în plan intern, cât și în plan extern.
+Expresia clară a unei politici de echilibru pe care președintele României încearcă să o să o articuleze și să o implementeze atât în plan intern, cât și în plan extern.
 
 În plan intern, încă o dată vedem numeroase semne ale acestei politici de echilibru.
 
@@ -590,7 +587,7 @@ Deci o politică bazată pe echilibru, pe toleranță, pe pe pe conduită condui
 
 Acesta este semnul vizionar pe care l aduce președintele României, atât în interior cât și în exterior.
 
-[ND] De altfel, vizavi de relația noastră strategică privilegiată și strategică și privilegiată cu Franța, vom avea în zilele următoare mai multe dovezi cu privire la politica de echilibru pe care o duce președintele României în plan extern.
+De altfel, vizavi de relația noastră strategică privilegiată și strategică și privilegiată cu Franța, vom avea în zilele următoare mai multe dovezi cu privire la politica de echilibru pe care o duce președintele României în plan extern.
 
 Din câte știu, președintele României va vizita și Londra și și Helsinki în zilele următoare până la reuniunea formală a Consiliului European.
 
@@ -602,7 +599,7 @@ Vizitează Londra, da, țară puternic europeană, cu o puternică amprentă în
 
 Iată ăă iată semnul autoritar al unei viziuni care se amprentează atât în plan intern cât și în plan extern.
 
-[ND] Da, este curios deocamdată.
+Da, este curios deocamdată.
 
 Probabil că nu a intrat pe în planul de călătorie de turneu al lui Nicușor Dan, dar lipsește Roma, lipsește Berlinul.
 
@@ -630,7 +627,7 @@ După discuțiile avute în ultimele zile cu liderii europeni la Londra, la Brux
 
 Haideți să vedem ce a făcut Volodimir Zelenschi.
 
-[ND] Președintele ucrainean a fost primit de Papa Leon al XV lea la reședința sa de vară din Castel Gandolfo.
+Președintele ucrainean a fost primit de Papa Leon al XV lea la reședința sa de vară din Castel Gandolfo.
 
 Întrevederea a durat aproximativ 30 de minute.
 
@@ -652,7 +649,7 @@ Ucraina nu va ceda teritorii, în timp ce ambițiile Rusiei sunt obțină contro
 
 Această contraofertă a Ucrainei vine după negocieri maraton mediate de americani, mai întâi la Geneva, apoi la Moscova și la finalul săptămânii trecute la Miami.
 
-[ND] Aceasta este vizita pe care a făcut o astăzi Volodimir Zelenschi.
+Aceasta este vizita pe care a făcut o astăzi Volodimir Zelenschi.
 
 Evident, continuă turneul său.
 
@@ -668,17 +665,17 @@ Da.
 
 Nu vorbesc de cei pe care știm și pe care
 
-[ND] Coalition of the
+Coalition of the
 
-[ND] Exact.
+Exact.
 
 Există vreo a voințeiție
 
-[ND] a voinței?
+a voinței?
 
 Nu.
 
-[ND] Există vreo fisură acolo?
+Există vreo fisură acolo?
 
 Și dacă este, nu vom vedea, pentru că este foarte important.
 
@@ -686,9 +683,9 @@ Adică o fi niște, cum am spus, nuanțe sau mici diferențe de păreri, care es
 
 După asta a spus altceva, dar e
 
-[ND] nu prea e accidental ce spun.
+nu prea e accidental ce spun.
 
-[ND] Nu, nu e accidental.
+Nu, nu e accidental.
 
 Nu e accidental.
 
@@ -698,9 +695,9 @@ E o amenințare.
 
 E o încercare de intimitare
 
-[ND] în contextul negocierilor.
+în contextul negocierilor.
 
-[ND] Da. în contextul Da, exact așa.
+Da. în contextul Da, exact așa.
 
 În contextul negocierilor, nu?
 
@@ -712,15 +709,15 @@ Asta e clar.
 
 Da.
 
-[ND] Și vrea să pună și el Europa într o poziție de nu are niciun la masa negocierilor.
+Și vrea să pună și el Europa într o poziție de nu are niciun la masa negocierilor.
 
 Europa este un impediment Uniune Europe pentru el.
 
 De aste se bazează pe câțiva din astea care mai zeolaționiști care nu sunt de acord cu Bruxell, anume Fico și Orban, care evident ei încearcă să strice, să bagă pețe în roațe să așa mai departe, dar Alian cel mai important este coaliția voință și aceste trei țări care i am menționat, ei fac un scut în jurul lui Zelenski pentru a l ajuta, proteja pentru Europa este foarte conștient că a greșit în 2014 când cu anexare Crimee în care a s a întâmplat bla bla bla așa n a fost violența așa și așa și
 
-[ND] a vrut să nu escaladeze.
+a vrut să nu escaladeze.
 
-[ND] Nu, nu cred că a fost nu a vrut să escaladeze.
+Nu, nu cred că a fost nu a vrut să escaladeze.
 
 Nu a fost cu sânge vărsare de sânge și a fost iartă mă o anumită naivitate din partea Europei care esticei sunt mai conștienț vesticei ei sunt și mai departe geografic. inconștiență dublată de anumite interese economice pentru că până la urmă erau resurse energetice pe care le luau din sigur.
 
@@ -740,7 +737,7 @@ Nu e ca și cum mergi să cumperi un cartof sau nu cumpără.
 
 Vorbim de niște chestii foarte stratice.
 
-[ND] Da, dar iată la masa negocierilor acest argument de către Donald Trump este folosit.
+Da, dar iată la masa negocierilor acest argument de către Donald Trump este folosit.
 
 Domnule Popescu, ne am uitat la material împreună și am văzut acel fir roșu, de fapt o linie roșie peste care Ucraina nu vrea să treacă și a spus foarte clar Volodimir Zelenschi, nu există compromis pe cedările teritoriale.
 
@@ -750,7 +747,7 @@ Ar putea, pe de altă parte, să cedeze Federația Rusă, pentru că dacă s ar 
 
 Ori acum vedem această linie roșie foarte clară, cedările teritoriale ăă cum vedeți ar ceda Federația Rusă?
 
-[ND] Sub nicio formă.
+Sub nicio formă.
 
 Ar fi o iluzie să se să se prezică o cedare tactică sau strategică a Federației Ruse în problema teritorială.
 
@@ -768,7 +765,7 @@ S a mai întâmplat, domnule Popescu?
 
 Da, da, da, dar s a mai întâmplat în istorie, ce i drept, în istorie înainte de al sau chiar în al doilea război mondial, în războiul de iarnă dintre Uniunea Sovietică și Finlanda, când Finlanda a fost nevoită să mai cedeze din teritoriu ca să se încheie un armistițiu.
 
-[ND] Nu trebuie să merg la la Helsiki, ca să mi aduc aminte.
+Nu trebuie să merg la la Helsiki, ca să mi aduc aminte.
 
 Asta sunt cetățean român și cunosc foarte bine și cunoaștem foarte bine istoria României.
 
@@ -784,7 +781,7 @@ De asta va fi extrem de greu în continuare mediatorului american să realizeze 
 
 Cam acestea sunt predicțiile pentru că într adevăr prin indisponibilitatea fiecărei părți de a renunța la linia roșie în ceea ce privește teritoriile cedările teritoriale și mai sunt și alte și alte teme sensibile, dar aceasta referită tema sensibilă majoră într adevăr prin indisponibilitatea reciprocă se limitează și capacitatea de negociere și de mediere a Statelor Unite. o capacitate care încă o dată, având în vedere cele inversibilitatea celor două linii roșii ale părților implicate direct în conflict va fi extrem de greu dacă nu cumva aproape e posibil pentru mediatorul american să realizeze intersecția de compromisuri despre care vorbeam și care este necesară fundamentală pentru identificarea unei soluții politico diplomatice ce ar putea fi implementată Ucraina.
 
-[ND] Da.
+Da.
 
 Și mai am trei minute din această discuție.
 
@@ -800,11 +797,11 @@ Bun, luând în considerare toate acestea ne așteptăm ca războiul să se term
 
 Doamna Elison Matler,
 
-[ND] nu
+nu
 
-[ND] nu
+nu
 
-[ND] sunt ambele pă sunt mult prea departe.
+sunt ambele pă sunt mult prea departe.
 
 Nu este niciun consensus și mi se pare în acest moment irreconciliabil.
 
@@ -812,11 +809,11 @@ Nu este niciun consensus și mi se pare în acest moment irreconciliabil.
 
 Ă, și Ucraina are niște linii roșii și domnul Trump poate să să vină cu ce vrea, dar el nu e atât de categoric și tranșant cum vrea să pară câteodată.
 
-[ND] Cu cine nu e?
+Cu cine nu e?
 
 Nici cu Ucraina, nici cu Federația Rusău.
 
-[ND] Ucraina nu.
+Ucraina nu.
 
 Adică el are o o preferință pentru Rusia, dar vede și el după ce a vorbit cu Zelenski.
 
@@ -824,9 +821,9 @@ El preferă pe Putin.
 
 Îl îl îl admiră pentru că are e un
 
-[ND] un lider.
+un lider.
 
-[ND] Da, un lider.
+Da, un lider.
 
 Adică nu are nicio presă nu l critică.
 
@@ -834,19 +831,19 @@ Adică nu are nicio presă nu l critică.
 
 E invidios cât de cât
 
-[ND] și îl îl vede că poate să facă un deal cu el, dar în același timp după asta are alți aliați.
+și îl îl vede că poate să facă un deal cu el, dar în același timp după asta are alți aliați.
 
 E complicat să fii liderul Statelor Unite.
 
-[ND] Nu, nu e simplu.
+Nu, nu e simplu.
 
 Da, simplu.
 
-[ND] Domnule Popescu, aceeași întrebare.
+Domnule Popescu, aceeași întrebare.
 
 Vedeți o un armistițiu sau o încheiere a războiului cât de curând, acestea fiind condițiile?
 
-[ND] Acel război nu se va încheia în următorul an sub nici cea mai mănână formă.
+Acel război nu se va încheia în următorul an sub nici cea mai mănână formă.
 
 Această acel război va continua mulți ani de acum încolo sub forma unor etape succesive înghețate și dezghețate.
 
@@ -854,19 +851,19 @@ Cel mult avem speranța că în cursul anului viitor s ar putea ajunge la o solu
 
 Deci
 
-[ND] cel puțin cel puțin o înghețare
+cel puțin cel puțin o înghețare
 
-[ND] despre asta de
+despre asta de
 
-[ND] Da.
+Da.
 
-[ND] Da, da.
+Da, da.
 
 O înghețare.
 
 O înghețare pentru că ambele părți par avea nevoie de o pauză operațională de care să se folosească pentru a și recalibra resursele din perspectiva pregătirii următoare faze literate.
 
-[ND] Eu da.
+Eu da.
 
 Mulțumesc foarte mult pentru prezență în emisiune.
 
@@ -914,9 +911,9 @@ Alături de mine în studioul Euronews România este Marian Hurducaș, antrepren
 
 Bună seara.
 
-[ND] Bună seara.
+Bună seara.
 
-[ND] Mulțumesc foarte mult, Marian, că ești alături de noi.
+Mulțumesc foarte mult, Marian, că ești alături de noi.
 
 Aș vrea să o prezint și pe Alexandra Petrescu.
 
@@ -926,7 +923,7 @@ Bună seara.
 
 Bună seara.
 
-[ND] Aș vrea să încep cu dumneavoastră să mi spuneți, vă rog, în acest moment de ce și cât de grav este acest conflict digital.
+Aș vrea să încep cu dumneavoastră să mi spuneți, vă rog, în acest moment de ce și cât de grav este acest conflict digital.
 
 I am spus eu.
 
@@ -954,7 +951,7 @@ Suveranitatea digitală a Europei nu înseamnă protecționism sau izolare, așa
 
 Se poate observa cu siguranță.
 
-[ND] Aș vrea să îmi îmi cer scuze că vă întrerup.
+Aș vrea să îmi îmi cer scuze că vă întrerup.
 
 Aș vrea doar să citez că e important să ne dăm seama care este poziția Statelor Unite.
 
@@ -974,7 +971,7 @@ Dimitri Medvedev care a fost de acord, a zis: „Da, exact, trebuie desființat�
 
 De ce am ajuns în acest punct al unui conflict digital între Statele Unite și Uniunea Europeană?
 
-[ND] Zâmbesc, dar zâmbesc ca pagubă sau zâmbesc ca pentru că am ajuns ca cel mai mare aliat să devină nu neapărat cel mai mare dușman, dar să se înfrupte dintr o carcasă.
+Zâmbesc, dar zâmbesc ca pagubă sau zâmbesc ca pentru că am ajuns ca cel mai mare aliat să devină nu neapărat cel mai mare dușman, dar să se înfrupte dintr o carcasă.
 
 Practic, cam asta se încearcă sau cam asta este ceea ce vizualizez eu.
 
@@ -994,29 +991,29 @@ Avem toate dovezile din lume că rețelele sociale, algoritmul care nu este tran
 
 Ăă companiile care astăzi fac ceea ce se numește Big Tech sau Magnificent Sev că sunt cele șapte companii din top 10
 
-[ND] ăă Apple, Google,
+ăă Apple, Google,
 
-[ND] Nvidia,
+Nvidia,
 
-[ND] Amazon,
+Amazon,
 
-[ND] Amazon,
+Amazon,
 
-[ND] Facebook, mă rog, Meta,
+Facebook, mă rog, Meta,
 
-[ND] Meta care are Facebook, WhatsApp.
+Meta care are Facebook, WhatsApp.
 
 Gândiți vă
 
-[ND] X cu Da.
+X cu Da.
 
 Ă, da.
 
 X nu mai știu dacă intră exact în primele 10, dar e foarte important de reținut că aceste companii tranzacționează datele noastre și sunt mai valoroase decât companiile care produc energie, că vorbim de energie fosilă sau vorbim de energie regenerabilă.
 
-[ND] Deci ce știe AI, ce știe algoritmul despre noi este mai important decât petrolul.
+Deci ce știe AI, ce știe algoritmul despre noi este mai important decât petrolul.
 
-[ND] Este mai important decât petrolul. datele pe care noi le avem sunt neprețuite.
+Este mai important decât petrolul. datele pe care noi le avem sunt neprețuite.
 
 Gândește te că dacă tu vei cere Meta să ți dea profilul tău, pentru că conform DMA, DSA, ai dreptul ăsta, ți l dă, o să te îngrozești să vezi câte pinpoint uri sau câte painp uri știe despre tine, despre ce faci în fiecare zi.
 
@@ -1024,7 +1021,7 @@ Gândește te că tu ai dispozitivul ăsta cu tine în fiecare zi și oricât de
 
 Adică oamenii credeau că se uită online fără să știe nimeni că se uită online, dar totuși Google monitoriza.
 
-[ND] Da, foarte interesant.
+Da, foarte interesant.
 
 Alexandra Petrescu, haideți să explicăm ce înseamnă aceste acronime pe care le a folosit Marian Hurducaș și anume DSA, DMA și așa mai departe.
 
@@ -1064,15 +1061,15 @@ Iar iar la finalul zilei interesele americane vor prima pentru administrația Tr
 
 Vorbesc despre Japonia, Marea Britanie chiar și Corea de curând care adoptă aceleași legi și investighează aceleași practici. în ceea ce priveșteile de mai devreme,
 
-[ND] pă spun, dar acolo nu au existat nemulțumiri din partea administrației americane sau a existat
+pă spun, dar acolo nu au existat nemulțumiri din partea administrației americane sau a existat
 
-[ND] în Nu au existat în aceeași măsură.
+în Nu au existat în aceeași măsură.
 
 Presiunea pe care o aplică Trump este una strategică de dominanță.
 
 Iar dacă un există un mesaj ascuns în comentariile acestor lideri, Elon Musk și Donald Trump sau alți critici ai legilor europene, acestea sunt că suntem într o competiție pentru resurse și pentru puterea de a ne alege serviciile digitale și modelul de piață.
 
-[ND] Ă vreau să le explicăm foarte foarte clar și pe înțelesul oamenilor ce urmărește Statele Unite în acest conflict digital și ce își dorește Uniunea Europeană.
+Ă vreau să le explicăm foarte foarte clar și pe înțelesul oamenilor ce urmărește Statele Unite în acest conflict digital și ce își dorește Uniunea Europeană.
 
 Adică Statele Unite ce vor și ce vrea?
 
@@ -1082,7 +1079,7 @@ Obiectivul Uniunii nu este să pedepsească tehnologia americană.
 
 Obiectivul, după părerea mea, este să se prevină un mediu informațional, apropo de investigația comisiei, în care o în care o platformă dominantă nu poate decide și nu po nu poate filtra ce conținut contează, de unde ne luăm datele și cine câștigă bani sau cine supraviețuiește pe piață. ăă companiile europene companiile americane sunt create pentru a genera profit și modelul lor de piață susține inovația chiar și când vine vorba de de excluderea unor principii democratice cum ar fi libertatea și diversitatea presei.
 
-[ND] Ok.
+Ok.
 
 Ă, Marian, pare că pare că avem o discuție despre niște valori aici.
 
@@ -1098,7 +1095,7 @@ De ce facem asta?
 
 În Europa
 
-[ND] există, aș putem spune că există două școli de gândire.
+există, aș putem spune că există două școli de gândire.
 
 Există profit at all cost, adică nu contează cum să facem profit indiferent de ce călcăm în drumul nostru spre profit și este profit, dar etic.
 
@@ -1130,7 +1127,7 @@ Acum, unde intră cele două în coliziune?
 
 Da, 300 de milioane de utilizatori dacă
 
-[ND] cu bani.
+cu bani.
 
 Aici este detaliul cel mai important pentru că veniturile sunt peste medii.
 
@@ -1138,9 +1135,9 @@ Da.
 
 Bătrânul continent are venituri peste medii și atunci
 
-[ND] pentru că sunt oameni educați, oameni care au școli, facultăți, industria, e totuși e o piață mare.
+pentru că sunt oameni educați, oameni care au școli, facultăți, industria, e totuși e o piață mare.
 
-[ND] Exact.
+Exact.
 
 Exact.
 
@@ -1148,7 +1145,7 @@ Exact.
 
 Noi, pe de altă parte, avem detalii
 
-[ND] în care inovația stă.
+în care inovația stă.
 
 Inovarea din state stă și nu doar de acolo.
 
@@ -1162,31 +1159,31 @@ Astăzi acolo suntem.
 
 Iar astea pot fi făcute doar prin acest tip de aparatură care trebuie reînnoită o dată la ceva timp.
 
-[ND] Și doar Europa face asta.
+Și doar Europa face asta.
 
-[ND] Doar Europa poate să facă acest tip de tehnologie.
+Doar Europa poate să facă acest tip de tehnologie.
 
 Practic, bine, povestea merge mult în spate de când au apărut cipurile și ce importanță au ele în război și nu numai.
 
 Una dintre teoriile pentru care
 
-[ND] război, că ce război vorbim indiferent
+război, că ce război vorbim indiferent
 
-[ND] războiul din Ucraina, adică război
+războiul din Ucraina, adică război
 
-[ND] nu indiferent tehnologia este foarte importantă în război.
+nu indiferent tehnologia este foarte importantă în război.
 
-[ND] Păi da, dar ce de război la că e vorbim de război militar sau un război economic?
+Păi da, dar ce de război la că e vorbim de război militar sau un război economic?
 
-[ND] Vorbim de război militar.
+Vorbim de război militar.
 
 Ok.
 
 Tu punctezi foarte bine pe de altă parte pentru că ce cred eu că avem noi în momentul de față, dar nu pune nimeni degetul pe rană este că avem un soi de război economic nedeclarat cu Statele Unite
 
-[ND] între Europa.
+între Europa.
 
-[ND] Da, pentru că au americanii au o problemă cu Uniunea Europeană pentru că respectă niște reguli și sunt interesați de morală și de etică pe când ei nu ar vrea să se întâmple lucrurile astea.
+Da, pentru că au americanii au o problemă cu Uniunea Europeană pentru că respectă niște reguli și sunt interesați de morală și de etică pe când ei nu ar vrea să se întâmple lucrurile astea.
 
 De ce?
 
@@ -1202,9 +1199,9 @@ Practic mutăm bani de la unul la altul.
 
 Europa, în schimb, n a venit încă cu bani să meargă în America și să investească acolo
 
-[ND] în inteligența artificial,
+în inteligența artificial,
 
-[ND] în inteligența artificială.
+în inteligența artificială.
 
 Dar nu suntem nici noi bine.
 
@@ -1218,9 +1215,9 @@ Acum doi ani de zile când au început discuțiile pe DSA și DMA am zis că nu 
 
 Și eu am zis asta și prietenii mei și oamenii
 
-[ND] că punea frână la inovare.
+că punea frână la inovare.
 
-[ND] Da, că punea frână la inovare.
+Da, că punea frână la inovare.
 
 Ei, când am văzut cum evoluează lucrurile, mi am dat seama că tot așa cum zic americanii, of time, aceste reglementări sunt ahead of its time, dar dacă ți stai să te uiți pe ele, sunt de bun simț, la fel cum este și GDPR ul.
 
@@ -1228,11 +1225,11 @@ Dacă te du dacă vorbești cu cineva care lucrează în sectorul de marketing �
 
 Deci, undeva la 9,5 din 10 lucruri care se pot face în America în ceea ce privește utilizatorul final
 
-[ND] Spre exemplu procesarea datelor fără a da seama cuiva.
+Spre exemplu procesarea datelor fără a da seama cuiva.
 
-[ND] Ok, deci eu am toate datele, știu ce faci tu, le iau și nu te
+Ok, deci eu am toate datele, știu ce faci tu, le iau și nu te
 
-[ND] E treaba mea ce fac cu ele.
+E treaba mea ce fac cu ele.
 
 Măcar în momentul de față în în Europa ești dacă stai să te uiți pe ce dai click o să ți spunăîmpart datele tale cu 200 de vendori.
 
@@ -1240,9 +1237,9 @@ Vrei să vezi la asta?
 
 Adică e o
 
-[ND] este și responsabilitatea utilizatorului
+este și responsabilitatea utilizatorului
 
-[ND] este este au devenit automatisme, dar este pe de altă parte și responsabilitatea utilizatorului.
+este este au devenit automatisme, dar este pe de altă parte și responsabilitatea utilizatorului.
 
 Iar americanii, în general, dacă stai să te uiți la class actions, da, la procesele ă cu personaje colective care se adună practic sub un avocat sau o casă de avocatură ă din cauza asta se întâmplă pentru că cumva legea americană vine și ți spunear este și responsabilitatea ta.
 
@@ -1250,19 +1247,19 @@ Adică informează te, vezi în ce te bagi și cum se spunea și mai devreme est
 
 Dacă tu părăsești Facebook, unde te duci?
 
-[ND] DMA X pe
+DMA X pe
 
-[ND] DMA cred că vrea să intervină.
+DMA cred că vrea să intervină.
 
-[ND] Da.
+Da.
 
 Alexandra Petrescu.
 
 Da,
 
-[ND] Alexandra.
+Alexandra.
 
-[ND] Da.
+Da.
 
 Voiam să adaug la ceea ce spuneai legat de conceptul de user login.
 
@@ -1272,7 +1269,7 @@ Iar noi acum operăm într o piață și utilizăm o piață care este un oligop
 
 Asta înseamnă că sunt jucători care domină piețe întregi, ecosisteme întregi,
 
-[ND] iar puterea este atât de concentrată, barierele de intrare pe piață sunt foarte ridicate și cum spuneam mai devreme, DMA și DSA încurajează inovarea.
+iar puterea este atât de concentrată, barierele de intrare pe piață sunt foarte ridicate și cum spuneam mai devreme, DMA și DSA încurajează inovarea.
 
 Noi noi noi ca europeni vrem să inovăm, încercăm, avem fonduri dedicate, subvenții și investiții în infrastructură, dar accesul pe piață este împiedicat de obstac obstacolele structurale și contractuale impuse de Big Teech.
 
@@ -1292,7 +1289,7 @@ Ce opțiune am?
 
 Instagram e tot la Facebook.
 
-[ND] Oricum X nu este o alternativă pentru Facebook pentru că funcționează altfel decât Facebook și are alt scop decât Facebook.
+Oricum X nu este o alternativă pentru Facebook pentru că funcționează altfel decât Facebook și are alt scop decât Facebook.
 
 Dacă vrei să părăsești Instagram, din nou, nu prea ai alternativă unde să mergi.
 
@@ -1302,13 +1299,13 @@ Nu ai alternative pentru WhatsApp.
 
 Ai alternative pentru WhatsApp, pentru mesagerie instantă, dar nu ai aceleași opțiuni
 
-[ND] în a mi lua contul cu tot cu istoricul și a mă duce spre exemplu pe signal, că despre asta este vorba până la urmă.
+în a mi lua contul cu tot cu istoricul și a mă duce spre exemplu pe signal, că despre asta este vorba până la urmă.
 
 Pot să mi iau eu exact cum te duci, mai ții minte când când s când au început portările în Telco în telefonie mobilă.
 
-[ND] Da, da, da.
+Da, da, da.
 
-[ND] Îți luai numărul de telefon și ți l duceai în cealaltă parte.
+Îți luai numărul de telefon și ți l duceai în cealaltă parte.
 
 Tu poți să te portezi acum cu contul tău de pe Facebook în altă parte și să ai aceleași posibilități de a ajunge la oamenii pe care tu îi atingi în fiecare zi.
 
@@ -1336,9 +1333,9 @@ Deci hai să i vindem niște anvelope de iarnă în mare și superficial explica
 
 Cam așa funcționează.
 
-[ND] Uau!
+Uau!
 
-[ND] Gândește te că tot ce faci pe Instagram e un trifecta.
+Gândește te că tot ce faci pe Instagram e un trifecta.
 
 Da.
 
@@ -1370,7 +1367,7 @@ Ei bine, cine procesează datele respective le ia, le cataloghează și le vinde
 
 Toate aplicațiile care sunt în telefonul nostru vând despre noi într un fel sau altul.
 
-[ND] Bun.
+Bun.
 
 Bun.
 
@@ -1378,9 +1375,9 @@ Hai să le explicăm oamenilor și poate ne ajută și Alexandra.
 
 Ok, să se întâmple asta.
 
-[ND] N am nimica de ascuns.
+N am nimica de ascuns.
 
-[ND] Da.
+Da.
 
 Ce am ce am eu de ascuns?
 
@@ -1418,13 +1415,13 @@ Dacă tu ca companie sau ca editor sau ca presă depinzi de Google, ca platform�
 
 Iar asta este problema principală pe care a și demonstrat o comisie, această strategie de autofavorizare și de excludere atât a competitorilor, cât și de restrângerea opțiunilor utilizatorilor.
 
-[ND] Da.
+Da.
 
 Și ce mare lucru că dispare presa, nu?
 
-[ND] Sau jurnaliștii. [râsete]
+Sau jurnaliștii. [râsete]
 
-[ND] Da.
+Da.
 
 Și mai gând Hai să să ne mai gândim la un detaliu.
 
@@ -1432,7 +1429,7 @@ Iar asta este problema principală pe care a și demonstrat o comisie, această 
 
 Ți se dau mesaje că am schimbat times and conditions.
 
-[ND] Da. [râsete] Cine?
+Da. [râsete] Cine?
 
 Practic, ăla este un contract între companie și între tine ca utilizator.
 
@@ -1444,25 +1441,25 @@ Da.
 
 Din din ce mi ai trimis tu aice e discreționară această
 
-[ND] Da, nu sunt de acord.
+Da, nu sunt de acord.
 
 Dar și chiar dacă nu ești de acord
 
-[ND] și chiar dacă nu ești de acord, atunci trebuie să părăsești incinta în contextul ăsta.
+și chiar dacă nu ești de acord, atunci trebuie să părăsești incinta în contextul ăsta.
 
 Problema cea mai mare este că informăm sau pretindem că informăm printr un instrument care a fost făcut by default și by design să vândă publicitate, să facă bani.
 
 Iar în momentul ăsta este o linie atât de subțire între business și politică
 
-[ND] și democrație și
+și democrație și
 
-[ND] democrația este în momentul de față se plimbă pe o sârmă foarte subțire la o înălțime foarte mare.
+democrația este în momentul de față se plimbă pe o sârmă foarte subțire la o înălțime foarte mare.
 
 Aș vrea să vorbim despre asta, dar îi lăsăm pe oamenii care ne urmăresc să aștepte discuția pentru că trebuie să intru în publicitate. [muzică] După această publicitate vorbim și despre democrație dacă are de suferit și vom mai discuta despre ceva. [muzică] O să vedeți ce implicație ar avea Republica Moldova, dar și România în [muzică] acest context, pentru că mai există un actor din zona aceasta digitală care a venit și a spus: "Din nou, există o cenzură și a dat exemplu România și Republica Moldova." Despre cine este vorba vă spun imediat [muzică] după o scurtă pauză.
 
-[ND] [muzică]
+[muzică]
 
-[ND] Am revenit în direct în România lui Vitalie.
+Am revenit în direct în România lui Vitalie.
 
 Discutăm despre conflictul digital dintre Uniunea Europeană și Statele Unite.
 
@@ -1496,9 +1493,9 @@ Există niște oameni, există niște bariere care se pun tot timpul și un jurn
 
 Cine, ce, când, unde, cum, de ce.
 
-[JURNALIST] Asta ne învață la facultate.
+Asta ne învață la facultate.
 
-[ND] Exact.
+Exact.
 
 Și dacă tu nu ai răspuns la întrebările astea, înseamnă că articolul tău sau materialul tău de presă nu este complet.
 
@@ -1532,7 +1529,7 @@ Da, tu ai documente, tu poți să justifici că informația pe care ai dat o mai
 
 Există scăpări, dar scăpările respective au rezultate proaste pentru cel care a făcut greșelile respective
 
-[JURNALIST] și și aici avem regulamente și lucrurile deja sunt așezate.
+și și aici avem regulamente și lucrurile deja sunt așezate.
 
 Știm în schimb, pe de altă parte, de de aice de aici am și pornit discuția, nu există regulamente.
 
@@ -1550,23 +1547,23 @@ Ele acumulează și profilează ăă utilizatorii pe baza interacțiunii cu plat
 
 Iar revenind mai devreme la investigația lansată de curând, în Uniunea Europeană libertatea presei nu e doar un principiu frumos.
 
-[ND] Păi și și în sp și în Statele Unite la fel e trecut în constituție.
+Păi și și în sp și în Statele Unite la fel e trecut în constituție.
 
 E vorba de libertatea de exprimare, libertatea presei, adică ce se schimbă, ce e la ei diferit față de
 
-[JURNALIST] Aș vrea să intervin puțin aici, să fac o subliniere foarte importantă.
+Aș vrea să intervin puțin aici, să fac o subliniere foarte importantă.
 
-[ND] Doar o clipă.
+Doar o clipă.
 
 Da.
 
-[JURNALIST] Rețelele de social media nu se consideră presă, dar ele sunt distribuitor de presă în momentul de față.
+Rețelele de social media nu se consideră presă, dar ele sunt distribuitor de presă în momentul de față.
 
-[ND] Într adevăr, da. și ar trebui reglementate ca atare,
+Într adevăr, da. și ar trebui reglementate ca atare,
 
-[JURNALIST] ca distribuitor,
+ca distribuitor,
 
-[ND] nu doar ca distribuitor, ci și ca producător, pentru că acest conținut pe care noi îi spunem, pe care noi îl catalogăm drept conținut multimedia general, nu este inofensiv.
+nu doar ca distribuitor, ci și ca producător, pentru că acest conținut pe care noi îi spunem, pe care noi îl catalogăm drept conținut multimedia general, nu este inofensiv.
 
 Adică nu vorbim despre un film pe Netflix sau pe HBO Max și așa mai departe, care și alea au o ideologie în spate.
 
@@ -1586,33 +1583,33 @@ Ajută mă tu.
 
 Nu mai are
 
-[JURNALIST] bucata bucata de pâine, de carne, de ce?
+bucata bucata de pâine, de carne, de ce?
 
-[ND] Nu, nu mai are.
+Nu, nu mai are.
 
 Nu mai are miză.
 
-[JURNALIST] Miză.
+Miză.
 
 Ok.
 
-[ND] Nu mai are miză pentru că capitalismul îns este cel mai mare dușman al capitalismului.
+Nu mai are miză pentru că capitalismul îns este cel mai mare dușman al capitalismului.
 
 Este vorba despre a lua cât de mult capital poți din piață.
 
 Iar în momentul în care iei cât de mult capital poți din piață, există foarte mulți nefericiți care nu apucă capitalul ăla și atunci ideea de socialism începe să devină din nou populară.
 
-[JURNALIST] Uau!
+Uau!
 
 Adică vorbim despre socialismul european până la urmă că
 
-[ND] nu doar despre Cred mi se pare că ăsta european este cumva inofensiv.
+nu doar despre Cred mi se pare că ăsta european este cumva inofensiv.
 
-[JURNALIST] Inofensiv.
+Inofensiv.
 
 Alexandra,
 
-[ND] da.
+da.
 
 Ăă, nu sunt în totalitate de acord să definim ăă rețelele de social media ca surse de știri.
 
@@ -1622,7 +1619,7 @@ Asta ar însemna să catalogăm creatorii de conținut sau bloggerii ca editori 
 
 Trebuie să existe o diferențiere între presa liberă și creatorii de conținut care doar propagă păreri și informații în mediul digital.
 
-[JURNALIST] Atâta timp cât ai o opinie care atâta timp cât ai o opinie care nu poate fi verificată.
+Atâta timp cât ai o opinie care atâta timp cât ai o opinie care nu poate fi verificată.
 
 Da.
 
@@ -1634,27 +1631,27 @@ Faptul că ai un cont de Instagram sau de Facebook și emiți opinii polarizante
 
 Într adevăr, într adevăr, numai că chiar despre asta este investigația comisiei legată de cum a numit o Elon Musk foarte dur, o prostie de investigație legată de acele
 
-[ND] bife,
+bife,
 
-[JURNALIST] semne ticuri de verificareului.
+semne ticuri de verificareului.
 
 Aia, da, aia vreau să zic și eu
 
-[ND] pentru că bifa albastră presupune că X sau fostul Twitter recunoaște că tu ești o persoană
+pentru că bifa albastră presupune că X sau fostul Twitter recunoaște că tu ești o persoană
 
-[JURNALIST] adevărată. adevărată și s a demonstrat și Uniunea Europeană spune că de fapt în spatele unor conturi erau niște troli, bolți, erau niște conținut care nu e real, nu erau persoane adevărate, că nu avea buletin.
+adevărată. adevărată și s a demonstrat și Uniunea Europeană spune că de fapt în spatele unor conturi erau niște troli, bolți, erau niște conținut care nu e real, nu erau persoane adevărate, că nu avea buletin.
 
 Ce e amuzant aici că însuși X și a dat practic cu stângul în dreptul pentru că a făcut publice locațiile, a a practic a transparentizat conturile și ai văzut când a fost contul făcut, din ce locație scrie, când scrie, cât scrie și așa mai departe și s a demonstrat de fapt că prin această transparență care este bine vită,
 
-[ND] da,
+da,
 
-[JURNALIST] prin această transparență s a demonstrat că acele conturi care erau populare în Statele Unite, spre exemplu, și aveau opinii politice puternice, Da, fie că sunt de stânga sau de dreapta, nu erau din America.
+prin această transparență s a demonstrat că acele conturi care erau populare în Statele Unite, spre exemplu, și aveau opinii politice puternice, Da, fie că sunt de stânga sau de dreapta, nu erau din America.
 
 Păi asta înseamnă că și rețelele sociale văd asta.
 
-[ND] Bineînțeles că văd asta.
+Bineînțeles că văd asta.
 
-[JURNALIST] Văd și știu că da.
+Văd și știu că da.
 
 Da.
 
@@ -1664,15 +1661,15 @@ A fost demonstrat a fost demonstrat că de când de de la preluarea Twitter de c
 
 Iar structural, nu numai democratic.
 
-[ND] Eu eu nu mai pot.
+Eu eu nu mai pot.
 
 Adică pe rețelele de socializare unde activez.
 
 Deci efectiv este clar că există foarte mulți multe conturi din acestea false.
 
-[JURNALIST] Jumătate din traficul de pe internet este fals
+Jumătate din traficul de pe internet este fals
 
-[ND] și este incredibil pentru că nu poți să blochezi tot.
+și este incredibil pentru că nu poți să blochezi tot.
 
 Nu ai timp să blochezi tot.
 
@@ -1680,21 +1677,21 @@ E vin și vin încontinuu încontinuu și cu acuzații foarte grave și cu un co
 
 Mai țiin minte începuturile social media sau mai țineți minte începuturile social media când timeline ul adică ceea ce ți venea pe ecran era în ordine cronologică?
 
-[JURNALIST] Da.
+Da.
 
 Da.
 
-[ND] Aia era de fapt
+Aia era de fapt
 
-[JURNALIST] și se și termina.
+și se și termina.
 
 Se și termina la un moment dat o un scroll infinit.
 
-[ND] Atunci social media era ce urmăreai.
+Atunci social media era ce urmăreai.
 
 Astăzi media este ce crede algoritmul că trebuie să fie social media și ți dă mai mult din ceea ce
 
-[JURNALIST] ai văzut o dată de două ori. și a crezut că ți mai trebuie și ți mai trebuie trei like.
+ai văzut o dată de două ori. și a crezut că ți mai trebuie și ți mai trebuie trei like.
 
 Recomand to tuturor celor care au ocazia și sunt interesați de subiect.
 
@@ -1702,9 +1699,9 @@ New York Times a făcut acum vreo doi, tre ani de zile, dacă nu mă înșel, o 
 
 Și acuma avem și inteligență artificială care nu știm unde va duce că te poate radicaliza și
 
-[ND] exct și asta cere și asta cere și Uniunea Europeană transparență pe cum funcționează jucăria.
+exct și asta cere și asta cere și Uniunea Europeană transparență pe cum funcționează jucăria.
 
-[JURNALIST] Vrem să știm cum funcționează jucăria pentru că noi în momentul noi în emisiuni de genul ăsta nu facem nimic altceva decât să ne dăm cu părerea din experiențele proprii.
+Vrem să știm cum funcționează jucăria pentru că noi în momentul noi în emisiuni de genul ăsta nu facem nimic altceva decât să ne dăm cu părerea din experiențele proprii.
 
 Unii dintre noi mai și băgăm mâna în jucărie și vedem mai cum funcționează și prin spate că avem acces la alte instrumente, dar tot în zona de bănuială despre cum funcționează ne ducem.
 
@@ -1712,11 +1709,11 @@ Dar nu știm exact cum funcționează.
 
 Ce știm este că social media și companiile Big Tech au reușit să scoată din ură mai mult decât s a scos din sex în toată istoria.
 
-[ND] Sexul vindea în publicitatea clasică.
+Sexul vindea în publicitatea clasică.
 
 Acum ura vinde Alexandru.
 
-[JURNALIST] Exact.
+Exact.
 
 Este cel mai bun instrument.
 
@@ -1734,13 +1731,13 @@ Ce mai este libertatea de exprimare într un secol în care vorbim de social med
 
 Alexandra,
 
-[ND] libertatea de exprimare este un pilon al democrației atât la nivel european, cât și la nivel național.
+libertatea de exprimare este un pilon al democrației atât la nivel european, cât și la nivel național.
 
 Din punctul meu de vedere, România a fost în centrul atenției în anul trecut electoral ăă din varii motive și nu vom intra în ele acum, dar ă în contextul acesta ă de investigație Google și de puterea unor platforme ă apropo și de investigația Comisiei deschisă astăzi aici intră în discuție niște condiții corecte pentru editori și creator Deci protejează libertatea de exprimare.
 
-[JURNALIST] Protejează libertatea de exprimare din punctul meu de vedere și
+Protejează libertatea de exprimare din punctul meu de vedere și
 
-[ND] Da, mai am mai am un minut și am înțeles.
+Da, mai am mai am un minut și am înțeles.
 
 Înțeleg ce spui, Marian aceeași chestiune.
 
@@ -1748,13 +1745,13 @@ Ce spun în acest moment Big Tech este că Uniunea Europeană atentează la libe
 
 Așa este.
 
-[JURNALIST] Nu, nu.
+Nu, nu.
 
-[ND] Ce mai este libertatea de exprimare?
+Ce mai este libertatea de exprimare?
 
 Libertatea de exprimare
 
-[JURNALIST] este a spune ce gândești și cum gândești, dar cu sens de răspundere.
+este a spune ce gândești și cum gândești, dar cu sens de răspundere.
 
 Asumă ți că există repercusiuni pentru ceea ce spui și ceea ce faci.
 
@@ -1762,13 +1759,13 @@ Tot timpul a fost așa pentru că tu adică gândește te că vine cineva acuma 
 
 Da. încearcă să prostească pe cineva la televizor.
 
-[ND] Eu am responsabilitate, trebuie să
+Eu am responsabilitate, trebuie să
 
-[JURNALIST] CNA o să vină să te tragă de urechi pe tine, Vitalie, personal și apoi după aia instituția de aici,
+CNA o să vină să te tragă de urechi pe tine, Vitalie, personal și apoi după aia instituția de aici,
 
-[ND] că de ce ai făcut asta?
+că de ce ai făcut asta?
 
-[JURNALIST] Exact.
+Exact.
 
 Se întâmplă asta pentru social media, nu?
 
@@ -1780,7 +1777,7 @@ Mulțumesc.
 
 Foarte
 
-[ND] iar pe Uniunea Europeană există DSA care protejează exact același lucru.
+iar pe Uniunea Europeană există DSA care protejează exact același lucru.
 
 O luptă a valorilor, o luptă a ideologiei iarăși și încheiem cu ceea ce am început emisiunea.
 

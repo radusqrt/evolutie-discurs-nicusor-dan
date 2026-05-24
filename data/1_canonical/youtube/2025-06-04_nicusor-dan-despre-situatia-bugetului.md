@@ -1,11 +1,8 @@
 ---
 data: 2025-06-04
-metoda: heuristic diarization (format=intros, 1 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=cAp-l5Ak5_g
 sursa_aprecieri: 7
 sursa_canal: B1
@@ -18,13 +15,13 @@ sursa_upload_timestamp: 1749061931
 sursa_video_id: cAp-l5Ak5_g
 sursa_vizionari: 349
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] pe președintele Nicușor Dan astăzi vorbind despre aceste măsuri și făcând analogia asta cu pizza foarte interesantă.
+pe președintele Nicușor Dan astăzi vorbind despre aceste măsuri și făcând analogia asta cu pizza foarte interesantă.
 
-[JURNALIST] Domnule președinte, anul trecut ați folosit o pizza pentru a le explica bucureștenilor felie cu felie cum se împart banii din bugetul local.
+Domnule președinte, anul trecut ați folosit o pizza pentru a le explica bucureștenilor felie cu felie cum se împart banii din bugetul local.
 
 Acum, după ce ați văzut datele de la Ministerul Finanțelor, cum arată acea pizza și unde merg cele mai mari felii și ce tăieri credeți că s ar putea face astfel încât oamenii să nu fie afectați direct de măsurile pe care le va lua noul guvern?
 

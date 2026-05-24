@@ -1,11 +1,8 @@
 ---
 data: 2026-05-12
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=fwaCRYGOL3A
 sursa_aprecieri: 3
 sursa_canal: Antena 3 CNN
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1778577071
 sursa_video_id: fwaCRYGOL3A
 sursa_vizionari: 576
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Nicușor Dan va convoca partidele la Palatul Cotroceni pentru consultări formale joi sau luna viitoare, iar la discuții vor fi invitați și membrii AUR.
+Nicușor Dan va convoca partidele la Palatul Cotroceni pentru consultări formale joi sau luna viitoare, iar la discuții vor fi invitați și membrii AUR.
 
 Este informația importantă a acestei zile.
 
@@ -43,13 +40,13 @@ Nu există vreo șansă ca în viitorul în viitoarea majoritate să existe for�
 
 Îi veți chema la consultări pe reprezentanții acestui partid?
 
-[ND] Evident, la consultările formale și probabil că următoarea rundă va fi de consultări formale.
+Evident, la consultările formale și probabil că următoarea rundă va fi de consultări formale.
 
 O să chem toate partidele, așa cum spune constituția.
 
 Da.
 
-[ND] Aveți deja în în minte variante de premier tehnocrați? în mintea mea.
+Aveți deja în în minte variante de premier tehnocrați? în mintea mea.
 
 Da, nu le am avansat.
 

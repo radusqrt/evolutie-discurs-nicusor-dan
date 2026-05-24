@@ -1,11 +1,8 @@
 ---
 data: 2025-12-16
-metoda: heuristic diarization (format=markers, 6 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=ug8Wn1sx5oA
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -21,15 +18,15 @@ sursa_upload_timestamp: 1765898528
 sursa_video_id: ug8Wn1sx5oA
 sursa_vizionari: 2965
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Spune Ghincea, pentru că vorbește președintele României, a reacționat și în acest în cazul acestor negocieri, se declară pesimist în privința Rusiei.
+Spune Ghincea, pentru că vorbește președintele României, a reacționat și în acest în cazul acestor negocieri, se declară pesimist în privința Rusiei.
 
 Analizăm
 
-[ND] diferitele programe pe care le avem fie în interiorul NATO, fie mai ales în interiorul Uniunii Europene pentru că acolo sunt și bani și a fost o discuție utilă pe subiectul ăsta care va fi continuată la asta a fost la nivel de lideri și a fost începutul și va fi continuată la nivel de miniștri de apărare și de consilieri de securitate.
+diferitele programe pe care le avem fie în interiorul NATO, fie mai ales în interiorul Uniunii Europene pentru că acolo sunt și bani și a fost o discuție utilă pe subiectul ăsta care va fi continuată la asta a fost la nivel de lideri și a fost începutul și va fi continuată la nivel de miniștri de apărare și de consilieri de securitate.
 
 Asta a fost parte din discuție.
 
@@ -37,7 +34,7 @@ Asta a fost parte din discuție.
 
 Astea au fost subiectele importante și au mai fost câteva mai mici întrebări.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Lucian Prvoiu, Televiziunea Română.
 
@@ -55,7 +52,7 @@ Toată chestiunea este de cât de bine vor fi reprezentate interesele României 
 
 Sunt foarte, foarte optimist că în acest format o să reușim să fructificăm oportunitățile care vin din programele europene.
 
-[ND] Bună ziua, Oana Bâlă, Radio România, Actualități.
+Bună ziua, Oana Bâlă, Radio România, Actualități.
 
 Secretarul general al NATO, Marc Rute, a afirmat recent într un discurs că Rusia ar putea folosi forța militară împotriva alianței în următorii cinci ani și a îndemnat țările aliate să și intensifice eforturile de apărare și să se înarmeze.
 
@@ -65,7 +62,7 @@ Cum? privește România ca țară membră a NATO, acest avertisment venit din pa
 
 Care este poziția României vizavi de această inițiativă?
 
-[ND] Da.
+Da.
 
 În primul rând este o necesitate.
 
@@ -91,7 +88,7 @@ Vă mai păstrați opinia ca toate aceste probleme trebuie rezolvate strict din 
 
 Vă mulțumesc.
 
-[ND] Da.
+Da.
 
 Păi, după cum știți, am anunțat pentru luni o discuție cu magistrații, cu reprezentanți ai magistraților care doresc să sesizeze probleme în sistemul de justiție.
 
@@ -113,7 +110,7 @@ Domnule președinte, PSD a votat ieri moțiunea simplă inițiată de AUR împot
 
 Este acesta un semnal că lucrurile în coaliție nu mai funcționează cum trebuie și cum va merge în continuare coaliția fără o demisie din partea ministrului mediului?
 
-[ND] O o o o ă Nu văd legătura.
+O o o o ă Nu văd legătura.
 
 Bun.
 

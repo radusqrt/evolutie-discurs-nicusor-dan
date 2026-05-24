@@ -1,11 +1,8 @@
 ---
 data: 2026-02-20
-metoda: heuristic diarization (format=markers, 14 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=B4cili_K9C8
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,15 +21,15 @@ sursa_upload_timestamp: 1771578895
 sursa_video_id: B4cili_K9C8
 sursa_vizionari: 2222
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] pentru ajutor.
+pentru ajutor.
 
 Domnule președinte, în primul rând, cu ce ne am ales noi în România după ziua de astăzi?
 
-[ND] Bun, este o prezență pe o problematică importantă pe scena internațională.
+Bun, este o prezență pe o problematică importantă pe scena internațională.
 
 Am spus tot timpul că noi avem o miză importantă de securitate.
 
@@ -48,7 +45,7 @@ Nu am putut semna cartea, n am putut deveni membri pentru că sunt niște contra
 
 Suntem într un format interesant și este un format care întărește parteneriatul nostru strategic cu Statele Unite și totodată ne duce într o zonă în care facem bine, adică un Orient Mijlociu care este stabilizat e bine pentru toate toată lumea.
 
-[ND] E adevărat.
+E adevărat.
 
 Dar înainte să plecați a fost o dezbatere intensă în societatea românească.
 
@@ -80,7 +77,7 @@ Este o o problemă de format în care acest Bord of Peace funcționează față 
 
 Dar le a spus partenerilor noștri europeni, chiar la Bruxell, de exemplu, mamă, uite, eu mă duc la Donald Trump săptămâna viitoare în vizită.
 
-[ND] Discuțiile astea au loc și la nivelul de lider, dar au loc tot timpul pe culoare la Bruxell, în echipele care sunt permanent acolo.
+Discuțiile astea au loc și la nivelul de lider, dar au loc tot timpul pe culoare la Bruxell, în echipele care sunt permanent acolo.
 
 Da, voi vă duceți, voi nu vă duceți.
 
@@ -92,9 +89,9 @@ La ce nivel?
 
 Adică lucrurile astea sunt normale.
 
-[ND] Adică e convenit, asta e întrebarea, e convenit cu partenerii europeni ca România să fie reprezentată aici la nivel de președinte?
+Adică e convenit, asta e întrebarea, e convenit cu partenerii europeni ca România să fie reprezentată aici la nivel de președinte?
 
-[ND] Nu.
+Nu.
 
 Ce e convenit cu partenerii europeni este că fiecare din statele europene își face propria politică externă.
 
@@ -102,11 +99,11 @@ Asta este convenit.
 
 Bineînțeles că ne coordonăm, ne consultăm, dar decizia până la urmă o o ia fiecare din state, cum România a luat o.
 
-[ND] Acuma, există și discuția asta pe care am întâlnit o astăzi.
+Acuma, există și discuția asta pe care am întâlnit o astăzi.
 
 Domnule, i a spus Donald Trump i a spus președintelui României, premierul României și să știți că deja în cercurile suveraniste ăsta e interpretat ca un mesaj că domnule nu recunoaște domn Donald Trump pe președinte ca președinte.
 
-[ND] Da, vă dați seama președintele Statelor Unite are de lucru cu nu știu 120 150 de țări simultan.
+Da, vă dați seama președintele Statelor Unite are de lucru cu nu știu 120 150 de țări simultan.
 
 Da.
 
@@ -114,7 +111,7 @@ Da.
 
 Se mai întâmplă tipul acesta de erori.
 
-[ND] Dar acum, serios vorbind, a fost un raport preliminar în congresul american.
+Dar acum, serios vorbind, a fost un raport preliminar în congresul american.
 
 Chiar acum două săptămâni s a vorbit despre el, în care iarăși erau aduse în discuție alegerile din România.
 
@@ -124,7 +121,7 @@ Sau mai a mai venit cineva cu reproșuri?
 
 S a mai discutat asta?
 
-[ND] Nu.
+Nu.
 
 Suntem aici la Washingară.
 
@@ -162,7 +159,7 @@ Adică mai puțin o chestiune tehnică a și apărut în spațiul public cu lega
 
 Ă cele două pachete de legi importante care urmează să treacă aveau acordul partidelor din coaliție.
 
-[ND] Bun, trebuie să ne oprim aici, dar mai am o ultimă întrebare.
+Bun, trebuie să ne oprim aici, dar mai am o ultimă întrebare.
 
 Plecăm de aici cu vreo promisiune, vize?
 
@@ -172,16 +169,16 @@ O vizită eventuală, o vizită oficială în în cursul acestui an?
 
 Avem ceva?
 
-[ND] Bun.
+Bun.
 
 Toate lucrurile astea se pregătesc în detaliu pe mai multe paliere de administrație, ambasadă, diplomați, ăă consilieri, miniștrii care fac vizite, schimb schimburi de opinii.
 
 Ce aduce asta în plus? este o notă, cum să zic, emoțională, sentimentală a relației și cred că din perspectiva asta faptul că România a participat la această reuniune a fost important în plan bilateral.
 
-[ND] Mulțumesc tare mult, domnule președinte.
+Mulțumesc tare mult, domnule președinte.
 
 Cosmin, înapoi la voi în studio.
 
-[ND] Mulțumim.
+Mulțumim.
 
 No.

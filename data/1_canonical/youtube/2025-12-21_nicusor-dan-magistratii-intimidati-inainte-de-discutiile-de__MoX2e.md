@@ -1,11 +1,8 @@
 ---
 data: 2025-12-21
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=_MoX2eECrwc
 sursa_aprecieri: 273
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1766325838
 sursa_video_id: _MoX2eECrwc
 sursa_vizionari: 17211
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Au existat mesaje de ă influențare, intimidare.
+Au existat mesaje de ă influențare, intimidare.
 
 Apoi multă lume din ce că o să vedem multă lume mulți dintre cei care ne au scris au solicitat să ne întâlnim, dar nu în 22 decembrie, tocmai pentru că există o teamă de ca, în finearea la o astfel de întâlnire să aibă repercusiuni și am ajuns inclusiv la în fine ăă propuneri nepotrivite cu importanța să vină pe rând să stea în diferite săli pe aici ca să nu te să nu se intersecteze sau chiar colegi de ai mei să i preia de benzinării din București ca să nu se vadă că intră în Palatul Cotrăceni și totuși E o chestiune foarte serioasă.
 

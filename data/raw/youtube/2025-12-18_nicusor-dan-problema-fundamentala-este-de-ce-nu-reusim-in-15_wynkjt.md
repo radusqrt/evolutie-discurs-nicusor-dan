@@ -1,11 +1,8 @@
 ---
 data: 2025-12-18
-metoda: heuristic diarization (format=markers, 7 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=wynkjtB5krc
 sursa_aprecieri: 19
 sursa_canal: Euronews Romania
@@ -23,33 +20,33 @@ sursa_upload_timestamp: 1766050790
 sursa_video_id: wynkjtB5krc
 sursa_vizionari: 737
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Mergem la declarații, îl ascultăm peanindare și atunci evident evident că orice voce din spațiul public care spune lucruri esențiale trebuie protejată.
+Mergem la declarații, îl ascultăm peanindare și atunci evident evident că orice voce din spațiul public care spune lucruri esențiale trebuie protejată.
 
 Dar vreau doar am făcut nuanța asta că modul în care modul în care pot fi luate măsuri împotriva lor sunt mai subtile și suntem atenți la toate.
 
-[JURNALIST] Domnule președinte, subiectul s este împrumutul pentru Ucraina.
+Domnule președinte, subiectul s este împrumutul pentru Ucraina.
 
 Ce variantă este mai bună sau ce variantă are șanse mai mari într un modul în baza sau cel în baza
 
-[ND] Este adevărat că este subiectul cel mai discutat între participanții la această reuniune și tocmai pentru că Ucraina este importantă pentru securitatea României, noi susținem oricare dintre variantele de ajutor financiar pentru Ucraina.
+Este adevărat că este subiectul cel mai discutat între participanții la această reuniune și tocmai pentru că Ucraina este importantă pentru securitatea României, noi susținem oricare dintre variantele de ajutor financiar pentru Ucraina.
 
 Discuția începe cu acele active blocate de către activele rusești blocate de către instituții din Europa.
 
 Domnule președinte, de politică internă consultat
 
-[ND] o secundă.
+o secundă.
 
 USR v a consultat și pe dumneavoastră înainte de a lui pe domnul Miruță la apărare
 
-[ND] și pentru domnul Miruță și pentru domnul Darău sunt oameni în care am încredere.
+și pentru domnul Miruță și pentru domnul Darău sunt oameni în care am încredere.
 
 Da.
 
-[ND] Bună dimineață, domnule președinte.
+Bună dimineață, domnule președinte.
 
 V ați chemat.
 
@@ -69,7 +66,7 @@ Asta e problema fundamentală.
 
 Coaliție de guvernare
 
-[ND] președintele Nicușor Dan a făcut declarații de la Bruxelles la începutul Consiliului European. a vorbit despre temele pe care le vor discuta liderii europeni astăzi, apărarea, bugetul pentru perioada următoare, dar a dat câteva răspunsuri și cu privire la sistemul judiciar de din România în contextul tensiunilor pe care le vedem.
+președintele Nicușor Dan a făcut declarații de la Bruxelles la începutul Consiliului European. a vorbit despre temele pe care le vor discuta liderii europeni astăzi, apărarea, bugetul pentru perioada următoare, dar a dat câteva răspunsuri și cu privire la sistemul judiciar de din România în contextul tensiunilor pe care le vedem.
 
 Mergem mai departe. formarea unui pol politic de centru dreapta prin fuziuni și alianțe, decizia privind rămânerea la guvernare în anul următor, dar și temerile că Ilie Bolojan își va consolida autoritatea și controlul în interiorul partidului după alegerile din 7 decembrie sunt principalele subiecte care se află pe agenda liberalilor care au fost convocați la o ședință astăzi cu ușile închise la Vila Lac în capitală.
 
@@ -79,7 +76,7 @@ Colegul meu Marius Zulpe urmărește subiectul.
 
 Ce schimbări se conturează în partidul care dă în prezent Marius premierul?
 
-[ND] Bun găsit tuturor.
+Bun găsit tuturor.
 
 Ales în premieră președinte de partid cu mandat de doar doi ani, cât durează și atribuțiile sale de premier la Palatul Victoria.
 

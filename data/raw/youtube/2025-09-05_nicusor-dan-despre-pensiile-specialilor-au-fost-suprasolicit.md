@@ -1,11 +1,8 @@
 ---
 data: 2025-09-05
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=9oE3mg9Kfbo
 sursa_aprecieri: 12
 sursa_canal: Antena 3 CNN
@@ -20,15 +17,15 @@ sursa_upload_timestamp: 1757073362
 sursa_video_id: 9oE3mg9Kfbo
 sursa_vizionari: 1087
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Președintele Nicușord intervine în scandalul tăierii pensiilor speciale și a creșterii vârstei de pensionare a magistraților.
+Președintele Nicușord intervine în scandalul tăierii pensiilor speciale și a creșterii vârstei de pensionare a magistraților.
 
 Haideți să urmărim ce anume a declarat președintele în interviul pe care l a oferit la Observator Antena 1.
 
-[ND] Curtea Constituțională se va pronunța.
+Curtea Constituțională se va pronunța.
 
 Bineînțeles, eu nu pot să anticipez ce vor spune.
 

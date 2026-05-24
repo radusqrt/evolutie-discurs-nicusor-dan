@@ -1,11 +1,8 @@
 ---
 data: 2026-01-01
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=QSJDftyo6UQ
 sursa_aprecieri: 27
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1767270488
 sursa_video_id: QSJDftyo6UQ
 sursa_vizionari: 3863
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] [Muzică] Pe Nicușordan îl așteaptă un an plin.
+[Muzică] Pe Nicușordan îl așteaptă un an plin.
 
 Principalele probleme de care trebuie să se ocupe președintele sunt numirea șefilor pentru serviciile secrete, precum SRI și SIE, dar și numirea șefilor marilor parchete.
 
@@ -32,7 +29,7 @@ De asemenea, Nicușordan a rămas restant cu dosarul anulării alegerilor prezid
 
 Colega mea Xenia Croitoru vine cu detalii. [Muzică]
 
-[ND] Bun găsit tuturor.
+Bun găsit tuturor.
 
 Președintele României a promis că în această lună va prezenta dosarul privind rezultatul alegerilor prezidențiale din 2024, mai exact anularea acestora și ce a dus la anularea alegerilor, astfel încât președintele spunea în urmă cu câteva luni că sunt anumite detalii și informații ce ar trebui analizate, iar ele vor fi prezentate public. însă sunt și informații ce nu vor fi date publicității.
 

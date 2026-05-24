@@ -1,11 +1,8 @@
 ---
 data: 2025-12-18
-metoda: heuristic diarization (format=markers, 6 ND segments, 3 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=2SG3wFiYsNQ
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,15 +21,15 @@ sursa_upload_timestamp: 1766058682
 sursa_video_id: 2SG3wFiYsNQ
 sursa_vizionari: 1265
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] cursul întregului an 2026 cu intenția de a finaliza 2026 și bineînțeles toate celelalte subiecte finanțarea Ucrainei printre ele.
+cursul întregului an 2026 cu intenția de a finaliza 2026 și bineînțeles toate celelalte subiecte finanțarea Ucrainei printre ele.
 
 Domnule președinte, răspuns pe extindere care la discuții vă ajut pentru că la ultimul consiliu al afacerilor generale nu era un consens politic așa cum Ungaria se opune și să ne spuneți așa cum ziceam despre ce veți discuta și dacă veți discuta despre o eventuală decuplare a Ucrainei de Republica Moldova în contextul în care blocajul din partea Ungariei pentru Ucraina continuă.
 
-[ND] Da, legat de extindere, după cum știți, ieri a avut un a avut loc un summit cu Balcanii de Vest, în care au fost prezenți liderii a cinci din șase țări din Balcanii de Vest și a fost o discuție cu și cu membrii consiliului și cu reprezentanții acestor țări.
+Da, legat de extindere, după cum știți, ieri a avut un a avut loc un summit cu Balcanii de Vest, în care au fost prezenți liderii a cinci din șase țări din Balcanii de Vest și a fost o discuție cu și cu membrii consiliului și cu reprezentanții acestor țări.
 
 Acum, discuția o să fie numai de către de către membrii consiliului și bineînțeles se va discuta și partea de Balcan de Vest și partea de Moldova Ucraina cu toate discuțiile care sunt aici.
 
@@ -48,7 +45,7 @@ Bineînțeles, numai că numai că ăă ceea ce ceea ce s a spus în în spațiu
 
 Dar vreau doar am făcut nuanța asta că modul în care modul în care pot fi luate măsuri împotriva lor sunt mai subtile și suntem atenți la toate.
 
-[JURNALIST] Domnule președinte, subiectul sun este împrumutul pentru Ucraina.
+Domnule președinte, subiectul sun este împrumutul pentru Ucraina.
 
 Ce variantă este mai bună sau ce variantă are șanse mai mari? împrumutul în baza activelor rusești sau cel în baza bugetului european.
 
@@ -56,19 +53,19 @@ Este adevărat că este subiectul cel mai discutat între participanții la acea
 
 Discuția începe cu acele active blocate de către activele rusești blocate de către instituții din Europa.
 
-[JURNALIST] Domnule președinte, o întrebare de politică internă, dacă permiteți.
+Domnule președinte, o întrebare de politică internă, dacă permiteți.
 
 USR v a consultat înainte de a l numi pe domnul Miruță la apărare.
 
-[ND] O secundă.
+O secundă.
 
-[ND] USR v a consultat și pe dumneavoastră înainte de a l numi pe domnul Miruță la apărare.
+USR v a consultat și pe dumneavoastră înainte de a l numi pe domnul Miruță la apărare.
 
-[ND] Și pentru domnul Miruță și pentru domnul Darău sunt oameni în care am încredere.
+Și pentru domnul Miruță și pentru domnul Darău sunt oameni în care am încredere.
 
 Da.
 
-[JURNALIST] Bună dimineața, domnule președinte.
+Bună dimineața, domnule președinte.
 
 Vasile Marco Anteana 3 CNN.
 
@@ -76,7 +73,7 @@ Voiam să vă întreb dacă aveți aceeași părere în ceea ce privește prescr
 
 Dacă considerați că nu ar trebui să existe prescripție pentru faptele mari de corupție.
 
-[ND] Da, e o discuție pe care s o avem în spațiul public în momentul acesta.
+Da, e o discuție pe care s o avem în spațiul public în momentul acesta.
 
 Deci întrebarea fundamentală în opinia mea este următoarea: În momentul acesta, pentru fapte mari de corupție, atât din Codul Penal, cât și din acea lege specială a DNA ului, ăă termenul de prescripție ajunge undeva la 15 ani.
 

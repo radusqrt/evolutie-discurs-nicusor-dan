@@ -1,11 +1,8 @@
 ---
 data: 2026-02-13
-metoda: heuristic diarization (format=markers, 40 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=kpEBlVjAYSI
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1770974086
 sursa_video_id: kpEBlVjAYSI
 sursa_vizionari: 2214
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Vorbim de prețurile pe care oamenii le plătesc, care sunt direct legate cu prețul energiei, așa cum o să vedem.
+Vorbim de prețurile pe care oamenii le plătesc, care sunt direct legate cu prețul energiei, așa cum o să vedem.
 
 Mai întâi, câteva chestiuni de procedură.
 
@@ -101,7 +98,7 @@ Asta a fost agenda lucrurile cele mai importante, discuția pe competitivitate, 
 
 Vă rog.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Lucian Pârvoiu, Televiziunea Română. a fost practic o discuție despre mai multă integrare, mai multă unitate, unificarea unor piețe care nu au ajuns încă la acel nivel. în prezența lui Mario Draghe, autorul unui raport care consideră că stimularea competitivității ține și de o injecție mare de capital de 800 de miliarde anual care poate fi obținută din emiterea de Eurobonduri.
 
@@ -109,7 +106,7 @@ De aceea știu că e o discuție destul de controversată, dar vreau să vă în
 
 Mulțumesc.
 
-[ND] Bun.
+Bun.
 
 În primul rând că trecerea României la euro e benefică exact din motivele pe care le am spus până acum, în sensul că cu cât cu cât economia ta este mai integrată într o economie care permite firme care se desfășoară pe spații mai largi, cu atât firmele alea vor fi mai productive, cu atât mai mult vei avea locuri de muncă bine plătite în țara ta.
 
@@ -117,11 +114,11 @@ Condițiile sunt însă cele pe care le cunoaștem.
 
 Da, ca să aderi la Modena Euro trebuie să ai și pe și pe deficit și pe datorie trebuie să intri în niște indicatori în care noi putem să ne propunem să fim într un orizont de trei patru ani de acum încolo.
 
-[ND] Bună seara, Octavian Vasilescu, Euronews, România. legat de problema prețurilor pentru energie electrică, la un moment dat ministrul energiei spunea că va prezenta în CSAT sau cel puțin va încerca să propună o radiografie a sistemului energetic și o discuție despre prețurile mari pe care românii le achită pentru facturile de energie electrică.
+Bună seara, Octavian Vasilescu, Euronews, România. legat de problema prețurilor pentru energie electrică, la un moment dat ministrul energiei spunea că va prezenta în CSAT sau cel puțin va încerca să propună o radiografie a sistemului energetic și o discuție despre prețurile mari pe care românii le achită pentru facturile de energie electrică.
 
 Când am putea vedea prima ședință CSAT din acest an și dacă de această dată subiectul s ar putea regăsi pe masa discuțiilor?
 
-[ND] Da.
+Da.
 
 Domnul ministru a a propus un document, un document de lucru.
 
@@ -137,7 +134,7 @@ E o discuție pe unde suntem cu Doi Cș.
 
 Deci este un intră sau nu intră pe agenda CSAT ului subiectul producției interne de energie este un subiect care preocupă.
 
-[ND] Tot înaintea Consiliului de astăzi se discuta despre o Europă cu două viteze.
+Tot înaintea Consiliului de astăzi se discuta despre o Europă cu două viteze.
 
 După toate măsurile luate de guvern în ultima perioadă și ce se anunță pentru acest an.
 
@@ -159,7 +156,7 @@ E absolut legitim și ă bilateral vrem și noi cu ei.
 
 Da.
 
-[ND] Bianca Iacob, Observator Antena 1.
+Bianca Iacob, Observator Antena 1.
 
 Care este sau cum arată viitorul Uniunii Europene în raport cu Statele Unite ale Americii?
 
@@ -167,9 +164,9 @@ Ce s a discutat despre acest lucru la acest consiliu?
 
 Având în vedere că astăzi a fost și o ministerială NATO pe apărare foarte importantă, unde s a lansat ideea de NATO 3.0, de o apărare pe care Europa trebuie să o facă singură și s a mai vorbit despre acest lucru, de aia vedem și aceste programe de reînarmare la nivelul Uniunii Europene și de accelerare a producției.
 
-[ND] Da.
+Da.
 
-[ND] De armament.
+De armament.
 
 Să știți că s au spus în discuția de azi n a fost ca la congresul 14.
 
@@ -203,13 +200,13 @@ Deci discuția asta a fost pe economie, dar în ceea ce privește apărarea euro
 
 Deci putem să concluzionăm că va fi o relație de love and hate după discuțiile de astăzi cu Statele Unite ale Americii, între Uniunea Europeană și Statele Unite ale Americii, pentru că vă rog,
 
-[ND] au fost lideri care au zis că trebuie făcut un pushback față de politica administrației Trump.
+au fost lideri care au zis că trebuie făcut un pushback față de politica administrației Trump.
 
 Bun, există reacții diplomatice, dar și bineînțeles ați văzut în ultimii ani, în ultimele luni mai degrabă o accelerare a discuțiilor pe care Uniunea Europeană ca entitate le are cu India, cu Mercosur, cu alți parteneri, tocmai pentru a și diversifica relațiile comerciale, dar dincolo de asta, nimeni nu contestă importanța relației transatlantice.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[ND] Bună seara, Ema Stoica Dig 24.
+Bună seara, Ema Stoica Dig 24.
 
 Ieri a avut loc o ședință a Curții Constituționale în care am văzut, putem spune, o schimbare a majorității.
 
@@ -225,9 +222,9 @@ Da, o problemă care trenează în societatea noastră de multă vreme și eu î
 
 Asta este ce pot să spun în momentul ăsta.
 
-[ND] Dar vedeți o tergiversare sau faptul că Lia s a
+Dar vedeți o tergiversare sau faptul că Lia s a
 
-[ND] Evident că e o tergiversare, o vedem cu toții.
+Evident că e o tergiversare, o vedem cu toții.
 
 Da.
 
@@ -245,9 +242,9 @@ Da.
 
 Asta e relevant pentru credibilitatea pe care oamenii ăștia o au pe plan internațional.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[ND] Bună seara, Vasile Marcu, Antena 3 CNN.
+Bună seara, Vasile Marcu, Antena 3 CNN.
 
 Domnule președinte, spuneați astăzi că sunteți în discuții, în contact cu partenerii americani pentru o clarificări privind o posibilă participare la consiliul de pe 19 februarie.
 
@@ -261,21 +258,21 @@ Noi nu putem avea un alt statut decât cel de observator.
 
 Așa cum a fost făcută invitația acum patru, cinci zile, invitația a fost făcută pentru membri și în momentul de față se discută și acum că vin de la această reuniune, am discutat și cu alți lideri și ei fac același lucru, având aceleași constrângeri pe care noi le avem. discutăm care este care poate să fie statutul observatorilor la această reuniune și este un răspuns pe care organizatorii trebuie să ni l dea și în funcție de asta o să luăm decizia.
 
-[ND] Deci nu există ca subiect o posibilă întâlnire sau să facă posibilă o întâlnire între dumneavoastră și președintele Donald Trump.
+Deci nu există ca subiect o posibilă întâlnire sau să facă posibilă o întâlnire între dumneavoastră și președintele Donald Trump.
 
-[ND] Bun. în ă în
+Bun. în ă în
 
-[ND] pe data de 19 februarie,
+pe data de 19 februarie,
 
-[ND] tipul acesta de reuni multilaterale, există discuții de un minut, există discuții de cinci minute, se mai întâmplă, dar ceea ce ne preocupă pe noi în momentul ăsta este definirea observatorului și ce am putea noi să facem acolo.
+tipul acesta de reuni multilaterale, există discuții de un minut, există discuții de cinci minute, se mai întâmplă, dar ceea ce ne preocupă pe noi în momentul ăsta este definirea observatorului și ce am putea noi să facem acolo.
 
-[ND] Și o întrebare pe intern.
+Și o întrebare pe intern.
 
 Ceva mai devreme, Tanțoș Barna spunea că la începutul mandatului dumneavoastră erați foarte implicat în problemele coaliției de guvernare, însă în ultima perioadă aveți alte probleme, nu mai sunteți implicat.
 
 Ă Ce alte probleme aveți de nu mai sunteți implicat în situația din coaliția de guvernare și cât de mult vă deranjează ceea ce se întâmplă în momentul de față în coaliție?
 
-[ND] Este o diferență între ce era atunci și ce era acum.
+Este o diferență între ce era atunci și ce era acum.
 
 Pentru că atunci ce este acum?
 
@@ -287,17 +284,17 @@ Din nou, problema bugetului pe 2026 este foarte importantă și în momentul în
 
 Dincolo de asta, în momentul ăsta foarte des mă întâlnesc cu liderii coaliției în mod individual și când o să fie nevoie mă voi întâlni și în grup.
 
-[ND] Dar cât de frustrați sunteți sau vă frustrează ceea ce se întâmplă acum în coaliție?
+Dar cât de frustrați sunteți sau vă frustrează ceea ce se întâmplă acum în coaliție?
 
 Bineînțeles că ca în viață mi ar plăcea ca multe lucruri să fie altfel decât sunt, dar în linii mari, dincolo de atacurile continue între părți și percepția că subliniez percepția că această coaliție este în mare suferință, eu cred că în realitate, în modul modul în care ei funcționează, în modul în care ajung să aibă o aceeași opinie pe acte normative pe care și le asumă, această coaliție funcționează mai bine decât percepția.
 
-[ND] Bună seara, Oana Ghiță Agerpress, tocmai pentru că ați vorbit de eventuala dumneavoastră implicare în formarea bugetului pe 2026.
+Bună seara, Oana Ghiță Agerpress, tocmai pentru că ați vorbit de eventuala dumneavoastră implicare în formarea bugetului pe 2026.
 
 Totuși, suntem în la jumătatea lui februarie și acest buget nici măcar nu este creionat. dumneavoastră ca mediator, ca președinte mediator, ce mesaj ați avea?
 
 Pentru că e vorba de tensiunile din coaliție, e vorba de discuții care au ca subiect bugetul, adică care ar fi mesajul dumneavoastră pentru ca aceste lucruri să se grăbească?
 
-[ND] Bun. ăă ideal ar fi fost și ăă ăă inclusiv în momentul acela mai, iunie anul trecut eu am spus că ăă tocmai pentru a da un mesaj pentru piețele financiare ar fi bine ca bugetele pe adică rectificarea pe 2025 și bugetul pe 2026 să fie anunțate chiar din luni. alea septembrie, octombrie, astfel încât să România să aibă o traiectorie predictibilă.
+Bun. ăă ideal ar fi fost și ăă ăă inclusiv în momentul acela mai, iunie anul trecut eu am spus că ăă tocmai pentru a da un mesaj pentru piețele financiare ar fi bine ca bugetele pe adică rectificarea pe 2025 și bugetul pe 2026 să fie anunțate chiar din luni. alea septembrie, octombrie, astfel încât să România să aibă o traiectorie predictibilă.
 
 Asta a fost opinia mea.
 
@@ -315,11 +312,11 @@ Eu sper că două trei săptămâni și să avem buget.
 
 Dar faptul că nu avem buget la acest moment transmite un anumit mesaj investitorilor sau celor care își doresc stabilitate, predictibilitate în România.
 
-[ND] Mesajul cel mai bun care a venit cu un cost pentru români, bineînțeles, mesajul cel mai bun pentru investitori este că în loc de 9,5 am avut deficit 7,6.
+Mesajul cel mai bun care a venit cu un cost pentru români, bineînțeles, mesajul cel mai bun pentru investitori este că în loc de 9,5 am avut deficit 7,6.
 
 Deci dacă dacă ne uităm numai la partea asta și nu la diminuarea puterii de cumpărare, ăsta e un mesaj foarte bun.
 
-[ND] Bună seara, Elena Crângașu, cotidianul.
+Bună seara, Elena Crângașu, cotidianul.
 
 Dacă ne puteți spune când vom avea propunerile pentru șefii serviciilor secrete, pentru că au fost avansate diferite termene și am tot trecut de acestea.
 
@@ -327,31 +324,31 @@ Dacă ne puteți spune când vom avea propunerile pentru șefii serviciilor secr
 
 Este o negociere grea, având în vedere că e nevoie de un vot în Parlament și știm care e și situația dintre partide în momentul de față.
 
-[ND] Da.
+Da.
 
 În mod deliberat aceste discuții se suspendă când sunt alte ăă discuții mai alte discuții și tensiuni în spațiul public în zona politică.
 
 Deci acum haideți să vedem haideți să vedem să se termine concursul pentru procuror, bugetul și o să revenim la ele.
 
-[ND] Motivul pentru care a fost amânată această discuție sunt tensiunile din spațiul public.
+Motivul pentru care a fost amânată această discuție sunt tensiunile din spațiul public.
 
 La ce vă referiți mai exact?
 
-[ND] E o analiză de oportunitate.
+E o analiză de oportunitate.
 
 Da.
 
 Când e mai bine să avem această discuție
 
-[ND] și ne puteți da totuși un termen?
+și ne puteți da totuși un termen?
 
 Va fi
 
-[ND] Nu vă mai dau că o să spuneți după aia că nu mă țin de el.
+Nu vă mai dau că o să spuneți după aia că nu mă țin de el.
 
 Cu privire la șefii parchetelor, ați văzut lista cum vi se par propunerile, având în vedere că dumneavoastră veți avea ultimul cuvânt?
 
-[ND] Mi se pare că sunt și vorbesc cât se poate de serios, mi se pare că sunt niște oameni foarte interesanți printre ei.
+Mi se pare că sunt și vorbesc cât se poate de serios, mi se pare că sunt niște oameni foarte interesanți printre ei.
 
 Am văzut și comentariile din spațiul public, nu sunt de aceeași opinie.
 
@@ -359,11 +356,11 @@ Dimpotrivă, bineînțeles că e un concurs.
 
 Oamenii se vin cu un plan de management pe care eu nu l cunosc în momentul ăsta, dar uitându mă doar la numele pe care le am văzut, pentru fiecare dintre cele trei parchete, există persoane foarte interesante și eu sunt optimist că ele vor dinamiza.
 
-[ND] Ce înseamnă interesant?
+Ce înseamnă interesant?
 
 Marius Voinag e un nume interesant.
 
-[ND] N o să intru, vă dați seama.
+N o să intru, vă dați seama.
 
 E un concurs care s a a pornit.
 
@@ -371,15 +368,15 @@ Mi se pare asta că Da, legat de domnul Voineag, mi se pare o speculație fără
 
 Asta mi se pare fără niciun fel de fundament.
 
-[ND] Și vă rog o ultimă întrebare cu privire la referendumul pentru justiție.
+Și vă rog o ultimă întrebare cu privire la referendumul pentru justiție.
 
 În ce stadiu mai este?
 
 Când va fi demarat? analizăm propunerile tehnice pentru a asigura pe de o parte confidențialitate, pe de altă parte pentru toți cei care se uită la demersul ăsta certitudinea că i ceva pe bune și nu punem noi niște lucruri în plus pe acolo.
 
-[ND] Și raportul pe alegeri
+Și raportul pe alegeri
 
-[ND] lucrăm, lucrăm.
+lucrăm, lucrăm.
 
 Deci și mai am eu o ultimă întrebare pentru că a fost o dezbatere aprinsă în spațiul public referitor la interzicerea accesului minorilor la rețelele de socializare după crima comisă de minori a la Timiș.
 
@@ -389,7 +386,7 @@ Pentru că părerile au fost împărțite în spațiul public.
 
 Ar trebui să fie o vârstă unitară, nu știu, de la care să fie permis accesul la rețelele de socializare.
 
-[ND] Haideți să lăsăm specialiștii să E bine că avem dezbaterea asta.
+Haideți să lăsăm specialiștii să E bine că avem dezbaterea asta.
 
 Haideți să lăsăm specialiștii să dezbată.
 
@@ -401,11 +398,11 @@ Una este întreg fenomenul consumului de droguri.
 
 Astea sunt întrebările mari și bineînțeles și pe chestiunea pe care m ați întrebat precis, după dezbaterea specialiștilor trebuie ca politicul să ia o decizie
 
-[ND] și scurt pentru că aveți deja un an aproape de când mergeți la consilii, care sunt aliații României, prietenii României în Uniunea Europeană sau cu cine vă înțelegeți cel mai bine? din cei 27.
+și scurt pentru că aveți deja un an aproape de când mergeți la consilii, care sunt aliații României, prietenii României în Uniunea Europeană sau cu cine vă înțelegeți cel mai bine? din cei 27.
 
 Dintre cei 27?
 
-[ND] N aș spune, bineînțeles, la rela la ă personal am o discuție cu oricare dintre și dincolo de faptul că se spun tranșant lucruri care sunt în contradicție între unul și celălalt, atmosfera este foarte prietenoasă și destinsă.
+N aș spune, bineînțeles, la rela la ă personal am o discuție cu oricare dintre și dincolo de faptul că se spun tranșant lucruri care sunt în contradicție între unul și celălalt, atmosfera este foarte prietenoasă și destinsă.
 
 Tocmai că la un moment dat a pus cineva întrebarea dacă noi ne înțelegem așa de bine, de ce Parlamentul European se înțelege așa de rău? pentru că sunt grupuri politice care sunt în competiție unele cu altele și având această disponibilitate personală, așa cum am spus mai devreme, pe diferite teme de interes, fie că cum a fost Mercosur, atunci am fost Mai ă am încerc am reușit într o primă etapă să obținem niște avantaje pentru fermieri, după care ne am dus către aderare pe ETS.
 

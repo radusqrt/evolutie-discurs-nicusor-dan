@@ -1,11 +1,8 @@
 ---
 data: 2026-02-19
-metoda: heuristic diarization (format=markers, 17 ND segments, 4 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=V_wejFT3asM
 sursa_aprecieri: 128
 sursa_canal: Antena 3 CNN
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1771530244
 sursa_video_id: V_wejFT3asM
 sursa_vizionari: 9142
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] și domnilor, [muzică] breaking news.
+și domnilor, [muzică] breaking news.
 
 În acest moment suntem în legătură directă cu președintele Nicușor Dan.
 
@@ -35,15 +32,15 @@ Bună seara, domnule președinte.
 
 Vă mulțumesc pentru timpul pe care ni l acordați.
 
-[ND] Bună seara,
+Bună seara,
 
-[JURNALIST] domnule președinte.
+domnule președinte.
 
-[ND] Bună seara.
+Bună seara.
 
 Mă bucur să vă aud
 
-[ND] și mie.
+și mie.
 
 Și eu mă bucur să vă văd și să vă aud.
 
@@ -75,7 +72,7 @@ Se vorbește despre mai multe paliere în care oamenii au fost implicați, că e
 
 Ați remarcat pe cineva după acest an de zile de muncă?
 
-[ND] Nu vreau să fac ierarhi, dar este o muncă intensă pentru a pentru a pe cele două direcții importante pe care le avem.
+Nu vreau să fac ierarhi, dar este o muncă intensă pentru a pentru a pe cele două direcții importante pe care le avem.
 
 Una, ca parteneriatul pe zona de securitate să continue și doi și asta românii trebuie să vadă rezultate că să încurajăm cât mai multe investiții americane în România.
 
@@ -83,7 +80,7 @@ Pentru moment asta ăsta este un proiect.
 
 Avem, bineînțeles, investiții americante în România, numai că amploarea lor față de nivelul parteneriatului pe care î avem poate să fie mult mai mare și asta este la ce lucrează toți oamenii pe care i ați pomenit.
 
-[JURNALIST] Domnule președinte, am văzut că ați avut niște momente în care v ați întreținut cu președintele Trump.
+Domnule președinte, am văzut că ați avut niște momente în care v ați întreținut cu președintele Trump.
 
 Au apărut niște momente foarte cordiale cu vicepreședintele J.
 
@@ -101,7 +98,7 @@ Ce ne puteți relata despre asta?
 
 Dincolo de faptul că a fost o interacțiune absolut călduroasă, caldă, n au fost, vă dați seama, au fost amabilități, nu au fost chestiuni de substanță, dar s a reiterat această, cum să zic, simpatie președintelui Trump pentru România.
 
-[ND] Simpatia președintelui Trump pentru România.
+Simpatia președintelui Trump pentru România.
 
 Așa cum explicam astăzi și cum am oferit un reportaj cu cel care este care conduce afacerile familiei Trump cu o poveste incredibilă care a pornit din Drumul Taberei, care a ajuns să spele vase undeva prin Europa și visul său a fost să ajungă în America, iar președintele i a dat o șansă mare oferindu i posibilitatea din cel care era șef la la food and beverages la Maralago să conducă afacerile domniei sale.
 
@@ -115,7 +112,7 @@ Ce ar trebui să urmeze?
 
 Ca din punct de vedere economic, din punct de vedere securitar, din punct de vedere inclusiv al relațiilor poate culturale, înțelegem că avem relații importante din punct de vedere academic, din punct de vedere educațional, ce ar trebui să urmeze de aici încolo pentru a duce relația noastră cu principala putere globală la nivelul următor?
 
-[ND] Bun.
+Bun.
 
 În primul rând, așa cum am spus, cele două elemente esențiale sunt securitatea și economia.
 
@@ -143,13 +140,13 @@ Da, nu mai spun că un număr important de țări europene au fost prin la difer
 
 Deci, în opinia mea, este o falsă problemă aceasta și
 
-[ND] nu v a spus nimeni până acum.
+nu v a spus nimeni până acum.
 
 Niciodată nu am spus că
 
-[ND] nu v conta nimeni la nivel european sau să vă transmită pe canale diplomatice că ar fi nemulțumiți de prezența dumneavoastră la Washington.
+nu v conta nimeni la nivel european sau să vă transmită pe canale diplomatice că ar fi nemulțumiți de prezența dumneavoastră la Washington.
 
-[ND] Tot timpul există discuții între reprezentanții noștri la la Bruxell.
+Tot timpul există discuții între reprezentanții noștri la la Bruxell.
 
 Săptămâna trecută a fost un consiliu.
 
@@ -171,7 +168,7 @@ Deci cel mai important lucru pentru România în momentul acesta în relația bi
 
 Și al doilea lucru, cum am spus mai devreme, atragerea de investiții americane în România cu profit și pentru unii și pentru ceilalți.
 
-[ND] Credeți că această chestiune a vizelor care este în momentul de față în așteptare ar putea să fie de asemenea?
+Credeți că această chestiune a vizelor care este în momentul de față în așteptare ar putea să fie de asemenea?
 
 Deci a spus primul lucru pe care i l aș cere prezența americană militară și acesta este un lucru pe care îl înțelege toată lumea.
 
@@ -183,7 +180,7 @@ Nu vreau să promit Nu vreau să promit nimic pe chestiunea asta.
 
 Este, așa cum am spus, e o discuție bilaterală care se poartă pe multe paliere, iar aceasta este una din chestiunile pe care le avem în în discuție între noi.
 
-[JURNALIST] Domnule președinte Dan un lucru pe care mulți îl așteaptă în România este o vizită bilaterală a dumneavoastră la Casa Albă.
+Domnule președinte Dan un lucru pe care mulți îl așteaptă în România este o vizită bilaterală a dumneavoastră la Casa Albă.
 
 Au apărut informații pe surse că există o comisie, un comitet care lucrează sub patronajul dumneavoastră care pregătește această vizită și există informații că acolo sunt mai multe elemente pentru schimburi, pentru a fi cum spun americanii, winwin, să câștigăm și noi și ei, cum ar fi discuții despre metalerare, despre energie și alte elemente de natură economică și securitară.
 
@@ -205,7 +202,7 @@ Iar în scurta discuție pe care am avut o cu șeful Băncii Mondiale mi a spus 
 
 Deci sunt dosare pe care pe care se avansează, în care legat de întrebarea dumneavoastră mai veche suntem absolut transparenți în relația cu ă Uniunea Europeană și pe de altă parte ne dorim ca prezența și americană și europeană în România pe zona de de economie să fie cât mai mare.
 
-[ND] Înainte să plecați la Washington, ați avut o întâlnire cu liderii coaliției. într un moment în care coaliția este ă, așa cum putem vedea, cu asperități, cu certuri publice, cu neînțelegeri, cu reproșuri majore unii față de alții.
+Înainte să plecați la Washington, ați avut o întâlnire cu liderii coaliției. într un moment în care coaliția este ă, așa cum putem vedea, cu asperități, cu certuri publice, cu neînțelegeri, cu reproșuri majore unii față de alții.
 
 Știm foarte bine că situația economică a României nu este una deloc plăcută în momentul de față și există o nemulțumire a opiniei publice cu privire la majorarea taxelor, la majorarea TVA ului, la anumite tăieri și așa mai departe.
 
@@ -237,11 +234,11 @@ Pe de altă parte, poate că erau metode de a face aceste ajustări fără să a
 
 Și deci înțel eu înțeleg dificultățile pe care românii le au.
 
-[ND] Guvernatorul spunea că guvernatorul
+Guvernatorul spunea că guvernatorul
 
-[ND] Ce pot să spun este că nu există numai puțin,
+Ce pot să spun este că nu există numai puțin,
 
-[ND] vă rog.
+vă rog.
 
 Ce pot să spun este că nu vor exista turbulențe suplimentare.
 
@@ -255,11 +252,11 @@ Nu credeți că în momentul de față de la nivelul dumneavoastră sau al primu
 
 Știind foarte bine că de fapt consumul este important în proporție de 70% pentru economie, nu ar fi nevoie de un anunț de felul acesta, de niște clarificări de felul acesta?
 
-[ND] Ce pot eu să spun cu toată fermitatea este că niciunul din partidele de la guvernare nu a adus măcar în discuție vreo altă creștere de taxe față de cele care sunt în implementare deja.
+Ce pot eu să spun cu toată fermitatea este că niciunul din partidele de la guvernare nu a adus măcar în discuție vreo altă creștere de taxe față de cele care sunt în implementare deja.
 
 Deci asta pot s o spun cu fermitate.
 
-[JURNALIST] Domnule președinte, mulți așteaptă de la dumneavoastră, așa cum chiar dumneavoastră ați vorbit în interviu de la Radio România Actualități, că veți discuta cu partidele din coaliție pentru nominalizările șefilor serviciilor secrete.
+Domnule președinte, mulți așteaptă de la dumneavoastră, așa cum chiar dumneavoastră ați vorbit în interviu de la Radio România Actualități, că veți discuta cu partidele din coaliție pentru nominalizările șefilor serviciilor secrete.
 
 Ce ne puteți spune despre această chestiune și despre deciziile pe care le ați luat cu privire la numirile șefilor principalelor servicii de informații în România?
 
@@ -301,7 +298,7 @@ Cum îl vedeți și cum îl simțiți dumneavoastră după ce l ați încheiat?
 
 Practic,
 
-[ND] da, a fost un o zi cu o adevărată cu oarecare încărcătură emoțională în relația bilaterală și eu mă bucur că a ieșit bine din din ambele părți.
+da, a fost un o zi cu o adevărată cu oarecare încărcătură emoțională în relația bilaterală și eu mă bucur că a ieșit bine din din ambele părți.
 
 Adică s a văzut afecțiune, ca să spun așa, reciprocă și asta e important pentru relația bilaterală, care evident dincolo de această afecțiune reciprocă trebuie să se construiască pe dosare, pe cifre, pe toate lucrurile astea la care lucrează mulți oameni.
 

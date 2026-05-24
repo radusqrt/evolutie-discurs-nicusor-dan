@@ -1,11 +1,8 @@
 ---
 data: 2026-04-25
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=OR84Lv-H5GU
 sursa_aprecieri: 50
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1777110561
 sursa_video_id: OR84Lv-H5GU
 sursa_vizionari: 2488
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] După participarea la reuniunea informală a Consiliului European, președintele Nicușor Dan așadar s a întors în țară pentru a gestiona criza politică.
+După participarea la reuniunea informală a Consiliului European, președintele Nicușor Dan așadar s a întors în țară pentru a gestiona criza politică.
 
 Șeful statului va avea noi consultări la Palatul Cotroceni în încercarea de a debloca această situație.
 
@@ -39,7 +36,7 @@ Avem deja nominalizările în acest sens, iar pe mai departe, președintele va a
 
 Am solicitat colegilor mei să ia legătura cu liderii celor patru partide și cu domnul Pampuccian, liderul parlamentarilor, reprezentanți ai minorităților și cu reprezentanții pe SEA și pe PNRR pentru a avea o discuție tehnică luni. spuneați dumneavoastră că nu veți desemna un premier din partea unei coaliții, eventuale coaliții PSD aur, dar din partea unei eventuale coaliții PNL AUR sau unui PNL susținut din Parlament de aur.
 
-[ND] Cred că este extrem de puțin probabil ca această solicitare să ajungă la mine.
+Cred că este extrem de puțin probabil ca această solicitare să ajungă la mine.
 
 AUR este are multe defecte, dar este totuși un partid.
 

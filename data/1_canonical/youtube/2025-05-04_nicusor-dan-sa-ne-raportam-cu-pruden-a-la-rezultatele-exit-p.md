@@ -1,11 +1,8 @@
 ---
 data: 2025-05-04
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=uvVZv4Pq63Y
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1746383369
 sursa_video_id: uvVZv4Pq63Y
 sursa_vizionari: 1629
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Nicușor, democrația este despre comunități cu problemele lor, cu aspirațiile lor și vreau să felicit în această seară comunitățile de votanți ale fiecăruia dintre contracandidați pentru dezbaterea pe care au purtat o în special pe rețelele sociale. în opinia mea, mult mai consistentă decât dezbaterea pe care noi, politicienii, am putut s o producem.
+Nicușor, democrația este despre comunități cu problemele lor, cu aspirațiile lor și vreau să felicit în această seară comunitățile de votanți ale fiecăruia dintre contracandidați pentru dezbaterea pe care au purtat o în special pe rețelele sociale. în opinia mea, mult mai consistentă decât dezbaterea pe care noi, politicienii, am putut s o producem.
 
 Și noi, politicienii, mai avem fiecare dintre noi un drum lung până a la a ajunge la aspirațiile comunităților pe care vrem să le să le reprezentăm.
 

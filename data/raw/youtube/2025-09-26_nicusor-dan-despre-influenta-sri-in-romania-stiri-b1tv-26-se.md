@@ -1,11 +1,8 @@
 ---
 data: 2025-09-26
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=IRCAhgNgyXk
 sursa_aprecieri: 3
 sursa_canal: B1
@@ -18,13 +15,13 @@ sursa_upload_timestamp: 1758874831
 sursa_video_id: IRCAhgNgyXk
 sursa_vizionari: 327
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Președintele Nicușor Dan a afirmat că în deciziile din domeniul politic și economic au existat influențe din partea Serviciului Român de Informații.
+Președintele Nicușor Dan a afirmat că în deciziile din domeniul politic și economic au existat influențe din partea Serviciului Român de Informații.
 
-[ND] Mai mult, șeful statului a subliniat că propunerile pentru SRI și SIE, Serviciul de Informații Externe, vor fi anunțate la momentul potrivit când această temă nu se va suprapune cu alte discuții importante pentru stabilitatea țării.
+Mai mult, șeful statului a subliniat că propunerile pentru SRI și SIE, Serviciul de Informații Externe, vor fi anunțate la momentul potrivit când această temă nu se va suprapune cu alte discuții importante pentru stabilitatea țării.
 
 Iată declarația.
 

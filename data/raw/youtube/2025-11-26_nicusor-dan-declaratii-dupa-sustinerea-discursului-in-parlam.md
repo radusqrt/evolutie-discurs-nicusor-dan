@@ -1,11 +1,8 @@
 ---
 data: 2025-11-26
-metoda: heuristic diarization (format=markers, 4 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=M7nrYbb1LmY
 sursa_aprecieri: 12
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1764162390
 sursa_video_id: M7nrYbb1LmY
 sursa_vizionari: 2839
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] E o discuție care abia a început și vă dați seama că de câte ori e vorba, ați văzut cu pensiile magistraților, de câte ori e vorba să iei din ben categorii sociale.
+E o discuție care abia a început și vă dați seama că de câte ori e vorba, ați văzut cu pensiile magistraților, de câte ori e vorba să iei din ben categorii sociale.
 
 Discuția e complicată cu atât mai mult cu cât acum majorarea TVA și a accizelor și a impozitului pe au durat trei zile și s au adoptat toate în coaliție.
 
@@ -40,9 +37,9 @@ Pe de altă parte, eu sunt convins că o să ajungem la reduceri de cheltuieli �
 
 Este sunt niște discuții nuanțate, bineînțeles, în momentul în care în momentul în care tu ai un război la graniță, bineînțeles că trebuie să te uiți cu oarecare atenție la zona de armată, atât atât la oamenii care sunt acum angajați, cât și la a stimula pe alțiunea coaliției pentru a face reforme, pentru că până în momentul de față vedem că premierul parcă luptă singur
 
-[ND] și deja există planul pentru locuirea dânsului în trei patru luni.
+și deja există planul pentru locuirea dânsului în trei patru luni.
 
-[ND] Premierul este executivul dintr o coaliție.
+Premierul este executivul dintr o coaliție.
 
 Da, coaliția asta are nevoie și guvernul și sau guvernul are nevoie de sprijin în Parlament.
 
@@ -62,7 +59,7 @@ Ce veți face dumneavoastră concret ca să combatem acest fenomen de violență
 
 Deci la un moment dat o să vină cu un raport în urma discuției cu
 
-[ND] toate instituțiile care se ocupă de de fenomen.
+toate instituțiile care se ocupă de de fenomen.
 
 Dincolo de asta, așa cum ați văzut, există niște anchete interne pe modul în care s a procedat, în cazuri în care femei au reclamat și nu au avut la timpul potrivit suport de la instituțiile statului.
 

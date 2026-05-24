@@ -1,11 +1,8 @@
 ---
 data: 2026-03-30
-metoda: heuristic diarization (format=markers, 18 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=WSH0ARtuIP4
 sursa_aprecieri: 23
 sursa_canal: Euronews Romania
@@ -24,17 +21,17 @@ sursa_upload_timestamp: 1774893945
 sursa_video_id: WSH0ARtuIP4
 sursa_vizionari: 1915
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] în momentul de față
+în momentul de față
 
-[ND] și ascultăm din nou declarații ale președintelui Nicușordan
+și ascultăm din nou declarații ale președintelui Nicușordan
 
-[ND] și de asemenea dacă credeți că România este pregătită de un guvern minoritar.
+și de asemenea dacă credeți că România este pregătită de un guvern minoritar.
 
-[ND] Bun.
+Bun.
 
 Ăă partidele se atacă public de multă vreme, deci ne au dat posibilitatea să ne obișnuim cu situația asta.
 
@@ -44,9 +41,9 @@ Da.
 
 Deci este combinație de administrativ cu joc politic. pe partea administrativă funcționează și
 
-[ND] dacă este România în momentul de față pregătită de un guvern minoritar care se conturează, adică plecarea PSD de la masa discuțiilor implicit duce la un guvern minoritar borojan.
+dacă este România în momentul de față pregătită de un guvern minoritar care se conturează, adică plecarea PSD de la masa discuțiilor implicit duce la un guvern minoritar borojan.
 
-[ND] Nu cred că e o soluție fericită pentru momentele pe care le trăim.
+Nu cred că e o soluție fericită pentru momentele pe care le trăim.
 
 Deci eu aștept și cum v am cum am spus mai devreme colegii dumneavoastră faptul că fiecare din partidele care formează azi coaliția spun că vor să guverneze și fiecare are niște condiții pentru ca asta să se întâmple.
 
@@ -54,29 +51,29 @@ Ne duce către ideea că ele vor ajunge să se înțeleagă într o formă sau a
 
 Nu cred că e potrivit un guvern minoritar.
 
-[ND] Scurt, dacă mai îmi permiteți.
+Scurt, dacă mai îmi permiteți.
 
 D dumneavoastră îl mai vreți pe Ilie Boloșan premier?
 
-[ND] Nu este o Trebuie să împărțimat
+Nu este o Trebuie să împărțimat
 
-[ND] atribuțiile Trebuie să împărțim atribuțiile constituționale.
+atribuțiile Trebuie să împărțim atribuțiile constituționale.
 
 Președintele numește, Parlamentul, susține guvernul pe toată perioada desfășurării exercițiului.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Bianca Iacob, Observator Antena 1.
 
 În continuarea întrebărilor referitoare la coaliție, când ați vorbit ultima oară cu liderii coaliției despre ceea ce se întâmplă în spațiul public, aceste atacuri pe care le vedem în ultima perioadă?
 
-[ND] Am vorbit cu fiecare din liderii coaliției în ultimele câteva zile, așa cum o fac frecvent.
+Am vorbit cu fiecare din liderii coaliției în ultimele câteva zile, așa cum o fac frecvent.
 
 Și referitor la acest mecanism care se discută acum la guvern pe reducerea accizei la carburanți, înțelegem că din calcule nu ar fi o scădere care să se simtă foarte mult în buzunarele oamenilor, chiar și la pachet cu ce a adoptat guvernul săptămâna trecută.
 
 Credeți dumneavoastră că ar trebui să fie scăzut și TVA ul?
 
-[ND] Bun.
+Bun.
 
 Dar aici e o chestiune extrem de tehnică care nu cred că interesează oamenii, că scazi acciza sau că scazi TVA ul când important este care este impactul pe preț.
 
@@ -86,9 +83,9 @@ N are rost să discutăm de ea acum. legat de începutul întrebării dumneavoas
 
 Nu vreau eu să dau speranțe să vorbesc în numele guvernului, dar așa cum cred că se profizează lucrurile, o să fie o scădere consticare o să fie sensibilă.
 
-[ND] De ce vă întreb acest lucru? pentru că sunt țări care au redus TVA ul, care și au asumat niște proceduri de infringement pe viitor vizavi de această măsură și vedem acest scenariu, iată, cu 11 RON per lorină și previziunile sunt că prețurile vor crește spre 14.
+De ce vă întreb acest lucru? pentru că sunt țări care au redus TVA ul, care și au asumat niște proceduri de infringement pe viitor vizavi de această măsură și vedem acest scenariu, iată, cu 11 RON per lorină și previziunile sunt că prețurile vor crește spre 14.
 
-[ND] Bun, haideți deocamdată să ne să ne raportăm la prețul petrolului de azi și la măsurile pe care guvernul le va lua în această săptămână.
+Bun, haideți deocamdată să ne să ne raportăm la prețul petrolului de azi și la măsurile pe care guvernul le va lua în această săptămână.
 
 Da. care, așa cum am spus, dacă discuțiile la care am participat cu ei se concretizează, vor duce la o scădere care se va se va simți.
 
@@ -96,15 +93,15 @@ Ce se va întâmpla cu prețul petrolului peste două săptămâni, peste cinci 
 
 Asta e o discuție pe care cred că nimeni nu poate să o prevadă și față de care la momentul respectiv se vor lua măsuri.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[ND] Bună seara.
+Bună seara.
 
 Ina Dobre, România TV.
 
 Aș dori să vă întreb de ce amână guvernul să ia o decizie cu privire la ieftinirea carburanților, având în vedere că alte state au venit deja cu măsuri și dacă este posibil să ne confruntăm cu o criză a carburanților.
 
-[ND] Bun.
+Bun.
 
 A fost o măsură care a fost deja luată.
 
@@ -124,7 +121,7 @@ Adică eu cred că a, în fine, a răspuns ă a răspuns ăă acestei crize.
 
 Pentru moment, Pentru moment guvernul încearcă să țină această criză sub control prin măsurile pe care le a luat și pe care le va lua.
 
-[ND] Cu privire la situația din a coaliție, ați spus anterior că este nevoie de stabilitate.
+Cu privire la situația din a coaliție, ați spus anterior că este nevoie de stabilitate.
 
 Totuși, Partidul Social Democrat spune că nu își mai dorește un guvern cu USR.
 
@@ -134,7 +131,7 @@ Eu îmi doresc un guvern cu cele patru partide și cu minoritățile naționale 
 
 Dacă vrem să, în fine, să facem speculații fără PSD nu poate să fie decât minoritar și atunci e dificil.
 
-[ND] Și cu privire la numirea șefilor din servicii ați luat o decizie.
+Și cu privire la numirea șefilor din servicii ați luat o decizie.
 
 Bun.
 

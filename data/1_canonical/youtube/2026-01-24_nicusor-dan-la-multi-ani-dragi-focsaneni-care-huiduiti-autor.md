@@ -1,11 +1,8 @@
 ---
 data: 2026-01-24
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=H0fT0TQjYPE
 sursa_aprecieri: 1338
 sursa_canal: Euronews Romania
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1769256955
 sursa_video_id: H0fT0TQjYPE
 sursa_vizionari: 129382
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] La mulți ani, dragi focșeni, care huiduiți autoritățile publice.
+La mulți ani, dragi focșeni, care huiduiți autoritățile publice.
 
 Este un drept pe care l ați câștigat.
 

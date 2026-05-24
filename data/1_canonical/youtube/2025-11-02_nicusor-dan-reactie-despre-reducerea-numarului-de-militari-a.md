@@ -1,11 +1,8 @@
 ---
 data: 2025-11-02
-metoda: heuristic diarization (format=markers, 17 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=GyezK6C8A84
 sursa_aprecieri: 110
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1762096401
 sursa_video_id: GyezK6C8A84
 sursa_vizionari: 6061
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Președintele României, Nicușor Dan, a participat astăzi la lansarea candidaturii lui Cătălin Drulă la Primăria Capitalei.
+Președintele României, Nicușor Dan, a participat astăzi la lansarea candidaturii lui Cătălin Drulă la Primăria Capitalei.
 
 Șeful statului le a promis membrilor USR că vor avea în el un partener.
 
@@ -35,7 +32,7 @@ vorbitor: nicusor_dan
 
 Urmărim declarațiile.
 
-[ND] Am primit invitația de la USR București, oameni cu care am colaborat mult timp. o ocazie pentru a spune ce cred eu că e important pentru București.
+Am primit invitația de la USR București, oameni cu care am colaborat mult timp. o ocazie pentru a spune ce cred eu că e important pentru București.
 
 Și pentru câteva scurte întrebări, ne mai vedem săptămâna asta.
 
@@ -45,13 +42,13 @@ Joi deschidem Forumulonato pe industrie, un eveniment important pentru România 
 
 Domnule președinte, domnule președinte, domnule președinte,
 
-[JURNALIST] domnule președinte, premierul Ilie Bolojan a fost invitat în Parlamentul României la ora premierului să dea explicații. dumneavoastră, în calitate de președinte, ce considerați că ar trebui să facă prim ministrul?
+domnule președinte, premierul Ilie Bolojan a fost invitat în Parlamentul României la ora premierului să dea explicații. dumneavoastră, în calitate de președinte, ce considerați că ar trebui să facă prim ministrul?
 
-[ND] Asta este.
+Asta este.
 
 Eu vreau să vorbesc într un plan mai general. mai jos
 
-[ND] ă orice fel de dezbatere în societate este foarte bună.
+ă orice fel de dezbatere în societate este foarte bună.
 
 Să în anumite momente nu trebuie ca noi înșine să amplificăm niște lucruri care pot să facă rău României.
 
@@ -81,7 +78,7 @@ Pe partea relației între noi și Statele Unite lucrurile sunt liniare.
 
 Da. și mai departe, bineînțeles că este un gest cu o anumită simbolistică, dar în niciun caz nu este vorba de o afectare securității noastră.
 
-[ND] Când veți merge când veți merge când veți merge la când veți merge la casa, domnule președinte, când veți merge la Casa Albă, îi veți cere lui Donald Trump să suplimenteze numărul de trupe americane din România.
+Când veți merge când veți merge când veți merge la când veți merge la casa, domnule președinte, când veți merge la Casa Albă, îi veți cere lui Donald Trump să suplimenteze numărul de trupe americane din România.
 
 Lucrul cel mai important în relația viitoare dintre România și Statele Unite este o prezență economică mult mult sporită a statelor a companiilor americane în România.
 
@@ -99,19 +96,19 @@ O respingeți.
 
 Din câte nu am mers în detaliu cu această chestiune, dar din câte știu eu, în ceea ce lider de partide este o decizie a serviciului de protecție și pază care trebuie să o decidă și pentru orice fel de politică, orice de tensiune, e bine să existe o protecție pentru că suntem într o democrație și cu cât lucrurile sunt mai puțin tensionate spuneți Cum este posibil ca un președinte aicină politicul un candidat la primărie în condițiile în care le a dat și afară din partid?
 
-[ND] Nu știu despre ce țară și despre ce candidat vorbiți.
+Nu știu despre ce țară și despre ce candidat vorbiți.
 
-[ND] Vorbesc despre dumneavoastră de
+Vorbesc despre dumneavoastră de
 
-[ND] Am venit, cum v am spus la început, la un eveniment al USR București.
+Am venit, cum v am spus la început, la un eveniment al USR București.
 
 Am fost invitat, am transmis niște mesaje despre București și asta e tot.
 
 Domnu președinte, veți merge veți merge și la celelalte lansări de candidatură pentru Primăria Capitalei, veți merge și la ceilalți candidați care și au anunțat intenția.
 
-[ND] În funcție de invitație, de program vom lua în consider că în momentul de față singurul parteneriat pe care puteți să l aveți cu un viitor al președin premier prin primar la capitale este cu domnul Drulă, ca să înțelegem prezența dumneavoastră mai exact aici sau este mai degrabă continuarea parteneriatului cu USR care v a susținut toate inițiativele când erați primar?
+În funcție de invitație, de program vom lua în consider că în momentul de față singurul parteneriat pe care puteți să l aveți cu un viitor al președin premier prin primar la capitale este cu domnul Drulă, ca să înțelegem prezența dumneavoastră mai exact aici sau este mai degrabă continuarea parteneriatului cu USR care v a susținut toate inițiativele când erați primar?
 
-[ND] Da, v am răspuns la asta.
+Da, v am răspuns la asta.
 
 Am venit la invitația USR București.
 
@@ -127,15 +124,15 @@ Oamenii au dreptate.
 
 Asta înseamnă Asta înseamnă
 
-[ND] că bucureștenii, în mod democratic vor alege un primar cu care evident că eu ca președinte voi
+că bucureștenii, în mod democratic vor alege un primar cu care evident că eu ca președinte voi
 
-[ND] declarația dumneavoastră.
+declarația dumneavoastră.
 
 Ați făcut în trecut o declarație când ați anunțat candidatura la președenția țării, ați spus că din această nouă poziție veți putea să ajutați mai mult bucureșteni și încerc să înțeleg cum veți ajuta mai mult bucureștenii după momentul 7 decembrie.
 
 Veți face parteneriat cu privitorul primar ori de orice coloratură politică va fi domnia sa.
 
-[ND] Bun.
+Bun.
 
 Înainte de ăă 7 decembrie există un referendum care are ăă două chestiuni fundamentale.
 
@@ -147,21 +144,21 @@ Deci astea sunt cele două lucruri, transpunerea referendumului în care eu cred
 
 Nu mai repet acum de ce aceste două întrebări de la referendum de la referendum pot să repare ceea ce mult timp două chestiuni pe care Bucureștiul a a suferit mult timp și bineînțeles din asta din asta va decurge și vor decurge și niște alte probleme mai operaționale pe care București le are
 
-[ND] coaliției majorității actuale ca acest proiect să devină realitate și să fie adoptat și să ajungă pe masa dumneavoastră la promulgare.
+coaliției majorității actuale ca acest proiect să devină realitate și să fie adoptat și să ajungă pe masa dumneavoastră la promulgare.
 
 Aveți acest sprijin al coaliției?
 
 Ați discutat cu liderii coaliției pentru susținerea acestui proiect de lege?
 
-[ND] Discut în mod Discut în mod frecvent cu liderii coaliției și în aceste discuții încerc inclusiv pe chestiuni care țin de să zicem de latura executivă să conving de niște lucruri care mi se par bune pentru România.
+Discut în mod Discut în mod frecvent cu liderii coaliției și în aceste discuții încerc inclusiv pe chestiuni care țin de să zicem de latura executivă să conving de niște lucruri care mi se par bune pentru România.
 
 Domnule președinte, referitor la tensiunile din coaliția de guvernare la în cazul unei plecări a premierului Ilie Bolăjan de la Palatul Victoria, pe cine vedeți că l ar putea înlocui?
 
 Ar fi Călin Georgescu o variantă?
 
-[ND] Bun.
+Bun.
 
-[ND] Nu există această Nu există această alternativă.
+Nu există această Nu există această alternativă.
 
 Nu trebuie să ne lansăm în speculații.
 

@@ -1,11 +1,8 @@
 ---
 data: 2026-01-24
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=TsvovOARgfI
 sursa_aprecieri: 66
 sursa_canal: Euronews Romania
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1769263101
 sursa_video_id: TsvovOARgfI
 sursa_vizionari: 8398
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] La această oră la Iași începe oficial ceremonia dedicată Unirii Principatelor Române.
+La această oră la Iași începe oficial ceremonia dedicată Unirii Principatelor Române.
 
 La monumentul lui Alexandru Ioan Cuza din Piața Unirii este așteptat și președintele Nicușor Dan, alături de autorități, reprezentanți ai armatei și comunitatea locală.
 
@@ -81,7 +78,7 @@ A văzut oameni care s au bucurat, care au dansat, care efectiv se bucură de ac
 
 A fost anunțat,
 
-[ND] spuneam, de tabere.
+spuneam, de tabere.
 
 Undeva în dreapta mea se aud cuiduieli.
 

@@ -1,11 +1,8 @@
 ---
 data: 2025-06-05
-metoda: heuristic diarization (format=intros, 0 ND segments, 3 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=ms-sMAgftI8
 sursa_aprecieri: 49
 sursa_canal: Privesc.Eu România
@@ -19,11 +16,11 @@ sursa_upload_timestamp: 1749155043
 sursa_video_id: ms-sMAgftI8
 sursa_vizionari: 1792
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[JURNALIST] Domnule președinte, mulțumim frumos pentru onoarea deosebită pe care ne o acordați astăzi prin prezența la această întâlnire cu lideri din sectorul care produce hrană de la materie primă până la procesare sunt astăzi adunați liderii firmelor care lucrează pe acest lanț agroalimentar profesori universitari, rectori, parteneri în actul educațional pentru formarea specialiștilor, lideri în tehnologii pentru agricultură, de la mașini până la inteligență artificială.
+Domnule președinte, mulțumim frumos pentru onoarea deosebită pe care ne o acordați astăzi prin prezența la această întâlnire cu lideri din sectorul care produce hrană de la materie primă până la procesare sunt astăzi adunați liderii firmelor care lucrează pe acest lanț agroalimentar profesori universitari, rectori, parteneri în actul educațional pentru formarea specialiștilor, lideri în tehnologii pentru agricultură, de la mașini până la inteligență artificială.
 
 În calitate de director executiv al Clubului Fermierilor Români, vă adresez mulțumirile Consiliului director și îmi permit să invit președintele clubului, pe domnul Florin Stegadiu, să aibă cuvântul de deschidere pentru această masă rotundă ă care încununează un proces de opt luni de zile în care s au desfășurat reuniuni similare în țară, tocmai pentru a aduna împreună la inițiativa sectorului privat, pentru a propune autorităților ăă idei de acțiune și recomandări pentru transformarea sectorului agroalimentar din România.
 
@@ -67,7 +64,7 @@ Astăzi îmi doresc să fim autorii unui nou început pentru că viitorul agricu
 
 Vă mulțumesc președinte.
 
-[JURNALIST] Domnule președinte, vă rugăm să ne permiteți, înainte de a vă adresa acestor lideri din mediul academic, din rândul autorităților, din sectorul privat, să vă prezentăm într un mod foarte condensat ceea ce organizația noastră, dar și alături de celelalte organizații a gândit în raport cu o revedere vedere în mod integrat a modului de acțiune și interacțiune pentru transformarea agriculturii.
+Domnule președinte, vă rugăm să ne permiteți, înainte de a vă adresa acestor lideri din mediul academic, din rândul autorităților, din sectorul privat, să vă prezentăm într un mod foarte condensat ceea ce organizația noastră, dar și alături de celelalte organizații a gândit în raport cu o revedere vedere în mod integrat a modului de acțiune și interacțiune pentru transformarea agriculturii.
 
 Deviza noastră este asta, transformăm împreună agricultura, oameni tehnologii politici.
 
@@ -137,7 +134,7 @@ Discuția este cum reușim să operaționalizăm chestiunea asta și de asta sal
 
 Mulțumesc.
 
-[JURNALIST] Domnule președinte, vă mulțumim pentru ăă prezență și pentru mesaj.
+Domnule președinte, vă mulțumim pentru ăă prezență și pentru mesaj.
 
 Este important să înțelegem că e o responsabilitatea fiecărui ăă om antreprenor prezent aici la masă, a fiecărui lider din domeniul academic, a fiecărui lider din ă ă zona autorităților, a agențiilor care lucrează pentru agricultură sau complementar.
 

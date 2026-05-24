@@ -1,11 +1,8 @@
 ---
 data: 2026-01-15
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=iYonPENIy2s
 sursa_aprecieri: 166
 sursa_canal: Euronews Romania
@@ -21,15 +18,15 @@ sursa_upload_timestamp: 1768477907
 sursa_video_id: iYonPENIy2s
 sursa_vizionari: 5021
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] În aceste momente are loc întâlnirea anuală a președintelui Nicușor Dan cu șefii misiunilor diplomatice Acreditați în România.
+În aceste momente are loc întâlnirea anuală a președintelui Nicușor Dan cu șefii misiunilor diplomatice Acreditați în România.
 
 Vă propun să ascultăm discursul președintelui
 
-[ND] anului trecut și mai ales să vedem care sunt prioritățile pentru anul care a început.
+anului trecut și mai ales să vedem care sunt prioritățile pentru anul care a început.
 
 Viziunea comună pentru realizarea căreia vă invit să ne unim forțele este cea a unei lumi sigure, mai juste și mai prospere.
 

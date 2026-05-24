@@ -1,11 +1,8 @@
 ---
 data: 2025-04-08
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=RcedWfzXenM
 sursa_aprecieri: 7
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1744105745
 sursa_video_id: RcedWfzXenM
 sursa_vizionari: 874
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Iar Nicușor Dan speră că Elena Lasconi se va retrage în favoarea sa înainte de alegerile prezidențiale, deși președinta USR a spus de nenumărate ori că este exclus să renunțe la cursă pentru funcția de președinte.
+Iar Nicușor Dan speră că Elena Lasconi se va retrage în favoarea sa înainte de alegerile prezidențiale, deși președinta USR a spus de nenumărate ori că este exclus să renunțe la cursă pentru funcția de președinte.
 
 Ei bine, mai mulți lideri ai partidului vor totuși să aibă loc o negociere între Nicușor Dan și Elena Lasconi.
 

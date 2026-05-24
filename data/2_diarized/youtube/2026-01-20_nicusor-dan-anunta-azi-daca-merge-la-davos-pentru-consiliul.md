@@ -1,0 +1,60 @@
+---
+data: 2026-01-20
+metoda: LLM diarize (gemini-2.5-flash)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
+sursa: https://www.youtube.com/watch?v=c4dFItyFfz4
+sursa_aprecieri: 57
+sursa_canal: Antena 3 CNN
+sursa_canal_filter: Antena 3 CNN (search ND)
+sursa_descriere: 'Președintele Nicușor Dan este așteptat să decidă dacă se răzgândește
+  și merge joi la Davos, unde a fost invitat chiar de Donald Trump  Citeşte mai multe
+  ştiri şi află cele mai noi informaţii pe site-ul www.antena3.ro  #antena3 #antena3cnn
+  #stiri  Abonaţi-vă la canalul de YouTube Antena 3 CNN pentru a afla rapid cele mai
+  importante ştiri în format video. Știri Antena 3, prima opțiune pentru știri online
+  în timp real din Romania și din lume'
+sursa_durata_secunde: 195
+sursa_titlu: Nicușor Dan anunță azi dacă merge la Davos pentru consiliul lui Trump
+sursa_upload_timestamp: 1768919824
+sursa_video_id: c4dFItyFfz4
+sursa_vizionari: 4511
+tip: video-transcript
+verificat: true
+vorbitor: nicusor_dan
+---
+
+[ANCHOR] Treen la această oră, președintele Nicușor Dan este așteptat să decidă dacă se răzgândește și merge joi la Davos, unde, atenție, a fost invitat chiar de Donald Trump.
+
+[ANCHOR] Liderul de la Casa Albă invită șefii de State să semneze joi dimineață în Elveția cartea Consiliului de Pace prin care Trump își propune, potrivit Financial Times, să înlocuiască Organizația Națiunilor Unite.
+
+[ANCHOR] Deocamdată, șeful statului și a confirmat prezența doar la Consiliul European din Bruxell, unde liderii europeni se reunesc joi seară pentru a dezbate scandalul pe Groenlanda și taxele majorate de Trump pentru statele care au trimis militari în insula arctică.
+
+[ANCHOR] Mergem la Vasile Marcu, cel care are toate informațiile.
+
+[ANCHOR] Înțeleg, Vasile, că este așteptată astăzi opoziția președintelui Nicușor Dan un răspuns dacă merge la această ceremonie pentru consiliul de pace al lui Donald Trump. [Muzică]
+
+[ANCHOR] Astăzi ar urma să vină anunțul.
+
+[ANCHOR] Ceea ce știm în momentul de față este că au avut loc consultări între președinte și consilierii săi, inclusiv cu ministerul afacerilor externe, pe această situație, pe această invitație venită din partea președintelui Statelor Unite, astfel încât Nicușor Dan, președintele României, să vină cu un răspuns adecvat.
+
+[ANCHOR] În perioada următoare, în scurt timp, va veni și acest răspuns dacă România acceptă să facă parte din acest consiliu de pace pentru Gaza, un consiliu din care fac parte 60 de țări și în care a fost invitat și președintele României, Nicușoran, să reprezinte țara noastră.
+
+[ANCHOR] Însă până în momentul de față, singurul anunț oficial venit de la administrația prezidențială este cel referitor la participarea președintelui Nicușor Dan la Consiliul European de Urgență, unul convocat de președintele Antonio Coșta la începutul acestei săptămâni pentru mijlocul săptămânii, pentru joi seara la ora 20:00, acolo unde vor discuta despre tarifele anunțate de SUA împotriva unor țări din Uniunea Europeană.
+
+[ANCHOR] E nevoie de un răspuns coordonat, iar la acest consiliu este invitația pentru a participa în persoană.
+
+[ANCHOR] Deci, șeful Consiliului European a cerut șefilor de stat și de guvern din țările Uniunii Europene să fie prezente în persoană.
+
+[ANCHOR] Nu se acceptă o prezență online, cum se mai întâmpla consiliile trecute.
+
+[ANCHOR] Trebuie să fie tot joi, seara la ora 20:00 pentru a decide un răspuns la această amenințare venită din partea Statelor Unite.
+
+[ANCHOR] Până acum e singurul anunț oficial venit din partea administrației prezidențiale, însă repet, în minutele următoare, poate o oră, două, așteptăm și un răspuns din partea președintelui Nicușordan, a administrației prezidențiale referitoare la invitația șefului de la Casa Albă pentru România de a face parte în acel consiliu de pace pentru Gaza.
+
+[ANCHOR] Președintele Dan a reacționat prompt, dar nu a răspuns în pripă la o inițiativă care reclamă multă reflecție din partea instituțiilor românești.
+
+[ND] Facem așadar o analiză aprofundată.
+
+[ND] Sunt sigur că toate statele membre ale Uniunii Europene își dedică timpul acestei analize.
+
+[ND] Nu dorim să angajăm încă o dată România nici politic, nici financiar într o inițiativă pe care pentru moment nu o înțelegem în ultimele ei consecințe.

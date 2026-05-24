@@ -1,11 +1,8 @@
 ---
 data: 2025-09-12
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=3dyOVSZPTT0
 sursa_aprecieri: 7
 sursa_canal: Euronews Romania
@@ -23,17 +20,17 @@ sursa_upload_timestamp: 1757659391
 sursa_video_id: 3dyOVSZPTT0
 sursa_vizionari: 494
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] „Țara noastră e de 10 ani sub atacul hibrid al Federației Ruse", a declarat președintele NicuȘordan. "Ofensiva informațională, care a crescut de a lungul timpului, a reușit chiar să influențeze o parte din societate, spune șeful statului.
+„Țara noastră e de 10 ani sub atacul hibrid al Federației Ruse", a declarat președintele NicuȘordan. "Ofensiva informațională, care a crescut de a lungul timpului, a reușit chiar să influențeze o parte din societate, spune șeful statului.
 
 Iar România abia acum, după un deceniu, începe să combată dezinformarea rusească.
 
 Ați spus că România este sub război hibrid al Federației Ruse
 
-[ND] de 10 ani.
+de 10 ani.
 
 Da, da, asta este evaluarea mea.
 
@@ -43,4 +40,4 @@ A fost o creștere graduală, pe de o parte de atacuri cibernetice la infrastruc
 
 Statul român a făcut ceva ca să răspundă, să opere
 
-[ND] pe zona de dezinformare abia începe să facă.
+pe zona de dezinformare abia începe să facă.

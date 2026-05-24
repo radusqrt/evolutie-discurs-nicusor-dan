@@ -1,11 +1,8 @@
 ---
 data: 2025-11-12
-metoda: heuristic diarization (format=markers, 42 ND segments, 37 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=Eankma7a0EI
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1762947515
 sursa_video_id: Eankma7a0EI
 sursa_vizionari: 3670
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Ora 12:00.
+Ora 12:00.
 
 Chiar acum încep [muzică] știrile amiezii.
 
@@ -52,7 +49,7 @@ Pe unde sunteți, Amalia?
 
 Și ce spun oamenii?
 
-[ND] Bun găsit.
+Bun găsit.
 
 De puțin timp am plecat din fața guvernului, alături de sindicaliști.
 
@@ -80,11 +77,11 @@ Suntem și noi alături de sindicaliști, sindicaliști care vin din toată țar
 
 Dorim să ne păstrăm forma legislativă care o avem în servicii de ambulanță județene și să nu fim reorganizați.
 
-[ND] Sunt prevăzute și concedieri.
+Sunt prevăzute și concedieri.
 
 Posibile concedieri.
 
-[ND] Da, sunt posibile concedieri în principal asupra personalului TESA. să nu mai scadă salariile pentru că în ultimele zile, luni de zile de când guvernul Bolojan a venit la putere, mie personal mi a scoszut salarul cu aproape 800 RON.
+Da, sunt posibile concedieri în principal asupra personalului TESA. să nu mai scadă salariile pentru că în ultimele zile, luni de zile de când guvernul Bolojan a venit la putere, mie personal mi a scoszut salarul cu aproape 800 RON.
 
 Au început să comanseze foarte multe funcții, adică un salari, un salariat să facă mai multe funcții.
 
@@ -110,7 +107,7 @@ Cu mai multe detalii chiar acum colegul meu Sebi Boldea.
 
 Te ascultăm, Sebi.
 
-[ND] Bun găsit.
+Bun găsit.
 
 În cazul produselor alimentare, cea mai mare creștere de preț o vedem la raionul de fructe proaspete, cele care s au scumpit în medie cu aproape 23% comparativ cu aceeași perioadă a anului trecut, urmate mai apoi de prețul cafelei, cea care a urcat în medie într un singur an cu aproape 20%.
 
@@ -118,7 +115,7 @@ Te ascultăm, Sebi.
 
 În cazul serviciilor vedem creșteri similare în cazul tarifelor de la CFR și cele de la saloanele de înfrumusețare cu un plus de peste 18 puncte procentuale, urmate mai apoi de tarifele de la serviceurile auto, cele care au crescut în medie într un singur an cu aproape 17%.
 
-[ND] Sebi, mulțumesc tare mult.
+Sebi, mulțumesc tare mult.
 
 Haideți să le vedem concret pe toate, toate aceste scumpiri foarte mari.
 
@@ -278,13 +275,13 @@ Deci, vreau să fac anunțul ăsta foarte clar pentru că pentru ca oamenii să 
 
 Întrebări.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Florin Răvdan, DC News.
 
 Aș vrea să vă întreb ce încredere mai poate avea populația în CSM când instituția promovează o plângere penală față de o opinie exprimată și dacă considerați necesar pe viitor organizarea unui referendum pentru desființarea completă a pensiilor speciale?
 
-[ND] Bun.
+Bun.
 
 La a doua întrebare am răspuns.
 
@@ -326,7 +323,7 @@ Asta nu i normal.
 
 Deci CSM ul a avut o măsură disproporționată, dar a avut o la presiunea unor oameni care simt că asupra lor e o presiune socială la care este în mare parte nejustificată.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Bogdan Borza, România TV. ați introdus corupția în această strategie națională de apărare.
 
@@ -344,17 +341,17 @@ Deci nu e Problemele cu corupția sunt altele, cele pe care cumva întreacă de 
 
 Acolo sunt problemele.
 
-[ND] Am înțeles.
+Am înțeles.
 
 Deci nu considerați o problemă că domnul Bolojan ar fi primit sau mă rog partidul ar fi primit 1 milion și jumătate de euro ca să se întâlnească cu acel om de afaceri în biroul de la Palatul Victoria?
 
-[JURNALIST] Eu nu știu să fi primit.
+Eu nu știu să fi primit.
 
 În orice caz ăă în orice caz nu a existat vreo decizie administrativă care să fie în favoarea unui corupt.
 
 Da, în în acest caz ăsta este lucrul care contează.
 
-[ND] Bună ziua, Ema Stoica Digi24.
+Bună ziua, Ema Stoica Digi24.
 
 Ieri ați avut o întâlnire cu liderii coaliției.
 
@@ -366,7 +363,7 @@ O premieră aș putea spune.
 
 Pentru că Ilie Bolojoan, ne aducem aminte, spunea că nu vom rămâne pe legea veche.
 
-[JURNALIST] Da, din nou, sunt și vești bune.
+Da, din nou, sunt și vești bune.
 
 Vestea bună este că ședința, discuția de ieri a durat doar o oră și jumătate.
 
@@ -380,17 +377,17 @@ Da.
 
 Și dacă se dacă lucrul ăsta se poate întâmpla în noiembrie, cu atât mai bine.
 
-[ND] Dar varianta prezentată de dumneavoastră în vară mai este luată în calcul?
+Dar varianta prezentată de dumneavoastră în vară mai este luată în calcul?
 
 Cea pe care ați pus o la guvern?
 
-[JURNALIST] Da.
+Da.
 
 Un an la un an este ceva ce eu susțin
 
-[ND] 75 cu 15 ani.
+75 cu 15 ani.
 
-[JURNALIST] Eu n am spus niciodată 75.
+Eu n am spus niciodată 75.
 
 Niciodată.
 
@@ -400,7 +397,7 @@ Singurul lucru pe care l am spus a fost e prea mult un an și jumătate față d
 
 Cred că este echilibrat și pentru magistrați și pentru societate un an la un an.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
 Bună ziua, Laurențiu Ungureanu, Hot News.
 
@@ -420,29 +417,29 @@ Vreau să vă întreb în acest context în care miza strategiei este apărarea 
 
 Și dacă o considerați, de ce nu apare în strategie?
 
-[JURNALIST] Hm.
+Hm.
 
 Vom reflecta și pentru că e un document care este pus în dezbatere, cred că este absolut pertinent.
 
 Ce spuneți?
 
-[ND] Adică veți reflecta cu privire la sărăcia ca pericol la adresa siguranței naționale de acum înainte?
+Adică veți reflecta cu privire la sărăcia ca pericol la adresa siguranței naționale de acum înainte?
 
-[JURNALIST] Nu am înțeles.
+Nu am înțeles.
 
-[ND] Veți reflecta de acum înainte cu privire la posibilitatea căsărăcia să fie o amenințare la siguranța națională?
+Veți reflecta de acum înainte cu privire la posibilitatea căsărăcia să fie o amenințare la siguranța națională?
 
 Nu vom reflecta în cuprinsul acestor 12 zile la ă ă sugestia pe care sau întrebarea pe care dumneavoastră ați pus o.
 
-[JURNALIST] Întrebarea era dacă considerați sau nu că sărăcia este o amenințare.
+Întrebarea era dacă considerați sau nu că sărăcia este o amenințare.
 
-[ND] Eu cred că este.
+Eu cred că este.
 
 Da.
 
-[JURNALIST] Mulțumesc.
+Mulțumesc.
 
-[ND] Bună ziua, Teodora Suciu, știrile Pro TV.
+Bună ziua, Teodora Suciu, știrile Pro TV.
 
 Domnule președinte, ați spus chiar într un interviu pentru știrile PRO TV că practic și din propria inițiativă serviciile de informații ar putea să furnizeze aceste date pentru în ce privește corupția.
 
@@ -450,7 +447,7 @@ Cum vă veți asigura că nu vor fi situații în care SRI ul, serviciile vor fi
 
 Dacă ne puteți explica în ce fel veți delimita aceste atribuții.
 
-[JURNALIST] Hm.
+Hm.
 
 Da, foarte bine.
 
@@ -474,7 +471,7 @@ Există un fenomen de corupție pe care nu l cunoaștem suficient.
 
 Pentru a l cunoaște mai bine trebuie să alocăm resurse inclusiv în zona de informații.
 
-[ND] Aș insista ce garanții legale sau instituționale v ați gândit că ați putea oferi tocmai ca să ne asigurăm că delimităm cele două atribuții?
+Aș insista ce garanții legale sau instituționale v ați gândit că ați putea oferi tocmai ca să ne asigurăm că delimităm cele două atribuții?
 
 Păi, în momentul de față există garanții legale.
 
@@ -484,7 +481,7 @@ Da.
 
 Mulțumesc.
 
-[JURNALIST] Bună ziua, Ramona Avramescu, Televiziunea Română.
+Bună ziua, Ramona Avramescu, Televiziunea Română.
 
 Ăă, domnule președinte, în perspectiva întâlnirii pe care o o veți avea în această după amiază cu coaliția și cu reprezentanții magistraților, Înalta Curte a transmis în urmă cu puțin timp, a făcut public un acord pentru justiție și stabilitate instituțională pe care vrea să vi l propună la întâlnirea de astăzi.
 
@@ -512,7 +509,7 @@ De principiu orice formă de propunere într un dialog între părți e bineveni
 
 În privința fidelizării magistraților, dincolo de discuția actuală privind pensiile, considerați că este nevoie de deschiderea unei alte discuții privind salariile magistraților și acordarea unor compensații așa cum propune Înalta Curte?
 
-[ND] E prima oară că aud subiectul ăsta în spațiul public.
+E prima oară că aud subiectul ăsta în spațiul public.
 
 Așa, de principiu, eu cred că este un echilibru la acest moment în ceea ce privește salariile, adică ele sunt mult mai mari decât alte categorii profesionale.
 
@@ -522,7 +519,7 @@ Deci putem să avem discuția asta, dar nu cred că nu cred că e urgentă în m
 
 Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Loredana Diacu, Epoct Times România.
 
@@ -548,7 +545,7 @@ Pe scurt, domnule președinte, este China văzută că au a fost luată în calc
 
 Este spionajul chinez luat în calcul la întocmirea acestei strategii? s au prevăzut mecanisme pentru contracararea influenței chineze și a spionajului chinez.
 
-[ND] Da.
+Da.
 
 Ăă bineînțeles că această strategie este ăă un document cumva generic de când vorbește de de exemplu de spionaj vorbește de oricine ne ar putea spiona.
 
@@ -584,7 +581,7 @@ Domnule președinte, s a făcut o analiză și avem idee, aveți idee dacă avem
 
 Pentru că dacă tot oameni care lucrează pentru ruși vor pune în aplicare această strategie,
 
-[JURNALIST] Da.
+Da.
 
 Nu, nu, nu.
 
@@ -598,9 +595,9 @@ Pentru a dovedi tipul ăsta de acțiuni uneori îți ia cinci 6 ani sau poate ma
 
 Dar în linii mari, în linii mari instituțiile statului român apără interesul statului român.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Oana Bâlă, Radio România Actualități.
 
@@ -610,7 +607,7 @@ Aș vrea să revin la lupta împotriva corupției, văzută ca vulnerabilitate �
 
 Când vor fi numite acestea? dacă le veți numi până la sfârșitul acestui an.
 
-[ND] Nu, n a fost o n a fost o preocupare a mea de la ultima conferință până azi, dar ea rămâne ca preocupare numirea șefilor serviciilor, dar n am în acest interval n am avut discuții sau altceva.
+Nu, n a fost o n a fost o preocupare a mea de la ultima conferință până azi, dar ea rămâne ca preocupare numirea șefilor serviciilor, dar n am în acest interval n am avut discuții sau altceva.
 
 Și referitor la lupta împotriva corupției, în mod concret, cum cum se va desfășura aceasta? prin alocarea mai mult dacă vorbim de sunt mai multe lucruri de spus eficientizarea parchetelor, cât de mult durează un proces, dacă mai este necesară sau nu camera preliminară.
 
@@ -634,7 +631,7 @@ Asta e ce pot să spun.
 
 Îmi doresc să fie evident, îmi doresc să fie cineva care să pune ordine în bani, în urbanism și să dezvolte infrastructura.
 
-[JURNALIST] Ați spus că nu vă veți implica în campanie, deși aveți un preferat pentru primăria generală.
+Ați spus că nu vă veți implica în campanie, deși aveți un preferat pentru primăria generală.
 
 La un moment dat, cred că în la finalul lunii iulie, ați făcut o poză cu Cătălin Drulă.
 
@@ -644,7 +641,7 @@ Ar fi trebuit să evitați să faceți acea poză cu Cătălin Drulă.
 
 Cum considerați la momentul acesta?
 
-[ND] Da, cred că am făcut multe poze de atunci.
+Da, cred că am făcut multe poze de atunci.
 
 Da.
 
@@ -652,7 +649,7 @@ Un parlamentar din București mi a făcut o vizită și am făcut o poză.
 
 Mulțumesc.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Ramona Sârbu de la Gândul.
 
@@ -706,7 +703,7 @@ O să i punem într un cont și când o să facem tot cadrul pentru a i da, o s�
 
 Mulțumesc.
 
-[ND] Bună ziua, Ona Ghiță Agerpress. pentru că în câteva ore vă întâlniți cu reprezentanții magistraților.
+Bună ziua, Ona Ghiță Agerpress. pentru că în câteva ore vă întâlniți cu reprezentanții magistraților.
 
 Subiectul principal este de fapt ieșirea din profesie, vârsta ieșirii din profesie, pensionarea magistraților.
 
@@ -714,7 +711,7 @@ Pledoaria dumneavoastră pentru acești specialiști, pentru acești profesioni�
 
 Care e pledoaria dumneavoastră pentru ca acești oameni să rămână în profesie și să nu se simtă obligați să rămână în profesie și astfel să nu servească cetățenii?
 
-[JURNALIST] Da, în primul rând pentru și asta e valabil pentru orice profesie la stat.
+Da, în primul rând pentru și asta e valabil pentru orice profesie la stat.
 
 Orice profesie la stat este un contract social.
 
@@ -754,7 +751,7 @@ Dacă mai are trei ani să mai facă șase.
 
 Dacă mai are patru să facă opt.
 
-[JURNALIST] Bună ziua, domnule președinte.
+Bună ziua, domnule președinte.
 
 Alexandra Alexandrescu de la Realitatea.
 
@@ -764,7 +761,7 @@ Vă încurajez să veniți dumneavoastră cu politici gata scrise și cu puncte 
 
 Aș vrea să vă întreb dacă reprezintă această declarație o capitulare a statului român și implicit a dumneavoastră ca președinte în fața privatului sau dacă nu, ce mai face statul dacă privatul vine să legifereze și totodată cum puteți avea încredere că mediul privat în care profitul este cel care dictează politicile ar putea să facă politici publice adresate cetățeanului de rând?
 
-[ND] Da.
+Da.
 
 În primul rând ați citat foarte corect.
 
@@ -806,7 +803,7 @@ Nu se poate astfel.
 
 Da, cam asta, cam asta am vrut să spun.
 
-[JURNALIST] Și dacă î permiteți să ne îndreptăm privirea puțin și înspre sindicate pentru că în special în educație, acolo unde în continuare vedem că educația e un fel de cenușăreasă în stat au fost luate acele măsuri în educație.
+Și dacă î permiteți să ne îndreptăm privirea puțin și înspre sindicate pentru că în special în educație, acolo unde în continuare vedem că educația e un fel de cenușăreasă în stat au fost luate acele măsuri în educație.
 
 Spuneați dumneavoastră că veți face o analiză legată de efectele produse de acele măsuri.
 
@@ -814,9 +811,9 @@ Spuneați de asemenea că veți avea și discuții cu sindicatele din educație.
 
 Aș vrea să vă întreb când veți chema sindicatele la discuții și totodată când veți numi un consilier pe acest domeniu care pare cumva uitat întotdeauna.
 
-[ND] Da,
+Da,
 
-[JURNALIST] în Aveți dreptate.
+în Aveți dreptate.
 
 Ă Am zis două luni, au trecut două luni, n am făcut ce am zis că voi face.
 
@@ -838,11 +835,11 @@ Pe de altă parte, sunt niște condiții obligatorii ca persoanele puse sub supr
 
 Este adevărat?
 
-[ND] Bun.
+Bun.
 
 Asta este se referă la procesul penal,
 
-[JURNALIST] la cercetarea penală.
+la cercetarea penală.
 
 Da.
 
@@ -850,17 +847,17 @@ Da.
 
 Ei nu vor face, ei vor culege informații despre fenomenul corupției.
 
-[ND] Întrebarea este dacă se poate ține cont de probele anterioare obținute de Serviciul Român de Informații în anumite dosare de corupție.
+Întrebarea este dacă se poate ține cont de probele anterioare obținute de Serviciul Român de Informații în anumite dosare de corupție.
 
-[JURNALIST] Foarte probabil nu.
+Foarte probabil nu.
 
 Foarte probabil nu.
 
 Adică ăă dumnealor vor face o ăă cum să zic o poză de ansamblu a unui fenomen de corupție și vor spune procurorului, uite asta cred eu că se întâmplă în zona aia și mai departe procurorul se va duce și cu toate posibilitățile sale de anchetă, inclusiv inclusiv unele mai speciale pe care la care poate să acceadă numai prin încuviințarea judecă ătorului va face asta mai departe.
 
-[ND] Cadrul legal actual este destul de solid, astfel încât serviciile secrete să nu și depășească atribuțiile sau ar fi necesare și modificări.
+Cadrul legal actual este destul de solid, astfel încât serviciile secrete să nu și depășească atribuțiile sau ar fi necesare și modificări.
 
-[JURNALIST] Eu cred că este solid.
+Eu cred că este solid.
 
 Problema ă problema eu cred că el era suficient de solid și în momentul în care serviciile își depășeau atribuțiile.
 
@@ -868,7 +865,7 @@ Problema noastră în România este tot timpul încercăm s o modificăm cine ap
 
 Aici suntem în mare suferință.
 
-[ND] Deci legea trebuie aplicată și pentru asta vă veți asigura că lucrurile de acum încolo vor fi.
+Deci legea trebuie aplicată și pentru asta vă veți asigura că lucrurile de acum încolo vor fi.
 
 Mulțumesc.
 
@@ -880,7 +877,7 @@ Aș vrea să vă întreb în contextul în care Federația Rusă și Războiul H
 
 Dacă dumneavoastră considerați că în acest moment serviciile secrete din România sunt capabile să ducă această luptă pe două fronturi sau dacă mai degrabă e nevoie de o reformă profundă la nivelul serviciilor secrete și tot în acest context, care ar fi profilul de șef al SRI sau al serviciului de informații externe care să poată să conducă o astfel de luptă pe două fronturi împotriva corupției și pentru a combate amenințările ostile ale Federației Ruse?
 
-[JURNALIST] Da.
+Da.
 
 Ăă, bineînțeles că este un proces continuu de evaluare și ca peste tot sunt multe lucruri care trebuie îmbunătățite și orice fel de evaluare exterioară, informație care îmi parvine, este binevenită despre cum funcționează serviciile pe Pe de altă parte, dacă ne uităm așa foarte grosier, dacă ne uităm la partea de siguranță propriu zisă, da, ă vedem că ă e destul de bine.
 
@@ -912,9 +909,9 @@ Nu.
 
 Hai c
 
-[ND] Și vă păstrați acea evaluare inițială de la începutul mandatului că șefii serviciilor secrete ar trebui să fie oameni care nu au un CV politic, care nu au în trecut în partide politice.
+Și vă păstrați acea evaluare inițială de la începutul mandatului că șefii serviciilor secrete ar trebui să fie oameni care nu au un CV politic, care nu au în trecut în partide politice.
 
-[JURNALIST] Păstrez, da, păstrez asta.
+Păstrez, da, păstrez asta.
 
 Și dacă mi permiteți o completare, domnule președinte, tot în contextul Strategiei Naționale de Apărare, vă așteptați la o intensificare a acțiunilor ostile ale Federației Ruse, inclusiv asupra României și în acest context veți discuta cu lideri ai țărilor NATO pentru a înlocui cumva trupele americane care se retrag parțial din România cu soldați din alte state NATO?
 
@@ -934,9 +931,9 @@ Mă aștept să se intensifice și cumva am am răspuns la asta.
 
 Ăă, la a doua parte a întrebării ăă cum am spus la început, faptul că avem acest mare exercițiu care s a desfășurat trei săptămâni în România cu mii de militari tocmai pentru ca ă ei împreună să poată forma o brigadă de luptă adevărată, asta dovedește că ă avem parteneri, că ei se preocupă de zon împreună cu noi se preocupă de această zonă de securitate și că România este sigură din punctul ăsta de vedere.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[JURNALIST] Președintele României, declarații de la Palatul Cotroceni.
+Președintele României, declarații de la Palatul Cotroceni.
 
 Conferință de presă anunțată.
 
@@ -964,9 +961,9 @@ Vom urmări subiectul, vom detalia.
 
 Haideți să ne uităm acum la imaginile protestului din capitală.
 
-[ND] [muzică]
+[muzică]
 
-[JURNALIST] A fost interesant și momentul ales de sindicate.
+A fost interesant și momentul ales de sindicate.
 
 Protestul a fost unul de amploare.
 
@@ -976,19 +973,19 @@ Mii de sindicaliști au ieșit și în stradă, apoi într un marș nemulțumiț
 
 S au referit la creșterea taxelor și la tăierile din administrație. au cerut creșterea salariului minim de anul viitor. [muzică]
 
-[ND] Dorim să ne păstrăm forma legislativă care o avem în servicii de ambulanță județene și să nu fim reorganizați.
+Dorim să ne păstrăm forma legislativă care o avem în servicii de ambulanță județene și să nu fim reorganizați.
 
-[JURNALIST] Sunt prevăzute și concedieri.
+Sunt prevăzute și concedieri.
 
 Posibile concedieri.
 
 Da, sunt posibile consilieri în principal asupra personalului TESA.
 
-[ND] Să nu mai scadă salariile pentru că în ultimele zile, luni de zile de când guvernul Bolojan a venit la putere mie personal mi a scoszut salarul cu aproape 800 RON. au început să comanseze foarte multe funcții, adică un salari, un salariat să facă mai multe funcții.
+Să nu mai scadă salariile pentru că în ultimele zile, luni de zile de când guvernul Bolojan a venit la putere mie personal mi a scoszut salarul cu aproape 800 RON. au început să comanseze foarte multe funcții, adică un salari, un salariat să facă mai multe funcții.
 
 Atâtea guverne ne au amânat de atâta timp și noi cerem să ni se pună niște drepturi în practică.
 
-[JURNALIST] Și mergem și la Cluj Napoca pentru că sunt percheziții ale procurorilor anticorupție chiar la primăria din Cluj Napoca.
+Și mergem și la Cluj Napoca pentru că sunt percheziții ale procurorilor anticorupție chiar la primăria din Cluj Napoca.
 
 Potrivit unor surse, sunt vizați directorul Direcției Tehnice și șefa serviciului de achiziții.
 
@@ -1008,13 +1005,13 @@ Reprezentanții primăriei au transmis faptul că au pus la dispoziția organoan
 
 Rămâne de văzut așadar care sunt motivele perchezițiilor de astăzi de aici de la Primăria Cluj după ce reprezentanții DNA vor ieși cu un comunicat.
 
-[ND] Asta e dorința mea.
+Asta e dorința mea.
 
 Știți că mai avem câte un vis în viața asta.
 
 Eu sunt de principiu să ne facem plăcerile, că la 70 de ani nu cred că mai contează.
 
-[JURNALIST] Tocmai l ați urmărit pe deputatul cu plăceri scumpe.
+Tocmai l ați urmărit pe deputatul cu plăceri scumpe.
 
 Este vorba de social democratul Răzvan Ciortea.
 
@@ -1024,7 +1021,7 @@ Haideți să aflăm și detaliile.
 
 Olivia Onesemeniuc ni le ni le aduce.
 
-[ND] Bun găsit.
+Bun găsit.
 
 Vorbim despre o faptă pe care ar fi făcut o când era subprefect la Cluj, mai exact în vara anului 2023.
 
@@ -1058,11 +1055,11 @@ Orașul Pocrovsk a devenit o ruină de mai bine de un an de când este înconjur
 
 Soldații lui Putin au încercat să alune luptătorii ucraineni prin orice mijloace: drone, rachete și foc de artilerie.
 
-[JURNALIST] Coloanele rușilor se îndreaptă spre centrul orașului și par de neoprit.
+Coloanele rușilor se îndreaptă spre centrul orașului și par de neoprit.
 
 Sute de oameni au fost evacuați de urgență din localitățile din jur. Зараз на прикладі Покровська ми вже не можемо туди заїха про людей, щоб вони шки нам.
 
-[ND] Orașul Pocrovsk este valoros pentru ambele tabere.
+Orașul Pocrovsk este valoros pentru ambele tabere.
 
 Ucrainenii l au folosit ca centrul logistic să ducă resurse pentru front.
 
@@ -1090,7 +1087,7 @@ Detaliile șocante ale masacrului ies la iveală după 30 de ani.
 
 Corespondentul Dig24 în Italia de la Mohanus ne spune cum ar fi fost organizate excursiile în care beneficiarii mergeau la vânătoare de oameni.
 
-[JURNALIST] Safariurile, aceste excursii la vânătoare de oameni s ar fi organizat cu plecare din Milano, Torino și Trieste.
+Safariurile, aceste excursii la vânătoare de oameni s ar fi organizat cu plecare din Milano, Torino și Trieste.
 
 Italieni ar fi ajuns cu avionul la Belgrad, iar de acolo ar fi primit elicoptere private cu care să meargă în Sarajevo.
 
@@ -1112,17 +1109,17 @@ A vorbit inclusiv cu un fost agent secret bosniac.
 
 Acesta i a oferit date, nume concrete, iar el a făcut un document de 17 pagini pe care l a predat ulterior procurorilor din Milano. [muzică]
 
-[ND] Bun găsit.
+Bun găsit.
 
 Sunt Carla Tănasie și suntem la FI Salvator.
 
 Vă aduc astăzi informații despre retenția urinară împreună cu domnul doctor, invitatul meu, Cristian Toma, medic specialist urolog.
 
-[JURNALIST] Vă mulțumesc pentru că sunteți alături de noi.
+Vă mulțumesc pentru că sunteți alături de noi.
 
 Este o situație de urgență retenția urinară.
 
-[ND] Bun găsit și mulțumesc de invitație.
+Bun găsit și mulțumesc de invitație.
 
 Este o situație de urgență retenția urinară.
 
@@ -1134,17 +1131,17 @@ De cele mai multe ori întâlnim în cadrul bărbaților, mai frecvent la bărba
 
 Cel mai probabil pacientul va beneficia de un cateter urinar introdus prin cale fiziologică sau se poate pune și un cateter suprapubic, un tub care se inseră prin peretele abdominal anterior până în vezică, fiind o situație temporară până când se fac investigațiile și tratamentul de specialitate.
 
-[JURNALIST] Ce se poate întâmpla dacă persoana respectivă nu merge imediat la situație?
+Ce se poate întâmpla dacă persoana respectivă nu merge imediat la situație?
 
-[ND] E o situație delicată pentru că pacienții intră în insuficiență renală acută de cauză obstructivă.
+E o situație delicată pentru că pacienții intră în insuficiență renală acută de cauză obstructivă.
 
 Știm că aparatul urinar ne ajută să eliminăm produșii de degradare din organism și atunci ei nemaieliminându se adună în sânge.
 
 Creatinina crește și atunci e nevoie chiar în anumite situații pe lângă dezobstruție dacă se poate realiza să se facă inclusiv dializa.
 
-[JURNALIST] Deci când cineva ajunge în aceast acest blocaj cum spun pacienții, trebuie să meargă de urgență la spital sau trebuie să se sune la 112?
+Deci când cineva ajunge în aceast acest blocaj cum spun pacienții, trebuie să meargă de urgență la spital sau trebuie să se sune la 112?
 
-[ND] Preferabil ar fi să n ajungă în această situație.
+Preferabil ar fi să n ajungă în această situație.
 
 Ăă, ei au simptomatologie premergătoare, de cele mai multe ori au semne.
 
@@ -1156,8 +1153,8 @@ E important să mergem rapid. pot merge în regie proprie.
 
 Dacă în schimb apare o stare generală alterată și nu sunt într o condiție foarte bună, apelez serviciul de urgență, nu întârzii a accesa un serviciu medical.
 
-[JURNALIST] Vă mulțumesc mult pentru aceste informații.
+Vă mulțumesc mult pentru aceste informații.
 
-[ND] Vă mulțumesc pentru că ne urmăriți.
+Vă mulțumesc pentru că ne urmăriți.
 
 Rămâneți în continuare pe Digi24. [muzică] Noul aspirator Dyson este cel mai puternic. .

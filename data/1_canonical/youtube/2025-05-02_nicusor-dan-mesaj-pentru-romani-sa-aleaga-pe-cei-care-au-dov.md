@@ -1,11 +1,8 @@
 ---
 data: 2025-05-02
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=4czH8XRHagA
 sursa_aprecieri: 23
 sursa_canal: B1
@@ -21,11 +18,11 @@ sursa_upload_timestamp: 1746196417
 sursa_video_id: 4czH8XRHagA
 sursa_vizionari: 584
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Da, vreau să vă aduc un subiect de ultim moment în discuție pentru că aflăm că este o delegație a Statelor Unite venită la București pentru a monitoriza alegerile și este ceva uzual pentru că sunt din mai multe state în general.
+Da, vreau să vă aduc un subiect de ultim moment în discuție pentru că aflăm că este o delegație a Statelor Unite venită la București pentru a monitoriza alegerile și este ceva uzual pentru că sunt din mai multe state în general.
 
 Aici vorbim despre o delegație condusă de vicepreședintele Comisiei Federale pentru alegeri Electorale și care a declarat că existat interferențe, că a consultat documentele de anul trecut de la CSAT și că au existat interferențe externe în procesul de votare și că TikTok ul, de asemenea, deținut de chinezi, a fost de asemenea implicat în acest proces electoral și spune o chestiune.
 

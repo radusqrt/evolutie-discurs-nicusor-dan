@@ -1,11 +1,8 @@
 ---
 data: 2025-10-27
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=0D596-3vtgU
 sursa_aprecieri: 311
 sursa_canal: Euronews Romania
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1761594084
 sursa_video_id: 0D596-3vtgU
 sursa_vizionari: 22441
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Finalizarea Catedralei Naționale și sfințirea sa reprezintă încununarea unui idei care a unit generații de români, clerici, oameni de stat sau simplii credincioși care au dorit ca Ortodoxia românească să aibă un lăcaș reprezentativ, simbol al unității de credință și de neam, al demnității și suveranității României Moderne.
+Finalizarea Catedralei Naționale și sfințirea sa reprezintă încununarea unui idei care a unit generații de români, clerici, oameni de stat sau simplii credincioși care au dorit ca Ortodoxia românească să aibă un lăcaș reprezentativ, simbol al unității de credință și de neam, al demnității și suveranității României Moderne.
 
 Catedrala Mântuirii Neamului exprimă continuitatea spiritualității românești, evocând frumusețea arhitecturii bizantine îmbinată cu influențe occidentale, o expresie a României europene și creștine.
 

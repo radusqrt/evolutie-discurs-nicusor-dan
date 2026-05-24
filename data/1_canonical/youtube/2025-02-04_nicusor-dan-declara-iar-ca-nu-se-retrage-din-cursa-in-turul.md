@@ -1,11 +1,8 @@
 ---
 data: 2025-02-04
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=ubGpKZBvtPU
 sursa_aprecieri: 149
 sursa_canal: Euronews Romania
@@ -24,8 +21,8 @@ sursa_upload_timestamp: 1738677114
 sursa_video_id: ubGpKZBvtPU
 sursa_vizionari: 8053
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] nu se pune problema că să mă retras Și o să am discuții cu multă lum avem un vot în două tururi ă așa cum sunt lucrurile în momentul acesta în turul doi o să intre un candidat comentat dacă votul ar fi azi acest candidat ar fi sau Cin Antonescu sau eu și nu cred să se schimbe multe în această campanie și eu nu mă adresez doar unui anumit public mă adresez publicului și publicului așa zis izolaționistă încercând să i convin că România are nevoie de o schimbare reală
+nu se pune problema că să mă retras Și o să am discuții cu multă lum avem un vot în două tururi ă așa cum sunt lucrurile în momentul acesta în turul doi o să intre un candidat comentat dacă votul ar fi azi acest candidat ar fi sau Cin Antonescu sau eu și nu cred să se schimbe multe în această campanie și eu nu mă adresez doar unui anumit public mă adresez publicului și publicului așa zis izolaționistă încercând să i convin că România are nevoie de o schimbare reală

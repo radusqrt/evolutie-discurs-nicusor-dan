@@ -1,11 +1,8 @@
 ---
 data: 2026-03-12
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=cfT7hKFmJSo
 sursa_aprecieri: 94
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1773324660
 sursa_video_id: cfT7hKFmJSo
 sursa_vizionari: 3011
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] președintele României, Nicușor Dan și președintele Ucrainei, Volodimir Zelenschi.
+președintele României, Nicușor Dan și președintele Ucrainei, Volodimir Zelenschi.
 
 Vă spuneam că cu Ucraina și România semnează în aceste momente un parteneriat strategic.
 
@@ -42,7 +39,7 @@ România are la dispoziție 16 miliarde de euro prin acest program european pent
 
 Haideți să urmărim, să ascultăm ce se întâmplă acolo. [aplauze]
 
-[ND] Anunțurile urmează, declarațiile îi ascultăm.
+Anunțurile urmează, declarațiile îi ascultăm.
 
 Domnule președinte, dragă Volodimir, mulțumesc pentru vizita pe care ne o faceți și mai ales mulțumim dumneavoastră și poporului ucrainian pentru lupta pe care o duceți, care este o luptă pentru Europa întreagă, deci pentru România și pentru România.
 

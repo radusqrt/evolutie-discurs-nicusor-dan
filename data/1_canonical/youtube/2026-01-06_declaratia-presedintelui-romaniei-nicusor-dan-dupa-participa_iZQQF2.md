@@ -1,11 +1,8 @@
 ---
 data: 2026-01-06
-metoda: heuristic diarization (format=markers, 26 ND segments, 25 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=iZQQF2JQClI
 sursa_aprecieri: 14
 sursa_canal: Privesc.Eu România
@@ -19,13 +16,13 @@ sursa_upload_timestamp: 1767733971
 sursa_video_id: iZQQF2JQClI
 sursa_vizionari: 892
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] H, gata toată lumea.
+H, gata toată lumea.
 
-[ND] Bună seara.
+Bună seara.
 
 Fiind prima apariție publică, vreau să urez românilor la mulți ani și un an 2026 cât mai bun. a avut loc o ședință a coaliției de voință fizică, spre deosebire de multe altele care au fost prin sisteme electronice, cu participarea președintelui Zelenschi și foarte important cu participarea celor doi emisari ai președintelui Trump pentru Ucraina, domnii Witkov și Cușner.
 
@@ -43,7 +40,7 @@ Cam atât.
 
 Sunt gata pentru întrebările dumneavoastră.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Marius Gârlașiu, Observator Antena 1.
 
@@ -53,7 +50,7 @@ Se pune problema ca România să trimită trupe în această forță multinațio
 
 Cum vom ajuta Ucraina?
 
-[ND] Da.
+Da.
 
 Da.
 
@@ -69,7 +66,7 @@ Da.
 
 Deci în momentul în care o să avem o un decupaj pe fiecare dintre țări cu ce presupune asta, acest decupaj va fi un act pe care Parlamentul României îl va aproba.
 
-[JURNALIST] Și dacă î permiteți o întrebare suplimentară de politică externă, aș vrea să vă întreb cum vă poziționați ca președinte al României în cazul intervenției americane din Venezuela.
+Și dacă î permiteți o întrebare suplimentară de politică externă, aș vrea să vă întreb cum vă poziționați ca președinte al României în cazul intervenției americane din Venezuela.
 
 Considerați că acea intervenție americană în Venezuela încalcă dreptul internațional și în același timp, dacă î permiteți, cum vă poziționați în chestiunea Groenlandei?
 
@@ -79,7 +76,7 @@ Există și o declarație semnată de șapte state europene inclusiv Polonia, Fr
 
 Ar fi sfârșitul NATO dacă Statele Unite ale Americii ar încerca să anexeze Groenlanda?
 
-[ND] Bun.
+Bun.
 
 În primul rând, pe Venezuela a existat o declarație a Uniunii Europa, 26 din cele 27 de țări din Uniune, printre care și România, foarte nuanțată.
 
@@ -101,7 +98,7 @@ Deci nu se pune problema.
 
 Mulțumesc.
 
-[JURNALIST] Bună seara.
+Bună seara.
 
 Camelia Donțu și Pro TV.
 
@@ -109,7 +106,7 @@ Aș vrea să revenim puțin la garanțiile de securitate.
 
 Ne ați spus că într adevăr nu este un document public, dar puteți detalia mai exact ce s a stabilit în această seară, care sunt aceste garanții de securitate concret care vor ajuta Ucraina, dacă ne puteți oferi mai multe detalii despre acest plan și cine l va coordona.
 
-[ND] Da.
+Da.
 
 Ă sunt este împărțit pe mai multe paliere.
 
@@ -123,11 +120,11 @@ De exemplu, pe partea de maritim, știți că România împreună cu Turcia și 
 
 Pe de altă parte există un mecanism de răspuns și aici, cum spuneam e foarte important că Statele Unite sunt parte, un mecanism de răspuns în care în linii mari primele 24 de ore este Ucraina, 48 de ore forțele europene sau ale coaliției de voință și ăă 72 de ore ăă un răspuns al Statelor Unite cam de tipul ăsta este structurat, iar monitorizarea ăă păsării păcii este coordonată de Statele Unite
 
-[JURNALIST] și un follow up.
+și un follow up.
 
 Ați discutat și despre securitatea la Marea Neagră concret?
 
-[ND] Securitatea la Marea Neagră ați discutat concret astăzi?
+Securitatea la Marea Neagră ați discutat concret astăzi?
 
 S a discut s a evocat.
 
@@ -141,7 +138,7 @@ Ultima dată când ați fost la Paris ați vorbit cu președintele Emanuel Macro
 
 Dacă aveți mai multe detalii legat de această vizită, vă mulțumesc.
 
-[JURNALIST] Nu, păi știți că am fost aici acum două săptămâni sau trei.
+Nu, păi știți că am fost aici acum două săptămâni sau trei.
 
 Nu s au întâmplat foarte multe lucruri de atunci până acum.
 
@@ -153,15 +150,15 @@ Foarte probabil această vizită va avea loc în 2026 în România.
 
 Dacă puteți să ne oferiți mai multe detalii legat de acest lucru.
 
-[ND] Da.
+Da.
 
 Ăă, în parte am spus deja, deci noi am avut un nivel militar care s a transformat prin declarația de azi într un nivel politic și acum este un nivel juridico legislativ care pe de o parte să permită fiecare fiecare din țările care s a angajat să desfășoare respectivele operațiuni.
 
 Pe de altă parte, dacă e nevoie pentru ca în legislația ucrainiană, pentru ca aceste ă cum să le spun, operațiuni să fie înlesnite de legislația ucrainiană.
 
-[JURNALIST] Vă mulțumesc.
+Vă mulțumesc.
 
-[ND] Bună seara, Oana Ghițagerpress.
+Bună seara, Oana Ghițagerpress.
 
 Puteți da mai multe detalii legate de hubul logistic care va fi la Câmpia Turzi?
 
@@ -183,9 +180,9 @@ Vor fi preluate din niște tiruri care vor trece prin vama în cutare.
 
 Și acum la fel ă când o să ajungem în Parlament o să trecem lucruri generice de tipul ă pregătire a militarilor ucrainieni pentru o ocutare secțiune, dar n o să spunem câți, unde,
 
-[JURNALIST] dar în ceea ce privește banii, sprijinul financiar,
+dar în ceea ce privește banii, sprijinul financiar,
 
-[ND] același lucru.
+același lucru.
 
 E același lucru.
 
@@ -193,13 +190,13 @@ Da.
 
 Iar Câmpia Turzii, hubul logistic de la Câmpia Turzi, există un deadline pentru operaționalizarea acestuia?
 
-[JURNALIST] Este un hub care funcționează.
+Este un hub care funcționează.
 
 Este un hub care funcționează, dar mai mult de faptul că funcționează, n o să vă spun alte lucruri.
 
 Funcționează deja.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Mădălin Puiu, România TV.
 
@@ -209,11 +206,11 @@ Pe data de 16 ianuarie, Curtea de Apel judecă contestația celor doi judecător
 
 În primul rând, v a și întreba dacă vi se pare asta o tergiversare în contextul în care trebuia să ia o decizie pe această lege a pensiilor speciale.
 
-[ND] O tergiversare din partea cui?
+O tergiversare din partea cui?
 
-[JURNALIST] Din partea celor magistraților care câștigă pensii speciale, astfel încât să nu se ia o decizie. în cadrul CCR.
+Din partea celor magistraților care câștigă pensii speciale, astfel încât să nu se ia o decizie. în cadrul CCR.
 
-[ND] Da, e public.
+Da, e public.
 
 Sunt patru magistrați care au cerut o amânare și legea le dă dreptul.
 
@@ -229,7 +226,7 @@ Adică e normalitatea.
 
 Da.
 
-[JURNALIST] Dacă Curtea de Apel totuși ia decizia să l suspende pe Dacian Dragoș din funcția de judecător, aveți un plan B, o altă numire pe care ați pregătit o?
+Dacă Curtea de Apel totuși ia decizia să l suspende pe Dacian Dragoș din funcția de judecător, aveți un plan B, o altă numire pe care ați pregătit o?
 
 Ă, în primul rând, eu cred că noi avem dreptate.
 
@@ -249,9 +246,9 @@ Dacă se va întâmpla să suspende decretul, nu vă închipuiți că o să lăs
 
 O să numim un judecător care va intra în complet și se va pronunța pe legea pensiilor magistraților.
 
-[ND] Mulțumesc. pe legea, în fine sistemului așa care prevede și pensiile.
+Mulțumesc. pe legea, în fine sistemului așa care prevede și pensiile.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Mare pe Euronews.
 
@@ -263,7 +260,7 @@ Iar printre alte negocieri se va discuta și despre numirile la parchete și la 
 
 Dacă ne puteți spune când veți veni cu aceste numiri și dacă veți negocia cumva cu PSD, dacă PSD va avea un cuvânt de spus pe marginea acestor numiri, pe marginea numelor pe care le aveți în momentul de față pe listă spre evaluare.
 
-[ND] Da.
+Da.
 
 Ăă, bun.
 
@@ -281,11 +278,11 @@ Dimpotrivă, vom discuta astfel încât numirile să fie validate de Parlament.
 
 Și dată fiind această procedură, cred că și aici este fires existe o consultare între președinte și primul ministru.
 
-[JURNALIST] Bun, asta înseamnă că dacă PSD se opune unei eventuale numiri în cadrul acestor negocieri, veți da înapoi ca să păstrați PSD la actul guvernării? pentru că PSD s ar putea să joace cum a și făcut o deja și am putut vedea aceasta această realitate și să amenințe fie cu nesusținerea unei astfel de nominalizări fie chiar cu ieșirea de la guvernare.
+Bun, asta înseamnă că dacă PSD se opune unei eventuale numiri în cadrul acestor negocieri, veți da înapoi ca să păstrați PSD la actul guvernării? pentru că PSD s ar putea să joace cum a și făcut o deja și am putut vedea aceasta această realitate și să amenințe fie cu nesusținerea unei astfel de nominalizări fie chiar cu ieșirea de la guvernare.
 
 Sunt chiar în analiză să vadă în momentul de față dacă mai rămân sau nu la actul guvernării.
 
-[ND] Bun.
+Bun.
 
 În primul rând că trebuie să ă trebuie să diferențiem tot timpul între declarație politică și acțiune politică.
 
@@ -305,9 +302,9 @@ Am zis că l facem, îl facem așa ăă și o să stabilim o să stabilim detali
 
 Vă gândiți în acest context context să mergeți la o ședință a CSM?
 
-[JURNALIST] O să O să vedeți, cred că o să mergem împreună la o ședință CSM, dar încă aștept niște niște date pe pentru a o face.
+O să O să vedeți, cred că o să mergem împreună la o ședință CSM, dar încă aștept niște niște date pe pentru a o face.
 
-[ND] Bună seara, Ema Stoica, Digi24.
+Bună seara, Ema Stoica, Digi24.
 
 O precizare scurtă pentru că poate nu înțelegem noi.
 
@@ -315,33 +312,33 @@ Funcționează o coaliție de guvernare cu un partid care organizează referendu
 
 Referendum intern.
 
-[JURNALIST] Atâta timp cât decizia partidului este de a rămâne la guvernare, această coaliție funcționează și eu sunt optimist că va funcționa în continu
+Atâta timp cât decizia partidului este de a rămâne la guvernare, această coaliție funcționează și eu sunt optimist că va funcționa în continu
 
-[ND] este un joc de a șoarecele și pisica pe care î face PSD.
+este un joc de a șoarecele și pisica pe care î face PSD.
 
-[JURNALIST] Cine să fie pisica?
+Cine să fie pisica?
 
 Completați dumneavoastră punctele mai departe.
 
-[ND] Da.
+Da.
 
-[JURNALIST] Ă nu e, nu acuma vă vin serios.
+Ă nu e, nu acuma vă vin serios.
 
 Ăă este cert că ăă noi avem niște partide care sunt în mod legitim susținute de niște publicuri și ă interesele față de ceea ce fac partidele în interesul acestor publicuri uneori este sunt ăă divergente și atunci există ăă ă ă măsuri pe care această coaliție le a luat care nu au fost pe placul ul publicului PSD și atunci cumva o oarecare, așa interpretez eu, o oarecare divergență între acțiune și declarație politică
 
-[ND] și o completare scurtă pentru că spuneați că va trebui de fapt în săptămânile următoare să veniți cu numele la cele două servicii secrete.
+și o completare scurtă pentru că spuneați că va trebui de fapt în săptămânile următoare să veniți cu numele la cele două servicii secrete.
 
 Aveți deja niște oameni la care vă gândiți și spuneați în urmă cu câteva luni că nu vor fi aceștia din politică.
 
 S au schimbat lucrurile.
 
-[JURNALIST] M ne mai am niște oameni, da, pe care îi am în cap și o să fie niște discuții și o să aveți niște nume.
+M ne mai am niște oameni, da, pe care îi am în cap și o să fie niște discuții și o să aveți niște nume.
 
 Da.
 
-[ND] Și s au schimbat lucrurile.
+Și s au schimbat lucrurile.
 
-[JURNALIST] Da.
+Da.
 
 Să ne mai nuanțăm.
 
@@ -353,7 +350,7 @@ România contribuie cu 50 de milioane de euro.
 
 Dacă va continua acest mecanism și
 
-[ND] pe o perioadă mai lungă și ce alte tipuri de ajutor mai dăm pentru Ucraina, militar în perioada asta umanitar, economic?
+pe o perioadă mai lungă și ce alte tipuri de ajutor mai dăm pentru Ucraina, militar în perioada asta umanitar, economic?
 
 Din nou, parte din lucruri sunt publice, parte nu sunt publice.
 
@@ -379,15 +376,15 @@ Cât de îngrijorați sunteți de acest demers?
 
 Îl vedeți vedeți vreo o reușită în viitor?
 
-[JURNALIST] Mi se pare total neserios.
+Mi se pare total neserios.
 
 Adică putem să avem dezbateri pe multe lucruri, dar suspendarea mi se pare total neserios să discutăm de subiectul ăsta.
 
 Vă acuză că intrați în conflict
 
-[ND] în conflict cu justiția, practic un conflict constituțional între două puteri ale statului,
+în conflict cu justiția, practic un conflict constituțional între două puteri ale statului,
 
-[JURNALIST] nu?
+nu?
 
 Bun.
 
@@ -399,9 +396,9 @@ O să vedem dacă în ce măsură se încalcă constituția.
 
 Nu cred că se încalcă niciun fel când în momentul în care 1000 de oameni din sistemul de judecată spun că este afectată chiar independența magistratului și președintele întreabă: E așa sau nu e așa, nu cred că se încalcă niciun fel de constituție.
 
-[ND] Deci nu vedeți vreo reușită a demersului?
+Deci nu vedeți vreo reușită a demersului?
 
-[JURNALIST] Mi se pare total neserios subiectul.
+Mi se pare total neserios subiectul.
 
 Dacă ați văzut nivelul de taxe locale și cum vi se pare acesta la dumneavoastră, spre exemplu, deși stați în chirie, mașina, prețul cât a crescut la taxele locale vi se par exagerate după reacțiile pe care le ați văzut până acum?
 
@@ -413,11 +410,11 @@ Pe de o parte, există o flexibilitate pe care legea o dă autorității locale 
 
 Pe de altă parte ăă sunt niște taxe care față de inflația de ultimii ani n au mai crescut de foarte mult timp. mai departe, dacă ele trebuiau să crească cu 70, cu 50, cu 30, asta e o chestiune care ține de guvern,
 
-[ND] nu?
+nu?
 
 Dar dacă le ați văzut, vi se par mari, mici sau din ce ați văzut până acum exagerate
 
-[JURNALIST] înă București?
+înă București?
 
 Eu am o mașină care n am mutat o de la Făgăraș la București și încă nu mi a venit decizia pentru ea.
 
@@ -425,7 +422,7 @@ Eu am o mașină care n am mutat o de la Făgăraș la București și încă nu 
 
 Spuneați în trecut, în vară că în toamnă veniți cu un raport, după care ați amânat
 
-[ND] la începutul acestui an.
+la începutul acestui an.
 
 Da, o să venim.
 
@@ -433,9 +430,9 @@ Da.
 
 Acum când rămâne luna ianuarie
 
-[JURNALIST] în la începutul acestui an chiar acuma în avion venit cu dumneavoastră am citit o parte din materialele pe care se bazează.
+în la începutul acestui an chiar acuma în avion venit cu dumneavoastră am citit o parte din materialele pe care se bazează.
 
-[ND] Bună seara.
+Bună seara.
 
 Ingrid Văleanu Ponț Interview francopon este un ziar european membru al asociațion de la Presea Paris sunt vreo 300 de jurnaliști străini acreditați în Paris.
 
@@ -455,7 +452,7 @@ Mulți ne mândrim cu acest lucru în diasporă.
 
 Și a doua întrebare, ce reprezintă România pentru Europa viitorului pe care o sperăm cu toții și pe care o așteptăm cât de repede și ce reprezintă Europa pentru viitorul României în viziunea dumneavoastră?
 
-[JURNALIST] Da.
+Da.
 
 Mulțumesc.
 
@@ -477,4 +474,4 @@ Că am avut avem în curs programul Horizon care n am luat nimic practic.
 
 Deci toate astea sunt întrebări la care rolul președintelui este să reușească să pună împreună mai mulți oameni care să fie în stare să dea un un răspuns care să fie coerent.
 
-[ND] Mulțumesc.
+Mulțumesc.

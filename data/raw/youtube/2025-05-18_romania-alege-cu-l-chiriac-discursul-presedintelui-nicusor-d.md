@@ -1,11 +1,8 @@
 ---
 data: 2025-05-18
-metoda: heuristic diarization (format=intros, 1 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=oHYAAU_FCwE
 sursa_aprecieri: 924
 sursa_canal: B1
@@ -19,11 +16,11 @@ sursa_upload_timestamp: 1747606254
 sursa_video_id: oHYAAU_FCwE
 sursa_vizionari: 38703
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] [Muzică] Mihaela, dragostea mea.
+[Muzică] Mihaela, dragostea mea.
 
 Mulțumesc.
 
@@ -755,7 +752,7 @@ Vă spuneam, șefa Comisiei Europene, articolele, presa internațională care sa
 
 România dă Europei, dă lumii exemplul unui vot democratic, cum rar mai speram, după ce fusesem prima țară din Uniunea Europeană care anulase alegerile la sfârșitul.
 
-[JURNALIST] Dacă permiteți să cobor dramatic în subsolul politicii nivelul discuției, aș vrea să citesc din Ana Maria Gavrilă, dacă vă mai amintiți personajul.
+Dacă permiteți să cobor dramatic în subsolul politicii nivelul discuției, aș vrea să citesc din Ana Maria Gavrilă, dacă vă mai amintiți personajul.
 
 Chiar așa.
 

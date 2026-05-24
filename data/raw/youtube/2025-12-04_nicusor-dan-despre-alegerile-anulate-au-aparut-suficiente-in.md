@@ -1,11 +1,8 @@
 ---
 data: 2025-12-04
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=So_Qc1Caoso
 sursa_aprecieri: 11
 sursa_canal: Euronews Romania
@@ -23,21 +20,21 @@ sursa_upload_timestamp: 1764839846
 sursa_video_id: So_Qc1Caoso
 sursa_vizionari: 1197
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Un raport care să explice anularea alegerilor de anul trecut ar putea fi prezentat la finalul lunii ianuarie, anunță președintele.
+Un raport care să explice anularea alegerilor de anul trecut ar putea fi prezentat la finalul lunii ianuarie, anunță președintele.
 
 Nicu Jordan.
 
 A spus în schimb că în ultimul an cetățenii au devenit mult mai conștienți de campaniile de dezinformare rusești din țara noastră.
 
-[ND] Ște un an de când Curtea Constituțională a decis să anuleze primul tur alegerilor.
+Ște un an de când Curtea Constituțională a decis să anuleze primul tur alegerilor.
 
 De la acel moment până acum, ce considerați că s a schimbat?
 
-[ND] Și când veți prezenta raportul?
+Și când veți prezenta raportul?
 
 Spuneați că veți prezenta în curând un raport privind alegeri? poate în sfârșit de ianuarie, așa, ca să dăm un termen aproximativ.
 

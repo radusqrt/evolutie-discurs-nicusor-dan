@@ -1,11 +1,8 @@
 ---
 data: 2026-05-09
-metoda: heuristic diarization (format=markers, 2 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=UP4xffe1Uo0
 sursa_aprecieri: 10
 sursa_canal: Antena 3 CNN
@@ -22,15 +19,15 @@ sursa_upload_timestamp: 1778327827
 sursa_video_id: UP4xffe1Uo0
 sursa_vizionari: 1779
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] România va avea un guvern pro occidental într un termen rezonabil, a reafirmat președintele Nicușordan.
+România va avea un guvern pro occidental într un termen rezonabil, a reafirmat președintele Nicușordan.
 
 Șeful statului a mai anunțat că a încheiat prima rundă de negocieri cu liderii partidelor din fosta coaliție.
 
-[ND] Câteva cuvinte despre situația curentă.
+Câteva cuvinte despre situația curentă.
 
 Am încheiat un prim set de întâlniri cu liderii partidelor pro occidentale, reprezentanți ai minorităților naționale.
 

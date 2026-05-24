@@ -1,11 +1,8 @@
 ---
 data: 2025-09-25
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=qzfG4PfrRu4
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -17,11 +14,11 @@ sursa_upload_timestamp: 1758829592
 sursa_video_id: qzfG4PfrRu4
 sursa_vizionari: 19311
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] ca să spun așa, există două direcții de acțiune ăă în zona online.
+ca să spun așa, există două direcții de acțiune ăă în zona online.
 
 Una este pe așa numita securitate cibernetică, pentru că în același raport al Parchetului General, vedeți că în perioada alegerilor au fost 800 de atacuri cibernetice pe diferite structuri ale statului român.
 
@@ -29,9 +26,9 @@ Pe de altă parte, pe zona de dezinformare, aici aș spune că suntem tehnologic
 
 Nu suntem
 
-[ND] Dar facem ceva
+Dar facem ceva
 
-[ND] facem ceva.
+facem ceva.
 
 Facem ceva, învățăm, colaborăm, dar încă nu suntem.
 

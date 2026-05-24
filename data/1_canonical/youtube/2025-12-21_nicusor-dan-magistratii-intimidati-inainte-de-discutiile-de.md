@@ -1,11 +1,8 @@
 ---
 data: 2025-12-21
-metoda: heuristic diarization (format=markers, 5 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=e0td6uWw0BU
 sursa_aprecieri: 130
 sursa_canal: Euronews Romania
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1766324921
 sursa_video_id: e0td6uWw0BU
 sursa_vizionari: 7729
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Așadar, cu aproximativ o oră în urmă, președintele Nicușor Dan a ieșit într o declarație de presă la Palatul Cotroceni, vorbind despre toate semnalele din sistemul de justiție pe care le a primit din partea magistraților.
+Așadar, cu aproximativ o oră în urmă, președintele Nicușor Dan a ieșit într o declarație de presă la Palatul Cotroceni, vorbind despre toate semnalele din sistemul de justiție pe care le a primit din partea magistraților.
 
 Citez: "Sunt semnale și lucruri foarte grave cu privire la sistemul de justiție.
 
@@ -74,7 +71,7 @@ Vorbim despre mii de pagini care au fost trimise către administrația preziden�
 
 Care ar fi motivul acestei discrepanțe, a numărului de magistrați care iată vor să vină public să spună despre problemele din justiție?
 
-[ND] Bună ziua, Felicia.
+Bună ziua, Felicia.
 
 Bună ziua, doamnelor și domnilor.
 
@@ -142,7 +139,7 @@ Un lucru destul de grav.
 
 Practic, cineva nu poate să critice sistemul pentru că de teamă de a nu fi cumva represat.
 
-[ND] Da.
+Da.
 
 Ă, sigur că sunt acuzații foarte grave și, mă rog, am remarcat că președintele a tot spus de a lungul intervenției sale că sunt deocamdată sesizări, acuzații, dar nu și fapte probate fără urmă de dubiu, dar noi știm deja din alte mărturii ale judecătorilor care și au asumat sau ale magistraților care și au asumat să iasă public în ultima vreme că lucrurile astea au mai fost spuse și sunt la fel de grave și de stranii ca și de pildă dacă e să ne uităm invers, promovări sau detașări sau delegări făcute fix în momente în care s ar fi apropiat sentințe foarte importante în cazuri foarte importante, că și la alea ar trebui să ne uităm, judecători care promovau sau se mutau cine știe unde exact în momentul în care aveau de dat o soluție și cazul respectiv se relua de la capăt cu un alt complet, cu un alt judecător și dura bineînțeles, înțeles luni sau poate chiar ani până când eventual se și prescriu faptele și așa mai departe.
 
@@ -160,7 +157,7 @@ Alții care au vrut să vină deschis și probabil vor fi mâine acolo, îi vom 
 
 Ăă și am mai remarcat de asemenea apropo de de Sigur că e un fapt hilar ăsta cu întâlnitul prin benzinării și că poate să ți spună dincolo de de mă rog amuzamentul ăsta sau de situația de râsul plânsul în care ne aflăm poate să spună ceva și despre abordarea magistraților că poate unii pur și simplu nu știu sunt obișnuiți să comunice mai ocult așa pe căi mai netransparente și asta deja spune ceva să zicem un pic despre despre abordarea pe care au o astfel de persoane, dar poate să fie și o mare spaimă și aice trebuie văzut și trebuie procedat cu mare atenție. simplul fapt că președintele spune, redă câteva dintre aceste concluzii cu greutatea funcției prezidențiale ăă mie îmi spune că lucrurile astea cumva au fost măcar parțial documentate sau preliminar documentate și că președintele care are și el însuși o experiență trecută în calitate de onist, de primar, cu foarte multe sesiuni de de instanță, probabil că știe unele dintre ele, probabil că pe unele le a cum să spun, le a auzit mai demult și poate să vină cu greutatea funcției prezidențiale și să le redea pe câteva dintre ele care pot fi probabil dezvoltate și argumentate în discuțiile viitoare.
 
-[ND] Am auzit din partea președintelui aceste sintagme: interes public versus interesul unui grup.
+Am auzit din partea președintelui aceste sintagme: interes public versus interesul unui grup.
 
 Pe a pe acest concept se va baza și referendumul pe care iată Nicu Jordan vrea să l organizeze în luna ianuarie, dar am atras atenția faptului că printre semnalele primite din partea magistraților vine acest lucru.
 
@@ -168,7 +165,7 @@ Există o categorie de magistrați care nu acționează în interes public, ci �
 
 Evident.
 
-[ND] Ă cum vezi aceste declarații? a unui grup de interese și nici măcar a unui, cum să spun, sigur că CSM ul nu i chemat acolo să asigure doar bunăstarea, confortul Breslei, deși poate ai zice la prima vedere, păi da, se ocupă ca magistrații să și facă treaba în condiții bune.
+Ă cum vezi aceste declarații? a unui grup de interese și nici măcar a unui, cum să spun, sigur că CSM ul nu i chemat acolo să asigure doar bunăstarea, confortul Breslei, deși poate ai zice la prima vedere, păi da, se ocupă ca magistrații să și facă treaba în condiții bune.
 
 Nu e vorba despre asta și președintele când spune să vedem dacă este în interesul publicului sau în interesul Preslei se referă probabil la un grup ă și asta așa trebuie citită declarația asta.
 

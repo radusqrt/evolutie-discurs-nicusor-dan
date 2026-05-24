@@ -1,11 +1,8 @@
 ---
 data: 2026-03-16
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=E9iy3xxwsf0
 sursa_aprecieri: 38
 sursa_canal: Euronews Romania
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1773673741
 sursa_video_id: E9iy3xxwsf0
 sursa_vizionari: 3387
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] La finalul întrevederii pe care șeful statului, președintele Nicușor Dan a avut o cu reprezentanții sectorului energetic mai precis ai OMW Petrom și comunicarea pe care o face președintele este de fapt poate o recunoaștere.
+La finalul întrevederii pe care șeful statului, președintele Nicușor Dan a avut o cu reprezentanții sectorului energetic mai precis ai OMW Petrom și comunicarea pe care o face președintele este de fapt poate o recunoaștere.
 
 Avem resurse de petrol în România, dar iată spune și Nicușordan, sunt insuficiente pentru a fi acoperit consumul intern.
 

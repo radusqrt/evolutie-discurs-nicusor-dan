@@ -1,11 +1,8 @@
 ---
 data: 2025-05-26
-metoda: heuristic diarization (format=intros, 1 ND segments, 7 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=grtkC6kzK5k
 sursa_aprecieri: 4533
 sursa_canal: Euronews Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1748259034
 sursa_video_id: grtkC6kzK5k
 sursa_vizionari: 197338
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] de 10 minute urmează să depună jurământul în fața plenului reunit și a tuturor oficial care sunt prezenți acolo.
+de 10 minute urmează să depună jurământul în fața plenului reunit și a tuturor oficial care sunt prezenți acolo.
 
 Au ajuns deja în palatul la palatul Parlamentului.
 
@@ -155,9 +152,9 @@ Comunicarea către Parlament a unui exemplar al hotărârii în vederea depuneri
 
 Hotărârea este definitivă și general obligatorie.
 
-[JURNALIST] Domnule președinte Nicușor Daniel Dan, vă dorim mult succes în îndeplinirea mandatului dumneavoastră, fiind încredințați că în virtutea funcției de mediere veți reuși să fiți președintele tuturor românilor, atât al celor care v au votat, cât și al celor care nu v au votat, că veți garanta respectarea diferenței și în special a diferențelor de convingeri și de opinie, asigurând pluralismul social și politic al societății românești, statul de drept și identitatea națională a României în plan intern și în relațiile externe, în cadrul prerogativelor constituționale, să vegheați la respectarea Constituției, la separația și echilibrul puterilor în stat, la realizarea păcii și bunăstării sociale, a unității, a coeziunii și a solidarității poporului român, unicul fundament real al suveranității și democrației constituționale.
+Domnule președinte Nicușor Daniel Dan, vă dorim mult succes în îndeplinirea mandatului dumneavoastră, fiind încredințați că în virtutea funcției de mediere veți reuși să fiți președintele tuturor românilor, atât al celor care v au votat, cât și al celor care nu v au votat, că veți garanta respectarea diferenței și în special a diferențelor de convingeri și de opinie, asigurând pluralismul social și politic al societății românești, statul de drept și identitatea națională a României în plan intern și în relațiile externe, în cadrul prerogativelor constituționale, să vegheați la respectarea Constituției, la separația și echilibrul puterilor în stat, la realizarea păcii și bunăstării sociale, a unității, a coeziunii și a solidarității poporului român, unicul fundament real al suveranității și democrației constituționale.
 
-[JURNALIST] Domnule președinte, mai presus de toate, să garantați independența justiției instanțelor judecătorești și a justiției constituționale, să îmbinați meritocrația cu democrația pragmatică și funcțională, precum și cu protecția drepturilor și libertăților omului.
+Domnule președinte, mai presus de toate, să garantați independența justiției instanțelor judecătorești și a justiției constituționale, să îmbinați meritocrația cu democrația pragmatică și funcțională, precum și cu protecția drepturilor și libertăților omului.
 
 În încheiere, exprimând spiritul constituției noastre, credem că democrația există acolo unde cei care iubesc libertatea ca necesitate înțeleasă îi domină pe cei care iubesc puterea.
 
@@ -221,7 +218,7 @@ Nu mai sunt.
 
 Nu, nu, nu s au întors sunt, dar nu mai sunt.
 
-[JURNALIST] Stimate domnule președinte Nicușordan, vă invit la tribuna Parlamentului pentru a adresa mesajul dumneavoastră la începutul mandatului.
+Stimate domnule președinte Nicușordan, vă invit la tribuna Parlamentului pentru a adresa mesajul dumneavoastră la începutul mandatului.
 
 Doamnelor și domnilor, stimați invitați și mai ales dragi români.
 
@@ -481,7 +478,7 @@ Așa cum am spus, este în interesul național al României ca în acest moment 
 
 Și eu cred că în fața interesului național un partid nu poate să să spună nu.
 
-[JURNALIST] Domnule președinte, spuneați că ar trebui să reflectăm la legea Curții Constituționale.
+Domnule președinte, spuneați că ar trebui să reflectăm la legea Curții Constituționale.
 
 La ce vă refereați?
 
@@ -555,7 +552,7 @@ Problema este de credibilitatea noastră pe piețele financiare și pe în zona 
 
 Problema este rata mare a dobânzii pe care noi o plătim în momentul ăsta și ceea ce noi trebuie să facem să dăm o un plan, cum am spus 2025 2026 care să dea o predictibit să din care să rezulte și reducerea deficitului și să dea și un plan de stabilitate cheltui de 30 de miliarde de RON în timpul rămas până la finalul anului.
 
-[JURNALIST] Domnule președinte, vorbească despre tăieri de cheltuieli de 6 miliarde de euro. ar însemna 5 miliarde pe lună până la final de an în Da.
+Domnule președinte, vorbească despre tăieri de cheltuieli de 6 miliarde de euro. ar însemna 5 miliarde pe lună până la final de an în Da.
 
 Nu, nu vreau să Deci 30 de miliarde înseamnă diferența între 9% deficit din PIB și 7,5% deficit din PIB.
 
@@ -571,7 +568,7 @@ Politica externă a României a fost a avut o direcție bună, dar o intensitate
 
 Deci trebuie să păstrăm direcția și să creștem intensitatea.
 
-[JURNALIST] Domnule președinte, două partide auestat astăzi în plenședintele Curții Constituționale citea acea hotărâre de validare, unul dintre partide nici nu a participat la plenul de astăzi.
+Domnule președinte, două partide auestat astăzi în plenședintele Curții Constituționale citea acea hotărâre de validare, unul dintre partide nici nu a participat la plenul de astăzi.
 
 Cum vedeți acest protest al opoziției față de alegerea dumneavoastră?
 
@@ -613,7 +610,7 @@ Nu vreau, nu vreau să, nu vreau să, nu vreau să discutăm asta.
 
 Însă dacă noi tot promitem de trei ani Comisiei Europene, eu cred că avem un răgaz de câteva săptămâni acum având având în vedere această schimbare de direcție pentru a corecta lucrurile.
 
-[JURNALIST] Domnule președinte, este exclus ca scenariu un premier din partea PSD, Sorin Grindean, Olguța Vasilescu.
+Domnule președinte, este exclus ca scenariu un premier din partea PSD, Sorin Grindean, Olguța Vasilescu.
 
 Excludeți varianta unui premier PSD?
 

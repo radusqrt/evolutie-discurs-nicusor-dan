@@ -1,11 +1,8 @@
 ---
 data: 2025-09-30
-metoda: heuristic diarization (format=markers, 3 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=R_yLu4Q9BRQ
 sursa_aprecieri: 578
 sursa_canal: Euronews Romania
@@ -24,11 +21,11 @@ sursa_upload_timestamp: 1759262929
 sursa_video_id: R_yLu4Q9BRQ
 sursa_vizionari: 47961
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Nu avem în momentul de față pe niște lucruri pe care le bănuim.
+Nu avem în momentul de față pe niște lucruri pe care le bănuim.
 
 Nu avem dovada cu cine a fost, cine a plătit, dar pentru unde suntem în momentul de față.
 
@@ -44,9 +41,9 @@ Da, noi bănuim că au fost 20 de ordinul.
 
 Da.
 
-[ND] 20 de milioane de euro.
+20 de milioane de euro.
 
-[ND] Da, asta e stimarea pe care Dar aici este o intuiție.
+Da, asta e stimarea pe care Dar aici este o intuiție.
 
 Da.
 

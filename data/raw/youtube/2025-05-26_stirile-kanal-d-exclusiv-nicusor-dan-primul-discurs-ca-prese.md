@@ -1,11 +1,8 @@
 ---
 data: 2025-05-26
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=TqDMpFHTuZ0
 sursa_aprecieri: 73
 sursa_canal: Kanal D Romania
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1748257190
 sursa_video_id: TqDMpFHTuZ0
 sursa_vizionari: 7901
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Anul 2025.
+Anul 2025.
 
 Al cincilea președinte care are 55 de ani.
 

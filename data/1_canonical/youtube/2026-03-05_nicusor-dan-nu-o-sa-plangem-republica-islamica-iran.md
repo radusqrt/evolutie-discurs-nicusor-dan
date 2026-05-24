@@ -1,11 +1,8 @@
 ---
 data: 2026-03-05
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=CwBZv4dtY6k
 sursa_aprecieri: 124
 sursa_canal: Euronews Romania
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1772714419
 sursa_video_id: CwBZv4dtY6k
 sursa_vizionari: 9467
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Legat de situația din Orientul Mijlociu, ăă nu am convocat Consiliul Suprem de Apărare a țării și nu l vom convoca cât lucrurile nu prezintă un pericol imediat direct pentru România.
+Legat de situația din Orientul Mijlociu, ăă nu am convocat Consiliul Suprem de Apărare a țării și nu l vom convoca cât lucrurile nu prezintă un pericol imediat direct pentru România.
 
 În schimb, evident că toată lumea din structurile tehnice cooperează.
 

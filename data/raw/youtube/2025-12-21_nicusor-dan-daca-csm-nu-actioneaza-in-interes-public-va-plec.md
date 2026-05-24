@@ -1,11 +1,8 @@
 ---
 data: 2025-12-21
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=VOCIESzls1U
 sursa_aprecieri: 38
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1766321900
 sursa_video_id: VOCIESzls1U
 sursa_vizionari: 4061
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] În primul rând, e 21 decembrie azi și în '89 21 decembrie au început a început revoluția în București și în alte orașe din România la câteva zile după Timișoara și vreau să transmit recunoștința pentru cei care au ieșit să protesteze atunci și în special pentru cei care și au dat viața pentru asta și trebuie să prin ceea ce facem trebuie să încercăm să fim la înălțimea idealurilor pe care ei le au avut.
+În primul rând, e 21 decembrie azi și în '89 21 decembrie au început a început revoluția în București și în alte orașe din România la câteva zile după Timișoara și vreau să transmit recunoștința pentru cei care au ieșit să protesteze atunci și în special pentru cei care și au dat viața pentru asta și trebuie să prin ceea ce facem trebuie să încercăm să fim la înălțimea idealurilor pe care ei le au avut.
 
 Trei chestiuni despre justiție.
 

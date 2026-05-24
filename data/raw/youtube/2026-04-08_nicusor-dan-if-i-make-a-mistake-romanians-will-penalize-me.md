@@ -1,11 +1,8 @@
 ---
 data: 2026-04-08
-metoda: heuristic diarization (format=markers, 22 ND segments, 2 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=kPvtwHGUQCk
 sursa_aprecieri: 30
 sursa_canal: Antena 3 CNN
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1775669289
 sursa_video_id: kPvtwHGUQCk
 sursa_vizionari: 5265
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Marius Gârlașiu, Observator Antena 1.
 
@@ -62,7 +59,7 @@ Cum răspundeți acestor acuzați?
 
 Păi, eu cred că am răspuns în
 
-[ND] Aveți garanția că aceste numiri nu se află sub influența Partidului Social Democrat?
+Aveți garanția că aceste numiri nu se află sub influența Partidului Social Democrat?
 
 Eu am garanția că această alegere este bună față de momentul pe care î trăim și am încrederea că vom vom trăi acea rupere de ritm de care spuneam că e nevoie.
 
@@ -76,7 +73,7 @@ Adică pe ăia care spuneau acum un an sau doi că eu sunt marioneta lui Matei P
 
 Și pentru că tot vorbeați despre celebrul procuror italian Giovanni Falcone, dacă dacă î permiteți,
 
-[ND] vorbeați despre celebrul procuror italian și despre faptul că ar trebui revigurată lupta anticorupție în România. acum câtva timp, fostul procuror șef al DNA, Crim Bologa, în acest palat a purtat o discuție cu președintele Klaus Iohannis, care i a spus că politicienii, liderii politici au nevoie de liniște.
+vorbeați despre celebrul procuror italian și despre faptul că ar trebui revigurată lupta anticorupție în România. acum câtva timp, fostul procuror șef al DNA, Crim Bologa, în acest palat a purtat o discuție cu președintele Klaus Iohannis, care i a spus că politicienii, liderii politici au nevoie de liniște.
 
 Considerați că cu aceste numiri pe care le ați făcut în această seară politicienii din România vor avea liniște sau că lupta anticorupție va atinge în sfârșit, potrivit așteptărilor românilor și liderii politici de rang înalt?
 
@@ -84,7 +81,7 @@ Eu cred că avem premise pentru ca să ne uităm cu adevărat la un fenomen soci
 
 Pe care adică n o să avem probabil rezultate în trei luni, dar eu cred că șase luni, un an o să vedem o îmbunătățire a activității parchetelor.
 
-[ND] Bună seara, Avram G4 Media.
+Bună seara, Avram G4 Media.
 
 Două întrebări scurte, domnule președinte, dacă ne puteți explica în câteva cuvinte, nu e foarte elaborat.
 
@@ -94,7 +91,7 @@ De ce ați decis totuși să i numiți pe domnii Voineac și Florența în pofid
 
 Mulțumesc.
 
-[ND] Da.
+Da.
 
 Ăă, am răspuns la prima întrebare.
 
@@ -108,19 +105,19 @@ Consider că din poziția de adjunct, așa cum repet ce am spus, pot să ajute.
 
 Dacă n au fost alți candidați care să dovedească că sunt mai buni să fie procurori generali adjuncți ai României.
 
-[ND] Asta e valabil pentru ministrul justiției. dumneavoastră ați avut o câte o singură numire,
+Asta e valabil pentru ministrul justiției. dumneavoastră ați avut o câte o singură numire,
 
-[ND] nu?
+nu?
 
 Legătură faptul că a fost singur pe post cu prerogativele dumneavoastră.
 
-[ND] Așa.
+Așa.
 
 Și a doua întrebare era legată
 
-[ND] De câte ori domnul Voineag a venit la dumneavoastră să vă convingă ceea ce se spune?
+De câte ori domnul Voineag a venit la dumneavoastră să vă convingă ceea ce se spune?
 
-[ND] Nu, n a vorbit.
+Nu, n a vorbit.
 
 Nu a venit niciodată să mă convingă de ceva.
 
@@ -128,19 +125,19 @@ A venit cred că de două ori în mandatul ăsta de președinte pe chestiuni ă 
 
 Mulțumesc. [voce dreasă]
 
-[ND] Bună seara, Octavian Vasilescu, Euronews, România.
+Bună seara, Octavian Vasilescu, Euronews, România.
 
 Domnule președinte, legat de funcționarea instituțiilor europene, ce efect va avea pentru România o nouă victorie a lui Victor Orban în alegerile de duminică, în cazul în care vom avea acest scenariu și implicit pentru modul în care funcționează Uniunea Europeană, ținând cont că și dumneavoastră, de exemplu, ați criticat acel blocaj pentru împrumutul acordat Ucrainei?
 
-[ND] Da. și l critic în continuare.
+Da. și l critic în continuare.
 
 Adică faptul că ce poate să creadă cetățeanul european în momentul în care 27 de lideri europeni se întâlnesc în decembrie și spun vom acorda un împrumut de 90 de miliarde Ucrainei și trei luni mai târziu ei vin și spunne pare rău, nu putem să trimitem banii pentru că se opune Ungaria.
 
 E asta e inadmisibil.
 
-[ND] [sforăit]
+[sforăit]
 
-[ND] Dincolo asta să nu facem speculații pe adică n aș vrea să fac eu speculații pe rezultatul alegerilor.
+Dincolo asta să nu facem speculații pe adică n aș vrea să fac eu speculații pe rezultatul alegerilor.
 
 Mai mai sunt câteva zile și o să vedem cum ne comportăm în continuare.
 
@@ -150,9 +147,9 @@ Mai mai sunt câteva zile și o să vedem cum ne comportăm în continuare.
 
 Adică e o problemă când cineva abuzează de mecanismul de un ăă ă unanimitate.
 
-[ND] Și credeți că se poate discuta de o schimbare a mecanismului în perioada următoare?
+Și credeți că se poate discuta de o schimbare a mecanismului în perioada următoare?
 
-[ND] Ă discuția a pornit deja.
+Ă discuția a pornit deja.
 
 Da.
 
@@ -160,7 +157,7 @@ Da.
 
 Nu există propuneri tehnice pe masă, dar discuția a pornit deja tocmai de la neajunsurile pe care le am observat acum cu Ungaria. [sforăit]
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Loredana Diacu, Epoc România.
 
@@ -168,13 +165,13 @@ Domnule președinte, așa cum remarca unul dintre colegii mei, comentariile unor
 
 Ă le a spus
 
-[ND] poate că au și argumente.
+poate că au și argumente.
 
-[ND] Le ați spus celor care au ieșit la Palatul Cotroceni să protesteze că așteptați rezultate în circa șase luni de zile.
+Le ați spus celor care au ieșit la Palatul Cotroceni să protesteze că așteptați rezultate în circa șase luni de zile.
 
 Dacă în șase luni de zile cei numiți de dumneavoastră nu vor performa, ce veți face? veți cere ministrului justiției să demareze procedura lor de revocare sau ce veți face dacă nu se vor ridica la înălțimea așteptărilor dumneavoastră și a oamenilor în primul rând?
 
-[ND] Da, eu sunt convins că e o alegere bună.
+Da, eu sunt convins că e o alegere bună.
 
 Mai departe, oamenii ăștia un nu le am cerut vreunuia să vină cu o demisie în alb sau cu ceva.
 
@@ -198,7 +195,7 @@ Vedem acuma cazul Pfizer, de exemplu, și sunt acuzații cum că miniștrii, un 
 
 Dacă se va dovedi că contractul putea fi renegociat și penalitățile puteau fi mai mici, veți cere premierului Bolojan sau guvernului să se întoarcă împotriva acelui responsabil, să facă plângere pentru abuz în serviciu și să se recupereze banii de la politicianul respectiv, pentru că nu prea am văzut miniștrii plătind niciodată din buzunarul lor pagubele suportate de cetățeni până la urmă.
 
-[ND] Da.
+Da.
 
 Da.
 
@@ -208,9 +205,9 @@ Da.
 
 Așa cum, în fine, dacă Curtea de Conturi ă când eram primar observa că din cauza unui director s au pierdut niște bani, eu ca primar trebuia să mă îndrept împotriva lui.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[ND] Bună seara, Elena Grângașu, cotidianul.
+Bună seara, Elena Grângașu, cotidianul.
 
 La începutul acestei declarații ați spus, după acest moment, așteptarea pe care o am de la parchete este o dinamizare a parchetelor pentru a răspunde așteptărilor românilor. dumneavoastră credeți că răspundeți acum așteptărilor românilor care au ieșit în stradă, care au cerut demisia domnului Voineac, care v au reproșat aici în fața Palatului Cotroceni?
 
@@ -238,7 +235,7 @@ Cum vedeți dumneavoastră faptul că niște persoane care au lucrat în campani
 
 Au ajuns să realizeze acele să ajute la realizarea acelor fotografii trucate?
 
-[ND] Bun.
+Bun.
 
 În primul rând că ați oscilat la început, ați ați spus că ați vorbit de echipa mea de campanie.
 

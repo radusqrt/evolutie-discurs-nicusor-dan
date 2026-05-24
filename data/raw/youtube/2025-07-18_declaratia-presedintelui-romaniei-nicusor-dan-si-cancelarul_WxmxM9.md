@@ -1,11 +1,8 @@
 ---
 data: 2025-07-18
-metoda: heuristic diarization (format=markers, 9 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=WxmxM9SWJHo
 sursa_aprecieri: 12
 sursa_canal: Privesc.Eu România
@@ -19,11 +16,11 @@ sursa_upload_timestamp: 1752870893
 sursa_video_id: WxmxM9SWJHo
 sursa_vizionari: 1089
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Ja sekar Stimate, domnule președinte, dragă Nicușordan, mă bucur mult că Berlin este destinația primei călătorii a dumneavoastră în străinătate, în calitate de președinte al României.
+Ja sekar Stimate, domnule președinte, dragă Nicușordan, mă bucur mult că Berlin este destinația primei călătorii a dumneavoastră în străinătate, în calitate de președinte al României.
 
 Ne bucurăm noi, dar și eu personal, foarte mult de vizita dumneavoastră aici la Berlin.
 
@@ -135,7 +132,7 @@ Cred că este un punct important pentru a înțelege ce s a întâmplat în Rom�
 
 Nu în ultimul rând, am adresat invitația cancelarului Merț de a vizita România în perioada următoare.
 
-[ND] Bună ziua, Vasile Marcu, Antena 3, CNN.
+Bună ziua, Vasile Marcu, Antena 3, CNN.
 
 O întrebare pentru ambii, pentru președintele României și pentru cancelarul german și pentru că pomeneați despre comunicatul dat astăzi de NATO și de Uniunea Europeană privind interferența Rusiei în Uniunea Europeană, în țările Uniunii, dar și țările NATO prin acele acțiuni ostile desfășurate de entități subordonate GRU.
 
@@ -145,7 +142,7 @@ Dar în afară de asta, concret, cum s au manifestat aceste acțiuni și care su
 
 Mulțumesc.
 
-[ND] Da.
+Da.
 
 Dacă sunt două componente.
 
@@ -177,7 +174,7 @@ De aceea, cu mare atenție am observat alegerile procesul electoral din România
 
 Mulțumim.
 
-[ND] Vă mulțumesc.
+Vă mulțumesc.
 
 Întrebare către cancelar și către președinte.
 
@@ -251,9 +248,9 @@ Totul încadrat într o perspectivă de aderare.
 
 Acest plan însă depășește, nu privește încă acel plan financiar despre care vorbim noi, care privește bugetul.
 
-[ND] Da.
+Da.
 
-[ND] Da.
+Da.
 
 În ceea ce privește procesul de renarmare sau de echipare militară a Europei este o decizie corectă la momentul potrivit pe care statele membre au preluat o au luat o ăă pentru că am văzut pe de altă parte pe de o parte războiul de agresiune al Rusiei în Ucraina, pe de altă parte ne confruntăm âm azi cu un război hibrid al Rusiei împotriva statelor europene pentru că am văzut cu toții o încercare a Statelor Unite de a și muta atenția sau de a echilibra atenția între Europa și Asia și atunci e logic că Europa trebuie să și ia chestiunea securității în propriile mâini.
 
@@ -261,9 +258,9 @@ Acest plan însă depășește, nu privește încă acel plan financiar despre c
 
 Este o poveste de succes economic. care înseamnă prosperitate pentru oamenii din țările Uniunii Europene și este o poveste de succes în ceea ce privește securitatea și atunci cu toate nuanțele pe care cancelarul Mers le a făcut ă în momentul ă când un stat dorește să ă acceadă în Uniunea Europeană și când îndeplinește toate aceste criterii de criterii răspunsul Uniunii Europene trebuie să fie da pentru respectivul stat.
 
-[ND] Ia
+Ia
 
-[ND] Maria Moiș Euronewuz România.
+Maria Moiș Euronewuz România.
 
 În mod clar, colaborarea în industria de apărare a reprezentat o componentă importantă a acestei vizite.
 
@@ -327,4 +324,4 @@ Deci mulțumesc încă oficial pentru acordul dat pentru acest al 18 lea pachet.
 
 Având în vedere ce se întâmplă în Rusia, deci trebuie să ne concentrăm iar pe sectorul de energie, sectorul bancar.
 
-[ND] Mulțumim și în sfârșit de săptămână pentru dumneavoastră.
+Mulțumim și în sfârșit de săptămână pentru dumneavoastră.

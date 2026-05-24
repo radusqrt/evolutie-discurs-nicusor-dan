@@ -1,11 +1,8 @@
 ---
 data: 2026-05-07
-metoda: heuristic diarization (format=markers, 13 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=O07djvtXFOU
 sursa_aprecieri: 17
 sursa_canal: Antena 3 CNN
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1778178218
 sursa_video_id: O07djvtXFOU
 sursa_vizionari: 1751
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] procedură.
+procedură.
 
 Domnul George Simion a venit astăzi și a spus că dacă președintele Nicușor Dan nu convoacă aceste consultări în mod formal, cum spune constituție, atunci președintele încalcă această constituție și există informații că vor să declanșeze procedura de suspendare a președintelui Nicuș Oltan.
 
@@ -34,17 +31,17 @@ Domnul George Simion a venit astăzi și a spus că dacă președintele Nicușor
 
 Doamna Porumbel, noi nu suntem trădători
 
-[ND] ca alții care fac majorități conjuncturale cu aur, mă refer la PSD.
+ca alții care fac majorități conjuncturale cu aur, mă refer la PSD.
 
 Nu
 
-[ND] am văzut multe în politica din România, de aceea întrebat, vă rog.
+am văzut multe în politica din România, de aceea întrebat, vă rog.
 
-[ND] Asta v am zis. nu a susține în acest moment așa ceva.
+Asta v am zis. nu a susține în acest moment așa ceva.
 
-[ND] Nicolae Ștefănuță, care este vicepreședinte al Parlamentului European, spune că dacă ar exista acest moment, s a mai întâmplat în România, o suspendare a președintelui Nicușordan, președintele n ar rezista.
+Nicolae Ștefănuță, care este vicepreședinte al Parlamentului European, spune că dacă ar exista acest moment, s a mai întâmplat în România, o suspendare a președintelui Nicușordan, președintele n ar rezista.
 
-[ND] De ce să l suspendăm? adică n aăură cu binea președintelui în România s a întâmplat din motive politice la fel la fel ca dărâmarea de guverne.
+De ce să l suspendăm? adică n aăură cu binea președintelui în România s a întâmplat din motive politice la fel la fel ca dărâmarea de guverne.
 
 Când se dărâmă guvernele în țara asta că l cheamă Orban, că l cheamă Câțu, că l cheamă Bolojan, că l a chemat Băsescu, nu guvern, ci suspendare, pentru interese politice, acces la resurse, la bani, la funcții.
 
@@ -52,15 +49,15 @@ Punct.
 
 Nu că a greșit X sau Y într un fel sau altul, dar aici sunt jocuri de putere pe care le fac conglomeratele politice formate din ceea ce știm că sunt formate și știți de la ce mă refer.
 
-[ND] În ultimele 48 de ore am auzit diferite opinii spunând că PNL este un partid iresponsabil.
+În ultimele 48 de ore am auzit diferite opinii spunând că PNL este un partid iresponsabil.
 
 Cine a zis as
 
-[ND] pentru că nu și asumă, stați puțin să termin, nu și asumă revenirea la negocieri să treacă peste orgol
+pentru că nu și asumă, stați puțin să termin, nu și asumă revenirea la negocieri să treacă peste orgol
 
-[ND] și pentru că dumneavoastră cei de la PNL nu doriți reluarea sub o formă sau alta a acestei coaliții proeuropene, îi lăsați pe cei de la AUR să preia guvernarea.
+și pentru că dumneavoastră cei de la PNL nu doriți reluarea sub o formă sau alta a acestei coaliții proeuropene, îi lăsați pe cei de la AUR să preia guvernarea.
 
-[ND] Prostie.
+Prostie.
 
 Ne am asumat guvernarea când PSD a fugit de guvernare acum 10 luni cu Ilie Bolojan.
 
@@ -80,11 +77,11 @@ Păi, unde i demnitatea ta?
 
 Să vină cu soluția.
 
-[ND] Vedeți vreo variantă, chiar dacă a fost negată de președintele Nicușor Dan în care AUR să vină la guvernare? să facă alianță și majoritate cu PSD și domnul președinte n o să aibă ce să facă și o să Asta e varianta.
+Vedeți vreo variantă, chiar dacă a fost negată de președintele Nicușor Dan în care AUR să vină la guvernare? să facă alianță și majoritate cu PSD și domnul președinte n o să aibă ce să facă și o să Asta e varianta.
 
-[ND] Și cum ar arăta România cu o guvernare aur PSD?
+Și cum ar arăta România cu o guvernare aur PSD?
 
-[ND] O să vedem.
+O să vedem.
 
 Au dărâmat guvernul să și asume.
 

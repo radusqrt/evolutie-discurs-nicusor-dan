@@ -1,11 +1,8 @@
 ---
 data: 2025-06-02
-metoda: heuristic diarization (format=intros, 1 ND segments, 2 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=bLReF1huniQ
 sursa_aprecieri: 1330
 sursa_canal: B1
@@ -18,11 +15,11 @@ sursa_upload_timestamp: 1748877283
 sursa_video_id: bLReF1huniQ
 sursa_vizionari: 49571
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Gata.
+Gata.
 
 Suntem gata?
 
@@ -54,7 +51,7 @@ S a vorbit destul de mult de războiul hibrid care ne vizează pe toți și a vo
 
 Da.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Bianca Iacob, Observator Antena 1.
 
@@ -132,7 +129,7 @@ Vă simțiți mai apropiat de cei din PP sau veți alege să discutați cu cei d
 
 Da, am confirmat prezența în calitate de invitat invitat și nu membru în vreun fel sau altul la Grupul Popular european.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Vasile Marcu, Antena 3, CNN.
 

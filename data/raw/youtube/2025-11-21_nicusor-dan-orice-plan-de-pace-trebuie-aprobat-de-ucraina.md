@@ -1,11 +1,8 @@
 ---
 data: 2025-11-21
-metoda: heuristic diarization (format=markers, 44 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=V-LpQMt-3mo
 sursa_aprecieri: 23
 sursa_canal: Euronews Romania
@@ -22,17 +19,17 @@ sursa_upload_timestamp: 1763726013
 sursa_video_id: V-LpQMt-3mo
 sursa_vizionari: 1509
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] a great să lase această discuție după 7 decembrie.
+a great să lase această discuție după 7 decembrie.
 
 O s o urmăresc în măsura în care o să avem întâlniri cu liderii coaliției.
 
 O să le exprim punctul de vedere.
 
-[ND] PSD amenințat cu ieșirea de la guvernare în cazul în care se va ajunge la tăieri de salarii cu 10%.
+PSD amenințat cu ieșirea de la guvernare în cazul în care se va ajunge la tăieri de salarii cu 10%.
 
 Veți încerca să mediați acest conflict, să chemați eventual liderii la Cotroceni, să vorbiți și despre buget?
 
@@ -40,13 +37,13 @@ Da, o să ne mai întâlnim cu liderii la Cotroceni.
 
 Unul din subiecte este codul urbanismului în care trebuie niște armonizări.
 
-[ND] Sunt multe.
+Sunt multe.
 
 Trebuie să facem diferența între declarații politice și acțiuni concrete.
 
 Cum vă credeți că ar trebui tăiate salariile în aparatul bugetar cu 10%?
 
-[ND] Nu.
+Nu.
 
 Discuția este abia la început.
 
@@ -56,11 +53,11 @@ O să ascult toate părțile și în măsura în care e nevoie de opinia mea mă
 
 Explicați faptul că despre o crizăatul dumneavoastră a luat acel teren după patru ani de litigiu a reușit imediat lucrul acesta după ce ați ieșit dumneavoastră președinte cel de la Moarea Vlăsiei.
 
-[ND] Nu văd vreo legătură.
+Nu văd vreo legătură.
 
 Nu văd vreo legătură.
 
-[ND] Horațiu Horațiu Potra a fost adus în țară.
+Horațiu Horațiu Potra a fost adus în țară.
 
 Cum vedeți această situație și dacă ați primit ceva informări în legătură cu colaborarea dintre Potra și Georgescu?
 
@@ -82,15 +79,15 @@ Ucra veți spune românilor despre aceste informări.
 
 În continuare se așteaptă răspunsuri.
 
-[ND] Când vor fi făcute publice.
+Când vor fi făcute publice.
 
-[ND] Da.
+Da.
 
 Da.
 
 Ăă, eu cred că e utilate lucrurile astea să fie puse împreună, adică să nu iasă instituții ale statului și să dea bucăți de informație și în cel mai scurt timp posibil o să aveți.
 
-[ND] Un incident de securitate în Vama Albița.
+Un incident de securitate în Vama Albița.
 
 Acolo un tir care transporta lansatoare de rachetă, dar și armament a fost oprit.
 
@@ -102,7 +99,7 @@ De ce a trecut pe teritoriul României?
 
 Cum s a ajuns să fie descoperit acel transport?
 
-[ND] Faptul că el a fost găsit de vameni și români, adică la controlul a funcționat, înseamnă din nou că pe o micuță zonă statul român funcționează.
+Faptul că el a fost găsit de vameni și români, adică la controlul a funcționat, înseamnă din nou că pe o micuță zonă statul român funcționează.
 
 Ăsta e singurul comentariu pe care pot să l fac. mai departe.
 
@@ -110,17 +107,17 @@ Evident că o să fie o anchetă care va stabili în în relație cu partenerii 
 
 Va stab dintre serviciile de informație dintre din România și Republica Moldova.
 
-[ND] Nu am informația asta în momentul găsită de coaliție în ceea ce privește pensiile magistraților, domnule președinte, 70% din ultimul salariu net cu 15 ani perioadă de tranziție.
+Nu am informația asta în momentul găsită de coaliție în ceea ce privește pensiile magistraților, domnule președinte, 70% din ultimul salariu net cu 15 ani perioadă de tranziție.
 
 Ce vreau să salut este declarația de ieri a CSM ului că va aviza astfel încât guvernul să poată să și asume răspunderea în timpul timp.
 
 Ăsta este un gestabil pe care nu pot decât să l salut.
 
-[ND] Mai departe o să vedem cursul acestei
+Mai departe o să vedem cursul acestei
 
-[ND] soluția propusă e aproape de viziunea dumneavoastră, de ceea ce vă doreați, pentru că ați propus și dumneavoastră la început în negocieri acea perioadă de 70 de 15 ani cu 75,
+soluția propusă e aproape de viziunea dumneavoastră, de ceea ce vă doreați, pentru că ați propus și dumneavoastră la început în negocieri acea perioadă de 70 de 15 ani cu 75,
 
-[ND] nu?
+nu?
 
 Deci încă o dată, multă lume a spus că eu am spus 75.
 
@@ -130,21 +127,21 @@ Ce am spus și asta am spus public în fața dumneavoastră de nenumărate ori e
 
 Asta e tot ce am spus eu.
 
-[ND] Sesizarea Sesizarea Curții Constituționale pe Sesizarea Curții Constituționale pe taxe va fi discutată mai devreme.
+Sesizarea Sesizarea Curții Constituționale pe Sesizarea Curții Constituționale pe taxe va fi discutată mai devreme.
 
 Credeți că executivul ar fi putut face presiuni în acest sens? întrucât acest termen Întrucât acest termen a fost schimbat în doar câteva ore ieri, mai ales în știu situația o secundă pe mandatul dumne
 
-[ND] O secundă, o secundă, stați puțin.
+O secundă, o secundă, stați puțin.
 
 N am înțeles
 
-[ND] sesizarea Curții Constituționale pe acele taxe care ar urma să intre în vigoare de la începutul anului viitor va fi discutată în luna decembrie. luna deâ inițial
+sesizarea Curții Constituționale pe acele taxe care ar urma să intre în vigoare de la începutul anului viitor va fi discutată în luna decembrie. luna deâ inițial
 
-[ND] și în doar câteva ore curtea a schimbat a schimbat termenul întrucât inițial era programat pentru ianuarie ceea ce ar fi însemnat că aceste taxe nu puteau intra în vigoare.
+și în doar câteva ore curtea a schimbat a schimbat termenul întrucât inițial era programat pentru ianuarie ceea ce ar fi însemnat că aceste taxe nu puteau intra în vigoare.
 
 Am putea vorbi despre o presiune din partea executivului?
 
-[ND] Din nou este din nou este un gestabil al unei instituții, a statului român. și în față, ca să vă dau o analogie, când două părți au un litigiu, da, în fața unei instanțe civile ordinare și o parte spune, se duce la instanță și instanța fixează termen iunie 2026 și o parte spune se duce, uitați, e un motiv de urgență de când judecătorul apreciază sau completul apreciază decalează acest termen.
+Din nou este din nou este un gestabil al unei instituții, a statului român. și în față, ca să vă dau o analogie, când două părți au un litigiu, da, în fața unei instanțe civile ordinare și o parte spune, se duce la instanță și instanța fixează termen iunie 2026 și o parte spune se duce, uitați, e un motiv de urgență de când judecătorul apreciază sau completul apreciază decalează acest termen.
 
 Nu e absolut nicio problemă.
 
@@ -152,9 +149,9 @@ Dimpotrivă, e un gest de responsabilitate.
 
 Asta e situația din Ucraina.
 
-[ND] Statele Unite ale Americii, în colaborare cu Federația Rusă, acel plan de pace care ar oferi Ucrainei garanții similare cu articolul 5 din NATO.
+Statele Unite ale Americii, în colaborare cu Federația Rusă, acel plan de pace care ar oferi Ucrainei garanții similare cu articolul 5 din NATO.
 
-[ND] De orice plan de pace trebuie să fie aprobat de țara în chestiune de Ucraina.
+De orice plan de pace trebuie să fie aprobat de țara în chestiune de Ucraina.
 
 Adică noi toți ne uităm acum la Ucraina și toți prin noi toți însemnând comunitatea internațională care își dorește un o ordine internațională bazată pe reguli și evident că suntem dispuși să continuăm să apărăm Ucraina apărând în felul ăsta și securitatea Europei și ordinea internațională bazată pe reguli.
 
@@ -174,7 +171,7 @@ Vă rog moment sondajele arată că Anca Alexandrescu este pe locul trei, al Că
 
 S ar putea retrage Cătălin Drulă și
 
-[ND] și comentați faptul că sunt acuzații din partea candidatului USR că se manipulează alegerile, se încearcă.
+și comentați faptul că sunt acuzații din partea candidatului USR că se manipulează alegerile, se încearcă.
 
 Eu sunt un bucureștean care are un vot și sunt un fost primar care evident că s a preocupat de orașul ăsta și și ar dori și ar dori ca investițiile să continue și și ar dori ca ăă mafia imobiliară care a operat să nu mai opereze.
 
@@ -210,9 +207,9 @@ Trebuie să avem dezbaterea ce se întâmplă cu decizia de a concrastă despre 
 
 Dacă este
 
-[ND] o discuție este o discuție nu în ceea ce privește cuantumul această discuție va avea loc odată cu legea bugetului național pentru că acolo sunt prevăzuți banii.
+o discuție este o discuție nu în ceea ce privește cuantumul această discuție va avea loc odată cu legea bugetului național pentru că acolo sunt prevăzuți banii.
 
-[ND] Păi președint timp cât nu există un acord politic în coaliție în acest moment pe reducerile de cheltuieli de personal.
+Păi președint timp cât nu există un acord politic în coaliție în acest moment pe reducerile de cheltuieli de personal.
 
 Asta ar putea să îngreuneze bugetul pentru anul viitor.
 
@@ -220,7 +217,7 @@ Asta ar putea să îngreuneze bugetul pentru anul viitor.
 
 Vă veți implica concret în negocierile pentru buget și puteți da asigurări în acest moment că nu vor crește taxe și impozite anul viitor?
 
-[ND] Da.
+Da.
 
 Ca perspectivă generală evident că vedem multe discuții în spațiul public.
 
@@ -246,7 +243,7 @@ Ați văzut că lucrurile astea sunt în grafic.
 
 Adică ne am îndeplinit, domnule președinte, amințel pe 28 din PR.
 
-[ND] Evident.
+Evident.
 
 Și pentru asta trebuie să existe un consens care se va obține.
 
@@ -262,7 +259,7 @@ V a mai luat România acești bani?
 
 Dumneavoastră știți de ce nu s au făcut numirile în energie până acum?
 
-[ND] S au făcut pe PNRR, pe toate jaloanele PNRR.
+S au făcut pe PNRR, pe toate jaloanele PNRR.
 
 S au făcut progrese, nu s au făcut acolo, nu s au făcut toate lucrurile care trebuiau să fie făcute.
 
@@ -280,7 +277,7 @@ Expirat termenul pentru rafinări termenul de 13 decembrie [muzică] este pentru
 
 Nu avem nicio decizie la nivelul statului până astăzi.
 
-[ND] Da.
+Da.
 
 Rafinăria în acest moment nu funcționează.
 
@@ -294,41 +291,41 @@ Nu se va întâmpla nimic dramatic în următoarea săptămână.
 
 Președinte informat v informat guvernul cum va fi administrată
 
-[ND] informații.
+informații.
 
 Când veți nominaliza un director pentru Serviciul Român de Informație?
 
-[ND] Nu pot să vă dau într un termen de relativ rezonabil.
+Nu pot să vă dau într un termen de relativ rezonabil.
 
 Adică
 
-[ND] la finalul acestui antepăm la o numire
+la finalul acestui antepăm la o numire
 
-[ND] poate da, poate nu.
+poate da, poate nu.
 
 Da.
 
-[ND] Continuă negocierile în această privință cu liderii coaliției.
+Continuă negocierile în această privință cu liderii coaliției.
 
 Se opune cineva?
 
 Aveți o listă de nume.
 
-[ND] Dar așa cum am spus la ultima conferință n a fost pentru că au fost foarte multe alte lucruri, n a fost una din principalele mele preocupări în ultima lună.
+Dar așa cum am spus la ultima conferință n a fost pentru că au fost foarte multe alte lucruri, n a fost una din principalele mele preocupări în ultima lună.
 
 Ce se va întâmpla în viitoare să vedem.
 
-[ND] Noi avem șef la serviciul român de informații de peste doi ani și jumătate în contextul în care avem război la graniță.
+Noi avem șef la serviciul român de informații de peste doi ani și jumătate în contextul în care avem război la graniță.
 
 Domnul acest serviciu funcționează.
 
-[ND] Motivul pentru care ați schimbat un consilier din funcție, Ludovic Orban, spuneți ne pentru ce a fost revocat
+Motivul pentru care ați schimbat un consilier din funcție, Ludovic Orban, spuneți ne pentru ce a fost revocat
 
-[ND] și când ar putea să fie o altă numire.
+și când ar putea să fie o altă numire.
 
 Da.
 
-[ND] Spunea că voi voi sunteți dator.
+Spunea că voi voi sunteți dator.
 
 Domnule președinte, vă rog să comentați și așa bun.
 
@@ -342,15 +339,15 @@ Uneori se mai întâmplă telenovele.
 
 Vă
 
-[ND] simțiți
+simțiți
 
-[ND] premierul Ilie Bolojan.
+premierul Ilie Bolojan.
 
 Premierul Ilie Bolojan spunea că i ar deschide ușa către Partidul Național Liberalului Ludovic Orban.
 
 Ar fi un gest de trădare.
 
-[ND] Păi cum oamenii sunt liber?
+Păi cum oamenii sunt liber?
 
 Suntem în democrație.
 
@@ -362,7 +359,7 @@ Bine.
 
 Zi bună.
 
-[ND] O ultimă întrebare dacă prți.
+O ultimă întrebare dacă prți.
 
 Credeți că tăierile de salarii de 10% ar trebui să se aplice și pentru miniștrii și parlamentari?
 
@@ -370,7 +367,7 @@ Evident că dacă se întâmplă trebuie să se întâmple, dar discuția abia �
 
 Administrația prezidențială veți tăia 10% de exemplu
 
-[ND] și pentru colegii?
+și pentru colegii?
 
 Stați puțin.
 
@@ -388,7 +385,7 @@ Jaronul este amânat până la jumătatea anului viitor.
 
 De unde bani pentru o nouă lege a salarizării?
 
-[ND] Eu ce am vrut să da.
+Eu ce am vrut să da.
 
 Ce am vrut să spun?
 

@@ -1,11 +1,8 @@
 ---
 data: 2025-12-04
-metoda: heuristic diarization (format=markers, 66 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=jImqEWGb4FM
 sursa_aprecieri: 46
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1764833057
 sursa_video_id: jImqEWGb4FM
 sursa_vizionari: 14735
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Ora 13:00.
+Ora 13:00.
 
 Sunt Andreea Dumitrache.
 
@@ -60,9 +57,9 @@ Iar Vladimir Putin a amenințat foarte dur Europa [muzică] și i a acuzat pe li
 
 Toate detaliile [muzică] le aflați de la noi.
 
-[ND] [muzică] [muzică] [muzică]
+[muzică] [muzică] [muzică]
 
-[ND] Și în scurt timp începe ședința de urgență a comandamentului energetic, pentru că ar putea fi pericol de blackout după ce această criză a apei a dus la oprirea centralei de la Brazi.
+Și în scurt timp începe ședința de urgență a comandamentului energetic, pentru că ar putea fi pericol de blackout după ce această criză a apei a dus la oprirea centralei de la Brazi.
 
 Cel puțin alte șapte zile este o situație deficitară, funcționează cu apă din rezervă.
 
@@ -72,7 +69,7 @@ Fără ministrul energiei.
 
 Cătălina, care sunt soluțiile pe care le au pe masă?
 
-[ND] Bun găsit.
+Bun găsit.
 
 Este prima reuniune a comandamentului energetic național din această iarnă și iată are loc în contextul în care tot mai multe voci avertizează am putea traversa și o criză energetică pentru că știm centrala energetică de la Brazi asigura 10% din consumul energetic la nivel național, dar avea un rol foarte important și pentru stabilizarea rețelei energetice naționale.
 
@@ -106,13 +103,13 @@ Stau la cozi uriașe ca să și ia măcar apa de băut, cea pe care o primesc de
 
 Să i vedem.
 
-[ND] Să sesizeze autoritățile, parchetul și toți să se ducă lumea la pușcărie, domnule, care sunt responsabili de așa ceva.
+Să sesizeze autoritățile, parchetul și toți să se ducă lumea la pușcărie, domnule, care sunt responsabili de așa ceva.
 
 Nu ai cum să faci deversare din două baraje.
 
 Da, Vidrarul și Paltinul în același timp și pe perioada asta a anului.
 
-[ND] Veniți noaptea.
+Veniți noaptea.
 
 Veniți noaptea.
 
@@ -122,13 +119,13 @@ Mergeți în localitățile din împrejurimi să vedeți unde să e apă potabil
 
 Păi despre ce vor se pare situația asta că stați la coadă pentru incompetență.
 
-[ND] Competență
+Competență
 
-[ND] din start de acolo de sus.
+din start de acolo de sus.
 
-[ND] Văd că v ați pregătit câte bidoane ați?
+Văd că v ați pregătit câte bidoane ați?
 
-[ND] Vreo 10.
+Vreo 10.
 
 Dar nu mai ajung.
 
@@ -138,7 +135,7 @@ Trebuie să spăl copilul.
 
 Pentru băut vă dă primăria?
 
-[ND] Nu.
+Nu.
 
 Cumpărăm.
 
@@ -148,27 +145,27 @@ De unde să dea și primăria?
 
 Ce să mai fac?
 
-[ND] Cumpărăm de unde putem.
+Cumpărăm de unde putem.
 
 Prețul la apă
 
-[ND] asta e.
+asta e.
 
-[ND] E variază acum.
+E variază acum.
 
-[ND] În secolul XX cu inteligența artificială.
+În secolul XX cu inteligența artificială.
 
 Stai la rând la apă.
 
-[ND] Doamnă, dumneavoastră cu câte sticle ați venit?
+Doamnă, dumneavoastră cu câte sticle ați venit?
 
-[ND] 45 de l.
+45 de l.
 
 Dar venim de două ori. 50.
 
 Venim de două ori pe zi, că la toaletă și le urcăm până la etajul trei.
 
-[ND] Și în tot acest haos, autoritățile dau vina una pe cealaltă, se acoperă de hârtii, arată cum fiecare a informat și a făcut treaba, dar soluțiile n au venit și de atâtea zile s ar putea să mai dureze încă cinci zile până când apa va reveni.
+Și în tot acest haos, autoritățile dau vina una pe cealaltă, se acoperă de hârtii, arată cum fiecare a informat și a făcut treaba, dar soluțiile n au venit și de atâtea zile s ar putea să mai dureze încă cinci zile până când apa va reveni.
 
 Oamenii sunt nevoiți să trăiască, așa cum ați văzut, la coț, la apă, fără spitale.
 
@@ -180,7 +177,7 @@ Mergem la colega mea Georgiana Iuzi, care este și ea la Câmpina, printre oamen
 
 Georgian.
 
-[ND] Bun găsit, Andreea.
+Bun găsit, Andreea.
 
 Bun găsit, doamnelor și domnilor.
 
@@ -228,15 +225,15 @@ Avem garanția că pentru rafinărie avem suficientă apă.
 
 Suntem în momentul de față asigurați și nu există perturbații pe piața energetică națională.
 
-[ND] Nu există riscul unui blackout.
+Nu există riscul unui blackout.
 
 Nu există așa ceva pentru că din acest motiv am fost și am negociat cu cei din Comisia Europeană și am convins să păstrăm în continuare grupurile pe cărbune de la Complexul Energetic Oltenia. în momentul de față este oprită din lipsă de apă tehnologică care este responsabilă cu răcirea întregului sistem de la cele două turbine.
 
 Din toate calculele pe care le am făcut în momentul de față, începând cu săptămâna viitoare, vom avea suficientă energie, suficientă apă pentru a porni prima turbină și ulterior pentru a porni și a doua turbină.
 
-[ND] Și cât va mai rămâne atunci închisă dacă spuneți că nu 10 zile?
+Și cât va mai rămâne atunci închisă dacă spuneți că nu 10 zile?
 
-[ND] Maxim o săptămână.
+Maxim o săptămână.
 
 Șapte zile în care centrala de la brazi rămâne închisă.
 
@@ -272,7 +269,7 @@ Explicați ne dumneavoastră dacă șapte zile rămâne închisă centrala și d
 
 Dacă ne auziți, domnule Purica, explicați ne da care este pericolul dacă nu se vor rezolva aceste probleme care se țin în lanț.
 
-[ND] Ăă, în primul rând, bună ziua.
+Ăă, în primul rând, bună ziua.
 
 Este foarte clar un lucru.
 
@@ -308,15 +305,15 @@ Numai costurile sunt diferite.
 
 Ei bine, în tot contextul ăsta ăă avem noroc că nu ne desfacem, nu ne oprim centralele pe cărbune și
 
-[ND] foarte importantit și
+foarte importantit și
 
-[ND] dacă n aveam centralele pe cărbune, atunci situația chiar ar fi fost una dramatică.
+dacă n aveam centralele pe cărbune, atunci situația chiar ar fi fost una dramatică.
 
 Ar fi fost o situație în care trebuia să importăm foarte mult și asta însemna niște costuri pentru că atunci când ești într o situație de criză nu te iartă nimeni apropo de import de energie la costuri.
 
 Mai mult decât atât este un moment în care va trebui să analizăm foarte bine lanțurile de impact. de care vorbeam mai devreme pentru a nu mai lua decizii în în care nu știe stânga ce face dreapta.
 
-[ND] Aici este problema sau n au luat deloc decizii.
+Aici este problema sau n au luat deloc decizii.
 
 Vă mulțumesc, domnule Ionuț Purica, pentru explicațiile dumneavoastră.
 
@@ -374,11 +371,11 @@ Mulțumesc, doamna primar, pentru această intervenție.
 
 Unde este?
 
-[ND] Bună ziua.
+Bună ziua.
 
 Mulțumesc și eu.
 
-[ND] Sunteți în teren.
+Sunteți în teren.
 
 Spuneați că veți ieși în teren să vedeți cum puteți să i mai ajutați pe oameni în acest moment.
 
@@ -386,7 +383,7 @@ Apa care a ajuns din rezerva națională este de ajuns.
 
 Care este situația acum la dumneavoastră?
 
-[ND] Bună ziua, doamnă.
+Bună ziua, doamnă.
 
 Noi suntem în teren încă de vineri după amiază când am fost înștiințați că s a asistat apa.
 
@@ -406,7 +403,7 @@ Oamenii sunt nemulțumiți, mai ales când în ziua de marț sau luni seara, nic
 
 Noi nici n apucăm să dăm jos apa din tiruri, că se fac cozi la interminabile în punctele respective.
 
-[ND] În acest moment aveți nevoie de să cereți ceva de la guvern?
+În acest moment aveți nevoie de să cereți ceva de la guvern?
 
 Aveți nevoie de ceva.
 
@@ -418,7 +415,7 @@ Dacă aveți vreo nevoie s o spuneți public.
 
 Doamnă, noi am făcut apel către toți operatorii economici din Câmpina și retailerii mari care pot sprijini în divers sub diverse forme. ne ajută și să știți că ne ajută agenții economici din Câmpina, ajută comunitatea, fie că e vorba de firmele care intervin pentru a asigura servicii pentru centralele termice, fie că este vorba de agenții economici care ne ajută cu transport către către diverși către populație, transportul apei către populație, fie că sunt sunt oameni care ă ajută în în diverse moduri cu voluntari, cu oferindu ne utilaje ca să descărcăm apa potabilă din tiruri, că sunt tiruri întregi și să știți că nu există, primăria nu este dotată cu atâtea utilaje cât să facem față la un asemenea asemenea volum de de muncă
 
-[ND] și încă atâtea zile în care va fi la fel.
+și încă atâtea zile în care va fi la fel.
 
 Mulțumesc, doamna primar.
 
@@ -454,7 +451,7 @@ Marcel Ciolacu spunea că semnează și votează dacă cumva nu ține Bolojan co
 
 Să vedem declarațiile.
 
-[ND] Sunt 11 19 semnături. 116 este minimum.
+Sunt 11 19 semnături. 116 este minimum.
 
 Ponta a venit personal și a dorit să semneze această moțiune de censură.
 
@@ -462,17 +459,17 @@ A semnat o și îi mulțumim.
 
 În acest moment vine ăă rapid pe partea dreaptă ăă doamna judecător Mariana Vârgă și i predau mingea, având în vedere că fără voturile PSD și PNL am pregătit și câteva minți și pentru PSD și pentru PNL și pentru UDMR și le pasăm mingea.
 
-[ND] Evident că nu vom vota o moțiune de cenzură.
+Evident că nu vom vota o moțiune de cenzură.
 
 Putea fi convinși alți parlamentari de la PSD sau din coaliție să voteze această moțiune pentru
 
-[ND] Nu cred acest lucru și nu mi se pare o temă.
+Nu cred acest lucru și nu mi se pare o temă.
 
 În acest moment nici măcar nu e depusă această moțiune.
 
 Parlament.
 
-[ND] Alături de noi acum din partea PSD domnul Florian Bodoc, fostul ministru al sănătății.
+Alături de noi acum din partea PSD domnul Florian Bodoc, fostul ministru al sănătății.
 
 Mulțumesc.
 
@@ -496,7 +493,7 @@ Nu, eu nu cunosc să existe parlamentari PSD care să să voteze moțiunea.
 
 Eu cred că la toate aceste lucruri trebuie să existe un un răspuns și practic noi noi trebuie să ne gândim la siguranța oamenilor.
 
-[ND] Domnule Lorinț vedeți și ministra a refuzat să răspundă pentru că în acel comitet a cerut acest lucru ca măcar să aibă oamenii apă menajeră.
+Domnule Lorinț vedeți și ministra a refuzat să răspundă pentru că în acel comitet a cerut acest lucru ca măcar să aibă oamenii apă menajeră.
 
 Da, apa menajeră trece tot pe unde trebuie să treacă și apa potabilă și exista riscul acela al contaminării.
 
@@ -506,7 +503,7 @@ Da.
 
 În primul rând, procesul de potabilizare care se face în barajul Paltinu este unul foarte bine pus la punct și doamna ministru ceea ce a încercat este să încerce să ofere apă potabilă pentru cele aproape 100000 de persoane au rămas fără a cerut apă menajer.
 
-[ND] Da.
+Da.
 
 Așteptăm cerut apă.
 
@@ -514,7 +511,7 @@ A cerut apă menajer.
 
 Ca să fie foarte clar, există două există două supape acolo la cele două la la
 
-[ND] Domnul Lorinț.
+Domnul Lorinț.
 
 Nu vreau să mai reluăm această discuție că nici dumneavoastră nu aveți toate datele și în acest moment trebuie să răspundă ce implicați.
 
@@ -530,25 +527,25 @@ Când, ce să vezi, plouă, vă rog.
 
 Pentru că vorbim de niște pile la PSD, știm foarte bine cine,
 
-[ND] domnule, nu ți ai luat medicamentele?
+domnule, nu ți ai luat medicamentele?
 
 Cine i directorul Direcției Naționale a Apelor?
 
-[ND] Din câte știu eu, omul este pus de către doamna ministru.
+Din câte știu eu, omul este pus de către doamna ministru.
 
 Este cunoștința dumneavoastră.
 
 Este userist, domnule,
 
-[ND] domnul penal de la PSD.
+domnul penal de la PSD.
 
 Domnul penal de la PSD.
 
 Haideți să vedem.
 
-[ND] Penal e Voiculescu al dumneavoastră, domnule.
+Penal e Voiculescu al dumneavoastră, domnule.
 
-[ND] Domnul penal, v am ridicat imunitatea în Parlament.
+Domnul penal, v am ridicat imunitatea în Parlament.
 
 A fost o plăcere.
 
@@ -564,9 +561,9 @@ Mi a spus penal.
 
 Pentru mine este o onoare ca un penal să spună chestia asta.
 
-[ND] Domnul Popa,
+Domnul Popa,
 
-[ND] nu vă vine să votați și dumneavoastră moțiunea de cenzură când vedeți cum merge guvernul, vedeți acest tip de replici?
+nu vă vine să votați și dumneavoastră moțiunea de cenzură când vedeți cum merge guvernul, vedeți acest tip de replici?
 
 Domnul, do trebuie să remarcăm foarte ceva foarte scurt.
 
@@ -574,7 +571,7 @@ Să știți că cei de la AURO și POT n au zis nimic despre USR, știind foarte
 
 Știu foarte bine că există niște trătători pe acolo pe la PNL și PSD și de aia există o oarecare încercare să i aducă pe acei oameni să voteze moțiunea.
 
-[ND] Așa cum spunea și președintele PSD, Sorin Grindianu, cred că este un subiect super flu.
+Așa cum spunea și președintele PSD, Sorin Grindianu, cred că este un subiect super flu.
 
 Nu se va întâmpla nimic astăzi.
 
@@ -584,7 +581,7 @@ Dar dacă doriți să vorbim sau să mi dau o opinie legată de incidentul nefer
 
 Oare ce își spun inginerii care au terminat diferitele facultăți hidrotehnice din România, că la Timișoara, că la Cluj, că la București, când văd ce se întâmplă în toate numirile din tot spectrul politic,
 
-[ND] care erau și de la PNL, domnule Popa, în apele române și domnul acela animalul politic sau cum era, care era de la PNL.
+care erau și de la PNL, domnule Popa, în apele române și domnul acela animalul politic sau cum era, care era de la PNL.
 
 Opriți numirile politice și lăsați specialiștii că vedeți că murim la propriu.
 
@@ -606,7 +603,7 @@ Ilie sărăcie decât de obicei.
 
 Domnule primră
 
-[ND] alături de noi Adrian Negrescu, consultant economic frames.
+alături de noi Adrian Negrescu, consultant economic frames.
 
 Mulțumesc, domnule Negrescu. frământări sociale, amenințări cu greve din toate părțile, din tot sistemul și vedem și apelul mediului privat care cere sistemul de impozitare a muncii să fie mai simplu.
 
@@ -630,7 +627,7 @@ Sunt bani foarte mulți pe care din păcate economia nu reușește să i facă �
 
 Peste tot se scad vânzările, sunt probleme cu lanțurile de business, cu plățile, peste tot e o e e o criză pe care nu o putem rezolva decât prin aceste măsuri administrative absolut esențiale,
 
-[ND] pe care nu știm dacă pot să le ia cei care ne conduc.
+pe care nu știm dacă pot să le ia cei care ne conduc.
 
 Mulțumesc, domnule Negrescu.
 
@@ -658,7 +655,7 @@ Intrați și pe site ul nostru www.antena3.ro.
 
 Ne întoarcem imediat.
 
-[ND] Președintele Nicușor Dan reacție după scandalul crizei apei.
+Președintele Nicușor Dan reacție după scandalul crizei apei.
 
 Aceste declarații în această cheie.
 
@@ -668,35 +665,35 @@ Aceste declarații în această cheie.
 
 În opinia mea, vinovăția este la apele române.
 
-[ND] Apropo de campanie, domnul președinte, spuneți mi cum v a păcălit domnul Cătălin Drumă să apăreți în acel clip electoral ca să și încălcați pentru a doua oră constituția, susținând un candidat la primărie.
+Apropo de campanie, domnul președinte, spuneți mi cum v a păcălit domnul Cătălin Drumă să apăreți în acel clip electoral ca să și încălcați pentru a doua oră constituția, susținând un candidat la primărie.
 
-[ND] Bun. dumneavoastră faceți niște afirmații.
+Bun. dumneavoastră faceți niște afirmații.
 
 Dacă aveți întrebări vă răspund cu plăcere, dușmanul bucureștenilor, așa cum susține Sorin Brindeanu.
 
-[ND] Păi, n am înțeles
+Păi, n am înțeles
 
-[ND] dacă domnul Cătălin Drulă este dușmanul bucureștenilor, așa cum susține domnul Sorin
+dacă domnul Cătălin Drulă este dușmanul bucureștenilor, așa cum susține domnul Sorin
 
-[ND] așa cum v am spus, suntem în ultima săptămână de campanie și în această săptămână se fac declarații politice.
+așa cum v am spus, suntem în ultima săptămână de campanie și în această săptămână se fac declarații politice.
 
 Ce calitate române sau doamna ministru?
 
 Cine să răspundă dacă
 
-[ND] ce măsuri ar trebui luate la apele române?
+ce măsuri ar trebui luate la apele române?
 
 Înțeleg înțeleg că este un control pentru care vom avea o primă evaluare vineri în care se vor va fi stabilită situația de fapt și în urma acestei în urma acestei evaluări o să tragem cu toții niște concluzii.
 
 E clar cum s a ajuns într o asemenea situație ca 100000 de oameni să nu aibă apă după ce ați discutat și cu
 
-[ND] este Eu spun asta de multă vreme da aduc aminte că acum șase luni am avut cumva același lucru la Salina Prideci noi avem niște proiectanț proiectanții ăia fac niște proiecte după care se duc la autoritățile statului și ei scriu toți acolo că nu e niciun pericol și se întâmplă că ă ce zic ei că nu e un pericol, se întâmplă că plouă sau în fine sunt niște fenomene și aceste pericole nu au fost prevenite.
+este Eu spun asta de multă vreme da aduc aminte că acum șase luni am avut cumva același lucru la Salina Prideci noi avem niște proiectanț proiectanții ăia fac niște proiecte după care se duc la autoritățile statului și ei scriu toți acolo că nu e niciun pericol și se întâmplă că ă ce zic ei că nu e un pericol, se întâmplă că plouă sau în fine sunt niște fenomene și aceste pericole nu au fost prevenite.
 
 Asta e situația generală. ar trebui în conducerea de la Rom o comunicare mai bună între instituții, astfel încât să nu se mai ajungă în astfel de situații.
 
-[ND] Trebuie ca în orice în orice astfel de documentație să fie prevăzute toate scenariile, mai ales când vorbim de apă pentru oameni.
+Trebuie ca în orice în orice astfel de documentație să fie prevăzute toate scenariile, mai ales când vorbim de apă pentru oameni.
 
-[ND] E vorba de incompetență.
+E vorba de incompetență.
 
 Am văzut că sunt amante prin conducerea acelor instituții puse pe criterii politici.
 
@@ -708,17 +705,17 @@ Este ăă am spus de mai multe ori despre calitatea oamenilor care lucrează în
 
 Aș vrea să vă întreb dacă dumneavoastră i ați cerut acest lucru în urma scandalului sau a fost doar o decizie pe care a luat o pe cont propriu și de asemenea dacă discutați cu USR pentru numirea unui nou ministru.
 
-[ND] Da, pentru moment decizia este la USR conform protocolului de coaliție.
+Da, pentru moment decizia este la USR conform protocolului de coaliție.
 
 În momentul ei m au consultat cu privire la numirile de miniștri înainte și mă aștept s o facă și acum.
 
-[ND] Dar ați ați vorbit cu domnul Moșteanu înainte să ia acea decizie și ce i ați transmis?
+Dar ați ați vorbit cu domnul Moșteanu înainte să ia acea decizie și ce i ați transmis?
 
 Am văvit cu domnul Moșteanu și i am spus că decizia este la domnia sa
 
-[ND] și nu considerați că nu există ministru.
+și nu considerați că nu există ministru.
 
-[ND] Da. și ca observație generală, o observație generală, intensitatea cu care în spațiul public se blamează diferite fapte nu este niciodată proporțională cu faptele. minul că nu există ministrul la apare o săptămână și mai bine și nici nu va fi până după alegeri, nu e o problemă pentru România cu război la graniță.
+Da. și ca observație generală, o observație generală, intensitatea cu care în spațiul public se blamează diferite fapte nu este niciodată proporțională cu faptele. minul că nu există ministrul la apare o săptămână și mai bine și nici nu va fi până după alegeri, nu e o problemă pentru România cu război la graniță.
 
 Nu, pentru că este un ministru responsabil care se ocupă.
 
@@ -732,11 +729,11 @@ Există o analiză Bloomberg care arată că în cazul unei invazi a Federației
 
 Aș vrea să vă întreb dacă există astfel de scenarii la nivelul CSAT și dacă România este pregătită pentru astfel de situații.
 
-[ND] Evident că există. chiar în legea apărării sunt este pregă este prevăzută obligativitatea ca Ministerul Apărării, statul Major să vină cu toate scenariile posibile și ele vin și sunt aprobate în CSAT.
+Evident că există. chiar în legea apărării sunt este pregă este prevăzută obligativitatea ca Ministerul Apărării, statul Major să vină cu toate scenariile posibile și ele vin și sunt aprobate în CSAT.
 
 Deci noi avem toate scenariile la zi, iar aceste scenarii sunt coordonate cu NATO tot timpul.
 
-[ND] Spuneați la recepție, domnule președinte, că România este o țară coruptă.
+Spuneați la recepție, domnule președinte, că România este o țară coruptă.
 
 Aș vrea să vă întreb cum vedeți în acest context dezvăluirile care au apărut recent despre familia lui Daniel Băluță.
 
@@ -768,7 +765,7 @@ Vă refereați la faptul că problemele din CV ul domnului Moșteanu nu erau at�
 
 Eu am am spus printre altele că eu ca persoană fizică spun de vreo cinci ani de zile că prin puzurile de sector de la București s au favorizat persoane fizice și juridice cu sute de milioane sau chiar miliarde de euro.
 
-[ND] Președintele Nicușor Dan. declarați în problemele arzătoare ale momentului.
+Președintele Nicușor Dan. declarați în problemele arzătoare ale momentului.
 
 Cei de la Apele Române ar fi vinovați la Pride.
 

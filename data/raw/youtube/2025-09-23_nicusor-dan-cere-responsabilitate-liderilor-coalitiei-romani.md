@@ -1,11 +1,8 @@
 ---
 data: 2025-09-23
-metoda: heuristic diarization (format=markers, 4 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=xB3E8xT1Wzw
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -23,11 +20,11 @@ sursa_upload_timestamp: 1758637869
 sursa_video_id: xB3E8xT1Wzw
 sursa_vizionari: 2385
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] puțin și la ce se întâmplă în coaliție și să discutăm despre asta.
+puțin și la ce se întâmplă în coaliție și să discutăm despre asta.
 
 O să vă rog să rămâneți alături de noi pentru că coaliția va rămâne în actuala formulă, anunță președintele Nicușor Dan.
 
@@ -47,7 +44,7 @@ Ema Stoica are mai multe informații de acolo.
 
 Ema, te urmărim.
 
-[ND] Până în acest moment avem o reacție oficială venită din partea președintelui prin administrația prezidențială.
+Până în acest moment avem o reacție oficială venită din partea președintelui prin administrația prezidențială.
 
 Șeful statului concluzionează că a fost o discuție productivă și că în urma acestei discuții au stabilit să meargă mai departe coaliția de guvernare.
 
@@ -71,7 +68,7 @@ Din informațiile noastre s a discutat despre rectificarea bugetară și acum a 
 
 Încă nu au ajuns la o înțelegere.
 
-[ND] Mulțumesc, domnule Adrian Coroianu.
+Mulțumesc, domnule Adrian Coroianu.
 
 Mulțumesc că ați rămas.
 
@@ -93,6 +90,6 @@ Deci e obligat să joace cu echipa aflată astăzi la guvernare.
 
 E foarte bine că s a implicat. a dat un mesaj pozitiv în care tind să cred, adică inevitabil situația nu poate fi decât mai bună față de haosul în care în care eram cu luni în urmă, dar reformele oricum nu s au făcut, adică s a făcut suprafața nici măcar vârful icebergului este vârful vârfului icebergului în încercarea de reformare a administrației românești și mai ales la nivel central în primul rând și local, desigur, dar aceste reforme au nevoie de sprijinul președintelui
 
-[ND] și așteptăm să vedem și dacă vor veni mai multe informații din interiorul partidelor în urma acestor discuții care au avut loc astăzi.
+și așteptăm să vedem și dacă vor veni mai multe informații din interiorul partidelor în urma acestor discuții care au avut loc astăzi.
 
 Îți mulțumesc tare mult pentru intervenția în jurnal și pentru toate această discuții.

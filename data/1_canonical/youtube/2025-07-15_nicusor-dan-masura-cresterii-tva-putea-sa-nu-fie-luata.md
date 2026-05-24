@@ -1,11 +1,8 @@
 ---
 data: 2025-07-15
-metoda: heuristic diarization (format=markers, 10 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=1HWWBBYP80Y
 sursa_aprecieri: 10
 sursa_canal: Euronews Romania
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1752559794
 sursa_video_id: 1HWWBBYP80Y
 sursa_vizionari: 1331
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] România putea trece peste momentul dificil în care se află fără majorarea TVA, a declarat președintele Nicușordan în prima conferință de presă de după asumarea răspunderii guvernului pe pachetul fiscal.
+România putea trece peste momentul dificil în care se află fără majorarea TVA, a declarat președintele Nicușordan în prima conferință de presă de după asumarea răspunderii guvernului pe pachetul fiscal.
 
 Șeful statului a indicat și cine este responsabil, executivul, în atribuția căruia intră toate aceste decizii.
 
@@ -36,36 +33,36 @@ La o săptămână de la asumarea răspunderii guvernului pe primul pachet fisca
 
 Pentru ca România să poată să treacă de această perioadă fără majorarea TVA ului, erau nevoie și erau absolut realizabile un set de măsuri, discuții cu comisia, cu agențiile de rating și această măsură putea să nu fie luată la acest moment.
 
-[ND] Dați înscris acum că nu crește TVA ul.
+Dați înscris acum că nu crește TVA ul.
 
-[ND] Da, dau înscris.
+Da, dau înscris.
 
 Da.
 
-[ND] Nicușor Dan indică și instituția responsabilă de creșterea TVA.
+Nicușor Dan indică și instituția responsabilă de creșterea TVA.
 
 Guvernul, în sarcina căruia intră acum reducerea deficitului bugetar uriaș, majorarea taxei pe valoare adăugată, alături de creșterea accizelor la alcool, carburanți și tutun, va aduce încasări suplimentare de aproape 6 miliarde de RON la buget anul acesta.
 
 Șeful statului dă asigurări că măsurile fiscale vor avea o perioadă limitată de aplicare.
 
-[ND] Vreau să transmit românilor că este o chestiune provizorie, că România are potențial economic.
+Vreau să transmit românilor că este o chestiune provizorie, că România are potențial economic.
 
 Vreau să asigur investitorii și piețele financiare, că suntem oameni serioși.
 
 Am promis că facem reformele
 
-[ND] reformarea ar putea veni și cu o nouă lege a salarizării unitare care să elimine cele 200 de sporuri acordate angajaților la stat.
+reformarea ar putea veni și cu o nouă lege a salarizării unitare care să elimine cele 200 de sporuri acordate angajaților la stat.
 
 Deocamdată a fost modificat doar sporul pentru condiții periculoase sau vătămătoare, care a fost plafonat la 300 RON brut prin primul pachet de austeritate.
 
-[ND] Au trebuit luate niște măsuri, ca să spunem așa, din topor, pentru că nu a existat timpul pentru analiză și ne presa timpul.
+Au trebuit luate niște măsuri, ca să spunem așa, din topor, pentru că nu a existat timpul pentru analiză și ne presa timpul.
 
-[ND] Administrația prezidențială a anunțat că va participa și ea la efortul colectiv de reducere a deficitului bugetar prin diminuarea cu 20% a bugetului la următoarea rectificare bugetară.
+Administrația prezidențială a anunțat că va participa și ea la efortul colectiv de reducere a deficitului bugetar prin diminuarea cu 20% a bugetului la următoarea rectificare bugetară.
 
 Șeful statului a fost întrebat și dacă ar renunța la o parte din salariu, așa cum au făcut deja ministrul energiei și mai mulți directori de companii de stat.
 
 Ca o consecință a reducerii bugetului administrației prezidențiale cu 20% va fi redus și salariul dumneavoastră?
 
-[ND] Pentru moment nu există această intenție.
+Pentru moment nu există această intenție.
 
-[ND] Primul pachet de austeritate va avea un impact de 10,7 miliarde de RON la bugetul statului, sumă ce va permite scăderea deficitului bugetar sub 8% din produsul intern brut. .
+Primul pachet de austeritate va avea un impact de 10,7 miliarde de RON la bugetul statului, sumă ce va permite scăderea deficitului bugetar sub 8% din produsul intern brut. .

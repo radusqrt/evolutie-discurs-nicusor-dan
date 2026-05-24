@@ -1,11 +1,8 @@
 ---
 data: 2025-09-11
-metoda: heuristic diarization (format=markers, 11 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=85F1f0CzWA0
 sursa_aprecieri: 16
 sursa_canal: B1
@@ -19,11 +16,11 @@ sursa_upload_timestamp: 1757607033
 sursa_video_id: 85F1f0CzWA0
 sursa_vizionari: 1049
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] În ultima perioadă sprijinul pe care noi l am oferit Ucrainei, noi știm că în trecut nu a fost public, n au fost publice aceste date.
+În ultima perioadă sprijinul pe care noi l am oferit Ucrainei, noi știm că în trecut nu a fost public, n au fost publice aceste date.
 
 Ministrul apărării, Ionuț Moșteanu, a tot explicat că și dorește ca la un moment dat să exită mai multă transparență pe zona aceasta.
 
@@ -33,19 +30,19 @@ Sun tot felul de acuzații că ba am ajutat, ba n am ajutat, mă rog, depinde ci
 
 Unele sunt propagandă destul de multă.
 
-[ND] Aici este și mai evident, adică pentru să zicem ipoteza nefericită că Ucraina cedează, da, România nu n ar mai fi vecină cu Belarus, cu ceva asemănător cu Belarus, ar fi vecină direct cu Federația Rusă.
+Aici este și mai evident, adică pentru să zicem ipoteza nefericită că Ucraina cedează, da, România nu n ar mai fi vecină cu Belarus, cu ceva asemănător cu Belarus, ar fi vecină direct cu Federația Rusă.
 
 Da.
 
 Și nu cred că nimeni care este rațional și cunoaște puțină istorie între România și Rusia vrea chestiunea asta.
 
-[ND] România continuă să sprijine acum Ucraina.
+România continuă să sprijine acum Ucraina.
 
 În ce mod?
 
 Toată lumea sprijină Ucraina cumva proporțional cu
 
-[ND] ă să zicem PIBul, cu capacitatea economică a fiecăruia dintre țări pentru că e o chestiune pentru multe țări, am spus aseară în interviu, cum ar fi Canada, este o chestiune care ține de ordinea internațională.
+ă să zicem PIBul, cu capacitatea economică a fiecăruia dintre țări pentru că e o chestiune pentru multe țări, am spus aseară în interviu, cum ar fi Canada, este o chestiune care ține de ordinea internațională.
 
 E și este, cum să zic, o valoare fundamentală pentru țările occidentale, că noi după al doilea război mondial am construit o ordine internațională care a adus pace și prosperitate.
 
@@ -61,7 +58,7 @@ Vedeți, de asta trebuie să suportați tăieri, măsuri fiscale, pentru că tre
 
 Dar există această discuție în societate și există aderență din partea publicului de multe ori la asta.
 
-[ND] Da.
+Da.
 
 Este pur purulist.
 
@@ -85,7 +82,7 @@ Nimeni n are nimic cu noi și noi nu trebuie să facem nimic.
 
 Dimpotrivă, toată lumea trebuie să ne dacă cumva i se întâmplă, toți ceilalți trebuie să ne apere pe noi.
 
-[ND] Trebuie da, pe banii lor.
+Trebuie da, pe banii lor.
 
 Sigur, luăm dăm acești bani pentru armament, dar întărim și industria de armament de apărare, să producem și mai mult decât atât, mai mult decât atât parte din banii ăștia se duc și pe infrastructură, pe dezvoltarea portului Constanța, care o să devină proteza în care se termină războiul din Ucraina și începe procesul de reconstrucție.
 
@@ -95,11 +92,11 @@ Dăm bani în pentru luăm o parte din acești bani pentru finalizare pentru ni�
 
 Deci este un pachet substanțial pentru România cu ă împrumuturi cu temere termene de rambursare foarte lungi și cu dobânzi foarte mici.
 
-[ND] Ați abandonat lupta anticorupție? deloc.
+Ați abandonat lupta anticorupție? deloc.
 
 Dar cred că am nu știu dacă am spus sau n am spus în campanie
 
-[ND] ăă este sunt oameni, instituții, relații între ele, acte normative care s au făcut de a lungul timpului.
+ăă este sunt oameni, instituții, relații între ele, acte normative care s au făcut de a lungul timpului.
 
 O schimbare necesită timp și masă critică. în campanie ați spus la emisiunea mea că e mai multă corupție astăzi în România decât era acum 10 ani, decât acum 15 ani.
 
@@ -113,11 +110,11 @@ Atât.
 
 Unde oricum sunteți foarte criticat
 
-[ND] pentru că am spus că
+pentru că am spus că
 
-[ND] țineți partea magistraților, se zice
+țineți partea magistraților, se zice
 
-[ND] nu?
+nu?
 
 Haideți să nu ne uităm la asta ca la un meci.
 

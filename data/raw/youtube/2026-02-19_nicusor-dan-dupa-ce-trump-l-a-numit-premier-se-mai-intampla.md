@@ -1,11 +1,8 @@
 ---
 data: 2026-02-19
-metoda: heuristic diarization (format=markers, 15 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=tgJI0CWnuag
 sursa_aprecieri: 51
 sursa_canal: Antena 3 CNN
@@ -20,11 +17,11 @@ sursa_upload_timestamp: 1771527542
 sursa_video_id: tgJI0CWnuag
 sursa_vizionari: 9479
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] tradiție de a colabora, de a fi prezentă în Orientul Mijlociu și este o inițiativă cât se poate de concretă, realizabilă, a restabili pacea în regiune.
+tradiție de a colabora, de a fi prezentă în Orientul Mijlociu și este o inițiativă cât se poate de concretă, realizabilă, a restabili pacea în regiune.
 
 Pe scurt, asta a fost.
 
@@ -46,7 +43,7 @@ Iar ca rezultat general al întâlnirii mi se pare remarcabil că multe state î
 
 Deci suntem în situația unei, să i spunem așa, democrației, unei diplomații economice în care state contribuie pentru stabilizarea unei părți de lume destul de apropiată geografic de România și asta nu poate decât să ne bucure.
 
-[ND] Bună sea, domnule președinte.
+Bună sea, domnule președinte.
 
 Robert Lupițu, calea Europeană.
 
@@ -54,7 +51,7 @@ La finalul participării la Consiliul pentru Pace ați avut o întâlnire în fo
 
 Dacă ne puteți spune ce ați discutat și ce urmează pentru parteneriatul cu SUA.
 
-[ND] Bun.
+Bun.
 
 În tipul acesta de reuniuni sunt mai mult chestiuni de politețe între diverși participanți.
 
@@ -62,7 +59,7 @@ Așa, am discutat unu, două minute cu multă lume de aici, din multe ă zone al
 
 Deci este un ă cum să zic un dosar care crește și care are multe paliere.
 
-[ND] Și de asemenea, dacă mi permiteți, în semn de solidaritate cu colegii jurnaliști care din condițiile meteo încă nu au ajuns.
+Și de asemenea, dacă mi permiteți, în semn de solidaritate cu colegii jurnaliști care din condițiile meteo încă nu au ajuns.
 
 O întrebare din partea colegului Octav Vasilescu de la Euronews.
 
@@ -92,7 +89,7 @@ De ce am venit aici?
 
 Am venit pentru că este o, cum am spus mai devreme, este o inițiativă a partenerului nostru strategic și este o chestiune de securitate în condițiile în care în lumea actuală toate lucrurile sunt legate între ele. participăm la coaliția de voință, de exemplu, pentru că ne interesează securitatea Europei și e important să fim acolo unde se iau decizii.
 
-[ND] Bună ziua, Mădălin Puiu, România TV.
+Bună ziua, Mădălin Puiu, România TV.
 
 În urma acestei decizii a dumneavoastră de a veni aici în Statele Unite ale Americii, în spațiul public, foarte mulți oameni v au criticat, au spus că nu trebuia să faceți această mișcare.
 
@@ -100,7 +97,7 @@ De ce ați venit până la urmă și cum le răspundeți?
 
 Până
 
-[ND] Bă, am explicat de ce am venit. pentru politica noastră externă.
+Bă, am explicat de ce am venit. pentru politica noastră externă.
 
 E important să fim parteneri în diferite formate și mai ales dacă vorbim strict de securitate să consolidăm, să aprofundăm parteneriatul cu Statele Unite.
 
@@ -114,17 +111,17 @@ Da, avem și într o parte și în alta.
 
 Încercăm să fim partenerii corecți în toate parteneriatele pe care le avem, iar aici Comisia Europeană însăși a fost reprezentată.
 
-[ND] Și dacă mi permiteți o singură precizare.
+Și dacă mi permiteți o singură precizare.
 
 Astăzi președintele Trump v a greșit titulatura, v a spus premierul României, Nicușor Dan.
 
 Era pe
 
-[ND] Nu e timpul trecut.
+Nu e timpul trecut.
 
-[ND] Cum comentați acest
+Cum comentați acest
 
-[ND] Nu e timpul trecut.
+Nu e timpul trecut.
 
 Da, se mai întâmplă.
 
@@ -142,7 +139,7 @@ Ce Ce a dus la această schimbare? toate toate eforturile pe toate palierele pe 
 
 Toate lucrurile astea completează un tablou al unei relații care este extrem de matură între pe cu interese reciproce, bineînțeles, între România și Statele Unite.
 
-[ND] Lucian Mândruță, Dig FM și Digi24.
+Lucian Mândruță, Dig FM și Digi24.
 
 În primul rând, cu ce alți lideri din administrația americană v ați întâlnit astăzi și cu cine ați convenit eventual întâlniri bilaterale? pe lângă Donald Trump și doi dacă chestiunea vizelor a fost în vreun fel sau ar putea fi într un fel abordată.
 
@@ -152,7 +149,7 @@ Deci asta a fost numai o chestiune de politețe.
 
 Da,
 
-[ND] am înțeles.
+am înțeles.
 
 Am înțeles.
 
@@ -160,7 +157,7 @@ Iertați mă de întrerupere.
 
 Există posibile discuții mai departe care au fost convenite aici
 
-[ND] în la această Deci în acest moment, dincolo de personalul ambasadei pe care î vedeți în acest chiar acest moment sunt cel puțin cinci sau șase oficiali români care discută cu oficialii americani pe diferite paliere și săptămâna viitoare vor fi alții.
+în la această Deci în acest moment, dincolo de personalul ambasadei pe care î vedeți în acest chiar acest moment sunt cel puțin cinci sau șase oficiali români care discută cu oficialii americani pe diferite paliere și săptămâna viitoare vor fi alții.
 
 Săptămâna viitoare vor fi alții.
 
@@ -168,8 +165,8 @@ Deci ăsta este modul în care discutăm lucrurile.
 
 Bineînțeles că prezența președintelui a fost un gestolic pentru această relație, dar nu în interacțiunea președintelui se reglează lucrurile astea tehnice.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
 Gata.
 
-[ND] Mulțumesc.
+Mulțumesc.

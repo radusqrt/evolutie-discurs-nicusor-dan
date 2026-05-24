@@ -1,11 +1,8 @@
 ---
 data: 2025-10-24
-metoda: heuristic diarization (format=intros, 1 ND segments, 0 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=Xm39E2_eeIU
 sursa_aprecieri: null
 sursa_canal: Digi24HD
@@ -22,11 +19,11 @@ sursa_upload_timestamp: 1761306966
 sursa_video_id: Xm39E2_eeIU
 sursa_vizionari: 1431
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Dragi reprezentanți ai mediului academic, dragi reprezentanți ai mediului administrativ, inclusiv juridic, Excelențele Voastre, doamnelor și domnilor, este o mare onoare și am ținut să fiu prezent la această manifestare pentru a onora Iașul, una din capitalele României Mari. a onora niște instituții, Universitatea Alexandru Ioan Cuza, Universitatea George Iescu și nu în ultimul rând Teatrul Național Vasile Alexandri.
+Dragi reprezentanți ai mediului academic, dragi reprezentanți ai mediului administrativ, inclusiv juridic, Excelențele Voastre, doamnelor și domnilor, este o mare onoare și am ținut să fiu prezent la această manifestare pentru a onora Iașul, una din capitalele României Mari. a onora niște instituții, Universitatea Alexandru Ioan Cuza, Universitatea George Iescu și nu în ultimul rând Teatrul Național Vasile Alexandri.
 
 Eu refuz această împărțire la care distinși colegi au făcut referire.
 

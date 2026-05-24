@@ -1,11 +1,8 @@
 ---
 data: 2026-02-12
-metoda: heuristic diarization (format=markers, 12 ND segments, 1 JURNALIST segments)
-nota: 'Transcript YouTube auto-generat, diarizat euristic. Format-uri detectate: ''>>''
-  marker (canalul Privesc.Eu, post iul 2025) sau pattern jurnalist ''Bună ziua, domnule
-  președinte'' (iun 2025). Pentru analize pe vocea pură ND, filtrează doar liniile
-  [ND]. Pot exista erori la edge-cases (interpreting interrupții, joint statements).
-  Pentru precizie audio-based, e nevoie de pyannote sau LLM diarizare audio.'
+metoda: youtube_transcript_api (captions automate RO via Webshare proxy)
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
 sursa: https://www.youtube.com/watch?v=g7qb8F-Xmy8
 sursa_aprecieri: 10
 sursa_canal: Antena 3 CNN
@@ -21,15 +18,15 @@ sursa_upload_timestamp: 1770923774
 sursa_video_id: g7qb8F-Xmy8
 sursa_vizionari: 2133
 tip: video-transcript
-verificat: true
+verificat: false
 vorbitor: nicusor_dan
 ---
 
-[ND] Președintele Nicușor Dan.
+Președintele Nicușor Dan.
 
 Concluzii după Consiliul European.
 
-[ND] Asta sună abstract, dar de fapt e vorba de condițiile de viață ale oamenilor pentru că vorbim de salarii, pentru că asta înseamnă o economie competitivă și vorbim de prețurile pe care oamenii le plătesc care sunt direct legate cu prețul energiei, așa cum o să vedem.
+Asta sună abstract, dar de fapt e vorba de condițiile de viață ale oamenilor pentru că vorbim de salarii, pentru că asta înseamnă o economie competitivă și vorbim de prețurile pe care oamenii le plătesc care sunt direct legate cu prețul energiei, așa cum o să vedem.
 
 Mai întâi câteva chestiuni de procedură.
 
@@ -97,7 +94,7 @@ Asta a fost agenda lucrurile cele mai importante, discuția pe competitivitate, 
 
 Vă rog.
 
-[JURNALIST] Bună seara, domnule președinte.
+Bună seara, domnule președinte.
 
 Lucian Pârvoiu, Televiziunea Română.
 
@@ -107,7 +104,7 @@ De aceea știu că e o discuție destul de controversată, dar vreau să vă în
 
 Mulțumesc.
 
-[ND] Bun.
+Bun.
 
 În primul rând că trecerea României la euro e benefică exact din motivele pe care le am spus până acum, în sensul că cu cât cu cât economia ta este mai integrată într o economie care permite firme care se desfășoară pe spații mai largi, cu atât firmele alea vor fi mai productive, cu atât mai mult vei avea locuri de muncă bine plătite în țara ta.
 
@@ -115,11 +112,11 @@ Condițiile sunt însă cele pe care le cunoaștem.
 
 Da, ca să aderi la Modena Euro trebuie să ai și pe și pe deficit și pe datorie trebuie să intri în niște indicatori în care noi putem să ne propunem să fim într un orizont de trei patu ani de acum încolo.
 
-[ND] Bună seara, Octavian Vasilescu, Euronews, România. legat de problema prețurilor pentru energie electrică, la un moment dat ministrul energiei spunea că va prezenta în CSAT sau cel puțin va încerca să propună o radiografie a sistemului energetic și o discuție despre prețurile mari pe care românii le achită pentru facturile de energie electrică.
+Bună seara, Octavian Vasilescu, Euronews, România. legat de problema prețurilor pentru energie electrică, la un moment dat ministrul energiei spunea că va prezenta în CSAT sau cel puțin va încerca să propună o radiografie a sistemului energetic și o discuție despre prețurile mari pe care românii le achită pentru facturile de energie electrică.
 
 Când am putea vedea prima ședință CSAT din acest an și dacă de această dată subiectul s ar putea regăsi pe masa discuțiilor?
 
-[ND] Da.
+Da.
 
 Domnul ministru a a propus un document, un document de lucru.
 
@@ -135,7 +132,7 @@ E o discuție pe unde suntem cu Doi Cș.
 
 Deci este un intră sau nu intră pe agenda CSAT ului subiectul producției interne de energie este un subiect care preocupă.
 
-[ND] Tot înaintea consiliului de astăzi se discuta despre o Europă cu două viteze după toate măsurile luate de guvern în ultima perioadă și ce se anunță pentru acest an.
+Tot înaintea consiliului de astăzi se discuta despre o Europă cu două viteze după toate măsurile luate de guvern în ultima perioadă și ce se anunță pentru acest an.
 
 Cu ce model de vehicul ați putea compara economia României ca să rămânem în același registru?
 
@@ -155,7 +152,7 @@ E absolut legitim și ă bilateral vrem și noi cu ei.
 
 Da.
 
-[ND] Bianca Iacob, Observator Antena 1.
+Bianca Iacob, Observator Antena 1.
 
 Care este sau cum arată viitorul Uniunii Europene în raport cu Statele Unite ale Americii?
 
@@ -163,9 +160,9 @@ Ce s a discutat despre acest lucru la acest Consiliu?
 
 Având în vedere că astăzi a fost și o ministerală NATO pe apărare foarte importantă, unde s a lansat ideea de NATO 3.0, de o apărare pe care Europa trebuie să o facă singură și s a mai vorbit despre acest lucru, de aia vedem și aceste programe de reînarmare la nivelul Uniunii Europene și de accelerare a producției.
 
-[ND] Da.
+Da.
 
-[ND] De armament.
+De armament.
 
 Să știți că s au spus în discuția de azi n a fost ca la congresul 14.
 
@@ -197,15 +194,15 @@ Deci discuția asta a fost pe economie, dar în ceea ce privește apărarea euro
 
 Deci putem să concluzionăm că va fi o relație de love and hate după discuțiile de astăzi cu Statele Unite ale Americii, între Uniunea Europeană și Statele Unite ale Americii, pentru că vă rog,
 
-[ND] au fost lideri care au zis că trebuie făcut un pushback față de politica administrației Trump.
+au fost lideri care au zis că trebuie făcut un pushback față de politica administrației Trump.
 
 Bun, există reacții diplomatice, dar și bineînțeles ați văzut în ultimii ani, în ultimele luni mai degrabă o accelerare a discuțiilor pe care Uniunea Europeană ca entitate le are cu India, cu Mercosur, cu alți parteneri, tocmai pentru a și diversifica relațiile comerciale.
 
 Dar dincolo de asta, nimeni nu contestă importanța relației transatlantice.
 
-[ND] Mulțumesc.
+Mulțumesc.
 
-[ND] Bună seara, Ema Stoica Dici 24.
+Bună seara, Ema Stoica Dici 24.
 
 Ăă, ieri a avut loc o ședință a Curții Constituționale în care am văzut, putem spune, o schimbare a majorității.
 
