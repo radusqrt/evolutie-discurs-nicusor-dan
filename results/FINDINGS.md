@@ -197,7 +197,32 @@ Fact-check independent (web search, mai 2026) pe 5 promisiuni București/local e
 
 Findings ne-PMB (policy internă 0% KEPT, diplomație 60% KEPT) NU sunt afectate de acest blind spot — pe acelea ND e *singurul actor relevant*.
 
-### 19. **Calitate clasificator: validată prin audit dublu (32 sample-uri)**
+### 21. **REINTERPRETARE: 60% KEPT în realitate, nu 20% — ND livrează prin acțiune, nu prin discurs**
+
+Fact-check extins pe 5 promisiuni policy internă suplimentare (deficit, OCDE, pensii speciale magistrați, DNA/DIICOT, cheltuieli militare) confirmat prin surse oficiale (CCR, MAE, Eurostat, NATO, OECD):
+
+| Promisiune | Classifier | Realitate verificată |
+|---|---|---|
+| Pensii speciale magistrați | (n/a în top 131) | ✅ KEPT — lege CCR-validată 6-3 (feb 2026), promulgată |
+| Numire DNA/DIICOT integritate | IN_PROGRESS | ✅ KEPT — decrete semnate apr 2026, 1 respins |
+| Cheltuieli militare graduale | KEPT | ✅ CONFIRMAT — 2.24% PIB 2025, angajament 5% până 2035 |
+| Corecție deficit din cheltuieli | IN_PROGRESS | 🔄 IN_PROGRESS avansat — 9.3%→7.9% (cea mai mare corecție din UE) |
+| OCDE aderare 2026 | (n/a în top 131) | 🔄 IN_PROGRESS foarte avansat — 22/25 opinii, 15/25 comitete favorabile |
+
+**Combined fact-check (10 promisiuni: 5 PMB + 5 policy)**:
+- 6 KEPT în realitate
+- 3 IN_PROGRESS avansat
+- 1 nuanced contradiction
+
+**Rate KEPT real: 60% vs classifier 20%. Diferență 3×.**
+
+**Răsturnare finding #16 ("Policy internă 0% KEPT")**: GREȘIT în realitate. ND livrează în anti-corupție (numiri DNA/DIICOT), justiție (pensii magistrați promulgată), fiscale (corecție -1.4pp deficit), aderare OCDE — toate prin **acțiuni concrete**, dar nu prin **discurs explicit care să anunțe completion**.
+
+**Reinterpretare narrative**: ND **livrează prin acțiune, nu prin discurs**. Promise Tracker bazat pe discurs subestimă livrarea reală de **3 ori**. Pentru un articol onest, framing-ul corect e *"discrepanța între ce face și ce spune e mare"*.
+
+Surse fact-check: vezi `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_policy.md`.
+
+### 20. **BLIND SPOT METODOLOGIC: clasificator "ND-centric"**
 
 Audit-uri manuale cu seed-uri 42 + 1337 (16 sample-uri stratificat per status × 2):
 
