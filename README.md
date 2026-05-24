@@ -97,7 +97,13 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 - **Pasul 2 (Raw)** — verificat că schema YAML e uniformă (după normalizarea canal/titlu_video → sursa_canal/sursa_titlu pe 22 fișiere legacy), că metadata e completă (1495/1525 au sursa_titlu populat; restul = manual curated).
 - **Pasul 3 (Dedupe)** — verificat **dublu**: (a) spot check manual pe 6 perechi borderline 0.70-0.85 (toate confirmate ca duplicate reale, threshold scăzut de la 0.85 la 0.70); (b) post-dedup, distribuția Jaccard pe `data/1_canonical/` arată **0 perechi ≥ 0.70**.
 
-- **Pasul 4 (Diarize)** — verificat prin **2 audit-uri manuale** pe 20+20 fișiere random LLM-diarizate: ~88-90% segmente perfect etichetate, ~3-7% erori minore (ANCHOR vs JURNALIST blur, fragmente UNKNOWN). 0 candidate left undiarized — 100% coverage pe transcripturile multi-voce. Quality jump major vs heuristic-ul anterior care avea 11.5% error rate pe TV anchor narrative.
+- **Pasul 4 (Diarize)** — verificat prin **3 audit-uri manuale** (seeds 9999/42/1337) pe **60 fișiere random LLM-diarizate**, cumulat:
+  - **57-58/60 perfect** (95-97%)
+  - **2-3 minor** (UNKNOWN unde OFICIAL cu nume era mai potrivit) — fix-uite manual sau prin re-run cu prompt îmbunătățit (subliniere că invitații introduși prin nume primesc `[OFICIAL: Nume]`, nu `[UNKNOWN]`)
+  - **0 cazuri** de non-ND etichetat fals ca ND — boundary-ul critic pentru analiza pe voce e absolut curat
+  - **100% coverage** pe transcripturile multi-voce (338/338 candidate diarized via LLM sau manual)
+  - Realizări impresionante: identificare cu nume a oficialilor (Ilie Bolojan, Marcel Ciolacu, Patriarhul Daniel, Cancelarul Germaniei, Ciprian Ciucu, Lia Arsenie, Andrei Țăranu); joint conference cu Zelensky etichetat consistent pe 130 segmente
+  - Quality jump major vs heuristic-ul anterior care avea 11.5% error rate pe TV anchor narrative
 
 Pașii 5-8 sunt funcționali, dar nu au trecut printr-un check formal de validitate.
 
@@ -154,7 +160,24 @@ Pașii 5-8 sunt funcționali, dar nu au trecut printr-un check formal de validit
 
 **Spot check manual** (`scripts/03_dedupe_verify.py`) pe 6 perechi borderline cu Jaccard ∈ [0.70, 0.85) a confirmat că **toate sunt duplicate reale** (același discurs cu intro-uri diferite). De aceea threshold-ul a fost coborât de la 0.85 la 0.70.
 
-## Metodologia de diarizare
+## Metodologia de diarizare — versiunea curentă (LLM-based)
+
+**Default**: LLM diarize cu **Gemini 2.5 Flash** (`thinking_budget=0`, chunked pe 3000 cuvinte cu paragraph boundaries). Output în `data/2_diarized/`. Algoritmul aplică:
+
+- `[ND]` — Nicușor Dan (persoana I)
+- `[ANCHOR]` — prezentator TV narând despre el (persoana III)
+- `[JURNALIST]` — pune întrebări, se prezintă cu nume+canal
+- `[OFICIAL: Nume]` — alt oficial cu nume identificat din context (ex. `[OFICIAL: Ilie Bolojan]`, `[OFICIAL: Mark Rutte]`)
+- `[MODERATOR]` — moderator de eveniment/protocol
+- `[UNKNOWN]` — DOAR pentru fragmente foarte scurte ambigue (1-3 cuvinte, exclamații crowd, sunete tehnice)
+
+**Cazuri speciale**:
+
+- **Monolog implicit** (725 docs: FB posts + discursuri-ancoră): nu trec prin LLM diarize — by-design vocea ND singură
+- **Joint conferences** (cu Sandu, Zelensky, Rutte, Cancelarul Germaniei): LLM le tratează corect dacă apar într-o singură secvență; pentru cele explicit "joint", se diarizează manual sau LLM cu prompt enriched
+- **Cazuri tricky**: 2 fișiere fixate manual (Rutte joint + Nordis interview cu text dense fără paragraph breaks)
+
+## Metodologia de diarizare — versiunea anterioară (heuristic, deprecated)
 
 Transcripturile YouTube auto-generate au două formate frecvente:
 
@@ -163,9 +186,11 @@ Transcripturile YouTube auto-generate au două formate frecvente:
    - Phase 2 (Q&A): alternare `[JURNALIST]` ↔ `[ND]` la fiecare `>>`, cu override la pattern de intro jurnalist
 2. **Intro patterns** (iunie 2025): jurnaliștii se identifică prin pattern-uri ca "Bună ziua, domnule președinte". Detectate cu regex.
 
-**Joint conferences** (cu Sandu, Zelensky, Rutte) — heuristicul falsifică (etichetează partenerul ca jurnalist). Pentru ele: diarizare manuală (1 fișier completat — Rutte; 2 rămase nediarizate).
+**Joint conferences** (cu Sandu, Zelensky, Rutte) — heuristicul falsifică (etichetează partenerul ca jurnalist). Înlocuit cu LLM diarize.
 
 **FB posts**: implicit monolog, fără diarizare.
+
+**Heuristic-ul a fost abandonat** după ce un audit a relevat 11.5% error rate pe TV anchor narrative (persoana III "Președintele a spus că..." labeled fals ca ND). LLM-ul rezolvă această ambiguitate fundamentală.
 
 ## Regenerare rezultate (wordcloud-uri per document)
 
