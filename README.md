@@ -4,7 +4,11 @@
 
 Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele României) în perioada **candidatură → primul an de mandat** (decembrie 2024 → mai 2026).
 
-**Subiect și goal**: vezi [`BRIEF.md`](./BRIEF.md). Rezultate sintetice: [`results/SINTEZA.md`](./results/SINTEZA.md).
+**Subiect și goal**: vezi [`BRIEF.md`](./BRIEF.md).
+
+**Rezultate**:
+- [`results/FINDINGS.md`](./results/FINDINGS.md) — **concluzii sintetizate** după Pasul 1+2 (5 findings principale)
+- [`results/SINTEZA.md`](./results/SINTEZA.md) — sinteza inițială (pre-branching scris/vorbit)
 
 ## TL;DR
 
@@ -13,6 +17,12 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 - **~650k cuvinte** analizate
 - **6 etape de discurs** detectate cu TF-IDF pe perioade
 - Arc narativ: *diagnostic critic → mobilizare electorală → tehnocrat → comandant suprem → reformator instituțional → leader regional*
+- **5 findings principale** (vezi [`results/FINDINGS.md`](./results/FINDINGS.md)):
+  1. Două registre distincte: **scris (FB) = instituțional/branding** vs **vorbit (video) = deliberativ/reflexiv**
+  2. Vocabular dominant **abstract** (`vrea, sine, trebui, putea`), nu enumerare de policy
+  3. **Volum prăbușit post-mandat** (drop 3.6× față de campanie)
+  4. **Pivot tematic abrupt** trimestru-la-trimestru (electoral → magistrați/pensii → apărare)
+  5. **Brand-shedding "România onestă"** după investitură (TF-IDF 0.6 → 0)
 
 ## Diagrama de ingestie + dedupe
 
