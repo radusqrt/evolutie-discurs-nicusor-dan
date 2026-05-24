@@ -6,6 +6,7 @@ Uses SOTA tools:
 """
 from __future__ import annotations
 
+import os
 import re
 from dataclasses import dataclass
 from functools import lru_cache
@@ -16,12 +17,15 @@ import stopwordsiso
 import spacy
 
 ROOT = Path(__file__).resolve().parent.parent
-# Pipeline stages, in order of preference:
-#   data/3_nd_only/    — ND-voice projection (default; faster, pre-projected)
-#   data/2_diarized/   — diarized output (runtime projection applied via strip_speaker_tags_to_nd)
-#   data/1_canonical/  — deduplicated raw (no diarization yet)
-#   data/raw/          — original collection (no dedup, no diarization)
-for candidate in ("3_nd_only", "2_diarized", "1_canonical", "raw"):
+# Selecting the projection to analyze:
+#   PROJECTION=overall (default) — toate sursele (FB + video), doar [ND]
+#   PROJECTION=scris              — doar FB posts (text scris direct)
+#   PROJECTION=vorbit             — doar discursuri & transcripturi video (rostit oral)
+PROJECTION = os.getenv("PROJECTION", "overall")
+PROJECTION_DIR = ROOT / "data" / f"3_nd_{PROJECTION}"
+# Fallback chain if the chosen projection doesn't exist
+for candidate in (f"3_nd_{PROJECTION}", "3_nd_overall", "3_nd_only",
+                  "2_diarized", "1_canonical", "raw"):
     RAW_DIR = ROOT / "data" / candidate
     if RAW_DIR.exists():
         break

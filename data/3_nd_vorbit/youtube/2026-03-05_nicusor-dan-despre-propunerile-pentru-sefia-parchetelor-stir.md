@@ -1,0 +1,28 @@
+---
+data: 2026-03-05
+metoda: LLM diarize (gemini-2.5-flash) + ND-only projection
+nota: Transcript brut YouTube — fără tag-uri de diarizare. Pentru analiza pe vocea
+  ND, rulează scripts/diarize.py care produce data/2_diarized/.
+sursa: https://www.youtube.com/watch?v=r6-lT9fqvBU
+sursa_aprecieri: 2
+sursa_canal: B1
+sursa_canal_filter: B1 TV (search ND)
+sursa_descriere: 'Pentru mai multe știri vizitează site-ul https://www.b1tv.ro/
+
+  Nu uita să te abonezi la canalul nostru de YouTube https://www.youtube.com/@B1TVChannel
+
+  ȘTIRI SI ACTUALITĂȚI IN TIMP REAL. ȘTIRI DE ULTIMA ORĂ DIN ROMÂNIA ȘI TOATĂ LUMEA'
+sursa_durata_secunde: 115
+sursa_titlu: Nicușor Dan despre propunerile pentru șefia parchetelor. Știri B1TV_5
+  martie 2026
+sursa_upload_timestamp: 1772741197
+sursa_video_id: r6-lT9fqvBU
+sursa_vizionari: 225
+tip: video-transcript
+verificat: true
+vorbitor: nicusor_dan
+---
+
+Da, nu numai că voi face această analiză, am făcut deja o analiză foarte amplă, pregătindu mă pentru acest moment.
+
+Adică m am văzut cu zeci de procurori pe pe o perioadă de zeci de ore în care am încercat să înțeleg ăă ce părere au unii despre alții, cine sunt vârfurile manageriale în această profesie. pentru ca în momentul în care procedura desfășurată de Ministerul Justiției ajunge la mine, să ia o decizie informată și față de această analiză amplă pe care am făcut o această analiz, ca să o spun și mai direct, această analiză amplă pe care am făcut o diferă foarte mult de ce se speculează în social media, adică sunt complet în dezord cu ce se spune pe rețele despre ăă ă oamenii care au fost fie au participat la concurs, fie au fost selectați, dar nu vreau să mă antepronunț în momentul ăsta.

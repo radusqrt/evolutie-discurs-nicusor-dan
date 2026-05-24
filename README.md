@@ -52,11 +52,17 @@ flowchart TB
 
     DIARIZE --> DIA["🏷️ <b>data/2_diarized/</b><br/>1,110 docs etichetate<br/>──────<br/>725 monolog implicit (FB + ND-only)<br/>337 LLM-diarize (multi-voce)<br/>41 heuristic v3 (declarații scurte)<br/>2 manual Claude (joint + intros tricky)<br/>5 pass-through (manual curated etc.)"]
 
-    DIA --> PROJECT["🎯 <b>PROJECT</b><br/>scripts/05_project_nd_only.py<br/>──────<br/>Materializează default ND-only:<br/>păstrează doar liniile [ND]<br/>(alte projections: runtime în analyze)"]
+    DIA --> PROJECT["🎯 <b>PROJECT</b><br/>scripts/05_project.py<br/>──────<br/>Materializează 3 projections (branching)<br/>filtrând după [ND] și după tip-ul fișierului"]
 
-    PROJECT --> ND["🎙️ <b>data/3_nd_only/</b><br/>1,055 docs (55 empty drop)<br/>──────<br/>729 monolog (copy as-is)<br/>326 projected (10,568 ND segs păstrate, 16,515 dropped)<br/>55 fișiere goale (pure anchor news clips fără voce ND)"]
+    PROJECT --> ND_OV["🎙️ <b>data/3_nd_overall/</b><br/>1,055 docs · 10,568 ND segs<br/>──────<br/>TOATE sursele (FB + video)<br/>doar [ND]<br/>(default pentru analiză)"]
 
-    ND --> AN["📊 ANALIZĂ<br/>(Pasul 1: wordclouds<br/>Pasul 2: TF-IDF + bigrame + temporal)<br/>──────<br/>Clean (lemmatize+stopwords) și<br/>alte projections custom = runtime"]
+    PROJECT --> ND_S["✍️ <b>data/3_nd_scris/</b><br/>724 docs<br/>──────<br/>DOAR FB posts<br/>(text scris direct de ND)"]
+
+    PROJECT --> ND_V["🎤 <b>data/3_nd_vorbit/</b><br/>331 docs · 10,568 ND segs<br/>──────<br/>DOAR transcripturi video + discursuri<br/>(rostit oral)"]
+
+    ND_OV --> AN["📊 ANALIZĂ<br/>(Pasul 1: wordclouds<br/>Pasul 2: TF-IDF + bigrame + temporal)<br/>──────<br/>PROJECTION=overall (default)<br/>PROJECTION=scris<br/>PROJECTION=vorbit<br/>──────<br/>Clean (lemmatize+stopwords) și alte<br/>projections custom = runtime în corpus.py"]
+    ND_S --> AN
+    ND_V --> AN
 
     style SRC fill:#e1f5ff,stroke:#0288d1
     style YT fill:#fff,stroke:#0288d1
@@ -68,10 +74,30 @@ flowchart TB
     style DIARIZE fill:#fff8e1,stroke:#f9a825,stroke-width:3px
     style DIA fill:#e0f2f1,stroke:#00695c,stroke-width:3px
     style PROJECT fill:#fff8e1,stroke:#f9a825,stroke-width:3px
-    style ND fill:#e0f2f1,stroke:#00695c,stroke-width:3px
+    style ND_OV fill:#e0f2f1,stroke:#00695c,stroke-width:3px
+    style ND_S fill:#e0f2f1,stroke:#00695c,stroke-width:2px,stroke-dasharray: 4 2
+    style ND_V fill:#e0f2f1,stroke:#00695c,stroke-width:2px,stroke-dasharray: 4 2
     style AN fill:#fce4ec,stroke:#c2185b
     style REP fill:#fafafa,stroke:#9e9e9e,stroke-dasharray: 5 5
 ```
+
+**Cum rulezi analiza pe fiecare branch:**
+
+```bash
+# Default — overall (toate sursele)
+python scripts/01_basic_analysis.py
+python scripts/02_tfidf_temporal.py
+
+# Doar scris (FB posts)
+PROJECTION=scris python scripts/01_basic_analysis.py
+PROJECTION=scris python scripts/02_tfidf_temporal.py
+
+# Doar vorbit (transcripturi video + discursuri)
+PROJECTION=vorbit python scripts/01_basic_analysis.py
+PROJECTION=vorbit python scripts/02_tfidf_temporal.py
+```
+
+Output-urile se separă automat în `results/01_basic_<projection>/` și `results/02_tfidf_<projection>/`. Permite comparativ direct stil **scris vs vorbit**.
 
 **De ce 725 sunt "monolog implicit" (skip diarize)?**
 

@@ -2,182 +2,182 @@
 
 Documentele sunt agregate per trimestru; TF-IDF e calculat între perioade pentru a găsi cuvintele specifice fiecărei etape.
 
-## 2024Q4-2025Q1 candidatură-precampanie  (59 documente)
+## 2024Q4-2025Q1 candidatură-precampanie  (49 documente)
 
 | lemmă             |   TF-IDF |
 |:------------------|---------:|
-| lascon            |    0.447 |
-| ordan             |    0.293 |
-| candidatură       |    0.271 |
-| primărie          |    0.212 |
-| nicuș             |    0.203 |
-| tur               |    0.171 |
-| nato              |    0.154 |
-| pantof            |    0.146 |
-| marcel            |    0.137 |
-| nicu              |    0.137 |
-| romaniaonesta     |    0.127 |
-| nicusorpresedinte |    0.12  |
-| președinție       |    0.117 |
-| proeuropean       |    0.106 |
-| jordan            |    0.101 |
-| udmr              |    0.092 |
-| clasă             |    0.083 |
-| ciucu             |    0.079 |
-| antonescu         |    0.077 |
-| halep             |    0.073 |
-| talpă             |    0.073 |
-| cursă             |    0.071 |
-| senat             |    0.067 |
-| scut              |    0.062 |
-| putin             |    0.062 |
+| romaniaonesta     |    0.264 |
+| nicusorpresedinte |    0.25  |
+| primărie          |    0.191 |
+| anulare           |    0.174 |
+| capitală          |    0.174 |
+| pro               |    0.156 |
+| schimbare         |    0.139 |
+| nato              |    0.136 |
+| clasă             |    0.122 |
+| prooccidental     |    0.113 |
+| oraș              |    0.113 |
+| tur               |    0.111 |
+| onest             |    0.101 |
+| romaniaputernica  |    0.097 |
+| anula             |    0.096 |
+| occidental        |    0.087 |
+| sondaj            |    0.087 |
+| onestă            |    0.083 |
+| ciolacu           |    0.083 |
+| formular          |    0.083 |
+| bucureșten        |    0.081 |
+| candidatură       |    0.081 |
+| ilegal            |    0.078 |
+| explicație        |    0.07  |
+| urbanistic        |    0.07  |
 
-## 2025Q2 campanie + investitură  (480 documente)
+## 2025Q2 campanie + investitură  (467 documente)
 
-| lemmă             |   TF-IDF |
-|:------------------|---------:|
-| romaniaonesta     |    0.454 |
-| nicusorpresedinte |    0.281 |
-| ceremonie         |    0.263 |
-| nicușordan        |    0.254 |
-| jurământ          |    0.185 |
-| tur               |    0.177 |
-| antonescu         |    0.114 |
-| aplauze           |    0.114 |
-| primărie          |    0.106 |
-| doamnelor         |    0.094 |
-| ponta             |    0.086 |
-| daniel            |    0.08  |
-| lasconi           |    0.079 |
-| marcel            |    0.077 |
-| marinescu         |    0.072 |
-| crin              |    0.071 |
-| militar           |    0.069 |
-| patriarh          |    0.069 |
-| solemn            |    0.069 |
-| victor            |    0.068 |
-| nicusordan        |    0.068 |
-| urban             |    0.067 |
-| nicusorpresedint  |    0.066 |
-| onestă            |    0.059 |
-| românie           |    0.059 |
+| lemmă               |   TF-IDF |
+|:--------------------|---------:|
+| romaniaonesta       |    0.592 |
+| nicusorpresedinte   |    0.367 |
+| schimbare           |    0.149 |
+| simion              |    0.119 |
+| capitală            |    0.113 |
+| oraș                |    0.107 |
+| tur                 |    0.102 |
+| primărie            |    0.09  |
+| nicusordan          |    0.088 |
+| ciolacu             |    0.087 |
+| nicusorpresedint    |    0.086 |
+| financiar           |    0.082 |
+| românie             |    0.081 |
+| educație            |    0.08  |
+| nicușor             |    0.08  |
+| republică           |    0.078 |
+| onestă              |    0.077 |
+| urban               |    0.071 |
+| cmf                 |    0.067 |
+| cpp                 |    0.067 |
+| contactnicusordanro |    0.067 |
+| tramvai             |    0.067 |
+| regina              |    0.067 |
+| elisabeta           |    0.067 |
+| abcde               |    0.067 |
 
-## 2025Q3 deficit + reforma economică  (101 documente)
+## 2025Q3 deficit + reforma economică  (96 documente)
 
 | lemmă         |   TF-IDF |
 |:--------------|---------:|
-| pachet        |    0.223 |
-| pensionară    |    0.2   |
-| magistrat     |    0.177 |
-| anastasiu     |    0.166 |
-| ornis         |    0.157 |
-| victimă       |    0.147 |
-| impozit       |    0.122 |
-| militar       |    0.113 |
-| snspa         |    0.112 |
-| salariu       |    0.108 |
-| pensiona      |    0.106 |
-| anaf          |    0.103 |
-| certificat    |    0.099 |
-| magistraților |    0.093 |
-| chișinău      |    0.093 |
-| iunie         |    0.092 |
-| elev          |    0.092 |
-| colaborare    |    0.09  |
-| nicușordan    |    0.09  |
-| polonia       |    0.087 |
-| progresiv     |    0.085 |
-| summit        |    0.083 |
-| spor          |    0.08  |
-| pieleanu      |    0.074 |
-| judecător     |    0.074 |
+| pensionară    |    0.202 |
+| magistrat     |    0.188 |
+| pensie        |    0.17  |
+| pachet        |    0.164 |
+| republică     |    0.138 |
+| pensiona      |    0.136 |
+| ron           |    0.136 |
+| iunie         |    0.122 |
+| extrem        |    0.118 |
+| salariu       |    0.118 |
+| componentă    |    0.118 |
+| minister      |    0.11  |
+| republicii    |    0.11  |
+| violență      |    0.101 |
+| csm           |    0.097 |
+| colaborare    |    0.097 |
+| posibilitate  |    0.097 |
+| financiar     |    0.097 |
+| ornis         |    0.095 |
+| domestic      |    0.094 |
+| evaziune      |    0.089 |
+| magistraților |    0.088 |
+| summit        |    0.085 |
+| parchet       |    0.085 |
+| militar       |    0.085 |
 
-## 2025Q4 stabilizare + diplomație  (137 documente)
+## 2025Q4 stabilizare + diplomație  (136 documente)
+
+| lemmă        |   TF-IDF |
+|:-------------|---------:|
+| apărare      |    0.332 |
+| militar      |    0.208 |
+| industrie    |    0.166 |
+| pensie       |    0.131 |
+| creștere     |    0.12  |
+| magistrat    |    0.107 |
+| dezinformare |    0.1   |
+| consilier    |    0.096 |
+| aderare      |    0.093 |
+| implementare |    0.089 |
+| insista      |    0.089 |
+| pensiona     |    0.086 |
+| csat         |    0.085 |
+| ocde         |    0.085 |
+| estic        |    0.081 |
+| extrem       |    0.081 |
+| dronă        |    0.078 |
+| cercetare    |    0.077 |
+| strategic    |    0.077 |
+| sublinieza   |    0.075 |
+| concept      |    0.074 |
+| diferi       |    0.074 |
+| precum       |    0.073 |
+| rus          |    0.073 |
+| tradiție     |    0.073 |
+
+## 2025Q4-2026Q1 reformă judiciară  (157 documente)
 
 | lemmă           |   TF-IDF |
 |:----------------|---------:|
-| militar         |    0.31  |
-| dronă           |    0.172 |
-| magistrat       |    0.138 |
-| salariu         |    0.123 |
-| dezinformare    |    0.116 |
-| implementare    |    0.097 |
-| pachet          |    0.093 |
-| cercetare       |    0.09  |
-| primărie        |    0.09  |
-| vulnerabilitate |    0.086 |
-| insista         |    0.086 |
-| năstase         |    0.084 |
-| ocde            |    0.082 |
-| colaborare      |    0.082 |
-| potra           |    0.08  |
-| alinia          |    0.078 |
-| introduce       |    0.078 |
-| inamic          |    0.078 |
-| neagră          |    0.075 |
-| magistrațe      |    0.073 |
-| gheorghiu       |    0.073 |
-| pensionară      |    0.073 |
-| intuiție        |    0.073 |
-| pensiona        |    0.071 |
-| safe            |    0.069 |
+| procuror        |    0.214 |
+| judiciar        |    0.207 |
+| judecător       |    0.188 |
+| magistrat       |    0.181 |
+| piață           |    0.165 |
+| lega            |    0.153 |
+| preț            |    0.147 |
+| apărare         |    0.13  |
+| competitivitate |    0.124 |
+| coleg           |    0.11  |
+| superior        |    0.109 |
+| magistraturii   |    0.106 |
+| industrie       |    0.095 |
+| secție          |    0.094 |
+| csm             |    0.092 |
+| militar         |    0.092 |
+| penal           |    0.081 |
+| creștere        |    0.081 |
+| privire         |    0.081 |
+| magistrație     |    0.079 |
+| unic            |    0.078 |
+| controla        |    0.074 |
+| reuniune        |    0.074 |
+| mercosur        |    0.073 |
+| gaza            |    0.073 |
 
-## 2025Q4-2026Q1 reformă judiciară  (173 documente)
-
-| lemmă           |   TF-IDF |
-|:----------------|---------:|
-| judecător       |    0.359 |
-| magistrat       |    0.266 |
-| militar         |    0.187 |
-| magistraturii   |    0.104 |
-| disciplinar     |    0.103 |
-| documentar      |    0.094 |
-| recorder        |    0.094 |
-| inspecție       |    0.088 |
-| competitivitate |    0.086 |
-| gaza            |    0.085 |
-| criteriu        |    0.084 |
-| superior        |    0.084 |
-| impozit         |    0.081 |
-| instanțelor     |    0.077 |
-| nicușordan      |    0.077 |
-| dosare          |    0.075 |
-| corupt          |    0.074 |
-| paris           |    0.071 |
-| magistrație     |    0.071 |
-| magistratură    |    0.067 |
-| reuniune        |    0.062 |
-| primărie        |    0.062 |
-| percepție       |    0.061 |
-| cartă           |    0.06  |
-| examen          |    0.059 |
-
-## 2026Q2 cotitură UE + criză guvern  (160 documente)
+## 2026Q2 cotitură UE + criză guvern  (150 documente)
 
 | lemmă       |   TF-IDF |
 |:------------|---------:|
-| summit      |    0.226 |
-| polonia     |    0.181 |
-| colaborare  |    0.181 |
-| orientul    |    0.165 |
-| militar     |    0.161 |
-| echipament  |    0.158 |
-| sforăit     |    0.153 |
-| mijlociu    |    0.127 |
-| petrol      |    0.119 |
-| nuclear     |    0.116 |
-| neagră      |    0.11  |
-| dicot       |    0.109 |
-| adjunct     |    0.109 |
-| regiune     |    0.103 |
-| parchetelor |    0.103 |
-| pnrr        |    0.097 |
-| live        |    0.093 |
-| safe        |    0.09  |
-| penaliza    |    0.09  |
-| chiriac     |    0.088 |
-| iași        |    0.087 |
-| moțiune     |    0.087 |
-| cercetare   |    0.087 |
-| contract    |    0.087 |
-| nicușordan  |    0.084 |
+| procuror    |    0.341 |
+| summit      |    0.163 |
+| apărare     |    0.153 |
+| polonia     |    0.141 |
+| financiar   |    0.135 |
+| parchet     |    0.131 |
+| preț        |    0.13  |
+| echipament  |    0.116 |
+| militar     |    0.116 |
+| colaborare  |    0.113 |
+| sforăit     |    0.11  |
+| nuclear     |    0.106 |
+| petrol      |    0.104 |
+| piață       |    0.103 |
+| lega        |    0.1   |
+| penal       |    0.094 |
+| live        |    0.09  |
+| cotroceni   |    0.088 |
+| neagră      |    0.085 |
+| parchetelor |    0.083 |
+| csm         |    0.081 |
+| extrem      |    0.081 |
+| strategic   |    0.081 |
+| mijlociu    |    0.08  |
+| secretar    |    0.076 |

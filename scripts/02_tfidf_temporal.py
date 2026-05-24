@@ -10,6 +10,7 @@ Outputs in results/02_tfidf/:
 from __future__ import annotations
 
 from collections import Counter
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -17,7 +18,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 from corpus import Speech, load_corpus, tokenize
 
-OUT = Path(__file__).resolve().parent.parent / "results" / "02_tfidf"
+OUT = Path(__file__).resolve().parent.parent / "results" / f"02_tfidf_{os.getenv('PROJECTION', 'overall')}"
 OUT.mkdir(parents=True, exist_ok=True)
 
 

@@ -10,6 +10,7 @@ Outputs land in results/01_basic/:
 from __future__ import annotations
 
 from collections import Counter
+import os
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -18,7 +19,7 @@ from wordcloud import WordCloud
 
 from corpus import Speech, get_stopwords, load_corpus, tokenize
 
-OUT = Path(__file__).resolve().parent.parent / "results" / "01_basic"
+OUT = Path(__file__).resolve().parent.parent / "results" / f"01_basic_{os.getenv('PROJECTION', 'overall')}"
 OUT.mkdir(parents=True, exist_ok=True)
 
 
