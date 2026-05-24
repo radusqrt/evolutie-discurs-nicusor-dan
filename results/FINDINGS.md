@@ -355,6 +355,36 @@ Pasul 9 rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vo
 
 ---
 
+### 28. **Raportul ND-Bolojan: de la "uitat de el" la TENSIONAT pe Pfizer (Pasul 10)**
+
+Pasul 10 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Bolojan + "premier/prim-ministru" din corpus ND, clasifică ton relațional per perioadă cu Gemini, plus fact-check web.
+
+**Sumar mențiuni**: 86 spans Bolojan/premier vs 22 Ciolacu (4× mai des) — dar premier Bolojan **sub-menționat raportat la rolul instituțional**.
+
+**Evoluție ton relațional**:
+
+| Perioadă | Ton | Note |
+|---|---|---|
+| Q1 2025 | **distant** | "Am uitat de el" — neîncredere precampanie |
+| Q2 2025 | mixt | Acceptă dezbatere Cotroceni, "persoană foarte serioasă" |
+| Q3 2025 | **colaborativ** ← peak | Îl desemnează: "cel mai potrivit", "partener" |
+| Q4 2025 | mixt | "Premierul executiv într-o coaliție" + apăra principialitatea |
+| Q1 2026 | colaborativ/deferent | "Nu există altă alternativă" |
+| **Q2 2026** | **TENSIONAT** ⚠️ | Cazul Pfizer — cere transparență publică |
+
+**Q2 2026 — prima fisură publică (cazul Pfizer 600M€)**:
+
+- 1 apr 2026: Tribunal Bruxelles condamnă RO la **>600 milioane € către Pfizer** pentru vaccinuri COVID 2021 neutilizate.
+- 8 apr 2026: ND cere public desecretizarea: *"I-am cerut premierului acest lucru... Tot ce s-a semnat de către oficiali ai statului român să fie făcut public."*
+- Bolojan **NU desecretizează direct** — negociază privat eșalonarea + transformarea datoriei în alte produse medicale; dă vina pe *"greaua moștenire"* (guv. Cîțu 2021, Alexandru Nazare avizase achiziția).
+- ND folosește presiunea publică; Bolojan preferă negocierea privată. **Aliniați pe diagnostic, divergenți pe răspuns**.
+
+**Verdict**: prima divergență publică vizibilă între președinte și premier — confirmată atât de corpus (Gemini Q2 2026 = "tensionat") cât și de surse media (Recorder: *"coaliția, cu un picior în groapă"*).
+
+**Sursă fact-check**: `results/10_nd_bolojan/RAPORT.md` + URL-uri ebihoreanul, Digi24, Capital, Recorder, Veridica, Profit.
+
+---
+
 ## Convergent evidence — IPOTEZA GHOSTWRITING FB (3 piloni cantitativi)
 
 Din Pasul 1-9, am acumulat **3 piloni convergenți** pentru ipoteza că **FB-ul lui Nicușor Dan e scris sau redactat semnificativ de o echipă PR, nu de el personal**:
