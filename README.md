@@ -65,16 +65,24 @@ flowchart TB
 
 ## Pipeline (8 pași)
 
-| # | Pas | Script / Acțiune | Output |
-|---|---|---|---|
-| 1 | **Discovery** | `scripts/list_candidates.py` (yt-dlp prin proxy Webshare) | `data/index/youtube_candidates.json` (608 candidați) |
-| 2 | **Raw collection** | `scripts/fetch_from_candidates.py` (YouTube) + `scripts/fb_apify_collect.py` (Facebook prin Apify) | `data/raw/` (1,525 docs cu YAML frontmatter) |
-| 3 | **Dedupe** | `scripts/03_dedupe.py` (Jaccard cu canonical pick prioritar) + `scripts/03_dedupe_verify.py` (spot check) | `data/1_canonical/` (1,110 docs) + `data/dedupe_report.md` |
-| 4 | **Diarize** | `scripts/diarize_heuristic.py` (>>+intros patterns) + manual pentru joint conferences | inline în .md cu etichete `[ND]/[JURNALIST]/[RUTTE]/...` |
-| 5 | **Clean** | `scripts/corpus.py:tokenize()` (spaCy `ro_core_news_sm` + `stopwordsiso`) | runtime |
-| 6 | **Project** | `scripts/corpus.py:strip_speaker_tags_to_nd()` (filtrare voce ND) | runtime |
-| 7 | **Analyze** | `scripts/01_basic_analysis.py` (stats + wordclouds + top-N) + `scripts/02_tfidf_temporal.py` (TF-IDF + bigrame + perioade) | `results/01_basic/`, `results/02_tfidf/` |
-| 8 | **Interpret** | manual | `results/SINTEZA.md` |
+| # | Pas | Status | Script / Acțiune | Output |
+|---|---|---|---|---|
+| 1 | **Discovery** | ✅ **verified** | `scripts/list_candidates.py` (yt-dlp prin proxy Webshare cu rotație IP 1-200) | `data/index/youtube_candidates.json` (608 candidați) |
+| 2 | **Raw collection** | ✅ **verified** | `scripts/fetch_from_candidates.py` (YouTube) + `scripts/fb_apify_collect.py` (Facebook prin Apify) + `scripts/enrich_metadata.py` (backfill) | `data/raw/` (1,525 docs cu YAML frontmatter complet) |
+| 3 | **Dedupe** | ✅ **verified** | `scripts/03_dedupe.py` (Jaccard cu canonical pick prioritar) + `scripts/03_dedupe_verify.py` (spot check pe sample + post-dedup distribuție Jaccard) | `data/1_canonical/` (1,110 docs, **0 duplicate cu Jaccard ≥ 0.70** rămase în canonical) + `data/dedupe_report.md` |
+| 4 | **Diarize** | ⏳ funcțional, parțial verificat | `scripts/diarize_heuristic.py` (>>+intros patterns) + manual pentru joint conferences | inline în .md cu etichete `[ND]/[JURNALIST]/[RUTTE]/...` |
+| 5 | **Clean** | ⏳ funcțional | `scripts/corpus.py:tokenize()` (spaCy `ro_core_news_sm` + `stopwordsiso`) | runtime |
+| 6 | **Project** | ⏳ funcțional | `scripts/corpus.py:strip_speaker_tags_to_nd()` (filtrare voce ND) | runtime |
+| 7 | **Analyze** | ⏳ funcțional | `scripts/01_basic_analysis.py` (stats + wordclouds + top-N) + `scripts/02_tfidf_temporal.py` (TF-IDF + bigrame + perioade) | `results/01_basic/`, `results/02_tfidf/` |
+| 8 | **Interpret** | ⏳ în curs | manual | `results/SINTEZA.md` |
+
+**Status verification**:
+
+- **Pasul 1 (Discovery)** — verificat că proxy-ul Webshare cu rotație IP funcționează (5/5 cereri returnează IP-uri distincte), că search-ul pe 8 canale agregă coerent (608 unique candidates).
+- **Pasul 2 (Raw)** — verificat că schema YAML e uniformă (după normalizarea canal/titlu_video → sursa_canal/sursa_titlu pe 22 fișiere legacy), că metadata e completă (1495/1525 au sursa_titlu populat; restul = manual curated).
+- **Pasul 3 (Dedupe)** — verificat **dublu**: (a) spot check manual pe 6 perechi borderline 0.70-0.85 (toate confirmate ca duplicate reale, threshold scăzut de la 0.85 la 0.70); (b) post-dedup, distribuția Jaccard pe `data/1_canonical/` arată **0 perechi ≥ 0.70**.
+
+Pașii 4-8 sunt funcționali, dar nu au trecut printr-un check formal de validitate (ex. pentru pasul 4 — diarizare — încă au scapat 2 joint conferences nediarizate, iar heuristic-ul are eroare estimată ~5-15% pe edge cases).
 
 ## Surse de date
 
