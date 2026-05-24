@@ -180,13 +180,13 @@ def main():
                 elif jv >= 0.10: bins["0.10-0.30"] += 1
                 else: bins["<0.10"] += 1
     print(f"\nTotal same-date pairs: {total_pairs}\n")
-    # Current dedupe threshold (mirror of scripts/03_dedupe.py:THRESHOLD_DEFAULT)
+    # Current dedupe threshold (mirror of scripts/03_dedupe.py:THRESHOLD_DEFAULT).
+    # Bins use closed-open intervals (lower-bound inclusive). A pair drops if its
+    # Jaccard ≥ THRESHOLD, so we mark the bin whose LOWER bound is ≥ THRESHOLD.
     THRESHOLD = 0.70
-    drop_bins = {"≥0.95", "0.85-0.95"}
-    if THRESHOLD <= 0.85:
-        drop_bins.add("0.70-0.85")
-    if THRESHOLD <= 0.70:
-        drop_bins.add("0.50-0.70")  # would not actually apply with current default
+    bin_lower = {"≥0.95": 0.95, "0.85-0.95": 0.85, "0.70-0.85": 0.70,
+                 "0.50-0.70": 0.50, "0.30-0.50": 0.30, "0.10-0.30": 0.10, "<0.10": 0.0}
+    drop_bins = {label for label, lb in bin_lower.items() if lb >= THRESHOLD}
 
     total_drop = sum(bins[b] for b in drop_bins if b in bins)
     print(f"\nThreshold curent: Jaccard ≥ {THRESHOLD}")
