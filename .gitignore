@@ -30,3 +30,4 @@ data/.fb_state.json
 # Păstrăm doar combinatele: wordcloud_all.png, top20_all.png + summary.md + stats.csv
 results/01_basic/wordcloud_2*.png
 results/01_basic/top20_2*.png
+bertopic_results.zip
