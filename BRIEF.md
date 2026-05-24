@@ -32,6 +32,8 @@ Analiza **evoluției discursului** lui Nicușor Dan în perioada candidatură �
 
 **Python + Jupyter Notebook.** Biblioteci principale: `spaCy` (cu model românesc), `scikit-learn`, `BERTopic`, `transformers`, `pandas`, `matplotlib`/`plotly`.
 
+**Status:** vezi [`README.md`](./README.md) pentru pipeline complet, metodologie dedup, structură repo. Acest brief păstrează doar context-ul inițial + reguli metodologice.
+
 ## Reguli de extracție (CRITICE pentru validitate)
 
 1. **Păstrăm tot textul, dar cu delimitare strictă pe vorbitor.** În interviuri / conferințe / dezbateri / podcasturi, transcriem **integral** dialogul, dar fiecare replică e etichetată cu vorbitorul (`[ND]`, `[JURNALIST: Nume]`, `[MODERATOR]`, `[SIMION]` etc.). Asta ne permite două analize: (a) doar vocea lui ND — analiza principală, (b) interacțiunea (ce întrebări i se pun, cum răspunde la atacuri) — analiză secundară.
