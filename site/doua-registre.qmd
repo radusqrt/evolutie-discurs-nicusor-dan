@@ -318,29 +318,109 @@ html += '</div>'
 print(html)
 ```
 
-## Diferența #5 — Topicele (BERTopic)
+## Diferența #5 — Topicele descoperite (BERTopic)
+
+Folosind **BERTopic** + multilingual-e5-large + UMAP + HDBSCAN (clustering nesupervizat — modelul nu primește categorii predefinite, le **descoperă** singur din date), am identificat topicele dominante pe fiecare canal.
+
+### Facebook — 7 topice, dar **76% într-unul singur**
 
 ```{python}
 #| echo: false
-fig = go.Figure(go.Bar(
-    x=["Scris (FB)", "Vorbit (video)"],
-    y=[7, 8],
-    marker_color=["#003049", "#d62828"],
-    text=["7 topice<br>76% într-unul singur", "8 topice<br>25% outliers"],
-    textposition="outside",
-))
-fig.update_layout(
-    title="Topice descoperite de BERTopic — câte și cât de coerente",
-    yaxis_title="Număr topice",
-    yaxis_range=[0, 12],
-    height=400,
-    plot_bgcolor="white",
-    showlegend=False,
-)
-fig.show()
+#| output: asis
+
+# Read actual BERTopic data
+def load_topics_simple(proj):
+    import re
+    info_path = ROOT_DATA / "results" / f"03_bertopic_{proj}" / "topic_info.md"
+    content = info_path.read_text()
+    topics = []
+    # Parse table
+    in_table = False
+    for line in content.split("\n"):
+        if line.startswith("|") and "Topic" in line and "Count" in line:
+            in_table = True
+            continue
+        if in_table and line.startswith("|--"):
+            continue
+        if in_table and line.startswith("|"):
+            parts = [p.strip() for p in line.split("|")[1:-1]]
+            if len(parts) >= 3:
+                topics.append({"id": parts[0], "count": int(parts[1]), "name": parts[2]})
+        elif in_table:
+            in_table = False
+    return topics
+
+scris_topics = load_topics_simple("scris")
+vorbit_topics = load_topics_simple("vorbit")
+
+# Topic name interpretations (manual + cu cuvinte din data)
+scris_labels = {
+    "0": ("Mega-topic instituțional", "România, romaniaonesta, româniei, trebuie, nicusorpresedinte, europene, ani, nato, europeană"),
+    "1": ("București (proiecte locale)", "bucurești, str, oraș, fonduri, lei, dezvoltarea, public, primăria"),
+    "2": ("Legi și instituții", "legea, privind, publice, statului, ocde, clar, cadrul"),
+    "3": ("Conferințe presă", "live, presă, declarații, politice, Cotroceni, palatul"),
+    "4": ("Disclosure publicitar (artifact)", "sector bucurești, regina elisabeta, cpp, publicitar — etichete impuse de legea publicitară"),
+    "5": ("Atac Simion/Georgescu", "george, nicusordan, spune, georgescu, femei"),
+    "6": ("Voluntari onestă", "voluntari, onestă, românia onestă, campaniei"),
+}
+
+vorbit_labels = {
+    "0": ("Politica externă (Ucraina/NATO)", "românia, parte, ucraina, nato, securitate, important"),
+    "1": ("Guvern și măsuri", "există, cred, spus, momentul, guvern, măsuri, evident"),
+    "2": ("Justiție / CSM", "trebuie, cred, momentul, csm, adică, oameni, public"),
+    "3": ("Alegeri și oameni", "cred, trebuie, oamenii, făcut, alegerile"),
+    "4": ("Campania Georgescu (anulare)", "momentul, campania, plătit, georgescu, dezinformare"),
+    "5": ("Interes național / statul", "românia, național, privește, statului, români"),
+    "6": ("Energie / UE / competitivitate", "europa, energie, piață, competitivitate, uniunii"),
+    "7": ("Diaspora / Basarabia", "nicușor, românia, împreună, construit, românii, diaspora"),
+}
+
+# Build HTML side-by-side
+html = '<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1rem 0;">'
+
+# SCRIS column
+html += '<div style="padding:1rem;background:#003049;color:white;border-radius:8px;">'
+html += '<h4 style="margin-top:0;color:white;">Scris (Facebook) — 7 topice</h4>'
+html += '<table style="width:100%;color:white;font-size:0.88rem;">'
+html += '<thead><tr style="border-bottom:1px solid #fff;"><th style="text-align:left;padding:6px;">Topic</th><th style="text-align:right;padding:6px;">Docs</th></tr></thead><tbody>'
+for t in scris_topics:
+    if t["id"] == "-1":
+        continue
+    label, kw = scris_labels.get(t["id"], (t["name"], ""))
+    pct = 100 * t["count"] / sum(x["count"] for x in scris_topics)
+    highlight = "background:#d62828;color:white;font-weight:700;" if t["count"] >= 100 else ""
+    html += f'<tr style="border-bottom:1px solid #555;{highlight}"><td style="padding:8px;">'
+    html += f'<strong>{label}</strong><br><span style="font-size:0.8rem;opacity:0.85;font-family:monospace;">{kw}</span>'
+    html += f'</td><td style="text-align:right;padding:8px;vertical-align:top;"><strong>{t["count"]}</strong><br><span style="font-size:0.75rem;opacity:0.85;">{pct:.0f}%</span></td></tr>'
+html += '</tbody></table></div>'
+
+# VORBIT column
+html += '<div style="padding:1rem;background:#d62828;color:white;border-radius:8px;">'
+html += '<h4 style="margin-top:0;color:white;">Vorbit (video) — 8 topice</h4>'
+html += '<table style="width:100%;color:white;font-size:0.88rem;">'
+html += '<thead><tr style="border-bottom:1px solid #fff;"><th style="text-align:left;padding:6px;">Topic</th><th style="text-align:right;padding:6px;">Docs</th></tr></thead><tbody>'
+for t in vorbit_topics:
+    if t["id"] == "-1":
+        continue
+    label, kw = vorbit_labels.get(t["id"], (t["name"], ""))
+    pct = 100 * t["count"] / sum(x["count"] for x in vorbit_topics)
+    html += f'<tr style="border-bottom:1px solid #555;"><td style="padding:8px;">'
+    html += f'<strong>{label}</strong><br><span style="font-size:0.8rem;opacity:0.85;font-family:monospace;">{kw}</span>'
+    html += f'</td><td style="text-align:right;padding:8px;vertical-align:top;"><strong>{t["count"]}</strong><br><span style="font-size:0.75rem;opacity:0.85;">{pct:.0f}%</span></td></tr>'
+html += '</tbody></table></div>'
+html += '</div>'
+print(html)
 ```
 
-Facebook are **un singur mega-topic** care absoarbe 76% din mesaje — vocabular instituțional standard. Video are mai multe topice dar 25% sunt outliers — discurs liber, neclasificabil ușor.
+::: {.callout-note}
+## Ce arată asta concret
+
+**Pe Facebook**: **76%** din toate postările (554 din 724) cad într-un **singur mega-topic** dominat de cuvinte instituționale generice — *românia, romaniaonesta, trebuie, nicusorpresedinte, europene, nato*. Adică majoritatea covârșitoare a postărilor sună **aproape la fel**: mesaj branding pro-european. Restul de 6 topice sunt nișe mici (București, Legi, Conferințe, atacuri Simion).
+
+**În video**: discursul se distribuie mai uniform pe **8 topice substanțiale și diferite** — politica externă (Ucraina/NATO), guvern, justiție/CSM, alegeri, energie/UE, diaspora. Niciun topic nu absoarbe mai mult de **22%**.
+
+Plus: video are **25% outliers** (83 docs neclasificabile) — adică un sfert din discursul vorbit e prea liber/spontan pentru a încăpea într-un topic. Pe FB outliers sunt doar 4% — mesaj structurat și format.
+:::
 
 ---
 
