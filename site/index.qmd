@@ -174,24 +174,28 @@ fig = go.Figure(go.Bar(
     marker_color=["#003049"]*2 + ["#d62828"]*4,
     text=ys,
     textposition="outside",
+    textfont=dict(size=14, color="#333"),
 ))
 fig.update_layout(
-    title="Numărul de discursuri pe trimestru",
+    title="Numărul de discursuri pe trimestru (peak campanie → drop 79% post-investitură)",
     yaxis_title="Documente",
-    height=420,
-    margin=dict(t=60, b=80, l=60, r=20),
+    yaxis_range=[0, 600],  # extra headroom so labels don't overlap
+    height=440,
+    margin=dict(t=70, b=80, l=60, r=20),
     showlegend=False,
     plot_bgcolor="white",
     annotations=[
         dict(
-            x="Q2 2025 campanie", y=480,
-            text="<b>468 docs în campanie</b>",
-            showarrow=False, font=dict(size=13, color="#003049"),
+            x="Q2 2025 campanie", y=540,
+            text="<b>peak campanie</b>",
+            showarrow=True, arrowhead=2, ax=0, ay=-25,
+            font=dict(size=12, color="#003049"),
         ),
         dict(
-            x="Q3 2025 deficit", y=110,
-            text="<b>96 (drop 79%)</b>",
-            showarrow=False, font=dict(size=13, color="#d62828"),
+            x="Q3 2025 deficit", y=200,
+            text="<b>drop 79% post-investitură</b>",
+            showarrow=True, arrowhead=2, ax=0, ay=-25,
+            font=dict(size=12, color="#d62828"),
         ),
     ],
 )
