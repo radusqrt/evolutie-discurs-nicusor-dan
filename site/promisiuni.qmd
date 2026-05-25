@@ -150,64 +150,56 @@ fig.show()
 
 ND **execută concret pe aceste domenii — dar nu vorbește despre realizările sale**.
 
-## Caz emblematic — promisiunea "viceprimar = primar interimar"
+## Caz emblematic — **"Dau în scris că TVA nu va crește"**
 
-```{python}
-#| echo: false
-#| output: asis
+Pe **14 mai 2025**, cu 4 zile înainte de turul 2, în campanie, Nicușor Dan a făcut o promisiune memorabilă, ferm exprimată — fixată în titlul publicării video oficiale:
 
-# Find the Vigheciu/Bujduveanu promise (now REFRAMED after manual override)
-target = promises[promises["source_doc_id"].str.contains("planurile-pentru-romania-stiri-b1tv", na=False)]
-if not target.empty:
-    p = target.iloc[0]
-    has_override = bool(p.get("override_applied", False))
-    md = f"""
-**Promisiune** ({p['source_date']}):
-> {p['promise_text']}
+> **«Da, dau în scris.»**
+>
+> *"Satul român trebuie să fie suficient de ferm pentru a încasa taxele care i se cuvin la cuantumul care sunt azi... TVA de 19%, [...] putem să redresăm. Da, dau în scris."*
+>
+> — Nicușor Dan, [video oficial 14 mai 2025](https://www.youtube.com/watch?v=crohFUCmAxY), titlu video: *"Nicușor Dan: Dau în scris că TVA nu va crește"*
 
-**Citat verbatim**:
-> «{p['verbatim_quote']}»
-"""
-    if has_override:
-        original = p.get("status_status_original_llm", "?")
-        md += f"""
+**6 săptămâni mai târziu — TVA crescut.**
 
-::: {{.callout-warning}}
-## Override manual aplicat după fact-check
-**LLM clasificase**: `{original}` — **Reformulat manual**: `{p['status_status']}`
+::: {.callout-warning}
+## ⚠️ Limitare metodologică detectată
+Această promisiune **NU apare în top 131 promisiuni canonice** clasificate de pipeline. Extractorul LLM a căutat formulări de tip *"Voi face X"* și a ratat formularea negativă *"X nu se va întâmpla"*. Promisiunea e bine documentată media (titlul video oficial) și e *prima* pe rezultate Google pentru "Nicușor Dan TVA promisiune".
 
-**Motiv**: cronologia reală (verificată web prin 7+ surse) arată o REVIZUIRE conștientă a poziției, nu contradicție directă.
+Asta e un blind spot al Promise Tracker-ului — formularea în negativ scapă extracției. Adăugată manual ca **CONTRADICTED**.
 :::
-"""
-    md += f"""
-**Status final**: 🔀 **{p['status_status']}** (reformulată conștient și anunțată public)
 
-**Raționament LLM original**: {p['status_reasoning'][:400]}
-"""
-    print(md)
-```
-
-### Cronologia reală (fact-check web)
+### Cronologia reală (fact-check media)
 
 | Data | Eveniment | Sursă |
 |---|---|---|
-| **23 ian 2025** | CGMB alege viceprimari: Bujduveanu (PNL) + Vigheciu (PSD), **Vigheciu primul în ordine** la primar interimar de drept | [AGERPRES](https://agerpres.ro/administratie/2025/01/23/video-stelian-bujduveanu-pnl-si-adrian-vigheciu-psd-noii-viceprimari-ai-capitalei--1415744) |
-| **20 mai 2025** | ND zice: "Vigheciu (PSD) va fi primar interimar" — recunoaște regula | [Euronews](https://www.euronews.ro/articole/adrian-vigheciu-primar-interimar-bucuresti) |
-| **20-23 mai 2025** | ND **își schimbă poziția** public: "nu vrea primar de la PSD" | [Digi24](https://www.digi24.ro/stiri/actualitate/social/nicusor-dan-nu-vrea-sa-lase-bucurestiul-cu-un-primar-interimar-de-la-psd-pe-cine-propune-edilul-general-3248929) |
-| **23 mai 2025** | CGMB modifică ordinea, **Bujduveanu (PNL)** devine primar interimar | [Europa Liberă](https://romania.europalibera.org/a/nicusor-dan-a-demisionat-din-functia-de-primar-al-bucurestiului-interimar-va-fi-stelian-bujduveanu-pnl-/33422122.html) |
-| **7 dec 2025** | Alegeri locale parțiale: **Ciprian Ciucu (PNL)** câștigă cu 36,16% | [Europa Liberă](https://romania.europalibera.org/a/rezultate-alegeri-bucuresti-live-blog-ciprian-ciucu-pnl-ales-primar-general-al-capitalei/33615683.html) |
+| **14 mai 2025** | ND, în campanie: *"Dau în scris că TVA nu va crește"* | [YouTube oficial](https://www.youtube.com/watch?v=crohFUCmAxY) |
+| **18 mai 2025** | ND câștigă alegerile prezidențiale (turul 2) | — |
+| **20 iunie 2025** | Negocieri Cotroceni: **dezacord ND-Bolojan pe TVA**. Bolojan: *"fie accepți majorarea, fie te gândești la premier tehnocrat"* | [Curs de Guvernare](https://cursdeguvernare.ro/desemnarea-premierului-amanata-dezacordului-majorare-tva.html), [Europa Liberă](https://romania.europalibera.org/a/negocierile-de-formare-a-noului-guvern-in-impas-nicusor-dan-si-ilie-bolojan-in-dezacord-privind-posibilitatea-majorarii-tva/33449639.html) |
+| **20 iunie 2025** | Compromis: TVA 19% rămâne, dar **TVA reduse 5%/9% cresc la 11% din august**. Reevaluare în octombrie | [Digi24](https://www.digi24.ro/stiri/actualitate/politica/compromisul-la-care-au-ajuns-ilie-bolojan-si-nicusor-dan-in-privinta-tva-cota-de-19-nu-se-modifica-3293031), [HotNews](https://hotnews.ro/ce-au-convenit-nicusor-dan-si-ilie-bolojan-privind-cresterea-tva-2007618) |
+| **2 iulie 2025** | Bolojan își angajează răspunderea: **TVA general 19% → 21%**, TVA reduse 5%/9% → **11%/21%** | [spotmedia.ro](https://spotmedia.ro/stiri/economie/bolojan-anunta-azi-pachetul-fiscal), [StartupCafe](https://startupcafe.ro/taxe-2025-2026-impozit-pe-dividende-de-16-cota-generala-de-tva-de-21-majorare-accize-si-alte-masuri-fiscale-anuntate-de-premierul-bolojan-83305) |
+| **1 august 2025** | Măsurile intră în vigoare. TVA crescut **substanțial** pentru consumatori | [Europa Liberă](https://romania.europalibera.org/a/lista-modificarilor-fiscale-care-te-ar-putea-afecta-de-la-1-august/33476672.html) |
+| **27 nov 2025** | Bolojan: *"Creșterea TVA în iulie a fost o necesitate"*. ND a comentat că măsura "putea să nu fie luată" | [AGERPRES](https://agerpres.ro/economic/2025/11/27/bolojan-cresterea-tva-in-luna-iulie-a-fost-o-necesitate--1506966), [Euronews](https://www.euronews.ro/articole/cresterea-tva-tensiune-intre-presedintele-nicusor-dan-si-premierul-ilie-bolojan) |
+| **24 nov 2025** | Date oficiale: încasările TVA **au scăzut** după majorare. Inflație, șomaj, scădere consum | [Găzarul](https://gazarul.ro/2025/11/24/incasarile-din-tva-au-scazut-dupa-majorarea-taxei-efectul-masurii-luate-de-guvernarea-bolojan/) |
 
 ::: {.callout-important}
-## REFRAMED vs CONTRADICTED — distincția importantă
+## Verdict: CONTRADICTED clasic
 
-- **Spiritul promisiunii** ("viceprimar = primar interimar") a fost **respectat**: Bujduveanu E viceprimar
-- **Persoana s-a schimbat conștient**: Vigheciu (PSD) → Bujduveanu (PNL)
-- **ND a anunțat public motivul**: "nu vrea primar de la PSD"
+- **Promisiune**: TVA NU va crește
+- **Realitate (după 6 săptămâni)**: TVA general 19% → 21%, TVA reduse aproape *dublate* (5% → 11%, 9% → 11-21%)
+- **ND a pierdut negocierea internă cu Bolojan** — premierul a pus condiția majorării
+- **ND a comentat ulterior**: măsura "putea să nu fie luată"
 
-Asta e **REFRAMED** (revizuire deschisă, anunțată) — NU **CONTRADICTED** (acțiune opusă, ascunsă). LLM-ul Gemini a etichetat inițial ca CONTRADICTED — corectat manual după fact-check web.
+**Cazul demonstrează 3 lucruri**:
 
-**Toate override-urile sunt marcate transparent în date** (`override_applied: true`, cu rationale și surse).
+1. **ND nu domină mereu executivul** — pe deciziile fiscale dure, Bolojan a impus poziția.
+2. **Promisiunea de campanie a fost încălcată direct** — nu reframuită, ci contrazisă într-o lună de la învestire.
+3. **Pipeline-ul are blind spot** — promisiuni formulate negativ ("X nu se va întâmpla") scapă extractorului.
 :::
+
+### Caz secundar — "viceprimar = primar interimar"
+
+Există și un alt caz interesant, dar mai nuanțat: promisiunea din 20 mai 2025 că **Adrian Vigheciu (PSD)** va fi primar interimar al Capitalei. ND a împins ulterior pentru **Stelian Bujduveanu (PNL)** — *spiritul* promisiunii (viceprimar = primar interimar) a fost respectat, *persoana s-a schimbat* conștient și anunțat. Asta e **REFRAMED**, nu CONTRADICTED. [Vezi cronologia detaliată în `results/04_promises/`](https://github.com/radusqrt/evolutie-discurs-nicusor-dan/blob/main/results/04_promises/).
 
 ## Toate cele 131 promisiuni — explorabil
 
