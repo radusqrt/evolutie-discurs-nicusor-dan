@@ -1,0 +1,70 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Evoluția discursului — Nicușor Dan"
+  description: "Analiză cantitativă a primului an de mandat (decembrie 2024 → mai 2026)"
+  site-url: https://radusqrt.github.io/evolutie-discurs-nicusor-dan/
+  repo-url: https://github.com/radusqrt/evolutie-discurs-nicusor-dan
+  repo-actions: [edit, source]
+  page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: false
+  search:
+    location: navbar
+    type: overlay
+
+  navbar:
+    background: dark
+    logo: img/logo.png
+    title: "Evoluția discursului"
+    left:
+      - href: index.qmd
+        text: Acasă
+      - href: doi-nicusor-dan.qmd
+        text: Doi Nicușor Dan
+      - href: promisiuni.qmd
+        text: Promisiuni
+      - href: entitati.qmd
+        text: Entități
+      - href: bolojan.qmd
+        text: Cu Bolojan
+      - href: metoda.qmd
+        text: Metoda
+    right:
+      - icon: github
+        href: https://github.com/radusqrt/evolutie-discurs-nicusor-dan
+        aria-label: GitHub repository
+
+  page-footer:
+    background: light
+    left: "Autor: **Radu Stochitoiu** · Cod și date: [GitHub](https://github.com/radusqrt/evolutie-discurs-nicusor-dan)"
+    right: "Generat cu [Quarto](https://quarto.org) · Mai 2026"
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-title: "Pe această pagină"
+    code-fold: show
+    code-tools: true
+    code-copy: true
+    fig-width: 9
+    fig-height: 5
+    fig-responsive: true
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+    anchor-sections: true
+    lang: ro
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false

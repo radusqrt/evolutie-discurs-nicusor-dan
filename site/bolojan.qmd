@@ -1,0 +1,213 @@
+---
+title: "Raportul cu Bolojan"
+subtitle: "De la 'am uitat de el' la cazul Pfizer — un arc tensionat în 6 perioade"
+description: "Cum a evoluat relația ND-Bolojan din precampanie până la primul scandal public — fact-checked pe surse media."
+---
+
+```{python}
+#| include: false
+import sys, json
+from pathlib import Path
+ROOT = Path("..").resolve()
+sys.path.insert(0, str(ROOT))
+import pandas as pd
+import plotly.graph_objects as go
+```
+
+## Sumar
+
+```{python}
+#| echo: false
+
+bolojan_count = 0
+ciolacu_count = 0
+b_path = ROOT / "results" / "10_nd_bolojan" / "bolojan_mentions.jsonl"
+c_path = ROOT / "results" / "10_nd_bolojan" / "ciolacu_mentions.jsonl"
+with b_path.open() as f:
+    bolojan_count = sum(1 for _ in f)
+with c_path.open() as f:
+    ciolacu_count = sum(1 for _ in f)
+ratio = bolojan_count / max(ciolacu_count, 1)
+
+from IPython.display import HTML
+HTML(f"""
+<div class="stats-grid">
+  <div class="stat">
+    <div class="stat-value">{bolojan_count}</div>
+    <div class="stat-label">mențiuni Bolojan/premier</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">{ciolacu_count}</div>
+    <div class="stat-label">mențiuni Ciolacu (comparativ)</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">{ratio:.1f}×</div>
+    <div class="stat-label">de mai multe ori Bolojan</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">6 perioade</div>
+    <div class="stat-label">fact-checked independent</div>
+  </div>
+</div>
+""")
+```
+
+## Arcul narativ — 6 perioade
+
+```{python}
+#| echo: false
+periods = ["Q1 2025<br>precampanie", "Q2 2025<br>campanie", "Q3 2025<br>deficit",
+           "Q4 2025<br>stabilizare", "Q1 2026<br>judiciar", "Q2 2026<br>UE+criză"]
+tones = ["distant", "mixt", "colaborativ", "mixt",
+         "colaborativ/<br>deferent", "tensionat"]
+mentions = [5, 24, 25, 8, 9, 15]
+tone_colors = {"distant": "#778da9", "mixt": "#f4a261",
+               "colaborativ": "#2a9d8f",
+               "colaborativ/<br>deferent": "#2a9d8f",
+               "tensionat": "#e63946"}
+bar_colors = [tone_colors[t] for t in tones]
+
+fig = go.Figure(go.Bar(
+    x=periods, y=mentions,
+    marker_color=bar_colors,
+    text=[f"<b>{m} mențiuni</b><br>{t}" for m, t in zip(mentions, tones)],
+    textposition="outside",
+))
+fig.update_layout(
+    title="Mențiuni Bolojan + ton relațional clasificat de Gemini",
+    yaxis_title="Mențiuni",
+    height=520,
+    plot_bgcolor="white",
+    showlegend=False,
+    yaxis_range=[0, 33],
+    margin=dict(t=80),
+)
+fig.show()
+```
+
+---
+
+## Q1 2025 — **distant**
+
+> *"Eu personal nu cred că e o mare miză ca în aceste 3-4 luni care au mai rămas să fie Iohannis sau președintele Senatului Bolojan."*
+
+**Context**: Iohannis a demisionat 10 februarie. Bolojan a devenit președinte interimar pe 12 februarie. ND era candidat independent.
+
+**Citat ND**: *"Am auzit de el. Pentru că tot în spațiul public erau oameni care spuneau 'iată un posibil prim-ministru' dar acum am uitat de el."*
+
+::: {.callout-note}
+**Fact-check**: [AGERPRES — Iohannis demisie + Bolojan interimar](https://agerpres.ro/interne/2025/02/11/demisie-iohannis-ccr-ilie-bolojan-preia-interimar-functia-de-presedinte-al-romaniei--1421477)
+:::
+
+## Q2 2025 — **mixt** (campanie + investitură)
+
+**15 mai 2025**: Prima întâlnire personală — la Cotroceni înainte de dezbaterea TVR. Simion boicotat.
+
+**18 mai 2025**: ND câștigă alegerile.
+
+**26 mai 2025**: ND investit, Bolojan revine la rolul de șef Senat.
+
+> *"Mulțumesc domnului președinte Ilie Bolojan, care mi-a urat succes înainte de dezbaterea organizată de TVR, la Palatul Cotroceni."*
+
+> *"Domnul Bolojan e o persoană foarte serioasă pentru care eu am stimă, care a făcut lucruri bune și la Oradea și la Consiliul Județean Bihor și bineînțeles că ar fi un prim-ministru bun."*
+
+::: {.callout-note}
+**Fact-check**: [Adevărul — Bolojan-ND la Cotroceni](https://adevarul.ro/alegeri-prezidentiale-2025/ilie-bolojan-l-a-salutat-pe-nicusor-dan-la-palatul-2443683.html), [Europa Liberă — Bolojan votează ND turul 2](https://romania.europalibera.org/a/alegeri-2025-dezbaterile-electorale-palatul-cotroceni/33378587.html)
+:::
+
+## Q3 2025 — **colaborativ** (peak)
+
+**20 iunie 2025**: ND îl desemnează oficial pe Bolojan ca prim-ministru.
+
+**23 iunie 2025**: Bolojan confirmat de Camera Deputaților cu **301-9 voturi**. Coaliție PSD + PNL + USR + UDMR.
+
+> *"L-am desemnat astăzi pe domnul Ilie Bolojan în funcția de Prim-ministru al României."*
+
+> *"Este persoana cea mai potrivită și va avea în mine un partener."*
+
+::: {.callout-warning}
+## Nuanță ratată de Gemini (descoperită prin fact-check)
+ND și Bolojan **nu s-au înțeles pe creșterea TVA** în negocierile premergătoare desemnării. ND era contra, Bolojan pro. **Bolojan a câștigat negocierea** — TVA a crescut ulterior.
+
+Surse: [HotNews](https://hotnews.ro/consultari-la-cotroceni-cu-partidele-parlamentare-pentru-formarea-viitorului-guvern-nicusor-dan-e-asteptat-sa-desemneze-azi-premierul-2005666), [Europa Liberă](https://romania.europalibera.org/a/negocierile-de-formare-a-noului-guvern-in-impas-nicusor-dan-si-ilie-bolojan-in-dezacord-privind-posibilitatea-majorarii-tva/33449639.html)
+
+**ND nu domină mereu relația. Pe deciziile fiscale dure, Bolojan a impus poziția.**
+:::
+
+## Q4 2025 — **mixt** (scandal Fănel Bogoș)
+
+**23 septembrie 2025**: Omul de afaceri **Fănel Bogoș** (Vaslui) ajunge în biroul premierului — plătise **1,5 milioane €** pentru acces.
+
+DNA: trafic de influență + dare/luare de mită. Mihai Barbu (trezorier PNL) sub control judiciar 60 zile.
+
+> *"E normală interacțiunea între oameni politici și de afaceri, dar nu trebuie depășită o limită de principialitate... Eu n-am văzut ca domnul Bolojan să fi depășit această limită."*
+
+ND a apărat ferm dar a creat presiune publică implicit prin definirea "limitelor de principialitate".
+
+::: {.callout-note}
+**Fact-check**: [ProTV — Bogoș arestat](https://stirileprotv.ro/stiri/actualitate/omul-de-afaceri-fanel-bogos-a-fost-arestat-preventiv-alte-trei-persoane-plasate-sub-control-judiciar.html), [Digi24 — stenograme "pune în portbagaj"](https://www.digi24.ro/stiri/actualitate/justitie/pune-in-portbagaj-cum-se-achita-afaceristul-care-a-ajuns-in-birou-la-bolojan-fata-de-politicienii-care-il-ajutau-stenograme-3491331)
+:::
+
+## Q1 2026 — **colaborativ/deferent**
+
+**24 februarie 2026**: Meeting Cotroceni înainte de vizita Bolojan la Bruxelles.
+
+Subiect: **PNRR (231M€ deblocare)** + **EastInvest (20 mld € pentru 9 state UE)**.
+
+> *"Am avut o discuție aplicată cu premierul Ilie Bolojan înaintea vizitei sale la Bruxelles."*
+
+> *"În momentul acesta nu există o altă alternativă."* (referindu-se la Bolojan ca premier)
+
+::: {.callout-note}
+**Fact-check**: [Digi24 — meeting ND-Bolojan Bruxelles](https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-s-a-intalnit-cu-ilie-bolojan-inaintea-vizitei-premierului-la-bruxelles-despre-ce-au-vorbit-cei-doi-3646331)
+:::
+
+## Q2 2026 — **TENSIONAT** (cazul Pfizer)
+
+**1 aprilie 2026**: Tribunal Bruxelles condamnă România la **>600 milioane €** către Pfizer pentru vaccinuri COVID 2021 neutilizate.
+
+**8-9 aprilie 2026**: ND cere **public** desecretizarea contractelor.
+
+> *"Pe chestiunea cu vaccinurile, aștept ca actele oficiale semnate de oficiali ai statului român să fie făcute publice, pentru ca societatea în ansamblu să poată să aibă o opinie informată despre cine ce a semnat."*
+
+> *"I-am cerut premierului acest lucru. Știu că mai multă lume i l-a cerut. Susțin și eu demersul ăsta."*
+
+> *"Veți cere demisia lui Ilie Bolojan. Eu în ce calitate? Nu cred că trebuie să facem aici o analiză pe toate scenariile posibile... constituția îmi dă un rol de mediator."*
+
+**Bolojan NU desecretizează**. Negociază privat cu Pfizer eșalonarea + transformarea datoriei în alte produse medicale. **Dă vina pe "greaua moștenire"** (guvernul Cîțu 2021, Alexandru Nazare avizase).
+
+::: {.callout-important}
+## Prima fisură publică președinte-premier
+ND folosește **presiunea publică**. Bolojan preferă **negocierea privată**.
+
+Aliniați pe diagnostic ("achiziții peste necesar"). Divergenți pe răspuns (transparență publică vs. negociere privată).
+
+**Sursă**: [Recorder — Coaliția, cu un picior în groapă (15 apr 2026)](https://recorder.ro/stirile-zilei/15-aprilie-2026-coalitia-cu-un-picior-in-groapa/)
+:::
+
+---
+
+## Verdict final
+
+**ND-Bolojan = aliat tactic, nu prieten.**
+
+- Respectuos-instituțional, niciodată cald
+- ND folosește titluri formale ("domnul Bolojan", "premierul"), evită familiaritate
+- Bolojan **a câștigat** dezacordul TVA (Q3) și *evita transparența publică* (Q2 2026)
+- ND **a câștigat** pe direcția pro-occidentală + pe agenda externă (PNRR, EastInvest, NATO 5%)
+- **Q2 2026 = prima fisură publică** — confirmată de surse media
+
+## Calitatea clasificării
+
+| Perioadă | Gemini classification | Validat de fact-check |
+|---|---|---|
+| Q1 2025 | distant | ✅ Confirmat |
+| Q2 2025 | mixt | ✅ Confirmat + sub-find (Bolojan votează ND turul 2) |
+| Q3 2025 | colaborativ | ⚠️ **Parțial** — ratat dezacord TVA |
+| Q4 2025 | mixt | ✅ Confirmat (Bogoș scandal) |
+| Q1 2026 | colaborativ/deferent | ✅ Confirmat |
+| Q2 2026 | **tensionat** | ✅ Confirmat (Pfizer) |
+
+**5/6 perfect, 1 cu nuanță ratată. 83% spot-on, 100% direcțional corect.**
+
+[← Promisiuni](promisiuni.qmd) · [Metoda →](metoda.qmd)

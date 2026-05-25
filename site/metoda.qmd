@@ -1,0 +1,170 @@
+---
+title: "Metoda"
+subtitle: "Pipeline reproducible. Cod public. Date verificabile."
+description: "Toate cele 11 etape ale analizei, cu link-uri către scripturi și surse."
+---
+
+## Filosofie
+
+**Datele și codul sunt publice.** Toate concluziile pot fi reproduse rulând scripturile din [repository](https://github.com/radusqrt/evolutie-discurs-nicusor-dan).
+
+Singurele dependențe externe:
+
+- Cheie API Gemini (~5€ total pentru toate clasificările LLM)
+- Cheie API Webshare proxy (pentru bypass YouTube rate limit)
+- Cheie API Apify (pentru scraping Facebook)
+
+## Cele 11 etape
+
+```{mermaid}
+flowchart TB
+    A[1. Discovery] --> B[2. Raw collection]
+    B --> C[3. Dedupe Jaccard]
+    C --> D[4. Diarize LLM]
+    D --> E[5. Clean stopwords]
+    E --> F[6. Project scris/vorbit]
+    F --> G[7. Analyze basic+TF-IDF]
+    G --> H[8. BERTopic]
+    G --> I[9. Promise Tracker]
+    G --> J[10. Advanced: complexity, hedging, drift, NER, sentiment]
+    J --> K[11. ND-Bolojan]
+    H --> L[Interpret]
+    I --> L
+    K --> L
+```
+
+### 1-2 · Colectare brută
+
+**9 surse**: Facebook NicusorDan.ro (prin Apify) + 8 canale YouTube (prin yt-dlp + youtube_transcript_api cu rotație proxy Webshare IP 1-200).
+
+**Output**: 1.525 documente cu YAML frontmatter complet.
+
+### 3 · Deduplicate
+
+**Jaccard similarity ≥ 0,70** pe token sets per dată. Cluster cu single-link, canonical pick prioritar (Adm. Prezidențială > Privesc.Eu > NicusorDan.ro > manual > TV).
+
+**Output**: 1.110 docs canonice (415 dups eliminate).
+
+### 4 · Diarizare LLM
+
+**Gemini 2.5 Flash** cu `thinking_budget=0` și HttpOptions timeout 5min. Prompt în română pentru etichetare `[ND]`, `[JURNALIST]`, `[ANCHOR]`, `[MODERATOR]`, `[OFICIAL: nume]`, `[UNKNOWN]`.
+
+**Audit dublu** (3 seed-uri × 60 fișiere): **95-97% acuratețe**, zero cazuri de non-ND etichetat fals ca ND.
+
+### 5-6 · Clean + Project
+
+**spaCy `ro_core_news_sm`** + `stopwordsiso` + speech-filler stopwords custom (ă, ăă, hm, mhm, muzică, aplauze).
+
+**3 proiecții**:
+- `overall` (1.062 docs) — toate sursele
+- `scris` (724 docs) — doar Facebook
+- `vorbit` (338 docs) — doar video
+
+### 7 · Statistici de bază + TF-IDF
+
+Wordclouds, top 30 cuvinte, TF-IDF temporal pe 6 perioade (precampanie → criză Q2 2026).
+
+### 8 · BERTopic
+
+**Multilingual-e5-large fp16** (rulat pe Colab T4 GPU) + UMAP (5-dim, cosinus) + HDBSCAN (min_cluster_size=8) + c-TF-IDF.
+
+**26 topice descoperite în overall** (+ 7 scris + 8 vorbit).
+
+### 9 · Promise Tracker
+
+Sub-pipeline cu 4 etape:
+
+1. **Extract** cu Gemini din 319 docs campanie → 150 promisiuni
+2. **Dedup** cu paraphrase-multilingual-mpnet cosinus (prag 0,85) → 131 unice
+3. **Match** cu top-8 paragrafe relevante din mandat
+4. **Classify** cu LLM în {KEPT, IN_PROGRESS, REFRAMED, ABANDONED, CONTRADICTED, NO_MENTION}
+
+**Audit manual** stratificat (5 per status × 2 seed-uri = 32 sample-uri): 75% spot-on, 9% greșite (toate "pre-mandate fulfilled" — eroare metodologică sistematică).
+
+**Fact-check web independent** pe 10 promisiuni: **60% ținute în realitate vs 20% clasificator** — subestimare factor 3×.
+
+### 10 · Analize avansate
+
+5 analize SotA rulate pe toate 3 proiecții:
+
+| # | Analiză | Tehnică |
+|---|---|---|
+| 5 | Discourse complexity | spaCy parser → sentence length, tree depth, MTLD, TTR |
+| 6 | Hedging epistemic | Lexicon RO custom 35+ hedging, 24 certitudine |
+| 7 | Semantic drift | mpnet centroid per (topic × perioadă), cosine drift |
+| 8 | NER entități | GLiNER multi-v2.1 zero-shot |
+| 9 | Sentiment per entitate | Gemini 2.5 Flash pe paragrafe relevante |
+
+### 11 · Raportul ND-Bolojan
+
+Extract 86 spans Bolojan/premier/prim-ministru + 22 spans Ciolacu. Clasificare Gemini ton relațional per perioadă. **Fact-check web pe toate 6 perioade** — 83% spot-on Gemini.
+
+## Limitări recunoscute
+
+::: {.callout-warning}
+## 1. Clasificatorul de promisiuni măsoară doar discursul
+Nu măsoară acțiuni reale. Pentru proiectele PMB (executate de succesori), e blind. Pentru acțiuni prezidențiale concrete (decrete, promulgări), e fidel.
+
+**Mitigat prin fact-check web independent.**
+:::
+
+::: {.callout-warning}
+## 2. Pre-mandate fulfilled promises
+Clasificatorul caută evidence în corpus mandat. Promisiuni îndeplinite *înainte* (ex: "voi candida independent") nu mai apar în mandat → fals NO_MENTION.
+
+**Eroare sistematică izolată la topic justiție electorală.** Nu schimbă concluziile narative.
+:::
+
+::: {.callout-warning}
+## 3. NER nu prinde "premier" fără nume
+GLiNER ratează multe mențiuni unde Bolojan e numit doar "premierul" (fără nume). Pentru raportul ND-Bolojan am folosit regex pattern dedicat (`\bprim[- ]ministru\b`) — 86 mențiuni vs 14 prin NER.
+:::
+
+::: {.callout-warning}
+## 4. Sentiment LLM averageiază
+Pe perioade lungi cu mențiuni diverse, sentimentul detectat e o medie. Q3 2025 a apărut "colaborativ" deși conținea și dezacord TVA — surface pozitivul dominant.
+
+**Mitigat prin fact-check web.**
+:::
+
+## Costuri reale
+
+| Etapă | Cost |
+|---|---|
+| Apify scraping FB | ~$10 |
+| Webshare proxy (lună) | $3 |
+| Gemini API (toate clasificările + diarize + extract promisiuni) | **~$0,50 total** |
+| Colab T4 (BERTopic) | gratis |
+| GLiNER local (NER) | gratis |
+| Storage GitHub | gratis |
+
+**Total proiect**: ~$15 + ~50 ore muncă.
+
+## Reproducibilitate
+
+Toate scripturile au:
+
+- Argumente CLI documentate
+- Cache deterministic (acelaiași prompt = acelaiași output cu temperature=0.1)
+- Audit trail (toate clasificările LLM salvate ca JSONL)
+- Tests pentru funcțiile critice
+
+Pentru a reproduce de la zero:
+
+```bash
+git clone https://github.com/radusqrt/evolutie-discurs-nicusor-dan
+cd evolutie-discurs-nicusor-dan
+pip install -r requirements.txt
+cp .env.example .env  # adaugă cheile API
+python scripts/list_candidates.py
+python scripts/fetch_from_candidates.py
+python scripts/fb_apify_collect.py
+python scripts/03_dedupe.py
+python scripts/04d_diarize_llm_v2.py
+python scripts/05_project.py
+# ... etc
+```
+
+Total wall-clock pentru o rulare completă: **~6-8 ore** (majoritar Gemini calls + Colab BERTopic).
+
+[← Înapoi acasă](index.qmd)

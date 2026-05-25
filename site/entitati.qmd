@@ -1,0 +1,197 @@
+---
+title: "Despre cine vorbește"
+subtitle: "3.755 mențiuni — politicieni, țări, instituții — și cum se schimbă tonul"
+description: "Cum vorbește ND despre Trump, Putin, Bolojan, Simion, Georgescu, NATO, UE, OCDE. Și ce-l surprinde pe analist."
+---
+
+```{python}
+#| include: false
+import sys, json
+from pathlib import Path
+ROOT = Path("..").resolve()
+sys.path.insert(0, str(ROOT))
+import pandas as pd
+import plotly.graph_objects as go
+```
+
+## Cum a fost extrasă lista
+
+Folosind **GLiNER multi-v2.1** (model zero-shot multilingual NER), am identificat în corpusul ND toate mențiunile de:
+
+- **Persoane politice** (cu nume — Trump, Putin, Bolojan, Simion, etc.)
+- **Țări** (România, Ucraina, SUA, Rusia, R. Moldova, Polonia, ...)
+- **Instituții naționale** (CSM, CCR, DNA, DIICOT, Parlament, Guvern, ...)
+- **Instituții internaționale** (UE, NATO, OCDE, ONU, Comisia Europeană)
+- **Partide politice** (PSD, PNL, USR, AUR, UDMR)
+
+După curățare (merge forme flexionale: ucraina/ucrainei = aceeași entitate; eliminare hashtag-uri ca `romaniaonesta`), **~700 mențiuni rămase pe top 30 entități canonice**.
+
+## Cine apare cel mai des
+
+```{python}
+#| echo: false
+timeline = pd.read_csv(ROOT / "results" / "08_ner_overall" / "entity_timeline_clean.csv",
+                        index_col=0)
+top_15 = timeline.head(15)
+
+fig = go.Figure()
+for col in top_15.columns:
+    fig.add_trace(go.Bar(
+        name=col,
+        x=top_15.index,
+        y=top_15[col],
+    ))
+fig.update_layout(
+    barmode="stack",
+    title="Top 15 entități × perioadă",
+    yaxis_title="Mențiuni",
+    height=500,
+    plot_bgcolor="white",
+    xaxis_tickangle=-30,
+    legend_title="Perioadă",
+)
+fig.show()
+```
+
+```{python}
+#| echo: false
+import plotly.figure_factory as ff
+import numpy as np
+
+# Make heatmap
+z = top_15.values.tolist()
+x = top_15.columns.tolist()
+y = top_15.index.tolist()
+
+fig = ff.create_annotated_heatmap(
+    z=z, x=x, y=y, colorscale="YlOrRd",
+    annotation_text=[[str(int(v)) if v > 0 else "" for v in row] for row in z],
+    showscale=True,
+)
+fig.update_layout(
+    title="Heatmap mențiuni — top 15 entități × perioadă",
+    height=600,
+    margin=dict(l=140),
+)
+fig.update_xaxes(side="top", tickangle=-30)
+fig.show()
+```
+
+## 7 momente cheie
+
+::: {.callout-note appearance="simple"}
+### 1. Adversarii electorali **dispar complet** post-Q2 2025
+- **Simion**: 31 mențiuni Q2 → 0 mențiuni Q4-Q2 2026
+- **Georgescu**: 21 mențiuni Q1 → 1 mențiune Q2 2026
+
+ND nu îi mai numește. Strategie de ignoring deliberat.
+:::
+
+::: {.callout-note appearance="simple"}
+### 2. Premierul Bolojan **sub-menționat** pentru rolul lui
+- Doar 14 mențiuni "Bolojan" directe (+ 72 "premier" generic = 86 total)
+- Pentru un președinte care lucrează cu un premier zilnic, surprinzător de puțin
+- [Vezi raportul ND-Bolojan complet](bolojan.qmd)
+:::
+
+::: {.callout-note appearance="simple"}
+### 3. **Spike SUA în Q1 2026** (97 mențiuni)
+Relația cu administrația Trump — perioada negocierilor pentru garanții de securitate.
+:::
+
+::: {.callout-note appearance="simple"}
+### 4. **Polonia explozie Q2 2026** (47 mențiuni)
+Vizita oficială + summit B9 + lansare EastInvest (20 mld € pentru 9 state UE la granița cu Rusia/Ucraina).
+:::
+
+::: {.callout-note appearance="simple"}
+### 5. **Rusia peak Q4 2025** (68 mențiuni)
+Cea mai îngrijorată perioadă — discursuri despre escaladare, drone, atacuri hibride.
+:::
+
+::: {.callout-note appearance="simple"}
+### 6. **CSM concentrat Q3 2025** (32 mențiuni)
+Reforma pensii speciale magistrați — perioada de negocieri intense.
+:::
+
+::: {.callout-note appearance="simple"}
+### 7. **NATO peaks duble** Q4 2025 (33) + Q2 2026 (50)
+Stabilizare flancul estic + B9 summit + angajament 5% PIB până în 2035.
+:::
+
+## Sentiment per entitate
+
+Sentiment-ul lui ND față de fiecare entitate, clasificat cu Gemini 2.5 Flash pe paragrafele relevante.
+
+```{python}
+#| echo: false
+sentiment = pd.DataFrame()
+sent_path = ROOT / "results" / "09_sentiment_per_entity_overall" / "sentiment_per_entity_period.jsonl"
+if sent_path.exists():
+    rows = []
+    with sent_path.open() as f:
+        for line in f:
+            rows.append(json.loads(line))
+    sentiment = pd.DataFrame(rows)
+
+if not sentiment.empty:
+    counts = sentiment["sentiment"].value_counts()
+    fig = go.Figure(go.Bar(
+        x=[s.capitalize() for s in counts.index],
+        y=counts.values,
+        marker_color=["#cccccc", "#2a9d8f", "#f4a261", "#e63946", "#dddddd"][:len(counts)],
+        text=counts.values,
+        textposition="outside",
+    ))
+    fig.update_layout(
+        title="Distribuție sentiment per entitate × perioadă (107 buckets)",
+        yaxis_title="Buckets",
+        height=400,
+        plot_bgcolor="white",
+        showlegend=False,
+    )
+    fig.show()
+```
+
+### 5 insighturi surprinzătoare
+
+::: {.callout-tip}
+## ND e diplomat, nu atacant
+**Doar 5 sentimente NEGATIVE explicite** în întreaga analiză (din 107 buckets). ND nu atacă deschis aproape niciodată. Singura entitate constant negativă: **Rusia**.
+:::
+
+::: {.callout-tip}
+## TRUMP = MIXT, nu pozitiv
+ND nu îl laudă pe Trump explicit — are rezerve constante. Asta în ciuda relației diplomatice. Important pentru framing RO-SUA.
+:::
+
+::: {.callout-tip}
+## CSM = MIXT constant
+Reforma magistraților e poziție *complicată* pentru ND — nu îi condamnă, dar nici nu îi apără. **Mediator de profesie**.
+:::
+
+::: {.callout-tip}
+## USR a trecut din POZITIV → NEUTRU
+Răcire față de partidul de origine după ce a devenit independent. Are sens politic — independent → fără afiliere.
+:::
+
+::: {.callout-tip}
+## Aliații constanți: POLONIA, NATO, OCDE, FRANȚA
+Toate "pozitiv constant" peste 4-6 perioade. Coloana vertebrală a politicii externe (Vest + UE).
+:::
+
+## Diferența scris vs vorbit
+
+Aceeași entitate, sentiment diferit în funcție de canal:
+
+| Entitate | Facebook | Video |
+|---|---|---|
+| **Trump** | Pozitiv | **Mixt** (rezerve) |
+| **PSD** | Negativ | Mixt (temperat) |
+| **Simion** | Nemenționat | **Negativ** explicit |
+
+**Facebook polarizează (70% pro/contra). Video nuanțează (36% polarizat, restul mixt/n/a).**
+
+[Vezi analiza completă scris vs vorbit →](doi-nicusor-dan.qmd)
+
+[← Acasă](index.qmd) · [Promisiunile →](promisiuni.qmd)

@@ -1,0 +1,198 @@
+---
+title: "Promisiunile"
+subtitle: "131 promisiuni de campanie urmărite în discursul de mandat"
+description: "Câte au fost ținute? Câte au fost abandonate? Și de ce realitatea (60% ținute) e diferită de discurs (20%)."
+---
+
+```{python}
+#| include: false
+import sys, json
+from pathlib import Path
+ROOT = Path("..").resolve()
+sys.path.insert(0, str(ROOT))
+import pandas as pd
+import plotly.graph_objects as go
+import plotly.express as px
+
+def load_promises():
+    rows = []
+    with (ROOT / "results" / "04_promises" / "promise_status.jsonl").open() as f:
+        for line in f:
+            rows.append(json.loads(line))
+    return pd.DataFrame(rows)
+
+promises = load_promises()
+```
+
+## Cum a fost făcută analiza
+
+1. **Extras** din 319 discursuri de campanie (≤ 25 mai 2025) toate angajamentele explicite la acțiune viitoare specifică, cu Gemini 2.5 Flash
+2. **Deduplicare** cu embedding cosinus (prag 0,85) → 150 → 131 promisiuni unice
+3. **Verificare** în corpusul de mandat (≥ 26 mai 2025, ~540 docs): pentru fiecare promisiune, top-8 paragrafe relevante + clasificare LLM
+4. **Audit** dublu pe 32 sample-uri (75% spot-on)
+5. **Fact-check web independent** pe 10 promisiuni — **descoperă 3× subestimare**
+
+## Distribuția globală
+
+```{python}
+#| echo: false
+counts = promises["status_status"].value_counts()
+labels_ro = {
+    "KEPT": "Ținută",
+    "IN_PROGRESS": "În curs",
+    "NO_MENTION": "Nemenționată",
+    "CONTRADICTED": "Contrazisă",
+    "REFRAMED": "Redefinită",
+    "ABANDONED": "Abandonată",
+}
+colors = {
+    "KEPT": "#2a9d8f",
+    "IN_PROGRESS": "#f4a261",
+    "NO_MENTION": "#cccccc",
+    "CONTRADICTED": "#e63946",
+}
+
+fig = go.Figure(go.Pie(
+    labels=[labels_ro.get(s, s) for s in counts.index],
+    values=counts.values,
+    marker=dict(colors=[colors.get(s, "#888") for s in counts.index]),
+    textinfo="label+percent+value",
+    hole=0.4,
+))
+fig.update_layout(
+    title="Status promisiuni — clasificator LLM",
+    height=500,
+    annotations=[dict(text=f"{len(promises)}<br>total", x=0.5, y=0.5,
+                       font_size=18, showarrow=False)],
+)
+fig.show()
+```
+
+::: {.callout-warning}
+## Important: discrepanță majoră
+Clasificatorul măsoară **ce spune ND**, nu **ce face guvernul**.
+
+Fact-check independent pe 10 promisiuni arată **60% ținute în realitate** (vs 20% în clasificator).
+ND **livrează prin acțiune, nu prin discurs**.
+:::
+
+## Pe domenii (cele mai relevante)
+
+```{python}
+#| echo: false
+per_topic = promises.groupby(["topic", "status_status"]).size().unstack(fill_value=0)
+per_topic["total"] = per_topic.sum(axis=1)
+per_topic["KEPT_pct"] = (per_topic.get("KEPT", 0) / per_topic["total"] * 100).round(0)
+per_topic = per_topic.sort_values("total", ascending=False).head(10)
+
+fig = go.Figure()
+for status in ["KEPT", "IN_PROGRESS", "NO_MENTION", "CONTRADICTED"]:
+    if status in per_topic.columns:
+        fig.add_bar(
+            name=labels_ro.get(status, status),
+            x=per_topic.index,
+            y=per_topic[status],
+            marker_color=colors.get(status, "#888"),
+        )
+
+fig.update_layout(
+    barmode="stack",
+    title="Status promisiuni pe topul de 10 teme",
+    yaxis_title="Număr promisiuni",
+    xaxis_title="",
+    height=500,
+    plot_bgcolor="white",
+    legend_title="",
+)
+fig.update_xaxes(tickangle=-30)
+fig.show()
+```
+
+## Patternul devastator: policy internă vs externă
+
+```{python}
+#| echo: false
+fig = go.Figure()
+domains = ["București/local", "Diplomație", "Ucraina/Rusia", "Anti-corupție",
+           "Sănătate", "Educație", "Măsuri fiscale", "R. Moldova"]
+kept_classifier = [4, 60, 67, 0, 0, 0, 0, 0]
+fig.add_bar(
+    x=domains, y=kept_classifier,
+    marker_color=["#e63946", "#2a9d8f", "#2a9d8f", "#e63946",
+                   "#e63946", "#e63946", "#e63946", "#e63946"],
+    text=[f"{v}%" for v in kept_classifier],
+    textposition="outside",
+)
+fig.update_layout(
+    title="Rata de promisiuni ținute (clasificator) pe domeniu",
+    yaxis_title="% ținute",
+    height=450,
+    plot_bgcolor="white",
+    showlegend=False,
+    yaxis_range=[0, 80],
+)
+fig.update_xaxes(tickangle=-30)
+fig.show()
+```
+
+În discurs, **diplomația și relațiile cu Ucraina** sunt singurele domenii cu livrare clară. Politica internă (sănătate, educație, fiscale, anti-corupție) e *aparent* zero.
+
+**Dar fact-check-ul arată altă realitate**:
+
+| Domeniu | Clasificator | Realitate verificată |
+|---|---|---|
+| Anti-corupție | 0% ținute | ✅ Numirile DNA/DIICOT făcute (apr 2026) |
+| Justiție | n/a | ✅ Legea pensii magistrați promulgată (CCR 6-3) |
+| Fiscale | 0% ținute | 🔄 Deficit -1,4 puncte procentuale (cea mai mare corecție UE) |
+| OCDE | n/a | 🔄 22/25 opinii primite (on track 2026) |
+| București | 4% ținute | ✅ 50km tramvai contracte semnate, 8 șantiere consolidare active |
+
+ND **execută concret pe aceste domenii — dar nu vorbește despre realizările sale**.
+
+## Top contradicție explicită
+
+```{python}
+#| echo: false
+contradicted = promises[promises["status_status"] == "CONTRADICTED"]
+if not contradicted.empty:
+    for _, p in contradicted.iterrows():
+        print(f"Promisiune ({p['source_date']}):")
+        print(f"  {p['promise_text']}")
+        print()
+        print(f"Citat verbatim:")
+        print(f"  «{p['verbatim_quote']}»")
+        print()
+        print(f"Status: CONTRADICTED")
+        print(f"Raționament: {p['status_reasoning'][:400]}")
+```
+
+::: {.callout-important}
+## Vigheciu vs Bujduveanu
+Promisiunea era ca **Adrian Vigheciu (PSD)** să devină primar interimar al Capitalei. În realitate, ND însuși a împins pentru **Stelian Bujduveanu (PNL)** — deci spiritul promisiunii ("viceprimar = primar interimar") a fost respectat, dar **persoana a fost schimbată conștient**.
+:::
+
+## Toate cele 131 promisiuni — explorabil
+
+```{python}
+#| echo: false
+from itables import show
+from itables import options as opt
+
+opt.maxBytes = 0
+opt.lengthMenu = [10, 25, 50, 100, 131]
+opt.classes = "display compact"
+
+display = promises[["status_status", "topic", "specificity",
+                    "promise_text", "source_date"]].copy()
+display.columns = ["Status", "Topic", "Spec.", "Promisiune", "Data"]
+display["Status"] = display["Status"].map({
+    "KEPT": "✅ Ținută",
+    "IN_PROGRESS": "🔄 În curs",
+    "NO_MENTION": "❓ Nemenționată",
+    "CONTRADICTED": "⚠️ Contrazisă",
+}).fillna(display["Status"])
+
+show(display, paging=True, search=True, scrollX=True)
+```
+
+[← Înapoi acasă](index.qmd) · [Vezi cum vorbește despre Bolojan →](bolojan.qmd)

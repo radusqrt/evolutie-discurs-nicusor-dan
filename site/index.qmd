@@ -1,0 +1,251 @@
+---
+title: "Evoluția discursului lui Nicușor Dan"
+subtitle: "O analiză cantitativă a primului an de mandat (decembrie 2024 → mai 2026)"
+date: "2026-05-24"
+author: "Radu Stochitoiu"
+toc: false
+page-layout: full
+---
+
+```{python}
+#| label: setup
+#| include: false
+import sys, json
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent.parent if "__file__" in dir() else Path("..").resolve()
+sys.path.insert(0, str(ROOT))
+
+import pandas as pd
+import frontmatter
+
+def load_promises():
+    rows = []
+    with (ROOT / "results" / "04_promises" / "promise_status.jsonl").open() as f:
+        for line in f:
+            rows.append(json.loads(line))
+    return pd.DataFrame(rows)
+
+def load_corpus_count(proj):
+    n = sum(1 for _ in (ROOT / "data" / f"3_nd_{proj}").rglob("*.md")
+            if "/excluded/" not in str(_))
+    return n
+
+promises = load_promises()
+n_total = len(promises)
+n_kept = (promises["status_status"] == "KEPT").sum()
+n_inprog = (promises["status_status"] == "IN_PROGRESS").sum()
+n_nom = (promises["status_status"] == "NO_MENTION").sum()
+```
+
+::: {.hook-card}
+**1.062 de discursuri analizate.** 28 de concluzii. Un președinte cu două voci, 131 de promisiuni, un raport tensionat cu premierul Bolojan și o discrepanță uriașă între ce **spune** și ce **face**.
+:::
+
+## Care e povestea
+
+Nicușor Dan a fost ales președinte pe 18 mai 2025. De atunci a vorbit ca președinte timp de un an. **Cât din ce a spus se regăsește în ce face? Și cât din ce face nu apare în ce spune?**
+
+Am colectat tot ce a comunicat public — 1.525 documente brute, 1.110 după deduplicate, distribuite între:
+
+```{python}
+#| label: corpus-stats
+#| echo: false
+from IPython.display import HTML
+
+overall = load_corpus_count("overall")
+scris = load_corpus_count("scris")
+vorbit = load_corpus_count("vorbit")
+
+html = f"""
+<div class="stats-grid">
+  <div class="stat">
+    <div class="stat-value">{overall:,}</div>
+    <div class="stat-label">documente totale</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">{scris:,}</div>
+    <div class="stat-label">scris (Facebook)</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">{vorbit:,}</div>
+    <div class="stat-label">vorbit (video)</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">~650k</div>
+    <div class="stat-label">cuvinte analizate</div>
+  </div>
+</div>
+"""
+HTML(html)
+```
+
+## 5 concluzii care îți schimbă perspectiva
+
+### 1. Sunt doi Nicușor Dan, nu unul
+
+Pe Facebook scrie cu vocabular **instituțional**, repetitiv, fără ezitări. Pe video vorbește **reflexiv**, cu pauze, întrebări, "cred că". Analize multiple — diversitate lexicală, hedging, sentiment — arată **diferențe de 4-5×** între cele două registre.
+
+[→ Citește analiza completă](doi-nicusor-dan.qmd)
+
+### 2. Livrează prin acțiune, nu prin discurs
+
+Clasificatorul LLM (bazat pe ce **spune**) zice că 20% din promisiunile de campanie sunt ținute. Verificarea factuală pe web (ce **face**) arată **60%**. Diferență 3×.
+
+```{python}
+#| echo: false
+import plotly.graph_objects as go
+
+fig = go.Figure(go.Bar(
+    x=["Clasificator (discurs)", "Realitate (fact-check)"],
+    y=[20, 60],
+    marker_color=["#999999", "#28a745"],
+    text=["20%", "60%"],
+    textposition="outside",
+    textfont=dict(size=20, color="#333"),
+))
+fig.update_layout(
+    title="Rata de promisiuni ținute: discurs vs realitate",
+    yaxis_title="% din 131 promisiuni canonice",
+    yaxis_range=[0, 75],
+    height=400,
+    margin=dict(t=60, b=40, l=60, r=20),
+    showlegend=False,
+    plot_bgcolor="white",
+)
+fig.show()
+```
+
+[→ Vezi cele 131 de promisiuni](promisiuni.qmd)
+
+### 3. Vorbește abstract, nu enumerativ
+
+Top cele 6 cuvinte: `vrea, sine, spune, trebui, putea, moment`. Toate sunt verbe **modale și reflexive**. Nu apar în top 30: `lege, buget, salariu, pensie, școală, spital, drum`.
+
+Este un orator deliberativ, **nu un manager care enumeră livrabile**.
+
+### 4. Volumul s-a prăbușit post-mandat
+
+```{python}
+#| echo: false
+import pandas as pd
+import frontmatter
+from collections import Counter
+
+def period_for(d):
+    y, m = int(d[:4]), int(d[5:7])
+    if y == 2024 or (y == 2025 and m <= 2): return "Q1 2025 precampanie"
+    if y == 2025 and m <= 5: return "Q2 2025 campanie"
+    if y == 2025 and m <= 8: return "Q3 2025 deficit"
+    if y == 2025 and m <= 11: return "Q4 2025 stabilizare"
+    if y == 2025 and m == 12 or (y == 2026 and m <= 2): return "Q1 2026 judiciar"
+    if y == 2026 and m <= 5: return "Q2 2026 UE+criză"
+    return None
+
+counts = Counter()
+for path in (ROOT / "data" / "3_nd_overall").rglob("*.md"):
+    if "/excluded/" in str(path):
+        continue
+    post = frontmatter.load(path)
+    p = period_for(str(post.get("data", ""))[:10])
+    if p:
+        counts[p] += 1
+
+order = ["Q1 2025 precampanie", "Q2 2025 campanie", "Q3 2025 deficit",
+         "Q4 2025 stabilizare", "Q1 2026 judiciar", "Q2 2026 UE+criză"]
+xs = order
+ys = [counts.get(p, 0) for p in order]
+
+fig = go.Figure(go.Bar(
+    x=xs, y=ys,
+    marker_color=["#003049"]*2 + ["#d62828"]*4,
+    text=ys,
+    textposition="outside",
+))
+fig.update_layout(
+    title="Numărul de discursuri pe trimestru",
+    yaxis_title="Documente",
+    height=420,
+    margin=dict(t=60, b=80, l=60, r=20),
+    showlegend=False,
+    plot_bgcolor="white",
+    annotations=[
+        dict(
+            x="Q2 2025 campanie", y=480,
+            text="<b>468 docs în campanie</b>",
+            showarrow=False, font=dict(size=13, color="#003049"),
+        ),
+        dict(
+            x="Q3 2025 deficit", y=110,
+            text="<b>96 (drop 79%)</b>",
+            showarrow=False, font=dict(size=13, color="#d62828"),
+        ),
+    ],
+)
+fig.show()
+```
+
+În medie, **130 de discursuri pe trimestru ca președinte vs 468 în campanie**. Drop de 3,6×.
+
+### 5. Cu premierul Bolojan: aliat tactic, nu prieten
+
+```{python}
+#| echo: false
+import plotly.graph_objects as go
+
+periods = ["Q1 2025", "Q2 2025", "Q3 2025", "Q4 2025", "Q1 2026", "Q2 2026"]
+tones = ["distant", "mixt", "colaborativ", "mixt", "colaborativ", "tensionat"]
+mentions = [5, 24, 25, 8, 9, 15]
+colors = {"distant": "#778da9", "mixt": "#f4a261",
+          "colaborativ": "#2a9d8f", "tensionat": "#e63946"}
+bar_colors = [colors[t] for t in tones]
+
+fig = go.Figure(go.Bar(
+    x=periods, y=mentions,
+    marker_color=bar_colors,
+    text=[f"{m}<br><b>{t}</b>" for m, t in zip(mentions, tones)],
+    textposition="outside",
+))
+fig.update_layout(
+    title="Mențiuni Bolojan + ton relațional per perioadă",
+    yaxis_title="Mențiuni în discursul ND",
+    height=450,
+    margin=dict(t=60, b=40, l=60, r=20),
+    showlegend=False,
+    plot_bgcolor="white",
+    yaxis_range=[0, 32],
+)
+fig.show()
+```
+
+De la "**am uitat de el**" (Q1 2025) la "**i-am cerut premierului transparență publică**" (Q2 2026, cazul Pfizer 600M€). Un arc relațional cu tensiuni reale.
+
+[→ Citește raportul ND-Bolojan complet](bolojan.qmd)
+
+---
+
+## Cum a fost făcută analiza
+
+Toate metodele sunt **open source și reproducibile**. Codul Python + datele brute + clasificările LLM sunt în [repository-ul GitHub](https://github.com/radusqrt/evolutie-discurs-nicusor-dan).
+
+11 etape:
+
+1. **Colectare** din 9 surse (Facebook + 8 canale YouTube) cu proxy Webshare
+2. **Deduplicate** cu Jaccard ≥ 0,70 (1.525 → 1.110 docs)
+3. **Diarizare LLM** (Gemini 2.5 Flash, 95-97% acuratețe)
+4. **Proiecții** scris / vorbit / overall
+5. **Stats de bază** + TF-IDF
+6. **BERTopic** (multilingual-e5-large) — 26 topice descoperite
+7. **Promise Tracker** — 131 promisiuni extrase + clasificate
+8. **Audit dublu** (2 seed-uri, 32 sample-uri, 75% spot-on)
+9. **Fact-check web** independent pe 10 promisiuni
+10. **Analize avansate** — complexity, hedging, drift, NER, sentiment
+11. **Raport ND-Bolojan** + fact-check pe 6 perioade
+
+[→ Vezi metodologia completă](metoda.qmd)
+
+---
+
+::: {.callout-tip}
+## Vrei să folosești datele?
+Toate documentele brute, clasificările și scripturile sunt disponibile în repository. Lucrezi la un articol jurnalistic? Contactează-mă pe [GitHub](https://github.com/radusqrt/evolutie-discurs-nicusor-dan) — pot adăuga analize la cerere.
+:::

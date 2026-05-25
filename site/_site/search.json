@@ -1,0 +1,303 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Evoluția discursului lui Nicușor Dan",
+    "section": "",
+    "text": "1.062 de discursuri analizate. 28 de concluzii. Un președinte cu două voci, 131 de promisiuni, un raport tensionat cu premierul Bolojan și o discrepanță uriașă între ce spune și ce face."
+  },
+  {
+    "objectID": "index.html#care-e-povestea",
+    "href": "index.html#care-e-povestea",
+    "title": "Evoluția discursului lui Nicușor Dan",
+    "section": "Care e povestea",
+    "text": "Care e povestea\nNicușor Dan a fost ales președinte pe 18 mai 2025. De atunci a vorbit ca președinte timp de un an. Cât din ce a spus se regăsește în ce face? Și cât din ce face nu apare în ce spune?\nAm colectat tot ce a comunicat public — 1.525 documente brute, 1.110 după deduplicate, distribuite între:\n\n\n\n\n  \n    1,062\n    documente totale\n  \n  \n    724\n    scris (Facebook)\n  \n  \n    338\n    vorbit (video)\n  \n  \n    ~650k\n    cuvinte analizate"
+  },
+  {
+    "objectID": "index.html#concluzii-care-îți-schimbă-perspectiva",
+    "href": "index.html#concluzii-care-îți-schimbă-perspectiva",
+    "title": "Evoluția discursului lui Nicușor Dan",
+    "section": "5 concluzii care îți schimbă perspectiva",
+    "text": "5 concluzii care îți schimbă perspectiva\n\n1. Sunt doi Nicușor Dan, nu unul\nPe Facebook scrie cu vocabular instituțional, repetitiv, fără ezitări. Pe video vorbește reflexiv, cu pauze, întrebări, “cred că”. Analize multiple — diversitate lexicală, hedging, sentiment — arată diferențe de 4-5× între cele două registre.\n→ Citește analiza completă\n\n\n2. Livrează prin acțiune, nu prin discurs\nClasificatorul LLM (bazat pe ce spune) zice că 20% din promisiunile de campanie sunt ținute. Verificarea factuală pe web (ce face) arată 60%. Diferență 3×.\n\n\n        \n        \n        \n\n\n                            \n                                            \n\n\n→ Vezi cele 131 de promisiuni\n\n\n3. Vorbește abstract, nu enumerativ\nTop cele 6 cuvinte: vrea, sine, spune, trebui, putea, moment. Toate sunt verbe modale și reflexive. Nu apar în top 30: lege, buget, salariu, pensie, școală, spital, drum.\nEste un orator deliberativ, nu un manager care enumeră livrabile.\n\n\n4. Volumul s-a prăbușit post-mandat\n\n\n                            \n                                            \n\n\nÎn medie, 130 de discursuri pe trimestru ca președinte vs 468 în campanie. Drop de 3,6×.\n\n\n5. Cu premierul Bolojan: aliat tactic, nu prieten\n\n\n                            \n                                            \n\n\nDe la “am uitat de el” (Q1 2025) la “i-am cerut premierului transparență publică” (Q2 2026, cazul Pfizer 600M€). Un arc relațional cu tensiuni reale.\n→ Citește raportul ND-Bolojan complet"
+  },
+  {
+    "objectID": "index.html#cum-a-fost-făcută-analiza",
+    "href": "index.html#cum-a-fost-făcută-analiza",
+    "title": "Evoluția discursului lui Nicușor Dan",
+    "section": "Cum a fost făcută analiza",
+    "text": "Cum a fost făcută analiza\nToate metodele sunt open source și reproducibile. Codul Python + datele brute + clasificările LLM sunt în repository-ul GitHub.\n11 etape:\n\nColectare din 9 surse (Facebook + 8 canale YouTube) cu proxy Webshare\nDeduplicate cu Jaccard ≥ 0,70 (1.525 → 1.110 docs)\nDiarizare LLM (Gemini 2.5 Flash, 95-97% acuratețe)\nProiecții scris / vorbit / overall\nStats de bază + TF-IDF\nBERTopic (multilingual-e5-large) — 26 topice descoperite\nPromise Tracker — 131 promisiuni extrase + clasificate\nAudit dublu (2 seed-uri, 32 sample-uri, 75% spot-on)\nFact-check web independent pe 10 promisiuni\nAnalize avansate — complexity, hedging, drift, NER, sentiment\nRaport ND-Bolojan + fact-check pe 6 perioade\n\n→ Vezi metodologia completă\n\n\n\n\n\n\n\nVrei să folosești datele?\n\n\n\nToate documentele brute, clasificările și scripturile sunt disponibile în repository. Lucrezi la un articol jurnalistic? Contactează-mă pe GitHub — pot adăuga analize la cerere."
+  },
+  {
+    "objectID": "entitati.html",
+    "href": "entitati.html",
+    "title": "Despre cine vorbește",
+    "section": "",
+    "text": "Folosind GLiNER multi-v2.1 (model zero-shot multilingual NER), am identificat în corpusul ND toate mențiunile de:\n\nPersoane politice (cu nume — Trump, Putin, Bolojan, Simion, etc.)\nȚări (România, Ucraina, SUA, Rusia, R. Moldova, Polonia, …)\nInstituții naționale (CSM, CCR, DNA, DIICOT, Parlament, Guvern, …)\nInstituții internaționale (UE, NATO, OCDE, ONU, Comisia Europeană)\nPartide politice (PSD, PNL, USR, AUR, UDMR)\n\nDupă curățare (merge forme flexionale: ucraina/ucrainei = aceeași entitate; eliminare hashtag-uri ca romaniaonesta), ~700 mențiuni rămase pe top 30 entități canonice."
+  },
+  {
+    "objectID": "entitati.html#cum-a-fost-extrasă-lista",
+    "href": "entitati.html#cum-a-fost-extrasă-lista",
+    "title": "Despre cine vorbește",
+    "section": "",
+    "text": "Folosind GLiNER multi-v2.1 (model zero-shot multilingual NER), am identificat în corpusul ND toate mențiunile de:\n\nPersoane politice (cu nume — Trump, Putin, Bolojan, Simion, etc.)\nȚări (România, Ucraina, SUA, Rusia, R. Moldova, Polonia, …)\nInstituții naționale (CSM, CCR, DNA, DIICOT, Parlament, Guvern, …)\nInstituții internaționale (UE, NATO, OCDE, ONU, Comisia Europeană)\nPartide politice (PSD, PNL, USR, AUR, UDMR)\n\nDupă curățare (merge forme flexionale: ucraina/ucrainei = aceeași entitate; eliminare hashtag-uri ca romaniaonesta), ~700 mențiuni rămase pe top 30 entități canonice."
+  },
+  {
+    "objectID": "entitati.html#cine-apare-cel-mai-des",
+    "href": "entitati.html#cine-apare-cel-mai-des",
+    "title": "Despre cine vorbește",
+    "section": "Cine apare cel mai des",
+    "text": "Cine apare cel mai des"
+  },
+  {
+    "objectID": "entitati.html#momente-cheie",
+    "href": "entitati.html#momente-cheie",
+    "title": "Despre cine vorbește",
+    "section": "7 momente cheie",
+    "text": "7 momente cheie\n\n\n\n\n\n\n1. Adversarii electorali dispar complet post-Q2 2025\n\n\n\n\nSimion: 31 mențiuni Q2 → 0 mențiuni Q4-Q2 2026\nGeorgescu: 21 mențiuni Q1 → 1 mențiune Q2 2026\n\nND nu îi mai numește. Strategie de ignoring deliberat.\n\n\n\n\n\n\n\n\n2. Premierul Bolojan sub-menționat pentru rolul lui\n\n\n\n\nDoar 14 mențiuni “Bolojan” directe (+ 72 “premier” generic = 86 total)\nPentru un președinte care lucrează cu un premier zilnic, surprinzător de puțin\nVezi raportul ND-Bolojan complet\n\n\n\n\n\n\n\n\n\n3. Spike SUA în Q1 2026 (97 mențiuni)\n\n\n\nRelația cu administrația Trump — perioada negocierilor pentru garanții de securitate.\n\n\n\n\n\n\n\n\n4. Polonia explozie Q2 2026 (47 mențiuni)\n\n\n\nVizita oficială + summit B9 + lansare EastInvest (20 mld € pentru 9 state UE la granița cu Rusia/Ucraina).\n\n\n\n\n\n\n\n\n5. Rusia peak Q4 2025 (68 mențiuni)\n\n\n\nCea mai îngrijorată perioadă — discursuri despre escaladare, drone, atacuri hibride.\n\n\n\n\n\n\n\n\n6. CSM concentrat Q3 2025 (32 mențiuni)\n\n\n\nReforma pensii speciale magistrați — perioada de negocieri intense.\n\n\n\n\n\n\n\n\n7. NATO peaks duble Q4 2025 (33) + Q2 2026 (50)\n\n\n\nStabilizare flancul estic + B9 summit + angajament 5% PIB până în 2035."
+  },
+  {
+    "objectID": "entitati.html#sentiment-per-entitate",
+    "href": "entitati.html#sentiment-per-entitate",
+    "title": "Despre cine vorbește",
+    "section": "Sentiment per entitate",
+    "text": "Sentiment per entitate\nSentiment-ul lui ND față de fiecare entitate, clasificat cu Gemini 2.5 Flash pe paragrafele relevante.\n\n\n                            \n                                            \n\n\n\n5 insighturi surprinzătoare\n\n\n\n\n\n\nND e diplomat, nu atacant\n\n\n\nDoar 5 sentimente NEGATIVE explicite în întreaga analiză (din 107 buckets). ND nu atacă deschis aproape niciodată. Singura entitate constant negativă: Rusia.\n\n\n\n\n\n\n\n\nTRUMP = MIXT, nu pozitiv\n\n\n\nND nu îl laudă pe Trump explicit — are rezerve constante. Asta în ciuda relației diplomatice. Important pentru framing RO-SUA.\n\n\n\n\n\n\n\n\nCSM = MIXT constant\n\n\n\nReforma magistraților e poziție complicată pentru ND — nu îi condamnă, dar nici nu îi apără. Mediator de profesie.\n\n\n\n\n\n\n\n\nUSR a trecut din POZITIV → NEUTRU\n\n\n\nRăcire față de partidul de origine după ce a devenit independent. Are sens politic — independent → fără afiliere.\n\n\n\n\n\n\n\n\nAliații constanți: POLONIA, NATO, OCDE, FRANȚA\n\n\n\nToate “pozitiv constant” peste 4-6 perioade. Coloana vertebrală a politicii externe (Vest + UE)."
+  },
+  {
+    "objectID": "entitati.html#diferența-scris-vs-vorbit",
+    "href": "entitati.html#diferența-scris-vs-vorbit",
+    "title": "Despre cine vorbește",
+    "section": "Diferența scris vs vorbit",
+    "text": "Diferența scris vs vorbit\nAceeași entitate, sentiment diferit în funcție de canal:\n\n\n\nEntitate\nFacebook\nVideo\n\n\n\n\nTrump\nPozitiv\nMixt (rezerve)\n\n\nPSD\nNegativ\nMixt (temperat)\n\n\nSimion\nNemenționat\nNegativ explicit\n\n\n\nFacebook polarizează (70% pro/contra). Video nuanțează (36% polarizat, restul mixt/n/a).\nVezi analiza completă scris vs vorbit →\n← Acasă · Promisiunile →"
+  },
+  {
+    "objectID": "doi-nicusor-dan.html",
+    "href": "doi-nicusor-dan.html",
+    "title": "Doi Nicușor Dan",
+    "section": "",
+    "text": "ND scrie pe Facebook într-un registru radical diferit de cum vorbește în video.\n4 metrici independente susțin asta. Hai să le vezi."
+  },
+  {
+    "objectID": "doi-nicusor-dan.html#ipoteza",
+    "href": "doi-nicusor-dan.html#ipoteza",
+    "title": "Doi Nicușor Dan",
+    "section": "",
+    "text": "ND scrie pe Facebook într-un registru radical diferit de cum vorbește în video.\n4 metrici independente susțin asta. Hai să le vezi."
+  },
+  {
+    "objectID": "doi-nicusor-dan.html#hedging-ezitarea",
+    "href": "doi-nicusor-dan.html#hedging-ezitarea",
+    "title": "Doi Nicușor Dan",
+    "section": "#1 — Hedging (ezitarea)",
+    "text": "#1 — Hedging (ezitarea)\nCe e: cât de des folosește cuvinte “delicate” — “cred că”, “mi se pare”, “probabil”, “ar putea” — vs cuvinte categorice — “evident”, “sigur”, “fără îndoială”.\n\n\n        \n        \n        \n\n\n                            \n                                            \n\n\nFacebook: ratio 0,13-0,23 — categoric, fără ezitare. Video: ratio 0,51-1,06 — deliberativ, cu nuanțe.\n\n\n\n\n\n\nDetaliu metodologic\n\n\n\nLexicon RO custom: 35+ markeri de hedging (cred că, probabil, mi se pare, etc.) și 24 markeri de certitudine (evident, sigur, categoric). Cuantificate per 1.000 cuvinte."
+  },
+  {
+    "objectID": "doi-nicusor-dan.html#pronume-personale",
+    "href": "doi-nicusor-dan.html#pronume-personale",
+    "title": "Doi Nicușor Dan",
+    "section": "#2 — Pronume personale",
+    "text": "#2 — Pronume personale\n\n\n                            \n                                            \n\n\nPe Facebook ND dispare din propriul mesaj (0,7-3,3 pronume personale per 1.000 cuvinte). În video e dominant prezent (5,3-9,5).\nAsta sugerează că FB-ul e scris în registru “noi instituționalul”, nu “eu personalul”."
+  },
+  {
+    "objectID": "doi-nicusor-dan.html#diversitatea-lexicală-mtld",
+    "href": "doi-nicusor-dan.html#diversitatea-lexicală-mtld",
+    "title": "Doi Nicușor Dan",
+    "section": "#3 — Diversitatea lexicală (MTLD)",
+    "text": "#3 — Diversitatea lexicală (MTLD)\nCât de variat e vocabularul, normalizat pentru lungime.\n\n\n                            \n                                            \n\n\nVocabularul Facebook explodează după mandat (34 → 87 = creștere 2,5×). Vocabularul video rămâne stabil (42-54).\n\n\n\n\n\n\nCe înseamnă asta\n\n\n\nFB se profesionalizează dramatic post-mandat. Sau: - ND angajează ghost-writers/PR team după ce devine președinte - Sau își diversifică audiența (mesaje pentru diferite grupuri) - Sau își schimbă conștient stilul\nOrice variantă, e o tranziție bruscă coordonată cu schimbarea rolului."
+  },
+  {
+    "objectID": "doi-nicusor-dan.html#polarizare-sentiment",
+    "href": "doi-nicusor-dan.html#polarizare-sentiment",
+    "title": "Doi Nicușor Dan",
+    "section": "#4 — Polarizare sentiment",
+    "text": "#4 — Polarizare sentiment\nCum se atitudinează ND față de entitățile pe care le menționează — pozitiv, negativ, mixt, neutru?\n\n\n                            \n                                            \n\n\nFacebook = 70% polarizat (pro/contra explicit). Video = 36% polarizat, restul mixt/neutru.\nTrei cazuri concrete unde diferă sentiment:\n\n\n\nEntitate\nPe Facebook\nÎn video\n\n\n\n\nTrump\nPozitiv\nMixt (rezerve)\n\n\nPSD\nNegativ\nMixt (temperat)\n\n\nSimion\nNemenționat\nNegativ\n\n\n\nND personal e nuanțat. Pe Facebook apare ca polarizat clar."
+  },
+  {
+    "objectID": "doi-nicusor-dan.html#topicele-bertopic",
+    "href": "doi-nicusor-dan.html#topicele-bertopic",
+    "title": "Doi Nicușor Dan",
+    "section": "#5 — Topicele (BERTopic)",
+    "text": "#5 — Topicele (BERTopic)\n\n\n                            \n                                            \n\n\nFacebook are un singur mega-topic care absoarbe 76% din mesaje — vocabular instituțional standard. Video are mai multe topice dar 25% sunt outliers — adică discurs liber, neclasificabil.\nConcluzie: FB e constrans la message discipline, video e gândire liberă."
+  },
+  {
+    "objectID": "doi-nicusor-dan.html#verdict-4-dovezi-convergente",
+    "href": "doi-nicusor-dan.html#verdict-4-dovezi-convergente",
+    "title": "Doi Nicușor Dan",
+    "section": "Verdict: 4 dovezi convergente",
+    "text": "Verdict: 4 dovezi convergente\n\n\n                            \n                                            \n\n\nPlus BERTopic-ul ca a 4-a evidență. 4 metrici independente indică același lucru: Facebook nu e scris în același registru cu cum vorbește ND.\n\n\n\n\n\n\nDouă ipoteze posibile\n\n\n\n\nGhostwriting: postările sunt scrise de un team PR (consilieri, manageri campanie), nu de ND personal\nAlter ego instituțional: ND scrie singur dar într-un registru formalizat (“modul președinte”)\n\nDiferența între cele două ipoteze necesită stylometry formală (Burrows’ Delta + function word PCA) — analiză care nu a fost încă rulată. Dar toate cele 4 metrici sunt deja consistente cu ipoteza ghostwriting."
+  },
+  {
+    "objectID": "doi-nicusor-dan.html#ce-înseamnă-asta-pentru-tine-cititorul",
+    "href": "doi-nicusor-dan.html#ce-înseamnă-asta-pentru-tine-cititorul",
+    "title": "Doi Nicușor Dan",
+    "section": "Ce înseamnă asta pentru tine, cititorul",
+    "text": "Ce înseamnă asta pentru tine, cititorul\nCând citești un post de pe pagina lui ND, nu citești neapărat opinia lui personală.\nCând îl vezi într-un interviu video, acolo e ND-ul real — cu pauze, ezitări, “cred că”, revizuiri.\nDacă vrei să înțelegi președintele, uită-te la video, nu pe Facebook.\n← Acasă · Citește despre cum a vorbit despre Bolojan →"
+  },
+  {
+    "objectID": "metoda.html",
+    "href": "metoda.html",
+    "title": "Metoda",
+    "section": "",
+    "text": "Datele și codul sunt publice. Toate concluziile pot fi reproduse rulând scripturile din repository.\nSingurele dependențe externe:\n\nCheie API Gemini (~5€ total pentru toate clasificările LLM)\nCheie API Webshare proxy (pentru bypass YouTube rate limit)\nCheie API Apify (pentru scraping Facebook)"
+  },
+  {
+    "objectID": "metoda.html#filosofie",
+    "href": "metoda.html#filosofie",
+    "title": "Metoda",
+    "section": "",
+    "text": "Datele și codul sunt publice. Toate concluziile pot fi reproduse rulând scripturile din repository.\nSingurele dependențe externe:\n\nCheie API Gemini (~5€ total pentru toate clasificările LLM)\nCheie API Webshare proxy (pentru bypass YouTube rate limit)\nCheie API Apify (pentru scraping Facebook)"
+  },
+  {
+    "objectID": "metoda.html#cele-11-etape",
+    "href": "metoda.html#cele-11-etape",
+    "title": "Metoda",
+    "section": "Cele 11 etape",
+    "text": "Cele 11 etape\n\n\n\n\n\nflowchart TB\n    A[1. Discovery] --&gt; B[2. Raw collection]\n    B --&gt; C[3. Dedupe Jaccard]\n    C --&gt; D[4. Diarize LLM]\n    D --&gt; E[5. Clean stopwords]\n    E --&gt; F[6. Project scris/vorbit]\n    F --&gt; G[7. Analyze basic+TF-IDF]\n    G --&gt; H[8. BERTopic]\n    G --&gt; I[9. Promise Tracker]\n    G --&gt; J[10. Advanced: complexity, hedging, drift, NER, sentiment]\n    J --&gt; K[11. ND-Bolojan]\n    H --&gt; L[Interpret]\n    I --&gt; L\n    K --&gt; L\n\n\n\n\n\n\n\n1-2 · Colectare brută\n9 surse: Facebook NicusorDan.ro (prin Apify) + 8 canale YouTube (prin yt-dlp + youtube_transcript_api cu rotație proxy Webshare IP 1-200).\nOutput: 1.525 documente cu YAML frontmatter complet.\n\n\n3 · Deduplicate\nJaccard similarity ≥ 0,70 pe token sets per dată. Cluster cu single-link, canonical pick prioritar (Adm. Prezidențială &gt; Privesc.Eu &gt; NicusorDan.ro &gt; manual &gt; TV).\nOutput: 1.110 docs canonice (415 dups eliminate).\n\n\n4 · Diarizare LLM\nGemini 2.5 Flash cu thinking_budget=0 și HttpOptions timeout 5min. Prompt în română pentru etichetare [ND], [JURNALIST], [ANCHOR], [MODERATOR], [OFICIAL: nume], [UNKNOWN].\nAudit dublu (3 seed-uri × 60 fișiere): 95-97% acuratețe, zero cazuri de non-ND etichetat fals ca ND.\n\n\n5-6 · Clean + Project\nspaCy ro_core_news_sm + stopwordsiso + speech-filler stopwords custom (ă, ăă, hm, mhm, muzică, aplauze).\n3 proiecții: - overall (1.062 docs) — toate sursele - scris (724 docs) — doar Facebook - vorbit (338 docs) — doar video\n\n\n7 · Statistici de bază + TF-IDF\nWordclouds, top 30 cuvinte, TF-IDF temporal pe 6 perioade (precampanie → criză Q2 2026).\n\n\n8 · BERTopic\nMultilingual-e5-large fp16 (rulat pe Colab T4 GPU) + UMAP (5-dim, cosinus) + HDBSCAN (min_cluster_size=8) + c-TF-IDF.\n26 topice descoperite în overall (+ 7 scris + 8 vorbit).\n\n\n9 · Promise Tracker\nSub-pipeline cu 4 etape:\n\nExtract cu Gemini din 319 docs campanie → 150 promisiuni\nDedup cu paraphrase-multilingual-mpnet cosinus (prag 0,85) → 131 unice\nMatch cu top-8 paragrafe relevante din mandat\nClassify cu LLM în {KEPT, IN_PROGRESS, REFRAMED, ABANDONED, CONTRADICTED, NO_MENTION}\n\nAudit manual stratificat (5 per status × 2 seed-uri = 32 sample-uri): 75% spot-on, 9% greșite (toate “pre-mandate fulfilled” — eroare metodologică sistematică).\nFact-check web independent pe 10 promisiuni: 60% ținute în realitate vs 20% clasificator — subestimare factor 3×.\n\n\n10 · Analize avansate\n5 analize SotA rulate pe toate 3 proiecții:\n\n\n\n\n\n\n\n\n#\nAnaliză\nTehnică\n\n\n\n\n5\nDiscourse complexity\nspaCy parser → sentence length, tree depth, MTLD, TTR\n\n\n6\nHedging epistemic\nLexicon RO custom 35+ hedging, 24 certitudine\n\n\n7\nSemantic drift\nmpnet centroid per (topic × perioadă), cosine drift\n\n\n8\nNER entități\nGLiNER multi-v2.1 zero-shot\n\n\n9\nSentiment per entitate\nGemini 2.5 Flash pe paragrafe relevante\n\n\n\n\n\n11 · Raportul ND-Bolojan\nExtract 86 spans Bolojan/premier/prim-ministru + 22 spans Ciolacu. Clasificare Gemini ton relațional per perioadă. Fact-check web pe toate 6 perioade — 83% spot-on Gemini."
+  },
+  {
+    "objectID": "metoda.html#limitări-recunoscute",
+    "href": "metoda.html#limitări-recunoscute",
+    "title": "Metoda",
+    "section": "Limitări recunoscute",
+    "text": "Limitări recunoscute\n\n\n\n\n\n\n1. Clasificatorul de promisiuni măsoară doar discursul\n\n\n\nNu măsoară acțiuni reale. Pentru proiectele PMB (executate de succesori), e blind. Pentru acțiuni prezidențiale concrete (decrete, promulgări), e fidel.\nMitigat prin fact-check web independent.\n\n\n\n\n\n\n\n\n2. Pre-mandate fulfilled promises\n\n\n\nClasificatorul caută evidence în corpus mandat. Promisiuni îndeplinite înainte (ex: “voi candida independent”) nu mai apar în mandat → fals NO_MENTION.\nEroare sistematică izolată la topic justiție electorală. Nu schimbă concluziile narative.\n\n\n\n\n\n\n\n\n3. NER nu prinde “premier” fără nume\n\n\n\nGLiNER ratează multe mențiuni unde Bolojan e numit doar “premierul” (fără nume). Pentru raportul ND-Bolojan am folosit regex pattern dedicat (\\bprim[- ]ministru\\b) — 86 mențiuni vs 14 prin NER.\n\n\n\n\n\n\n\n\n4. Sentiment LLM averageiază\n\n\n\nPe perioade lungi cu mențiuni diverse, sentimentul detectat e o medie. Q3 2025 a apărut “colaborativ” deși conținea și dezacord TVA — surface pozitivul dominant.\nMitigat prin fact-check web."
+  },
+  {
+    "objectID": "metoda.html#costuri-reale",
+    "href": "metoda.html#costuri-reale",
+    "title": "Metoda",
+    "section": "Costuri reale",
+    "text": "Costuri reale\n\n\n\n\n\n\n\nEtapă\nCost\n\n\n\n\nApify scraping FB\n~$10\n\n\nWebshare proxy (lună)\n$3\n\n\nGemini API (toate clasificările + diarize + extract promisiuni)\n~$0,50 total\n\n\nColab T4 (BERTopic)\ngratis\n\n\nGLiNER local (NER)\ngratis\n\n\nStorage GitHub\ngratis\n\n\n\nTotal proiect: ~$15 + ~50 ore muncă."
+  },
+  {
+    "objectID": "metoda.html#reproducibilitate",
+    "href": "metoda.html#reproducibilitate",
+    "title": "Metoda",
+    "section": "Reproducibilitate",
+    "text": "Reproducibilitate\nToate scripturile au:\n\nArgumente CLI documentate\nCache deterministic (acelaiași prompt = acelaiași output cu temperature=0.1)\nAudit trail (toate clasificările LLM salvate ca JSONL)\nTests pentru funcțiile critice\n\nPentru a reproduce de la zero:\ngit clone https://github.com/radusqrt/evolutie-discurs-nicusor-dan\ncd evolutie-discurs-nicusor-dan\npip install -r requirements.txt\ncp .env.example .env  # adaugă cheile API\npython scripts/list_candidates.py\npython scripts/fetch_from_candidates.py\npython scripts/fb_apify_collect.py\npython scripts/03_dedupe.py\npython scripts/04d_diarize_llm_v2.py\npython scripts/05_project.py\n# ... etc\nTotal wall-clock pentru o rulare completă: ~6-8 ore (majoritar Gemini calls + Colab BERTopic).\n← Înapoi acasă"
+  },
+  {
+    "objectID": "bolojan.html",
+    "href": "bolojan.html",
+    "title": "Raportul cu Bolojan",
+    "section": "",
+    "text": "86\n    mențiuni Bolojan/premier\n  \n  \n    22\n    mențiuni Ciolacu (comparativ)\n  \n  \n    3.9×\n    de mai multe ori Bolojan\n  \n  \n    6 perioade\n    fact-checked independent"
+  },
+  {
+    "objectID": "bolojan.html#sumar",
+    "href": "bolojan.html#sumar",
+    "title": "Raportul cu Bolojan",
+    "section": "",
+    "text": "86\n    mențiuni Bolojan/premier\n  \n  \n    22\n    mențiuni Ciolacu (comparativ)\n  \n  \n    3.9×\n    de mai multe ori Bolojan\n  \n  \n    6 perioade\n    fact-checked independent"
+  },
+  {
+    "objectID": "bolojan.html#arcul-narativ-6-perioade",
+    "href": "bolojan.html#arcul-narativ-6-perioade",
+    "title": "Raportul cu Bolojan",
+    "section": "Arcul narativ — 6 perioade",
+    "text": "Arcul narativ — 6 perioade"
+  },
+  {
+    "objectID": "bolojan.html#q1-2025-distant",
+    "href": "bolojan.html#q1-2025-distant",
+    "title": "Raportul cu Bolojan",
+    "section": "Q1 2025 — distant",
+    "text": "Q1 2025 — distant\n\n“Eu personal nu cred că e o mare miză ca în aceste 3-4 luni care au mai rămas să fie Iohannis sau președintele Senatului Bolojan.”\n\nContext: Iohannis a demisionat 10 februarie. Bolojan a devenit președinte interimar pe 12 februarie. ND era candidat independent.\nCitat ND: “Am auzit de el. Pentru că tot în spațiul public erau oameni care spuneau ‘iată un posibil prim-ministru’ dar acum am uitat de el.”\n\n\n\n\n\n\nNote\n\n\n\nFact-check: AGERPRES — Iohannis demisie + Bolojan interimar"
+  },
+  {
+    "objectID": "bolojan.html#q2-2025-mixt-campanie-investitură",
+    "href": "bolojan.html#q2-2025-mixt-campanie-investitură",
+    "title": "Raportul cu Bolojan",
+    "section": "Q2 2025 — mixt (campanie + investitură)",
+    "text": "Q2 2025 — mixt (campanie + investitură)\n15 mai 2025: Prima întâlnire personală — la Cotroceni înainte de dezbaterea TVR. Simion boicotat.\n18 mai 2025: ND câștigă alegerile.\n26 mai 2025: ND investit, Bolojan revine la rolul de șef Senat.\n\n“Mulțumesc domnului președinte Ilie Bolojan, care mi-a urat succes înainte de dezbaterea organizată de TVR, la Palatul Cotroceni.”\n\n\n“Domnul Bolojan e o persoană foarte serioasă pentru care eu am stimă, care a făcut lucruri bune și la Oradea și la Consiliul Județean Bihor și bineînțeles că ar fi un prim-ministru bun.”\n\n\n\n\n\n\n\nNote\n\n\n\nFact-check: Adevărul — Bolojan-ND la Cotroceni, Europa Liberă — Bolojan votează ND turul 2"
+  },
+  {
+    "objectID": "bolojan.html#q3-2025-colaborativ-peak",
+    "href": "bolojan.html#q3-2025-colaborativ-peak",
+    "title": "Raportul cu Bolojan",
+    "section": "Q3 2025 — colaborativ (peak)",
+    "text": "Q3 2025 — colaborativ (peak)\n20 iunie 2025: ND îl desemnează oficial pe Bolojan ca prim-ministru.\n23 iunie 2025: Bolojan confirmat de Camera Deputaților cu 301-9 voturi. Coaliție PSD + PNL + USR + UDMR.\n\n“L-am desemnat astăzi pe domnul Ilie Bolojan în funcția de Prim-ministru al României.”\n\n\n“Este persoana cea mai potrivită și va avea în mine un partener.”\n\n\n\n\n\n\n\nNuanță ratată de Gemini (descoperită prin fact-check)\n\n\n\nND și Bolojan nu s-au înțeles pe creșterea TVA în negocierile premergătoare desemnării. ND era contra, Bolojan pro. Bolojan a câștigat negocierea — TVA a crescut ulterior.\nSurse: HotNews, Europa Liberă\nND nu domină mereu relația. Pe deciziile fiscale dure, Bolojan a impus poziția."
+  },
+  {
+    "objectID": "bolojan.html#q4-2025-mixt-scandal-fănel-bogoș",
+    "href": "bolojan.html#q4-2025-mixt-scandal-fănel-bogoș",
+    "title": "Raportul cu Bolojan",
+    "section": "Q4 2025 — mixt (scandal Fănel Bogoș)",
+    "text": "Q4 2025 — mixt (scandal Fănel Bogoș)\n23 septembrie 2025: Omul de afaceri Fănel Bogoș (Vaslui) ajunge în biroul premierului — plătise 1,5 milioane € pentru acces.\nDNA: trafic de influență + dare/luare de mită. Mihai Barbu (trezorier PNL) sub control judiciar 60 zile.\n\n“E normală interacțiunea între oameni politici și de afaceri, dar nu trebuie depășită o limită de principialitate… Eu n-am văzut ca domnul Bolojan să fi depășit această limită.”\n\nND a apărat ferm dar a creat presiune publică implicit prin definirea “limitelor de principialitate”.\n\n\n\n\n\n\nNote\n\n\n\nFact-check: ProTV — Bogoș arestat, Digi24 — stenograme “pune în portbagaj”"
+  },
+  {
+    "objectID": "bolojan.html#q1-2026-colaborativdeferent",
+    "href": "bolojan.html#q1-2026-colaborativdeferent",
+    "title": "Raportul cu Bolojan",
+    "section": "Q1 2026 — colaborativ/deferent",
+    "text": "Q1 2026 — colaborativ/deferent\n24 februarie 2026: Meeting Cotroceni înainte de vizita Bolojan la Bruxelles.\nSubiect: PNRR (231M€ deblocare) + EastInvest (20 mld € pentru 9 state UE).\n\n“Am avut o discuție aplicată cu premierul Ilie Bolojan înaintea vizitei sale la Bruxelles.”\n\n\n“În momentul acesta nu există o altă alternativă.” (referindu-se la Bolojan ca premier)\n\n\n\n\n\n\n\nNote\n\n\n\nFact-check: Digi24 — meeting ND-Bolojan Bruxelles"
+  },
+  {
+    "objectID": "bolojan.html#q2-2026-tensionat-cazul-pfizer",
+    "href": "bolojan.html#q2-2026-tensionat-cazul-pfizer",
+    "title": "Raportul cu Bolojan",
+    "section": "Q2 2026 — TENSIONAT (cazul Pfizer)",
+    "text": "Q2 2026 — TENSIONAT (cazul Pfizer)\n1 aprilie 2026: Tribunal Bruxelles condamnă România la &gt;600 milioane € către Pfizer pentru vaccinuri COVID 2021 neutilizate.\n8-9 aprilie 2026: ND cere public desecretizarea contractelor.\n\n“Pe chestiunea cu vaccinurile, aștept ca actele oficiale semnate de oficiali ai statului român să fie făcute publice, pentru ca societatea în ansamblu să poată să aibă o opinie informată despre cine ce a semnat.”\n\n\n“I-am cerut premierului acest lucru. Știu că mai multă lume i l-a cerut. Susțin și eu demersul ăsta.”\n\n\n“Veți cere demisia lui Ilie Bolojan. Eu în ce calitate? Nu cred că trebuie să facem aici o analiză pe toate scenariile posibile… constituția îmi dă un rol de mediator.”\n\nBolojan NU desecretizează. Negociază privat cu Pfizer eșalonarea + transformarea datoriei în alte produse medicale. Dă vina pe “greaua moștenire” (guvernul Cîțu 2021, Alexandru Nazare avizase).\n\n\n\n\n\n\nPrima fisură publică președinte-premier\n\n\n\nND folosește presiunea publică. Bolojan preferă negocierea privată.\nAliniați pe diagnostic (“achiziții peste necesar”). Divergenți pe răspuns (transparență publică vs. negociere privată).\nSursă: Recorder — Coaliția, cu un picior în groapă (15 apr 2026)"
+  },
+  {
+    "objectID": "bolojan.html#verdict-final",
+    "href": "bolojan.html#verdict-final",
+    "title": "Raportul cu Bolojan",
+    "section": "Verdict final",
+    "text": "Verdict final\nND-Bolojan = aliat tactic, nu prieten.\n\nRespectuos-instituțional, niciodată cald\nND folosește titluri formale (“domnul Bolojan”, “premierul”), evită familiaritate\nBolojan a câștigat dezacordul TVA (Q3) și evita transparența publică (Q2 2026)\nND a câștigat pe direcția pro-occidentală + pe agenda externă (PNRR, EastInvest, NATO 5%)\nQ2 2026 = prima fisură publică — confirmată de surse media"
+  },
+  {
+    "objectID": "bolojan.html#calitatea-clasificării",
+    "href": "bolojan.html#calitatea-clasificării",
+    "title": "Raportul cu Bolojan",
+    "section": "Calitatea clasificării",
+    "text": "Calitatea clasificării\n\n\n\n\n\n\n\n\nPerioadă\nGemini classification\nValidat de fact-check\n\n\n\n\nQ1 2025\ndistant\n✅ Confirmat\n\n\nQ2 2025\nmixt\n✅ Confirmat + sub-find (Bolojan votează ND turul 2)\n\n\nQ3 2025\ncolaborativ\n⚠️ Parțial — ratat dezacord TVA\n\n\nQ4 2025\nmixt\n✅ Confirmat (Bogoș scandal)\n\n\nQ1 2026\ncolaborativ/deferent\n✅ Confirmat\n\n\nQ2 2026\ntensionat\n✅ Confirmat (Pfizer)\n\n\n\n5/6 perfect, 1 cu nuanță ratată. 83% spot-on, 100% direcțional corect.\n← Promisiuni · Metoda →"
+  },
+  {
+    "objectID": "promisiuni.html",
+    "href": "promisiuni.html",
+    "title": "Promisiunile",
+    "section": "",
+    "text": "Extras din 319 discursuri de campanie (≤ 25 mai 2025) toate angajamentele explicite la acțiune viitoare specifică, cu Gemini 2.5 Flash\nDeduplicare cu embedding cosinus (prag 0,85) → 150 → 131 promisiuni unice\nVerificare în corpusul de mandat (≥ 26 mai 2025, ~540 docs): pentru fiecare promisiune, top-8 paragrafe relevante + clasificare LLM\nAudit dublu pe 32 sample-uri (75% spot-on)\nFact-check web independent pe 10 promisiuni — descoperă 3× subestimare"
+  },
+  {
+    "objectID": "promisiuni.html#cum-a-fost-făcută-analiza",
+    "href": "promisiuni.html#cum-a-fost-făcută-analiza",
+    "title": "Promisiunile",
+    "section": "",
+    "text": "Extras din 319 discursuri de campanie (≤ 25 mai 2025) toate angajamentele explicite la acțiune viitoare specifică, cu Gemini 2.5 Flash\nDeduplicare cu embedding cosinus (prag 0,85) → 150 → 131 promisiuni unice\nVerificare în corpusul de mandat (≥ 26 mai 2025, ~540 docs): pentru fiecare promisiune, top-8 paragrafe relevante + clasificare LLM\nAudit dublu pe 32 sample-uri (75% spot-on)\nFact-check web independent pe 10 promisiuni — descoperă 3× subestimare"
+  },
+  {
+    "objectID": "promisiuni.html#distribuția-globală",
+    "href": "promisiuni.html#distribuția-globală",
+    "title": "Promisiunile",
+    "section": "Distribuția globală",
+    "text": "Distribuția globală\n\n\n        \n        \n        \n\n\n                            \n                                            \n\n\n\n\n\n\n\n\nImportant: discrepanță majoră\n\n\n\nClasificatorul măsoară ce spune ND, nu ce face guvernul.\nFact-check independent pe 10 promisiuni arată 60% ținute în realitate (vs 20% în clasificator). ND livrează prin acțiune, nu prin discurs."
+  },
+  {
+    "objectID": "promisiuni.html#pe-domenii-cele-mai-relevante",
+    "href": "promisiuni.html#pe-domenii-cele-mai-relevante",
+    "title": "Promisiunile",
+    "section": "Pe domenii (cele mai relevante)",
+    "text": "Pe domenii (cele mai relevante)"
+  },
+  {
+    "objectID": "promisiuni.html#patternul-devastator-policy-internă-vs-externă",
+    "href": "promisiuni.html#patternul-devastator-policy-internă-vs-externă",
+    "title": "Promisiunile",
+    "section": "Patternul devastator: policy internă vs externă",
+    "text": "Patternul devastator: policy internă vs externă\n\n\n                            \n                                            \n\n\nÎn discurs, diplomația și relațiile cu Ucraina sunt singurele domenii cu livrare clară. Politica internă (sănătate, educație, fiscale, anti-corupție) e aparent zero.\nDar fact-check-ul arată altă realitate:\n\n\n\n\n\n\n\n\nDomeniu\nClasificator\nRealitate verificată\n\n\n\n\nAnti-corupție\n0% ținute\n✅ Numirile DNA/DIICOT făcute (apr 2026)\n\n\nJustiție\nn/a\n✅ Legea pensii magistrați promulgată (CCR 6-3)\n\n\nFiscale\n0% ținute\n🔄 Deficit -1,4 puncte procentuale (cea mai mare corecție UE)\n\n\nOCDE\nn/a\n🔄 22/25 opinii primite (on track 2026)\n\n\nBucurești\n4% ținute\n✅ 50km tramvai contracte semnate, 8 șantiere consolidare active\n\n\n\nND execută concret pe aceste domenii — dar nu vorbește despre realizările sale."
+  },
+  {
+    "objectID": "promisiuni.html#top-contradicție-explicită",
+    "href": "promisiuni.html#top-contradicție-explicită",
+    "title": "Promisiunile",
+    "section": "Top contradicție explicită",
+    "text": "Top contradicție explicită\n\n\nPromisiune (2025-05-20):\n  Imediat ce mă voi instala la Cotroceni, unul dintre viceprimari va deveni primar interimar al Capitalei.\n\nCitat verbatim:\n  «Imediat ce eu mă instalez la Cotroceni o să unul din viceprimari va deveni primar interimar și se va ocupa de Întâmplător este de la în fine este de la PSD și va fi obligat domnul Vigheciu e va fi noul primar.»\n\nStatus: CONTRADICTED\nRaționament: Promisiunea era ca un viceprimar să devină primar interimar al Capitalei imediat după instalarea la Cotroceni. Nicușor Dan, în calitate de președinte, a felicitat un primar ales (Ciprian Ciucu) și a menționat că bucureștenii vor alege un primar, ceea ce contrazice ideea unui primar interimar numit. Mai mult, a declarat că viceprimarii nu contează, diminuând rolul pe care l-ar fi putut avea un vice\n\n\n\n\n\n\n\n\nVigheciu vs Bujduveanu\n\n\n\nPromisiunea era ca Adrian Vigheciu (PSD) să devină primar interimar al Capitalei. În realitate, ND însuși a împins pentru Stelian Bujduveanu (PNL) — deci spiritul promisiunii (“viceprimar = primar interimar”) a fost respectat, dar persoana a fost schimbată conștient."
+  },
+  {
+    "objectID": "promisiuni.html#toate-cele-131-promisiuni-explorabil",
+    "href": "promisiuni.html#toate-cele-131-promisiuni-explorabil",
+    "title": "Promisiunile",
+    "section": "Toate cele 131 promisiuni — explorabil",
+    "text": "Toate cele 131 promisiuni — explorabil\n\n\n\n\n  \n    \n      \n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n        Loading ITables v2.8.0 from the internet...\n        (need help?)\n      \n    \n  \n\n\n\n\n\n← Înapoi acasă · Vezi cum vorbește despre Bolojan →"
+  }
+]
