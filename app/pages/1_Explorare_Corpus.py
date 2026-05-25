@@ -1,4 +1,4 @@
-"""Page: Browse Corpus — search, filter, view documents."""
+"""Pagină: Explorare Corpus — caută, filtrează, citește documente."""
 from __future__ import annotations
 
 import sys
@@ -10,20 +10,24 @@ import streamlit as st
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from data_loaders import load_corpus_docs, period_for
 
-st.set_page_config(page_title="Browse Corpus", page_icon="📚", layout="wide")
+st.set_page_config(page_title="Explorare Corpus", page_icon="📚", layout="wide")
 
-st.title("Browse Corpus")
+st.title("Explorare Corpus")
 st.markdown(
-    "Caută în textul integral al celor 1,062 discursuri ale lui Nicușor Dan. "
+    "Caută în textul integral al celor 1.062 de discursuri ale lui Nicușor Dan. "
     "Filtrează după dată, sursă, proiecție."
 )
 
-# --- Sidebar filters ---
+# --- Filtre laterale ---
 st.sidebar.header("Filtre")
 
 projection = st.sidebar.selectbox(
-    "Proiecție", ["overall", "scris", "vorbit"], index=0,
-    help="overall = toate sursele; scris = FB; vorbit = video"
+    "Proiecție",
+    ["overall", "scris", "vorbit"],
+    index=0,
+    format_func=lambda x: {"overall": "Toate sursele", "scris": "Scris (Facebook)",
+                            "vorbit": "Vorbit (Video)"}.get(x, x),
+    help="Toate = FB + video; Scris = doar Facebook; Vorbit = doar video"
 )
 
 df = load_corpus_docs(projection)
@@ -36,29 +40,21 @@ date_range = st.sidebar.date_input(
     min_value=date_min.date(), max_value=date_max.date(),
 )
 
-# Filter tip
 all_tips = sorted(df["tip"].unique())
-selected_tips = st.sidebar.multiselect(
-    "Tip document", all_tips, default=all_tips,
-)
+selected_tips = st.sidebar.multiselect("Tip document", all_tips, default=all_tips)
 
-# Filter source channel
 all_canals = sorted([c for c in df["sursa_canal"].unique() if c])
-selected_canals = st.sidebar.multiselect(
-    "Canal sursă", all_canals, default=all_canals,
-)
+selected_canals = st.sidebar.multiselect("Canal sursă", all_canals, default=all_canals)
 
 query = st.sidebar.text_input(
-    "Caută keyword în text",
+    "Caută cuvânt cheie în text",
     placeholder='ex: "pensii", "Ucraina", "deficit"...',
-    help="Case-insensitive, simplu substring (nu regex)."
+    help="Insensibil la majuscule, căutare simplă în text (nu regex)."
 )
 
-min_words = st.sidebar.slider(
-    "Lungime minimă (cuvinte)", 0, 1000, 0, step=50,
-)
+min_words = st.sidebar.slider("Lungime minimă (cuvinte)", 0, 1000, 0, step=50)
 
-# --- Apply filters ---
+# --- Aplicare filtre ---
 if isinstance(date_range, tuple) and len(date_range) == 2:
     start, end = pd.Timestamp(date_range[0]), pd.Timestamp(date_range[1])
     mask = (df["date"] >= start) & (df["date"] <= end)
@@ -79,8 +75,6 @@ if query:
 
 st.markdown(f"**{len(filtered)} / {len(df)} documente** după filtre")
 
-# --- Display ---
-
 if not filtered.empty:
     col1, col2 = st.columns([2, 3])
 
@@ -96,12 +90,15 @@ if not filtered.empty:
 
     st.subheader("Documente")
 
-    # Sort options
-    sort_col = st.selectbox("Sortează după", ["date", "word_count"], index=0)
+    sort_col = st.selectbox(
+        "Sortează după",
+        ["date", "word_count"],
+        index=0,
+        format_func=lambda x: {"date": "Dată", "word_count": "Lungime (cuvinte)"}.get(x, x),
+    )
     sort_desc = st.checkbox("Descrescător", value=True)
     filtered = filtered.sort_values(sort_col, ascending=not sort_desc)
 
-    # Display table with selection
     display_df = filtered[["date", "tip", "sursa_canal", "sursa_titlu", "word_count"]].head(50).copy()
     display_df["date"] = display_df["date"].dt.strftime("%Y-%m-%d")
     display_df.columns = ["Data", "Tip", "Canal", "Titlu", "Cuvinte"]
@@ -115,7 +112,7 @@ if not filtered.empty:
     st.subheader("Vizualizare document")
 
     selected_id = st.selectbox(
-        "Selectează document",
+        "Selectează un document",
         options=filtered["id"].head(50).tolist(),
         format_func=lambda x: f"{filtered[filtered['id']==x]['date'].iloc[0].strftime('%Y-%m-%d')} — {filtered[filtered['id']==x]['sursa_titlu'].iloc[0][:80]}"
     )
@@ -140,7 +137,6 @@ if not filtered.empty:
 
         st.markdown("---")
 
-        # Highlight query in text if present
         text = doc["text"]
         if query:
             import re

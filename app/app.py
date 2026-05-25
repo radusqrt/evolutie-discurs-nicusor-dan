@@ -1,6 +1,6 @@
-"""Streamlit app — Evoluția discursului Nicușor Dan.
+"""Aplicație Streamlit — Evoluția discursului Nicușor Dan.
 
-Home page cu TL;DR + navigare către celelalte pagini.
+Pagina Home cu TL;DR + navigare către celelalte pagini.
 
 Rulare:
     streamlit run app/app.py
@@ -26,18 +26,18 @@ st.set_page_config(
 st.title("Evoluția discursului — Nicușor Dan")
 st.markdown(
     "**Analiză cantitativă a primului an de mandat (decembrie 2024 → mai 2026)**\n\n"
-    "Corpus: 1,062 documente / ~650k cuvinte / 9 surse media | "
-    "27 findings | Promise Tracker pe 131 promisiuni | 26 topice BERTopic | "
-    "3,755 entități NER"
+    "Corpus: 1.062 documente / ~650.000 cuvinte / 9 surse media | "
+    "28 concluzii | Urmărire promisiuni pe 131 angajamente | 26 topice BERTopic | "
+    "3.755 entități NER"
 )
 
 st.markdown("---")
 
-# Quick stats
+# Statistici rapide
 stats = corpus_stats()
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.metric("Overall (toate sursele)", f"{stats['overall']['n_docs']} docs",
+    st.metric("Toate sursele", f"{stats['overall']['n_docs']} docs",
               f"{stats['overall']['n_words']:,} cuvinte")
 with col2:
     st.metric("Scris (Facebook)", f"{stats['scris']['n_docs']} docs",
@@ -48,8 +48,8 @@ with col3:
 
 st.markdown("---")
 
-# TL;DR findings
-st.header("Top findings")
+# Concluzii principale
+st.header("Concluzii principale")
 
 col_a, col_b = st.columns(2)
 
@@ -58,28 +58,28 @@ with col_a:
     st.markdown(
         """
         - **Doi Nicușor Dan**: registru **scris (FB) = instituțional/branding** vs **vorbit (video) = deliberativ/reflexiv**
-        - Vocabular dominant **abstract** (`vrea, sine, trebui, putea`), nu enumerare de policy
-        - **Volum prăbușit post-mandat** — drop 3.6× față de campanie
-        - **Pivot tematic abrupt** trimestru-la-trimestru
-        - **Brand-shedding "România onestă"** după investitură (TF-IDF 0.6 → 0)
-        - FB ultra-disciplinat — **76% într-un singur mega-topic instituțional**
+        - Vocabular dominant **abstract** (`vrea, sine, trebui, putea`), nu enumerare de politică publică
+        - **Volum prăbușit post-mandat** — scădere de 3,6× față de campanie
+        - **Pivot tematic abrupt** trimestru la trimestru
+        - **Renunțare la brandul "România onestă"** după investitură (TF-IDF 0,6 → 0)
+        - Facebook ultra-disciplinat — **76% într-un singur mega-topic instituțional**
         """
     )
 
-    st.subheader("Convergent evidence — IPOTEZA GHOSTWRITING FB")
+    st.subheader("Dovezi convergente — ipoteza ghostwriting Facebook")
     st.markdown(
         """
-        4 metrici independente arată că FB e *un alt agent comunicativ* decât video:
+        4 metrici independente arată că Facebook e *un alt agent comunicativ* decât video:
 
-        1. **Hedging** — FB 0.13-0.23 vs video 0.51-1.06 (**4-5× diferență**)
-        2. **Lexical diversity (MTLD)** — FB growth dramatic 34→87 post-mandat
-        3. **Sentiment polarization** — FB 70% pro/contra vs video 36%
-        4. **BERTopic** — FB 76% într-un singur mega-topic; video are 8 topice + 25% outliers
+        1. **Hedging (ezitare)** — Facebook 0,13-0,23 vs video 0,51-1,06 (**diferență de 4-5×**)
+        2. **Diversitate lexicală (MTLD)** — Facebook creștere dramatică 34→87 post-mandat
+        3. **Polarizare sentiment** — Facebook 70% pro/contra vs video 36%
+        4. **BERTopic** — Facebook 76% într-un singur mega-topic; video are 8 topice + 25% outliers
         """
     )
 
 with col_b:
-    st.subheader("Despre promisiuni (Pasul 4)")
+    st.subheader("Despre promisiuni")
 
     promises = load_promises()
     n_kept = (promises["status"] == "KEPT").sum()
@@ -91,25 +91,25 @@ with col_b:
         f"""
         Din **{len(promises)} promisiuni canonice** clasificate cu LLM:
 
-        - ✅ KEPT: {n_kept} ({100*n_kept/len(promises):.0f}%)
-        - 🔄 IN_PROGRESS: {n_inprog} ({100*n_inprog/len(promises):.0f}%)
-        - ❓ NO_MENTION: {n_nom} ({100*n_nom/len(promises):.0f}%)
-        - ⚠️ CONTRADICTED: {n_contr} ({100*n_contr/len(promises):.0f}%)
-        - ABANDONED: 0 (ND nu rupe vizibil promisiuni)
+        - ✅ Ținute: {n_kept} ({100*n_kept/len(promises):.0f}%)
+        - 🔄 În curs: {n_inprog} ({100*n_inprog/len(promises):.0f}%)
+        - ❓ Nemenționate: {n_nom} ({100*n_nom/len(promises):.0f}%)
+        - ⚠️ Contrazise: {n_contr} ({100*n_contr/len(promises):.0f}%)
+        - Abandonate: 0 (Nicușor Dan nu rupe vizibil promisiuni)
         """
     )
 
     st.subheader("Răsturnare prin fact-check (10 promisiuni verificate web)")
     st.markdown(
         """
-        - **Rate KEPT real = 60%** vs classifier 20% — **subestimare factor 3×**
-        - ND **livrează prin ACȚIUNE, nu prin DISCURS**:
+        - **Rata reală de promisiuni ținute = 60%** vs clasificator 20% — **subestimare cu factor 3×**
+        - Nicușor Dan **livrează prin ACȚIUNE, nu prin DISCURS**:
           - Pensii magistrați promulgată (CCR 6-3)
-          - DNA/DIICOT numire (apr 2026)
-          - Deficit -1.4pp (cea mai mare corecție UE)
-          - OCDE 22/25 opinii (on track 2026)
-          - 50km tramvai contracte semnate
-          - 8 șantiere consolidare active (vs 5 promise)
+          - Numire DNA/DIICOT (aprilie 2026)
+          - Deficit -1,4 puncte procentuale (cea mai mare corecție din UE)
+          - OCDE 22/25 opinii primite (pe traiectorie 2026)
+          - 50 km tramvai contracte semnate
+          - 8 șantiere consolidare active (din 5 promise)
         """
     )
 
@@ -121,27 +121,27 @@ col_nav1, col_nav2, col_nav3 = st.columns(3)
 with col_nav1:
     st.markdown(
         """
-        **Browse Corpus** → search keyword, filter date/proiecție/sursă, citește documente.
+        **Explorare Corpus** → caută cuvinte cheie, filtrează dată/proiecție/sursă, citește documente.
 
-        **Topics** → BERTopic discoveries, heatmaps temporale, drift semantic.
+        **Topice** → topice descoperite cu BERTopic, harți temporale, drift semantic.
         """
     )
 with col_nav2:
     st.markdown(
         """
-        **Entities** → cine apare în discurs (Trump, Putin, Bolojan, ...), când, cu ce sentiment.
+        **Entități** → cine apare în discurs (Trump, Putin, Bolojan, ...), când, cu ce ton.
 
-        **Promises** → toate 131 promisiunile cu status, filter pe topic și KEPT/IN_PROGRESS.
+        **Promisiuni** → toate 131 promisiunile cu status, filter pe temă și ținute/în curs.
         """
     )
 with col_nav3:
     st.markdown(
         """
-        **Findings** → cele 28 findings detaliate cu link-uri către artefacte.
+        **Concluzii** → cele 28 concluzii detaliate cu link-uri către surse.
 
-        **PM Relationship** → raportul ND-Bolojan timeline + fact-check pe 6 perioade.
+        **Relația cu Premierul** → raportul ND-Bolojan pe 6 perioade + fact-check independent.
 
-        Navighează din sidebar →
+        Navighează din meniul lateral →
         """
     )
 
