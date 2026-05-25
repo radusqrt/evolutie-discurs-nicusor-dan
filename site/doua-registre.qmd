@@ -160,9 +160,9 @@ fig.show()
 **Video = 55% polarizat**, 38% mixt, 7% neutru.
 
 ::: {.callout-warning collapse="true"}
-## Limitare metodologică — interpretarea LLM poate fi tare
+## Limitare metodologică — LLM-ul poate supra-interpreta
 
-Clasificarea sentimentului folosește Gemini 2.5 Flash. Modelul **ocazional supra-interpretează** tonul tensionat din context ca "negativ" — chiar dacă în realitate ND e mediator sau apără poziția unei entități.
+Clasificarea sentimentului folosește Gemini 2.5 Flash. Modelul **ocazional citește prea mult** în tonul tensionat din context — etichetează drept "negativ" pasaje în care ND e de fapt mediator sau apără poziția unei entități.
 
 **Exemplu real găsit prin fact-check** (PSD Q2 2026):
 - **Gemini a clasificat**: NEGATIV
