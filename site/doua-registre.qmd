@@ -23,9 +23,11 @@ Răspunsul scurt: da, mari. Cauza acelor diferențe e o întrebare separată, la
 
 ---
 
-## Diferența #1 — Hedging (ezitarea)
+## Diferența #1 — Nuanțare în limbaj (ezitare vs certitudine)
 
-**Ce e**: cât de des folosește cuvinte "delicate" — "cred că", "mi se pare", "probabil", "ar putea" — vs cuvinte categorice — "evident", "sigur", "fără îndoială".
+**Ce e**: cât de des folosește cuvinte care **înmoaie** afirmațiile — *"cred că"*, *"mi se pare"*, *"probabil"*, *"ar putea"* — vs cuvinte categorice — *"evident"*, *"sigur"*, *"fără îndoială"*.
+
+Ratio mare = vorbește **prudent, cu nuanțe**. Ratio mic = vorbește **decis, fără ezitare**.
 
 ```{python}
 #| echo: false
@@ -39,7 +41,7 @@ fig.add_bar(name="Hedge:Cert ratio", x=projections, y=hedge,
             textposition="outside",
             textfont=dict(size=20))
 fig.update_layout(
-    title="Raport hedging:certitudine (mediu, peste 6 perioade)",
+    title="Raport ezitare:certitudine (mediu, peste 6 perioade)",
     yaxis_title="Ratio (mai mare = mai delicat)",
     height=400,
     plot_bgcolor="white",
@@ -59,7 +61,7 @@ Video: ratio 0,51-1,06 — deliberativ, cu nuanțe.
 
 ::: {.callout-note}
 ## Detaliu metodologic
-Lexicon RO custom: 35+ markeri de hedging (cred că, probabil, mi se pare, etc.) și 24 markeri de certitudine (evident, sigur, categoric). Cuantificate per 1.000 cuvinte.
+Lexicon RO custom: 35+ markeri de **ezitare/nuanțare** (cred că, probabil, mi se pare, etc.) și 24 markeri de **certitudine** (evident, sigur, categoric). Cuantificate per 1.000 cuvinte. *(În literatură de specialitate, asta se numește "hedging".)*
 :::
 
 ## Diferența #2 — Pronume personale
@@ -195,7 +197,7 @@ Facebook are **un singur mega-topic** care absoarbe 76% din mesaje — vocabular
 ```{python}
 #| echo: false
 fig = go.Figure()
-metrics = ["Hedging", "Pronume personale", "Diversitate lexicală", "Polarizare sentiment"]
+metrics = ["Nuanțare/ezitare", "Pronume personale", "Diversitate lexicală", "Polarizare sentiment"]
 diff = [4.5, 4.0, 2.5, 2.0]
 fig.add_bar(
     x=metrics, y=diff,

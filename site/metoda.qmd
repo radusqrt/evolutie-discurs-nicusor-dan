@@ -26,7 +26,7 @@ flowchart TB
     F --> G[7. Analyze basic+TF-IDF]
     G --> H[8. BERTopic]
     G --> I[9. Promise Tracker]
-    G --> J[10. Advanced: complexity, hedging, drift, NER, sentiment]
+    G --> J[10. Avansate: complexitate, ezitare/nuanțare, drift, NER, sentiment]
     J --> K[11. ND-Bolojan]
     H --> L[Interpret]
     I --> L
@@ -90,7 +90,7 @@ Sub-pipeline cu 4 etape:
 | # | Analiză | Tehnică |
 |---|---|---|
 | 5 | Discourse complexity | spaCy parser → sentence length, tree depth, MTLD, TTR |
-| 6 | Hedging epistemic | Lexicon RO custom 35+ hedging, 24 certitudine |
+| 6 | Ezitare / nuanțare în limbaj (hedging) | Lexicon RO custom 35+ markeri nuanțare, 24 certitudine |
 | 7 | Semantic drift | mpnet centroid per (topic × perioadă), cosine drift |
 | 8 | NER entități | GLiNER multi-v2.1 zero-shot |
 | 9 | Sentiment per entitate | Gemini 2.5 Flash pe paragrafe relevante |

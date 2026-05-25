@@ -83,7 +83,7 @@ HTML(html)
 
 ### 1. Două registre — scris vs vorbit — radical diferite
 
-Pe Facebook scrie cu vocabular **instituțional**, repetitiv, fără ezitări. Pe video vorbește **reflexiv**, cu pauze, întrebări, "cred că". Patru metrici independente (hedging, pronume, diversitate lexicală, polarizare sentiment) arată **diferențe de 2-5×** între cele două canale.
+Pe Facebook scrie cu vocabular **instituțional**, repetitiv, fără ezitări. Pe video vorbește **reflexiv**, cu pauze, întrebări, "cred că". Patru metrici independente (ezitare/nuanțare, pronume personale, diversitate lexicală, polarizare sentiment) arată **diferențe de 2-5×** între cele două canale.
 
 **Cauza e neclară** — poate fi adaptare naturală la medium, audiență diferită, sau colaborare cu echipă PR pentru FB. Datele nu disting între aceste ipoteze.
 
@@ -252,7 +252,7 @@ Toate metodele sunt **open source și reproducibile**. Codul Python + datele bru
 7. **Promise Tracker** — 131 promisiuni extrase + clasificate
 8. **Audit dublu** (2 seed-uri, 32 sample-uri, 75% spot-on)
 9. **Fact-check web** independent pe 10 promisiuni
-10. **Analize avansate** — complexity, hedging, drift, NER, sentiment
+10. **Analize avansate** — complexitate discurs, ezitare/nuanțare în limbaj, drift semantic, NER, sentiment
 11. **Raport ND-Bolojan** + fact-check pe 6 perioade
 
 [→ Vezi metodologia completă](metoda.qmd)

@@ -182,12 +182,12 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 
 - **Pasul 10 (Advanced analyses)** — 5 analize SotA rulate pe toate 3 proiecții (overall/scris/vorbit) cu 15 output-uri totale:
   - **Discourse complexity**: sentence length, dependency tree depth, MTLD, TTR. FB diversifică lexicon dramatic post-mandat (MTLD 34→87), video stabil 42-54.
-  - **Hedging epistemic markers**: lexicon custom 35+ hedge / 24 cert / 19 personal. FB ratio 0.13-0.23 (categoric), video 0.51-1.06 (deliberativ) — **4-5× diferență**.
+  - **Ezitare / nuanțare în limbaj** (hedging): lexicon custom 35+ markeri nuanțare / 24 certitudine / 19 personali. FB ratio 0.13-0.23 (categoric), video 0.51-1.06 (deliberativ) — **4-5× diferență**.
   - **Semantic drift**: centroid embedding per (topic × perioadă). Top drift overall: brand `nicusorpresedinte` 0.37, Georgescu frame 0.32, justiție/CSM 0.30.
   - **NER cu GLiNER multi-v2.1 zero-shot**: ~3,755 mențiuni overall (curate ~700 după aliasing). Top entități: ROMÂNIA, UCRAINA, SUA, NATO, UE, R. MOLDOVA, RUSIA, CSM, POLONIA, OCDE, GEORGESCU.
   - **Sentiment per entitate × perioadă** cu Gemini 2.5 Flash. FB e 70% polarizat (pro/contra), video doar 36% polarizat. TRUMP = MIXT (nu pozitiv) în video; doar 5 sentimente NEGATIVE explicite în overall.
 
-**Insight major Pasul 10**: 4 metrici convergente arată diferențe radicale FB vs video — (1) hedging 4-5× diferit, (2) MTLD growth dramatică doar pe FB, (3) sentiment 2× mai polarizat pe FB, (4) BERTopic 76% într-un singur mega-topic FB. Cauza diferențelor (ghostwriting PR, adaptare naturală la medium, sau audiență diferită) rămâne deschisă — pentru a o distinge ar fi nevoie de stylometry formală (Burrows' Delta + PCA function words) sau comparație cu baseline politic (Iohannis, etc.).
+**Insight major Pasul 10**: 4 metrici convergente arată diferențe radicale FB vs video — (1) ezitare/nuanțare 4-5× diferit, (2) MTLD growth dramatică doar pe FB, (3) sentiment 2× mai polarizat pe FB, (4) BERTopic 76% într-un singur mega-topic FB. Cauza diferențelor (ghostwriting PR, adaptare naturală la medium, sau audiență diferită) rămâne deschisă — pentru a o distinge ar fi nevoie de stylometry formală (Burrows' Delta + PCA function words) sau comparație cu baseline politic (Iohannis, etc.).
 
 - **Pasul 11 (Raportul ND-Bolojan)** — extract complet 86 spans Bolojan + premier + prim-ministru din corpus (vs doar 14 în NER GLiNER, fiindcă majoritatea sunt "premier" fără nume direct) + 22 spans Ciolacu pentru comparație. Clasificare Gemini ton relațional per perioadă:
   - Q1 2025: **distant** ("am uitat de el")

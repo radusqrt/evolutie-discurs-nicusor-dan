@@ -71,7 +71,7 @@ with col_a:
         """
         Patru metrici independente arată diferențe radicale între FB și video:
 
-        1. **Hedging (ezitare)** — Facebook 0,13-0,23 vs video 0,51-1,06 (**diferență de 4-5×**)
+        1. **Ezitare / nuanțare în limbaj** — Facebook 0,13-0,23 vs video 0,51-1,06 (**diferență de 4-5×**)
         2. **Diversitate lexicală (MTLD)** — Facebook creștere dramatică 34→87 post-mandat
         3. **Polarizare sentiment** — Facebook 70% pro/contra vs video 36%
         4. **BERTopic** — Facebook 76% într-un singur mega-topic; video are 8 topice + 25% outliers

@@ -253,16 +253,16 @@ Pe spaCy parser: sentence length, dependency tree depth, MTLD, TTR, function rat
 
 FB **își diversifică lexicon-ul dramatic post-mandat** (MTLD 2.5× growth), video rămâne stabil. Schimbarea bruscă coincide cu schimbarea rolului (candidat → președinte) — *consistentă cu* o schimbare de proces de producție FB, dar cauza exactă rămâne neclară.
 
-### 23. **Hedging — diferență 4-5× FB vs video (Pasul 6)**
+### 23. **Ezitare / nuanțare în limbaj — diferență 4-5× FB vs video (Pasul 6)**
 
-Lexicon custom RO: 35+ hedging, 24 certitudine, 19 personal markers.
+Lexicon custom RO: 35+ markeri nuanțare/ezitare ("cred că", "probabil", "mi se pare"), 24 markeri certitudine ("evident", "sigur", "categoric"), 19 markeri personali ("eu", "mie", "personal"). În literatura de specialitate, asta se numește "hedging".
 
 | Proiecție | Hedge:Cert ratio | Personal/1000w |
 |---|---:|---:|
 | **Scris (FB)** | **0.13-0.23** (ULTRA categoric) | 0.7-3.3 |
 | **Vorbit (video)** | **0.51-1.06** (deliberativ) | 5.3-9.5 |
 
-**4-5× diferență** între cele 2 register-uri pe hedging și personal pronouns. Confirmă **brutal** că FB e scris în registru "instituțional formalizat" (sau de un team PR), iar video e ND vorbind genuine.
+**4-5× diferență** între cele 2 registere pe nuanțare lingvistică și pronume personale. FB e scris în registru "instituțional formalizat", video e ND vorbind spontan.
 
 **Evoluție temporală overall**: Q2 campanie = cel mai categoric (0.27), Q1 2026 reformă judiciară = revenire la deliberativ (0.66). ND e **categoric când vinde mesaj** și **deliberativ când are putere și complexitate**.
 
@@ -398,7 +398,7 @@ Pasul 10 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Boloja
 
 Din Pasul 1-9, am acumulat **4 metrici convergente** care arată că FB-ul și video-ul lui Nicușor Dan au registre comunicative **radical diferite**:
 
-1. **Hedging (Pasul 6)**: FB hedge:cert ratio = 0.13-0.23 vs video 0.51-1.06 = **4-5× diferență**
+1. **Ezitare / nuanțare în limbaj (Pasul 6)**: FB ezitare:certitudine ratio = 0.13-0.23 vs video 0.51-1.06 = **4-5× diferență**
 2. **Discourse complexity (Pasul 5)**: FB MTLD growth 34→87 post-mandat, video MTLD stabil 42-54
 3. **Sentiment polarization (Pasul 9)**: FB 70% polarizat pro/contra, video doar 36% polarizat
 4. **BERTopic (Pasul 3)**: FB are 76% într-un singur mega-topic instituțional; video are 8 topice + 25% outliers
