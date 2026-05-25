@@ -163,48 +163,65 @@ fig.update_xaxes(tickangle=-30)
 fig.show()
 ```
 
-## Pattern: policy internă vs externă (vizualizare clasificator)
+## Rata reală KEPT pe domeniu — clasificator vs fact-check
 
 ```{python}
 #| echo: false
+# Calculate real KEPT% and classifier KEPT% per topic from fact-check data
+topic_stats = []
+for topic in promises["topic"].unique():
+    sub = promises[promises["topic"] == topic]
+    total = len(sub)
+    if total < 3:
+        continue
+    kept_real = (sub["manual_factcheck_status"] == "KEPT_real").sum()
+    kept_clf = (sub["status_status"] == "KEPT").sum()
+    topic_stats.append({
+        "topic": topic,
+        "total": total,
+        "kept_real_pct": round(100 * kept_real / total),
+        "kept_clf_pct": round(100 * kept_clf / total),
+    })
+
+# Sort by total desc, then take top 12
+topic_stats = sorted(topic_stats, key=lambda x: -x["total"])
+domains = [t["topic"] for t in topic_stats]
+real_vals = [t["kept_real_pct"] for t in topic_stats]
+clf_vals = [t["kept_clf_pct"] for t in topic_stats]
+
 fig = go.Figure()
-domains = ["București/local", "Diplomație", "Ucraina/Rusia", "Anti-corupție",
-           "Sănătate", "Educație", "Măsuri fiscale", "R. Moldova"]
-kept_classifier = [4, 60, 67, 0, 0, 0, 0, 0]
-fig.add_bar(
-    x=domains, y=kept_classifier,
-    marker_color=["#e63946", "#2a9d8f", "#2a9d8f", "#e63946",
-                   "#e63946", "#e63946", "#e63946", "#e63946"],
-    text=[f"{v}%" for v in kept_classifier],
-    textposition="outside",
-)
+fig.add_bar(name="Clasificator LLM (discurs)", x=domains, y=clf_vals,
+            marker_color="#cccccc",
+            text=[f"{v}%" for v in clf_vals], textposition="outside")
+fig.add_bar(name="Fact-check real (verificat)", x=domains, y=real_vals,
+            marker_color="#2a9d8f",
+            text=[f"{v}%" for v in real_vals], textposition="outside")
 fig.update_layout(
-    title="Rata de promisiuni ținute (clasificator) pe domeniu",
-    yaxis_title="% ținute",
-    height=450,
+    barmode="group",
+    title="Rata KEPT pe domeniu: clasificator vs realitate fact-checked",
+    yaxis_title="% promisiuni ținute",
+    yaxis_range=[0, 110],
+    height=500,
     plot_bgcolor="white",
-    showlegend=False,
-    yaxis_range=[0, 80],
+    legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01),
 )
 fig.update_xaxes(tickangle=-30)
 fig.show()
 ```
 
-În discurs, **diplomația și relațiile cu Ucraina** sunt singurele domenii cu livrare clară aparentă. Politica internă (sănătate, educație, fiscale, anti-corupție) e *în viziunea clasificatorului* zero.
+**Observații concrete pe domenii**:
 
-**Dar acțiunile reale arată că ND livrează și pe aceste domenii** — exemple confirmate:
+- **Diplomație**: 100% KEPT real (vs 60% classifier) — toate 10 promisiunile diplomatice confirmate executate
+- **NATO/apărare**: 86% KEPT real (vs 29% classifier) — acțiuni concrete (B9 summit, 5% PIB angajament)
+- **Justiție electorală**: 82% KEPT real (vs 41% classifier) — promisiuni pre-mandate fulfilled
+- **Anti-corupție**: 67% real (vs 0% classifier) — numiri DNA/DIICOT
+- **Diaspora**: 100% real (vs 0% classifier) — consilieri prezidențiali pentru diaspora numiți
+- **București/local**: 44% real (vs 4% classifier) — proiecte PMB executate sub Bujduveanu/Ciucu
+- **Sănătate / Educație**: 0% KEPT atât classifier cât și real — domenii unde livrarea concretă este realmente limitată
 
-| Domeniu | Clasificator | Realitate (acțiuni concrete) |
-|---|---|---|
-| Anti-corupție | 0% ținute | ✅ Numirile DNA/DIICOT făcute (apr 2026) |
-| Justiție | n/a | ✅ Legea pensii magistrați promulgată (CCR 6-3) |
-| Fiscale | 0% ținute | 🔄 Deficit -1,4 puncte procentuale (cea mai mare corecție UE) |
-| OCDE | n/a | 🔄 22/25 opinii primite (on track 2026) |
-| București | 4% ținute | ✅ 50km tramvai contracte semnate, 8 șantiere consolidare active |
-
-::: {.callout-note}
-## Notă: aceste exemple sunt selectate, nu random
-Cele 5 cazuri de mai sus au fost alese deliberat pentru vizibilitate și predispoziție la decalaj — sunt cazuri unde *bănuiam* discrepanță, nu eșantion statistic. Pentru o estimare defensibilă, vezi **audit random** mai sus (15 promisiuni, 4 din 4 NO_MENTION confirmate ca KEPT real).
+::: {.callout-tip}
+## Cum s-au calculat aceste cifre
+Bar chart de mai sus folosește date computate **direct din `promise_status.jsonl`** (câmpurile `status_status` pentru clasificator, `manual_factcheck_status` pentru fact-check). Recalculate la fiecare render — sincronizate cu datele.
 :::
 
 ND **execută concret pe aceste domenii — dar nu vorbește despre realizările sale post-execuție**.
