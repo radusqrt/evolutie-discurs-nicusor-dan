@@ -6,7 +6,7 @@ Data sumar: 2026-05-24. Corpus: 1062 docs overall (724 scris FB, 338 vorbit vide
 
 ---
 
-## 1. Doi Nicușor Dan: registru scris vs vorbit complet diferit
+## 1. Două registre comunicative: scris (FB) vs vorbit (video) — diferențe radicale
 
 Cea mai puternică observație. Top 10 cuvinte pe fiecare proiecție diverg radical:
 
@@ -252,9 +252,9 @@ Pe spaCy parser: sentence length, dependency tree depth, MTLD, TTR, function rat
 - **Scris (FB)**: cuvinte 5.5-6.3 chars, function ratio 0.36-0.44, **MTLD growing 34 → 87 post-mandat**
 - **Vorbit (video)**: cuvinte 4.5-4.7 chars, function ratio 0.52-0.56, MTLD stabil 42-54
 
-FB **își diversifică lexicon-ul dramatic post-mandat** (MTLD 2.5× growth), video rămâne stabil. Sugerează profesionalizare PR pe FB (sub-finding pentru ipoteza ghostwriting).
+FB **își diversifică lexicon-ul dramatic post-mandat** (MTLD 2.5× growth), video rămâne stabil. Schimbarea bruscă coincide cu schimbarea rolului (candidat → președinte) — *consistentă cu* o schimbare de proces de producție FB, dar cauza exactă rămâne neclară.
 
-### 23. **Hedging confirmă brutal ipoteza ghostwriting FB (Pasul 6)**
+### 23. **Hedging — diferență 4-5× FB vs video (Pasul 6)**
 
 Lexicon custom RO: 35+ hedging, 24 certitudine, 19 personal markers.
 
@@ -351,7 +351,7 @@ Pasul 9 rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vo
 | PSD | NEGATIV | **MIXT** | FB atacă (campanie); video temperează (post-coaliție) |
 | SIMION | n/a | **NEGATIV** | FB nu îl numește; video îl critică explicit |
 
-**Sub-finding majoritar pentru ipoteza GHOSTWRITING FB**: FB = instrument de polarizare clară (pro/contra explicit); video = instrument de nuanță și echivoc. ND personal e mai prudent când vorbește; pe FB apare un registru categoric care e mai compatibil cu un PR team decât cu deliberarea personală.
+**Sub-finding pentru diferențele de registru**: FB = instrument de polarizare clară (pro/contra explicit); video = instrument de nuanță și echivoc. ND în video e mai prudent; pe FB apare un registru categoric. Această diferență poate veni din mai multe surse (vezi secțiunea "Convergent evidence" mai jos cu cele 4 ipoteze plauzibile).
 
 ---
 
@@ -395,17 +395,30 @@ Pasul 10 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Boloja
 
 ---
 
-## Convergent evidence — IPOTEZA GHOSTWRITING FB (3 piloni cantitativi)
+## Convergent evidence — diferențe cantitative scris vs vorbit (4 metrici independente)
 
-Din Pasul 1-9, am acumulat **3 piloni convergenți** pentru ipoteza că **FB-ul lui Nicușor Dan e scris sau redactat semnificativ de o echipă PR, nu de el personal**:
+Din Pasul 1-9, am acumulat **4 metrici convergente** care arată că FB-ul și video-ul lui Nicușor Dan au registre comunicative **radical diferite**:
 
 1. **Hedging (Pasul 6)**: FB hedge:cert ratio = 0.13-0.23 vs video 0.51-1.06 = **4-5× diferență**
-2. **Discourse complexity (Pasul 5)**: FB MTLD growth 34→87 post-mandat (profesionalizare), video MTLD stabil 42-54
-3. **Sentiment polarization (Pasul 9)**: FB 70% polarizat pro/contra, video doar 36% polarizat (rest mixt/n/a)
+2. **Discourse complexity (Pasul 5)**: FB MTLD growth 34→87 post-mandat, video MTLD stabil 42-54
+3. **Sentiment polarization (Pasul 9)**: FB 70% polarizat pro/contra, video doar 36% polarizat
+4. **BERTopic (Pasul 3)**: FB are 76% într-un singur mega-topic instituțional; video are 8 topice + 25% outliers
 
-Plus convergent: **BERTopic (Pasul 3)** — FB are 76% într-un singur mega-topic instituțional; video are 8 topice + 25% outliers (mai dispers, mai natural).
+**Diferențele sunt reale și consistente. Cauza lor este însă o întrebare separată, la care datele actuale nu pot răspunde univoc.**
 
-**Concluzie**: 4 metrici independente arată că FB e *un alt agent comunicativ* decât video. Sau ND scrie pe FB într-un "alter ego instituțional" radical diferit de cum vorbește live. Distincția dintre cele 2 ipoteze (ghostwriting vs alter-ego) ar necesita analiză stylometric formală (Burrows' Delta, function word PCA).
+### Ipoteze plauzibile (nu putem distinge între ele)
+
+a. **Diferențe naturale de gen comunicativ** — orice persoană scrie diferit de cum vorbește. Universal.
+b. **Constraint-uri de medium** — FB e editabil/scurt; video e spontan/lung. Diferit de natură.
+c. **Audiență diferită** — FB pentru susținători/public; video pentru jurnaliști/critici. Stiluri adaptate la audiență.
+d. **Colaborare cu echipă PR pentru FB** — postările sunt redactate sau adaptate de un team de comunicare. Compatibilă cu datele observate.
+
+### Ce ar fi nevoie să distingă
+
+- **Stylometry formală** (Burrows' Delta + PCA pe function words) — *neefectuată* în acest proiect.
+- **Baseline politic comparativ** — Iohannis, Băsescu, Macron prezintă același pattern? Dacă da, e pattern instituție, nu unic pentru ND.
+
+**Concluzia onestă**: diferențele cantitative dintre cele 2 registre sunt mari și documentate. Interpretarea cauzei (ghostwriting vs adaptare naturală) rămâne deschisă.
 
 ---
 

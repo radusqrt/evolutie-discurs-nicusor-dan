@@ -57,7 +57,7 @@ with col_a:
     st.subheader("Despre discurs")
     st.markdown(
         """
-        - **Doi Nicușor Dan**: registru **scris (FB) = instituțional/branding** vs **vorbit (video) = deliberativ/reflexiv**
+        - **Două registre**: scris (FB) = instituțional/branding vs vorbit (video) = deliberativ/reflexiv (cauza neclară — vezi limitări metodologice)
         - Vocabular dominant **abstract** (`vrea, sine, trebui, putea`), nu enumerare de politică publică
         - **Volum prăbușit post-mandat** — scădere de 3,6× față de campanie
         - **Pivot tematic abrupt** trimestru la trimestru
@@ -66,15 +66,17 @@ with col_a:
         """
     )
 
-    st.subheader("Dovezi convergente — ipoteza ghostwriting Facebook")
+    st.subheader("Diferențe cantitative scris vs vorbit (4 metrici)")
     st.markdown(
         """
-        4 metrici independente arată că Facebook e *un alt agent comunicativ* decât video:
+        Patru metrici independente arată diferențe radicale între FB și video:
 
         1. **Hedging (ezitare)** — Facebook 0,13-0,23 vs video 0,51-1,06 (**diferență de 4-5×**)
         2. **Diversitate lexicală (MTLD)** — Facebook creștere dramatică 34→87 post-mandat
         3. **Polarizare sentiment** — Facebook 70% pro/contra vs video 36%
         4. **BERTopic** — Facebook 76% într-un singur mega-topic; video are 8 topice + 25% outliers
+
+        **Cauza e neclară**: diferențe naturale de gen, audiență diferită, sau colaborare cu echipă PR pentru FB. Stylometry formală ar putea distinge — neefectuată în acest proiect.
         """
     )
 

@@ -38,7 +38,7 @@ n_nom = (promises["status_status"] == "NO_MENTION").sum()
 ```
 
 ::: {.hook-card}
-**1.062 de discursuri analizate.** 28 de concluzii. Un președinte cu două voci, 131 de promisiuni, un raport tensionat cu premierul Bolojan și o discrepanță uriașă între ce **spune** și ce **face**.
+**1.062 de discursuri analizate.** 28 de concluzii. Două registre comunicative (scris vs vorbit) cu diferențe radicale, 131 de promisiuni urmărite, un raport tensionat cu premierul Bolojan și o discrepanță uriașă între ce **spune** și ce **face**.
 :::
 
 ## Care e povestea
@@ -81,11 +81,13 @@ HTML(html)
 
 ## 5 concluzii care îți schimbă perspectiva
 
-### 1. Sunt doi Nicușor Dan, nu unul
+### 1. Două registre — scris vs vorbit — radical diferite
 
-Pe Facebook scrie cu vocabular **instituțional**, repetitiv, fără ezitări. Pe video vorbește **reflexiv**, cu pauze, întrebări, "cred că". Analize multiple — diversitate lexicală, hedging, sentiment — arată **diferențe de 4-5×** între cele două registre.
+Pe Facebook scrie cu vocabular **instituțional**, repetitiv, fără ezitări. Pe video vorbește **reflexiv**, cu pauze, întrebări, "cred că". Patru metrici independente (hedging, pronume, diversitate lexicală, polarizare sentiment) arată **diferențe de 2-5×** între cele două canale.
 
-[→ Citește analiza completă](doi-nicusor-dan.qmd)
+**Cauza e neclară** — poate fi adaptare naturală la medium, audiență diferită, sau colaborare cu echipă PR pentru FB. Datele nu disting între aceste ipoteze.
+
+[→ Citește analiza completă cu limitări metodologice](doua-registre.qmd)
 
 ### 2. Livrează prin acțiune, nu prin discurs
 

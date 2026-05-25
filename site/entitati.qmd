@@ -192,6 +192,6 @@ Aceeași entitate, sentiment diferit în funcție de canal:
 
 **Facebook polarizează (70% pro/contra). Video nuanțează (36% polarizat, restul mixt/n/a).**
 
-[Vezi analiza completă scris vs vorbit →](doi-nicusor-dan.qmd)
+[Vezi analiza completă scris vs vorbit →](doua-registre.qmd)
 
 [← Acasă](index.qmd) · [Promisiunile →](promisiuni.qmd)

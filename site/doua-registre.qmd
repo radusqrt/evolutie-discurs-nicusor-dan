@@ -1,7 +1,7 @@
 ---
-title: "Doi Nicușor Dan"
-subtitle: "Pe Facebook scrie ca o instituție. În video vorbește ca un om."
-description: "Cele 4 metrici cantitative care arată că FB și video sunt aproape sigur produse de doi agenți comunicativi diferiți."
+title: "Două registre — scris vs vorbit"
+subtitle: "Facebook-ul lui ND e radical diferit de cum vorbește live. Cauza e neclară."
+description: "Patru metrici cantitative arată diferențe mari între cele două canale. Listăm datele, fără să sărim la concluzii pripite despre cauză."
 ---
 
 ```{python}
@@ -15,22 +15,22 @@ import plotly.graph_objects as go
 import plotly.express as px
 ```
 
-## Ipoteza
+## Întrebarea de pornire
 
-ND scrie pe Facebook într-un registru radical diferit de cum vorbește în video.
+**Există diferențe cantitative între cum scrie Nicușor Dan pe Facebook și cum vorbește în interviuri/conferințe video?**
 
-**4 metrici independente** susțin asta. Hai să le vezi.
+Răspunsul scurt: da, mari. Cauza acelor diferențe e o întrebare separată, la care **acest dataset singur nu poate răspunde**.
 
 ---
 
-## #1 — Hedging (ezitarea)
+## Diferența #1 — Hedging (ezitarea)
 
 **Ce e**: cât de des folosește cuvinte "delicate" — "cred că", "mi se pare", "probabil", "ar putea" — vs cuvinte categorice — "evident", "sigur", "fără îndoială".
 
 ```{python}
 #| echo: false
 projections = ["Scris (Facebook)", "Vorbit (video)"]
-hedge = [0.18, 0.78]  # mid-range medii
+hedge = [0.18, 0.78]
 
 fig = go.Figure()
 fig.add_bar(name="Hedge:Cert ratio", x=projections, y=hedge,
@@ -54,15 +54,15 @@ fig.update_layout(
 fig.show()
 ```
 
-Facebook: ratio 0,13-0,23 — **categoric, fără ezitare**.
-Video: ratio 0,51-1,06 — **deliberativ, cu nuanțe**.
+Facebook: ratio 0,13-0,23 — categoric, fără ezitare.
+Video: ratio 0,51-1,06 — deliberativ, cu nuanțe.
 
 ::: {.callout-note}
 ## Detaliu metodologic
 Lexicon RO custom: 35+ markeri de hedging (cred că, probabil, mi se pare, etc.) și 24 markeri de certitudine (evident, sigur, categoric). Cuantificate per 1.000 cuvinte.
 :::
 
-## #2 — Pronume personale
+## Diferența #2 — Pronume personale
 
 ```{python}
 #| echo: false
@@ -85,11 +85,9 @@ fig.update_layout(
 fig.show()
 ```
 
-Pe Facebook ND **dispare** din propriul mesaj (0,7-3,3 pronume personale per 1.000 cuvinte). În video e dominant prezent (5,3-9,5).
+Pe Facebook ND apare mult mai rar la persoana I (0,7-3,3 pronume personale per 1.000 cuvinte). În video e dominant prezent (5,3-9,5).
 
-Asta sugerează că FB-ul **e scris în registru "noi instituționalul"**, nu "eu personalul".
-
-## #3 — Diversitatea lexicală (MTLD)
+## Diferența #3 — Diversitatea lexicală (MTLD)
 
 Cât de variat e vocabularul, normalizat pentru lungime.
 
@@ -115,27 +113,13 @@ fig.update_layout(
     yaxis_title="MTLD score",
     height=420,
     plot_bgcolor="white",
-    annotations=[
-        dict(x="Q4 2025", y=92, text="<b>FB se profesionalizează</b>",
-             showarrow=True, arrowhead=2, ax=-60, ay=-30),
-    ],
 )
 fig.show()
 ```
 
-Vocabularul Facebook **explodează după mandat** (34 → 87 = creștere 2,5×). Vocabularul video **rămâne stabil** (42-54).
+Vocabularul Facebook **crește dramatic după mandat** (34 → 87 = creștere 2,5×). Vocabularul video **rămâne stabil** (42-54).
 
-::: {.callout-warning}
-## Ce înseamnă asta
-FB se *profesionalizează* dramatic post-mandat. Sau:
-- ND angajează ghost-writers/PR team după ce devine președinte
-- Sau își diversifică audiența (mesaje pentru diferite grupuri)
-- Sau își schimbă conștient stilul
-
-Orice variantă, **e o tranziție bruscă coordonată cu schimbarea rolului**.
-:::
-
-## #4 — Polarizare sentiment
+## Diferența #4 — Polarizare sentiment
 
 Cum se atitudinează ND față de entitățile pe care le menționează — pozitiv, negativ, mixt, neutru?
 
@@ -172,7 +156,7 @@ fig.show()
 **Facebook = 70% polarizat** (pro/contra explicit).
 **Video = 36% polarizat**, restul mixt/neutru.
 
-Trei cazuri concrete unde diferă sentiment:
+Trei cazuri concrete unde diferă sentiment-ul aceleiași entități:
 
 | Entitate | Pe Facebook | În video |
 |---|---|---|
@@ -180,9 +164,7 @@ Trei cazuri concrete unde diferă sentiment:
 | **PSD** | Negativ | Mixt (temperat) |
 | **Simion** | Nemenționat | **Negativ** |
 
-ND personal e nuanțat. Pe Facebook apare ca **polarizat clar**.
-
-## #5 — Topicele (BERTopic)
+## Diferența #5 — Topicele (BERTopic)
 
 ```{python}
 #| echo: false
@@ -204,19 +186,17 @@ fig.update_layout(
 fig.show()
 ```
 
-Facebook are **un singur mega-topic** care absoarbe 76% din mesaje — vocabular instituțional standard. Video are mai multe topice dar 25% sunt outliers — adică **discurs liber, neclasificabil**.
-
-Concluzie: FB e *constrans la message discipline*, video e *gândire liberă*.
+Facebook are **un singur mega-topic** care absoarbe 76% din mesaje — vocabular instituțional standard. Video are mai multe topice dar 25% sunt outliers — discurs liber, neclasificabil ușor.
 
 ---
 
-## Verdict: 4 dovezi convergente
+## Cum arată diferențele cumulat
 
 ```{python}
 #| echo: false
 fig = go.Figure()
 metrics = ["Hedging", "Pronume personale", "Diversitate lexicală", "Polarizare sentiment"]
-diff = [4.5, 4.0, 2.5, 2.0]  # diferențe FB vs video
+diff = [4.5, 4.0, 2.5, 2.0]
 fig.add_bar(
     x=metrics, y=diff,
     marker_color="#003049",
@@ -225,8 +205,8 @@ fig.add_bar(
     textfont=dict(size=18),
 )
 fig.update_layout(
-    title="Toate 4 metrici arată Facebook = registru diferit de video",
-    yaxis_title="Diferență FB vs video (multiplicator)",
+    title="Diferențe scris vs vorbit (multiplicator)",
+    yaxis_title="Diferență (de câte ori)",
     yaxis_range=[0, 6],
     height=420,
     plot_bgcolor="white",
@@ -235,24 +215,44 @@ fig.update_layout(
 fig.show()
 ```
 
-**Plus** BERTopic-ul ca a 4-a evidență. **4 metrici independente** indică același lucru: **Facebook nu e scris în același registru cu cum vorbește ND**.
-
-::: {.callout-tip}
-## Două ipoteze posibile
-1. **Ghostwriting**: postările sunt scrise de un team PR (consilieri, manageri campanie), nu de ND personal
-2. **Alter ego instituțional**: ND scrie singur dar într-un registru formalizat ("modul președinte")
-
-Diferența între cele două ipoteze necesită **stylometry formală** (Burrows' Delta + function word PCA) — analiză care nu a fost încă rulată. Dar **toate cele 4 metrici sunt deja consistente cu ipoteza ghostwriting**.
-:::
+Patru metrici independente arată că pe **Facebook** Nicușor Dan apare **mai categoric, mai impersonal, cu vocabular mai diversificat și mai polarizat** față de cum vorbește **live**.
 
 ---
 
-## Ce înseamnă asta pentru tine, cititorul
+## Ce NU putem spune
 
-Când citești un post de pe pagina lui ND, **nu citești neapărat opinia lui personală**.
+::: {.callout-important}
+## Datele nu spun că sunt "doi Nicușor Dan"
+Diferențele observate sunt reale. **Cauza lor e însă neclară**. Există cel puțin patru explicații plauzibile, și nu putem distinge între ele cu datele actuale:
 
-Când îl vezi într-un interviu video, **acolo e ND-ul real** — cu pauze, ezitări, "cred că", revizuiri.
+1. **Diferențe naturale de gen comunicativ**: orice persoană scrie diferit de cum vorbește — mai îngrijit, mai puține ezitări, mai puțină auto-referință. Asta e universal.
 
-Dacă vrei să înțelegi președintele, **uită-te la video, nu pe Facebook**.
+2. **Constraint-uri de medium**: postările FB sunt scurte, editabile, polished. Video-ul e real-time, needitabil. Diferit de natură.
+
+3. **Audiență diferită**: FB targetează în special susținători + public general. Interviurile video targetează jurnaliști + critici. Stiluri diferite pentru audiențe diferite e normal.
+
+4. **Colaborare cu echipă PR**: este posibil ca postările FB să fie redactate sau adaptate de o echipă de comunicare. Acest scenariu ar produce diferențele observate, dar **nu este singura explicație**.
+
+**Pentru a distinge** între aceste ipoteze ar fi nevoie de:
+
+- **Stylometry formală** — Burrows' Delta + PCA pe function words. Această analiză specifică nu a fost rulată în acest proiect.
+- **Comparație cu baseline politic** — alți președinți (Iohannis, Băsescu, Macron) prezintă același pattern de divergență FB vs video? Dacă da, atunci e *pattern instituție*, nu specific lui ND.
+:::
+
+## Ce putem spune cu încredere
+
+- **Diferențele cantitative sunt mari și consistente** (4 metrici × 6 perioade).
+- **Diferența nu e doar de stil**: e și de **conținut emoțional** (polarizare) și de **profunzime tematică** (BERTopic).
+- **MTLD-ul Facebook explodează după mandat**, în timp ce video-ul rămâne stabil — asta sugerează **o schimbare a procesului de producție pentru FB după ce ND a câștigat alegerile**.
+
+## Ce înseamnă pentru tine, cititorul
+
+Indiferent de cauză:
+
+- **Postările FB sunt un canal formal**, controlat, cu mesaj polished. Le citești ca pe **anunțuri oficiale**.
+- **Interviurile video sunt mai apropiate de gândirea lui ND** — cu pauze, întrebări, revizuiri.
+- Dacă vrei să înțelegi cum gândește președintele pe un subiect complex, **uită-te la video, nu la postări**.
+
+---
 
 [← Acasă](index.qmd) · [Citește despre cum a vorbit despre Bolojan →](bolojan.qmd)

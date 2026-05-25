@@ -185,7 +185,7 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
   - **NER cu GLiNER multi-v2.1 zero-shot**: ~3,755 mențiuni overall (curate ~700 după aliasing). Top entități: ROMÂNIA, UCRAINA, SUA, NATO, UE, R. MOLDOVA, RUSIA, CSM, POLONIA, OCDE, GEORGESCU.
   - **Sentiment per entitate × perioadă** cu Gemini 2.5 Flash. FB e 70% polarizat (pro/contra), video doar 36% polarizat. TRUMP = MIXT (nu pozitiv) în video; doar 5 sentimente NEGATIVE explicite în overall.
 
-**Insight major Pasul 10**: 3 piloni convergenți pentru ipoteza GHOSTWRITING FB — (1) hedging 4-5× diferit, (2) MTLD growth dramatică doar pe FB, (3) sentiment 2× mai polarizat pe FB. Plus (4) BERTopic 76% într-un singur mega-topic FB. ND e *un alt agent comunicativ* pe FB față de video.
+**Insight major Pasul 10**: 4 metrici convergente arată diferențe radicale FB vs video — (1) hedging 4-5× diferit, (2) MTLD growth dramatică doar pe FB, (3) sentiment 2× mai polarizat pe FB, (4) BERTopic 76% într-un singur mega-topic FB. Cauza diferențelor (ghostwriting PR, adaptare naturală la medium, sau audiență diferită) rămâne deschisă — pentru a o distinge ar fi nevoie de stylometry formală (Burrows' Delta + PCA function words) sau comparație cu baseline politic (Iohannis, etc.).
 
 - **Pasul 11 (Raportul ND-Bolojan)** — extract complet 86 spans Bolojan + premier + prim-ministru din corpus (vs doar 14 în NER GLiNER, fiindcă majoritatea sunt "premier" fără nume direct) + 22 spans Ciolacu pentru comparație. Clasificare Gemini ton relațional per perioadă:
   - Q1 2025: **distant** ("am uitat de el")
