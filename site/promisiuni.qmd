@@ -1,7 +1,7 @@
 ---
 title: "Promisiunile"
 subtitle: "131 promisiuni de campanie urmărite în discursul de mandat"
-description: "Câte au fost ținute? Câte au fost abandonate? Și de ce realitatea (estimat 35-45% ținute) e diferită de discurs (20%)."
+description: "131 promisiuni de campanie urmărite prin clasificator LLM + fact-check manual individual. Rezultat: 46% ținute în realitate vs 20% raportate de clasificator."
 ---
 
 ```{python}
@@ -28,9 +28,12 @@ promises = load_promises()
 
 1. **Extras** din 319 discursuri de campanie (≤ 25 mai 2025) toate angajamentele explicite la acțiune viitoare specifică, cu Gemini 2.5 Flash
 2. **Deduplicare** cu embedding cosinus (prag 0,85) → 150 → 131 promisiuni unice
-3. **Verificare** în corpusul de mandat (≥ 26 mai 2025, ~540 docs): pentru fiecare promisiune, top-8 paragrafe relevante + clasificare LLM
-4. **Audit** dublu pe 32 sample-uri (75% spot-on)
-5. **Fact-check web independent** pe 10 promisiuni alese pentru vizibilitate — arată un **pattern**: pe cazurile verificate, livrarea reală depășește ce transpare în discurs.
+3. **Verificare clasificator** în corpusul de mandat (≥ 26 mai 2025, ~540 docs): pentru fiecare promisiune, top-8 paragrafe relevante + clasificare LLM
+4. **Audit dublu** clasificator pe 32 sample-uri (75% spot-on)
+5. **Audit random** pe 15 promisiuni (seed=42) — confirmă pattern systematic: 4/4 NO_MENTION sunt KEPT real
+6. **Fact-check manual individual pe toate 131 promisiuni** — verdict + raționament + surse media pentru fiecare, salvate în `manual_factcheck_status`
+
+Distribuția globală de mai jos folosește **fact-check-ul real** (pasul 6), nu clasificarea LLM.
 
 ## Distribuția globală (fact-check pe toate 131)
 
