@@ -359,9 +359,11 @@ Pasul 9 rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vo
 
 ### 28. **Raportul ND-Bolojan: de la "uitat de el" la TENSIONAT pe Pfizer (Pasul 10)**
 
-Pasul 10 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Bolojan + "premier/prim-ministru" din corpus ND, clasifică ton relațional per perioadă cu Gemini, plus fact-check web.
+Pasul 10 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Bolojan + "premier/prim-ministru" din corpus ND, **cu pas de disambiguare LLM** (`scripts/utils_entity_disambiguation.py`) ca să elimine match-uri pe Ciolacu/Ponta/Tusk/premieri generici, clasifică ton relațional per perioadă cu Gemini, plus fact-check web.
 
-**Sumar mențiuni**: 86 spans Bolojan/premier vs 22 Ciolacu (4× mai des) — dar premier Bolojan **sub-menționat raportat la rolul instituțional**.
+**Sumar mențiuni (v2, după disambiguare)**: 119 candidați → **45 spans validate** Bolojan vs 33 Ciolacu (1.4× mai des). 74 false positives eliminate (62% rejection rate pe match-uri ambigue) — premierul anterior Ciolacu apărea masiv în precampanie/campanie, fals atribuit lui Bolojan în versiunea inițială.
+
+**Fix metodologic (mai 2026)**: versiunea inițială matchuia regex pe "premier"/"prim-ministru" — captura paragrafe despre Ciolacu (40+), Ponta (2014), Tusk (Polonia). Soluție: pas suplimentar Gemini pentru match-uri ambigue ("este paragraful efectiv despre Bolojan?"). Vezi `scripts/utils_entity_disambiguation.py`.
 
 **Evoluție ton relațional**:
 

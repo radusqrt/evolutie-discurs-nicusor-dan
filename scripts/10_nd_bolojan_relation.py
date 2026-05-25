@@ -1,8 +1,17 @@
 """Pasul 10: Raportul ND - Bolojan din corpusul ND.
 
-Extract toate paragrafele unde ND îl menționează pe Bolojan (sau "premier"),
-le grupează pe perioadă, le trimite la Gemini pentru characterizare relațională,
-și produce raport markdown comparativ vs Ciolacu (predecesor).
+V2 — folosește utils_entity_disambiguation pentru a evita false positives pe
+match-uri generice ("premier", "prim ministru") care pot fi despre Ciolacu,
+Ponta (istoric), sau context generic.
+
+Pipeline:
+1. Pentru fiecare document din corpus, extrage candidați (regex pe aliases +
+   generic_terms).
+2. Aliases (Bolojan, Ilie) → auto-acceptate.
+3. Generic terms (premier, prim ministru):
+   - dacă alias e în ±150 chars → auto-acceptat
+   - altfel → trimise la Gemini cu întrebare disambiguare
+4. Doar spans cu is_about_entity=True intră în classification per perioadă.
 
 Output: results/10_nd_bolojan/
 """
@@ -10,9 +19,7 @@ from __future__ import annotations
 
 import json
 import os
-import re
 import sys
-import time
 from collections import defaultdict
 from datetime import date
 from pathlib import Path
@@ -20,7 +27,8 @@ from pathlib import Path
 import frontmatter
 from dotenv import load_dotenv
 
-from corpus import _normalize_diacritics, strip_speaker_tags_to_nd
+from corpus import strip_speaker_tags_to_nd
+from utils_entity_disambiguation import extract_disambiguated_mentions
 
 ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
@@ -33,18 +41,14 @@ MODEL_NAME = "gemini-2.5-flash"
 # Bolojan a devenit premier pe 23 iunie 2025
 BOLOJAN_PM_START = date(2025, 6, 23)
 
-# Patterns to find Bolojan mentions
-BOLOJAN_PATTERNS = [
-    r"\bbolojan\b",
-    r"\bilie bolojan\b",
-    r"\bpremier(ul|ului)?\b",
-    r"\bprim[- ]ministru(l|lui)?\b",
-]
+BOLOJAN_ALIASES = ["Bolojan", "Ilie Bolojan"]
+BOLOJAN_GENERIC_TERMS = ["premier", "premierul", "premierului",
+                         "prim ministru", "prim-ministru",
+                         "prim ministrul", "prim-ministrul",
+                         "prim ministrului", "prim-ministrului"]
 
-CIOLACU_PATTERNS = [
-    r"\bciolacu\b",
-    r"\bmarcel ciolacu\b",
-]
+CIOLACU_ALIASES = ["Ciolacu", "Marcel Ciolacu"]
+# Pentru Ciolacu nu adăugăm "premier" generic — vrem doar mențiunile explicite
 
 RELATIONSHIP_PROMPT = """Ești un analist politic. Mai jos sunt extrase din discursul lui Nicușor Dan (Președintele României) din perioada {period}, unde face referire la **Ilie Bolojan** (Premierul României, din 23 iunie 2025) sau la funcția de Premier.
 
@@ -95,37 +99,6 @@ def period_for(date_str: str) -> str:
     return "outside"
 
 
-def extract_mentions(text: str, patterns: list[str], context_chars: int = 350) -> list[dict]:
-    """Extract paragraphs/spans mentioning entity. Returns list of {span, raw_match}."""
-    text_norm = _normalize_diacritics(text)
-    spans: list[tuple[int, int, str]] = []
-    for pat in patterns:
-        for m in re.finditer(pat, text_norm, re.IGNORECASE):
-            start = max(0, m.start() - context_chars)
-            end = min(len(text), m.end() + context_chars)
-            spans.append((start, end, m.group()))
-
-    if not spans:
-        return []
-
-    # Merge overlapping
-    spans.sort()
-    merged: list[tuple[int, int, list[str]]] = []
-    for s, e, raw in spans:
-        if merged and s < merged[-1][1]:
-            old_s, old_e, raws = merged[-1]
-            new_e = max(old_e, e)
-            raws.append(raw)
-            merged[-1] = (old_s, new_e, raws)
-        else:
-            merged.append((s, e, [raw]))
-
-    return [
-        {"start": s, "end": e, "span": text[s:e].strip(), "matches": list(set(raws))}
-        for s, e, raws in merged
-    ]
-
-
 def parse_date(s: str) -> date | None:
     try:
         return date.fromisoformat(s[:10])
@@ -135,12 +108,27 @@ def parse_date(s: str) -> date | None:
 
 def main():
     print(f"Loading corpus from {SRC}...")
+    client, types = get_client()
+
     bolojan_rows = []
     ciolacu_rows = []
+    # Audit counters
+    audit_counts = {
+        "strict_alias": 0,
+        "generic_with_name_nearby": 0,
+        "llm_kept": 0,
+        "llm_rejected": 0,
+        "llm_unknown": 0,
+    }
+    rejected_examples: list[dict] = []
 
-    for path in sorted(SRC.rglob("*.md")):
-        if "/excluded/" in str(path):
-            continue
+    md_files = sorted(SRC.rglob("*.md"))
+    md_files = [p for p in md_files if "/excluded/" not in str(p)]
+    print(f"Found {len(md_files)} documents.")
+
+    for i, path in enumerate(md_files):
+        if i % 50 == 0:
+            print(f"  [{i}/{len(md_files)}] {path.name}")
         post = frontmatter.load(path)
         d_str = str(post.get("data", ""))
         d = parse_date(d_str)
@@ -151,34 +139,87 @@ def main():
         if not text:
             continue
 
-        # Bolojan mentions
-        b_mentions = extract_mentions(text, BOLOJAN_PATTERNS)
-        for m in b_mentions:
-            bolojan_rows.append({
-                "doc_id": path.stem,
-                "date": str(d),
-                "period": period_for(str(d)),
-                "tip": str(post.get("tip", "")),
-                "match": " | ".join(m["matches"]),
-                "context": m["span"],
-            })
+        # Bolojan: cu disambiguare LLM pentru match-uri generice
+        b_spans = extract_disambiguated_mentions(
+            text=text,
+            entity_name="Ilie Bolojan",
+            aliases=BOLOJAN_ALIASES,
+            generic_terms=BOLOJAN_GENERIC_TERMS,
+            client=client, types=types,
+        )
+        for s in b_spans:
+            mt = s["match_type"]
+            if mt == "strict_alias":
+                audit_counts["strict_alias"] += 1
+            elif mt == "generic_with_name_nearby":
+                audit_counts["generic_with_name_nearby"] += 1
+            elif mt == "llm_disambiguated":
+                if s["is_about_entity"] is True:
+                    audit_counts["llm_kept"] += 1
+                elif s["is_about_entity"] is False:
+                    audit_counts["llm_rejected"] += 1
+                    if len(rejected_examples) < 30:
+                        rejected_examples.append({
+                            "doc_id": path.stem,
+                            "date": str(d),
+                            "match": s["match_term"],
+                            "reasoning": s.get("reasoning", ""),
+                            "actual_subject": s.get("actual_subject", ""),
+                            "span": s["span_text"][:400],
+                        })
+                else:
+                    audit_counts["llm_unknown"] += 1
 
-        # Ciolacu mentions
-        c_mentions = extract_mentions(text, CIOLACU_PATTERNS)
-        for m in c_mentions:
-            ciolacu_rows.append({
-                "doc_id": path.stem,
-                "date": str(d),
-                "period": period_for(str(d)),
-                "tip": str(post.get("tip", "")),
-                "match": " | ".join(m["matches"]),
-                "context": m["span"],
-            })
+            if s["is_about_entity"] is True:
+                bolojan_rows.append({
+                    "doc_id": path.stem,
+                    "date": str(d),
+                    "period": period_for(str(d)),
+                    "tip": str(post.get("tip", "")),
+                    "match": s["match_term"],
+                    "match_type": s["match_type"],
+                    "confidence": s.get("confidence", "?"),
+                    "context": s["span_text"],
+                })
 
-    print(f"Bolojan/premier mentions: {len(bolojan_rows)} spans")
-    print(f"Ciolacu mentions: {len(ciolacu_rows)} spans")
+        # Ciolacu: doar nume strict
+        c_spans = extract_disambiguated_mentions(
+            text=text,
+            entity_name="Marcel Ciolacu",
+            aliases=CIOLACU_ALIASES,
+            generic_terms=[],
+            skip_llm=True,
+        )
+        for s in c_spans:
+            if s["is_about_entity"]:
+                ciolacu_rows.append({
+                    "doc_id": path.stem,
+                    "date": str(d),
+                    "period": period_for(str(d)),
+                    "tip": str(post.get("tip", "")),
+                    "match": s["match_term"],
+                    "match_type": s["match_type"],
+                    "context": s["span_text"],
+                })
 
-    # Save raw extracted
+    print(f"\n=== Audit ===")
+    total_accepted = audit_counts["strict_alias"] + audit_counts["generic_with_name_nearby"] + audit_counts["llm_kept"]
+    total_seen = total_accepted + audit_counts["llm_rejected"] + audit_counts["llm_unknown"]
+    print(f"Strict alias match: {audit_counts['strict_alias']}")
+    print(f"Generic + name nearby: {audit_counts['generic_with_name_nearby']}")
+    print(f"LLM disambiguated → KEPT: {audit_counts['llm_kept']}")
+    print(f"LLM disambiguated → REJECTED: {audit_counts['llm_rejected']}")
+    print(f"LLM unknown: {audit_counts['llm_unknown']}")
+    print(f"Total accepted: {total_accepted} / seen {total_seen} ({100*total_accepted/max(total_seen,1):.0f}%)")
+
+    print(f"\nBolojan accepted spans: {len(bolojan_rows)}")
+    print(f"Ciolacu mentions: {len(ciolacu_rows)}")
+
+    (OUT / "audit_counts.json").write_text(json.dumps(audit_counts, indent=2))
+    with (OUT / "rejected_examples.jsonl").open("w") as f:
+        for r in rejected_examples:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
     with (OUT / "bolojan_mentions.jsonl").open("w") as f:
         for r in bolojan_rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
@@ -191,18 +232,17 @@ def main():
     for r in bolojan_rows:
         by_period[r["period"]].append(r)
 
-    print(f"\nBolojan mentions per perioadă:")
+    print(f"\nBolojan mentions per perioadă (după disambiguare):")
     for p in sorted(by_period.keys()):
         print(f"  {p}: {len(by_period[p])} spans, {len(set(r['doc_id'] for r in by_period[p]))} docs unice")
 
     # Per period: send to LLM
-    client, types = get_client()
     period_analyses: list[dict] = []
 
     for period, rows in sorted(by_period.items()):
         if len(rows) < 2:
             continue
-        passages = "\n===\n".join(r["context"][:600] for r in rows[:25])  # cap
+        passages = "\n===\n".join(r["context"][:600] for r in rows[:25])
         passages = passages[:10000]
         prompt = RELATIONSHIP_PROMPT.format(period=period, passages=passages)
 
@@ -217,6 +257,8 @@ def main():
                 ),
             )
             result = json.loads(resp.text.strip())
+            if isinstance(result, list) and result:
+                result = result[0]
             result["period"] = period
             result["n_mentions"] = len(rows)
             result["n_docs"] = len(set(r["doc_id"] for r in rows))
@@ -235,7 +277,7 @@ def main():
         r["context"][:600] for r in sorted(bolojan_rows, key=lambda r: r["date"])[:60]
     )[:15000]
 
-    overall_prompt = f"""Pe baza tuturor mențiunilor lui Nicușor Dan (Președinte) despre Ilie Bolojan (Premier din 23 iunie 2025) sau funcția de Premier, fă o ANALIZĂ DE ANSAMBLU a relației.
+    overall_prompt = f"""Pe baza tuturor mențiunilor lui Nicușor Dan (Președinte) despre Ilie Bolojan (Premier din 23 iunie 2025), fă o ANALIZĂ DE ANSAMBLU a relației.
 
 EXTRASE (cronologice, primele 60):
 {all_passages}
@@ -263,6 +305,8 @@ Returnează DOAR JSON."""
             ),
         )
         overall = json.loads(resp.text.strip())
+        if isinstance(overall, list) and overall:
+            overall = overall[0]
         (OUT / "overall_synthesis.json").write_text(
             json.dumps(overall, ensure_ascii=False, indent=2)
         )
@@ -272,16 +316,31 @@ Returnează DOAR JSON."""
         overall = {"overall_tone": "ERROR", "evolution": str(e)}
 
     # Markdown report
-    md = [f"# Pasul 10 — Raport relația ND-Bolojan\n"]
-    md.append(f"**Sursă date**: corpus ND (1062 docs overall, decembrie 2024 → mai 2026)")
+    md = [f"# Pasul 10 — Raport relația ND-Bolojan (v2, cu disambiguare LLM)\n"]
+    md.append(f"**Sursă date**: corpus ND (decembrie 2024 → mai 2026)")
     md.append(f"**Context**: Bolojan = premier de la 23 iunie 2025\n")
 
-    md.append("## Sumar mențiuni\n")
-    md.append(f"- **Bolojan / premier**: {len(bolojan_rows)} spans, {len(set(r['doc_id'] for r in bolojan_rows))} docs unice")
-    md.append(f"- **Ciolacu (comparativ)**: {len(ciolacu_rows)} spans, {len(set(r['doc_id'] for r in ciolacu_rows))} docs unice")
+    md.append("## Disambiguare entitate — audit\n")
+    md.append("Pentru a evita false positives pe match-uri generice ('premier', 'prim-ministru'), folosim un pas de verificare:")
+    md.append("- Match-uri **strict alias** (Bolojan/Ilie Bolojan) → auto-acceptate")
+    md.append("- Match-uri **generice cu nume în vecinătate** (±150 chars) → auto-acceptate")
+    md.append("- Match-uri **generice ambigue** → trimise la Gemini: 'este acest paragraf despre Bolojan?'\n")
+    md.append("| Tip match | Număr |")
+    md.append("|---|---:|")
+    md.append(f"| Strict alias | {audit_counts['strict_alias']} |")
+    md.append(f"| Generic + nume în vecinătate | {audit_counts['generic_with_name_nearby']} |")
+    md.append(f"| LLM disambiguated → KEPT | {audit_counts['llm_kept']} |")
+    md.append(f"| LLM disambiguated → REJECTED | {audit_counts['llm_rejected']} |")
+    md.append(f"| LLM unknown | {audit_counts['llm_unknown']} |")
+    rejection_rate = 100 * audit_counts['llm_rejected'] / max(audit_counts['llm_kept'] + audit_counts['llm_rejected'], 1)
+    md.append(f"\n**Rejection rate pe match-uri ambigue: {rejection_rate:.0f}%** — adică {audit_counts['llm_rejected']} din {audit_counts['llm_kept']+audit_counts['llm_rejected']} erau false positives.\n")
+
+    md.append("## Sumar mențiuni acceptate\n")
+    md.append(f"- **Bolojan / premier (validat)**: {len(bolojan_rows)} spans, {len(set(r['doc_id'] for r in bolojan_rows))} docs unice")
+    md.append(f"- **Ciolacu (comparativ, nume strict)**: {len(ciolacu_rows)} spans, {len(set(r['doc_id'] for r in ciolacu_rows))} docs unice")
 
     md.append("\n## Mențiuni per perioadă\n")
-    md.append("| Perioadă | Bolojan / premier | Ciolacu |")
+    md.append("| Perioadă | Bolojan (validat) | Ciolacu |")
     md.append("|---|---:|---:|")
     all_periods = sorted(set([r["period"] for r in bolojan_rows] +
                               [r["period"] for r in ciolacu_rows]))
@@ -293,7 +352,7 @@ Returnează DOAR JSON."""
     md.append("\n## Analiza per perioadă (Gemini LLM)\n")
     for a in period_analyses:
         md.append(f"\n### {a['period']}")
-        md.append(f"**Spans**: {a['n_mentions']} | **Docs unice**: {a['n_docs']}")
+        md.append(f"**Spans validate**: {a['n_mentions']} | **Docs unice**: {a['n_docs']}")
         md.append(f"\n**Ton relațional**: `{a.get('relationship_tone')}` (confidence: {a.get('confidence')})")
         md.append(f"\n**Power dynamic**: {a.get('power_dynamic')}")
         md.append(f"\n**Tensiuni vizibile**: {a.get('tensions_visible')}")
@@ -321,16 +380,13 @@ Returnează DOAR JSON."""
     if overall.get("headline_quote"):
         md.append(f"\n**Headline quote**:\n> *\"{overall['headline_quote']}\"*")
 
-    md.append("\n---\n## Mențiuni Ciolacu (comparativ) per perioadă\n")
-    md.append("Ciolacu a fost Premier până în iunie 2025; după, doar context istoric.\n")
-    cio_by_period: dict[str, list[dict]] = defaultdict(list)
-    for r in ciolacu_rows:
-        cio_by_period[r["period"]].append(r)
-    md.append("| Perioadă | Mențiuni | Docs |")
-    md.append("|---|---:|---:|")
-    for p in sorted(cio_by_period.keys()):
-        rs = cio_by_period[p]
-        md.append(f"| {p} | {len(rs)} | {len(set(r['doc_id'] for r in rs))} |")
+    if rejected_examples:
+        md.append("\n---\n## Exemple de false positives rejected\n")
+        md.append("(Primele 10 cazuri unde LLM a confirmat că paragraful NU e despre Bolojan)\n")
+        for r in rejected_examples[:10]:
+            md.append(f"\n**{r['date']} ({r['doc_id']})** — match: *'{r['match']}'*")
+            md.append(f"- Subject real: **{r.get('actual_subject', '?')}**")
+            md.append(f"- Motiv: {r.get('reasoning', '')}")
 
     (OUT / "RAPORT.md").write_text("\n".join(md))
 
@@ -340,6 +396,8 @@ Returnează DOAR JSON."""
     print(f"  - ciolacu_mentions.jsonl ({len(ciolacu_rows)} spans)")
     print(f"  - period_analyses.jsonl ({len(period_analyses)} perioade analizate)")
     print(f"  - overall_synthesis.json")
+    print(f"  - audit_counts.json")
+    print(f"  - rejected_examples.jsonl ({len(rejected_examples)} cazuri)")
 
 
 if __name__ == "__main__":

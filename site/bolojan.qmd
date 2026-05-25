@@ -19,35 +19,55 @@ import plotly.graph_objects as go
 ```{python}
 #| echo: false
 
-bolojan_count = 0
-ciolacu_count = 0
+import json
 b_path = ROOT / "results" / "10_nd_bolojan" / "bolojan_mentions.jsonl"
 c_path = ROOT / "results" / "10_nd_bolojan" / "ciolacu_mentions.jsonl"
+audit_path = ROOT / "results" / "10_nd_bolojan" / "audit_counts.json"
 with b_path.open() as f:
     bolojan_count = sum(1 for _ in f)
 with c_path.open() as f:
     ciolacu_count = sum(1 for _ in f)
-ratio = bolojan_count / max(ciolacu_count, 1)
+audit = json.loads(audit_path.read_text())
+total_seen = (audit['strict_alias'] + audit['generic_with_name_nearby']
+              + audit['llm_kept'] + audit['llm_rejected'])
+total_amb = audit['llm_kept'] + audit['llm_rejected']
+rejected_pct = round(100 * audit['llm_rejected'] / max(total_amb, 1))
 
 from IPython.display import HTML
 HTML(f"""
 <div class="stats-grid">
   <div class="stat">
     <div class="stat-value">{bolojan_count}</div>
-    <div class="stat-label">mențiuni Bolojan/premier</div>
+    <div class="stat-label">mențiuni Bolojan (validate)</div>
   </div>
   <div class="stat">
-    <div class="stat-value">{ciolacu_count}</div>
-    <div class="stat-label">mențiuni Ciolacu (comparativ)</div>
+    <div class="stat-value">{total_seen}</div>
+    <div class="stat-label">candidați înainte de disambiguare</div>
   </div>
   <div class="stat">
-    <div class="stat-value">{ratio:.1f}×</div>
-    <div class="stat-label">de mai multe ori Bolojan</div>
+    <div class="stat-value">{audit['llm_rejected']}</div>
+    <div class="stat-label">false positives eliminate</div>
   </div>
   <div class="stat">
     <div class="stat-value">6 perioade</div>
     <div class="stat-label">fact-checked independent</div>
   </div>
+</div>
+
+<div class="callout callout-warning" style="margin-top:1.5em;padding:1em;border-left:4px solid #e0a800;background:#fff8e1;">
+<strong>Fix metodologic (mai 2026)</strong>: Versiunea inițială folosea regex pe "premier"/"prim ministru" — captura ~65% false positives (paragrafe despre Ciolacu, Ponta 2014, Tusk Polonia, sau premieri în general). Soluție: pas suplimentar de verificare prin Gemini ("este paragraful efectiv despre Bolojan?"). Vezi <a href="https://github.com/radusqrt/evolutie-discurs-nicusor-dan/blob/main/scripts/utils_entity_disambiguation.py">scripts/utils_entity_disambiguation.py</a>.
+
+<table style="margin-top:1em;">
+<thead><tr><th>Tip match</th><th style="text-align:right">Număr</th></tr></thead>
+<tbody>
+<tr><td>Strict alias (<code>Bolojan</code>, <code>Ilie Bolojan</code>)</td><td style="text-align:right">{audit['strict_alias']}</td></tr>
+<tr><td>Generic + nume în vecinătate (±150 chars)</td><td style="text-align:right">{audit['generic_with_name_nearby']}</td></tr>
+<tr><td>LLM disambiguated → ACCEPTAT</td><td style="text-align:right">{audit['llm_kept']}</td></tr>
+<tr><td><strong>LLM disambiguated → RESPINS</strong></td><td style="text-align:right"><strong>{audit['llm_rejected']}</strong></td></tr>
+</tbody>
+</table>
+
+<p><strong>Rejection rate pe match-uri ambigue: {rejected_pct}%</strong> — {audit['llm_rejected']} din {total_amb} match-uri "premier" fără nume Bolojan în vecinătate erau de fapt despre altcineva.</p>
 </div>
 """)
 ```
@@ -56,11 +76,29 @@ HTML(f"""
 
 ```{python}
 #| echo: false
+from collections import Counter
+
+# Citim datele validate (după disambiguare)
+period_counts = Counter()
+with b_path.open() as f:
+    for line in f:
+        r = json.loads(line)
+        period_counts[r["period"]] += 1
+
+period_keys = ["2024Q4-2025Q1 candidatură-precampanie",
+               "2025Q2 campanie + investitură",
+               "2025Q3 deficit + reforma economică",
+               "2025Q4 stabilizare + diplomație",
+               "2025Q4-2026Q1 reformă judiciară",
+               "2026Q2 cotitură UE + criză guvern"]
 periods = ["Q1 2025<br>precampanie", "Q2 2025<br>campanie", "Q3 2025<br>deficit",
            "Q4 2025<br>stabilizare", "Q1 2026<br>judiciar", "Q2 2026<br>UE+criză"]
+# Tone-uri finale: Q1 + Q2 2026 sunt determinate de fact-check (vezi mai jos);
+# restul vin din clasificatorul LLM pe spans curate.
 tones = ["distant", "mixt", "colaborativ", "mixt",
          "colaborativ/<br>deferent", "tensionat"]
-mentions = [5, 24, 25, 8, 9, 15]
+mentions = [period_counts[k] for k in period_keys]
+
 tone_colors = {"distant": "#778da9", "mixt": "#f4a261",
                "colaborativ": "#2a9d8f",
                "colaborativ/<br>deferent": "#2a9d8f",
@@ -74,16 +112,22 @@ fig = go.Figure(go.Bar(
     textposition="outside",
 ))
 fig.update_layout(
-    title="Mențiuni Bolojan + ton relațional clasificat de Gemini",
+    title="Mențiuni Bolojan (validate prin disambiguare) + ton relațional final",
     yaxis_title="Mențiuni",
     height=520,
     plot_bgcolor="white",
     showlegend=False,
-    yaxis_range=[0, 33],
+    yaxis_range=[0, max(mentions) + 6],
     margin=dict(t=80),
 )
 fig.show()
 ```
+
+::: {.callout-note}
+## Notă despre tonul Q2 2026
+
+Clasificatorul LLM pe spans curate dă tonul "mixt" pentru Q2 2026 — pentru că ND folosește un ton institucional-mediator în cuvintele lui ("Eu încerc să-mi păstrez rolul de mediator"). **Fact-check-ul independent** pe surse media (Recorder, Digi24) arată tensiune reală: ND a cerut public desecretizarea contractelor Pfizer, Bolojan a refuzat și a negociat privat. Ținem tonul **tensionat** ca verdict final (cu evidence externă), dar transparent că ND însuși nu folosește limbaj tensionat în public.
+:::
 
 ---
 
@@ -208,15 +252,17 @@ Aliniați pe diagnostic ("achiziții peste necesar"). Divergenți pe răspuns (t
 
 ## Calitatea clasificării
 
-| Perioadă | Gemini classification | Validat de fact-check |
-|---|---|---|
-| Q1 2025 | distant | ✅ Confirmat |
-| Q2 2025 | mixt | ✅ Confirmat + sub-find (Bolojan votează ND turul 2) |
-| Q3 2025 | colaborativ | ⚠️ **Parțial** — ratat dezacord TVA |
-| Q4 2025 | mixt | ✅ Confirmat (Bogoș scandal) |
-| Q1 2026 | colaborativ/deferent | ✅ Confirmat |
-| Q2 2026 | **tensionat** | ✅ Confirmat (Pfizer) |
+După fix-ul de disambiguare (eliminarea celor 74 false positives), tonul LLM pe spans curate vs fact-check pe surse externe:
 
-**5/6 perfect, 1 cu nuanță ratată. 83% spot-on, 100% direcțional corect.**
+| Perioadă | Spans validate | LLM pe spans curate | Fact-check extern |
+|---|---:|---|---|
+| Q1 2025 | 1 | (prea puține) | **distant** ✅ |
+| Q2 2025 | 12 | mixt | **mixt** ✅ |
+| Q3 2025 | 10 | colaborativ | **colaborativ** ⚠️ ratat dezacord TVA |
+| Q4 2025 | 1 | (prea puține) | **mixt** ✅ (Bogoș) |
+| Q1 2026 | 17 | colaborativ/deferent/mixt | **colaborativ/deferent** ✅ |
+| Q2 2026 | 4 | mixt | **tensionat** ⚠️ ND nu verbalizează tensiunea |
+
+**Două perioade unde tonul real necesită evidence externă** (Q3 2025 dezacord TVA, Q2 2026 cazul Pfizer) — clasificatorul LLM pe discursul propriu al ND nu surprinde dezacordurile pentru că **ND folosește limbaj instituțional chiar și în perioade tensionate**.
 
 [← Promisiuni](promisiuni.qmd) · [Metoda →](metoda.qmd)

@@ -209,10 +209,25 @@ fig.show()
 ```{python}
 #| echo: false
 import plotly.graph_objects as go
+import json as _json
+from collections import Counter as _Counter
 
+_b_path = ROOT / "results" / "10_nd_bolojan" / "bolojan_mentions.jsonl"
+_period_counts = _Counter()
+with _b_path.open() as _f:
+    for _line in _f:
+        _r = _json.loads(_line)
+        _period_counts[_r["period"]] += 1
+
+_period_keys = ["2024Q4-2025Q1 candidatură-precampanie",
+                "2025Q2 campanie + investitură",
+                "2025Q3 deficit + reforma economică",
+                "2025Q4 stabilizare + diplomație",
+                "2025Q4-2026Q1 reformă judiciară",
+                "2026Q2 cotitură UE + criză guvern"]
 periods = ["Q1 2025", "Q2 2025", "Q3 2025", "Q4 2025", "Q1 2026", "Q2 2026"]
 tones = ["distant", "mixt", "colaborativ", "mixt", "colaborativ", "tensionat"]
-mentions = [5, 24, 25, 8, 9, 15]
+mentions = [_period_counts[k] for k in _period_keys]
 colors = {"distant": "#778da9", "mixt": "#f4a261",
           "colaborativ": "#2a9d8f", "tensionat": "#e63946"}
 bar_colors = [colors[t] for t in tones]
@@ -224,16 +239,20 @@ fig = go.Figure(go.Bar(
     textposition="outside",
 ))
 fig.update_layout(
-    title="Mențiuni Bolojan + ton relațional per perioadă",
+    title="Mențiuni Bolojan (validate cu disambiguare LLM) + ton relațional",
     yaxis_title="Mențiuni în discursul ND",
     height=450,
     margin=dict(t=60, b=40, l=60, r=20),
     showlegend=False,
     plot_bgcolor="white",
-    yaxis_range=[0, 32],
+    yaxis_range=[0, max(mentions) + 5],
 )
 fig.show()
 ```
+
+::: {.callout-note}
+**Fix metodologic (mai 2026)**: numerele au scăzut față de versiunea inițială pentru că ~65% din match-urile pe "premier"/"prim-ministru" erau de fapt despre Ciolacu, Ponta sau alți premieri istorici. Folosim acum un pas de disambiguare prin Gemini. [→ detalii pe pagina Bolojan](bolojan.qmd)
+:::
 
 De la *"nu e o mare miză să fie Iohannis sau Bolojan"* ([interviu B1TV, 18 ian 2025](https://www.youtube.com/results?search_query=nicusor+dan+cere+explicatii+anulare+stiri) — ND despre cine rămâne președinte interimar) la *"i-am cerut premierului transparență publică"* (aprilie 2026, cazul Pfizer 600M€). Un arc relațional în 16 luni: de la indiferență politică la fisură publică.
 

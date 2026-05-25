@@ -19,6 +19,8 @@ Thumbs.db
 # (we commit results so the repo tells the story, but ignore intermediate caches)
 .cache/
 *.tmp
+# Per-domain working files for fact-checking (canonical output is in promise_status.jsonl)
+results/04_promises/_factcheck_workspace/
 
 # Secrets
 .env
