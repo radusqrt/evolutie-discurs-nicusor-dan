@@ -1,6 +1,6 @@
 ---
 title: "Raportul cu Bolojan"
-subtitle: "De la \"am uitat de el\" (citat ND, dec 2024) la cazul Pfizer (apr 2026) — un arc tensionat în 6 perioade"
+subtitle: "De la \"am și uitat de el\" (ND, Digi24, 4 dec 2024) la cazul Pfizer (apr 2026) — un arc tensionat în 6 perioade"
 description: "Cum a evoluat relația ND-Bolojan din precampanie până la primul scandal public — fact-checked pe surse media."
 ---
 
@@ -93,7 +93,11 @@ fig.show()
 
 **Context**: Iohannis a demisionat 10 februarie. Bolojan a devenit președinte interimar pe 12 februarie. ND era candidat independent.
 
-**Citat ND**: *"Am auzit de el. Pentru că tot în spațiul public erau oameni care spuneau 'iată un posibil prim-ministru' dar acum am uitat de el."*
+**Citat ND verbatim** (Political Studio, [Digi24HD, 4 dec 2024](https://www.youtube.com/watch?v=z8YrIW8aKyo)):
+
+> *"Am auzit de — văzut personal nu m-am văzut niciodată cu dânsul, cred că acum vreo 10-12 ani am văzut un interviu de-al lui în care vorbea cam cum vorbește și acum, **nu m-a convins**. Am auzit de el pentru că tot în spațiul public tot erau oameni care spuneau 'iată un posibil prim-ministru', dar **acum am și uitat de el**."*
+
+ND îl văzuse pe Bolojan doar într-un interviu vechi de 10-12 ani (de când era primar la Oradea) — nu-l urmărise activ. 4 luni mai târziu îl întâlnea prima oară personal la Cotroceni; 7 luni mai târziu îl desemna premier.
 
 ::: {.callout-note}
 **Fact-check**: [AGERPRES — Iohannis demisie + Bolojan interimar](https://agerpres.ro/interne/2025/02/11/demisie-iohannis-ccr-ilie-bolojan-preia-interimar-functia-de-presedinte-al-romaniei--1421477)
