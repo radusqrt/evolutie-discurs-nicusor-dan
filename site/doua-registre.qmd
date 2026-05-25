@@ -476,25 +476,31 @@ Pentru a testa cantitativ dacă cele 2 registre au amprente stilometrice distinc
 
 ### Dar ce features discriminează concret?
 
-Top 10 cuvinte care fac diferența:
+Cuvinte care fac diferența cel mai mult:
 
-| Cuvânt | Mai des în | De câte ori | Tip |
-|---|---|---|---|
-| `niște` | video | **259×** | indefinit colocvial |
-| `o` (numeral) | video | 56× | filler scurt |
-| `ăă` | video | **41×** | filler ezitare |
-| `într` | video | 28× | conector oral |
-| `deci` | video | **26×** | conector argumentativ oral |
-| `ă` | video | 22× | filler ezitare |
-| `crede` | video | 14× | verb modal personal |
-| `spune` | video | 6,8× | verb relatare |
-| `acesta` | video | 4,9× | deictic ("asta") |
-| `că` | video | 3× | conjuncție orală |
+**Folosite preponderent în video (oral spontan)**:
 
-| `al` | scris | 2,6× | articol posesiv formal |
-| `prin` | scris | 3,7× | prepoziție formală |
-| `pentru` | scris | 1,5× | prepoziție |
-| `și` | scris | 1,6× | conjuncția "și" |
+| Cuvânt | De câte ori mai des în video | Tip |
+|---|---|---|
+| `niște` | **259×** | indefinit colocvial |
+| `o` (numeral) | 56× | filler scurt |
+| `ăă` | **41×** | filler ezitare |
+| `într` | 28× | conector oral |
+| `deci` | **26×** | conector argumentativ oral |
+| `ă` | 22× | filler ezitare |
+| `crede` | 14× | verb modal personal |
+| `spune` | 6,8× | verb relatare |
+| `acesta` | 4,9× | deictic ("asta") |
+| `că` | 3× | conjuncție orală |
+
+**Folosite preponderent pe Facebook (scris formal)**:
+
+| Cuvânt | De câte ori mai des pe FB | Tip |
+|---|---|---|
+| `prin` | 3,7× | prepoziție formală |
+| `al` | 2,6× | articol posesiv formal |
+| `și` | 1,6× | conjuncție |
+| `pentru` | 1,5× | prepoziție |
 
 ::: {.callout-important}
 ## Ce înseamnă rezultatul stilometric
