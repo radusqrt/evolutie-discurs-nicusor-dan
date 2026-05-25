@@ -32,25 +32,45 @@ promises = load_promises()
 4. **Audit** dublu pe 32 sample-uri (75% spot-on)
 5. **Fact-check web independent** pe 10 promisiuni alese pentru vizibilitate — arată un **pattern**: pe cazurile verificate, livrarea reală depășește ce transpare în discurs.
 
-## Distribuția globală
+## Distribuția globală (fact-check pe toate 131)
 
 ```{python}
 #| echo: false
-counts = promises["status_status"].value_counts()
 labels_ro = {
-    "KEPT": "Ținută",
-    "IN_PROGRESS": "În curs",
-    "NO_MENTION": "Nemenționată",
-    "CONTRADICTED": "Contrazisă",
-    "REFRAMED": "Redefinită",
+    "KEPT_real": "Ținută",
+    "IN_PROGRESS_real": "În curs",
+    "NO_MENTION_real": "Nemenționată / fără acțiune vizibilă",
+    "CONTRADICTED_real": "Contrazisă",
+    "REFRAMED_real": "Redefinită",
+    "UNVERIFIABLE": "Prea vagă (neverificabilă)",
+    # Original classifier labels (kept for backwards compatibility)
+    "KEPT": "Ținută (clasificator)",
+    "IN_PROGRESS": "În curs (clasificator)",
+    "NO_MENTION": "Nemenționată (clasificator)",
+    "CONTRADICTED": "Contrazisă (clasificator)",
+    "REFRAMED": "Redefinită (clasificator)",
     "ABANDONED": "Abandonată",
 }
 colors = {
+    "KEPT_real": "#2a9d8f",
+    "IN_PROGRESS_real": "#f4a261",
+    "NO_MENTION_real": "#cccccc",
+    "CONTRADICTED_real": "#e63946",
+    "REFRAMED_real": "#9b5de5",
+    "UNVERIFIABLE": "#888888",
     "KEPT": "#2a9d8f",
     "IN_PROGRESS": "#f4a261",
     "NO_MENTION": "#cccccc",
     "CONTRADICTED": "#e63946",
+    "REFRAMED": "#9b5de5",
 }
+
+# Use fact-check distribution as primary
+counts = promises["manual_factcheck_status"].value_counts()
+# Sort for consistent ordering
+order = ["KEPT_real", "IN_PROGRESS_real", "NO_MENTION_real",
+         "CONTRADICTED_real", "REFRAMED_real", "UNVERIFIABLE"]
+counts = counts.reindex([k for k in order if k in counts.index])
 
 fig = go.Figure(go.Pie(
     labels=[labels_ro.get(s, s) for s in counts.index],
@@ -60,13 +80,15 @@ fig = go.Figure(go.Pie(
     hole=0.4,
 ))
 fig.update_layout(
-    title="Status promisiuni — clasificator LLM",
+    title="Status promisiuni — fact-check independent pe toate 131",
     height=500,
     annotations=[dict(text=f"{len(promises)}<br>total", x=0.5, y=0.5,
                        font_size=18, showarrow=False)],
 )
 fig.show()
 ```
+
+Aceasta este distribuția **reală** (fact-check pe fiecare promisiune individual), nu cea raportată de clasificatorul ND-centric. Pentru comparație cu distribuția clasificatorului, vezi tabelul de mai jos.
 
 ::: {.callout-warning}
 ## Layer de fact-check manual pe TOATE 131 promisiuni
@@ -109,13 +131,14 @@ A confirmat pattern-ul independent: 100% NO_MENTION clasificator sample (4/4) er
 
 ```{python}
 #| echo: false
-per_topic = promises.groupby(["topic", "status_status"]).size().unstack(fill_value=0)
+per_topic = promises.groupby(["topic", "manual_factcheck_status"]).size().unstack(fill_value=0)
 per_topic["total"] = per_topic.sum(axis=1)
-per_topic["KEPT_pct"] = (per_topic.get("KEPT", 0) / per_topic["total"] * 100).round(0)
+per_topic["KEPT_pct"] = (per_topic.get("KEPT_real", 0) / per_topic["total"] * 100).round(0)
 per_topic = per_topic.sort_values("total", ascending=False).head(10)
 
 fig = go.Figure()
-for status in ["KEPT", "IN_PROGRESS", "NO_MENTION", "CONTRADICTED"]:
+for status in ["KEPT_real", "IN_PROGRESS_real", "NO_MENTION_real",
+                "CONTRADICTED_real", "REFRAMED_real", "UNVERIFIABLE"]:
     if status in per_topic.columns:
         fig.add_bar(
             name=labels_ro.get(status, status),
@@ -126,7 +149,7 @@ for status in ["KEPT", "IN_PROGRESS", "NO_MENTION", "CONTRADICTED"]:
 
 fig.update_layout(
     barmode="stack",
-    title="Status promisiuni pe topul de 10 teme",
+    title="Status promisiuni pe top 10 teme (fact-check pe 131)",
     yaxis_title="Număr promisiuni",
     xaxis_title="",
     height=500,
