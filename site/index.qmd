@@ -235,7 +235,7 @@ fig.update_layout(
 fig.show()
 ```
 
-De la *"am și uitat de el"* (Nicușor Dan despre Bolojan, [interviu Political Studio Digi24, 4 dec 2024](https://www.youtube.com/watch?v=z8YrIW8aKyo)) la *"i-am cerut premierului transparență publică"* (aprilie 2026, cazul Pfizer 600M€). Un arc relațional cu tensiuni reale — în 18 luni de la indiferență la fisură publică.
+De la *"nu e o mare miză să fie Iohannis sau Bolojan"* ([interviu B1TV, 18 ian 2025](https://www.youtube.com/results?search_query=nicusor+dan+cere+explicatii+anulare+stiri) — ND despre cine rămâne președinte interimar) la *"i-am cerut premierului transparență publică"* (aprilie 2026, cazul Pfizer 600M€). Un arc relațional în 16 luni: de la indiferență politică la fisură publică.
 
 [→ Citește raportul ND-Bolojan complet](bolojan.qmd)
 
