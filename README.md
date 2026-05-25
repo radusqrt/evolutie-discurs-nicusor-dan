@@ -7,7 +7,7 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 **Subiect și goal**: vezi [`BRIEF.md`](./BRIEF.md).
 
 **Rezultate**:
-- [`results/FINDINGS.md`](./results/FINDINGS.md) — **28 findings sintetizate** după Pasul 1-10 + audit + fact-check independent
+- [`results/FINDINGS.md`](./results/FINDINGS.md) — **29 findings sintetizate** după Pasul 1-10 + audit + fact-check independent
 - [`results/04_promises/SINTEZA.md`](./results/04_promises/SINTEZA.md) — Promise Tracker complet per topic
 - [`results/04_promises/FACT_CHECK_realworld.md`](./results/04_promises/FACT_CHECK_realworld.md) + [`FACT_CHECK_policy.md`](./results/04_promises/FACT_CHECK_policy.md) — fact-check web pe 10 promisiuni
 - [`results/SINTEZA.md`](./results/SINTEZA.md) — sinteza inițială (pre-branching scris/vorbit)
@@ -138,7 +138,7 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 
 **Reducerea principală vine din Facebook** (-330 dups): Apify a returnat unele posturi de mai multe ori pe re-runs + există posturi quasi-identice (mesaje scurte de mulțumiri reposatete). YouTube pierde doar 84 documente (re-uploads cross-channel ale aceluiași clip).
 
-## Pipeline (12 pași)
+## Pipeline (13 pași)
 
 | # | Pas | Status | Script / Acțiune | Output |
 |---|---|---|---|---|
@@ -153,7 +153,8 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
 | 9 | **Promise Tracker** | ✅ **complete + audited + fact-checked** | `scripts/04_promises_extract.py` + `04b_dedupe.py` + `04c_match_classify.py` + `04d_synth.py` + `04e_audit.py` (Gemini 2.5 Flash + embedding mpnet retrieval) | `results/04_promises/SINTEZA.md`, `promise_status.csv`, `AUDIT_*.md`, `FACT_CHECK_*.md` (131 promisiuni clasificate; fact-check pe sample non-random de 10 promisiuni mari) |
 | 10 | **Advanced analyses (SotA)** | ✅ **complete × 3 proiecții** | `scripts/05_discourse_complexity.py` (spaCy parser) + `06_hedging.py` (lexicon RO custom) + `07_semantic_drift.py` (mpnet centroids) + `08_ner_entities.py` (GLiNER multi-v2.1 zero-shot) + `08b_ner_clean.py` + `09_sentiment_per_entity.py` (Gemini 2.5 Flash) | `results/05_complexity_*/`, `06_hedging_*/`, `07_semantic_drift_*/`, `08_ner_*/`, `09_sentiment_per_entity_*/` (× 3 proiecții) |
 | 11 | **Raportul ND-Bolojan** | ✅ **complete + fact-checked** | `scripts/10_nd_bolojan_relation.py` (extract 86 spans Bolojan/premier + 22 Ciolacu, ton relațional Gemini per perioadă) + fact-check web pe toate 6 perioade | `results/10_nd_bolojan/` (RAPORT.md, FACT_CHECK.md, period_analyses.jsonl) |
-| 12 | **Interpret** | ✅ **complete** | manual + audit dublu + fact-check independent (web search) | `results/FINDINGS.md` (28 findings) |
+| 12 | **Stylometry formală** | ✅ **complete** | `scripts/11_stylometry.py` (Burrows' Delta + PCA + Random Forest pe 100 function words, 718 docs) | `results/11_stylometry/` (pca_scatter.png, burrows_delta.csv, top_features.csv, SUMMARY.md) — **92.1% RF accuracy** pe distinge FB vs video |
+| 13 | **Interpret** | ✅ **complete** | manual + audit dublu + fact-check independent (web search) | `results/FINDINGS.md` (29 findings) |
 
 **Status verification**:
 
@@ -187,7 +188,7 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
   - **NER cu GLiNER multi-v2.1 zero-shot**: ~3,755 mențiuni overall (curate ~700 după aliasing). Top entități: ROMÂNIA, UCRAINA, SUA, NATO, UE, R. MOLDOVA, RUSIA, CSM, POLONIA, OCDE, GEORGESCU.
   - **Sentiment per entitate × perioadă** cu Gemini 2.5 Flash (re-rulat cu retry handling pentru bug-uri JSON parsing). FB e 69% polarizat (pro/contra), video 55% polarizat + 38% mixt + 7% neutru. TRUMP = MIXT (nu pozitiv) în video; 14% buckets explicit negative în overall (vs 5% înainte de retry).
 
-**Insight major Pasul 10**: 4 metrici convergente arată diferențe radicale FB vs video — (1) ezitare/nuanțare 4-5× diferit, (2) MTLD growth dramatică doar pe FB, (3) sentiment 2× mai polarizat pe FB, (4) BERTopic 76% într-un singur mega-topic FB. Cauza diferențelor (ghostwriting PR, adaptare naturală la medium, sau audiență diferită) rămâne deschisă — pentru a o distinge ar fi nevoie de stylometry formală (Burrows' Delta + PCA function words) sau comparație cu baseline politic (Iohannis, etc.).
+**Insight major Pasul 10**: 4 metrici convergente arată diferențe radicale FB vs video — (1) ezitare/nuanțare 4-5× diferit, (2) MTLD growth dramatică doar pe FB, (3) sentiment 2× mai polarizat pe FB, (4) BERTopic 76% într-un singur mega-topic FB. **Stylometry formală confirmată în Pasul 12**: Random Forest distinge FB de video cu **92.1% acuratețe doar din 100 function words** (cuvinte ca *de, și, în, să*) — registrele sunt clar distincte. Dar majoritatea separabilității vine din markeri clasici de vorbire spontană (filler-e: *ăă, niște*, deictice: *acesta, deci*). Pentru a tranșa ghostwriting vs adaptare naturală ar fi nevoie de baseline politic comparativ (Iohannis, etc.).
 
 - **Pasul 11 (Raportul ND-Bolojan)** — extract complet 86 spans Bolojan + premier + prim-ministru din corpus (vs doar 14 în NER GLiNER, fiindcă majoritatea sunt "premier" fără nume direct) + 22 spans Ciolacu pentru comparație. Clasificare Gemini ton relațional per perioadă:
   - Q1 2025: **distant** ("am uitat de el")
@@ -199,7 +200,9 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
   - Fact-check pe 6 perioade: **5/6 complet validate, 1 cu nuanță ratată (TVA Q3)** — calitate Gemini 83% spot-on. Vezi `results/10_nd_bolojan/FACT_CHECK.md`.
   - **ND-Bolojan = aliat tactic, nu prieten.** Stil formal-instituțional, niciodată cald.
 
-Pașii 1-11 sunt verificați. Pasul 12 (Interpret) curent — vezi FINDINGS.md cu 28 findings.
+- **Pasul 12 (Stylometry formală)** — Burrows' Delta + PCA + Random Forest pe 100 function words, 718 docs (≥50 cuvinte). Rezultat: **92.1% ± 1.7%** acuratețe Random Forest distinge FB vs video — registrele **sunt clar distincte stilometric**. Top features discriminative sunt markeri clasici de vorbire spontană (`niște` 259×, `ăă` 41×, `deci` 26×, `acesta` 4.9× mai des în video). Asta confirmă diferența dar **nu distinge** ghostwriting de adaptare naturală — ar fi nevoie de baseline politic comparativ (Iohannis, etc.) pentru tranșare.
+
+Pașii 1-12 sunt verificați. Pasul 13 (Interpret) curent — vezi FINDINGS.md cu 29 findings.
 
 ## Surse de date
 

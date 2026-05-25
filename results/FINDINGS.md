@@ -417,7 +417,7 @@ d. **Colaborare cu echipă PR pentru FB** — postările sunt redactate sau adap
 
 ### Ce ar fi nevoie să distingă
 
-- **Stylometry formală** (Burrows' Delta + PCA pe function words) — *neefectuată* în acest proiect.
+- **Stylometry formală** (Burrows' Delta + PCA pe function words) — **EFECTUATĂ** în Pasul 11 (vezi finding #29).
 - **Baseline politic comparativ** — Iohannis, Băsescu, Macron prezintă același pattern? Dacă da, e pattern instituție, nu unic pentru ND.
 
 **Concluzia onestă**: diferențele cantitative dintre cele 2 registre sunt mari și documentate. Interpretarea cauzei (ghostwriting vs adaptare naturală) rămâne deschisă.
@@ -441,6 +441,41 @@ Pe acest eșantion ne-random observăm un pattern clar — livrare concretă mai
 **Reformulare finding #16 ("Policy internă 0% KEPT")**: clasificatorul ND-centric subestimează livrarea concretă pentru *acest tip de promisiuni* (anti-corupție, justiție, fiscale, OCDE — executate prin decrete/legi/numiri) fiindcă măsoară doar ce *spune* ND, nu ce *face* guvernul. ND tinde să **vorbească mai mult despre intenții decât despre realizările sale concrete**.
 
 Surse fact-check: `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_policy.md`.
+
+---
+
+### 29. **Stylometry formală: cele 2 registre confirmate stilometric distinct (Pasul 11)**
+
+**Setup**: 718 documente (≥50 cuvinte), top 100 function words (POS: ADP/AUX/CCONJ/DET/PART/PRON/SCONJ), frecvențe relative z-normalizate. Aplicat: Burrows' Delta, PCA 2D, Random Forest classifier.
+
+**Rezultate**:
+
+| Metoda | Rezultat |
+|---|---|
+| Burrows' Delta — distanță centroidă scris↔vorbit | 0.297 |
+| Burrows' Delta — nearest-centroid accuracy | **78.1%** (vs ~50% random) |
+| Random Forest — 5-fold CV accuracy | **92.1% ± 1.7%** |
+| Held-out 30% test | 94.9% (116/118 FB + 89/98 video corect) |
+
+**Concluzie principală**: cele 2 registre **sunt clar distincte stilometric**. Un model simplu distinge FB de video cu **92% acuratețe doar din 100 function words** (cuvinte ca *de, și, în, să, fi*).
+
+**Top features discriminative** — diferențe dramatice:
+
+- `niște` 259× mai des în video (indefinit colocvial)
+- `o` 56× mai des în video
+- `ăă` 41× mai des în video (filler ezitare)
+- `într` 28× mai des în video
+- `deci` 26× mai des în video (conector argumentativ oral)
+- `acesta` 4.9× mai des în video (deictic)
+
+**Veste mai nuanțată**: features care discriminează sunt **markeri clasici ai vorbirii spontane** (fillere, deictice, conectori orali, indefinite colocviale). Adică **majoritatea separabilității vine din diferența naturală oral-vs-scris formal**, NU dintr-o "altă voce" producând FB.
+
+**Stilometria singură NU poate distinge**:
+- a) ND adaptează natural stilul la medium
+- b) Echipă PR scrie FB cu adăugire în stil formal
+- c) Combinație
+
+**Pentru a tranșa** ar fi nevoie de **baseline politic comparativ** (Iohannis FB vs video, Băsescu, Macron). Dacă pattern-ul similar apare la alți politici → e natural. Dacă e dramatic mai mare la ND → e specific (posibil ghostwriting).
 
 ---
 
