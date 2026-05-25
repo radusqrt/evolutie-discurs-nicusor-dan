@@ -159,6 +159,22 @@ fig.show()
 **Facebook = 69% polarizat** (pro/contra explicit).
 **Video = 55% polarizat**, 38% mixt, 7% neutru.
 
+::: {.callout-warning collapse="true"}
+## Limitare metodologică — interpretarea LLM poate fi tare
+
+Clasificarea sentimentului folosește Gemini 2.5 Flash. Modelul **ocazional supra-interpretează** tonul tensionat din context ca "negativ" — chiar dacă în realitate ND e mediator sau apără poziția unei entități.
+
+**Exemplu real găsit prin fact-check** (PSD Q2 2026):
+- **Gemini a clasificat**: NEGATIV
+- **Fact-check web a arătat**: ND a fost MEDIATOR în criza coaliției. PSD a atacat (97.7% vot retragere sprijin Bolojan), ND a încercat să mențină coaliția ("Calm și vom trece prin asta")
+- "Nu sunt propunerile PSD-ului" e ND **apărând** procesul de numire, nu critică PSD
+- **Override manual aplicat**: NEGATIV → MIXT
+
+**De aceea citatele expandabile sunt importante** — verifică tu însuți, nu te baza orbește pe clasificare.
+
+Pentru transparență: toate override-urile manuale sunt marcate explicit în date (`override_applied: true`, cu rationale completă).
+:::
+
 ### Exemple — diferențe de ton pe aceeași entitate
 
 ```{python}
@@ -279,7 +295,18 @@ for period_label, period_search, context in psd_timeline:
     html += f'<td style="padding:8px;">'
     html += f'<details style="margin:0;"><summary style="cursor:pointer;color:{color};font-weight:600;">{sent.upper()} — click pentru exemple</summary>'
     html += f'<div style="padding:0.5rem 0;font-size:0.88rem;">'
-    html += f'<p style="color:#555;margin-bottom:0.4rem;"><strong>Raționament:</strong> {rat}</p>'
+    override_notice = ""
+    if r.get("override_applied"):
+        original = r.get("sentiment_original_gemini", "?")
+        override_reason = r.get("override_reason", "")[:500]
+        override_notice = (
+            f'<div style="background:#fff3cd;border-left:4px solid #f4a261;padding:0.5rem;margin-bottom:0.5rem;font-size:0.85rem;">'
+            f'<strong>⚠️ Override manual</strong>: Gemini clasificase <strong>{original.upper()}</strong>, dar fact-check web a arătat altceva. Reformulat ca <strong>{sent.upper()}</strong>.<br>'
+            f'<em>Motiv: {override_reason}</em>'
+            f'</div>'
+        )
+    html += override_notice
+    html += f'<p style="color:#555;margin-bottom:0.4rem;"><strong>Raționament Gemini:</strong> {rat}</p>'
     html += f'<p style="margin:0.3rem 0 0.2rem 0;font-size:0.8rem;color:#666;"><strong>Citate verbatim:</strong></p>'
     html += quotes
     html += '</div></details>'
