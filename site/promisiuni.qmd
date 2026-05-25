@@ -154,17 +154,22 @@ ND **execută concret pe aceste domenii — dar nu vorbește despre realizările
 
 ```{python}
 #| echo: false
+#| output: asis
 contradicted = promises[promises["status_status"] == "CONTRADICTED"]
 if not contradicted.empty:
     for _, p in contradicted.iterrows():
-        print(f"Promisiune ({p['source_date']}):")
-        print(f"  {p['promise_text']}")
-        print()
-        print(f"Citat verbatim:")
-        print(f"  «{p['verbatim_quote']}»")
-        print()
-        print(f"Status: CONTRADICTED")
-        print(f"Raționament: {p['status_reasoning'][:400]}")
+        md_block = f"""
+**Promisiune** ({p['source_date']}):
+> {p['promise_text']}
+
+**Citat verbatim**:
+> «{p['verbatim_quote']}»
+
+**Status**: ⚠️ CONTRADICTED
+
+**Raționament**: {p['status_reasoning'][:500]}
+"""
+        print(md_block)
 ```
 
 ::: {.callout-important}
