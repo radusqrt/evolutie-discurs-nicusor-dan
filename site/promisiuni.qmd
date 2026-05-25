@@ -30,7 +30,7 @@ promises = load_promises()
 2. **Deduplicare** cu embedding cosinus (prag 0,85) → 150 → 131 promisiuni unice
 3. **Verificare** în corpusul de mandat (≥ 26 mai 2025, ~540 docs): pentru fiecare promisiune, top-8 paragrafe relevante + clasificare LLM
 4. **Audit** dublu pe 32 sample-uri (75% spot-on)
-5. **Fact-check web independent** pe 10 promisiuni — **descoperă 3× subestimare**
+5. **Fact-check web independent** pe 10 promisiuni alese pentru vizibilitate — arată un **pattern**: pe cazurile verificate, livrarea reală depășește ce transpare în discurs.
 
 ## Distribuția globală
 
@@ -69,11 +69,12 @@ fig.show()
 ```
 
 ::: {.callout-warning}
-## Important: discrepanță majoră
-Clasificatorul măsoară **ce spune ND**, nu **ce face guvernul**.
+## Important: clasificatorul măsoară discursul, nu acțiunile
+Clasificatorul ND-centric vede doar ce **anunță** ND. Dacă o promisiune e executată dar el nu mai vorbește despre ea, va apărea ca NO_MENTION sau IN_PROGRESS.
 
-Fact-check independent pe 10 promisiuni arată **60% ținute în realitate** (vs 20% în clasificator).
-ND **livrează prin acțiune, nu prin discurs**.
+**Fact-check pe 10 promisiuni mari** (DNA, pensii magistrați, deficit, OCDE, infrastructură PMB) confirmă acest pattern: **6 din 10 au fost executate** concret (decrete, legi, contracte semnate) chiar dacă clasificatorul nu le-a marcat KEPT.
+
+⚠️ Cele 10 verificate **nu sunt eșantion random** — au fost alese tocmai pentru vizibilitate și predispoziție la decalaj. Pattern-ul e documentat, dar nu poate fi extrapolat exact pe toate 131 fără o verificare sistematică.
 :::
 
 ## Pe domenii (cele mai relevante)

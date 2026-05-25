@@ -101,17 +101,18 @@ with col_b:
         """
     )
 
-    st.subheader("Răsturnare prin fact-check (10 promisiuni verificate web)")
+    st.subheader("Pattern documentat prin fact-check (10 promisiuni selectate)")
     st.markdown(
         """
-        - **Rata reală de promisiuni ținute = 60%** vs clasificator 20% — **subestimare cu factor 3×**
-        - Nicușor Dan **livrează prin ACȚIUNE, nu prin DISCURS**:
-          - Pensii magistrați promulgată (CCR 6-3)
-          - Numire DNA/DIICOT (aprilie 2026)
-          - Deficit -1,4 puncte procentuale (cea mai mare corecție din UE)
-          - OCDE 22/25 opinii primite (pe traiectorie 2026)
-          - 50 km tramvai contracte semnate
-          - 8 șantiere consolidare active (din 5 promise)
+        Cele 10 promisiuni verificate **nu sunt random** — au fost alese tocmai pentru vizibilitate
+        (PMB local + policy internă mare). Pe acest sample:
+
+        - **6 din 10** au fost executate concret (decrete, legi, contracte) chiar dacă clasificatorul ND-centric le-a marcat NO_MENTION/IN_PROGRESS
+        - Exemple: pensii magistrați promulgată (CCR 6-3), numire DNA/DIICOT (aprilie 2026), deficit -1,4 puncte procentuale (cea mai mare corecție UE), OCDE 22/25 opinii, 50 km tramvai contracte semnate, 8 șantiere consolidare active (din 5 promise)
+
+        ⚠️ Pattern documentat — *nu* extrapolabil exact pe toate 131 fără verificare sistematică.
+
+        **Ce putem afirma onest**: ND tinde să vorbească mai mult despre intenții decât despre realizările sale concrete.
         """
     )
 

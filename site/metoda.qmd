@@ -81,7 +81,7 @@ Sub-pipeline cu 4 etape:
 
 **Audit manual** stratificat (5 per status × 2 seed-uri = 32 sample-uri): 75% spot-on, 9% greșite (toate "pre-mandate fulfilled" — eroare metodologică sistematică).
 
-**Fact-check web independent** pe 10 promisiuni: **60% ținute în realitate vs 20% clasificator** — subestimare factor 3×.
+**Fact-check web independent** pe 10 promisiuni selectate pentru vizibilitate (5 PMB + 5 policy internă): **6 din 10 au fost executate** concret prin acțiuni guvernamentale (decrete, promulgări, numiri) chiar dacă clasificatorul ND-centric le-a marcat NO_MENTION/IN_PROGRESS. Pattern documentat — *nu* extrapolabil exact pe toate 131 fără verificare sistematică.
 
 ### 10 · Analize avansate
 

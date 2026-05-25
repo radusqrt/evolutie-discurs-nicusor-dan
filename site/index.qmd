@@ -38,7 +38,7 @@ n_nom = (promises["status_status"] == "NO_MENTION").sum()
 ```
 
 ::: {.hook-card}
-**1.062 de discursuri analizate.** 28 de concluzii. Două registre comunicative (scris vs vorbit) cu diferențe radicale, 131 de promisiuni urmărite, un raport tensionat cu premierul Bolojan și o discrepanță uriașă între ce **spune** și ce **face**.
+**1.062 de discursuri analizate.** 28 de concluzii. Două registre comunicative (scris vs vorbit) cu diferențe radicale, 131 de promisiuni urmărite, un raport tensionat cu premierul Bolojan și o observație: ND tinde să **vorbească mai mult despre intenții decât despre realizările sale concrete**.
 :::
 
 ## Care e povestea
@@ -89,33 +89,45 @@ Pe Facebook scrie cu vocabular **instituțional**, repetitiv, fără ezitări. P
 
 [→ Citește analiza completă cu limitări metodologice](doua-registre.qmd)
 
-### 2. Livrează prin acțiune, nu prin discurs
+### 2. Vorbește mai mult despre intenții decât despre realizări
 
-Clasificatorul LLM (bazat pe ce **spune**) zice că 20% din promisiunile de campanie sunt ținute. Verificarea factuală pe web (ce **face**) arată **60%**. Diferență 3×.
+Clasificatorul LLM (bazat pe **ce spune ND**) marchează doar 20% din promisiunile de campanie ca "ținute". Dar **verificarea independentă a 10 promisiuni mari de policy** arată 6 dintre ele executate concret (decrete, legi, numiri) **chiar dacă ND nu se laudă cu ele în discurs**.
 
 ```{python}
 #| echo: false
 import plotly.graph_objects as go
 
 fig = go.Figure(go.Bar(
-    x=["Clasificator (discurs)", "Realitate (fact-check)"],
+    x=["Clasificator pe 131<br>(doar discurs ND)", "Sample verificat web<br>(10 promisiuni mari)"],
     y=[20, 60],
     marker_color=["#999999", "#28a745"],
-    text=["20%", "60%"],
+    text=["20% (din 131)", "6 din 10"],
     textposition="outside",
-    textfont=dict(size=20, color="#333"),
+    textfont=dict(size=16, color="#333"),
 ))
 fig.update_layout(
-    title="Rata de promisiuni ținute: discurs vs realitate",
-    yaxis_title="% din 131 promisiuni canonice",
+    title="Promisiuni ținute — discurs propriu vs verificare independentă",
+    yaxis_title="%",
     yaxis_range=[0, 75],
     height=400,
     margin=dict(t=60, b=40, l=60, r=20),
     showlegend=False,
     plot_bgcolor="white",
+    annotations=[
+        dict(x=0.5, y=-0.28, xref="paper", yref="paper",
+             text="<i>Cele 10 verificate nu sunt eșantion random — au fost alese pentru<br>vizibilitate (DNA, magistrați, deficit, OCDE, infrastructură PMB).</i>",
+             showarrow=False, font=dict(size=11, color="#666"), align="center"),
+    ],
 )
 fig.show()
 ```
+
+::: {.callout-note}
+## Pattern, nu cifră generalizabilă
+Cele 10 promisiuni verificate **nu sunt random**. Le-am ales pentru că păreau predispuse la decalaj (PMB, policy mari). Nu putem extrapola "60% pe 131".
+
+Ce putem spune cu încredere: **există un pattern documentat pe cazuri reale** — ND livrează acțiuni concrete pe care nu le menționează explicit ulterior.
+:::
 
 [→ Vezi cele 131 de promisiuni](promisiuni.qmd)
 

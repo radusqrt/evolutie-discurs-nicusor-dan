@@ -216,30 +216,29 @@ Fact-check independent (web search, mai 2026) pe 5 promisiuni București/local e
 
 Findings ne-PMB (policy internă 0% KEPT, diplomație 60% KEPT) NU sunt afectate de acest blind spot — pe acelea ND e *singurul actor relevant*.
 
-### 21. **REINTERPRETARE: 60% KEPT în realitate, nu 20% — ND livrează prin acțiune, nu prin discurs**
+### 21. **Pattern documentat: ND livrează acțiuni pe care nu le menționează explicit**
 
-Fact-check extins pe 5 promisiuni policy internă suplimentare (deficit, OCDE, pensii speciale magistrați, DNA/DIICOT, cheltuieli militare) confirmat prin surse oficiale (CCR, MAE, Eurostat, NATO, OECD):
+Fact-check pe **10 promisiuni selectate pentru vizibilitate** (5 PMB local + 5 policy internă mari): pensii speciale magistrați, DNA/DIICOT, cheltuieli militare, deficit, OCDE, 50km tramvai, 8 șantiere consolidare, etc. Sursă: CCR, MAE, Eurostat, NATO, OECD + media (Digi24, HotNews, Profit, Recorder).
 
-| Promisiune | Classifier | Realitate verificată |
+| Promisiune | Classifier (ce spune ND) | Realitate (ce s-a executat) |
 |---|---|---|
 | Pensii speciale magistrați | (n/a în top 131) | ✅ KEPT — lege CCR-validată 6-3 (feb 2026), promulgată |
 | Numire DNA/DIICOT integritate | IN_PROGRESS | ✅ KEPT — decrete semnate apr 2026, 1 respins |
 | Cheltuieli militare graduale | KEPT | ✅ CONFIRMAT — 2.24% PIB 2025, angajament 5% până 2035 |
-| Corecție deficit din cheltuieli | IN_PROGRESS | 🔄 IN_PROGRESS avansat — 9.3%→7.9% (cea mai mare corecție din UE) |
-| OCDE aderare 2026 | (n/a în top 131) | 🔄 IN_PROGRESS foarte avansat — 22/25 opinii, 15/25 comitete favorabile |
+| Corecție deficit din cheltuieli | IN_PROGRESS | 🔄 IN_PROGRESS avansat — 9.3%→7.9% (cea mai mare corecție UE) |
+| OCDE aderare 2026 | (n/a în top 131) | 🔄 IN_PROGRESS foarte avansat — 22/25 opinii |
 
-**Combined fact-check (10 promisiuni: 5 PMB + 5 policy)**:
-- 6 KEPT în realitate
-- 3 IN_PROGRESS avansat
-- 1 nuanced contradiction
+**Combined (10 promisiuni)**: 6 KEPT real / 3 IN_PROGRESS / 1 contradicție nuanțată.
 
-**Rate KEPT real: 60% vs classifier 20%. Diferență 3×.**
+⚠️ **Cele 10 NU sunt eșantion random**. Au fost alese tocmai pentru vizibilitate (proiecte PMB executate de succesori + policy mari verificabile public). Pe acest eșantion, da, vedem livrare reală mai mare decât transpare în discurs. **Dar nu putem extrapola "60% real vs 20% classifier" pe toate 131 fără verificare sistematică.**
 
-**Răsturnare finding #16 ("Policy internă 0% KEPT")**: GREȘIT în realitate. ND livrează în anti-corupție (numiri DNA/DIICOT), justiție (pensii magistrați promulgată), fiscale (corecție -1.4pp deficit), aderare OCDE — toate prin **acțiuni concrete**, dar nu prin **discurs explicit care să anunțe completion**.
+**Ce putem afirma cu încredere**:
 
-**Reinterpretare narrative**: ND **livrează prin acțiune, nu prin discurs**. Promise Tracker bazat pe discurs subestimă livrarea reală de **3 ori**. Pentru un articol onest, framing-ul corect e *"discrepanța între ce face și ce spune e mare"*.
+- **Pattern documentat**: pe cazuri verificate independent, ND a executat concret (decrete, legi, contracte) chiar dacă clasificatorul ND-centric (care vede doar discursul) le-a marcat NO_MENTION/IN_PROGRESS.
+- **Reformulare finding #16 ("Policy internă 0% KEPT")**: clasificatorul subestimează livrarea concretă pentru *acest tip de promisiuni* — măsoară discursul, nu acțiunile. Anti-corupție, justiție, fiscale, OCDE au fost executate, dar ND nu se laudă explicit cu realizările.
+- **Concluzia narativă onestă**: *ND tinde să vorbească mai mult despre intenții decât despre realizările sale concrete*. Pentru a cuantifica gap-ul, ar fi nevoie de verificare sistematică pe eșantion random din cele 131.
 
-Surse fact-check: vezi `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_policy.md`.
+Surse fact-check: `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_policy.md`.
 
 ---
 
