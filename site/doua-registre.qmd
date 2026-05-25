@@ -236,14 +236,60 @@ html += '</tbody></table>'
 print(html)
 ```
 
-::: {.callout-note}
-## Detaliu importat despre PSD
-PSD apare pe FB **doar în campanie** (Q2 2025) — atunci e NEGATIV. După campanie ND **nu mai postează despre PSD pe FB**, chiar dacă devin parteneri de coaliție.
+```{python}
+#| echo: false
+#| output: asis
 
-Pe video însă, PSD apare continuu: NEUTRU la formarea guvernului (Q3 2025) → MIXT în coaliție (Q4 2025 – Q1 2026) → **NEGATIV** din nou când relația se tensionează (Q2 2026, criza Pfizer).
+# Build PSD timeline with expandable details
+def find_psd(data, period_contains):
+    for r in data:
+        if r.get("entity") == "PSD" and period_contains in r.get("period", ""):
+            return r
+    return None
 
-ND alege **selectiv** când să atace pe FB.
-:::
+psd_timeline = [
+    ("Q2 2025 (campanie)", "2025Q2 campanie", "campania electorală"),
+    ("Q3 2025 (formare guvern)", "2025Q3", "formarea guvernului Bolojan"),
+    ("Q4 2025 (stabilizare)", "2025Q4 stabil", "stabilizarea coaliției"),
+    ("Q1 2026 (reformă judiciară)", "2025Q4-2026Q1", "reforma judiciară"),
+    ("Q2 2026 (criză coaliție)", "2026Q2", "criza din coaliție"),
+]
+
+html = '<div style="margin:1.5rem 0;padding:1.5rem;background:#fff8e1;border-left:6px solid #f4a261;border-radius:8px;">'
+html += '<h4 style="margin-top:0;">Cazul PSD — story complet în timp</h4>'
+html += '<p>PSD apare pe Facebook <strong>doar în campanie</strong> (Q2 2025) — atunci e NEGATIV. După campanie ND <strong>nu mai postează despre PSD pe FB</strong>, chiar dacă devin parteneri de coaliție.</p>'
+html += '<p>Pe video însă, PSD apare continuu — evoluție în 5 perioade:</p>'
+html += '<table style="width:100%;border-collapse:collapse;margin-top:1rem;">'
+
+for period_label, period_search, context in psd_timeline:
+    r = find_psd(vorbit_data, period_search)
+    if not r:
+        continue
+    sent = r.get("sentiment", "?")
+    color = {"pozitiv": "#2a9d8f", "negativ": "#e63946",
+             "mixt": "#f4a261", "neutru": "#778da9"}.get(sent, "#666")
+    rat = r.get("rationale", "")
+    evs = r.get("supporting_evidence") or r.get("key_phrases") or []
+    quotes = ""
+    for e in evs[:3]:
+        quotes += f'<blockquote style="margin:0.4rem 0;padding-left:0.75rem;border-left:3px solid #ccc;font-style:italic;font-size:0.88rem;">{str(e)[:300]}</blockquote>'
+
+    html += '<tr style="border-bottom:1px solid #eee;vertical-align:top;">'
+    html += f'<td style="padding:8px;width:28%;font-weight:600;font-size:0.9rem;">{period_label}</td>'
+    html += f'<td style="padding:8px;">'
+    html += f'<details style="margin:0;"><summary style="cursor:pointer;color:{color};font-weight:600;">{sent.upper()} — click pentru exemple</summary>'
+    html += f'<div style="padding:0.5rem 0;font-size:0.88rem;">'
+    html += f'<p style="color:#555;margin-bottom:0.4rem;"><strong>Raționament:</strong> {rat}</p>'
+    html += f'<p style="margin:0.3rem 0 0.2rem 0;font-size:0.8rem;color:#666;"><strong>Citate verbatim:</strong></p>'
+    html += quotes
+    html += '</div></details>'
+    html += '</td></tr>'
+
+html += '</table>'
+html += '<p style="margin-top:1rem;font-size:0.9rem;color:#555;">ND alege <strong>selectiv</strong> când să atace pe FB — doar în perioada electorală. Pe video tonul fluctuează cu starea coaliției.</p>'
+html += '</div>'
+print(html)
+```
 
 ## Diferența #5 — Topicele (BERTopic)
 
