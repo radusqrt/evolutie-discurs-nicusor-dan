@@ -137,7 +137,7 @@ Top cele 6 cuvinte: `vrea, sine, spune, trebui, putea, moment`. Toate sunt verbe
 
 Este un orator deliberativ, **nu un manager care enumeră livrabile**.
 
-### 4. Volumul s-a prăbușit post-mandat
+### 4. Volumul s-a prăbușit post-investitură
 
 ```{python}
 #| echo: false

@@ -24,7 +24,7 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 **Discurs (analize pe text):**
 1. Două registre distincte: **scris (FB) = instituțional/branding** vs **vorbit (video) = deliberativ/reflexiv**
 2. Vocabular dominant **abstract** (`vrea, sine, trebui, putea`), nu enumerare de policy
-3. **Volum prăbușit post-mandat** (drop 3.6× față de campanie)
+3. **Volum prăbușit post-investitură** (drop 3.6× față de campanie)
 4. **Pivot tematic abrupt** trimestru-la-trimestru (electoral → magistrați/pensii → apărare)
 5. **Brand-shedding "România onestă"** după investitură (TF-IDF 0.6 → 0)
 6. FB ultra-disciplinat: **76% într-un singur mega-topic instituțional**
@@ -182,7 +182,7 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
   - **Insight metodologic**: classifier-ul măsoară DISCURSUL, nu REALITATEA. Pentru proiectele delegate (PMB sub Bujduveanu/Ciucu) și acțiuni concrete (decrete, promulgări), ND livrează semnificativ mai mult decât anunță în discurs. **Framing-ul corect: "ND livrează prin acțiune, nu prin discurs"**.
 
 - **Pasul 10 (Advanced analyses)** — 5 analize SotA rulate pe toate 3 proiecții (overall/scris/vorbit) cu 15 output-uri totale:
-  - **Discourse complexity**: sentence length, dependency tree depth, MTLD, TTR. FB diversifică lexicon dramatic post-mandat (MTLD 34→87), video stabil 42-54.
+  - **Discourse complexity**: sentence length, dependency tree depth, MTLD, TTR. FB diversifică lexicon dramatic post-investitură (MTLD 34→87), video stabil 42-54.
   - **Ezitare / nuanțare în limbaj** (hedging): lexicon custom 35+ markeri nuanțare / 24 certitudine / 19 personali. FB ratio 0.13-0.23 (categoric), video 0.51-1.06 (deliberativ) — **4-5× diferență**.
   - **Semantic drift**: centroid embedding per (topic × perioadă). Top drift overall: brand `nicusorpresedinte` 0.37, Georgescu frame 0.32, justiție/CSM 0.30.
   - **NER cu GLiNER multi-v2.1 zero-shot**: ~3,755 mențiuni overall (curate ~700 după aliasing). Top entități: ROMÂNIA, UCRAINA, SUA, NATO, UE, R. MOLDOVA, RUSIA, CSM, POLONIA, OCDE, GEORGESCU.

@@ -59,7 +59,7 @@ with col_a:
         """
         - **Două registre**: scris (FB) = instituțional/branding vs vorbit (video) = deliberativ/reflexiv (cauza neclară — vezi limitări metodologice)
         - Vocabular dominant **abstract** (`vrea, sine, trebui, putea`), nu enumerare de politică publică
-        - **Volum prăbușit post-mandat** — scădere de 3,6× față de campanie
+        - **Volum prăbușit post-investitură** — scădere de 3,6× față de campanie
         - **Pivot tematic abrupt** trimestru la trimestru
         - **Renunțare la brandul "România onestă"** după investitură (TF-IDF 0,6 → 0)
         - Facebook ultra-disciplinat — **76% într-un singur mega-topic instituțional**
@@ -72,7 +72,7 @@ with col_a:
         Patru metrici independente arată diferențe radicale între FB și video:
 
         1. **Ezitare / nuanțare în limbaj** — Facebook 0,13-0,23 vs video 0,51-1,06 (**diferență de 4-5×**)
-        2. **Diversitate lexicală (MTLD)** — Facebook creștere dramatică 34→87 post-mandat
+        2. **Diversitate lexicală (MTLD)** — Facebook creștere dramatică 34→87 post-investitură
         3. **Polarizare sentiment** — Facebook 69% pro/contra vs video 55% (38% mixt)
         4. **BERTopic** — Facebook 76% într-un singur mega-topic; video are 8 topice + 25% outliers
 

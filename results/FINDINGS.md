@@ -24,7 +24,7 @@ Nu sunt în top 30: `lege, buget, salariu, pensie, școală, spital, oraș, drum
 
 **Interpretare**: vorbește despre **intenții și posibilități**, nu despre **livrabile**. Stil deliberativ-reflexiv, nu managerial-enumerativ.
 
-## 3. Volum prăbușit post-mandat (drop 3.6×)
+## 3. Volum prăbușit post-investitură (drop 3.6×)
 
 | Perioadă | Docs |
 |---|---:|
@@ -114,7 +114,7 @@ Funcție prezidențială ceremonială. Vocabular formal: `familiei, transmit, pr
 
 - `romaniaonesta` — campanie (T0+T3+T22, dominant Q2)
 
-- `romaniaputernica` — T13 (post-mandat)
+- `romaniaputernica` — T13 (post-investitură)
 
 - `nicusorpresedinte` — peste toate
 
@@ -248,10 +248,10 @@ Surse fact-check: `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_po
 
 Pe spaCy parser: sentence length, dependency tree depth, MTLD, TTR, function ratio.
 
-- **Scris (FB)**: cuvinte 5.5-6.3 chars, function ratio 0.36-0.44, **MTLD growing 34 → 87 post-mandat**
+- **Scris (FB)**: cuvinte 5.5-6.3 chars, function ratio 0.36-0.44, **MTLD growing 34 → 87 post-investitură**
 - **Vorbit (video)**: cuvinte 4.5-4.7 chars, function ratio 0.52-0.56, MTLD stabil 42-54
 
-FB **își diversifică lexicon-ul dramatic post-mandat** (MTLD 2.5× growth), video rămâne stabil. Schimbarea bruscă coincide cu schimbarea rolului (candidat → președinte) — *consistentă cu* o schimbare de proces de producție FB, dar cauza exactă rămâne neclară.
+FB **își diversifică lexicon-ul dramatic post-investitură** (MTLD 2.5× growth), video rămâne stabil. Schimbarea bruscă coincide cu schimbarea rolului (candidat → președinte) — *consistentă cu* o schimbare de proces de producție FB, dar cauza exactă rămâne neclară.
 
 ### 23. **Ezitare / nuanțare în limbaj — diferență 4-5× FB vs video (Pasul 6)**
 
@@ -319,7 +319,7 @@ Gemini 2.5 Flash sentiment classification pe 107 buckets (entitate × perioadă 
 | CSM | **mixt × 3** | Reformă complicată, fără condamnare |
 | **TRUMP** | **MIXT × 2** | **NU îl laudă, are rezerve** |
 | GERMANIA | mixt → pozi | Îmbunătățire |
-| USR | pozi → neutru | Răcire post-mandat |
+| USR | pozi → neutru | Răcire post-investitură |
 | GUVERN | nega → mixt | Schimbare odată cu Bolojan |
 
 **Insighturi devastatoare**:
@@ -402,7 +402,7 @@ Pasul 10 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Boloja
 Din Pasul 1-9, am acumulat **4 metrici convergente** care arată că FB-ul și video-ul lui Nicușor Dan au registre comunicative **radical diferite**:
 
 1. **Ezitare / nuanțare în limbaj (Pasul 6)**: FB ezitare:certitudine ratio = 0.13-0.23 vs video 0.51-1.06 = **4-5× diferență**
-2. **Discourse complexity (Pasul 5)**: FB MTLD growth 34→87 post-mandat, video MTLD stabil 42-54
+2. **Discourse complexity (Pasul 5)**: FB MTLD growth 34→87 post-investitură, video MTLD stabil 42-54
 3. **Sentiment polarization (Pasul 9)**: FB 69% polarizat pro/contra, video 55% polarizat + 38% mixt (mai nuanțat)
 4. **BERTopic (Pasul 3)**: FB are 76% într-un singur mega-topic instituțional; video are 8 topice + 25% outliers
 
