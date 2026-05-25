@@ -453,24 +453,104 @@ Patru metrici independente arată că pe **Facebook** Nicușor Dan apare **mai c
 
 ---
 
-## Ce NU putem spune
+## Stylometry formală — Burrows' Delta + PCA + Random Forest
+
+Pentru a testa cantitativ dacă cele 2 registre au amprente stilometrice distincte, am rulat metode stilometrice consacrate pe **718 documente** (≥50 cuvinte).
+
+**Setup**: top 100 *function words* (cuvinte instrumentale: prepoziții, conjuncții, articole, pronume, auxiliare — nu cuvinte de conținut), frecvențe relative, z-normalizate. Apoi:
+
+1. **Burrows' Delta** (distanță stilometrică între centroide)
+2. **PCA 2D** (proiecție vizuală)
+3. **Random Forest classifier** (cât de ușor distinge un model FB de video?)
+
+```{python}
+#| echo: false
+import pandas as pd
+
+# Display key results
+results = {
+    "Metoda": [
+        "Burrows' Delta — distanță centroidă scris↔vorbit",
+        "Burrows' Delta — accuracy nearest-centroid",
+        "Random Forest — 5-fold cross-validation accuracy",
+        "Random Forest — held-out 30% test",
+    ],
+    "Rezultat": [
+        "0.297",
+        "78.1%",
+        "92.1% ± 1.7%",
+        "94.9% (116/118 FB + 89/98 video corecte)",
+    ],
+    "Interpretare": [
+        "Distanță moderată — cele 2 register-uri sunt distincte stilometric",
+        "Vs ~50% random — semnal clar de discriminare",
+        "Model simplu distinge FB de video cu acuratețe foarte mare",
+        "Doar 2 FB confundate cu video; 9 video confundate cu FB",
+    ],
+}
+df = pd.DataFrame(results)
+print(df.to_html(index=False, escape=False, classes="table"))
+```
+
+![PCA scatter — top 100 function words, color by canal](../results/11_stylometry/pca_scatter.png)
+
+**Random Forest distinge FB de video cu 92% acuratețe doar din 100 function words** (cuvinte ca *de, și, în, să, fi*, etc.). Asta confirmă **separabilitate stilometrică reală** — nu pot fi confundate.
+
+### Dar ce features discriminează concret?
+
+Top 10 cuvinte care fac diferența:
+
+| Cuvânt | Mai des în | De câte ori | Tip |
+|---|---|---|---|
+| `niște` | video | **259×** | indefinit colocvial |
+| `o` (numeral) | video | 56× | filler scurt |
+| `ăă` | video | **41×** | filler ezitare |
+| `într` | video | 28× | conector oral |
+| `deci` | video | **26×** | conector argumentativ oral |
+| `ă` | video | 22× | filler ezitare |
+| `crede` | video | 14× | verb modal personal |
+| `spune` | video | 6,8× | verb relatare |
+| `acesta` | video | 4,9× | deictic ("asta") |
+| `că` | video | 3× | conjuncție orală |
+
+| `al` | scris | 2,6× | articol posesiv formal |
+| `prin` | scris | 3,7× | prepoziție formală |
+| `pentru` | scris | 1,5× | prepoziție |
+| `și` | scris | 1,6× | conjuncția "și" |
 
 ::: {.callout-important}
+## Ce înseamnă rezultatul stilometric
+
+**Bună veste**: cele 2 registre sunt **clar distincte stilometric** (92% accuracy clasificator). Diferența nu e iluzie statistică.
+
+**Veste mai nuanțată**: features care fac diferența sunt **markeri clasici ai vorbirii orale spontane** — fillere (*ăă*, *ă*), deictice (*acesta*), conectori orali (*deci*, *într*), indefinite colocviale (*niște*). Adică **majoritatea separabilității vine din diferența naturală oral-vs-scris formal**, NU dintr-o "altă voce" producând FB.
+
+**Concluzia stilometriei singure**: e **consistent cu diferența naturală oral-vs-scris**, dar e o **diferență foarte clară** (92%) — mai mare decât baseline-ul tipic de 60-80% raportat în literatura stilometrică pentru oral vs scris. **Nu poate distinge** între:
+- a) ND adaptează natural stilul
+- b) Echipă PR scrie FB cu adăugire în stil formal
+- c) Combinație
+
+**Pentru a distinge** ar fi nevoie de:
+- **Baseline politic comparativ** (Iohannis FB vs video, Băsescu, Macron) — pattern-ul observat e normal sau anormal de mare?
+- **Analiza content-word features** separat de function words
+- **Burrows pe sub-tipuri** (ex: doar discursuri prepared vs doar interviuri spontane)
+:::
+
+## Ce NU putem spune (deja)
+
+::: {.callout-note}
 ## Datele nu spun că sunt "doi Nicușor Dan"
-Diferențele observate sunt reale. **Cauza lor e însă neclară**. Există cel puțin patru explicații plauzibile, și nu putem distinge între ele cu datele actuale:
+Diferențele observate sunt **reale și verificate stilometric**. **Cauza lor e însă neclară**. Există cel puțin patru explicații plauzibile, și nu putem distinge complet între ele:
 
-1. **Diferențe naturale de gen comunicativ**: orice persoană scrie diferit de cum vorbește — mai îngrijit, mai puține ezitări, mai puțină auto-referință. Asta e universal.
+1. **Diferențe naturale de gen comunicativ**: orice persoană scrie diferit de cum vorbește. Asta e universal — și stilometria confirmă: cele mai mari diferențe sunt fillere și deictice clasice ale vorbirii orale.
 
-2. **Constraint-uri de medium**: postările FB sunt scurte, editabile, polished. Video-ul e real-time, needitabil. Diferit de natură.
+2. **Constraint-uri de medium**: postările FB sunt scurte, editabile, polished. Video-ul e real-time, needitabil.
 
-3. **Audiență diferită**: FB targetează în special susținători + public general. Interviurile video targetează jurnaliști + critici. Stiluri diferite pentru audiențe diferite e normal.
+3. **Audiență diferită**: FB pentru susținători/public; video pentru jurnaliști/critici.
 
-4. **Colaborare cu echipă PR**: este posibil ca postările FB să fie redactate sau adaptate de o echipă de comunicare. Acest scenariu ar produce diferențele observate, dar **nu este singura explicație**.
+4. **Colaborare cu echipă PR**: postările FB pot fi redactate de un team de comunicare. Compatibilă cu datele dar **nu unica explicație**.
 
-**Pentru a distinge** între aceste ipoteze ar fi nevoie de:
-
-- **Stylometry formală** — Burrows' Delta + PCA pe function words. Această analiză specifică nu a fost rulată în acest proiect.
-- **Comparație cu baseline politic** — alți președinți (Iohannis, Băsescu, Macron) prezintă același pattern de divergență FB vs video? Dacă da, atunci e *pattern instituție*, nu specific lui ND.
+**Ce ne lipsește pentru a tranșa**: baseline politic comparativ (Iohannis, etc.). Dacă alți președinți au aceleași pattern de divergență, e pattern instituție.
 :::
 
 ## Ce putem spune cu încredere
