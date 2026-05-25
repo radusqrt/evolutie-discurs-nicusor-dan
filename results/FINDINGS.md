@@ -308,7 +308,7 @@ GLiNER multi-v2.1 zero-shot NER (3,755 mențiuni extrase, curățate la ~700 cu 
 
 Gemini 2.5 Flash sentiment classification pe 107 buckets (entitate × perioadă cu ≥3 mențiuni).
 
-**Distribuție**: 61% n/a, 21% pozitiv, 10% mixt, **doar 5% (5 buckets) negativ**.
+**Distribuție** (după retry pentru bug-uri de parsing JSON): 47% pozitiv, 35% mixt, 14% negativ, 5% neutru — **doar 14% buckets explicit negative**.
 
 **Trajectories cheie**:
 
@@ -335,20 +335,23 @@ Pasul 9 rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vo
 
 | Sentiment | Scris (FB) | Vorbit (video) |
 |---|---:|---:|
-| pozitiv | **56%** | 27% |
-| negativ | **13%** | 9% |
-| mixt | 2% | **15%** |
-| n/a | 29% | 46% |
+| pozitiv | **56%** | 43% |
+| negativ | **13%** | 12% |
+| mixt | 2% | **38%** |
+| neutru | 0% | 7% |
+| n/a (mențiuni superficiale) | 29% | 0% |
 
-**FB are 70% sentiment polarizat (pozitiv+negativ) — vs video care e doar 36% polarizat.** Restul în video e **MIXT (15%) + N/A** — stil reflexiv, prudent, ambiguu.
+**FB are 69% sentiment polarizat (pozitiv+negativ) — video are 55% polarizat, restul 38% mixt + 7% neutru.** FB e mai categoric, video e mai nuanțat.
 
-**Entități cu sentiment DIFERIT scris vs vorbit (3 cazuri critice)**:
+**Entități cu sentiment DIFERIT scris vs vorbit ÎN ACEEAȘI PERIOADĂ**:
 
-| Entitate | Scris | Vorbit | Interpretare |
-|---|---|---|---|
-| TRUMP | POZITIV | **MIXT** | FB îl prezintă pozitiv pentru diplomația oficială; video are rezerve |
-| PSD | NEGATIV | **MIXT** | FB atacă (campanie); video temperează (post-coaliție) |
-| SIMION | n/a | **NEGATIV** | FB nu îl numește; video îl critică explicit |
+| Entitate | Perioadă | Scris | Vorbit | Interpretare |
+|---|---|---|---|---|
+| TRUMP | Q1 2026 | POZITIV | **MIXT** | FB îl prezintă pozitiv pentru diplomația oficială; video are rezerve |
+| PSD | Q2 2025 (campanie) | NEGATIV | MIXT | FB atacă explicit; video tempereazăa cu recunoașterea necesității |
+| SIMION | Q2 2025 (campanie) | n/a (doar hashtag-uri) | **NEGATIV** | FB îl pomenește superficial prin tag-uri; video îl critică direct |
+
+**Notă PSD**: pe FB apare DOAR în Q2 2025 (campanie). Post-electoral dispare complet de pe FB. Pe video are trajectory completă: campanie NEGATIV → formare guvern NEUTRU → coaliție MIXT → criza Pfizer Q2 2026 **NEGATIV** din nou.
 
 **Sub-finding pentru diferențele de registru**: FB = instrument de polarizare clară (pro/contra explicit); video = instrument de nuanță și echivoc. ND în video e mai prudent; pe FB apare un registru categoric. Această diferență poate veni din mai multe surse (vezi secțiunea "Convergent evidence" mai jos cu cele 4 ipoteze plauzibile).
 
@@ -400,7 +403,7 @@ Din Pasul 1-9, am acumulat **4 metrici convergente** care arată că FB-ul și v
 
 1. **Ezitare / nuanțare în limbaj (Pasul 6)**: FB ezitare:certitudine ratio = 0.13-0.23 vs video 0.51-1.06 = **4-5× diferență**
 2. **Discourse complexity (Pasul 5)**: FB MTLD growth 34→87 post-mandat, video MTLD stabil 42-54
-3. **Sentiment polarization (Pasul 9)**: FB 70% polarizat pro/contra, video doar 36% polarizat
+3. **Sentiment polarization (Pasul 9)**: FB 69% polarizat pro/contra, video 55% polarizat + 38% mixt (mai nuanțat)
 4. **BERTopic (Pasul 3)**: FB are 76% într-un singur mega-topic instituțional; video are 8 topice + 25% outliers
 
 **Diferențele sunt reale și consistente. Cauza lor este însă o întrebare separată, la care datele actuale nu pot răspunde univoc.**

@@ -121,29 +121,48 @@ def extract_passages(doc_id: str, entity_raw_forms: list[str],
     return [snip.strip() for _, _, snip in merged]
 
 
-def classify_one(entity: str, passages: list[str], client, types) -> dict:
+def classify_one(entity: str, passages: list[str], client, types,
+                   max_retries: int = 3) -> dict:
+    """Robust classifier — handles dict or list response from LLM, retries on errors."""
     if not passages:
         return {"sentiment": "n/a", "confidence": "low", "rationale": "no passages", "key_phrases": []}
-    # Cap total passage length
     total = "\n===\n".join(passages)[:8000]
     prompt = SENTIMENT_PROMPT.format(entity=entity, passages=total)
-    try:
-        resp = client.models.generate_content(
-            model=MODEL_NAME, contents=prompt,
-            config=types.GenerateContentConfig(
-                temperature=0.1,
-                thinking_config=types.ThinkingConfig(thinking_budget=0),
-                response_mime_type="application/json",
-            ),
-        )
-        return json.loads(resp.text.strip())
-    except json.JSONDecodeError as e:
-        return {"sentiment": "n/a", "confidence": "low",
-                "rationale": f"json error: {e}", "key_phrases": []}
-    except Exception as e:
-        return {"sentiment": "n/a", "confidence": "low",
-                "rationale": f"{type(e).__name__}: {str(e)[:80]}",
-                "key_phrases": []}
+
+    for attempt in range(max_retries):
+        try:
+            resp = client.models.generate_content(
+                model=MODEL_NAME, contents=prompt,
+                config=types.GenerateContentConfig(
+                    temperature=0.1,
+                    thinking_config=types.ThinkingConfig(thinking_budget=0),
+                    response_mime_type="application/json",
+                ),
+            )
+            raw = resp.text.strip()
+            parsed = json.loads(raw)
+            # LLM sometimes returns [{...}] instead of {...} despite prompt instruction
+            if isinstance(parsed, list):
+                if len(parsed) > 0 and isinstance(parsed[0], dict):
+                    parsed = parsed[0]
+                else:
+                    raise ValueError(f"unexpected list format")
+            if not isinstance(parsed, dict):
+                raise ValueError(f"not a dict: {type(parsed).__name__}")
+            return parsed
+        except (json.JSONDecodeError, ValueError) as e:
+            if attempt == max_retries - 1:
+                return {"sentiment": "n/a", "confidence": "low",
+                        "rationale": f"parse error after {max_retries} attempts: {str(e)[:120]}",
+                        "key_phrases": []}
+            time.sleep(2)
+        except Exception as e:
+            if attempt == max_retries - 1:
+                return {"sentiment": "n/a", "confidence": "low",
+                        "rationale": f"{type(e).__name__}: {str(e)[:120]}",
+                        "key_phrases": []}
+            time.sleep(2)
+    return {"sentiment": "n/a", "confidence": "low", "rationale": "exhausted retries", "key_phrases": []}
 
 
 def main():

@@ -184,13 +184,13 @@ Toate "pozitiv constant" peste 4-6 perioade. Coloana vertebrală a politicii ext
 
 Aceeași entitate, sentiment diferit în funcție de canal:
 
-| Entitate | Facebook | Video |
-|---|---|---|
-| **Trump** | Pozitiv | **Mixt** (rezerve) |
-| **PSD** | Negativ | Mixt (temperat) |
-| **Simion** | Nemenționat | **Negativ** explicit |
+| Entitate | Perioadă | Facebook | Video |
+|---|---|---|---|
+| **Trump** | Q1 2026 | Pozitiv | **Mixt** (rezerve) |
+| **PSD** | Q2 2025 (campanie) | **Negativ** | Mixt (temperat) |
+| **Simion** | Q2 2025 (campanie) | n/a (doar hashtag-uri) | **Negativ** explicit |
 
-**Facebook polarizează (70% pro/contra). Video nuanțează (36% polarizat, restul mixt/n/a).**
+**Facebook polarizează mai mult (69% pro/contra). Video nuanțează (55% polarizat + 38% mixt).**
 
 [Vezi analiza completă scris vs vorbit →](doua-registre.qmd)
 

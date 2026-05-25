@@ -132,8 +132,9 @@ projections = ["Scris (FB)", "Vorbit (video)"]
 colors_sent = {"Pozitiv": "#2a9d8f", "Negativ": "#e63946",
                "Mixt": "#f4a261", "N/A + neutru": "#cccccc"}
 
+# Date după retry sentiment (toate buckets-urile clasificate)
 scris_pcts = {"Pozitiv": 56, "Negativ": 13, "Mixt": 2, "N/A + neutru": 29}
-vorbit_pcts = {"Pozitiv": 27, "Negativ": 9, "Mixt": 15, "N/A + neutru": 49}
+vorbit_pcts = {"Pozitiv": 43, "Negativ": 12, "Mixt": 38, "N/A + neutru": 7}
 
 for sent, color in colors_sent.items():
     fig.add_bar(
@@ -147,7 +148,7 @@ for sent, color in colors_sent.items():
 
 fig.update_layout(
     barmode="stack",
-    title="Distribuție sentiment per entitate (pe 107 buckets clasificate)",
+    title="Distribuție sentiment per entitate (152 buckets clasificate)",
     yaxis_title="% din buckets",
     height=450,
     plot_bgcolor="white",
@@ -155,16 +156,25 @@ fig.update_layout(
 fig.show()
 ```
 
-**Facebook = 70% polarizat** (pro/contra explicit).
-**Video = 36% polarizat**, restul mixt/neutru.
+**Facebook = 69% polarizat** (pro/contra explicit).
+**Video = 55% polarizat**, 38% mixt, 7% neutru.
 
-Trei cazuri concrete unde diferă sentiment-ul aceleiași entități:
+Trei cazuri concrete unde diferă sentiment-ul aceleiași entități **în aceeași perioadă** (apples-to-apples):
 
-| Entitate | Pe Facebook | În video |
-|---|---|---|
-| **Trump** | Pozitiv | **Mixt** (rezerve) |
-| **PSD** | Negativ | Mixt (temperat) |
-| **Simion** | Nemenționat | **Negativ** |
+| Entitate | Perioadă | Pe Facebook | În video |
+|---|---|---|---|
+| **Trump** | Q1 2026 | Pozitiv | **Mixt** (rezerve) |
+| **PSD** | Q2 2025 (campanie) | **Negativ** explicit | Mixt (temperat) |
+| **Simion** | Q2 2025 (campanie) | n/a (doar hashtag-uri) | **Negativ** explicit |
+
+::: {.callout-note}
+## Detaliu importat despre PSD
+PSD apare pe FB **doar în campanie** (Q2 2025) — atunci e NEGATIV. După campanie ND **nu mai postează despre PSD pe FB**, chiar dacă devin parteneri de coaliție.
+
+Pe video însă, PSD apare continuu: NEUTRU la formarea guvernului (Q3 2025) → MIXT în coaliție (Q4 2025 – Q1 2026) → **NEGATIV** din nou când relația se tensionează (Q2 2026, criza Pfizer).
+
+ND alege **selectiv** când să atace pe FB.
+:::
 
 ## Diferența #5 — Topicele (BERTopic)
 

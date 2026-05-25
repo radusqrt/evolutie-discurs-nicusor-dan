@@ -185,7 +185,7 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
   - **Ezitare / nuanțare în limbaj** (hedging): lexicon custom 35+ markeri nuanțare / 24 certitudine / 19 personali. FB ratio 0.13-0.23 (categoric), video 0.51-1.06 (deliberativ) — **4-5× diferență**.
   - **Semantic drift**: centroid embedding per (topic × perioadă). Top drift overall: brand `nicusorpresedinte` 0.37, Georgescu frame 0.32, justiție/CSM 0.30.
   - **NER cu GLiNER multi-v2.1 zero-shot**: ~3,755 mențiuni overall (curate ~700 după aliasing). Top entități: ROMÂNIA, UCRAINA, SUA, NATO, UE, R. MOLDOVA, RUSIA, CSM, POLONIA, OCDE, GEORGESCU.
-  - **Sentiment per entitate × perioadă** cu Gemini 2.5 Flash. FB e 70% polarizat (pro/contra), video doar 36% polarizat. TRUMP = MIXT (nu pozitiv) în video; doar 5 sentimente NEGATIVE explicite în overall.
+  - **Sentiment per entitate × perioadă** cu Gemini 2.5 Flash (re-rulat cu retry handling pentru bug-uri JSON parsing). FB e 69% polarizat (pro/contra), video 55% polarizat + 38% mixt + 7% neutru. TRUMP = MIXT (nu pozitiv) în video; 14% buckets explicit negative în overall (vs 5% înainte de retry).
 
 **Insight major Pasul 10**: 4 metrici convergente arată diferențe radicale FB vs video — (1) ezitare/nuanțare 4-5× diferit, (2) MTLD growth dramatică doar pe FB, (3) sentiment 2× mai polarizat pe FB, (4) BERTopic 76% într-un singur mega-topic FB. Cauza diferențelor (ghostwriting PR, adaptare naturală la medium, sau audiență diferită) rămâne deschisă — pentru a o distinge ar fi nevoie de stylometry formală (Burrows' Delta + PCA function words) sau comparație cu baseline politic (Iohannis, etc.).
 
