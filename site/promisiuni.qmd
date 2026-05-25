@@ -288,15 +288,28 @@ opt.maxBytes = 0
 opt.lengthMenu = [10, 25, 50, 100, 131]
 opt.classes = "display compact"
 
-display = promises[["status_status", "topic", "specificity",
-                    "promise_text", "source_date"]].copy()
-display.columns = ["Status", "Topic", "Spec.", "Promisiune", "Data"]
-display["Status"] = display["Status"].map({
-    "KEPT": "✅ Ținută",
-    "IN_PROGRESS": "🔄 În curs",
-    "NO_MENTION": "❓ Nemenționată",
-    "CONTRADICTED": "⚠️ Contrazisă",
-}).fillna(display["Status"])
+display = promises[["manual_factcheck_status", "status_status", "topic",
+                     "specificity", "promise_text", "factcheck_reasoning",
+                     "source_date"]].copy()
+display.columns = ["Status real", "Status clasificator", "Topic", "Spec.",
+                    "Promisiune", "Raționament fact-check", "Data"]
+real_map = {
+    "KEPT_real": "✅ Ținută",
+    "IN_PROGRESS_real": "🔄 În curs",
+    "NO_MENTION_real": "❓ Nemenționată",
+    "CONTRADICTED_real": "⚠️ Contrazisă",
+    "REFRAMED_real": "🔀 Redefinită",
+    "UNVERIFIABLE": "ⓘ Prea vagă",
+}
+clf_map = {
+    "KEPT": "✅",
+    "IN_PROGRESS": "🔄",
+    "NO_MENTION": "❓",
+    "CONTRADICTED": "⚠️",
+    "REFRAMED": "🔀",
+}
+display["Status real"] = display["Status real"].map(real_map).fillna(display["Status real"])
+display["Status clasificator"] = display["Status clasificator"].map(clf_map).fillna(display["Status clasificator"])
 
 show(display, paging=True, search=True, scrollX=True)
 ```
