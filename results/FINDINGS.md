@@ -349,7 +349,7 @@ Pasul 9 rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vo
 |---|---|---|---|---|
 | TRUMP | Q1 2026 | POZITIV | **MIXT** | FB îl prezintă pozitiv pentru diplomația oficială; video are rezerve |
 | PSD | Q2 2025 (campanie) | NEGATIV | MIXT | FB atacă explicit; video tempereazăa cu recunoașterea necesității |
-| SIMION | Q2 2025 (campanie) | n/a (doar hashtag-uri) | **NEGATIV** | FB îl pomenește superficial prin tag-uri; video îl critică direct |
+| SIMION | Q2 2025 (campanie) | **NEGATIV** (atac direct: "ipocrizie", "lașitate", "manipulare") | **NEGATIV** (haos economic, cultura urii) | Ambele canale = negativ; pe FB cu epitete personale, în video cu argumente policy |
 
 **Notă PSD**: pe FB apare DOAR în Q2 2025 (campanie). Post-electoral dispare complet de pe FB. Pe video are trajectory completă: campanie NEGATIV → formare guvern NEUTRU → coaliție MIXT → criza Pfizer Q2 2026 **NEGATIV** din nou.
 

@@ -159,13 +159,82 @@ fig.show()
 **Facebook = 69% polarizat** (pro/contra explicit).
 **Video = 55% polarizat**, 38% mixt, 7% neutru.
 
-Trei cazuri concrete unde diferă sentiment-ul aceleiași entități **în aceeași perioadă** (apples-to-apples):
+### Exemple — diferențe de ton pe aceeași entitate
 
-| Entitate | Perioadă | Pe Facebook | În video |
-|---|---|---|---|
-| **Trump** | Q1 2026 | Pozitiv | **Mixt** (rezerve) |
-| **PSD** | Q2 2025 (campanie) | **Negativ** explicit | Mixt (temperat) |
-| **Simion** | Q2 2025 (campanie) | n/a (doar hashtag-uri) | **Negativ** explicit |
+```{python}
+#| echo: false
+#| output: asis
+import json
+from pathlib import Path
+
+ROOT_DATA = Path("..").resolve()
+
+def load_sent(proj):
+    rows = []
+    with (ROOT_DATA / "results" / f"09_sentiment_per_entity_{proj}" /
+          "sentiment_per_entity_period.jsonl").open() as f:
+        for line in f:
+            rows.append(json.loads(line))
+    return rows
+
+scris_data = load_sent("scris")
+vorbit_data = load_sent("vorbit")
+
+def find_row(data, entity, period_contains):
+    for r in data:
+        if r.get("entity") == entity and period_contains in r.get("period", ""):
+            return r
+    return None
+
+def quotes_html(r):
+    if not r:
+        return "<em>(fără date)</em>"
+    sent = r.get("sentiment", "?")
+    color = {"pozitiv": "#2a9d8f", "negativ": "#e63946",
+             "mixt": "#f4a261", "neutru": "#778da9",
+             "n/a": "#999"}.get(sent, "#666")
+    rat = r.get("rationale", "")
+    evs = r.get("supporting_evidence") or r.get("key_phrases") or []
+    quotes_block = ""
+    for e in evs[:3]:
+        quotes_block += f'<blockquote style="margin:0.5rem 0;padding-left:0.75rem;border-left:3px solid #ccc;font-style:italic;font-size:0.9rem;">{str(e)[:300]}</blockquote>'
+    return f'''
+<details style="margin:0.25rem 0;">
+<summary style="cursor:pointer;color:{color};font-weight:600;">{sent.upper()} — click pentru exemple</summary>
+<div style="padding:0.5rem 0 0.5rem 1rem;font-size:0.9rem;">
+<p style="color:#555;margin-bottom:0.5rem;"><strong>Raționament:</strong> {rat}</p>
+<p style="margin:0.3rem 0 0.2rem 0;font-size:0.85rem;color:#666;"><strong>Citate:</strong></p>
+{quotes_block}
+</div>
+</details>'''
+
+# Build table
+cases = [
+    ("Trump", "TRUMP", "2025Q4-2026Q1", "Q1 2026 (reformă judiciară)"),
+    ("PSD", "PSD", "2025Q2 campanie", "Q2 2025 (campanie)"),
+    ("Simion", "SIMION", "2025Q2 campanie", "Q2 2025 (campanie)"),
+]
+
+html = '<table style="width:100%;border-collapse:collapse;margin:1rem 0;font-size:0.95rem;">'
+html += '<thead><tr style="background:#003049;color:white;">'
+html += '<th style="padding:10px;text-align:left;width:14%;">Entitate</th>'
+html += '<th style="padding:10px;text-align:left;width:22%;">Perioadă</th>'
+html += '<th style="padding:10px;text-align:left;width:32%;">Pe Facebook</th>'
+html += '<th style="padding:10px;text-align:left;width:32%;">În video</th>'
+html += '</tr></thead><tbody>'
+
+for entity_label, entity_canon, period_search, period_label in cases:
+    s_row = find_row(scris_data, entity_canon, period_search)
+    v_row = find_row(vorbit_data, entity_canon, period_search)
+    html += f'<tr style="border-bottom:1px solid #ddd;vertical-align:top;">'
+    html += f'<td style="padding:12px;font-weight:600;">{entity_label}</td>'
+    html += f'<td style="padding:12px;font-size:0.9rem;">{period_label}</td>'
+    html += f'<td style="padding:12px;">{quotes_html(s_row)}</td>'
+    html += f'<td style="padding:12px;">{quotes_html(v_row)}</td>'
+    html += '</tr>'
+html += '</tbody></table>'
+print(html)
+```
 
 ::: {.callout-note}
 ## Detaliu importat despre PSD
