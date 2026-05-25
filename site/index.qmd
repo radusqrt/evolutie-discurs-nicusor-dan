@@ -235,7 +235,7 @@ fig.update_layout(
 fig.show()
 ```
 
-De la "**am uitat de el**" (Q1 2025) la "**i-am cerut premierului transparență publică**" (Q2 2026, cazul Pfizer 600M€). Un arc relațional cu tensiuni reale.
+De la *"am auzit de el. ... acum am și uitat de el"* (citat verbatim, decembrie 2024) la *"i-am cerut premierului transparență publică"* (aprilie 2026, cazul Pfizer 600M€). Un arc relațional cu tensiuni reale.
 
 [→ Citește raportul ND-Bolojan complet](bolojan.qmd)
 
@@ -265,5 +265,5 @@ Toate metodele sunt **open source și reproducibile**. Codul Python + datele bru
 
 ::: {.callout-tip}
 ## Vrei să folosești datele?
-Toate documentele brute, clasificările și scripturile sunt disponibile în repository. Lucrezi la un articol jurnalistic? Contactează-mă pe [GitHub](https://github.com/radusqrt/evolutie-discurs-nicusor-dan) — pot adăuga analize la cerere.
+Toate documentele brute, clasificările și scripturile sunt disponibile în repository. Lucrezi la un articol jurnalistic? Contactează-mă la **[radu.stochitoiu@gmail.com](mailto:radu.stochitoiu@gmail.com)** — pot adăuga analize la cerere.
 :::
