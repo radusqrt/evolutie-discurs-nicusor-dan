@@ -1,7 +1,7 @@
 ---
 title: "Promisiunile"
 subtitle: "131 promisiuni de campanie urmărite în discursul de mandat"
-description: "Câte au fost ținute? Câte au fost abandonate? Și de ce realitatea (60% ținute) e diferită de discurs (20%)."
+description: "Câte au fost ținute? Câte au fost abandonate? Și de ce realitatea (estimat 35-45% ținute) e diferită de discurs (20%)."
 ---
 
 ```{python}
@@ -130,7 +130,7 @@ fig.update_xaxes(tickangle=-30)
 fig.show()
 ```
 
-## Patternul devastator: policy internă vs externă
+## Pattern: policy internă vs externă (vizualizare clasificator)
 
 ```{python}
 #| echo: false
@@ -157,11 +157,11 @@ fig.update_xaxes(tickangle=-30)
 fig.show()
 ```
 
-În discurs, **diplomația și relațiile cu Ucraina** sunt singurele domenii cu livrare clară. Politica internă (sănătate, educație, fiscale, anti-corupție) e *aparent* zero.
+În discurs, **diplomația și relațiile cu Ucraina** sunt singurele domenii cu livrare clară aparentă. Politica internă (sănătate, educație, fiscale, anti-corupție) e *în viziunea clasificatorului* zero.
 
-**Dar fact-check-ul arată altă realitate**:
+**Dar acțiunile reale arată că ND livrează și pe aceste domenii** — exemple confirmate:
 
-| Domeniu | Clasificator | Realitate verificată |
+| Domeniu | Clasificator | Realitate (acțiuni concrete) |
 |---|---|---|
 | Anti-corupție | 0% ținute | ✅ Numirile DNA/DIICOT făcute (apr 2026) |
 | Justiție | n/a | ✅ Legea pensii magistrați promulgată (CCR 6-3) |
@@ -169,7 +169,12 @@ fig.show()
 | OCDE | n/a | 🔄 22/25 opinii primite (on track 2026) |
 | București | 4% ținute | ✅ 50km tramvai contracte semnate, 8 șantiere consolidare active |
 
-ND **execută concret pe aceste domenii — dar nu vorbește despre realizările sale**.
+::: {.callout-note}
+## Notă: aceste exemple sunt selectate, nu random
+Cele 5 cazuri de mai sus au fost alese deliberat pentru vizibilitate și predispoziție la decalaj — sunt cazuri unde *bănuiam* discrepanță, nu eșantion statistic. Pentru o estimare defensibilă, vezi **audit random** mai sus (15 promisiuni, 4 din 4 NO_MENTION confirmate ca KEPT real).
+:::
+
+ND **execută concret pe aceste domenii — dar nu vorbește despre realizările sale post-execuție**.
 
 ## Caz emblematic — **"Dau în scris că TVA nu va crește"**
 
