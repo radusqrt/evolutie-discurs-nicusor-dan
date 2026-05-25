@@ -431,18 +431,13 @@ Fact-check extins pe 5 promisiuni policy internă suplimentare (deficit, OCDE, p
 | Corecție deficit din cheltuieli | IN_PROGRESS | 🔄 IN_PROGRESS avansat — 9.3%→7.9% (cea mai mare corecție din UE) |
 | OCDE aderare 2026 | (n/a în top 131) | 🔄 IN_PROGRESS foarte avansat — 22/25 opinii, 15/25 comitete favorabile |
 
-**Combined fact-check (10 promisiuni: 5 PMB + 5 policy)**:
-- 6 KEPT în realitate
-- 3 IN_PROGRESS avansat
-- 1 nuanced contradiction
+**Combined (10 promisiuni selectate, NU random)**: 6 KEPT real / 3 IN_PROGRESS avansat / 1 contradicție nuanțată.
 
-**Rate KEPT real: 60% vs classifier 20%. Diferență 3×.**
+Pe acest eșantion ne-random observăm un pattern clar — livrare concretă mai mare decât transpare în discurs. **Nu putem extrapola rata exactă pe toate 131 fără verificare sistematică pe eșantion random**.
 
-**Răsturnare finding #16 ("Policy internă 0% KEPT")**: GREȘIT în realitate. ND livrează în anti-corupție (numiri DNA/DIICOT), justiție (pensii magistrați promulgată), fiscale (corecție -1.4pp deficit), aderare OCDE — toate prin **acțiuni concrete**, dar nu prin **discurs explicit care să anunțe completion**.
+**Reformulare finding #16 ("Policy internă 0% KEPT")**: clasificatorul ND-centric subestimează livrarea concretă pentru *acest tip de promisiuni* (anti-corupție, justiție, fiscale, OCDE — executate prin decrete/legi/numiri) fiindcă măsoară doar ce *spune* ND, nu ce *face* guvernul. ND tinde să **vorbească mai mult despre intenții decât despre realizările sale concrete**.
 
-**Reinterpretare narrative**: ND **livrează prin acțiune, nu prin discurs**. Promise Tracker bazat pe discurs subestimă livrarea reală de **3 ori**. Pentru un articol onest, framing-ul corect e *"discrepanța între ce face și ce spune e mare"*.
-
-Surse fact-check: vezi `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_policy.md`.
+Surse fact-check: `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_policy.md`.
 
 ---
 

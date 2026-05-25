@@ -35,10 +35,12 @@ Analiză cantitativă a discursului lui **Nicușor Dan** (Președintele Românie
 - Diplomația: **60% KEPT** (singurul domeniu cu rate înalt)
 - Audit dublu (32 sample-uri, seed 42+1337): **75% spot-on** clasificator
 
-**🔥 Răsturnare prin fact-check independent (10 promisiuni verificate web):**
-- **Rate KEPT real = 60%** vs clasificator 20% — **subestimare factor 3×**
-- **ND livrează prin ACȚIUNE, nu prin DISCURS**: pensii magistrați promulgată (CCR 6-3), DNA/DIICOT numire (apr 2026), deficit -1.4pp (cea mai mare corecție UE), OCDE 22/25 opinii, cheltuieli militare 2.24% PIB cu angajament 5% până 2035, **50km tramvai contracte semnate**, **8 șantiere consolidare active** (vs 5 promise).
-- ND **NU rupe promisiuni** explicit (0 ABANDONED, 1 CONTRADICTED) — fie le ține, fie le tace.
+**Pattern documentat prin fact-check independent (10 promisiuni mari, sample non-random):**
+- **6 din 10** promisiuni verificate au fost executate concret (decrete, legi, contracte) chiar dacă clasificatorul ND-centric le marcase NO_MENTION/IN_PROGRESS
+- Exemple confirmate: pensii magistrați promulgată (CCR 6-3), DNA/DIICOT numire (apr 2026), deficit -1.4pp (cea mai mare corecție UE), OCDE 22/25 opinii, cheltuieli militare 2.24% PIB, 50km tramvai contracte semnate, 8 șantiere consolidare active (din 5 promise)
+- ND **NU rupe promisiuni** explicit (0 ABANDONED, 1 CONTRADICTED) — fie le ține, fie le tace
+- ⚠️ Cele 10 verificate **nu sunt random** — au fost alese tocmai pentru vizibilitate. Pattern documentat, *nu* extrapolabil exact ca rate pe toate 131 fără verificare sistematică
+- **Concluzia onestă**: ND tinde să vorbească mai mult despre intenții decât despre realizările sale concrete
 
 ## Diagrama de ingestie + dedupe
 
