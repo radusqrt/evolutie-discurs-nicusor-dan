@@ -463,34 +463,12 @@ Pentru a testa cantitativ dacă cele 2 registre au amprente stilometrice distinc
 2. **PCA 2D** (proiecție vizuală)
 3. **Random Forest classifier** (cât de ușor distinge un model FB de video?)
 
-```{python}
-#| echo: false
-import pandas as pd
-
-# Display key results
-results = {
-    "Metoda": [
-        "Burrows' Delta — distanță centroidă scris↔vorbit",
-        "Burrows' Delta — accuracy nearest-centroid",
-        "Random Forest — 5-fold cross-validation accuracy",
-        "Random Forest — held-out 30% test",
-    ],
-    "Rezultat": [
-        "0.297",
-        "78.1%",
-        "92.1% ± 1.7%",
-        "94.9% (116/118 FB + 89/98 video corecte)",
-    ],
-    "Interpretare": [
-        "Distanță moderată — cele 2 register-uri sunt distincte stilometric",
-        "Vs ~50% random — semnal clar de discriminare",
-        "Model simplu distinge FB de video cu acuratețe foarte mare",
-        "Doar 2 FB confundate cu video; 9 video confundate cu FB",
-    ],
-}
-df = pd.DataFrame(results)
-print(df.to_html(index=False, escape=False, classes="table"))
-```
+| Metoda | Rezultat | Interpretare |
+|---|---|---|
+| **Burrows' Delta** — distanță centroidă scris↔vorbit | `0.297` | Distanță moderată — cele 2 registre sunt distincte stilometric |
+| **Burrows' Delta** — accuracy nearest-centroid | **78.1%** | Vs ~50% random — semnal clar de discriminare |
+| **Random Forest** — 5-fold cross-validation accuracy | **92.1% ± 1.7%** | Model simplu distinge FB de video cu acuratețe foarte mare |
+| **Random Forest** — held-out 30% test | **94.9%** | 116/118 FB corect + 89/98 video corect (doar 2 FB confundate cu video; 9 video confundate cu FB) |
 
 ![PCA scatter — top 100 function words, color by canal](../results/11_stylometry/pca_scatter.png)
 
