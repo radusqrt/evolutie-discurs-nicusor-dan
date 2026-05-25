@@ -69,33 +69,40 @@ fig.show()
 ```
 
 ::: {.callout-warning}
-## Important: clasificatorul măsoară discursul, nu acțiunile
-Clasificatorul ND-centric vede doar ce **anunță** ND. Dacă o promisiune e executată dar el nu mai vorbește despre ea, va apărea ca NO_MENTION sau IN_PROGRESS.
+## Layer de fact-check manual pe TOATE 131 promisiuni
 
-### Audit pe eșantion RANDOM (15 promisiuni, seed=42)
+Clasificatorul ND-centric vede doar ce **anunță** ND. Pentru a măsura realitatea, am făcut fact-check individual (verdict + raționament + surse media) pentru **fiecare din cele 131 promisiuni** — bazat pe web search + cunoștințe acumulate.
 
-Pentru a măsura acuratețea fără cherry-picking, am extras 15 promisiuni random stratificat și am făcut fact-check web pentru fiecare:
+### Comparație clasificator vs fact-check real (toate 131)
 
-| Categorie clasificator | Sample | Corect (după fact-check) | Acuratețe |
+| Verdict | Classifier | Fact-check real | Δ |
 |---|---:|---:|---:|
-| KEPT | 5 | 5 | **100%** |
-| IN_PROGRESS | 5 | 5 (acceptabil) | **100%** |
-| **NO_MENTION** | **4** | **0** | **0%** ⚠️ |
-| REFRAMED | 1 | 1 | 100% |
-| **TOTAL** | **15** | **11** | **73%** |
+| ✅ KEPT (ținută) | 20% | **46%** | **↑2.3×** |
+| 🔄 IN_PROGRESS | 59% | 38% | ↓ |
+| ❓ NO_MENTION | 21% | **8%** | **↓2.6×** |
+| ⚠️ CONTRADICTED | 0.8% | 2% | ↑ |
+| 🔀 REFRAMED | — | 1% | nou |
+| ⓘ UNVERIFIABLE | — | 5% | promisiuni prea vagi |
 
-**Discovery critic**: din 4 NO_MENTION verificate random, **TOATE 4 sunt KEPT în realitate** — ASPA căței (executat), UNTOLD (protocol semnat), Euronews dezbatere (a participat), 5 șantiere consolidare (8 active).
+### Pattern confirmat empiric pe întregul corpus
 
-### Estimare reală pentru cele 131
+- **Clasificatorul subestimează KEPT cu factor 2.3×** (46% real vs 20% raportat)
+- **Clasificatorul supra-marchează NO_MENTION cu factor 2.6×** (8% real vs 21% raportat)
+- Multe promisiuni clasificate NO_MENTION/IN_PROGRESS sunt de fapt **KEPT executate** prin acțiuni concrete (decrete, contracte, numiri, evenimente)
 
-- Clasificator: 20% KEPT
-- Audit random sugerează: NO_MENTION e sistematic underestimat
-- Estimare conservatoare: real KEPT rate = **35-45%** (vs 20%)
-- Wilson 95% CI pentru "% NO_MENTION care sunt KEPT": [40%, 99%] din 4/4 sample
+### Metodă
 
-**Pattern empiric confirmat** (nu doar cherry-picked): clasificatorul **subestimează sistematic livrarea concretă** pentru promisiuni pe care ND nu le mai discută post-mandat.
+Pentru fiecare promisiune individual:
+1. Citit textul + clasificarea LLM
+2. Web search pe topic + cunoștințe acumulate (fact-check anterior + audit dublu + audit random)
+3. Verdict + sursă/raționament 1-2 propoziții
 
-[Vezi audit complet — toate 15 cazuri cu surse media](https://github.com/radusqrt/evolutie-discurs-nicusor-dan/blob/main/results/04_promises/AUDIT_RANDOM_15.md).
+Toate verdictele individuale (cu raționament + surse) sunt în [`scripts/04g_full_factcheck.py`](https://github.com/radusqrt/evolutie-discurs-nicusor-dan/blob/main/scripts/04g_full_factcheck.py) — script transparent, reproducible. Câmpurile nou adăugate în `promise_status.jsonl`: `manual_factcheck_status`, `factcheck_confidence`, `factcheck_reasoning`, `factcheck_sources`.
+
+::: {.callout-note}
+## Audit random anterior (15 promisiuni, seed=42)
+A confirmat pattern-ul independent: 100% NO_MENTION clasificator sample (4/4) erau de fapt KEPT real. Vezi [`AUDIT_RANDOM_15.md`](https://github.com/radusqrt/evolutie-discurs-nicusor-dan/blob/main/results/04_promises/AUDIT_RANDOM_15.md).
+:::
 :::
 
 ## Pe domenii (cele mai relevante)
