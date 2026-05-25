@@ -150,31 +150,63 @@ fig.show()
 
 ND **execută concret pe aceste domenii — dar nu vorbește despre realizările sale**.
 
-## Top contradicție explicită
+## Caz emblematic — promisiunea "viceprimar = primar interimar"
 
 ```{python}
 #| echo: false
 #| output: asis
-contradicted = promises[promises["status_status"] == "CONTRADICTED"]
-if not contradicted.empty:
-    for _, p in contradicted.iterrows():
-        md_block = f"""
+
+# Find the Vigheciu/Bujduveanu promise (now REFRAMED after manual override)
+target = promises[promises["source_doc_id"].str.contains("planurile-pentru-romania-stiri-b1tv", na=False)]
+if not target.empty:
+    p = target.iloc[0]
+    has_override = bool(p.get("override_applied", False))
+    md = f"""
 **Promisiune** ({p['source_date']}):
 > {p['promise_text']}
 
 **Citat verbatim**:
 > «{p['verbatim_quote']}»
-
-**Status**: ⚠️ CONTRADICTED
-
-**Raționament**: {p['status_reasoning'][:500]}
 """
-        print(md_block)
+    if has_override:
+        original = p.get("status_status_original_llm", "?")
+        md += f"""
+
+::: {{.callout-warning}}
+## Override manual aplicat după fact-check
+**LLM clasificase**: `{original}` — **Reformulat manual**: `{p['status_status']}`
+
+**Motiv**: cronologia reală (verificată web prin 7+ surse) arată o REVIZUIRE conștientă a poziției, nu contradicție directă.
+:::
+"""
+    md += f"""
+**Status final**: 🔀 **{p['status_status']}** (reformulată conștient și anunțată public)
+
+**Raționament LLM original**: {p['status_reasoning'][:400]}
+"""
+    print(md)
 ```
 
+### Cronologia reală (fact-check web)
+
+| Data | Eveniment | Sursă |
+|---|---|---|
+| **23 ian 2025** | CGMB alege viceprimari: Bujduveanu (PNL) + Vigheciu (PSD), **Vigheciu primul în ordine** la primar interimar de drept | [AGERPRES](https://agerpres.ro/administratie/2025/01/23/video-stelian-bujduveanu-pnl-si-adrian-vigheciu-psd-noii-viceprimari-ai-capitalei--1415744) |
+| **20 mai 2025** | ND zice: "Vigheciu (PSD) va fi primar interimar" — recunoaște regula | [Euronews](https://www.euronews.ro/articole/adrian-vigheciu-primar-interimar-bucuresti) |
+| **20-23 mai 2025** | ND **își schimbă poziția** public: "nu vrea primar de la PSD" | [Digi24](https://www.digi24.ro/stiri/actualitate/social/nicusor-dan-nu-vrea-sa-lase-bucurestiul-cu-un-primar-interimar-de-la-psd-pe-cine-propune-edilul-general-3248929) |
+| **23 mai 2025** | CGMB modifică ordinea, **Bujduveanu (PNL)** devine primar interimar | [Europa Liberă](https://romania.europalibera.org/a/nicusor-dan-a-demisionat-din-functia-de-primar-al-bucurestiului-interimar-va-fi-stelian-bujduveanu-pnl-/33422122.html) |
+| **7 dec 2025** | Alegeri locale parțiale: **Ciprian Ciucu (PNL)** câștigă cu 36,16% | [Europa Liberă](https://romania.europalibera.org/a/rezultate-alegeri-bucuresti-live-blog-ciprian-ciucu-pnl-ales-primar-general-al-capitalei/33615683.html) |
+
 ::: {.callout-important}
-## Vigheciu vs Bujduveanu
-Promisiunea era ca **Adrian Vigheciu (PSD)** să devină primar interimar al Capitalei. În realitate, ND însuși a împins pentru **Stelian Bujduveanu (PNL)** — deci spiritul promisiunii ("viceprimar = primar interimar") a fost respectat, dar **persoana a fost schimbată conștient**.
+## REFRAMED vs CONTRADICTED — distincția importantă
+
+- **Spiritul promisiunii** ("viceprimar = primar interimar") a fost **respectat**: Bujduveanu E viceprimar
+- **Persoana s-a schimbat conștient**: Vigheciu (PSD) → Bujduveanu (PNL)
+- **ND a anunțat public motivul**: "nu vrea primar de la PSD"
+
+Asta e **REFRAMED** (revizuire deschisă, anunțată) — NU **CONTRADICTED** (acțiune opusă, ascunsă). LLM-ul Gemini a etichetat inițial ca CONTRADICTED — corectat manual după fact-check web.
+
+**Toate override-urile sunt marcate transparent în date** (`override_applied: true`, cu rationale și surse).
 :::
 
 ## Toate cele 131 promisiuni — explorabil
