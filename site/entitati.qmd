@@ -89,8 +89,9 @@ ND nu îi mai numește. Strategie de ignoring deliberat.
 
 ::: {.callout-note appearance="simple"}
 ### 2. Premierul Bolojan **sub-menționat** pentru rolul lui
-- Doar 14 mențiuni "Bolojan" directe (+ 72 "premier" generic = 86 total)
-- Pentru un președinte care lucrează cu un premier zilnic, surprinzător de puțin
+- 14 mențiuni "Bolojan" directe via NER GLiNER (Ciolacu: 17 — predecesorul e numit mai des)
+- Cu regex pe nume + "premier" + disambiguare LLM: **45 mențiuni validate** (din 119 candidați; 74 erau de fapt despre Ciolacu/Ponta/Tusk)
+- Pentru un președinte care lucrează cu un premier zilnic, surprinzător de puțin — ND tinde să-i evite numele
 - [Vezi raportul ND-Bolojan complet](bolojan.qmd)
 :::
 

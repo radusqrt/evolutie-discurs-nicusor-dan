@@ -197,7 +197,7 @@ Diarize-ul rulează doar pe cele **337 transcripturi video multi-voce** (conferi
   - Q4 2025: mixt (scandal Fănel Bogoș 1.5M€ acces la birou Bolojan, ND apăra "limita de principialitate")
   - Q1 2026: colaborativ/deferent (EastInvest 20mld€, PNRR 231M€ Bruxelles)
   - **Q2 2026: TENSIONAT** ⚠️ (cazul Pfizer 600M€ — ND cere transparență publică, Bolojan negociază privat)
-  - Fact-check pe 6 perioade: **5/6 complet validate, 1 cu nuanță ratată (TVA Q3)** — calitate Gemini 83% spot-on. Vezi `results/10_nd_bolojan/FACT_CHECK.md`.
+  - Fact-check pe 6 perioade (post-disambiguare): 2 perioade prea sărace pentru LLM (Q1, Q4 2025 — fact-check extern validat); 2 perioade unde LLM a matchuit fact-check (Q2 2025 mixt, Q1 2026 colaborativ); 2 perioade unde **LLM a ratat nuanța** și fact-check-ul extern e necesar (Q3 2025 dezacord TVA, Q2 2026 Pfizer — ND folosește limbaj instituțional-mediator chiar în plină criză). Vezi `results/10_nd_bolojan/FACT_CHECK.md`.
   - **ND-Bolojan = aliat tactic, nu prieten.** Stil formal-instituțional, niciodată cald.
 
 - **Pasul 12 (Stylometry formală)** — Burrows' Delta + PCA + Random Forest pe 100 function words, 718 docs (≥50 cuvinte). Rezultat: **92.1% ± 1.7%** acuratețe Random Forest distinge FB vs video — registrele **sunt clar distincte stilometric**. Top features discriminative sunt markeri clasici de vorbire spontană (`niște` 259×, `ăă` 41×, `deci` 26×, `acesta` 4.9× mai des în video). Asta confirmă diferența dar **nu distinge** ghostwriting de adaptare naturală — ar fi nevoie de baseline politic comparativ (Iohannis, etc.) pentru tranșare.

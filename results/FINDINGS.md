@@ -1,6 +1,8 @@
 # Findings so far — analiza discurs Nicușor Dan (Dec 2024 → Mai 2026)
 
-Sumar al concluziilor după Pasul 1 (basic stats + wordclouds) și Pasul 2 (TF-IDF temporal) pe 3 proiecții (overall, scris, vorbit).
+> **Notă de numerotare**: "Pasul N" în acest document se referă la **etapa din pipeline-ul de 13 stadii** din README.md (Pasul 7 = Analyze, Pasul 8 = BERTopic, Pasul 9 = Promise Tracker, Pasul 10 = Advanced analyses care grupează scripts 05-09, Pasul 11 = ND-Bolojan, Pasul 12 = Stylometry, Pasul 13 = Interpret).
+
+Sumar al concluziilor după Pasul 7 (basic stats + wordclouds + TF-IDF temporal, scripts 01+02) pe 3 proiecții (overall, scris, vorbit).
 
 Data sumar: 2026-05-24. Corpus: 1062 docs overall (724 scris FB, 338 vorbit video). 272k cuvinte raw / 127k lemmas clean.
 
@@ -70,7 +72,7 @@ Nu este *un* președinte — sunt 3-4 segmente narative distincte.
 
 ---
 
-## Pasul 3 (BERTopic) — findings noi
+## Pasul 8 (BERTopic) — findings noi
 
 Rulat pe Colab T4 GPU cu `multilingual-e5-large` (fp16) + UMAP 5-dim + HDBSCAN (min_cluster_size=8) + c-TF-IDF.
 
@@ -122,7 +124,7 @@ Merită mapare temporală: când a apărut `romaniaputernica`? E înlocuitor de 
 
 ### 12. **Topice de policy efective identificate**
 
-Justiție, NATO/apărare, energie/UE, măsuri fiscale, legi promulgate, Ucraina/Rusia, Polonia, R. Moldova, SUA/UE, diaspora/Basarabia. **10 axe substanțiale de discurs** descoperite. Devin scaffolding-ul pentru Promise Tracker (Pasul 4).
+Justiție, NATO/apărare, energie/UE, măsuri fiscale, legi promulgate, Ucraina/Rusia, Polonia, R. Moldova, SUA/UE, diaspora/Basarabia. **10 axe substanțiale de discurs** descoperite. Devin scaffolding-ul pentru Promise Tracker (Pasul 9).
 
 ### 13. **Artifacts identificate (excluderi pentru viitoare runs)**
 
@@ -136,7 +138,7 @@ Se vor adăuga în stopwords sau filtru pentru runs viitoare.
 
 ---
 
-## Pasul 4 (Promise Tracker) — findings explosive
+## Pasul 9 (Promise Tracker) — findings explosive
 
 **Metoda**: 150 promisiuni extrase cu Gemini 2.5 Flash din corpusul de campanie (≤ 25 mai 2025, 319 docs). Dedup embedding cu paraphrase-multilingual-mpnet → 131 unice. Match vs corpusul mandat (≥ 26 mai 2025, ~540 docs, top-8 paragrafe per promisiune) + clasificare LLM cu taxonomie {KEPT, IN_PROGRESS, REFRAMED, ABANDONED, CONTRADICTED, NO_MENTION}.
 
@@ -242,9 +244,9 @@ Surse fact-check: `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_po
 
 ---
 
-## Pasul 5-9 — analize SotA suplimentare
+## Pasul 10 (Advanced analyses) — analize SotA suplimentare
 
-### 22. **Discourse complexity confirmă scris vs vorbit divergence (Pasul 5)**
+### 22. **Discourse complexity confirmă scris vs vorbit divergence (Pasul 10 — discourse complexity)**
 
 Pe spaCy parser: sentence length, dependency tree depth, MTLD, TTR, function ratio.
 
@@ -253,7 +255,7 @@ Pe spaCy parser: sentence length, dependency tree depth, MTLD, TTR, function rat
 
 FB **își diversifică lexicon-ul dramatic post-investitură** (MTLD 2.5× growth), video rămâne stabil. Schimbarea bruscă coincide cu schimbarea rolului (candidat → președinte) — *consistentă cu* o schimbare de proces de producție FB, dar cauza exactă rămâne neclară.
 
-### 23. **Ezitare / nuanțare în limbaj — diferență 4-5× FB vs video (Pasul 6)**
+### 23. **Ezitare / nuanțare în limbaj — diferență 4-5× FB vs video (Pasul 10 — ezitare/nuanțare)**
 
 Lexicon custom RO: 35+ markeri nuanțare/ezitare ("cred că", "probabil", "mi se pare"), 24 markeri certitudine ("evident", "sigur", "categoric"), 19 markeri personali ("eu", "mie", "personal"). În literatura de specialitate, asta se numește "hedging".
 
@@ -266,7 +268,7 @@ Lexicon custom RO: 35+ markeri nuanțare/ezitare ("cred că", "probabil", "mi se
 
 **Evoluție temporală overall**: Q2 campanie = cel mai categoric (0.27), Q1 2026 reformă judiciară = revenire la deliberativ (0.66). ND e **categoric când vinde mesaj** și **deliberativ când are putere și complexitate**.
 
-### 24. **Semantic drift confirmă schimbări majore de framing (Pasul 7)**
+### 24. **Semantic drift confirmă schimbări majore de framing (Pasul 10 — semantic drift)**
 
 Centroid embedding per (topic × perioadă), cosine drift vs prima perioadă cu ≥3 docs.
 
@@ -278,7 +280,7 @@ Centroid embedding per (topic × perioadă), cosine drift vs prima perioadă cu 
 
 **Vorbit drifts mai mari decât scris** (justiție 0.23 vs scris 0.18) — confirmă din nou că video e dinamic, FB e static repetitiv.
 
-### 25. **Entity timeline — adversari electorali dispar, geopolitica explodează (Pasul 8)**
+### 25. **Entity timeline — adversari electorali dispar, geopolitica explodează (Pasul 10 — NER)**
 
 GLiNER multi-v2.1 zero-shot NER (3,755 mențiuni extrase, curățate la ~700 cu top 30 entități canonice).
 
@@ -304,7 +306,7 @@ GLiNER multi-v2.1 zero-shot NER (3,755 mențiuni extrase, curățate la ~700 cu 
 - **CSM Q3 2025 (32)** — reforma pensii magistrați
 - **Rusia peak Q4 2025 (68)** — cea mai îngrijorată perioadă
 
-### 26. **Sentiment per entitate — ND nu atacă deschis, dar TRUMP e MIXT (Pasul 9)**
+### 26. **Sentiment per entitate — ND nu atacă deschis, dar TRUMP e MIXT (Pasul 10 — sentiment)**
 
 Gemini 2.5 Flash sentiment classification pe 107 buckets (entitate × perioadă cu ≥3 mențiuni).
 
@@ -329,9 +331,9 @@ Gemini 2.5 Flash sentiment classification pe 107 buckets (entitate × perioadă 
 - **USR a trecut pozitiv → neutru** — răcire față de partidul de origine după ce a devenit independent.
 - **Georgescu/Simion = N/A constant** — mențiuni superficiale fără sentiment polarizat → **i-a IGNORAT** explicit.
 
-### 27. **Sentiment scris vs vorbit — FB e POLARIZAT, video e NUANȚAT (extensie Pasul 9 pe scris + vorbit)**
+### 27. **Sentiment scris vs vorbit — FB e POLARIZAT, video e NUANȚAT (extensie Pasul 10 — sentiment pe scris + vorbit)**
 
-Pasul 9 rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vorbit: 100). Distribuții comparative:
+Pasul 10 (sentiment) rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vorbit: 100). Distribuții comparative:
 
 | Sentiment | Scris (FB) | Vorbit (video) |
 |---|---:|---:|
@@ -357,9 +359,9 @@ Pasul 9 rulat și pe scris + vorbit separat (overall: 107 buckets; scris: 52; vo
 
 ---
 
-### 28. **Raportul ND-Bolojan: de la "uitat de el" la TENSIONAT pe Pfizer (Pasul 10)**
+### 28. **Raportul ND-Bolojan: de la "uitat de el" la TENSIONAT pe Pfizer (Pasul 11)**
 
-Pasul 10 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Bolojan + "premier/prim-ministru" din corpus ND, **cu pas de disambiguare LLM** (`scripts/utils_entity_disambiguation.py`) ca să elimine match-uri pe Ciolacu/Ponta/Tusk/premieri generici, clasifică ton relațional per perioadă cu Gemini, plus fact-check web.
+Pasul 11 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Bolojan + "premier/prim-ministru" din corpus ND, **cu pas de disambiguare LLM** (`scripts/utils_entity_disambiguation.py`) ca să elimine match-uri pe Ciolacu/Ponta/Tusk/premieri generici, clasifică ton relațional per perioadă cu Gemini, plus fact-check web.
 
 **Sumar mențiuni (v2, după disambiguare)**: 119 candidați → **45 spans validate** Bolojan vs 33 Ciolacu (1.4× mai des). 74 false positives eliminate (62% rejection rate pe match-uri ambigue) — premierul anterior Ciolacu apărea masiv în precampanie/campanie, fals atribuit lui Bolojan în versiunea inițială.
 
@@ -383,17 +385,23 @@ Pasul 10 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Boloja
 - Bolojan **NU desecretizează direct** — negociază privat eșalonarea + transformarea datoriei în alte produse medicale; dă vina pe *"greaua moștenire"* (guv. Cîțu 2021, Alexandru Nazare avizase achiziția).
 - ND folosește presiunea publică; Bolojan preferă negocierea privată. **Aliniați pe diagnostic, divergenți pe răspuns**.
 
-**Verdict**: prima divergență publică vizibilă între președinte și premier — confirmată atât de corpus (Gemini Q2 2026 = "tensionat") cât și de surse media (Recorder: *"coaliția, cu un picior în groapă"*).
+**Verdict**: prima divergență publică vizibilă între președinte și premier — confirmată de surse media (Recorder: *"coaliția, cu un picior în groapă"*). Notabil: după disambiguarea LLM (45 spans validate vs 86 inițial), Gemini pe spans curate clasifică Q2 2026 ca "mixt", nu "tensionat" — pentru că ND folosește limbaj instituțional-mediator chiar în plină criză. Verdictul final "tensionat" rămâne, dar bazat pe evidence externă.
 
 **Fact-check complet pe toate 6 perioade** (`results/10_nd_bolojan/FACT_CHECK.md`):
-- Q1 2025: distant ✅ (Bolojan = preș. interimar din 12 feb după demisia Iohannis)
-- Q2 2025: mixt ✅ (Bolojan a anunțat că votează ND în turul 2, primire la Cotroceni 15 mai)
-- Q3 2025: colaborativ ⚠️ (Gemini a RATAT dezacordul TVA dintre ND și Bolojan în negocieri; Bolojan a câștigat)
-- Q4 2025: mixt ✅ (scandal Fănel Bogoș — afacerist plătit 1.5M€ acces la birou Bolojan; ND a apărat indirect prin "limita de principialitate")
-- Q1 2026: colaborativ/deferent ✅ (PNRR 231M€ + EastInvest 20mld €, vizita Bruxelles)
-- Q2 2026: tensionat ✅ (Pfizer 600M€, ND cere transparență publică)
 
-**Calitate clasificare Gemini**: 5/6 perioade complet confirmate + 1 cu nuanță ratată (TVA Q3). **~83% spot-on**, 100% direcțional.
+- Q1 2025: distant ✅ (1 mențiune validată — Bolojan = preș. interimar din 12 feb după demisia Iohannis)
+
+- Q2 2025: mixt ✅ (12 mențiuni — Bolojan a anunțat că votează ND în turul 2, primire la Cotroceni 15 mai)
+
+- Q3 2025: colaborativ ⚠️ (10 mențiuni — Gemini a RATAT dezacordul TVA dintre ND și Bolojan în negocieri; Bolojan a câștigat)
+
+- Q4 2025: mixt ✅ (1 mențiune validată — scandal Fănel Bogoș; ND a apărat indirect prin "limita de principialitate")
+
+- Q1 2026: colaborativ/deferent ✅ (17 mențiuni — PNRR 231M€ + EastInvest 20mld €, vizita Bruxelles)
+
+- Q2 2026: tensionat ⚠️ (4 mențiuni — LLM pe spans curate dă "mixt", fact-check extern dă "tensionat" pe baza Pfizer 600M€)
+
+**Calitate clasificare LLM pe spans curate**: 2 perioade prea sărace pentru evaluare LLM (Q1, Q4 2025), 2 confirmate (Q2 2025, Q1 2026), 2 cu nuanță ratată (Q3 TVA, Q2 2026 Pfizer — ND folosește limbaj instituțional-mediator în plină criză). **Pattern recurent: LLM pe discurs propriu nu surprinde dezacordurile când actorul folosește limbaj diplomatic**.
 
 **Arc narativ real**: distanță → primă întâlnire → desemnare (cu friction pe TVA) → apărare nuanțată în scandal Bogoș → coordonare EU → prima fisură publică (Pfizer). **ND-Bolojan = aliat tactic, niciodată prieten** — stil formal-instituțional consistent.
 
@@ -401,12 +409,12 @@ Pasul 10 (`scripts/10_nd_bolojan_relation.py`): extract toate mențiunile Boloja
 
 ## Convergent evidence — diferențe cantitative scris vs vorbit (4 metrici independente)
 
-Din Pasul 1-9, am acumulat **4 metrici convergente** care arată că FB-ul și video-ul lui Nicușor Dan au registre comunicative **radical diferite**:
+Din Pasul 7-10 (Analyze + BERTopic + Promise Tracker + Advanced analyses), am acumulat **4 metrici convergente** care arată că FB-ul și video-ul lui Nicușor Dan au registre comunicative **radical diferite**:
 
-1. **Ezitare / nuanțare în limbaj (Pasul 6)**: FB ezitare:certitudine ratio = 0.13-0.23 vs video 0.51-1.06 = **4-5× diferență**
-2. **Discourse complexity (Pasul 5)**: FB MTLD growth 34→87 post-investitură, video MTLD stabil 42-54
-3. **Sentiment polarization (Pasul 9)**: FB 69% polarizat pro/contra, video 55% polarizat + 38% mixt (mai nuanțat)
-4. **BERTopic (Pasul 3)**: FB are 76% într-un singur mega-topic instituțional; video are 8 topice + 25% outliers
+1. **Ezitare / nuanțare în limbaj (Pasul 10 — ezitare/nuanțare)**: FB ezitare:certitudine ratio = 0.13-0.23 vs video 0.51-1.06 = **4-5× diferență**
+2. **Discourse complexity (Pasul 10 — discourse complexity)**: FB MTLD growth 34→87 post-investitură, video MTLD stabil 42-54
+3. **Sentiment polarization (Pasul 10 — sentiment)**: FB 69% polarizat pro/contra, video 55% polarizat + 38% mixt (mai nuanțat)
+4. **BERTopic (Pasul 8)**: FB are 76% într-un singur mega-topic instituțional; video are 8 topice + 25% outliers
 
 **Diferențele sunt reale și consistente. Cauza lor este însă o întrebare separată, la care datele actuale nu pot răspunde univoc.**
 
@@ -419,7 +427,7 @@ d. **Colaborare cu echipă PR pentru FB** — postările sunt redactate sau adap
 
 ### Ce ar fi nevoie să distingă
 
-- **Stylometry formală** (Burrows' Delta + PCA pe function words) — **EFECTUATĂ** în Pasul 11 (vezi finding #29).
+- **Stylometry formală** (Burrows' Delta + PCA pe function words) — **EFECTUATĂ** în Pasul 12 (vezi finding #29).
 - **Baseline politic comparativ** — Iohannis, Băsescu, Macron prezintă același pattern? Dacă da, e pattern instituție, nu unic pentru ND.
 
 **Concluzia onestă**: diferențele cantitative dintre cele 2 registre sunt mari și documentate. Interpretarea cauzei (ghostwriting vs adaptare naturală) rămâne deschisă.
@@ -446,7 +454,7 @@ Surse fact-check: `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_po
 
 ---
 
-### 29. **Stylometry formală: cele 2 registre confirmate stilometric distinct (Pasul 11)**
+### 29. **Stylometry formală: cele 2 registre confirmate stilometric distinct (Pasul 12)**
 
 **Setup**: 718 documente (≥50 cuvinte), top 100 function words (POS: ADP/AUX/CCONJ/DET/PART/PRON/SCONJ), frecvențe relative z-normalizate. Aplicat: Burrows' Delta, PCA 2D, Random Forest classifier.
 
@@ -487,9 +495,9 @@ Surse fact-check: `results/04_promises/FACT_CHECK_realworld.md` + `FACT_CHECK_po
 
 ## Întrebări deschise (drive next steps)
 
-- Care e *agenda lui coerentă* peste timp (nu doar lemme distinctive)? → **BERTopic** (Pasul 3).
+- Care e *agenda lui coerentă* peste timp (nu doar lemme distinctive)? → **BERTopic** (Pasul 8).
 
-- Promisiunile de campanie au fost ținute / abandonate / reframuite? → **Promise Tracker** (Pasul 4).
+- Promisiunile de campanie au fost ținute / abandonate / reframuite? → **Promise Tracker** (Pasul 9).
 
 - Cum se compară `sine` + `vrea` cu Iohannis/Băsescu? E tic personal sau pattern politic RO? → baseline comparativ.
 
