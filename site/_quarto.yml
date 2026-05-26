@@ -24,6 +24,8 @@ website:
         text: Acasă
       - href: doua-registre.qmd
         text: Două registre
+      - href: topice.qmd
+        text: Topice în timp
       - href: promisiuni.qmd
         text: Promisiuni
       - href: entitati.qmd

@@ -1,0 +1,241 @@
+---
+title: "Evoluția topicelor în timp"
+subtitle: "Despre ce a vorbit ND, trimestru cu trimestru — și cum s-a schimbat framing-ul"
+description: "TF-IDF distinctive per perioadă + BERTopic + semantic drift. 6 perioade, 18 luni, 1062 discursuri."
+---
+
+```{python}
+#| include: false
+import sys, json, re
+from pathlib import Path
+ROOT = Path("..").resolve()
+sys.path.insert(0, str(ROOT))
+
+import pandas as pd
+import plotly.graph_objects as go
+import plotly.express as px
+```
+
+## Care e povestea
+
+ND nu vorbește la întâmplare — fiecare trimestru are **temele lui dominante**. Pipeline-ul scoate două măsuri complementare:
+
+- **TF-IDF inter-perioadă** — care lemme sunt distinctiv mai folosite într-o perioadă față de altele (Pasul 7).
+- **BERTopic** — care din cele 26 topice descoperite cresc/scad per trimestru (Pasul 8).
+- **Semantic drift** — pentru fiecare topic, cât de mult s-a schimbat **cum** vorbește ND despre el (Pasul 10).
+
+## Topice dominante per perioadă
+
+```{python}
+#| echo: false
+# Parse tfidf_by_period.md manual — cleanest way to get top lemmas per period
+tfidf_path = ROOT / "results" / "02_tfidf_overall" / "tfidf_by_period.md"
+content = tfidf_path.read_text()
+
+# Sections like "## 2024Q4-2025Q1 candidatură-precampanie  (55 documente)"
+periods_data = {}
+period_pattern = re.compile(r"^## (\d{4}Q\d.*?)\s+\((\d+) documente\)\s*$", re.MULTILINE)
+matches = list(period_pattern.finditer(content))
+
+for i, m in enumerate(matches):
+    period_name = m.group(1).strip()
+    n_docs = int(m.group(2))
+    start = m.end()
+    end = matches[i+1].start() if i+1 < len(matches) else len(content)
+    section = content[start:end]
+    # Parse table rows
+    lemmas = []
+    for line in section.split("\n"):
+        row = re.match(r"^\|\s*([^|]+?)\s*\|\s*([\d.]+)\s*\|", line)
+        if row:
+            lemma = row.group(1).strip()
+            if lemma in ("lemmă", ":-"):
+                continue
+            try:
+                score = float(row.group(2).strip())
+                lemmas.append((lemma, score))
+            except ValueError:
+                pass
+    periods_data[period_name] = {"n_docs": n_docs, "lemmas": lemmas[:10]}
+
+# Build subplots — one bar chart per period
+import plotly.subplots as sp
+
+period_order = [
+    "2024Q4-2025Q1 candidatură-precampanie",
+    "2025Q2 campanie + investitură",
+    "2025Q3 deficit + reforma economică",
+    "2025Q4 stabilizare + diplomație",
+    "2025Q4-2026Q1 reformă judiciară",
+    "2026Q2 cotitură UE + criză guvern",
+]
+period_short = {
+    "2024Q4-2025Q1 candidatură-precampanie": "Q1 2025 — precampanie/anulare alegeri",
+    "2025Q2 campanie + investitură": "Q2 2025 — campanie + investitură",
+    "2025Q3 deficit + reforma economică": "Q3 2025 — deficit + pensii magistrați",
+    "2025Q4 stabilizare + diplomație": "Q4 2025 — apărare + Ucraina",
+    "2025Q4-2026Q1 reformă judiciară": "Q1 2026 — reformă judiciară + PNRR",
+    "2026Q2 cotitură UE + criză guvern": "Q2 2026 — Pfizer + criză coaliție",
+}
+
+period_colors = {
+    "2024Q4-2025Q1 candidatură-precampanie": "#003049",
+    "2025Q2 campanie + investitură": "#669BBC",
+    "2025Q3 deficit + reforma economică": "#f4a261",
+    "2025Q4 stabilizare + diplomație": "#2a9d8f",
+    "2025Q4-2026Q1 reformă judiciară": "#8d99ae",
+    "2026Q2 cotitură UE + criză guvern": "#e63946",
+}
+
+fig = sp.make_subplots(
+    rows=3, cols=2,
+    subplot_titles=[period_short[p] for p in period_order],
+    vertical_spacing=0.10, horizontal_spacing=0.15,
+)
+for idx, period in enumerate(period_order):
+    row = idx // 2 + 1
+    col = idx % 2 + 1
+    data = periods_data.get(period, {})
+    lemmas = data.get("lemmas", [])
+    if not lemmas:
+        continue
+    lemmas = list(reversed(lemmas))  # so top is at top
+    fig.add_trace(go.Bar(
+        x=[l[1] for l in lemmas],
+        y=[l[0] for l in lemmas],
+        orientation="h",
+        marker_color=period_colors[period],
+        showlegend=False,
+        text=[f"{l[1]:.2f}" for l in lemmas],
+        textposition="outside",
+        hovertemplate="<b>%{y}</b><br>TF-IDF: %{x:.3f}<extra></extra>",
+    ), row=row, col=col)
+
+fig.update_layout(
+    title="Top 10 lemme distinctive per perioadă (TF-IDF inter-perioadă)",
+    height=1100,
+    margin=dict(t=80, b=40, l=20, r=20),
+    plot_bgcolor="white",
+)
+fig.update_xaxes(showgrid=True, gridcolor="#eee")
+fig.update_yaxes(automargin=True)
+fig.show()
+```
+
+## Cum citim trimestrele
+
+::: {.callout-note}
+### Q1 2025 — precampanie + anulare alegeri (55 docs)
+**Top lemme**: *romaniaonesta, nicusorpresedinte, anulare, primărie, capitală, nato, schimbare, prooccidental, sondaj*
+
+ND e candidat independent. Tema dominantă: **anularea alegerilor din 2024** (Georgescu/CCR). Brand campanie ("România onestă"), poziționare pro-occidentală/NATO. Mențiuni explicite ale primăriei București (mandatul curent).
+:::
+
+::: {.callout-note}
+### Q2 2025 — campanie + investitură (468 docs — peak!)
+**Top lemme**: *romaniaonesta, nicusorpresedinte, schimbare, simion, capitală, tur, ciolacu, financiar*
+
+Volumul **explodează** (468 docs/trimestru = 5× față de Q1). Brand-ul "România onestă" devine dominant pe FB. Adversari: Simion (turul 2) și Ciolacu (premier PSD). Apar primele teme **economice** ("financiar").
+:::
+
+::: {.callout-note}
+### Q3 2025 — deficit + pensii magistrați (96 docs)
+**Top lemme**: *pensionară, magistrat, pensie, pachet, csm, salariu, certificat, parchet, evaziune*
+
+**Lovitură de subiect**. Brand-ul dispare; agenda e dominată de **reformă pensii magistrați + pachet fiscal de stabilizare**. Apare primul mare conflict de mandat: dezacordul TVA cu Bolojan în negocierile pentru guvern.
+:::
+
+::: {.callout-note}
+### Q4 2025 — apărare + Ucraina (136 docs)
+**Top lemme**: *apărare, militar, industrie, pensie, magistrat, dezinformare, aderare, csat, ocde, dronă, rus*
+
+**Pivot către securitate**. Apărare militară + industria de apărare, dezinformare rusă (drone), CSAT, aderare OCDE. Pensiile magistraților rămân în discurs (continuă procesul). Scandal Fănel Bogoș (Bolojan) — apăra principialitatea.
+:::
+
+::: {.callout-note}
+### Q1 2026 — reformă judiciară + PNRR (157 docs)
+**Top lemme**: *procuror, judiciar, judecător, magistrat, piață, preț, apărare, competitivitate, csm, gaza, mercosur*
+
+Tema dominantă: **numirile la șefia parchetelor + reforma judiciară**. Apar **piață + preț** (criză economică emergentă). EastInvest 20mld €, PNRR 231M€. Tot apărare + Gaza (context internațional).
+:::
+
+::: {.callout-note}
+### Q2 2026 — Pfizer + criză coaliție (150 docs)
+**Top lemme**: *procuror, summit, apărare, polonia, financiar, parchet, preț, echipament, nuclear, petrol, cotroceni, parchetelor*
+
+**Pfizer 600M€** (scandalul de transparență cu Bolojan). Summit Varșovia + Polonia (relația B9). **Nuclear + petrol** — criză energetică. Procurori (continuare reforma judiciară). Apar și **echipament + militar** (răspuns la Rusia).
+:::
+
+## Semantic drift — care topice au schimbat *cum* se vorbește despre ele
+
+```{python}
+#| echo: false
+drift_path = ROOT / "results" / "07_semantic_drift_overall" / "max_drift_per_topic.csv"
+drift_df = pd.read_csv(drift_path)
+
+# Friendly labels
+friendly = {
+    0: "Brand campanie (nicusorpresedinte / românia onestă)",
+    1: "București / primăria capitalei",
+    2: "Vot / alegeri",
+    3: "România onestă (sub-cluster)",
+    4: "Guvern / momentul prezent",
+    5: "CSM / reforma judiciară",
+    6: "Responsabilitate / unire / istorie",
+    7: "Statele Unite / SUA",
+    8: "Live / declarații de presă",
+    9: "Georgescu / campania anulată",
+}
+drift_df["label"] = drift_df["topic_id"].map(friendly).fillna(drift_df["topic_label"])
+drift_df = drift_df.sort_values("drift", ascending=True)
+
+colors = ["#e63946" if d > 0.25 else "#f4a261" if d > 0.15 else "#669BBC" for d in drift_df["drift"]]
+
+fig = go.Figure(go.Bar(
+    x=drift_df["drift"], y=drift_df["label"],
+    orientation="h",
+    marker_color=colors,
+    text=[f"{d:.2f}" for d in drift_df["drift"]],
+    textposition="outside",
+    hovertemplate="<b>%{y}</b><br>Drift: %{x:.3f}<extra></extra>",
+))
+fig.update_layout(
+    title="Drift semantic per topic (cosine distance centroid Q1 → Q2 2026)",
+    xaxis_title="Drift (0 = identic, 1 = complet schimbat)",
+    height=420,
+    plot_bgcolor="white",
+    margin=dict(t=60, b=40, l=20, r=20),
+    xaxis=dict(showgrid=True, gridcolor="#eee", range=[0, 0.42]),
+)
+fig.show()
+```
+
+**Top 3 drift-uri majore** (cum s-a schimbat lexiconul + contextul):
+
+- **Brand campanie** (drift 0.37): de la "România onestă / nicusorpresedinte" în campanie la **discurs instituțional-prezidențial** post-investitură. Brand-ul dispare aproape complet.
+
+- **Georgescu / campania anulată** (drift 0.32): de la **tema centrală** în Q1 2025 (anulare alegeri, CCR) la **silence deliberat** după Q2 2025. Mențiuni rare, frame total schimbat.
+
+- **CSM / reforma judiciară** (drift 0.30): de la *promisiune electorală* abstractă la **acțiune concretă** (numiri, magistrați, pensii) — vocabularul devine mai tehnic și procedural.
+
+## Pattern observat — 3 ere distincte
+
+1. **Era brand-ului campaniei (Q1-Q2 2025)** — "România onestă" + "nicusorpresedinte" domină. Adversari nominalizați (Simion, Ciolacu). Volum peak.
+
+2. **Era guvernării interne (Q3 2025 - Q1 2026)** — apar temele de policy: pensii magistrați → apărare/Ucraina → reforma judiciară. Brand-ul dispare. Volum scade 3.6×.
+
+3. **Era crizei (Q2 2026)** — Pfizer + criză coaliție + summit Polonia + nuclear/petrol. Limbaj instituțional-tehnic, dar tensiune crescândă (vezi [raportul ND-Bolojan](bolojan.qmd)).
+
+## Ce nu surprinde TF-IDF
+
+TF-IDF e bun pentru a găsi **lemme distinctive**, dar are blind spots:
+
+- **Brand-shedding** ("România onestă" trece de la TF-IDF 0.60 în Q2 la **dispariție** în Q3-Q4) — semnal puternic doar dacă te uiți la deltă, nu absolute
+- **Stilul** — nu spune nimic despre dacă ND vorbește categoric sau ezitant (asta vezi în [scris vs vorbit](doua-registre.qmd))
+- **Sentimentul** — nu spune cum vorbește despre topic (vezi [entități](entitati.qmd))
+
+Pentru poveste completă, **TF-IDF + BERTopic + semantic drift + sentiment** lucrează împreună.
+
+---
+
+[← Acasă](index.qmd) · [Vezi metoda completă →](metoda.qmd) · [Despre Bolojan →](bolojan.qmd)
