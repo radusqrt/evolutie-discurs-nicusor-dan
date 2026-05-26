@@ -18,17 +18,17 @@ Singurele dependențe externe:
 
 ```{mermaid}
 flowchart TB
-    A[1. Discovery] --> B[2. Raw collection]
-    B --> C[3. Dedupe Jaccard]
-    C --> D[4. Diarize LLM]
-    D --> E[5. Clean stopwords]
-    E --> F[6. Project scris/vorbit]
-    F --> G[7. Analyze basic+TF-IDF]
-    G --> H[8. BERTopic]
-    G --> I[9. Promise Tracker]
-    G --> J[10. Avansate: complexitate, ezitare/nuanțare, drift, NER, sentiment]
-    J --> K[11. ND-Bolojan]
-    H --> L[Interpret]
+    A["1 · Discovery"] --> B["2 · Raw collection"]
+    B --> C["3 · Dedupe Jaccard"]
+    C --> D["4 · Diarize LLM"]
+    D --> E["5 · Clean stopwords"]
+    E --> F["6 · Project scris/vorbit"]
+    F --> G["7 · Analyze basic+TF-IDF"]
+    G --> H["8 · BERTopic"]
+    G --> I["9 · Promise Tracker"]
+    G --> J["10 · Avansate (complexitate, ezitare, drift, NER, sentiment)"]
+    J --> K["11 · ND-Bolojan"]
+    H --> L["Interpret"]
     I --> L
     K --> L
 ```
@@ -97,7 +97,9 @@ Sub-pipeline cu 4 etape:
 
 ### 11 · Raportul ND-Bolojan
 
-Extract 86 spans Bolojan/premier/prim-ministru + 22 spans Ciolacu. Clasificare Gemini ton relațional per perioadă. **Fact-check web pe toate 6 perioade** — 83% spot-on Gemini.
+Extract Bolojan/premier/prim-ministru + Ciolacu cu **pas de disambiguare LLM** (`scripts/utils_entity_disambiguation.py`): 119 candidați → **45 spans validate** (74 false positives eliminate prin Gemini "este paragraful efectiv despre Bolojan?") + 33 spans Ciolacu. Clasificare Gemini ton relațional per perioadă. **Fact-check web pe toate 6 perioade** complementar.
+
+Audit de control pe entități non-Bolojan (TRUMP, PSD, SIMION, 41 passages): **0% false positive rate** — GLiNER-based matching e robust; doar regex-ul pe termeni generici (premier/prim-ministru) avea bug.
 
 ## Limitări recunoscute
 
@@ -116,8 +118,8 @@ Clasificatorul caută evidence în corpus mandat. Promisiuni îndeplinite *înai
 :::
 
 ::: {.callout-warning}
-## 3. NER nu prinde "premier" fără nume
-GLiNER ratează multe mențiuni unde Bolojan e numit doar "premierul" (fără nume). Pentru raportul ND-Bolojan am folosit regex pattern dedicat (`\bprim[- ]ministru\b`) — 86 mențiuni vs 14 prin NER.
+## 3. NER nu prinde "premier" fără nume — necesită disambiguare LLM
+GLiNER ratează mențiuni unde Bolojan e numit doar "premierul" (fără nume). Soluție: regex pattern dedicat + **pas de disambiguare LLM** (`scripts/utils_entity_disambiguation.py`) — fiindcă regex-ul simplu pe "premier" capta și paragrafe despre Ciolacu, Ponta (2014), Tusk. **Rezultat: 119 candidați → 45 validate (74 false positives eliminate, 62% rate).**
 :::
 
 ::: {.callout-warning}

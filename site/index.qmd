@@ -254,7 +254,7 @@ fig.show()
 **Fix metodologic (mai 2026)**: numerele au scăzut față de versiunea inițială pentru că ~65% din match-urile pe "premier"/"prim-ministru" erau de fapt despre Ciolacu, Ponta sau alți premieri istorici. Folosim acum un pas de disambiguare prin Gemini. [→ detalii pe pagina Bolojan](bolojan.qmd)
 :::
 
-De la *"nu e o mare miză să fie Iohannis sau Bolojan"* ([interviu B1TV, 18 ian 2025](https://www.youtube.com/results?search_query=nicusor+dan+cere+explicatii+anulare+stiri) — ND despre cine rămâne președinte interimar) la *"i-am cerut premierului transparență publică"* (aprilie 2026, cazul Pfizer 600M€). Un arc relațional în 16 luni: de la indiferență politică la fisură publică.
+De la *"nu e o mare miză să fie Iohannis sau Bolojan"* ([interviu B1TV, 18 ian 2025](https://www.youtube.com/results?search_query=nicusor+dan+cere+explicatii+anulare+stiri) — ND despre cine rămâne președinte interimar) la *"I-am cerut premierului acest lucru. Știu că mai multă lume i l-a cerut. Susțin și eu demersul ăsta."* (8 aprilie 2026, despre desecretizarea contractelor Pfizer). Un arc relațional în 16 luni: de la indiferență politică la presiune publică pentru transparență.
 
 [→ Citește raportul ND-Bolojan complet](bolojan.qmd)
 
